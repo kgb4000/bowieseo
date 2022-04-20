@@ -807,6 +807,7 @@ const LocalSEO = () => {
             </p>
             <p></p>
             <h3>#3. We Leaders, We Don't Copy What Everyone Else is Doing!</h3>
+            <p></p>
             <p>
               We don't have any cookie cutter templates that we follow, or
               follow so called experts who've never don't SEO before.
@@ -890,7 +891,7 @@ const LocalSEO = () => {
                 The cost of Local SEO services can vary depending on the size
                 and location of your business, as well as the competition in
                 your industry. However, we typically recommend a budget of{' '}
-                <b>$1000-$3000</b> per month for most businesses.
+                <b>$1000 - $3000</b> per month for most businesses.
               </p>
               <p>
                 If you have a very large or competitive business, you may need
