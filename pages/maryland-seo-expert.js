@@ -14,11 +14,26 @@ import {
   pillarObj4,
 } from '../components/ProcessSection/Data/Process1'
 
-import { NextSEO } from 'next-seo'
+import { NextSeo } from 'next-seo'
+
+const calendly = 'https://calendly.com/bowieseo/30min'
 
 const MarylandSEOExpert = () => {
+  const SEO = {
+    title: 'Maryland SEO Expert | Proven Resutls | Bowie SEO',
+    description:
+      'Do you want to rank higher, increase web traffic, attract more customers and make more money? Get a Maryland SEO Expert. Contact Bowie SEO today!',
+    canonical: 'https://bowieseo.com/maryland-seo-expert',
+    openGraph: {
+      title: 'Maryland SEO Expert | Proven Resutls | Bowie SEO',
+      description:
+        'Do you want to rank higher, increase web traffic, attract more customers and make more money? Get a Maryland SEO Expert. Contact Bowie SEO today!',
+      type: 'website',
+    },
+  }
   return (
     <>
+      <NextSeo {...SEO} />
       <PageHero
         heading="Maryland SEO Expert"
         subText="We are SEO experts creating opportunities for businesses in the DMV to succeed."
@@ -27,10 +42,13 @@ const MarylandSEOExpert = () => {
       />
       <section>
         <div className="container">
-          <h2>What Makes Us SEO Experts</h2>
+          <h2>Get a Maryland SEO Expert to Help You Grow Your Business</h2>
           <p>
-            As Maryland SEO experts we are professionals who specialize in
-            optimizing websites for search engines.
+            As an{' '}
+            <Link href="/maryland-seo-company">
+              <a>SEO company</a>
+            </Link>{' '}
+            we specialize in optimizing websites for search engines.
           </p>
           <p>
             We use our knowledge of how search engines work to help improve your
@@ -81,9 +99,7 @@ const MarylandSEOExpert = () => {
             more customers, build authority, and save money on marketing.
           </p>
           <div>
-            <h3>
-              #1. An SEO Expert Can Help You Rank Higher in Search Engines
-            </h3>
+            <h3>#1. We Can Help You Rank Higher in Search Engines</h3>
             <p>
               If you want your website to rank higher in search engines like
               Google, then you need an SEO expert on your team. We can help
@@ -94,8 +110,8 @@ const MarylandSEOExpert = () => {
               you have.
             </p>
             <h3>
-              #2. An SEO Expert Can Help You Attract More Visitors from Targeted
-              Traffic Sources
+              #2. We Can Help You Attract More Visitors from Targeted Traffic
+              Sources
             </h3>
             <p>
               An experienced SEO professional can also help you identify and
@@ -127,9 +143,7 @@ const MarylandSEOExpert = () => {
               money, but it also gives you a more sustainable long-term growth
               strategy.
             </p>
-            <h3>
-              #5. An SEO Expert Can Help You Build Brand Awareness and Authority
-            </h3>
+            <h3>#5. We Can Help You Build Brand Awareness and Authority</h3>
             <p>
               When people search for your business or website online, what do
               they see? If you’re not ranking high in search results, then they
@@ -140,8 +154,7 @@ const MarylandSEOExpert = () => {
               search results.
             </p>
             <h3>
-              #6. An SEO Expert Can Help You Stay Up-to-Date on the Latest
-              Industry Changes
+              #6. We Can Help You Stay Up-to-Date on the Latest Industry Changes
             </h3>
             <p>
               The world of SEO is always changing. Google makes hundreds of
@@ -309,15 +322,18 @@ const MarylandSEOExpert = () => {
           <ProcessSection {...pillarObj3} />
           <ProcessSection {...pillarObj4} />
         </div>
-        <div className="btn">
-          <Link href="/seo-services" passHref>
-            <Button>More Services</Button>
-          </Link>
-        </div>
       </section>
+      <div className="btn">
+        <Link href={calendly} passHref>
+          <Button>Book a call today!</Button>
+        </Link>
+      </div>
       <section>
         <div className="container">
-          <h2>Why Work With Bowie SEO Instead of Other SEO Companies?</h2>
+          <h2>
+            Why Work With Bowie SEO Experts Instead of Other Maryland SEO
+            Companies?
+          </h2>
           <p>
             With Maryland SEO companies offering so many digital marketing
             solutions, it's hard to choose the right SEO company for your
@@ -325,14 +341,12 @@ const MarylandSEOExpert = () => {
           </p>
           <p>So why should you choose Bowie SEO?</p>
           <h3>#1. We Only Specialize in SEO</h3>
+          <p>We only specialize in SEO.</p>
           <p>
-            We only specialize in SEO services. We don't do web development,
-            search marketing, social media management, or any other types of
-            digital marketing.
+            We don't do web development, search marketing, social media
+            management, or any other types of digital marketing.
           </p>
-          <p>
-            We don't do web designing, Google ads, or social media marketing.
-          </p>
+          <p>We don't do web design, Google ads, or social media marketing.</p>
           <p>
             Our focus is to help your business get more traffic leads and make
             more money with search engine optimization.
@@ -429,28 +443,36 @@ const MarylandSEOExpert = () => {
         <div className="container">
           <h2>Frequently Asked Questions</h2>
           <h3>#1. Can I Do SEO on My Own?</h3>
+          <p>Yes, you can definitely do SEO on your own.</p>
           <p>
-            Yes, you can definitely do SEO on your own. However, it will take
-            some time and effort to learn all of the different aspects of SEO
-            and to keep up with the ever-changing landscape. It is also
-            important to note that SEO is an ongoing process, so even if you do
-            achieve some success in the short-term, you will need to continue
-            working at it in order to maintain those results.
+            However, it will take some time and effort to learn all of the
+            different aspects of SEO and to keep up with the ever-changing
+            landscape.
+          </p>
+          <p>
+            It is also important to note that SEO is an ongoing process, so even
+            if you do achieve some success in the short-term, you will need to
+            continue working at it in order to maintain those results.
           </p>
           <p>
             If you're serious about wanting to improve your website's ranking in
             search engines, then hiring an experienced SEO professional may be
-            the best option for you. An SEO consultant can help you to identify
-            areas where your website needs improvement and can provide guidance
-            on how to make those changes. In addition, an SEO consultant can
-            also keep an eye on your website's progress and offer suggestions
-            for further optimization.
+            the best option for you.
+          </p>
+          <p>
+            An SEO consultant can help you to identify areas where your website
+            needs improvement and can provide guidance on how to make those
+            changes. In addition, an SEO consultant can also keep an eye on your
+            website's progress and offer suggestions for further optimization.
           </p>
           <p>
             Overall, doing SEO on your own is possible, but it will take some
-            time and effort to achieve results. If you're looking for immediate
-            results or are not willing to put in the work required, then hiring
-            an experienced SEO consultant may be the best option for you.
+            time and effort to achieve results.
+          </p>
+          <p>
+            If you're looking for immediate results or are not willing to put in
+            the work required, then hiring an experienced SEO consultant may be
+            the best option for you.
           </p>
         </div>
       </section>
@@ -464,13 +486,16 @@ const MarylandSEOExpert = () => {
           <h3>#2. How Much Does an SEO Expert Charge?</h3>
           <p>
             There is no definitive answer to how much an SEO expert charges.
+          </p>
+          <p>
             Every SEO professional has their own unique pricing structure, and
             the amount they charge will depend on a number of factors, including
             their experience, the size and scope of the project, and the
             competitive landscape. Generally speaking, however, you can expect
-            to pay anywhere from $500 to $5,000 per month for ongoing SEO
-            services. One-time project fees will vary depending on the scope of
-            work but can range from a few hundred dollars to several thousand.
+            to pay anywhere from <b>$1000 to $5,000 per month</b> for ongoing
+            SEO services. One-time project fees will vary depending on the scope
+            of work but can range from a few hundred dollars to several
+            thousand.
           </p>
         </div>
       </section>
