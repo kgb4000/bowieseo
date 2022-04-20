@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import styled from 'styled-components'
-import Button from '../components/button'
+import Button from '../components/Button'
 
 export default function ContactForm({ h2, p }) {
   const [status, setStatus] = useState({

@@ -4,11 +4,26 @@ import React from 'react'
 import PageHero from '../components/PageHeroSection'
 import ContactForm from '../components/Contact-Form'
 
+import { NextSeo } from 'next-seo'
+
 const Contact = () => {
+  const SEO = {
+    title: 'Contact Us to Learn How SEO Can Help Grow Your Business.',
+    description:
+      "Contact us if you have any questions about search engine optimization for your small business, and let's see how we can help your business GROW.",
+    canonical: 'https://bowieseo.com/contact',
+    openGraph: {
+      title: 'Contact Us to Learn How SEO Can Help Grow Your Business.',
+      description:
+        "Contact us if you have any questions about search engine optimization for your small business, and let's see how we can help your business GROW.",
+      type: 'website',
+    },
+  }
   return (
     <>
+      <NextSeo {...SEO} />
       <PageHero
-        heading="Contact Us"
+        heading="Contact"
         subText="Let us help you rank higher in the search engines, get more web traffic, reach more customers, and make more money."
         heroBtnLink="/contact"
         buttonText="Book a call"
