@@ -445,41 +445,38 @@ const MarylandSEOExpert = () => {
       <section>
         <div className="container">
           <h2>Frequently Asked Questions</h2>
-          <section>
-            <h3>#1. Can I Do SEO on My Own?</h3>
-            <p>Yes, you can definitely do SEO on your own.</p>
-            <p>
-              However, it will take some time and effort to learn all of the
-              different aspects of SEO and to keep up with the ever-changing
-              landscape.
-            </p>
-            <p>
-              It is also important to note that SEO is an ongoing process, so
-              even if you do achieve some success in the short-term, you will
-              need to continue working at it in order to maintain those results.
-            </p>
-            <p>
-              If you're serious about wanting to improve your website's ranking
-              in search engines, then hiring an experienced SEO professional may
-              be the best option for you.
-            </p>
-            <p>
-              An SEO consultant can help you to identify areas where your
-              website needs improvement and can provide guidance on how to make
-              those changes. In addition, an SEO consultant can also keep an eye
-              on your website's progress and offer suggestions for further
-              optimization.
-            </p>
-            <p>
-              Overall, doing SEO on your own is possible, but it will take some
-              time and effort to achieve results.
-            </p>
-            <p>
-              If you're looking for immediate results or are not willing to put
-              in the work required, then hiring an experienced SEO consultant
-              may be the best option for you.
-            </p>
-          </section>
+          <h3>#1. Can I Do SEO on My Own?</h3>
+          <p>Yes, you can definitely do SEO on your own.</p>
+          <p>
+            However, it will take some time and effort to learn all of the
+            different aspects of SEO and to keep up with the ever-changing
+            landscape.
+          </p>
+          <p>
+            It is also important to note that SEO is an ongoing process, so even
+            if you do achieve some success in the short-term, you will need to
+            continue working at it in order to maintain those results.
+          </p>
+          <p>
+            If you're serious about wanting to improve your website's ranking in
+            search engines, then hiring an experienced SEO professional may be
+            the best option for you.
+          </p>
+          <p>
+            An SEO consultant can help you to identify areas where your website
+            needs improvement and can provide guidance on how to make those
+            changes. In addition, an SEO consultant can also keep an eye on your
+            website's progress and offer suggestions for further optimization.
+          </p>
+          <p>
+            Overall, doing SEO on your own is possible, but it will take some
+            time and effort to achieve results.
+          </p>
+          <p>
+            If you're looking for immediate results or are not willing to put in
+            the work required, then hiring an experienced SEO consultant may be
+            the best option for you.
+          </p>
         </div>
       </section>
       <div className="btn">

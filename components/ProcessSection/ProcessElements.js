@@ -50,7 +50,7 @@ export const Heading = styled.h3`
 
   @media screen and (max-width: 480px) {
     text-align: left;
-    font-size: 42px;
+    font-size: 2rem;
     margin: 0;
   }
 `
@@ -83,7 +83,7 @@ export const ImgWrap = styled.div`
 `
 
 export const Img = styled.img`
-  width: 80%;
+  width: 60%;
   padding-right: 0;
   margin: 0 auto;
 

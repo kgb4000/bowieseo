@@ -109,7 +109,7 @@ const About = () => {
       {/* <InfoList {...missionObj} /> */}
       <section className="pain-section">
         <div className="services-container">
-          <h2>Work With Us... It's Easy</h2>
+          <h2>Work With Us and Get More Leads and Customers</h2>
           <p className="sub-text">
             It's easy to work with us. If you need more online visibility, or
             you need to build your web presence, contact us.
@@ -131,8 +131,8 @@ const About = () => {
               <h3>We Plan</h3>
               <img src="/images/plan.svg" className="icons" loading="lazy" />
               <p>
-                Book a call with us and tell us about your business and what you
-                want to acheive.
+                We research and analyze your industry, your data and your
+                competitors data and create a plan.
               </p>
             </Contact>
             <Contact>
@@ -143,8 +143,8 @@ const About = () => {
                 loading="lazy"
               />
               <p>
-                Book a call with us and tell us about your business and what you
-                want to acheive.
+                We build a strategy that will lead to positive results and bring
+                new opportunities to light.
               </p>
             </Contact>
           </Wrapper>

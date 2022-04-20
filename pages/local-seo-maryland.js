@@ -35,8 +35,8 @@ const LocalSEO = () => {
         subText="We provide Local SEO services to all businesses in Maryland. We help local businesses get more customers and leads, and make more money."
         heroBtnLink={calendly}
         buttonText="Book a call"
-        heroBtnLink1="/free-website-audit"
-        buttonText1="Free Website Audit"
+        heroBtnLink1="/free-mini-seo-audit"
+        buttonText1="Free Mini SEO Audit"
       />
       <main>
         <section>

@@ -14,7 +14,7 @@ const FreeSEOAUDIT = () => {
         heading="Free Mini SEO Audit"
         subText="Find out what's stopping your website getting traffic, ranking higher in the search engines, and getting leads."
         heroBtnLink="/contact"
-        buttonText="Book a call"
+        buttonText="Book a call today!"
       />
       <section>
         <div className="container">

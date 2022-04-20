@@ -34,7 +34,10 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 export default function Home({ data }) {
   return (
     <>
-      <HeroSection heroBtnLink1={calendly} heroBtnLink2="/free-website-audit" />
+      <HeroSection
+        heroBtnLink1={calendly}
+        heroBtnLink2="/free-mini-seo-audit"
+      />
       <main>
         <section className="pain-section">
           <div className="container">
@@ -479,7 +482,10 @@ export default function Home({ data }) {
         </section>
         <section>
           <div className="container">
-            <h2>Why Work With Bowie SEO Instead of Other SEO Companies?</h2>
+            <h2>
+              Why Work With Bowie SEO Instead of Other Digital Marketing
+              Companies?
+            </h2>
             <p>
               With other companies offering so many digital marketing solutions,
               it's hard to choose the right company to do your SEO.
@@ -588,7 +594,7 @@ export default function Home({ data }) {
             </p>
             <Wrapper>
               <Contact>
-                <h3>Call us</h3>
+                <h3>Call us to Start or Ask Any Questions</h3>
                 <img
                   src="/images/phone-call.svg"
                   className="icons"
@@ -600,15 +606,15 @@ export default function Home({ data }) {
                 </p>
               </Contact>
               <Contact>
-                <h3>We Analyze</h3>
+                <h3>We Analyze and Create a Plan</h3>
                 <img src="/images/plan.svg" className="icons" loading="lazy" />
                 <p>
-                  We research and analyze your industry, your data and your
-                  competitors data.
+                  We analyze and do research on your industry, your business and
+                  your competitors' data.
                 </p>
               </Contact>
               <Contact>
-                <h3>We Work</h3>
+                <h3>We Execute and Do the Work</h3>
                 <img
                   src="/images/work-together.svg"
                   className="icons"
