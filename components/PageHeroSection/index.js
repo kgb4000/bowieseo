@@ -8,6 +8,7 @@ import {
   HeroBtnWrapper,
   HeroBtn,
   HeroBtn1,
+  AuthorInfo,
 } from './PageHeroElements'
 
 const PageHero = ({
@@ -17,6 +18,8 @@ const PageHero = ({
   heroBtnLink1,
   buttonText,
   buttonText1,
+  date,
+  authorName,
 }) => {
   return (
     <HeroContainer>
@@ -25,24 +28,35 @@ const PageHero = ({
       </HeroBg>
       <HeroContent>
         <h1>{heading}</h1>
-        <p>{subText}</p>
-        <HeroBtnWrapper>
-          {buttonText && (
-            <Link href={heroBtnLink}>
-              <a>
-                <HeroBtn>{buttonText}</HeroBtn>
-              </a>
-            </Link>
-          )}
+        {subText && <p>{subText}</p>}
+        {buttonText && (
+          <HeroBtnWrapper>
+            {buttonText && (
+              <Link href={heroBtnLink}>
+                <a>
+                  <HeroBtn>{buttonText}</HeroBtn>
+                </a>
+              </Link>
+            )}
 
-          {buttonText1 && (
-            <Link href={heroBtnLink1}>
-              <a>
-                <HeroBtn1>{buttonText1}</HeroBtn1>
-              </a>
-            </Link>
+            {buttonText1 && (
+              <Link href={heroBtnLink1}>
+                <a>
+                  <HeroBtn1>{buttonText1}</HeroBtn1>
+                </a>
+              </Link>
+            )}
+          </HeroBtnWrapper>
+        )}
+        <AuthorInfo>
+          {date && (
+            <div>
+              <span>
+                written by {authorName}, {date}
+              </span>
+            </div>
           )}
-        </HeroBtnWrapper>
+        </AuthorInfo>
       </HeroContent>
     </HeroContainer>
   )

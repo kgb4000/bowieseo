@@ -71,17 +71,25 @@ export default function Articles({ post, shareLink }) {
       />
 
       <NextSeo {...SEO} />
-      <PageHero heroBtnLink="/contact" heading={post.postTitle} />
+      <PageHero
+        heading={post.postTitle}
+        date={new Date(post.date).toLocaleDateString('en-us', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric',
+        })}
+        authorName={post.author.name}
+      />
       <main>
-        <div className="container">
-          <span>
+        <div className="container author-info">
+          {/* <span>
             {new Date(post.date).toLocaleDateString('en-us', {
               year: 'numeric',
               month: 'short',
               day: 'numeric',
             })}
           </span>
-          <span>{post.author.name}</span>
+          <span>, by {post.author.name}</span> */}
 
           <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
           <RichText content={post.content.json} />

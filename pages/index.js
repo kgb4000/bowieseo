@@ -290,8 +290,15 @@ export default function Home({ data }) {
               </p>
               <p>Why?</p>
               <p>
-                Because 93% of online experiences begin with search engines, and
-                46% of Google searches are looking for local information.
+                Because 93% of online experiences begin with search engines, and{' '}
+                <Link
+                  href="https://www.seroundtable.com/google-46-of-searches-have-local-intent-26529.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <a>46% of Google searches</a>
+                </Link>{' '}
+                are looking for local information.
               </p>
               <p>
                 When people search for your services, your business will not

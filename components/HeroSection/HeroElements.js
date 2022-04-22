@@ -10,6 +10,7 @@ export const HeroContainer = styled.div`
   position: relative;
   z-index: 1;
   padding-bottom: 2rem;
+  color: #fff;
 `
 
 export const HeroBg = styled.div`

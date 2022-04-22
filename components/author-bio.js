@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import styled from 'styled-components'
-import { getPost, getPosts } from '../lib/data'
+import { getPost, getPosts, getPostsSlugs } from '/lib/data'
 import { ShareBtn } from './share-btn'
 
 export const getStaticProps = async ({ params }) => {
@@ -13,12 +14,12 @@ export const getStaticProps = async ({ params }) => {
   }
 }
 
-export default function Bio({ authorImg, authorBio, shareLink }) {
+export default function Bio({ authorName, authorImg, authorBio, shareLink }) {
   return (
     <>
       <BioSection>
         <div className="solution-container">
-          <img src={authorImg} />
+          <img src={authorImg} alt={authorName} loading="lazy" />
           <p>{authorBio}</p>
         </div>
       </BioSection>
@@ -36,14 +37,15 @@ const BioSection = styled.div`
   color: #101010;
 
   img {
-    width: 3.5rem;
+    width: 5rem;
     border: 4px solid #d35400;
     border-radius: 50%;
+    margin-bottom: 1rem;
   }
 
   p {
     border-top: 2px solid #d35400;
     padding-top: 1rem;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 `

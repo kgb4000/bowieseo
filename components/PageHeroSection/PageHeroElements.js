@@ -101,6 +101,9 @@ export const HeroBtn1 = styled(Button)`
     width: auto;
   }
 `
+export const AuthorInfo = styled.div`
+  color: #fff;
+`
 
 // export default function HeroBox({
 //   backgroundHeight,

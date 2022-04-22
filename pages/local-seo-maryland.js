@@ -14,15 +14,15 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const LocalSEO = () => {
   const SEO = {
-    title: 'Local SEO Services in Maryland | Bowie SEO',
+    title: 'Local SEO Services for Maryland Local Businesses',
     description:
-      'Bowie SEO provides local SEO services in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
+      'We provide local SEO services for small business in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/local-seo-maryland',
     openGraph: {
       title: 'Local SEO Services in Maryland | Bowie SEO',
       description:
-        'Bowie SEO provides local SEO services in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
+        'We provide local SEO services for small business in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
       type: 'website',
       image: [{}],
     },
@@ -144,11 +144,9 @@ const LocalSEO = () => {
             <p>Local SEO will make your website better by:</p>
             <Stats>
               <li>
-                <b>
-                  It can help to improve your website's visibility in search
-                  engine results pages (SERPs), making it easier for potential
-                  customers to find you online.
-                </b>
+                It can help to improve your website's visibility in search
+                engine results pages (SERPs), making it easier for potential
+                customers to find you online.
               </li>
               <li>
                 <b>
@@ -158,11 +156,8 @@ const LocalSEO = () => {
                 </b>
               </li>
               <li>
-                <b>
-                  Local SEO can help to build trust and credibility with
-                  potential customers, as well as improve your overall online
-                  reputation.
-                </b>
+                Local SEO can help to build trust and credibility with potential
+                customers, as well as improve your overall online reputation.
               </li>
               <li>
                 <b>
@@ -172,11 +167,9 @@ const LocalSEO = () => {
                 </b>
               </li>
               <li>
-                <b>
-                  Last but not least, Local SEO can be a Cost-Effective
-                  Marketing Strategy, since it targets customers who are already
-                  interested in your products or services in your local area.
-                </b>
+                Last but not least, Local SEO can be a Cost-Effective Marketing
+                Strategy, since it targets customers who are already interested
+                in your products or services in your local area.
               </li>
             </Stats>
             <p>
@@ -782,9 +775,7 @@ const LocalSEO = () => {
         </div>
         <section>
           <div className="container">
-            <h2>
-              Why Work With Us Instead of other Digital Marketing Agencies
-            </h2>
+            <h2>Why Work With Us Instead of Other Local SEO Agencies</h2>
             <h3>#1. All We Do is Search Engine Optimization</h3>
             <p>
               We are not like other digital marketing agencies that try to do
@@ -797,22 +788,26 @@ const LocalSEO = () => {
               higer in the search engines, getting more leads and customers, and
               making more money.
             </p>
-            <h3>#2. No Long-term Contracts Here, Go Month-to-Month</h3>
-            <p>You don't have any long-term contracts to sign with us.</p>
+            <h3>#2. No Long-term Contracts Here</h3>
+            <p>You don't have any long-term contracts when you work with us.</p>
             <p>You just pay month-to-month.</p>
+            <p>It's easier and simpler that way.</p>
             <p>
               Hopefully you understand that you need to commit to doing local
-              SEO because it can take anywhere from three to six months before
-              you see any results.
+              SEO for at least three to six months.
             </p>
-            <p></p>
+            <p>
+              That's because it can take three to six months before we see any
+              results from your campaign.
+            </p>
             <h3>#3. We Leaders, We Don't Copy What Everyone Else is Doing!</h3>
-            <p></p>
+            <p>We are experts.</p>
             <p>
               We don't have any cookie cutter templates that we follow, or
               follow so called experts who've never don't SEO before.
             </p>
-            <h3>#4. We Keep You iInformed and Up-to-Date!</h3>
+            <h3>#4. We're 100% Transparent</h3>
+            <p></p>
             <h3>#5. Our SEO Company is Located in The DMV!</h3>
           </div>
         </section>
@@ -824,22 +819,36 @@ const LocalSEO = () => {
         <section>
           <div className="container">
             {' '}
-            <h2>Cities We Offer Local SEO in Maryland</h2>
-            <ul>
-              <li>Annapolis, MD</li>
-              <li>Baltimore, MD</li>
-              <li>Bethesda, MD</li>
-              <li>Bowie, MD</li>
-              <li>Capitol Heights</li>
-              <li>Chevy Chase, MD</li>
-              <li>Fort Washington, MD</li>
-              <li>Gaithersburg, MD</li>
-              <li>Glen Burnie</li>
-              <li>Hyattsville, MD</li>
-              <li>Rockville, MD</li>
-              <li>Silver Spring, MD</li>
-              <li>Takoma Park, MD</li>
-            </ul>
+            <h2>Cities We Offer Local SEO Services</h2>
+            <div className="cities container">
+              <ul>
+                <li>Annapolis, MD</li>
+                <li>Baltimore, MD</li>
+                <li>Bethesda, MD</li>
+                <li>Bowie, MD</li>
+                <li>Capitol Heights</li>
+                <li>Chevy Chase, MD</li>
+                <li>Fort Washington, MD</li>
+              </ul>
+              <ul>
+                <li>Glen Burnie</li>
+
+                <li>Hyattsville, MD</li>
+                <li>
+                  <Link href="/laurel-maryland-local-seo-services">
+                    <a>Laurel, MD</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/seo-services-ocean-city">
+                    <a>Ocean City, MD</a>
+                  </Link>
+                </li>
+                <li>Rockville, MD</li>
+                <li>Silver Spring, MD</li>
+                <li>Takoma Park, MD</li>
+              </ul>
+            </div>
           </div>
         </section>
         <div className="btn">
@@ -914,8 +923,8 @@ const LocalSEO = () => {
               <p>
                 The main difference between SEO and Local SEO is that Local SEO
                 is more targeted towards bringing in traffic from a specific
-                geographic area, while SEO is more concerned with earning
-                traffic nationally or anywhere in the world.{' '}
+                geographic area, while SEO is more concerned with getting
+                traffic and increasing visibility on a national or global level.
               </p>
               <p>
                 Let's say you're a swimming pool builder in Annapolis, Maryland.
@@ -929,8 +938,8 @@ const LocalSEO = () => {
                 not too far.
               </p>
               <p>
-                Local SEO will help you target the right keywords, and mka
-                echanges to your website to attract local customers.
+                Local SEO will help you target the right keywords, and make
+                changes to your website to attract your local customers.
               </p>
               <p>
                 If you have an ecommerce store that sells swimming pool supplies
@@ -974,7 +983,7 @@ const LocalSEO = () => {
               </Link>
             </div>
             <section>
-              <h3>#5. Can You Garauntee Me #1 Rankings?</h3>
+              <h3>#5. Can You Garauntee Me No.1 Rankings?</h3>
               <p>
                 No SEO company can guarantee you first page rankings on Google.
               </p>
@@ -996,9 +1005,9 @@ const LocalSEO = () => {
                 you're likely to be disappointed. However, if you're committed
                 to improving your website's visibility and organic search
                 results, a reputable SEO company can help you achieve your
-                goals. Contact us today to learn more about our SEO services and
-                how we can help improve your website's ranking in search engine
-                results pages.
+                goals.<p></p>Contact us today to learn more about our SEO
+                services and how we can help improve your website's ranking in
+                search engine results pages.
               </p>
             </section>
             <div className="btn">

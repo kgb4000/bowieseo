@@ -187,8 +187,10 @@ const LocalSEO = () => {
               Additionally, appearing in Google's search results can help
               increase brand awareness for your business. Even if someone
               doesn't click on your website, they're still exposed to your brand
-              name and logo every time they see your listing in the SERPs. Over
-              time, this repeated exposure can lead to increased name
+              name and logo every time they see your listing in the SERPs.
+            </p>
+            <p>
+              Over time, this repeated exposure can lead to increased name
               recognition and brand awareness, both of which are essential for
               driving long-term growth.
             </p>
@@ -731,6 +733,7 @@ const LocalSEO = () => {
               <ol>
                 <li>
                   <h4>Your website is slow</h4>
+                  <p>Page speed is one of Goolge's ranking factors.</p>
                   <p>
                     If your website takes a long time (more than 3 seconds) to
                     load, then something is wrong.
@@ -745,6 +748,10 @@ const LocalSEO = () => {
                       page speed insights
                     </a>{' '}
                     and check your pagespeed.
+                  </p>
+                  <p>
+                    Fixing you pagespped not only helps with website
+                    conversions, it also helps create a better user experience.
                   </p>
                 </li>
                 <li>
@@ -932,11 +939,13 @@ const Intro = styled.div`
   img {
     max-width: 10rem;
     float: right;
+    border: 4px solid #ff5200;
+    border-radius: 50%;
   }
   @media screen and (min-width: 768px) {
     img {
       max-width: 20rem;
-      margin: 2rem 0;
+      margin: 3rem 0;
       float: right;
     }
   }

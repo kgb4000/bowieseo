@@ -451,3 +451,10 @@ footer {
 .logo {
   max-width: 8rem;
 }
+
+@media screen and (min-width: 768px) {
+  .cities {
+    display: flex;
+    justify-content: space-between;
+  }
+}

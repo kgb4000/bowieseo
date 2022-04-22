@@ -16,7 +16,7 @@ export const processObj2 = {
   lightTextDesc: true,
   headline: 'Keyword Research',
   description:
-    'This is when we take a close look at your website and its current ranking. We also look at your competition to see where they are ranking and what keywords they are targeting. This information helps us to determine what changes need to be made to your website in order to improve your ranking and visibility in the search engines.',
+    'Keyword research is the foundation of any good SEO campaign. By choosing relevant keywords, you can ensure that your website and content are optimized for search engines and that your target audience will be able to find your business easily. Done correctly, the right targeted keywords can be a powerful tool that will help you attract more visitors to your website.',
   imgStart: false,
   img: '../images/keyword-research.svg',
   alt: 'Keyword research.',

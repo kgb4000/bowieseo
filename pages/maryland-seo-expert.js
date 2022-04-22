@@ -36,19 +36,21 @@ const MarylandSEOExpert = () => {
       <NextSeo {...SEO} />
       <PageHero
         heading="Maryland SEO Expert"
-        subText="We are SEO experts creating opportunities for businesses in the DMV to succeed."
+        subText="We are SEO experts in Maryland. We use our SEO knowledge to find and create opportunities for your business to succeed."
         heroBtnLink="/contact"
-        buttonText="Book a call"
+        buttonText="Book a call Today!"
+        heroBtnLink1="/free-mini-seo-audit"
+        buttonText1="Free Mini SEO Audit!"
       />
       <section>
         <div className="container">
           <h2>Get a Maryland SEO Expert to Help You Grow Your Business</h2>
           <p>
-            As an{' '}
+            We're a{' '}
             <Link href="/maryland-seo-company">
-              <a>SEO company</a>
+              <a>Maryland SEO company</a>
             </Link>{' '}
-            we specialize in optimizing websites for search engines.
+            and we specialize in optimizing websites for search engines.
           </p>
           <p>
             We use our knowledge of how search engines work to help improve your
@@ -95,7 +97,8 @@ const MarylandSEOExpert = () => {
       <section>
         <div className="container">
           <h2>
-            7 Reasons Why You Need to Hire an SEO Expert for Your Business
+            7 Reasons Why You Need to Hire Maryland SEO Experts for Your
+            Business
           </h2>
           <p className="sub-text">
             Maryland businesses need SEO specialists to rank higher, attract
@@ -213,22 +216,6 @@ const MarylandSEOExpert = () => {
               <Card>
                 <div className="card-info">
                   <img
-                    src="/images/search-engines.svg"
-                    alt="Keyword ranking image"
-                    loading="lazy"
-                  />
-                  <h3>SEO</h3>
-                  <p>
-                    Get more website traffic and more leads with our powerful
-                    search engine optimization services. Let Bowie SEO put your
-                    business on the path to SEO success.
-                  </p>
-                </div>
-                <p>Learn more</p>
-              </Card>
-              <Card>
-                <div className="card-info">
-                  <img
                     src="/images/local.svg"
                     alt="Keyword ranking image"
                     loading="lazy"
@@ -241,6 +228,22 @@ const MarylandSEOExpert = () => {
                   </p>
                 </div>
                 <p>Learn more</p>
+              </Card>
+              <Card>
+                <div className="card-info">
+                  <img
+                    src="/images/competitive-analysis.svg"
+                    alt="Man analyzing data"
+                    loading="lazy"
+                  />
+                  <h3>Competitive Ananlysis</h3>
+                  <p>
+                    Know what your competitors are doing. See why they are
+                    beating you and fight back using data and info form thier
+                    own websites.
+                  </p>
+                </div>
+                {/* <p>Learn more</p> */}
               </Card>
               <Card>
                 <div className="card-info">
@@ -259,20 +262,20 @@ const MarylandSEOExpert = () => {
                 <p>Learn more</p>
               </Card>
               <Card>
-                <div className="card-info one">
+                <div className="card-info">
                   <img
-                    src="/images/keyword-research.svg"
-                    alt="Keyword ranking image"
+                    src="/images/technical.svg"
+                    alt="Man analyzing data"
                     loading="lazy"
                   />
-                  <h3>Keyword Research</h3>
+                  <h3>Technical SEO</h3>
                   <p>
-                    Get more website traffic and more leads with our powerful
-                    SEO services. Let Bowie SEO put your business on the path to
-                    SEO success.
+                    Know what your competitors are doing. See why they are
+                    beating you and fight back using data and info form thier
+                    own websites.
                   </p>
                 </div>
-                <p>Learn more</p>
+                {/* <p>Learn more</p> */}
               </Card>
               <Card>
                 <div className="card-info">
@@ -377,16 +380,31 @@ const MarylandSEOExpert = () => {
             or what's going on with your campaign.
           </p>
           <h3>#4 . You Can Grow Without Us</h3>
-          <p>Yes, it is true.</p>
-          <p>You can continue to grow without us.</p>
+          <p>Yes.</p>
+          <p>You can continue to grow your business without us.</p>
           <p>
-            You will still have success if you decide to leave us. Our goal is
-            to build a foundation for your website that will continue to thrive
-            without us.
+            Your website will still generate leads, get traffic, and customers
+            even if you decide to stop working with us. Our goal is to build a
+            foundation for your website that will continue to thrive without us.
           </p>
-          <h3>#5 . We Focus on Results</h3>
-          <p>Not just any results.</p>
-          <p>We focus the results</p>
+          <p>
+            But if we keep brining you more leads and customers, why would you
+            stop?
+          </p>
+          <h3>#5 . We Focus on the Big Picture</h3>
+          <p>
+            The average person goes online almost every day, making it
+            incredibly important for businesses to invest in search engine
+            optimization. People trust major search engines like Google to show
+            them the best results for their search queries.
+          </p>
+          <p>
+            SEO experts know how to utilize various strategies, from basic
+            on-page optimization to building an extensive link profile and
+            engaging in social media marketing. One of the most important roles
+            is that of a strategist with a big-picture that helps you identify
+            the path toward growth.
+          </p>
         </div>
         <div className="btn">
           <Link href="/free-website-audit" passHref>
@@ -515,10 +533,6 @@ const MarylandSEOExpert = () => {
             your website will get banned.
           </p>
           <p>Please don't take that chance.</p>
-          <p>
-            As a professional Maryland SEO company and SEO experts, we only
-            practice White Hat SEO.
-          </p>
         </div>
       </section>
       <div className="btn">
@@ -554,23 +568,35 @@ const MarylandSEOExpert = () => {
           <h3>#3. How Long Does it Take to See SEO Results?</h3>
           <p>
             If you're wondering how long it will take to see SEO results, the
-            answer is that it depends. It takes time for your content to be
-            indexed and ranked by search engines, and the amount of time can
-            vary depending on a number of factors. However, if you're patient
-            and consistent with your SEO efforts, you should start seeing
-            results within a few months. Keep in mind that SEO is a long-term
-            strategy, so the results you see today may not be the same as the
-            results you see six months or a year from now. The key is to stay
-            consistent and continue to monitor your progress so you can adjust
-            your strategy as needed.
+            answer is that it depends.
+          </p>
+          <p>
+            It takes time for your content to be indexed and ranked by search
+            engines, and the amount of time can vary depending on a number of
+            factors.
+          </p>
+          <p>
+            However, if you're patient and consistent with your SEO efforts, you
+            should start seeing results within a few months.
+          </p>
+          <p>
+            Keep in mind that SEO is a long-term strategy, so the results you
+            see today may not be the same as the results you see six months or a
+            year from now.
+          </p>
+          <p>
+            The key is to stay consistent and continue to monitor your progress
+            so you can adjust your strategy as needed.
           </p>
           <p>
             SEO is a complex and ever-changing field, so it's important to stay
-            up-to-date on the latest trends and best practices. If you're not
-            sure where to start, consider hiring an SEO expert to help you
-            create and implement a comprehensive SEO strategy. With the right
-            approach, you can start seeing results from your SEO efforts within
-            a few months.
+            up-to-date on the latest trends and best practices.
+          </p>
+          <p>
+            If you're not sure where to start, consider hiring an SEO expert to
+            help you create and implement a comprehensive SEO strategy. With the
+            right approach, you can start seeing results from your SEO efforts
+            within a few months.
           </p>
         </div>
       </section>
@@ -582,13 +608,20 @@ const MarylandSEOExpert = () => {
       <section>
         <div className="container">
           <h3>#4. Can You Guarantee #1 Rankings?</h3>
+          <p>No SEO expert or consultant can guarantee first place rankings.</p>
           <p>
-            No SEO expert or consultant can guarantee first place rankings. If
-            anyone makes this guarantee, be cautious. It is a sign that they are
-            inexperienced or plan to take your hard-earned money. There are no
-            guarantees in life. The only guarantee is that your website will
-            perform better than when we started.
+            If anyone makes this guarantee, be cautious. It is a sign that they
+            are inexperienced or plan to take your hard-earned money.
           </p>
+          <p>There are no guarantees in life.</p>
+          <p>
+            The only guarantee is that your website be better and perform better
+            than before we started working together.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div className="container">
           <h3>#5. What SEO Strategy will You Put in Place for My Business?</h3>
           <p>
             The answer is we don't know yet. We have to talk with you first.

@@ -50,13 +50,13 @@ const MarylandSEOCompany = () => {
       <section>
         <div className="container">
           <h2>Grow Your Business with a Maryland SEO Company</h2>
+          <p>Bowie SEO is a Maryland SEO company located in Bowie, Maryland.</p>
           <p>
-            Bowie SEO is an SEO company located in Bowie, Maryland. We believe
-            that search engine optimization (SEO) is the best digital marketing
-            channel to help you find your ideal customers and help potential
-            customers find local businesses. As{' '}
+            We believe that search engine optimization (SEO) is the best digital
+            marketing channel to help you find your ideal customers and help
+            potential customers find local businesses. As{' '}
             <Link href="/maryland-seo-expert">
-              <a>SEO experts</a>
+              <a>Maryland SEO experts</a>
             </Link>
             , we are proud to offer Maryland SEO services to all businesses in
             Maryland. 
@@ -194,7 +194,7 @@ const MarylandSEOCompany = () => {
       </div>
       <section>
         <div className="services-container">
-          <h2>Popular Maryland SEO Services</h2>
+          <h2>Popular SEO Services</h2>
           <p className="sub-text">
             These SEO services will help your business grow. We're an SEO
             company that specialize in search engine optimization for businesses
@@ -305,8 +305,8 @@ const MarylandSEOCompany = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href="/seo-services" passHref>
-          <Button>More Services</Button>
+        <Link href="/maryland-seo-services" passHref>
+          <Button>More SEO Services</Button>
         </Link>
       </div>
       <section>
@@ -379,10 +379,10 @@ const MarylandSEOCompany = () => {
       </section>
       <section>
         <div className="container">
-          <h2>Why Choose Bowie SEO Instead of Other Mayland SEO Companies?</h2>
+          <h2>Why Choose Bowie SEO Instead of Other Maryland SEO Companies?</h2>
           <p className="sub-text">
             Work with Bowie SEO and experience the difference between our
-            company and their company. Remember, all we do is SEO.
+            company and their SEO company.
           </p>
           <h3>
             #1. Your Business Will Continue To Grow Without Us Being There.
@@ -436,12 +436,16 @@ const MarylandSEOCompany = () => {
             potential customers, and to make more money for your business.
           </p>
           <p></p>
-          <h3>#5. We Get You Results</h3>
+          <h3>#5. We Only Do Search Engine Optimization</h3>
+          <p>We are an SEO company, and local SEO experts.</p>
           <p>
-            And we don't mean by changing some title tags or meta descriptions.
+            We don't do web development, web design, social media marketing,
+            Google ads, or search marketing.{' '}
           </p>
-          <p>We get measurable results.</p>
-          <p></p>
+          <p>
+            We're a small Maryland SEO company that focuses on bringing you
+            quality traffic, higher search engine rankings
+          </p>
         </div>
       </section>
       <div className="btn">
@@ -454,15 +458,23 @@ const MarylandSEOCompany = () => {
           <h2>Frequently Asked Questions</h2>
           <div className="faq-questions">
             <h3>#1. How Can SEO Help My Business?</h3>
+            <p>SEO can help your business in a number of ways.</p>
             <p>
-              SEO can help your business in a number of ways. By improving your
-              website's search engine optimization, you can increase your
-              visibility on the web, attract more qualified leads, and boost
-              your sales. Additionally, SEO can help to build trust and
-              credibility with potential and current customers. By providing
-              relevant and useful content, you can show that you're an authority
-              in your industry, which can encourage people to do business with
-              you. Finally, SEO can also help you to save money on marketing and
+              First, by improving your website's search engine optimization, you
+              can increase your visibility on the web, attract more qualified
+              leads, and boost your sales.
+            </p>
+            <p>
+              Additionally, SEO can help to build trust and credibility with
+              potential and current customers.
+            </p>
+            <p>
+              By providing relevant and useful content, you can show that you're
+              an authority in your industry, which can encourage people to do
+              business with you.
+            </p>
+            <p>
+              Finally, SEO can also help you to save money on marketing and
               advertising costs by helping you to reach your target audience
               more effectively. If you're looking for ways to improve your
               business's bottom line, then investing in SEO is a smart choice.
@@ -484,7 +496,7 @@ const MarylandSEOCompany = () => {
                 <Button>Book a Call Today!</Button>
               </Link>
             </div>
-            <h3>#2. How Much Do SEO Services Cost?</h3>
+            <h3>#2. How Much Does Maryland SEO Cost?</h3>
             <p>
               As you may have seen on the web when you search for SEO services,
               Some SEO companies offer services starting as low as $199.00 a
@@ -563,9 +575,9 @@ const MarylandSEOCompany = () => {
             <p>
               No matter what your budget or level of experience, there's no
               reason not to implement SEO on your website. Whether you do it
-              yourself or hire someone to do it for you, the benefits of
-              improved online visibility and increased organic traffic are worth
-              the effort.
+              yourself or a Maryland SEO company to do it for you, the benefits
+              of improved online visibility and increased organic traffic are
+              worth the effort.
             </p>
             <div className="btn faq">
               <Link href={calendly} passHref target="_blank">

@@ -43,7 +43,7 @@ export default function Blog({ data }) {
       <NextSeo {...SEO} />
       <PageHero
         heading="SEO Blog"
-        subText="Tip to help you succeed with SEO and get more leads and customers."
+        subText="Tips to help you succeed with SEO and find more opportunities to succeed."
         buttonText="Contact us"
         heroBtnLink="/contact"
       />
