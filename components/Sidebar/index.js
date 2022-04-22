@@ -46,8 +46,8 @@ const Sibebar = ({ isOpen, toggle }) => {
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
-              <SidebarLink href="/free-website-audit">
-                <SidebarLinkA>Free Website Audit</SidebarLinkA>
+              <SidebarLink href="/free-mini-seo-audit">
+                <SidebarLinkA>Free Mini SEO Audit</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
           </SidebarMenu>
