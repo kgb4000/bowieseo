@@ -18,6 +18,20 @@ const FreeSEOAUDIT = () => {
       />
       <section>
         <div className="container">
+          <h2>Get Your Free Mini SEO Audit.</h2>
+          <div className="player-wrapper">
+            <ReactPlayer
+              className="react-player"
+              url="https://youtu.be/YQ9VpQQWtEw"
+              width="100%"
+              height="100%"
+              controls={true}
+            />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
           <h2>
             Do You Ask Yourself These Questions Like Other Small Business
             Owners?

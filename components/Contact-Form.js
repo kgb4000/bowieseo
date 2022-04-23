@@ -32,6 +32,34 @@ export default function ContactForm({ h2, p }) {
     })
   }
 
+  const isEnabled = inputs.email.length && inputs.name > 0
+
+  const handleResponse = (status, msg) => {
+    if (status === 200) {
+      setStatus({
+        submitted: true,
+        submitting: false,
+        info: {
+          error: false,
+          msg: msg,
+        },
+      })
+      setInputs({
+        name: '',
+        email: '',
+        phone: '',
+        message: '',
+      })
+    } else {
+      setStatus({
+        info: {
+          error: true,
+          msg: msg,
+        },
+      })
+    }
+  }
+
   const handleOnSubmit = async (e) => {
     e.preventDefault()
 
@@ -61,33 +89,6 @@ export default function ContactForm({ h2, p }) {
     handleResponse(res.status, text)
   }
 
-  const isEnabled = inputs.email.length && inputs.name > 0
-
-  const handleResponse = (status, msg) => {
-    if (status === 200) {
-      setStatus({
-        submitted: true,
-        submitting: false,
-        info: {
-          error: false,
-          msg: msg,
-        },
-      })
-      setInputs({
-        name: '',
-        email: '',
-        phone: '',
-        message: '',
-      })
-    } else {
-      setStatus({
-        info: {
-          error: true,
-          msg: msg,
-        },
-      })
-    }
-  }
   return (
     <>
       <section>
@@ -118,7 +119,7 @@ export default function ContactForm({ h2, p }) {
                   value={inputs.email}
                 />
               </div>
-              {/* <div className="form-input">
+              <div className="form-input">
                 <label htmlFor="phone">Phone *</label>
                 <input
                   id="phone"
@@ -127,7 +128,7 @@ export default function ContactForm({ h2, p }) {
                   required
                   value={inputs.phone}
                 />
-              </div> */}
+              </div>
               <div className="form-input">
                 <label htmlFor="message">Website *</label>
                 <textarea

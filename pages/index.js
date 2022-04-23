@@ -19,6 +19,8 @@ import {
 import { Card, Container, Wrapper, Contact } from '../components/CardSection'
 import ResultsSection from '../components/ResultsSection'
 
+import AuditSection from '../components/AuditSection'
+
 export const getStaticProps = async () => {
   const data = await getPosts()
 
@@ -118,6 +120,7 @@ export default function Home({ data }) {
           </div>
         </section>
         <InfoSection {...homeObj} />
+        <AuditSection />
         <section className="not-struggling-section">
           <div className="container">
             <h2>You Don't Have to Struggle Anymore... Bowie SEO Can Help</h2>
@@ -212,7 +215,7 @@ export default function Home({ data }) {
         <section className="why-use-seo-section">
           <div className="container">
             <div>
-              <h2>5 Reasons Why You Need SEO (in 2022)</h2>
+              <h2>5 Reasons Why You Need Search Engine Optimization in 2022</h2>
               <h3>#1. Google Works 24/7 365</h3>
               <p>Google never sleeps.</p>
               <p>

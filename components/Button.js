@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Button = styled.div`
+const Button = styled.button`
   font-size: 0.8rem;
   padding: 1rem 1.4rem;
   white-space: nowrap;
