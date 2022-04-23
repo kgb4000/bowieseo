@@ -40,6 +40,11 @@ a {
   margin: 0 auto;
 }
 
+.video-container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
 .local-container {
   max-width: 700px;
   padding: 0 1.2rem;
@@ -440,6 +445,7 @@ footer {
   position: relative;
   padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
   /* margin: 4rem 0; */
+  margin-bottom: 2rem;
 }
 
 .react-player {
@@ -457,4 +463,10 @@ footer {
     display: flex;
     justify-content: space-between;
   }
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+  font-size: 16px;
 }

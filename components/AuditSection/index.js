@@ -82,7 +82,7 @@ const AuditSection = () => {
     <section>
       <div className="container">
         <AuditElements>
-          <div className="video-player player-wrapper">
+          <div className="player-wrapper">
             <ReactPlayer
               className="react-player"
               url="https://youtu.be/YQ9VpQQWtEw"

@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
@@ -19,7 +20,8 @@ import {
 import { Card, Container, Wrapper, Contact } from '../components/CardSection'
 import ResultsSection from '../components/ResultsSection'
 
-import AuditSection from '../components/AuditSection'
+// import AuditSection from '../components/AuditSection'
+const AuditSection = dynamic(() => import('../components/AuditSection'))
 
 export const getStaticProps = async () => {
   const data = await getPosts()
