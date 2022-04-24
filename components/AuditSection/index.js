@@ -88,16 +88,19 @@ const AuditSection = () => {
       <div className="container">
         <AuditElements>
           <section className="video-section">
-            <ModalVideo
-              isOpen={isOpen}
-              url="https://youtu.be/YQ9VpQQWtEw"
-              onClose={() => setOpen(false)}
-            />
+            <>
+              <ModalVideo
+                isOpen={isOpen}
+                url="https://youtu.be/YQ9VpQQWtEw"
+                onClose={() => setOpen(false)}
+              />
+            </>
             <img
               src="/images/free-mini-seo-audit.jpg"
               alt="Watch video to get a free mini seo audit"
               loading="lazy"
               onClick={() => setOpen(true)}
+              className="video-btn"
             />
           </section>
 

@@ -441,13 +441,6 @@ footer {
   padding: 2rem 0;
 }
 
-.player-wrapper {
-  position: relative;
-  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
-  /* margin: 4rem 0; */
-  margin-bottom: 2rem;
-}
-
 .react-player {
   position: absolute;
   top: 0;
@@ -476,5 +469,9 @@ textarea {
 }
 
 .modal-video-body {
-  width: 1500px;
+  max-width: 1140px;
+}
+
+.video-btn {
+  cursor: pointer;
 }

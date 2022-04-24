@@ -1,3 +1,4 @@
+import 'react-modal-video/scss/modal-video.scss'
 import '../styles/globals.css'
 import { useState, useEffect } from 'react'
 
@@ -9,8 +10,6 @@ import TagManager from 'react-gtm-module'
 
 import { DefaultSeo } from 'next-seo'
 import SEO from '../next-seo.config'
-
-import 'react-modal-video/scss/modal-video.scss'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
