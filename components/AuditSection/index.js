@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import styled from 'styled-components'
 import Button from '../Button'
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player/lazy'
 
 const AuditSection = () => {
   const [status, setStatus] = useState({
