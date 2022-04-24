@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
@@ -15,6 +16,8 @@ import {
 } from '../components/ProcessSection/Data/Process1'
 
 import { NextSeo } from 'next-seo'
+
+const AuditSection = dynamic(() => import('../components/AuditSection'))
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
@@ -94,6 +97,7 @@ const MarylandSEOExpert = () => {
           <Button>Book a call today!</Button>
         </Link>
       </div>
+      <AuditSection />
       <section>
         <div className="container">
           <h2>

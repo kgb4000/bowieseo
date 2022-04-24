@@ -1,11 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
-import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
 import Contact from '../components/Contact-Form'
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player/lazy'
+import Button from '../components/Button'
+
+const calendly = 'https://calendly.com/bowieseo/30min'
+
+// import AuditSection from '../components/AuditSection'
+const AuditSection = dynamic(() => import('../components/AuditSection'), {
+  loading: () => <p>...</p>,
+})
 
 const FreeSEOAUDIT = () => {
   return (
@@ -16,20 +24,7 @@ const FreeSEOAUDIT = () => {
         heroBtnLink="/contact"
         buttonText="Book a call today!"
       />
-      <section>
-        <div className="container">
-          <h2>Get Your Free Mini SEO Audit.</h2>
-          <div className="player-wrapper">
-            <ReactPlayer
-              className="react-player"
-              url="https://youtu.be/YQ9VpQQWtEw"
-              width="100%"
-              height="100%"
-              controls={true}
-            />
-          </div>
-        </div>
-      </section>
+      <AuditSection />
       <section>
         <div className="container">
           <h2>
@@ -167,12 +162,17 @@ const FreeSEOAUDIT = () => {
           </ul>
         </div>
       </section>
+      <div className="btn">
+        <Link href={calendly} passHref target="_blank">
+          <Button>Book a Call Today!</Button>
+        </Link>
+      </div>
 
-      <Contact
+      {/* <Contact
         h2="Find Out What's Stopping Your Website From Ranking Higher And
             Getting More Traffic"
         p="Please fill out the form below for your Free Mini SEO Audit."
-      />
+      /> */}
     </>
   )
 }

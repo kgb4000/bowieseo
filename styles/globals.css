@@ -470,3 +470,11 @@ input[type='email'],
 textarea {
   font-size: 16px;
 }
+
+.modal-video {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-video-body {
+  width: 1500px;
+}

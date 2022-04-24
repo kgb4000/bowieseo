@@ -1,9 +1,14 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState } from 'react'
+import dynamic from 'next/dynamic'
 import styled from 'styled-components'
 import Button from '../Button'
-import ReactPlayer from 'react-player/lazy'
+
+const ModalVideo = dynamic(() => import('react-modal-video'))
+// import ModalVideo from 'react-modal-video'
 
 const AuditSection = () => {
+  const [isOpen, setOpen] = useState(false)
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -82,7 +87,21 @@ const AuditSection = () => {
     <section>
       <div className="container">
         <AuditElements>
-          <div className="player-wrapper">
+          <section className="video-section">
+            <ModalVideo
+              isOpen={isOpen}
+              url="https://youtu.be/YQ9VpQQWtEw"
+              onClose={() => setOpen(false)}
+            />
+            <img
+              src="/images/free-mini-seo-audit.jpg"
+              alt="Watch video to get a free mini seo audit"
+              loading="lazy"
+              onClick={() => setOpen(true)}
+            />
+          </section>
+
+          {/* <div className="player-wrapper">
             <ReactPlayer
               className="react-player"
               url="https://youtu.be/YQ9VpQQWtEw"
@@ -90,8 +109,9 @@ const AuditSection = () => {
               height="100%"
               controls={true}
             />
-          </div>
+          </div> */}
           <div className="form-section">
+            <h2>Fill out the form and get your Free Mini SEO Audit Today!</h2>
             <form onSubmit={handleOnSubmit}>
               <div className="form-input">
                 <label htmlFor="firstName">Name *</label>
