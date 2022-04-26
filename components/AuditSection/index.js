@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState } from 'react'
+import ReactDOM from 'react-dom'
 import dynamic from 'next/dynamic'
 import styled from 'styled-components'
 import Button from '../Button'
@@ -90,9 +91,11 @@ const AuditSection = () => {
           <section className="video-section">
             <>
               <ModalVideo
+                channel="youtube"
                 isOpen={isOpen}
-                url="https://youtu.be/YQ9VpQQWtEw"
+                videoId="YQ9VpQQWtEw"
                 onClose={() => setOpen(false)}
+                autoplay
               />
             </>
             <img

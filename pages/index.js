@@ -3,6 +3,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import dynamic from 'next/dynamic'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
@@ -22,6 +23,7 @@ import ResultsSection from '../components/ResultsSection'
 
 // import AuditSection from '../components/AuditSection'
 const AuditSection = dynamic(() => import('../components/AuditSection'))
+const ModalVideo = dynamic(() => import('react-modal-video'), { ssr: false })
 
 export const getStaticProps = async () => {
   const data = await getPosts()
@@ -36,6 +38,7 @@ export const getStaticProps = async () => {
 const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function Home({ data }) {
+  const [isOpen, setOpen] = useState(false)
   return (
     <>
       <HeroSection
