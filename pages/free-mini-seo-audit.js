@@ -172,21 +172,3 @@ const FreeSEOAUDIT = () => {
 }
 
 export default FreeSEOAUDIT
-
-// "dependencies": {
-//     "@graphcms/rich-text-react-renderer": "^0.4.3",
-//     "@sendgrid/mail": "^7.6.2",
-//     "graphql": "^16.3.0",
-//     "graphql-request": "^4.2.0",
-//     "next": "12.1.0",
-//     "next-seo": "^5.2.0",
-//     "react": "17.0.2",
-//     "react-dom": "17.0.2",
-//     "react-gtm-module": "^2.0.11",
-//     "react-icons": "^4.3.1",
-//     "react-modal-video": "^1.2.8",
-//     "react-player": "^2.10.0",
-//     "react-share": "^4.4.0",
-//     "sass": "^1.50.1",
-//     "styled-components": "^5.3.3"
-//   },
