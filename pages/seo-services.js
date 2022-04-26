@@ -14,13 +14,13 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const Services = () => {
   const SEO = {
-    title: 'SEO Services from Bowie SEO | SEO That Helps You Grow',
+    title: 'SEO Services from Bowie SEO | SEO That Helps Your Business Grow',
     description:
       'Our SEO services help you get more customers, more web traffic, and increase your revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/seo-services',
     openGraph: {
-      title: 'SEO Services from Bowie SEO | SEO That Helps You Grow',
+      title: 'SEO Services from Bowie SEO | SEO That Helps Your Business Grow',
       description:
         'Our SEO services help you get more customers, more web traffic, and increase your revenue. Contact us today!',
       type: 'website',

@@ -13,14 +13,14 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function LocalSEO() {
   const SEO = {
-    title: 'Laurel Maryland Local SEO Services',
+    title: 'SEO Services for Ocean City Maryland Businesses',
     description:
-      'We are an SEO services company providing SEO for Laurel Maryland small businesses. Our local SEO services get you more website traffic and customers.',
-    canonical: 'https://bowieseo.com/laurel-maryland-local-seo-services',
+      'We are an SEO services company providing SEO for businesses in Ocean City. Our SEO services get you more website traffic, customers, and increase revenue.',
+    canonical: 'https://bowieseo.com/seo-services-ocean-city',
     openGraph: {
-      title: 'Laurel Maryland Local SEO Services| Bowie SEO',
+      title: 'SEO Services for Ocean City Maryland Businesses',
       description:
-        'We are an SEO services company providing SEO for Laurel Maryland small businesses. Our local SEO services get you more website traffic and customers.',
+        'We are an SEO services company providing SEO for businesses in Ocean City. Our SEO services get you more website traffic, customers, and increase revenue.',
       image: [{}],
     },
   }
@@ -72,10 +72,10 @@ export default function LocalSEO() {
             engines and users in your local area.
           </p>
           <p>
-            If you have a business in Laurel Maryland, local SEO improve your
+            If you have a business in Ocean City, local SEO can improve your
             website and make it better. It will help you choose better keywords
-            that you will use to target customers in Laurel and nearby towns,
-            and also rank higher in the search engines.
+            that you will use to target customers in Ocean City and nearby
+            towns, and also rank higher in the search engines.
           </p>
         </div>
       </section>
@@ -86,75 +86,11 @@ export default function LocalSEO() {
           </a>
         </Link>
       </div>
-      {/* <section className="article-section">
-        <div className="container">
-          <h2>Our Laurel SEO Services</h2>
-          <p>
-            Search engine optimization services helps your business increase
-            website traffic and get more leads. Our SEO services include:
-          </p>
-          <ul>
-            <li>
-              <h3>Local SEO</h3>
-              <p>
-                Get found when customers in Laurel are searching for your
-                products or services. When potential customers are searching,
-                you want your website to appear at the top of Google map Pack
-                and on the first page of the SERPs.
-              </p>
-            </li>
-            <li>
-              <h3>SEO Audit</h3>
-              <p>
-                If your website is not appearing in the SERPs, or your page is
-                not ranking or indexed, you may have a problem. An SEO Audit
-                from Bowie SEO will identify any issues affecting your site's
-                performance.
-              </p>
-            </li>
-            <li>
-              <h3>Keyword Research</h3>
-              <p>
-                Do you know what keywords potential customers use to find
-                products or services like yours? Keyword research will tell you.
-                Doing keyword research will identify what words people are using
-                so you can target the right keywords and show up in the search
-                results.
-              </p>
-            </li>
-            <li>
-              <h3>Content Audit</h3>
-              <p>
-                Search engines crawl your website and your content and search
-                algorithms determine where your pages rank. We audit your
-                content. We look at your content (and your competitor's) and
-                optimize it for the search engines and your potential customers.
-              </p>
-            </li>
-            <li>
-              <h3>On-Page SEO</h3>
-              <p>
-                We perform on-page SEO checks. We look at and optimize each page
-                on your website and make it better. We check for everything
-                including keyword canibalization, page speed, keyword palcement,
-                search intent, etc.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <div className="btn">
-        <Link href={calendly}>
-          <a>
-            <Button>Book a Call Today!</Button>
-          </a>
-        </Link>
-      </div> */}
       <section>
         <div className="services-container">
           <h2>Our Ocean City SEO Services</h2>
           <p className="sub-text">
-            Our local SEO services help business in Laurel and the DMV get more
+            Our local SEO services help business all over Maryland get more
             website traffic, attract potential customers, and make money.
           </p>
           <div className="services">
@@ -340,7 +276,7 @@ export default function LocalSEO() {
             </li>
           </Stats>
           <div className="btn">
-            <Link href="/free-seo-audit">
+            <Link href="/free-mini-seo-audit">
               <a>
                 <Button>Get a Free SEO Audit &#8594;</Button>
               </a>
@@ -410,13 +346,6 @@ export default function LocalSEO() {
           <h2>Why Choose Bowie SEO for your Local SEO?</h2>
           <p>Businesses in Laurel should work with us because:</p>
           <ul>
-            <li>
-              We are part of the Laurel community and a member of the{' '}
-              <Link href="/9-reasons-you-should-join-the-bowie-chamber-of-commerce">
-                <a>Bowie Chamber of Commerce</a>
-              </Link>
-              .
-            </li>
             <li>We can build your website presence.</li>
             <li>
               We can help you spend less on Google ads and social media
@@ -435,7 +364,7 @@ export default function LocalSEO() {
             </li>
           </ul>
           <p>
-            If you have a business in Laurel and want to grow your website
+            If you have a business in Ocean City and want to grow your website
             traffic and get more leads, please get in touch with us and see how
             an SEO strategy can help your business.
           </p>

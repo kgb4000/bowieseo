@@ -14,13 +14,13 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const LocalSEO = () => {
   const SEO = {
-    title: 'Local SEO Services for Maryland Local Businesses',
+    title: 'Local SEO Maryland Services for Local Businesses',
     description:
       'We provide local SEO services for small business in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/local-seo-maryland',
     openGraph: {
-      title: 'Local SEO Services in Maryland | Bowie SEO',
+      title: 'Local SEO Maryland Services for Local Businesses',
       description:
         'We provide local SEO services for small business in Maryland. Get more customers, more web traffic, and increase revenue. Contact us today!',
       type: 'website',
