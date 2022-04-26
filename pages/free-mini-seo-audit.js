@@ -1,19 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import PageHero from '../components/PageHeroSection'
-import Contact from '../components/Contact-Form'
-import ReactPlayer from 'react-player/lazy'
+import ReactPlayer from 'react-player'
 import Button from '../components/Button'
+import AuditSection from '../components/AuditSection'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
-
-// import AuditSection from '../components/AuditSection'
-const AuditSection = dynamic(() => import('../components/AuditSection'), {
-  loading: () => <p>...</p>,
-})
 
 const FreeSEOAUDIT = () => {
   return (

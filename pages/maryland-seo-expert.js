@@ -2,7 +2,6 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
@@ -16,8 +15,7 @@ import {
 } from '../components/ProcessSection/Data/Process1'
 
 import { NextSeo } from 'next-seo'
-
-const AuditSection = dynamic(() => import('../components/AuditSection'))
+import AuditSection from '../components/AuditSection'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
@@ -40,7 +38,7 @@ const MarylandSEOExpert = () => {
       <PageHero
         heading="Maryland SEO Expert"
         subText="We are SEO experts in Maryland. We use our SEO knowledge to find and create opportunities for your business to succeed."
-        heroBtnLink="/contact"
+        heroBtnLink={calendly}
         buttonText="Book a call Today!"
         heroBtnLink1="/free-mini-seo-audit"
         buttonText1="Free Mini SEO Audit!"

@@ -15,6 +15,8 @@ import {
   Img,
 } from './InfoElements'
 
+const calendly = 'https://calendly.com/bowieseo/30min'
+
 const InfoSection = ({
   lightBg,
   imgStart,
@@ -35,7 +37,9 @@ const InfoSection = ({
                 <Heading>{headline}</Heading>
                 <Subtitle>{descriptiton}</Subtitle>
                 <BtnWrap>
-                  <Button>Book a call</Button>
+                  <a href={calendly} target="_blank" rel="noreferrer">
+                    <Button>Book a call</Button>
+                  </a>
                 </BtnWrap>
               </TextWrapper>
             </Column1>
