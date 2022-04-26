@@ -26,27 +26,27 @@ const Sibebar = ({ isOpen, toggle }) => {
         <SidebarWrapper>
           <SidebarMenu>
             <SidebarItem>
-              <SidebarLink href="/seo-services">
+              <SidebarLink prefetch href="/seo-services" passHref>
                 <SidebarLinkA>Services</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
-              <SidebarLink href="/blog">
+              <SidebarLink prefetch href="/blog" passHref>
                 <SidebarLinkA>Blog</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
-              <SidebarLink href="/about">
+              <SidebarLink prefetch href="/about" passHref>
                 <SidebarLinkA>About</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
-              <SidebarLink href="/contact">
+              <SidebarLink prefetch href="/contact" passHref>
                 <SidebarLinkA>Contact</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
-              <SidebarLink href="/free-mini-seo-audit">
+              <SidebarLink prefetch href="/free-mini-seo-audit" passHref>
                 <SidebarLinkA>Free Mini SEO Audit</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
