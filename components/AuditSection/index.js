@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic'
 import styled from 'styled-components'
 import Button from '../Button'
 
-const ModalVideo = dynamic(() => import('react-modal-video'))
+const ModalVideo = dynamic(() => import('react-modal-video'), { ssr: false })
 // import ModalVideo from 'react-modal-video'
 
 const AuditSection = () => {

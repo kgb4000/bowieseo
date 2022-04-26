@@ -122,7 +122,7 @@ export default function Home({ data }) {
           </div>
         </section>
         <InfoSection {...homeObj} />
-        {/* <AuditSection /> */}
+        <AuditSection />
         <section className="not-struggling-section">
           <div className="container">
             <h2>You Don't Have to Struggle Anymore... Bowie SEO Can Help</h2>
