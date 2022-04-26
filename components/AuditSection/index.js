@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState } from 'react'
-import ReactDOM from 'react-dom'
 import dynamic from 'next/dynamic'
 import styled from 'styled-components'
 import Button from '../Button'

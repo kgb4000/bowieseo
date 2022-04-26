@@ -3,13 +3,13 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import dynamic from 'next/dynamic'
-import React, { useState } from 'react'
 import Link from 'next/link'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { getPosts } from '../lib/data'
 import InfoSection from '../components/InfoSection'
 import { homeObj } from '../components/InfoSection/Data'
+import AuditSection from '../components/AuditSection'
 import {
   resultsObj,
   resultsObj1,
@@ -21,9 +21,9 @@ import {
 import { Card, Container, Wrapper, Contact } from '../components/CardSection'
 import ResultsSection from '../components/ResultsSection'
 
-// import AuditSection from '../components/AuditSection'
-const AuditSection = dynamic(() => import('../components/AuditSection'))
-const ModalVideo = dynamic(() => import('react-modal-video'), { ssr: false })
+// const AuditSection = dynamic(() => import('../components/AuditSection'))
+
+const Blog = dynamic(() => import('../components/BlogSection'))
 
 export const getStaticProps = async () => {
   const data = await getPosts()
@@ -38,7 +38,6 @@ export const getStaticProps = async () => {
 const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function Home({ data }) {
-  const [isOpen, setOpen] = useState(false)
   return (
     <>
       <HeroSection
@@ -662,10 +661,12 @@ export default function Home({ data }) {
                 </p>
                 <div className="author">
                   <img
-                    src="/images/analyze.svg"
-                    className="avatar"
+                    src="
+                    https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631816208/monica_cqphqb.jpg"
                     alt="Monica Browne"
                     loading="lazy"
+                    width="50px"
+                    height="50px"
                   />
                   <div>
                     <p className="author-name">Monica Browne</p>
@@ -685,30 +686,7 @@ export default function Home({ data }) {
           <div className="container">
             <h2>Tips From Our Blog</h2>
           </div>
-          <div className="front-page-blog-container">
-            {data.posts.map((post) => (
-              <div key={post.slug}>
-                <div className="blog-posts">
-                  <img src={post.coverImage.url} alt={post.title} />
-                  <div className="blog-info">
-                    <Link href={`/${post.slug}`}>
-                      <a>
-                        <h2>{post.postTitle}</h2>
-                      </a>
-                    </Link>
-                    <Link href={`/${post.slug}`}>
-                      <a>Read more</a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="btn">
-            <Link href="/blog" passHref>
-              <Button>Read more!</Button>
-            </Link>
-          </div>
+          <Blog data={data} />
         </section>
         <section className="faq-section">
           <div className="container">
