@@ -9,7 +9,7 @@ import Button from '../components/Button'
 import { getPosts } from '../lib/data'
 import InfoSection from '../components/InfoSection'
 import { homeObj } from '../components/InfoSection/Data'
-import AuditSection from '../components/AuditSection'
+// import AuditSection from '../components/AuditSection'
 import {
   resultsObj,
   resultsObj1,
@@ -21,7 +21,7 @@ import {
 import { Card, Container, Wrapper, Contact } from '../components/CardSection'
 import ResultsSection from '../components/ResultsSection'
 
-// const AuditSection = dynamic(() => import('../components/AuditSection'))
+const AuditSection = dynamic(() => import('../components/AuditSection'))
 
 const Blog = dynamic(() => import('../components/BlogSection'))
 
@@ -611,6 +611,7 @@ export default function Home({ data }) {
                 <h3>Call us to Start or Ask Any Questions</h3>
                 <img
                   src="/images/phone-call.svg"
+                  alt="Call us."
                   className="icons"
                   loading="lazy"
                 />
@@ -621,7 +622,12 @@ export default function Home({ data }) {
               </Contact>
               <Contact>
                 <h3>We Analyze and Create a Plan</h3>
-                <img src="/images/plan.svg" className="icons" loading="lazy" />
+                <img
+                  src="/images/plan.svg"
+                  alt="We create a plan."
+                  className="icons"
+                  loading="lazy"
+                />
                 <p>
                   We analyze and do research on your industry, your business and
                   your competitors' data.
@@ -631,6 +637,7 @@ export default function Home({ data }) {
                 <h3>We Execute and Do the Work</h3>
                 <img
                   src="/images/work-together.svg"
+                  alt="We execute our plan and do the work."
                   className="icons"
                   loading="lazy"
                 />
