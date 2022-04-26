@@ -58,8 +58,8 @@ export default function Home({ data }) {
                     alt="Customers paying."
                     className="icons filter-green"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   Paying for digital marketing that doesn't work or get you any
                   leads or customers.
@@ -70,8 +70,8 @@ export default function Home({ data }) {
                     alt="Local customers."
                     className="icons"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   Not getting any new leads or customers from your website you
                   paid for.
@@ -82,8 +82,8 @@ export default function Home({ data }) {
                     alt="Customers leaving."
                     className="icons"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   Losing potential customers to your competition because they
                   rank higer than you.
@@ -94,8 +94,8 @@ export default function Home({ data }) {
                     alt="Search engines."
                     className="icons"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   Struggling to get leads because you don't know what you're
                   doing.
@@ -106,8 +106,8 @@ export default function Home({ data }) {
                     alt="Location icon"
                     className="icons"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   Not appearing in Google's organic search listings or the Map
                   Pack.
@@ -118,8 +118,8 @@ export default function Home({ data }) {
                     alt="Location icon"
                     className="icons"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   <p>
                     Following so called expert advice and not getting any real
@@ -148,8 +148,8 @@ export default function Home({ data }) {
                     alt="Location icon"
                     className="icons"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   Let customers searching for your skills and services find your
                   business first when searching.
@@ -160,8 +160,8 @@ export default function Home({ data }) {
                     alt="Location icon"
                     className="icons"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   Build your web presence and take customers back from your
                   competitors.
@@ -172,8 +172,8 @@ export default function Home({ data }) {
                     alt="Location icon"
                     className="icons"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   Start getting leads and customers from your website,{' '}
                   <span className="highlight">[What it was meant to do]</span>.
@@ -184,8 +184,8 @@ export default function Home({ data }) {
                     alt="Rank higher than your competiton."
                     className="icons"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   Beat your competition and become the go to company in your
                   local area, city or town.
@@ -196,8 +196,8 @@ export default function Home({ data }) {
                     alt="Create websites that attract customers."
                     className="icons"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   Make your website a magnet and attract your ideal customers
                   and existing customers.
@@ -208,8 +208,8 @@ export default function Home({ data }) {
                     alt="Partner with local SEO agency."
                     className="icons filter-green"
                     loading="lazy"
-                    width="40px"
-                    height="40px"
+                    width="100px"
+                    height="100px"
                   />
                   Partner with an SEO agency that can help your business grow,
                   get customers and more leads.
