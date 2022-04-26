@@ -834,11 +834,7 @@ const LocalSEO = () => {
                 <li>Glen Burnie</li>
 
                 <li>Hyattsville, MD</li>
-                <li>
-                  <Link href="/laurel-maryland-local-seo-services">
-                    <a>Laurel, MD</a>
-                  </Link>
-                </li>
+                <li>Laurel, MD</li>
                 <li>
                   <Link href="/seo-services-ocean-city">
                     <a>Ocean City, MD</a>
