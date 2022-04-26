@@ -2,12 +2,15 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
+import dynamic from 'next/dynamic'
 import styled from 'styled-components'
 import PageHero from '../components/PageHeroSection'
 import Button from '../components/Button'
 import { Card, Container } from '../components/CardSection'
 
 import { NextSeo } from 'next-seo'
+
+const AuditSection = dynamic(() => import('../components/AuditSection'))
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
@@ -55,12 +58,11 @@ export default function LocalSEO() {
         </div>
       </section>
       <div className="btn">
-        <Link href={calendly}>
-          <a>
-            <Button>Book a Call Today!</Button>
-          </a>
-        </Link>
+        <a href={calendly} target="_blank" rel="noreferrer">
+          <Button>Book a call today!</Button>
+        </a>
       </div>
+      <AuditSection />
       <section className="article-section">
         <div className="container">
           <h2>What is Local SEO?</h2>
@@ -77,76 +79,45 @@ export default function LocalSEO() {
         </div>
       </section>
       <div className="btn">
-        <Link href={calendly}>
-          <a>
-            <Button>Book a Call Today!</Button>
-          </a>
-        </Link>
+        <a href={calendly} target="_blank" rel="noreferrer">
+          <Button>Book a call today!</Button>
+        </a>
       </div>
-      {/* <section className="article-section">
+      <section className="article-section">
         <div className="container">
-          <h2>Our Laurel SEO Services</h2>
-          <p>
-            Search engine optimization services helps your business increase
-            website traffic and get more leads. Our SEO services include:
-          </p>
+          <h2>How Can Local SEO Help Your Business in Laurel?</h2>
+          <p>Local SEO can help your business because it can:</p>
           <ul>
-            <li>
-              <h3>Local SEO</h3>
-              <p>
-                Get found when customers in Laurel are searching for your
-                products or services. When potential customers are searching,
-                you want your website to appear at the top of Google map Pack
-                and on the first page of the SERPs.
-              </p>
-            </li>
-            <li>
-              <h3>SEO Audit</h3>
-              <p>
-                If your website is not appearing in the SERPs, or your page is
-                not ranking or indexed, you may have a problem. An SEO Audit
-                from Bowie SEO will identify any issues affecting your site's
-                performance.
-              </p>
-            </li>
-            <li>
-              <h3>Keyword Research</h3>
-              <p>
-                Do you know what keywords potential customers use to find
-                products or services like yours? Keyword research will tell you.
-                Doing keyword research will identify what words people are using
-                so you can target the right keywords and show up in the search
-                results.
-              </p>
-            </li>
-            <li>
-              <h3>Content Audit</h3>
-              <p>
-                Search engines crawl your website and your content and search
-                algorithms determine where your pages rank. We audit your
-                content. We look at your content (and your competitor's) and
-                optimize it for the search engines and your potential customers.
-              </p>
-            </li>
-            <li>
-              <h3>On-Page SEO</h3>
-              <p>
-                We perform on-page SEO checks. We look at and optimize each page
-                on your website and make it better. We check for everything
-                including keyword canibalization, page speed, keyword palcement,
-                search intent, etc.
-              </p>
-            </li>
+            <li>Get your business more leads.</li>
+            <li>Increase your website traffic.</li>
+            <li>Attract more customers looking for your product or service.</li>
+            <li>Allow you to spend less money on social media ads.</li>
+            <li>Rank your website higher than your competitors.</li>
+            <li>Help build trust with new and existing customers.</li>
+            <li>Let potential customers find your business online.</li>
+            <li>Bring more customers for more sales and more revenue.</li>
           </ul>
+          <p>
+            When your website shows up in the Google 3 Pack or on the first page
+            of Google, you will get more traffic to your website, and more
+            people will see your business.
+          </p>
+          <p>
+            You will get more clicks to your website, which will result in more
+            sales and more revenue for your business.
+          </p>
+          <div className="not-happy-box">
+            <h4>
+              Need Help With Keyword Research and Targeting the Right Keywords?
+            </h4>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a call today!</Button>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
-      <div className="btn">
-        <Link href={calendly}>
-          <a>
-            <Button>Book a Call Today!</Button>
-          </a>
-        </Link>
-      </div> */}
       <section>
         <div className="services-container">
           <h2>Popular Laurel SEO Services</h2>
@@ -255,47 +226,14 @@ export default function LocalSEO() {
             </Container>
           </div>
         </div>
+        <div className="btn">
+          <Link href="/seo-services" passHref>
+            <Button>See more services</Button>
+          </Link>
+        </div>
       </section>
-      <div className="btn">
-        <Link href="/seo-services" passHref>
-          <Button>See more services</Button>
-        </Link>
-      </div>
       <section className="article-section">
         <div className="container">
-          <h2>How Can Local SEO Help Your Business in Laurel?</h2>
-          <p>Local SEO can help your business because it can:</p>
-          <ul>
-            <li>Get your business more leads.</li>
-            <li>Increase your website traffic.</li>
-            <li>Attract more customers looking for your product or service.</li>
-            <li>Allow you to spend less money on social media ads.</li>
-            <li>Rank your website higher than your competitors.</li>
-            <li>Help build trust with new and existing customers.</li>
-            <li>Let potential customers find your business online.</li>
-            <li>Bring more customers for more sales and more revenue.</li>
-          </ul>
-          <p>
-            When your website shows up in the Google 3 Pack or on the first page
-            of Google, you will get more traffic to your website, and more
-            people will see your business.
-          </p>
-          <p>
-            You will get more clicks to your website, which will result in more
-            sales and more revenue for your business.
-          </p>
-          <div className="not-happy-box">
-            <h4>
-              Need Help With Keyword Research and Targeting the Right Keywords?
-            </h4>
-            <div className="btn">
-              <Link href="/contact">
-                <a>
-                  <Button>Contact us</Button>
-                </a>
-              </Link>
-            </div>
-          </div>
           <h2>15 Ways To Know If Your Business in Laurel Needs Local SEO?</h2>
           <p>
             If you have any of the following issues with your website or digital
@@ -343,6 +281,10 @@ export default function LocalSEO() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="article-section">
+        <div className="container">
           <h2>How Does Local SEO Work?</h2>
           <p>
             Local SEO is the process of improving your website for the search
@@ -439,11 +381,9 @@ export default function LocalSEO() {
           <div className="not-happy-box">
             <h4>Want to Talk about an Starting a Local SEO Strategy?</h4>
             <div className="btn">
-              <Link href={calendly}>
-                <a>
-                  <Button>Book a call today!</Button>
-                </a>
-              </Link>
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a call today!</Button>
+              </a>
             </div>
           </div>
         </div>

@@ -7,7 +7,9 @@ import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
 import { Wrapper, Contact } from '../components/CardSection'
 
-import { NextSEO } from 'next-seo'
+import { NextSeo } from 'next-seo'
+
+const calendly = 'https://calendly.com/bowieseo/30min'
 
 const About = () => {
   const SEO = {
@@ -24,6 +26,7 @@ const About = () => {
   }
   return (
     <>
+      <NextSeo {...SEO} />
       <PageHero
         heading="About Bowie SEO"
         subText="We are an SEO company in Maryland that helps businesses in Washington DC, and Virginia get found in the search engines."
@@ -63,14 +66,14 @@ const About = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href="/contact" passHref>
-          <Button>Book a Call Today!</Button>
-        </Link>
+        <a href={calendly} target="_blank" rel="noreferrer">
+          <Button>Book a call today!</Button>
+        </a>
       </div>
       <section>
         <div className="container">
           <h2>Why Choose Bowie SEO Over Other SEO Companies?</h2>
-          <h3>#1. We Only Specialize in SEO</h3>
+          <h3>#1. We Only Specialize in Search Engine Optimization</h3>
           <p>
             We only specialize in SEO services. We don't do web development,
             search marketing, social media management, or any other types of
@@ -83,21 +86,53 @@ const About = () => {
             Our focus is to help your business get more traffic leads and make
             more money with search engine optimization.
           </p>
+          <img
+            src="images/bowieseo-difference.jpg"
+            alt="The difference between our SEO company and other digital marketing companies that also do SEO."
+            loading="lazy"
+            className="about-img"
+            width="1100px"
+            height="800px"
+          />
           <p>
-            If we didn't focus on SEO alone, we wouldn't consider ourselves SEO
-            experts.
+            We focus on SEO, that's why we're experts and can get you the
+            results you want.
           </p>
-          <h3>#2. We Become Partners, Not Just a Contractor</h3>
+          <section>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a call today!</Button>
+              </a>
+            </div>
+          </section>
+          <h3>
+            #2. We Become Partners, Not Just a Company You Hired to Do Your SEO
+          </h3>
           <p>When you hire us, we work together.</p>
           <p>
             We become part of your company and our focus is to generate growth.
           </p>
+          <img
+            src="images/business-partners.jpg"
+            alt="We are your business partners."
+            loading="lazy"
+            className="about-img"
+            width="1100px"
+            height="800px"
+          />
           <p>
             We work together to make sure your business attracts more customers,
             generates more leads, ranks higher in the search engines, and makes
             more money.
           </p>
           <p>When you succeed, we succeed.</p>
+          <section>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a call today!</Button>
+              </a>
+            </div>
+          </section>
           <h3>#3. Full Transparency</h3>
           <p>You don't have to ask us what we're doing.</p>
           <p>
@@ -105,18 +140,46 @@ const About = () => {
             dark and you'll never have wait a month to wonder what we're doing
             or what's going on with your campaign.
           </p>
-          <h3>#4 . You Can Grow Without Us</h3>
+          <h3>#4 . You Can Grow Your Business Without Us - The Power of SEO</h3>
           <p>Yes, it is true.</p>
           <p>You can continue to grow without us.</p>
+          <img
+            src="images/grow-with-seo.jpg"
+            alt="We are your business partners."
+            loading="lazy"
+            className="about-img"
+            width="1100px"
+            height="800px"
+          />
           <p>
             You will still have success if you decide to leave us. Our goal is
             to build a foundation for your website that will continue to thrive
             without us.
           </p>
-          <h3>#5 . We Focus on Results</h3>
-          <p>Not just any results.</p>
-          <p>We focus the results</p>
+          <section>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a call today!</Button>
+              </a>
+            </div>
+          </section>
+          <h3>#5. We Focus on The Actions That get You Results</h3>
+          <p>We don't focus on the results.</p>
+          <p>We focus the actions that get you the results.</p>
+          <p>We get better results this way.</p>
+          <p>
+            Also, when we focus on the actions rather than results, we're enjoy
+            the process and the journey, rather than fixating on the
+            destination.
+          </p>
         </div>
+        <section>
+          <div className="btn">
+            <a href={calendly} target="_blank" rel="noreferrer">
+              <Button>Book a call today!</Button>
+            </a>
+          </div>
+        </section>
       </section>
       {/* <InfoList {...missionObj} /> */}
       <section className="pain-section">
@@ -161,9 +224,9 @@ const About = () => {
             </Contact>
           </Wrapper>
           <div className="btn">
-            <Link href="/contact" passHref>
-              <Button>Book a Call Today!</Button>
-            </Link>
+            <a href={calendly} target="_blank" rel="noreferrer">
+              <Button>Book a call today!</Button>
+            </a>
           </div>
         </div>
       </section>

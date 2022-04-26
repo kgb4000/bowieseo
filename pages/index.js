@@ -9,7 +9,6 @@ import Button from '../components/Button'
 import { getPosts } from '../lib/data'
 import InfoSection from '../components/InfoSection'
 import { homeObj } from '../components/InfoSection/Data'
-// import AuditSection from '../components/AuditSection'
 import {
   resultsObj,
   resultsObj1,

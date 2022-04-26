@@ -31,31 +31,29 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks prefetch href="/seo-services" passHref>
+              <NavLinks href="/seo-services" passHref>
                 <NavLinksA>Services</NavLinksA>
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks prefetch href="/about" passHref>
+              <NavLinks href="/about" passHref>
                 <NavLinksA>About</NavLinksA>
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks prefetch href="/blog" passHref>
+              <NavLinks href="/blog" passHref>
                 <NavLinksA>Blog</NavLinksA>
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks prefetch href="/contact" passHref>
+              <NavLinks href="/contact" passHref>
                 <NavLinksA>Contact</NavLinksA>
               </NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
             <NavBtnLink>
-              <BtnLinksA prefetch href={calendly}>
-                Book a Call
-              </BtnLinksA>
+              <BtnLinksA href={calendly}>Book a Call</BtnLinksA>
             </NavBtnLink>
           </NavBtn>
         </NavbarContainer>

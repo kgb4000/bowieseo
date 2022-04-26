@@ -486,3 +486,17 @@ textarea {
 .video-btn {
   cursor: pointer;
 }
+
+.about-img {
+  margin: 2rem 0;
+}
+
+.not-happy-box {
+  background-color: beige;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.not-happy-box h4 {
+  font-size: 1.5rem;
+}
