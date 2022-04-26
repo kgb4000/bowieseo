@@ -21,7 +21,7 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const MarylandSEOExpert = () => {
   const SEO = {
-    title: 'Maryland SEO Expert | Proven Resutls | Bowie SEO',
+    title: 'Maryland SEO Expert Can Increase Leads, Customers and Revenue',
     description:
       'Do you want to rank higher, increase web traffic, attract more customers and make more money? Get a Maryland SEO Expert. Contact Bowie SEO today!',
     canonical: 'https://bowieseo.com/maryland-seo-expert',
