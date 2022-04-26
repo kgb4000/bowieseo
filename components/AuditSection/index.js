@@ -103,16 +103,6 @@ const AuditSection = () => {
               className="video-btn"
             />
           </section>
-
-          {/* <div className="player-wrapper">
-            <ReactPlayer
-              className="react-player"
-              url="https://youtu.be/YQ9VpQQWtEw"
-              width="100%"
-              height="100%"
-              controls={true}
-            />
-          </div> */}
           <div className="form-section">
             <h2>Fill out the form and get your Free Mini SEO Audit Today!</h2>
             <form onSubmit={handleOnSubmit}>

@@ -848,9 +848,9 @@ const LocalSEO = () => {
           </div>
         </section>
         <div className="btn">
-          <Link href={calendly} passHref target="_blank">
+          <a href={calendly} target="_blank" rel="noreferrer">
             <Button>Book a Call Today!</Button>
-          </Link>
+          </a>
         </div>
         <section>
           <div className="container">

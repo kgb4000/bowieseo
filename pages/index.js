@@ -115,14 +115,14 @@ export default function Home({ data }) {
               </ul>
             </div>
             <div className="btn">
-              <Link href={calendly} passHref>
-                <Button>Book a Call Today!</Button>
-              </Link>
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a call today!</Button>
+              </a>
             </div>
           </div>
         </section>
         <InfoSection {...homeObj} />
-        <AuditSection />
+        {/* <AuditSection /> */}
         <section className="not-struggling-section">
           <div className="container">
             <h2>You Don't Have to Struggle Anymore... Bowie SEO Can Help</h2>
@@ -197,9 +197,9 @@ export default function Home({ data }) {
             </p>
           </div>
           <div className="btn">
-            <Link href={calendly} passHref>
-              <Button>Book a Call Today!</Button>
-            </Link>
+            <a href={calendly} target="_blank" rel="noreferrer">
+              <Button>Book a call today!</Button>
+            </a>
           </div>
         </section>
         {/* <section>
@@ -296,13 +296,13 @@ export default function Home({ data }) {
               <p>Why?</p>
               <p>
                 Because 93% of online experiences begin with search engines, and{' '}
-                <Link
+                <a
                   href="https://www.seroundtable.com/google-46-of-searches-have-local-intent-26529.html"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <a>46% of Google searches</a>
-                </Link>{' '}
+                  46% of Google searches
+                </a>{' '}
                 are looking for local information.
               </p>
               <p>
@@ -343,9 +343,9 @@ export default function Home({ data }) {
               SEO into your overall marketing plan.
             </p>
             <div className="btn">
-              <Link href={calendly} passHref>
+              <a href={calendly} target="_blank" rel="noreferrer">
                 <Button>let's talk today!</Button>
-              </Link>
+              </a>
             </div>
           </div>
         </section>
