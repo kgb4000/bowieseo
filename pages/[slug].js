@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import styled from 'styled-components'
 import { getPost, getPosts, getPostsSlugs } from '/lib/data'
 import { RichText } from '@graphcms/rich-text-react-renderer'
 import { NextSeo, ArticleJsonLd } from 'next-seo'
@@ -82,15 +80,6 @@ export default function Articles({ post, shareLink }) {
       />
       <main>
         <div className="container author-info">
-          {/* <span>
-            {new Date(post.date).toLocaleDateString('en-us', {
-              year: 'numeric',
-              month: 'short',
-              day: 'numeric',
-            })}
-          </span>
-          <span>, by {post.author.name}</span> */}
-
           <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
           <RichText content={post.content.json} />
           <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />

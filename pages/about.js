@@ -10,6 +10,18 @@ import { Wrapper, Contact } from '../components/CardSection'
 import { NextSEO } from 'next-seo'
 
 const About = () => {
+  const SEO = {
+    title: 'About Bowie SEO',
+    description:
+      'Bowie SEO is an SEO company providing Search Engine Optimization services for businesses in the DC, Maryland, and Virginia. Contact Bowie SEO today!',
+    canonical: 'https://bowieseo.com/maryland-seo-expert',
+    openGraph: {
+      title: 'About Bowie SEO',
+      description:
+        'Bowie SEO is an SEO company providing Search Engine Optimization services for businesses in the DC, Maryland, and Virginia. Contact Bowie SEO today!',
+      type: 'website',
+    },
+  }
   return (
     <>
       <PageHero

@@ -336,9 +336,9 @@ export default function LocalSEO() {
           <div className="not-happy-box">
             <h4>Want to See Why Your Website is Not Ranking Higher?</h4>
             <div className="btn">
-              <Link href="/free-seo-audit">
+              <Link href="/free-mini-seo-audit">
                 <a>
-                  <Button>Get a Free SEO Audit &#8594;</Button>
+                  <Button>Get a Free Mini SEO Audit</Button>
                 </a>
               </Link>
             </div>

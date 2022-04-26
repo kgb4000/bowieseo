@@ -411,7 +411,7 @@ const MarylandSEOExpert = () => {
           </p>
         </div>
         <div className="btn">
-          <Link href="/free-website-audit" passHref>
+          <Link href={calendly} passHref>
             <Button>Book a call today</Button>
           </Link>
         </div>
@@ -458,7 +458,7 @@ const MarylandSEOExpert = () => {
             </Contact>
           </Wrapper>
           <div className="btn">
-            <Link href="/contact" passHref>
+            <Link href={calendly} passHref>
               <Button>Book a Call Today!</Button>
             </Link>
           </div>
@@ -540,9 +540,9 @@ const MarylandSEOExpert = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href={calendly} passHref target="_blank">
+        <a href={calendly} target="_blank" rel="noreferrer">
           <Button>Book a Call Today!</Button>
-        </Link>
+        </a>
       </div>
       <section>
         <div className="container">
