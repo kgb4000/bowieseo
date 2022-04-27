@@ -8,7 +8,7 @@ export default function Terms() {
     <>
       <NextSeo
         title="Terms of Service | Bowie SEO"
-        description="This Bowie SEO's terms of services."
+        description="Terms and conditions are an important part of doing business online. There are a variety of legal issues that need to be addressed when you create terms and conditions for your website, and it is best to consult with a lawyer or attorney who specializes in internet law before finalizing these documents."
         canonical="https://bowieseo.com/terms-of-service"
         noindex={true}
         nofollow={true}

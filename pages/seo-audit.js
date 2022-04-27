@@ -6,9 +6,26 @@ import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
 import ContactForm from '../components/Contact-Form'
 
+import { NextSeo } from 'next-seo'
+
 const Services = () => {
+  const SEO = {
+    title: "Get an SEO Audit and See Why You're Not On the First Page",
+    description:
+      "Get an SEO Audit and see what's stopping you from ranking on the first page of Google for your keywords. Contact us today!",
+    type: 'website',
+    canonical: 'https://bowieseo.com/seo-audit',
+    openGraph: {
+      title: "Get an SEO Audit and See Why You're Not On the First Page",
+      description:
+        "Get an SEO Audit and see what's stopping you from ranking on the first page of Google for your keywords. Contact us today!",
+      type: 'website',
+      image: [{}],
+    },
+  }
   return (
     <>
+      <NextSeo {...SEO} />
       <PageHero
         heading="SEO Audit"
         subText="We perform SEO Audits. Discover What's Stopping Your Website From Getting Traffic and Fix it!."

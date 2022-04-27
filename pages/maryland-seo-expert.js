@@ -36,8 +36,8 @@ const MarylandSEOExpert = () => {
     <>
       <NextSeo {...SEO} />
       <PageHero
-        heading="Maryland SEO Expert"
-        subText="We are SEO experts in Maryland. We use our SEO knowledge to find and create opportunities for your business to succeed."
+        heading="Maryland SEO Experts"
+        subText="We are SEO experts. We use our SEO knowledge to find and create opportunities for your business to rank higher, get more leads, more customers, and make more money."
         heroBtnLink={calendly}
         buttonText="Book a call Today!"
         heroBtnLink1="/free-mini-seo-audit"
@@ -91,9 +91,9 @@ const MarylandSEOExpert = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href="/contact" passHref>
+        <a href={calendly} target="_blank" rel="noreferrer">
           <Button>Book a call today!</Button>
-        </Link>
+        </a>
       </div>
       <AuditSection />
       <section>
@@ -208,29 +208,31 @@ const MarylandSEOExpert = () => {
             attract potential customers. We not a full service agency, we're an
             SEO company that specialize in search engine optimization for
             businesses in DC,{' '}
-            <Link href="/maryland-seo-company">
+            <Link href="/maryland-seo-company" passHref>
               <a>Maryland</a>
             </Link>
             , and Virginia.
           </p>
           <div className="services">
             <Container>
-              <Card>
-                <div className="card-info">
-                  <img
-                    src="/images/local.svg"
-                    alt="Keyword ranking image"
-                    loading="lazy"
-                  />
-                  <h3>Local SEO</h3>
-                  <p>
-                    Our local customers and clients are searching for your
-                    skills and services. Make sure they can find you and not
-                    your competition.
-                  </p>
-                </div>
-                <p>Learn more</p>
-              </Card>
+              <Link href="/local-seo-maryland" passHref>
+                <Card>
+                  <div className="card-info">
+                    <img
+                      src="/images/local.svg"
+                      alt="Keyword ranking image"
+                      loading="lazy"
+                    />
+                    <h3>Local SEO</h3>
+                    <p>
+                      Our local customers and clients are searching for your
+                      skills and services. Make sure they can find you and not
+                      your competition.
+                    </p>
+                  </div>
+                  <p>Learn more</p>
+                </Card>
+              </Link>
               <Card>
                 <div className="card-info">
                   <img
@@ -247,22 +249,25 @@ const MarylandSEOExpert = () => {
                 </div>
                 {/* <p>Learn more</p> */}
               </Card>
-              <Card>
-                <div className="card-info">
-                  <img
-                    src="/images/audit.svg"
-                    alt="Keyword ranking image"
-                    loading="lazy"
-                  />
-                  <h3>SEO Audit</h3>
-                  <p>
-                    See why your website isn't getting traffic or attracting
-                    customers, and why your competition is{' '}
-                    <span className="highlight ">stealing</span> your customers.
-                  </p>
-                </div>
-                <p>Learn more</p>
-              </Card>
+              <Link href="/seo-audit" passHref>
+                <Card>
+                  <div className="card-info">
+                    <img
+                      src="/images/audit.svg"
+                      alt="Keyword ranking image"
+                      loading="lazy"
+                    />
+                    <h3>SEO Audit</h3>
+                    <p>
+                      See why your website isn't getting traffic or attracting
+                      customers, and why your competition is{' '}
+                      <span className="highlight ">stealing</span> your
+                      customers.
+                    </p>
+                  </div>
+                  <p>Learn more</p>
+                </Card>
+              </Link>
               <Card>
                 <div className="card-info">
                   <img
@@ -294,7 +299,7 @@ const MarylandSEOExpert = () => {
                 </div>
                 <p>Learn more</p>
               </Card>
-              <Link href="/free-website-audit">
+              <Link href="/free-mini-seo-audit" passHref>
                 <a>
                   <Card>
                     <div className="card-info">
@@ -303,7 +308,7 @@ const MarylandSEOExpert = () => {
                         alt="Woman thiniking and in thought about why ehr website is not ranking"
                         loading="lazy"
                       />
-                      <h3>Free Website Audit</h3>
+                      <h3>Free Mini SEO Audit</h3>
                       <p>
                         Find out what's stopping your website from performing
                         better in the search engines with a free website audit.
@@ -332,9 +337,9 @@ const MarylandSEOExpert = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href={calendly} passHref>
+        <a href={calendly} target="_blank" rel="noreferrer">
           <Button>Book a call today!</Button>
-        </Link>
+        </a>
       </div>
       <section>
         <div className="container">
@@ -382,8 +387,10 @@ const MarylandSEOExpert = () => {
             or what's going on with your campaign.
           </p>
           <h3>#4 . You Can Grow Without Us</h3>
-          <p>Yes.</p>
-          <p>You can continue to grow your business without us.</p>
+          <p>
+            Yes, believe it or not, you can still continue to grow your business
+            without working with us.
+          </p>
           <p>
             Your website will still generate leads, get traffic, and customers
             even if you decide to stop working with us. Our goal is to build a
@@ -409,9 +416,9 @@ const MarylandSEOExpert = () => {
           </p>
         </div>
         <div className="btn">
-          <Link href={calendly} passHref>
-            <Button>Book a call today</Button>
-          </Link>
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Book a call today!</Button>
+          </a>
         </div>
       </section>
       <section className="pain-section">
@@ -428,6 +435,7 @@ const MarylandSEOExpert = () => {
                 src="/images/phone-call.svg"
                 className="icons"
                 loading="lazy"
+                alt="Call us today."
               />
               <p>
                 Book a call with us and tell us about your business and what you
@@ -436,7 +444,12 @@ const MarylandSEOExpert = () => {
             </Contact>
             <Contact>
               <h3>2. We Put a Plan Together</h3>
-              <img src="/images/plan.svg" className="icons" loading="lazy" />
+              <img
+                src="/images/plan.svg"
+                className="icons"
+                loading="lazy"
+                alt="We put a plan together for your business."
+              />
               <p>
                 Book a call with us and tell us about your business and what you
                 want to acheive.
@@ -448,6 +461,7 @@ const MarylandSEOExpert = () => {
                 src="/images/work-together.svg"
                 className="icons"
                 loading="lazy"
+                alt="We execute that plan to get you results."
               />
               <p>
                 Book a call with us and tell us about your business and what you
@@ -456,9 +470,9 @@ const MarylandSEOExpert = () => {
             </Contact>
           </Wrapper>
           <div className="btn">
-            <Link href={calendly} passHref>
-              <Button>Book a Call Today!</Button>
-            </Link>
+            <a href={calendly} target="_blank" rel="noreferrer">
+              <Button>Book a call today!</Button>
+            </a>
           </div>
         </div>
       </section>
@@ -500,9 +514,9 @@ const MarylandSEOExpert = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href="/contact" passHref>
-          <Button>Book a Call Today!</Button>
-        </Link>
+        <a href={calendly} target="_blank" rel="noreferrer">
+          <Button>Book a call today!</Button>
+        </a>
       </div>
       <section>
         <div className="container">
@@ -561,9 +575,9 @@ const MarylandSEOExpert = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href="/contact" passHref>
-          <Button>Book a Call Today!</Button>
-        </Link>
+        <a href={calendly} target="_blank" rel="noreferrer">
+          <Button>Book a call today!</Button>
+        </a>
       </div>
       <section>
         <div className="container">
@@ -603,9 +617,9 @@ const MarylandSEOExpert = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href="/contact" passHref>
-          <Button>Book a Call Today!</Button>
-        </Link>
+        <a href={calendly} target="_blank" rel="noreferrer">
+          <Button>Book a call today!</Button>
+        </a>
       </div>
       <section>
         <div className="container">
@@ -633,9 +647,9 @@ const MarylandSEOExpert = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href="/contact" passHref>
-          <Button>Get Your Free Website Audit</Button>
-        </Link>
+        <a href={calendly} target="_blank" rel="noreferrer">
+          <Button>Book a call today!</Button>
+        </a>
       </div>
     </>
   )

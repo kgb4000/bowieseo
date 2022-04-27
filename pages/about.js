@@ -191,7 +191,7 @@ const About = () => {
           </p>
           <Wrapper>
             <Contact>
-              <h3>Call us</h3>
+              <h3>Call us with your questions</h3>
               <img
                 src="/images/phone-call.svg"
                 className="icons"
@@ -203,7 +203,7 @@ const About = () => {
               </p>
             </Contact>
             <Contact>
-              <h3>We Plan</h3>
+              <h3>We'll analyze your business and get a plan</h3>
               <img src="/images/plan.svg" className="icons" loading="lazy" />
               <p>
                 We research and analyze your industry, your data and your
@@ -211,7 +211,7 @@ const About = () => {
               </p>
             </Contact>
             <Contact>
-              <h3>We Work</h3>
+              <h3>We'll work to help grow your business</h3>
               <img
                 src="/images/work-together.svg"
                 className="icons"

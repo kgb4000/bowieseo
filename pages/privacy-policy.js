@@ -8,7 +8,7 @@ export default function Policy() {
     <>
       <NextSeo
         title="Privacy Policy | Bowie SEO"
-        description="This the privacy policy for Bowie SEO."
+        description="We respect your privacy and are committed to protecting it. We collect, use, and disclose information in accordance with applicable laws. This policy sets out how we handle your information.."
         canonical="https://bowieseo.com/privacy-policy"
         noindex={true}
         nofollow={true}

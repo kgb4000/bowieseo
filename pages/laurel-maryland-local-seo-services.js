@@ -16,12 +16,12 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function LocalSEO() {
   const SEO = {
-    title: 'Laurel Maryland Local SEO Services',
+    title: 'Laurel Maryland Local SEO Services | Bowie SEO',
     description:
       'We are an SEO services company providing SEO for Laurel Maryland small businesses. Our local SEO services get you more website traffic and customers.',
     canonical: 'https://bowieseo.com/laurel-maryland-local-seo-services',
     openGraph: {
-      title: 'Laurel Maryland Local SEO Services| Bowie SEO',
+      title: 'Laurel Maryland Local SEO Services | Bowie SEO',
       description:
         'We are an SEO services company providing SEO for Laurel Maryland small businesses. Our local SEO services get you more website traffic and customers.',
       image: [{}],

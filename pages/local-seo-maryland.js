@@ -120,9 +120,9 @@ const LocalSEO = () => {
           start a campaign, book a call with us today.
         </p>
         <div className="btn">
-          <Link href={calendly} passHref target="_blank">
-            <Button>Book a Call Today!</Button>
-          </Link>
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Book a call today!</Button>
+          </a>
         </div>
         <section>
           <div className="container">
@@ -193,9 +193,9 @@ const LocalSEO = () => {
           </div>
         </section>
         <div className="btn">
-          <Link href={calendly} passHref target="_blank">
-            <Button>Book a Call Today!</Button>
-          </Link>
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Book a call today!</Button>
+          </a>
         </div>
         <section>
           <div className="container">
@@ -279,9 +279,9 @@ const LocalSEO = () => {
           </div>
         </section>
         <div className="btn">
-          <Link href={calendly} passHref target="_blank">
-            <Button>Let's talk about your website!</Button>
-          </Link>
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Book a call today!</Button>
+          </a>
         </div>
         <section>
           <div className="services-container">
@@ -293,23 +293,25 @@ const LocalSEO = () => {
             </p>
             <div className="services">
               <Container>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/audit.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>SEO Audit</h3>
-                    <p>
-                      See why your website isn't getting traffic or attracting
-                      customers, and why your competition is{' '}
-                      <span className="highlight ">stealing</span> your
-                      customers.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
+                <Link href="/seo-audit" passHref>
+                  <Card>
+                    <div className="card-info">
+                      <img
+                        src="/images/audit.svg"
+                        alt="Keyword ranking image"
+                        loading="lazy"
+                      />
+                      <h3>SEO Audit</h3>
+                      <p>
+                        See why your website isn't getting traffic or attracting
+                        customers, and why your competition is{' '}
+                        <span className="highlight ">stealing</span> your
+                        customers.
+                      </p>
+                    </div>
+                    <p>Learn more</p>
+                  </Card>
+                </Link>
                 <Card>
                   <div className="card-info one">
                     <img
@@ -373,7 +375,7 @@ const LocalSEO = () => {
                   </div>
                   <p>Learn more</p>
                 </Card>
-                <Link href="/free-mini-seo-audit">
+                <Link href="/free-mini-seo-audit" passHref>
                   <Card>
                     <div className="card-info">
                       <img
@@ -381,7 +383,7 @@ const LocalSEO = () => {
                         alt="Woman thiniking and in thought about why ehr website is not ranking"
                         loading="lazy"
                       />
-                      <h3>Free Website Audit</h3>
+                      <h3>Free Mini SEO Audit</h3>
                       <p>
                         Find out what's stopping your website from performing
                         better in the search engines with a free website audit.
@@ -769,9 +771,9 @@ const LocalSEO = () => {
           </div>
         </section>
         <div className="btn">
-          <Link href={calendly} passHref target="_blank">
-            <Button>Book a Call Today!</Button>
-          </Link>
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Book a call today!</Button>
+          </a>
         </div>
         <section>
           <div className="container">
@@ -801,13 +803,29 @@ const LocalSEO = () => {
               results from your campaign.
             </p>
             <h3>#3. We Leaders, We Don't Copy What Everyone Else is Doing!</h3>
-            <p>We are experts.</p>
+            <p>
+              We are{' '}
+              <Link href="/maryland-seo-expert" passHref>
+                <a>Maryland SEO experts</a>
+              </Link>
+              .
+            </p>
             <p>
               We don't have any cookie cutter templates that we follow, or
               follow so called experts who've never don't SEO before.
             </p>
             <h3>#4. We're 100% Transparent</h3>
-            <p></p>
+            <p>You don't have to wonder where we are or what we're doing.</p>
+            <p>
+              {' '}
+              We're happy to show you everything we're doing to help get you
+              more leads and customers.
+            </p>
+            <p>
+              We'll never keep you in the dark and you'll never have wait a
+              month to wonder what we're doing or what's going on with your
+              campaign.
+            </p>
             <h3>#5. Our SEO Company is Located in The DMV!</h3>
           </div>
         </section>
@@ -835,12 +853,12 @@ const LocalSEO = () => {
 
                 <li>Hyattsville, MD</li>
                 <li>
-                  <Link href="/laurel-maryland-local-seo-services">
+                  <Link href="/laurel-maryland-local-seo-services" passHref>
                     <a>Laurel, MD</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/seo-services-ocean-city">
+                  <Link href="/seo-services-ocean-city" passHref>
                     <a>Ocean City, MD</a>
                   </Link>
                 </li>
