@@ -96,8 +96,12 @@ export default function Articles({ post, shareLink }) {
 const BlogContent = styled.main`
   .author-info {
     h1 {
-      font-size: 2.5rem;
+      font-size: 1.8rem;
       margin: 2rem 0;
+
+      @media screen and (min-width: 768px) {
+        font-size: 2.5rem;
+      }
     }
     h2 {
       text-align: left;
