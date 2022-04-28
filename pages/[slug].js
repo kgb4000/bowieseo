@@ -107,5 +107,8 @@ const BlogContent = styled.main`
       text-align: left;
       margin-left: 0;
     }
+    img {
+      text-align: center;
+    }
   }
 `
