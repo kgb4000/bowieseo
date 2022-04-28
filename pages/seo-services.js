@@ -51,6 +51,65 @@ const Services = () => {
             <Button>Book a Call Today!</Button>
           </Link>
         </div>
+        {/* <section>
+          <div className="services-container">
+            <h2>Industry Services</h2>
+            <div className="services">
+              <Container>
+                <Link href="/local-seo-maryland" passhref>
+                  <Card>
+                    <div className="card-info">
+                      <img
+                        src="/images/seo-for-landscapers-cover.jpg"
+                        alt="Keyword ranking image"
+                        loading="lazy"
+                      />
+                      <h3>SEO for Landscapers</h3>
+                      <p>
+                        Our local customers and clients are searching for your
+                        skills and services. Make sure they can find you and not
+                        your competition.
+                      </p>
+                    </div>
+                    <p>Learn more</p>
+                  </Card>
+                </Link>
+                <Card>
+                  <div className="card-info">
+                    <img
+                      src="/images/audit.svg"
+                      alt="Keyword ranking image"
+                      loading="lazy"
+                    />
+                    <h3>SEO Audit</h3>
+                    <p>
+                      See why your website isn't getting traffic or attracting
+                      customers, and why your competition is{' '}
+                      <span className="highlight ">stealing</span> your
+                      customers.
+                    </p>
+                  </div>
+                  <p>Learn more</p>
+                </Card>
+                <Card>
+                  <div className="card-info one">
+                    <img
+                      src="/images/keyword-research.svg"
+                      alt="Keyword ranking image"
+                      loading="lazy"
+                    />
+                    <h3>Keyword Research</h3>
+                    <p>
+                      Get more website traffic and more leads with our powerful
+                      SEO services. Let Bowie SEO put your business on the path
+                      to SEO success.
+                    </p>
+                  </div>
+                </Card>
+              </Container>
+            </div>
+          </div>
+        </section> */}
         <section>
           <div className="services-container">
             <ServicesCard>
@@ -313,7 +372,7 @@ const Services = () => {
                   </div>
                   {/* <p>Learn more</p> */}
                 </Card>
-                <Link href="/free-mini-seo-audit">
+                <Link href="/free-mini-seo-audit" passHref>
                   <Card>
                     <div className="card-info">
                       <img
@@ -340,9 +399,9 @@ const Services = () => {
               , and Virginia.
             </p>
             <div className="btn">
-              <Link href="/contact" passHref>
-                <Button>Book a Call Today!</Button>
-              </Link>
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a call today!</Button>
+              </a>
             </div>
           </div>
         </section>

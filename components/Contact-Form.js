@@ -120,12 +120,11 @@ export default function ContactForm({ h2, p }) {
                 />
               </div>
               <div className="form-input">
-                <label htmlFor="phone">Phone *</label>
+                <label htmlFor="phone">Phone (Optional)</label>
                 <input
                   id="phone"
                   type="text"
                   onChange={handleOnChange}
-                  required
                   value={inputs.phone}
                 />
               </div>
@@ -145,7 +144,7 @@ export default function ContactForm({ h2, p }) {
               >
                 {!status.submitting
                   ? !status.submitted
-                    ? 'I want more Traffic!!!'
+                    ? 'I want more Traffic!'
                     : 'Got it!'
                   : 'Submitting...'}
               </SubmitButton>

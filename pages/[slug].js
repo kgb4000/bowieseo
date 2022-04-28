@@ -4,6 +4,7 @@ import { NextSeo, ArticleJsonLd } from 'next-seo'
 import Bio from '../components/author-bio'
 import { ShareBtn } from '../components/share-btn'
 import PageHero from '../components/PageHeroSection'
+import styled from 'styled-components'
 
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug)
@@ -69,7 +70,7 @@ export default function Articles({ post, shareLink }) {
       />
 
       <NextSeo {...SEO} />
-      <PageHero
+      {/* <PageHero
         heading={post.postTitle}
         date={new Date(post.date).toLocaleDateString('en-us', {
           year: 'numeric',
@@ -77,15 +78,30 @@ export default function Articles({ post, shareLink }) {
           day: 'numeric',
         })}
         authorName={post.author.name}
-      />
-      <main>
+      /> */}
+      <BlogContent>
         <div className="container author-info">
+          <h1>{post.postTitle}</h1>
           <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
+          <img src={[post.coverImage.url]} />
           <RichText content={post.content.json} />
           <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
           <Bio authorImg={post.author.photo.url} authorBio={post.author.bio} />
         </div>
-      </main>
+      </BlogContent>
     </>
   )
 }
+
+const BlogContent = styled.main`
+  .author-info {
+    h1 {
+      font-size: 2.5rem;
+      margin: 2rem 0;
+    }
+    h2 {
+      text-align: left;
+      margin-left: 0;
+    }
+  }
+`

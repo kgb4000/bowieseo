@@ -52,16 +52,16 @@ export default function Blog({ data }) {
           {data.posts.map((post) => (
             <div key={post.slug}>
               <div className="blog-posts">
-                <Link href={`/${post.slug}`}>
+                <Link href={`/${post.slug}`} passHref>
                   <img src={post.coverImage.url} alt={post.title} />
                 </Link>
                 <div className="blog-info">
-                  <Link href={`/${post.slug}`}>
+                  <Link href={`/${post.slug}`} passHref>
                     <a>
                       <h2>{post.postTitle}</h2>
                     </a>
                   </Link>
-                  <Link href={`/${post.slug}`}>
+                  <Link href={`/${post.slug}`} passHref>
                     <a>Read more</a>
                   </Link>
                 </div>
@@ -104,8 +104,8 @@ const BlogMain = styled.main`
 
 
   @media (min-width: 768px) {
-    h2 {
-    font-size: 2rem;
+    .blog-info h2 {
+    font-size: 1.8rem;
     }
     .blog-posts {
       display: flex;

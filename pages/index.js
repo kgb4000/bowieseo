@@ -389,7 +389,7 @@ export default function Home({ data }) {
             </p>
             <div className="services">
               <Container>
-                <Link prefetch href="/seo-services" passHref>
+                <Link href="/seo-services" passHref>
                   <Card>
                     <div className="card-info">
                       <img
@@ -407,7 +407,7 @@ export default function Home({ data }) {
                     <p>Learn more</p>
                   </Card>
                 </Link>
-                <Link prefetch href="/local-seo-maryland" passHref>
+                <Link href="/local-seo-maryland" passHref>
                   <Card>
                     <div className="card-info">
                       <img
@@ -442,7 +442,6 @@ export default function Home({ data }) {
                   </div>
                   <p>Learn more</p>
                 </Card>
-
                 <Card>
                   <div className="card-info">
                     <img
@@ -474,7 +473,7 @@ export default function Home({ data }) {
                   </div>
                   <p>Learn more</p>
                 </Card>
-                <Link prefetch href="/free-mini-seo-audit" passHref>
+                <Link href="/free-mini-seo-audit" passHref>
                   <Card>
                     <div className="card-info">
                       <img
