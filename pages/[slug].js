@@ -82,8 +82,9 @@ export default function Articles({ post, shareLink }) {
       <BlogContent>
         <div className="container author-info">
           <h1>{post.postTitle}</h1>
-          <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
+
           <img src={[post.coverImage.url]} />
+          <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
           <RichText content={post.content.json} />
           <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
           <Bio authorImg={post.author.photo.url} authorBio={post.author.bio} />

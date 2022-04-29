@@ -28,24 +28,31 @@ export default function Bio({ authorName, authorImg, authorBio, shareLink }) {
 }
 
 const BioSection = styled.div`
-  max-width: 960px;
-  padding: 1rem;
+  padding: 2rem;
   margin: 0 auto;
   margin-top: 3rem;
   border-radius: 5px;
-  background: #f6f9fc;
+  border: 2px solid #ddd;
   color: #101010;
 
+  .solution-container {
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 500px) {
+      display: flex;
+    }
+  }
+
   img {
-    width: 5rem;
-    border: 4px solid #d35400;
+    width: 6rem;
+    border: 4px solid #ff5200;
     border-radius: 50%;
-    margin-bottom: 1rem;
+    margin-right: 2rem;
   }
 
   p {
-    border-top: 2px solid #d35400;
-    padding-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 0;
   }
 `

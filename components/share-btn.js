@@ -15,15 +15,15 @@ export const ShareBtn = ({ shareLink }) => {
               <FacebooKBox>Facebook</FacebooKBox>
             </FacebookShareButton>
           </div>
-          <div className="twitter-btn">
-            <TwitterShareButton url={shareLink}>
-              <TwitterBox>Twitter</TwitterBox>
-            </TwitterShareButton>
-          </div>
           <div className="email-btn">
             <EmailShareButton url={shareLink}>
               <EamilBox>Email</EamilBox>
             </EmailShareButton>
+          </div>
+          <div className="twitter-btn">
+            <TwitterShareButton url={shareLink}>
+              <TwitterBox>Twitter</TwitterBox>
+            </TwitterShareButton>
           </div>
         </div>
       </SocialContainer>
@@ -77,7 +77,7 @@ const EamilBox = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #657786;
+  background-color: #ddd;
   color: #fff;
   font-size: 0.8rem;
   margin: 4px;
