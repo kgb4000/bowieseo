@@ -115,6 +115,25 @@ const Services = () => {
             <ServicesCard>
               <div className="services-card-info">
                 <div className="card-info">
+                  <h3>SEO for Landscapers</h3>
+                  <p>
+                    As a landscaper, you know that a beautiful yard is the
+                    result of hard work and attention to detail. But what about
+                    making sure your business is visible online? Search engine
+                    optimization (SEO) is a vital part of any digital marketing
+                    strategy, and it can be especially beneficial for businesses
+                    in the landscaping industry.
+                  </p>
+                  <p>Want to see how SEO can help your landscaping business?</p>
+                  <Link href="/seo-for-landscapers" passHref>
+                    <Button>Landscaper SEO</Button>
+                  </Link>
+                </div>
+              </div>
+            </ServicesCard>
+            <ServicesCard>
+              <div className="services-card-info">
+                <div className="card-info">
                   <h3>Maryland SEO Services</h3>
                   <p>
                     Our team of SEO experts will work with you to develop a
@@ -129,7 +148,7 @@ const Services = () => {
                   </p>
 
                   <Link href="/maryland-seo-services" passHref>
-                    <Button>Learn more here</Button>
+                    <Button>More about MD SEO</Button>
                   </Link>
                 </div>
               </div>
@@ -155,7 +174,7 @@ const Services = () => {
               /> */}
               </div>
               <Link href="/maryland-seo-services" passHref>
-                <Button>Learn more here</Button>
+                <Button>More about DC SEO</Button>
               </Link>
             </ServicesCard>
             <ServicesCard>
@@ -182,7 +201,7 @@ const Services = () => {
               /> */}
               </div>
               <Link href="/maryland-seo-services" passHref>
-                <Button>Learn more here</Button>
+                <Button>More about Va SEO</Button>
               </Link>
             </ServicesCard>
           </div>

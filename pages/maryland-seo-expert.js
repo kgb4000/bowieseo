@@ -21,7 +21,7 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const MarylandSEOExpert = () => {
   const SEO = {
-    title: 'Maryland SEO Expert | Increase Your Leads, Customers and Revenue',
+    title: 'Maryland SEO Expert | Increase Traffic, Customers and Revenue',
     description:
       'Do you want to rank higher, increase web traffic, attract more customers and make more money? Get a Maryland SEO Expert. Contact Bowie SEO today!',
     canonical: 'https://bowieseo.com/maryland-seo-expert',
@@ -196,9 +196,9 @@ const MarylandSEOExpert = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href="/contact" passHref>
-          <Button>Book a Call Today!</Button>
-        </Link>
+        <a href={calendly} target="_blank" rel="noreferrer">
+          <Button>Book a call today!</Button>
+        </a>
       </div>
       <section className="our-services-section">
         <div className="services-container">
@@ -220,7 +220,7 @@ const MarylandSEOExpert = () => {
                   <div className="card-info">
                     <img
                       src="/images/local.svg"
-                      alt="Keyword ranking image"
+                      alt="Local SEO."
                       loading="lazy"
                     />
                     <h3>Local SEO</h3>
@@ -237,7 +237,7 @@ const MarylandSEOExpert = () => {
                 <div className="card-info">
                   <img
                     src="/images/competitive-analysis.svg"
-                    alt="Man analyzing data"
+                    alt="Woman analyzing data."
                     loading="lazy"
                   />
                   <h3>Competitive Ananlysis</h3>
@@ -254,7 +254,7 @@ const MarylandSEOExpert = () => {
                   <div className="card-info">
                     <img
                       src="/images/audit.svg"
-                      alt="Keyword ranking image"
+                      alt="Guy performing seo audit."
                       loading="lazy"
                     />
                     <h3>SEO Audit</h3>
@@ -272,7 +272,7 @@ const MarylandSEOExpert = () => {
                 <div className="card-info">
                   <img
                     src="/images/technical.svg"
-                    alt="Man analyzing data"
+                    alt="Man doing technical SEO."
                     loading="lazy"
                   />
                   <h3>Technical SEO</h3>
@@ -288,7 +288,7 @@ const MarylandSEOExpert = () => {
                 <div className="card-info">
                   <img
                     src="/images/competitive-analysis.svg"
-                    alt="Man analyzing data"
+                    alt="Woman doing Google My Business optimization."
                     loading="lazy"
                   />
                   <h3>GMB Optimization</h3>
@@ -305,7 +305,7 @@ const MarylandSEOExpert = () => {
                     <div className="card-info">
                       <img
                         src="/images/thinking.svg"
-                        alt="Woman thiniking and in thought about why ehr website is not ranking"
+                        alt="Woman thiniking about getting a free mini SEO audit."
                         loading="lazy"
                       />
                       <h3>Free Mini SEO Audit</h3>

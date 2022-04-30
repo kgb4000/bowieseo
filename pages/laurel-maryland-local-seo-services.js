@@ -211,7 +211,7 @@ export default function LocalSEO() {
                   <div className="card-info">
                     <img
                       src="/images/thinking.svg"
-                      alt="Woman thiniking and in thought about why ehr website is not ranking"
+                      alt="Woman thiniking about getting a free mini SEO audit."
                       loading="lazy"
                     />
                     <h3>Free Website Audit</h3>
