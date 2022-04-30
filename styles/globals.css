@@ -503,3 +503,10 @@ textarea {
 .container .author-info h2 {
   text-align: left;
 }
+
+.seo-help {
+  background: #ecf0f1;
+  padding: 1rem;
+  border-left: 12px solid #ff5200;
+  margin-bottom: 4rem;
+}
