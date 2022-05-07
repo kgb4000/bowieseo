@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import styled from 'styled-components'
-import { getPost, getPosts, getPostsSlugs } from '/lib/data'
-import { ShareBtn } from './share-btn'
+import { getPost, getPosts } from '/lib/data'
 
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug)

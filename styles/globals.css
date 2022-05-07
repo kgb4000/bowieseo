@@ -52,7 +52,7 @@ a {
 }
 
 .sub-text {
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
 }
@@ -508,5 +508,5 @@ textarea {
   background: #ecf0f1;
   padding: 1rem;
   border-left: 12px solid #ff5200;
-  margin-bottom: 4rem;
+  margin-bottom: 4SSrem;
 }

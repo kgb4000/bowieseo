@@ -61,6 +61,7 @@ export default function Articles({ post, shareLink }) {
         url={`https://bowieseo.com/${post.slug}`}
         title={post.title}
         images={[post.coverImage.url]}
+        alt={post.title}
         datePublished={post.date}
         authorName={[post.author.name]}
         authorImg={post.author.photo.url}
@@ -83,7 +84,7 @@ export default function Articles({ post, shareLink }) {
         <div className="container author-info">
           <h1>{post.postTitle}</h1>
 
-          <img src={[post.coverImage.url]} />
+          <img src={[post.coverImage.url]} alt={post.title} loading="lazy" />
           <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
           <RichText content={post.content.json} />
           <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />

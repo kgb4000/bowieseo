@@ -22,7 +22,7 @@ import ResultsSection from '../components/ResultsSection'
 
 const AuditSection = dynamic(() => import('../components/AuditSection'))
 
-const Blog = dynamic(() => import('../components/BlogSection'))
+// const Blog = dynamic(() => import('../components/BlogSection'))
 
 export const getStaticProps = async () => {
   const data = await getPosts()
@@ -711,12 +711,12 @@ export default function Home({ data }) {
             </div>
           </div>
         </section>
-        <section className="pain-section">
+        {/* <section className="pain-section">
           <div className="container">
             <h2>Tips From Our Blog</h2>
           </div>
           <Blog data={data} />
-        </section>
+        </section> */}
         <section className="faq-section">
           <div className="container">
             <h2>Frequently Asked Questions</h2>
