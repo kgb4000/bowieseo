@@ -36,8 +36,8 @@ const MarylandSEOExpert = () => {
     <>
       <NextSeo {...SEO} />
       <PageHero
-        heading="Maryland SEO Experts"
-        subText="We are SEO experts. We use our SEO knowledge to find and create opportunities for your business to rank higher, get more leads, more customers, and make more money."
+        heading="Maryland SEO Expert"
+        subText="We are SEO experts. We use our knowledge to find and create opportunities for your business to rank higher, get more leads, more customers, and make more money."
         heroBtnLink={calendly}
         buttonText="Book a call Today!"
         heroBtnLink1="/free-mini-seo-audit"

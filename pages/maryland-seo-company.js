@@ -24,14 +24,14 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 const MarylandSEOCompany = () => {
   const SEO = {
     title:
-      'A Maryland SEO Company Increasing Leads and Revenue for Small Business',
+      'Maryland SEO | Maryland SEO Company Increasing Leads and Revenue for Small Business',
     description:
       "Wer'e a Maryland SEO company that help businesses increase web traffic, attract more customers, and increase revenue. Book a call with us today!",
     type: 'website',
     canonical: 'https://bowieseo.com/maryland-seo-company',
     openGraph: {
       title:
-        'A Maryland SEO Company Increasing Leads and Revenue for Small Business',
+        'Maryland SEO | Maryland SEO Company Increasing Leads and Revenue for Small Business',
       description:
         "Wer'e a Maryland SEO company that help businesses increase web traffic, attract more customers, and increase revenue. Book a call with us today!",
       type: 'website',

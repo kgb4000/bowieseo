@@ -15,6 +15,7 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     TagManager.initialize({ gtmId: 'GTM-K5LS529' })
   }, [])
+
   const [isOpen, setIsOpen] = useState(false)
 
   const toggle = () => {
