@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
+import { Suspense } from 'react'
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import HeroSection from '../components/HeroSection'
@@ -20,9 +21,13 @@ import {
 import { Card, Container, Wrapper, Contact } from '../components/CardSection'
 import ResultsSection from '../components/ResultsSection'
 
-const AuditSection = dynamic(() => import('../components/AuditSection'))
+const AuditSection = dynamic(() => import('../components/AuditSection'), {
+  suspense: true,
+})
 
-// const Blog = dynamic(() => import('../components/BlogSection'))
+const Blog = dynamic(() => import('../components/BlogSection'), {
+  suspense: true,
+})
 
 export const getStaticProps = async () => {
   const data = await getPosts()
@@ -135,7 +140,10 @@ export default function Home({ data }) {
           </div>
         </section>
         <InfoSection {...homeObj} />
-        <AuditSection />
+        <Suspense fallback={`loading`}>
+          <AuditSection />
+        </Suspense>
+
         <section className="not-struggling-section">
           <div className="container">
             <h2>You Don't Have to Struggle Anymore... Bowie SEO Can Help</h2>
@@ -711,12 +719,16 @@ export default function Home({ data }) {
             </div>
           </div>
         </section>
-        {/* <section className="pain-section">
+        <section className="pain-section">
           <div className="container">
             <h2>Tips From Our Blog</h2>
           </div>
-          <Blog data={data} />
-        </section> */}
+          <div>
+            <Suspense fallback={`loading`}>
+              <Blog data={data} />
+            </Suspense>
+          </div>
+        </section>
         <section className="faq-section">
           <div className="container">
             <h2>Frequently Asked Questions</h2>
