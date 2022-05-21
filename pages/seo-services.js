@@ -14,15 +14,15 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const Services = () => {
   const SEO = {
-    title: 'SEO Services from Bowie SEO | SEO That Helps Your Business Grow',
+    title: 'SEO Services That Help Your Business Grow | Bowie SEO',
     description:
-      'Our SEO services help you get more customers, more web traffic, and increase your revenue. Contact us today!',
+      'Our SEO services help your business get more website traffic, more leads and customers, and increase your revenue. Contact us today to see how we can help!',
     type: 'website',
     canonical: 'https://bowieseo.com/seo-services',
     openGraph: {
-      title: 'SEO Services from Bowie SEO | SEO That Helps Your Business Grow',
+      title: 'SEO Services That Help Your Business Grow | Bowie SEO',
       description:
-        'Our SEO services help you get more customers, more web traffic, and increase your revenue. Contact us today!',
+        'Our SEO services help your business get more website traffic, more leads and customers, and increase your revenue. Contact us today to see how we can help!',
       type: 'website',
       image: [{}],
     },
@@ -148,7 +148,7 @@ const Services = () => {
                   </p>
 
                   <Link href="/maryland-seo-services" passHref>
-                    <Button>More about MD SEO</Button>
+                    <Button>Maryland SEO</Button>
                   </Link>
                 </div>
               </div>
@@ -174,7 +174,7 @@ const Services = () => {
               /> */}
               </div>
               <Link href="/maryland-seo-services" passHref>
-                <Button>More about DC SEO</Button>
+                <Button>DC SEO</Button>
               </Link>
             </ServicesCard>
             <ServicesCard>
@@ -201,7 +201,7 @@ const Services = () => {
               /> */}
               </div>
               <Link href="/maryland-seo-services" passHref>
-                <Button>More about Va SEO</Button>
+                <Button>Va SEO</Button>
               </Link>
             </ServicesCard>
           </div>

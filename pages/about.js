@@ -16,7 +16,7 @@ const About = () => {
     title: 'About Bowie SEO',
     description:
       'Bowie SEO is an SEO company providing Search Engine Optimization services for businesses in the DC, Maryland, and Virginia. Contact Bowie SEO today!',
-    canonical: 'https://bowieseo.com/maryland-seo-expert',
+    canonical: 'https://bowieseo.com/about',
     openGraph: {
       title: 'About Bowie SEO',
       description:
@@ -95,8 +95,11 @@ const About = () => {
             height="800px"
           />
           <p>
-            We focus on SEO, that's why we're experts and can get you the
-            results you want.
+            We focus on SEO, that's why we're{' '}
+            <Link href="/maryland-seo-expert" passHref>
+              <a>SEO experts</a>
+            </Link>{' '}
+            and can get you the results to help grow your business.
           </p>
           <section>
             <div className="btn">

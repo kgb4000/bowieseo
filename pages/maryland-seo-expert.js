@@ -21,14 +21,14 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const MarylandSEOExpert = () => {
   const SEO = {
-    title: 'Maryland SEO Expert | Increase Traffic, Customers and Revenue',
+    title: 'Maryland SEO Expert | Increase Web Traffic, Boost Revenue',
     description:
-      'Do you want to rank higher, increase web traffic, attract more customers and make more money? Get a Maryland SEO Expert. Contact Bowie SEO today!',
+      'Our Maryland SEO Expert can help your business increase web traffic, attract more customers and make more money. Contact us today for a free consultation!',
     canonical: 'https://bowieseo.com/maryland-seo-expert',
     openGraph: {
-      title: 'Maryland SEO Expert | Increase Your Leads, Customers and Revenue',
+      title: 'Maryland SEO Expert | Increase Web Traffic, Boost Revenue',
       description:
-        'Do you want to rank higher, increase web traffic, attract more customers and make more money? Get a Maryland SEO Expert. Contact Bowie SEO today!',
+        'Our Maryland SEO Expert can help your business increase web traffic, attract more customers and make more money. Contact us today for a free consultation!',
       type: 'website',
     },
   }
