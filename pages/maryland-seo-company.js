@@ -17,7 +17,7 @@ import {
   processObj6,
 } from '../components/ProcessSection/Data/Process1'
 
-import { NextSeo } from 'next-seo'
+import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
@@ -341,6 +341,7 @@ const MarylandSEOCompany = () => {
                 src="/images/phone-call.svg"
                 className="icons"
                 loading="lazy"
+                alt="Call us!"
               />
               <p>
                 Book a call and tell us about your business. Tell us what you
@@ -349,7 +350,12 @@ const MarylandSEOCompany = () => {
             </Contact>
             <Contact>
               <h3>We Plan</h3>
-              <img src="/images/plan.svg" className="icons" loading="lazy" />
+              <img
+                src="/images/plan.svg"
+                className="icons"
+                loading="lazy"
+                alt="We create a plan first."
+              />
               <p>
                 After we get all the information, we plan what actions will
                 bring your business the best results.
@@ -361,6 +367,7 @@ const MarylandSEOCompany = () => {
                 src="/images/work-together.svg"
                 className="icons"
                 loading="lazy"
+                alt="We work together to make your SEO campaign successful."
               />
               <p>
                 We execute or plan. We track and make changes to improve your
@@ -369,9 +376,9 @@ const MarylandSEOCompany = () => {
             </Contact>
           </Wrapper>
           <div className="btn">
-            <Link href={calendly} passHref target="_blank">
+            <a href={calendly} target="_blank">
               <Button>Book a Call Today!</Button>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
@@ -447,11 +454,35 @@ const MarylandSEOCompany = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href="/contact" passHref>
+        <a href={calendly} target="_blank">
           <Button>Book a Call Today!</Button>
-        </Link>
+        </a>
       </div>
       <section>
+        <FAQPageJsonLd
+          mainEntity={[
+            {
+              questionName: 'How Can SEO Help My Business?',
+              acceptedAnswerText:
+                "First, by improving your website's search engine optimization, you can increase your visibility on the web, attract more qualified leads, and boost your sales.",
+            },
+            {
+              questionName: 'How Much Does Maryland SEO Cost?',
+              acceptedAnswerText:
+                'SEO for businesses in Maryland will start around $1800 per month and can cost as much as $5000 per month. As a professional Maryland SEO company and SEO experts, we offer only White Hat SEO services according to your business needs.',
+            },
+            {
+              questionName: 'What is the Difference between SEO and Local SEO?',
+              acceptedAnswerText:
+                'In short, SEO (search engine optimization) is the process of improving the visibility and ranking of your website in search engine results pages (SERPs). Local SEO, on the other hand, is focused on optimizing your website for local search results.',
+            },
+            {
+              questionName: 'Who Should Use SEO?',
+              acceptedAnswerText:
+                "SEO is a system that can be used by anyone who wants to improve their online visibility and organic search traffic. This includes individuals, businesses, and organizations of all sizes. Whether you're just starting out with a website or you've been online for years, SEO can help you achieve your goals.",
+            },
+          ]}
+        />
         <div className="container">
           <h2>Frequently Asked Questions</h2>
           <div className="faq-questions">
@@ -490,23 +521,30 @@ const MarylandSEOCompany = () => {
               have and help you get started on the path to success.
             </p>
             <div className="btn faq">
-              <Link href={calendly} passHref target="_blank">
+              <a href={calendly} target="_blank">
                 <Button>Book a Call Today!</Button>
-              </Link>
+              </a>
             </div>
             <h3>#2. How Much Does Maryland SEO Cost?</h3>
+            <p>
+              SEO for businesses in Maryland will start at $1800 per month and
+              will cost as much as $5000 per month.
+            </p>
             <p>
               As you may have seen on the web when you search for SEO services,
               Some SEO companies offer services starting as low as $199.00 a
               month. Other companies market services starting at $249.00 a
-              month. Although these prices may seem like a deal, please be
-              aware. Cheap SEO prices usually mean affordable SEO services. Your
-              SEO campaign may take years to see any results for those prices.
+              month.
+            </p>
+            <p>
+              Although these prices may seem like a deal, please be aware. Cheap
+              SEO prices usually mean affordable SEO services. Your SEO campaign
+              may take years to see any results for those prices.
             </p>
             <p>
               Some of these SEO companies are not even in Maryland or the DMV.
             </p>
-            <p>Some cheap SEO companies are known to use Black Hat SEO.</p>
+            <p>Some cheap SEO companies are also known to use Black Hat SEO.</p>
             <p>
               Black Hat SEO goes against the search engine's terms of service,
               and although it can get you ranked, there is an excellent chance
@@ -556,11 +594,11 @@ const MarylandSEOCompany = () => {
             </p>
             <h3>#4. Who Should Use SEO?</h3>
             <p>
-              SEO is a tool that can be used by anyone who wants to improve
+              SEO is a system that can be used by anyone who wants to improve
               their online visibility and organic search traffic. This includes
               individuals, businesses, and organizations of all sizes. Whether
               you're just starting out with a website or you've been online for
-              years, SEO can help you achieve your goals.{' '}
+              years, SEO can help you achieve your goals.
             </p>
             <p>
               There are many different factors that go into SEO, and it can be
@@ -578,9 +616,9 @@ const MarylandSEOCompany = () => {
               worth the effort.
             </p>
             <div className="btn faq">
-              <Link href={calendly} passHref target="_blank">
+              <a href={calendly} target="_blank">
                 <Button>Book a Call Today!</Button>
-              </Link>
+              </a>
             </div>
             <h3>#5. Can You Guarantee Results?</h3>
           </div>

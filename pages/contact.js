@@ -6,6 +6,8 @@ import ContactForm from '../components/Contact-Form'
 
 import { NextSeo } from 'next-seo'
 
+const calendly = 'https://calendly.com/bowieseo/30min'
+
 const Contact = () => {
   const SEO = {
     title: 'Contact Us to Learn How SEO Can Help Grow Your Business.',
@@ -25,7 +27,7 @@ const Contact = () => {
       <PageHero
         heading="Contact"
         subText="Let us help you rank higher in the search engines, get more web traffic, reach more customers, and make more money."
-        heroBtnLink="/contact"
+        heroBtnLink={calendly}
         buttonText="Book a call"
       />
       <section>

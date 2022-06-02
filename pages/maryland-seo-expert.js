@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react'
+import { Suspense } from 'react'
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
@@ -14,14 +15,17 @@ import {
   pillarObj4,
 } from '../components/ProcessSection/Data/Process1'
 
-import { NextSeo } from 'next-seo'
-import AuditSection from '../components/AuditSection'
+import { NextSeo, FAQPageJsonLd } from 'next-seo'
+
+const AuditSection = dynamic(() => import('../components/AuditSection'), {
+  suspense: true,
+})
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
 const MarylandSEOExpert = () => {
   const SEO = {
-    title: 'Maryland SEO Expert | Increase Web Traffic, Boost Revenue',
+    title: 'Maryland SEO Expert | Increase Web Traffic and Leads',
     description:
       'Our Maryland SEO Expert can help your business increase web traffic, attract more customers and make more money. Contact us today for a free consultation!',
     canonical: 'https://bowieseo.com/maryland-seo-expert',
@@ -60,6 +64,12 @@ const MarylandSEOExpert = () => {
             visible and accessible to search engine crawlers. It also involves
             building links to the website from other high-quality websites.
           </p>
+          <img
+            src="images/maryland-seo-expert.webp"
+            alt="Maryland SEO Expert"
+            width="1000"
+            height="450"
+          />
           <p>
             As SEO experts, we have a deep understanding of how search engines
             work and are always keep up to date with the latest changes.
@@ -69,7 +79,10 @@ const MarylandSEOExpert = () => {
             Screaming Frog SEO Spider to help improve your website’s visibility
             and ranking.
           </p>
-          <p>We also have experience in web design, coding, and marketing.</p>
+          <p>
+            We also have experience in web design, coding, and marketing, but we
+            just concentrate on providing SEO.
+          </p>
           <p>
             This combination of skills allows us to not only improve a website’s
             ranking, but also to help increase its traffic and conversion rates.
@@ -95,7 +108,9 @@ const MarylandSEOExpert = () => {
           <Button>Book a call today!</Button>
         </a>
       </div>
-      <AuditSection />
+      <Suspense fallback={`loading`}>
+        <AuditSection />
+      </Suspense>
       <section>
         <div className="container">
           <h2>
@@ -247,7 +262,6 @@ const MarylandSEOExpert = () => {
                     own websites.
                   </p>
                 </div>
-                {/* <p>Learn more</p> */}
               </Card>
               <Link href="/seo-audit" passHref>
                 <Card>
@@ -282,7 +296,6 @@ const MarylandSEOExpert = () => {
                     own websites.
                   </p>
                 </div>
-                {/* <p>Learn more</p> */}
               </Card>
               <Card>
                 <div className="card-info">
@@ -300,23 +313,21 @@ const MarylandSEOExpert = () => {
                 <p>Learn more</p>
               </Card>
               <Link href="/free-mini-seo-audit" passHref>
-                <a>
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/thinking.svg"
-                        alt="Woman thiniking about getting a free mini SEO audit."
-                        loading="lazy"
-                      />
-                      <h3>Free Mini SEO Audit</h3>
-                      <p>
-                        Find out what's stopping your website from performing
-                        better in the search engines with a free website audit.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </a>
+                <Card>
+                  <div className="card-info">
+                    <img
+                      src="/images/thinking.svg"
+                      alt="Woman thiniking about getting a free mini SEO audit."
+                      loading="lazy"
+                    />
+                    <h3>Free Mini SEO Audit</h3>
+                    <p>
+                      Find out what's stopping your website from performing
+                      better in the search engines with a free website audit.
+                    </p>
+                  </div>
+                  <p>Learn more</p>
+                </Card>
               </Link>
             </Container>
           </div>
@@ -479,6 +490,31 @@ const MarylandSEOExpert = () => {
       <section>
         <div className="container">
           <h2>Frequently Asked Questions</h2>
+          <FAQPageJsonLd
+            mainEntity={[
+              {
+                questionName: 'Can I Do SEO on My Own?',
+                acceptedAnswerText:
+                  'Yes, you can definitely do SEO on your own. However, it will take some time and effort to learn all of the different aspects of SEO and to keep up with the ever-changing landscape.',
+              },
+              {
+                questionName: 'How Much Does an SEO Expert Charge?',
+                acceptedAnswerText:
+                  'Generally speaking, however, you can expect to pay anywhere from $1800 to $5,000 per month for ongoing SEO services. One-time project fees will vary depending on the scope of work but can range from a few hundred dollars to several thousand.',
+              },
+              {
+                questionName: 'How Long Does it Take to See SEO Results?',
+                acceptedAnswerText:
+                  "It takes time for your content to be indexed and ranked by search engines, and the amount of time can vary depending on a number of factors. If you're patient and consistent with your SEO efforts, you should start seeing results within a few months.",
+              },
+              {
+                questionName:
+                  'What SEO Strategy will You Put in Place for My Business?',
+                acceptedAnswerText:
+                  "The answer is we don't know yet. We first have to learn about your business, then perform an SEO audit to identify any problems that may be stopping your website from ranking.",
+              },
+            ]}
+          />
           <h3>#1. Can I Do SEO on My Own?</h3>
           <p>Yes, you can definitely do SEO on your own.</p>
           <p>
@@ -520,57 +556,29 @@ const MarylandSEOExpert = () => {
       </div>
       <section>
         <div className="container">
-          <h3>#2. How Much Will SEO Cost?</h3>
-          <p>
-            Investing in SEO services is a plan to increase free organic traffic
-            for the future.
-          </p>
-          <p>
-            The cost of SEO should differ according to each company's specific
-            needs.
-          </p>
-          <p>
-            Some companies offer SEO services starting as low as $199.00, and
-            others have services starting at $249.00 a month.
-          </p>
-          <p>These prices may seem like a deal, please be aware.</p>
-          <p>
-            Cheap SEO prices usually mean cheap SEO services. For those prices,
-            your SEO strategy may take years for you to see any results or you
-            may not see any results at all.
-          </p>
-          <p>
-            Here are some other reasons why you should avoid Cheap SEO services.
-            Some cheap SEO companies use Black Hat SEO.
-          </p>
-          <p>
-            Black Hat SEO goes against the search engine's terms of service.
-            Although it can get you ranked, there is an excellent chance that
-            your website will get banned.
-          </p>
-          <p>Please don't take that chance.</p>
-        </div>
-      </section>
-      <div className="btn">
-        <a href={calendly} target="_blank" rel="noreferrer">
-          <Button>Book a Call Today!</Button>
-        </a>
-      </div>
-      <section>
-        <div className="container">
           <h3>#2. How Much Does an SEO Expert Charge?</h3>
-          <p>
-            There is no definitive answer to how much an SEO expert charges.
-          </p>
           <p>
             Every SEO professional has their own unique pricing structure, and
             the amount they charge will depend on a number of factors, including
             their experience, the size and scope of the project, and the
-            competitive landscape. Generally speaking, however, you can expect
-            to pay anywhere from <b>$1000 to $5,000 per month</b> for ongoing
-            SEO services. One-time project fees will vary depending on the scope
-            of work but can range from a few hundred dollars to several
-            thousand.
+            competitive landscape.
+          </p>
+          <p>
+            Generally speaking, however, you can expect to pay anywhere from{' '}
+            <b>$1800 to $5,000 per month</b> for ongoing SEO services. One-time
+            project fees will vary depending on the scope of work but can range
+            from a few hundred dollars to several thousand.
+          </p>
+          <p>Remeber this.</p>
+          <p>
+            Cheap SEO prices usually mean cheap SEO services. With cheap prices
+            your SEO strategy may take years for you to see any results or you
+            may not see any results at all.
+          </p>
+          <p>You may end up wasting hundreds of dollars and years in time.</p>
+          <p>
+            Please don't waste money and time, book a call with us today and see
+            how we can help your business.
           </p>
         </div>
       </section>
@@ -639,10 +647,18 @@ const MarylandSEOExpert = () => {
       <section>
         <div className="container">
           <h3>#5. What SEO Strategy will You Put in Place for My Business?</h3>
+          <p>The answer is we don't know yet.</p>
           <p>
-            The answer is we don't know yet. We have to talk with you first.
-            Then we perform an SEO audit to identify any problems that may be
-            stopping your website from ranking.
+            We first have to learn about your business, then perform an{' '}
+            <Link href="/seo-audit" passHref>
+              <a>SEO audit</a>
+            </Link>{' '}
+            to identify any problems that may be stopping your website from
+            ranking.
+          </p>
+          <p>
+            After the SEO Audit, we'll have the information we need to make
+            decide what actions will give the best results.
           </p>
         </div>
       </section>

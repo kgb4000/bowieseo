@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
-import React from 'react'
+import { Suspense } from 'react'
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import PageHero from '../components/PageHeroSection'
 import ReactPlayer from 'react-player'
@@ -27,10 +28,12 @@ const FreeSEOAUDIT = () => {
       <PageHero
         heading="Free Mini SEO Audit"
         subText="Find out what's stopping your website getting traffic, ranking higher in the search engines, and getting leads."
-        heroBtnLink="/contact"
+        heroBtnLink={calendly}
         buttonText="Book a call today!"
       />
-      <AuditSection />
+      <Suspense fallback={`loading`}>
+        <AuditSection />
+      </Suspense>
       <section>
         <div className="container">
           <h2>
@@ -66,7 +69,7 @@ const FreeSEOAUDIT = () => {
           />
           <p>
             While this is not a{' '}
-            <Link href="seo-audit">
+            <Link href="/seo-audit" passHref>
               <a>complete SEO Audit</a>
             </Link>
             , this Free Mini SEO Audit will show you elements that are stopping
@@ -169,9 +172,9 @@ const FreeSEOAUDIT = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href={calendly} passHref target="_blank">
+        <a href={calendly} target="_blank" rel="nonreferrer">
           <Button>Book a Call Today!</Button>
-        </Link>
+        </a>
       </div>
 
       {/* <Contact

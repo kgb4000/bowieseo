@@ -32,11 +32,9 @@ const PageHero = ({
         {buttonText && (
           <HeroBtnWrapper>
             {buttonText && (
-              <Link href={heroBtnLink}>
-                <a>
-                  <HeroBtn>{buttonText}</HeroBtn>
-                </a>
-              </Link>
+              <a href={heroBtnLink}>
+                <HeroBtn>{buttonText}</HeroBtn>
+              </a>
             )}
 
             {buttonText1 && (

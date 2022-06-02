@@ -47,9 +47,9 @@ const Services = () => {
           </div>
         </section>
         <div className="btn">
-          <Link href={calendly} passHref target="_blank">
+          <a href={calendly} target="_blank" rel="noreferrer">
             <Button>Book a Call Today!</Button>
-          </Link>
+          </a>
         </div>
         {/* <section>
           <div className="services-container">
@@ -412,7 +412,7 @@ const Services = () => {
             </div>
             <p className="sub-text">
               We provide these SEO services to businesses in DC,{' '}
-              <Link href="/maryland-seo-company">
+              <Link href="/maryland-seo-company" passHref>
                 <a>Maryland</a>
               </Link>
               , and Virginia.

@@ -74,7 +74,7 @@ export const pillarObj1 = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  headline: 'Relevance',
+  headline: 'Keyword Research',
   description:
     "On-page SEO optimizes your web pages for search engines and your potential customers. By improving your web pages, your pages rank higher than your competitors' pages, and improving your pages increase click-through rates (CTR) and website conversions.",
   imgStart: false,
@@ -86,7 +86,7 @@ export const pillarObj2 = {
   lightBg: true,
   lightText: true,
   lightTextDesc: true,
-  headline: 'Crawlability',
+  headline: 'Technical SEO',
   description:
     "On-page SEO optimizes your web pages for search engines and your potential customers. By improving your web pages, your pages rank higher than your competitors' pages, and improving your pages increase click-through rates (CTR) and website conversions.",
   imgStart: false,
@@ -98,7 +98,7 @@ export const pillarObj3 = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  headline: 'Engagement',
+  headline: 'On-Page SEO',
   description:
     "On-page SEO optimizes your web pages for search engines and your potential customers. By improving your web pages, your pages rank higher than your competitors' pages, and improving your pages increase click-through rates (CTR) and website conversions.",
   imgStart: false,
@@ -110,7 +110,7 @@ export const pillarObj4 = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  headline: 'Authority',
+  headline: 'Link Building',
   description:
     "On-page SEO optimizes your web pages for search engines and your potential customers. By improving your web pages, your pages rank higher than your competitors' pages, and improving your pages increase click-through rates (CTR) and website conversions.",
   imgStart: false,
