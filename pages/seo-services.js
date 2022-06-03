@@ -235,23 +235,25 @@ const Services = () => {
                     <p>Learn more</p>
                   </Card>
                 </Link>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/audit.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>SEO Audit</h3>
-                    <p>
-                      See why your website isn't getting traffic or attracting
-                      customers, and why your competition is{' '}
-                      <span className="highlight ">stealing</span> your
-                      customers.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
+                <Link href="/seo-audit" passHref>
+                  <Card>
+                    <div className="card-info">
+                      <img
+                        src="/images/audit.svg"
+                        alt="Keyword ranking image"
+                        loading="lazy"
+                      />
+                      <h3>SEO Audit</h3>
+                      <p>
+                        See why your website isn't getting traffic or attracting
+                        customers, and why your competition is{' '}
+                        <span className="highlight ">stealing</span> your
+                        customers.
+                      </p>
+                    </div>
+                    <p>Learn more</p>
+                  </Card>
+                </Link>
                 <Card>
                   <div className="card-info one">
                     <img
