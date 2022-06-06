@@ -23,7 +23,7 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const MarylandSEOCompany = () => {
   const SEO = {
-    title: 'Maryland SEO Company | We help Increase Leads and Revenue ',
+    title: 'Maryland SEO Company | We help Increase Leads and Revenue',
     description:
       "Wer'e a Maryland SEO company helping businesses increase web traffic, attract more customers, and increase revenue. Call us for your free consultation!",
     type: 'website',
@@ -238,8 +238,11 @@ const MarylandSEOCompany = () => {
             backlinks.
           </p>
           <p>
-            Backlinks are links from other websites to your website. The more
-            inbound links you have, the higher your website will rank.
+            <a href="https://backlinko.com/hub/seo/backlinks" target="_blank">
+              Backlinks
+            </a>{' '}
+            are links from other websites to your website. The more inbound
+            links you have, the higher your website will rank.
           </p>
           <p>
             Link building can be a complex process, but there are a few basic

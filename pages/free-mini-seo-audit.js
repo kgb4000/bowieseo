@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import { Suspense } from 'react'
-import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import PageHero from '../components/PageHeroSection'
 import ReactPlayer from 'react-player'
 import Button from '../components/Button'
 import AuditSection from '../components/AuditSection'
+import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
@@ -25,6 +25,7 @@ const FreeSEOAUDIT = () => {
   }
   return (
     <>
+      <NextSeo {...SEO} />
       <PageHero
         heading="Free Mini SEO Audit"
         subText="Find out what's stopping your website getting traffic, ranking higher in the search engines, and getting leads."
@@ -121,17 +122,24 @@ const FreeSEOAUDIT = () => {
           </p>
         </div>
       </section>
-      <div className="container">
+      {/* <div className="container">
         <h2>Check out this Free Mini SEO Audit We Did.</h2>
         <div className="player-wrapper">
-          <ReactPlayer
-            className="react-player"
-            url="https://youtu.be/cR27O8br7mM"
-            width="100%"
-            height="100%"
-            controls={true}
-          />
+          <Suspense fallback={`loading`}>
+            <ReactPlayer
+              className="react-player"
+              url="https://youtu.be/cR27O8br7mM"
+              width="100%"
+              height="100%"
+              controls={true}
+            />
+          </Suspense>
         </div>
+      </div> */}
+      <div className="btn">
+        <a href={calendly} target="_blank" rel="nonreferrer">
+          <Button>Book a Call Today!</Button>
+        </a>
       </div>
       <section>
         <div className="container">
@@ -170,18 +178,12 @@ const FreeSEOAUDIT = () => {
             </li>
           </ul>
         </div>
+        <div className="btn">
+          <a href={calendly} target="_blank" rel="nonreferrer">
+            <Button>Book a Call Today!</Button>
+          </a>
+        </div>
       </section>
-      <div className="btn">
-        <a href={calendly} target="_blank" rel="nonreferrer">
-          <Button>Book a Call Today!</Button>
-        </a>
-      </div>
-
-      {/* <Contact
-        h2="Find Out What's Stopping Your Website From Ranking Higher And
-            Getting More Traffic"
-        p="Please fill out the form below for your Free Mini SEO Audit."
-      /> */}
     </>
   )
 }

@@ -58,14 +58,11 @@ const Services = () => {
                 <div className="card-info">
                   <h3>SEO for Contractors</h3>
                   <p>
-                    As a general contractor, you know that a beautiful yard is
-                    the result of hard work and attention to detail. But what
-                    about making sure your business is visible online? Search
-                    engine optimization (SEO) is a vital part of any digital
-                    marketing strategy, and it can be especially beneficial for
-                    businesses in the landscaping industry.
+                    Contractors that want to grow their business know that
+                    search engine optimization is one of the best ways to grow
+                    their business. But what is the process and how do you do
+                    SEO for your contracting business?
                   </p>
-                  <p>Want to see how SEO can help your business?</p>
                   <p>Read more.</p>
                   <Link href="/seo-for-contractors" passHref>
                     <Button>Contractor SEO</Button>
@@ -104,9 +101,10 @@ const Services = () => {
                     your website for search engines, and track your results so
                     you can see the ROI of our SEO services.
                   </p>
+                  <p>Ready to get started?</p>
                   <p>
-                    Ready to get started? Contact us today to learn more about
-                    our Maryland SEO services!
+                    Contact us today to learn more about our Maryland SEO
+                    services!
                   </p>
 
                   <Link href="/maryland-seo-services" passHref>
