@@ -43,9 +43,12 @@ const LocalSEO = () => {
           <div className="container">
             <h2>Grow Your Business with Maryland SEO Services</h2>
             <p>
-              Get more leads and customers with Maryland SEO services from a
-              company that specializes in search engine optimization for
-              Maryland businesses.
+              Get more leads and customers with Maryland SEO services from a{' '}
+              <Link href="/maryland-seo-company" passHref>
+                <a>Maryland SEO company</a>
+              </Link>{' '}
+              that specializes in search engine optimization for Maryland
+              businesses.
             </p>
             <p>
               We provide only SEO services because we want businesses in

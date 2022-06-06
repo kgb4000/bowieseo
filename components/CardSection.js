@@ -39,7 +39,7 @@ export const Card = styled.a`
   flex-direction: column;
   justify-content: space-between;
   padding: 2rem;
-  border: 1px solid #f0f0f0;
+  border: 2px solid #ddd;
   border-radius: 5px;
   margin: 0.5rem;
   width: 320px;
@@ -51,6 +51,7 @@ export const Card = styled.a`
   &:hover {
     color: #fff;
     background: #ff5200;
+    border-color: #ff5200;
   }
 
   h3 {

@@ -39,7 +39,7 @@ const Services = () => {
       <main>
         <section>
           <div className="services-container">
-            <h2>We Provide SEO Services for Businesses in the Entire DMV</h2>
+            <h2>We Provide SEO Services for Maryland, DC, and Virginia</h2>
             <p className="sub-text">
               If you want more traffic to your website and need more customers
               seeing your business online, then SEO is the way to go.
@@ -51,67 +51,28 @@ const Services = () => {
             <Button>Book a Call Today!</Button>
           </a>
         </div>
-        {/* <section>
-          <div className="services-container">
-            <h2>Industry Services</h2>
-            <div className="services">
-              <Container>
-                <Link href="/local-seo-maryland" passhref>
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/seo-for-landscapers-cover.jpg"
-                        alt="Keyword ranking image"
-                        loading="lazy"
-                      />
-                      <h3>SEO for Landscapers</h3>
-                      <p>
-                        Our local customers and clients are searching for your
-                        skills and services. Make sure they can find you and not
-                        your competition.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </Link>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/audit.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>SEO Audit</h3>
-                    <p>
-                      See why your website isn't getting traffic or attracting
-                      customers, and why your competition is{' '}
-                      <span className="highlight ">stealing</span> your
-                      customers.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-                <Card>
-                  <div className="card-info one">
-                    <img
-                      src="/images/keyword-research.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>Keyword Research</h3>
-                    <p>
-                      Get more website traffic and more leads with our powerful
-                      SEO services. Let Bowie SEO put your business on the path
-                      to SEO success.
-                    </p>
-                  </div>
-                </Card>
-              </Container>
-            </div>
-          </div>
-        </section> */}
         <section>
           <div className="services-container">
+            <ServicesCard>
+              <div className="services-card-info">
+                <div className="card-info">
+                  <h3>SEO for Contractors</h3>
+                  <p>
+                    As a general contractor, you know that a beautiful yard is
+                    the result of hard work and attention to detail. But what
+                    about making sure your business is visible online? Search
+                    engine optimization (SEO) is a vital part of any digital
+                    marketing strategy, and it can be especially beneficial for
+                    businesses in the landscaping industry.
+                  </p>
+                  <p>Want to see how SEO can help your business?</p>
+                  <p>Read more.</p>
+                  <Link href="/seo-for-contractors" passHref>
+                    <Button>Contractor SEO</Button>
+                  </Link>
+                </div>
+              </div>
+            </ServicesCard>
             <ServicesCard>
               <div className="services-card-info">
                 <div className="card-info">
@@ -125,6 +86,7 @@ const Services = () => {
                     in the landscaping industry.
                   </p>
                   <p>Want to see how SEO can help your landscaping business?</p>
+                  <p>Read more.</p>
                   <Link href="/seo-for-landscapers" passHref>
                     <Button>Landscaper SEO</Button>
                   </Link>
@@ -434,7 +396,7 @@ const Services = () => {
 export default Services
 
 const ServicesCard = styled.div`
-  border: 1px solid #eee;
+  border: 2px solid #ddd;
   border-radius: 5px;
   padding: 2rem;
   margin: 2rem 0;
