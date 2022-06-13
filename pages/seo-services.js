@@ -133,7 +133,7 @@ const Services = () => {
                 loading="lazy"
               /> */}
               </div>
-              <Link href="/maryland-seo-services" passHref>
+              <Link href="/maryland-seo-company" passHref>
                 <Button>DC SEO</Button>
               </Link>
             </ServicesCard>
@@ -160,7 +160,7 @@ const Services = () => {
                 loading="lazy"
               /> */}
               </div>
-              <Link href="/maryland-seo-services" passHref>
+              <Link href="/maryland-seo-company" passHref>
                 <Button>Va SEO</Button>
               </Link>
             </ServicesCard>
