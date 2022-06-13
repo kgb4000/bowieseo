@@ -52,7 +52,7 @@ export const processObj5 = {
   lightTextDesc: true,
   headline: 'Link Building',
   description:
-    "On-page SEO optimizes your web pages for search engines and your potential customers. By improving your web pages, your pages rank higher than your competitors' pages, and improving your pages increase click-through rates (CTR) and website conversions.",
+    "Local link building is one way to help build your website's authority. Getting backlinks from sites like the Maryland Chamber of Commerce and the Better Business Bureau can help your site rank higher than your competition.",
   imgStart: false,
   img: '../images/link-building.svg',
   alt: 'Link building.',

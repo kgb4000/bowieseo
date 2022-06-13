@@ -884,18 +884,16 @@ const LocalSEO = () => {
                 It can take 3 to 6 months or it can take 6 to 12 months to see
                 any results from doing local SEO.
               </p>
-              <p>
-                How long it takes to work will depend on different factors like:
-                <ul>
-                  <li>The age of your website.</li>
-                  <li>The strength of your website.</li>
-                  <li>The amount of competition in your local area.</li>
-                  <li>
-                    Your competitor's website strength and backlink profile.
-                  </li>
-                  <li>plus more.</li>
-                </ul>
-              </p>
+              How long it takes to work will depend on different factors like:
+              <ul>
+                <li>The age of your website.</li>
+                <li>The strength of your website.</li>
+                <li>The amount of competition in your local area.</li>
+                <li>
+                  Your competitor's website strength and backlink profile.
+                </li>
+                <li>plus more.</li>
+              </ul>
               <p>
                 However, once you've begun to rank higher in search engine
                 results pages (SERPs), you can expect a steady stream of
@@ -932,9 +930,9 @@ const LocalSEO = () => {
               </p>
             </section>
             <div className="btn">
-              <Link href={calendly} passHref target="_blank">
-                <Button>Book a Call Today!</Button>
-              </Link>
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a call today!</Button>
+              </a>
             </div>
             <section>
               <h3>#3. What is The Difference between Local SEO and SEO?</h3>
@@ -996,42 +994,9 @@ const LocalSEO = () => {
               </p>
             </section>
             <div className="btn">
-              <Link href={calendly} passHref target="_blank">
-                <Button>Book a Call Today!</Button>
-              </Link>
-            </div>
-            <section>
-              <h3>#5. Can You Garauntee Me No.1 Rankings?</h3>
-              <p>
-                No SEO company can guarantee you first page rankings on Google.
-              </p>
-              <p>
-                However, what a reputable SEO company can do is help improve
-                your website's visibility and organic search results. By
-                optimizing your website for key search terms and phrases, and by
-                building high quality backlinks, a good SEO company can help
-                increase your chances of ranking higher in search engine results
-                pages (SERPs).
-              </p>
-              <p>
-                While there is no guarantee of first page rankings, a commitment
-                to SEO can help improve your website's chances of being found by
-                potential customers.
-              </p>
-              <p>
-                If you're looking for guaranteed first page rankings on Google,
-                you're likely to be disappointed. However, if you're committed
-                to improving your website's visibility and organic search
-                results, a reputable SEO company can help you achieve your
-                goals.<p></p>Contact us today to learn more about our SEO
-                services and how we can help improve your website's ranking in
-                search engine results pages.
-              </p>
-            </section>
-            <div className="btn">
-              <Link href={calendly} passHref target="_blank">
-                <Button>Book a Call Today!</Button>
-              </Link>
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a call today!</Button>
+              </a>
             </div>
           </div>
         </section>

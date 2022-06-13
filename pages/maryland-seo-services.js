@@ -29,7 +29,7 @@ const LocalSEO = () => {
   }
   return (
     <>
-      <NextSeo {...SEO} />
+      <NextSeo noindex={true} />
       <PageHero
         heading="Maryland SEO Services"
         subText="Get Maryland SEO services today. Increase your website traffic, get more leads, increase revenue and grow your business."
@@ -919,9 +919,9 @@ const LocalSEO = () => {
                 you're likely to be disappointed. However, if you're committed
                 to improving your website's visibility and organic search
                 results, a reputable SEO company can help you achieve your
-                goals. Contact us today to learn more about our SEO services and
-                how we can help improve your website's ranking in search engine
-                results pages.
+                goals. Contact us today to learn more about SEO and how we can
+                help improve your website's ranking in search engine results
+                pages.
               </p>
             </section>
             <div className="btn">

@@ -113,13 +113,11 @@ const MarylandSEOExpert = () => {
       </Suspense>
       <section>
         <div className="container">
-          <h2>
-            7 Reasons Why You Need to Hire Maryland SEO Experts for Your
-            Business
-          </h2>
+          <h2>7 Reasons Why You Need to Hire an Maryland SEO Expert</h2>
           <p className="sub-text">
-            Maryland businesses need SEO specialists to rank higher, attract
-            more customers, build authority, and save money on marketing.
+            Your business needs an SEO specialists to help you rank higher,
+            attract more customers, build authority, and save money on
+            marketing.
           </p>
           <div>
             <h3>#1. We Can Help You Rank Higher in Search Engines</h3>
@@ -217,7 +215,7 @@ const MarylandSEOExpert = () => {
       </div>
       <section className="our-services-section">
         <div className="services-container">
-          <h2>Popular Maryland SEO Services</h2>
+          <h2>Popular SEO Services</h2>
           <p className="sub-text">
             Our services will help your business get more website traffic and
             attract potential customers. We not a full service agency, we're an
