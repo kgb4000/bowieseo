@@ -84,82 +84,80 @@ const AuditSection = () => {
   }
 
   return (
-    <section>
-      <div className="container">
-        <AuditElements>
-          <section className="video-section">
-            <>
-              <ModalVideo
-                channel="youtube"
-                isOpen={isOpen}
-                videoId="YQ9VpQQWtEw"
-                onClose={() => setOpen(false)}
-                autoplay
-              />
-            </>
-            <img
-              src="/images/free-mini-seo-audit.jpg"
-              alt="Watch video to get a free mini seo audit"
-              loading="lazy"
-              onClick={() => setOpen(true)}
-              className="video-btn"
+    <div className="container">
+      <AuditElements>
+        <div className="video-section">
+          <>
+            <ModalVideo
+              channel="youtube"
+              isOpen={isOpen}
+              videoId="YQ9VpQQWtEw"
+              onClose={() => setOpen(false)}
+              autoplay
             />
-          </section>
-          <div className="form-section">
-            <h2>Fill out the form and get your Free Mini SEO Audit Today!</h2>
-            <form onSubmit={handleOnSubmit}>
-              <div className="form-input">
-                <label htmlFor="firstName">Name *</label>
-                <input
-                  id="firstName"
-                  type="text"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.firstName}
-                />
-              </div>
-              <div className="form-input">
-                <label htmlFor="email">Email *</label>
-                <input
-                  id="email"
-                  type="email"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.email}
-                />
-              </div>
-              <div className="form-input">
-                <label htmlFor="website">Website *</label>
-                <input
-                  id="website"
-                  type="text"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.website}
-                />
-              </div>
-              {/* <button type="submit">Submit</button> */}
-              <SubmitButton
-                type="submit"
-                disabled={status.submitting || isEnabled}
-              >
-                {!status.submitting
-                  ? !status.submitted
-                    ? 'I want my Free Mini SEO Audit!'
-                    : 'Got it!'
-                  : 'Submitting...'}
-              </SubmitButton>
-              {status.info.error && (
-                <div className="error">Error: {status.info.msg}</div>
-              )}
-              {!status.info.error && status.info.msg && (
-                <div className="success">We Got Your Info!</div>
-              )}
-            </form>
-          </div>
-        </AuditElements>
-      </div>
-    </section>
+          </>
+          <img
+            src="/images/free-mini-seo-audit.jpg"
+            alt="Watch video to get a free mini seo audit"
+            loading="lazy"
+            onClick={() => setOpen(true)}
+            className="video-btn"
+          />
+        </div>
+        <div className="form-section">
+          <h2>Fill out the form and get your Free Mini SEO Audit Today!</h2>
+          <form onSubmit={handleOnSubmit}>
+            <div className="form-input">
+              <label htmlFor="firstName">Name *</label>
+              <input
+                id="firstName"
+                type="text"
+                onChange={handleOnChange}
+                required
+                value={inputs.firstName}
+              />
+            </div>
+            <div className="form-input">
+              <label htmlFor="email">Email *</label>
+              <input
+                id="email"
+                type="email"
+                onChange={handleOnChange}
+                required
+                value={inputs.email}
+              />
+            </div>
+            <div className="form-input">
+              <label htmlFor="website">Website *</label>
+              <input
+                id="website"
+                type="text"
+                onChange={handleOnChange}
+                required
+                value={inputs.website}
+              />
+            </div>
+            {/* <button type="submit">Submit</button> */}
+            <SubmitButton
+              type="submit"
+              disabled={status.submitting || isEnabled}
+            >
+              {!status.submitting
+                ? !status.submitted
+                  ? 'I want my Free Mini SEO Audit!'
+                  : 'Got it!'
+                : 'Submitting...'}
+            </SubmitButton>
+            {status.info.error && (
+              <div className="error">Error: {status.info.msg}</div>
+            )}
+            {!status.info.error && status.info.msg && (
+              <div className="success">We Got Your Info!</div>
+            )}
+          </form>
+        </div>
+      </AuditElements>
+    </div>
   )
 }
 

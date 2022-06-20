@@ -3,6 +3,8 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
+import { Suspense } from 'react'
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
@@ -17,6 +19,10 @@ import {
   processObj6,
 } from '../components/ProcessSection/Data/Process1'
 
+const AuditSection = dynamic(() => import('../components/AuditSection'), {
+  suspense: true,
+})
+
 import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
@@ -25,13 +31,13 @@ const MarylandSEOCompany = () => {
   const SEO = {
     title: 'Maryland SEO Company | We help Increase Leads and Revenue',
     description:
-      "Wer'e a Maryland SEO company helping businesses increase web traffic, attract more customers, and increase revenue. Call us for your free consultation!",
+      'A Maryland SEO company helping businesses increase web traffic, attract more customers, and increase revenue. Call us for your free consultation!',
     type: 'website',
     canonical: 'https://bowieseo.com/maryland-seo-company',
     openGraph: {
       title: 'Maryland SEO Company | We help Increase Leads and Revenue ',
       description:
-        "Wer'e a Maryland SEO company helping businesses increase web traffic, attract more customers, and increase revenue. Call us for your free consultation!",
+        'A Maryland SEO company helping businesses increase web traffic, attract more customers, and increase revenue. Call us for your free consultation!',
       type: 'website',
       image: [{}],
     },
@@ -62,10 +68,16 @@ const MarylandSEOCompany = () => {
             digital marketing channels that can help you find your ideal
             customers and also help customers find your business online.
           </p>
+          <img
+            src="images/maryland-seo-company.webp"
+            alt="A Maryland SEO Company - Bowie SEO"
+            width="1000"
+            height="450"
+          />
           <p>
-            As a{' '}
+            As{' '}
             <Link href="/maryland-seo-expert" passHref>
-              <a>Maryland SEO expert</a>
+              <a>Maryland SEO experts</a>
             </Link>
             , we are proud to offer SEO services to all businesses in Maryland
             and the rest of the DMV.
@@ -81,19 +93,22 @@ const MarylandSEOCompany = () => {
             search engine optimization from Bowie SEO.
           </p>
         </div>
+        <div className="btn">
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Book a call today!</Button>
+          </a>
+        </div>
       </section>
-      <div className="btn">
-        <a href={calendly} target="_blank" rel="noreferrer">
-          <Button>Book a call today!</Button>
-        </a>
-      </div>
+      <Suspense fallback={`loading`}>
+        <AuditSection />
+      </Suspense>
       <section>
         <div className="container">
-          <h2>What is SEO?</h2>
+          <h2>What is (Maryland) SEO?</h2>
           <p>
-            Search engine optimization is the process of improving your website
-            for search engines and for users, while increasing web traffic and
-            improving your website visibility.
+            Maryland SEO is the process of improving your website for search
+            engines and for users, while increasing web traffic and improving
+            your website visibility.
           </p>
           <p>
             The process takes your website and makes changes so that when people
@@ -115,8 +130,8 @@ const MarylandSEOCompany = () => {
           <p>If it does, great job.</p>
           <p>
             If it doesn't appear in the map pack or the organic search results,
-            you may need <b>search engine optimization</b>
-            to get it to appear in the search results.
+            you may need <b>search engine optimization</b> to get it to appear
+            in the search results.
           </p>
           <p>
             If you don't start doing SEO, your website may never appear in the
@@ -125,13 +140,13 @@ const MarylandSEOCompany = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href="/seo-services" passHref>
-          <Button>See Our SEO Services!</Button>
-        </Link>
+        <a href={calendly} target="_blank" rel="noreferrer">
+          <Button>Book a call today!</Button>
+        </a>
       </div>
       <section>
         <div className="container">
-          <h2>7 Big Reasons Businesses Need Maryland SEO Services [2022]</h2>
+          <h2>7 Reasons Businesses Need Maryland SEO Services [2022]</h2>
           <h3>#1. Search Algorithms are Always Changing</h3>
           <p>
             Businesses need search engine optimization because search engines
@@ -154,6 +169,36 @@ const MarylandSEOCompany = () => {
             <li>Rank Brain</li>
             <li>Vicinity</li>
           </ul>
+          <h3>#2. More People Use Search Engines to Find Local Information</h3>
+          <p>
+            More and more people are using search engines to find local
+            information.
+          </p>
+          <p>
+            In fact, a recent study showed that{' '}
+            <a
+              href="https://www.hubspot.com/marketing-statistics"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {' '}
+              97% of consumers
+            </a>{' '}
+            use the internet to find local businesses.
+          </p>
+          <p>
+            This trend is only going to continue as more and more people get
+            online. As a result, it's becoming increasingly important for
+            businesses to invest in SEO so they can appear in the search results
+            when potential customers are looking for what they offer.
+          </p>
+          {/* <h3>#2. SEO Beats Every Other Marketing Channel Hands Down</h3>
+          <p>
+            One of the main reasons to invest in SEO is to rank higher in search
+            engine results pages (SERPs). When your website appears higher up on
+            SERPs, it increases your chances of being seen and clicked by
+            potential customers.
+          </p>
           <h3>
             #2. Your Website Will Become an Asset, Not Just an Online Flyer
           </h3>
@@ -172,7 +217,7 @@ const MarylandSEOCompany = () => {
             will appear in the search results. Whe you appear in the results,
             searchers are more likely to click through to your site and become
             customers.
-          </p>
+          </p> */}
           <h3>
             #3. More People Will Recognize Your Business By Seeing Your Website
             in Google
@@ -183,9 +228,9 @@ const MarylandSEOCompany = () => {
           </p>
           <p>
             After all, Google is the most popular search engine in the world,
-            and appearing on its first page sends a strong signal to potential
-            customers that you're a credible and trustworthy business worth
-            their time and money.
+            and appearing on its first page sends a strong signal to potential,
+            and existing customers that you're a credible and trustworthy
+            business worth their time and money.
           </p>
           <p>
             Additionally, appearing in Google's search results can help increase
@@ -210,14 +255,14 @@ const MarylandSEOCompany = () => {
           </p>
           <p>
             In other words, by targeting the right keywords, you can ensure that
-            the people who see your website are precisely the people who are
-            most likely to become your customers.
+            the people who see your website are the people who are most likely
+            to become your customers.
           </p>
           <p>
-            Of course, SEO is just one part of a comprehensive marketing
-            strategy. But if you're looking for a way to reach more of your
-            target market and grow your business, Maryland SEO is a great place
-            to start.
+            Of course, search engine optimization is just one part of a digital
+            marketing strategy. But if you're looking for a way to reach more of
+            your target market and grow your business, Maryland SEO is a great
+            place to start.
           </p>
           <h3>#5. You'll Outrank Your Competitors in the Search Results</h3>
           <p>
@@ -270,7 +315,7 @@ const MarylandSEOCompany = () => {
       </div>
       <section>
         <div className="container">
-          <h2>How Does Maryland SEO Work?</h2>
+          <h2>How Does Maryland SEO Services Work for You?</h2>
           <p>
             SEO is the practice of improving the ranking of a website on search
             engines. The higher the ranking, the more likely people will find
@@ -327,30 +372,28 @@ const MarylandSEOCompany = () => {
         <div className="services-container">
           <h2>Popular Maryland SEO Services</h2>
           <p className="sub-text">
-            These SEO services will help your business grow. We're an SEO
-            company that specialize in search engine optimization for businesses
-            in the DMV.
+            Our SEO services will help your business grow. We're a Maryland SEO
+            company that specialize in search engine optimization for small
+            businesses in Maryland, DC, and Virginia.
           </p>
           <div className="services">
             <Container>
-              <Link href="/local-seo-maryland" passhref>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/local.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>Local SEO</h3>
-                    <p>
-                      Our local customers and clients are searching for your
-                      skills and services. Make sure they can find you and not
-                      your competition.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-              </Link>
+              <Card>
+                <div className="card-info">
+                  <img
+                    src="/images/local.svg"
+                    alt="Keyword ranking image"
+                    loading="lazy"
+                  />
+                  <h3>Local SEO</h3>
+                  <p>
+                    Our local customers and clients are searching for your
+                    skills and services. Make sure they can find you and not
+                    your competition.
+                  </p>
+                </div>
+                <p>Learn more</p>
+              </Card>
               <Card>
                 <div className="card-info">
                   <img
@@ -436,7 +479,7 @@ const MarylandSEOCompany = () => {
         </div>
       </section>
       <div className="btn">
-        <Link href="/maryland-seo-services" passHref>
+        <Link href="/seo-services" passHref>
           <Button>More SEO Services</Button>
         </Link>
       </div>
@@ -444,8 +487,8 @@ const MarylandSEOCompany = () => {
         <div className="services-container">
           <h2>Our Maryland SEO Process</h2>
           <p className="sub-text">
-            Our process that generates more leads and customers for your
-            business.
+            Our Maryland SEO company can generate more leads and customers for
+            your small business.
           </p>
         </div>
         <ProcessSection {...processObj1} />
@@ -519,8 +562,8 @@ const MarylandSEOCompany = () => {
         <div className="container">
           <h2>Why Choose Bowie SEO Instead of Other Maryland SEO Companies?</h2>
           <p className="sub-text">
-            Work with Bowie SEO and experience the difference between our
-            company and their SEO company.
+            Work with our Maryland SEO company and experience the difference
+            between our company and other SEO companies.
           </p>
           <h3>
             #1. Your Business Will Continue To Grow Without Us Being There.
@@ -576,7 +619,7 @@ const MarylandSEOCompany = () => {
           </p>
           <p>
             Plus, you get search engine optimization{' '}
-            <Link href="maryland-seo-expert">
+            <Link href="/maryland-seo-expert" passHref>
               <a>experts</a>
             </Link>{' '}
             working on your campaign, not interns.
@@ -611,25 +654,28 @@ const MarylandSEOCompany = () => {
             Bowie SEO.
           </p>
           <p>
-            We have a proven track record of helping businesses in the DMV area
+            We have a proven track record of helping businesses in Maryland
             achieve their online marketing goals, and we're ready to put our
             experience to work for you.
           </p>
           <p>
-            When it comes to SEO, there's no one-size-fits-all solution. That's
-            why we take a customized approach to every project we undertake.
-            We'll work closely with you to understand your unique needs and
-            challenges, and then develop a personalized strategy that is
-            designed to achieve your specific objectives.
+            When it comes to Maryland search engine optimization, there's no
+            one-size-fits-all solution.
+          </p>
+          <p>
+            That's why we take a customized approach to every project we
+            undertake. We'll work closely with you to understand your unique
+            needs and challenges, and then develop a personalized strategy that
+            is designed to achieve your specific objectives.
           </p>
           <p>
             Whether you're looking to increase traffic to your website, improve
-            your rankings, or simply get more customers through the door, we can
-            help.
+            your rankings, or simply keep existing customers through your door,
+            we can help.
           </p>
           <p>
             Contact us today to schedule a free consultation. We'll be happy to
-            answer any questions you have and provide you with a customized
+            answer any questions you have, and provide you with a customized
             proposal.
           </p>
           <p>Book a call and let's get started!</p>
@@ -641,8 +687,53 @@ const MarylandSEOCompany = () => {
         </a>
       </div>
       <section>
+        <div className="container">
+          {' '}
+          <h2>Cities We Offer Local SEO Services</h2>
+          <div className="cities container">
+            <ul>
+              <li>Annapolis, MD</li>
+              <li>Baltimore, MD</li>
+              <li>Bethesda, MD</li>
+              <li>Bowie, MD</li>
+              <li>Capitol Heights</li>
+              <li>Chevy Chase, MD</li>
+              <li>Fort Washington, MD</li>
+            </ul>
+            <ul>
+              <li>Glen Burnie</li>
+
+              <li>Hyattsville, MD</li>
+              <li>
+                <Link href="/laurel-maryland-local-seo-services" passHref>
+                  <a>Laurel, MD</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/seo-services-ocean-city" passHref>
+                  <a>Ocean City, MD</a>
+                </Link>
+              </li>
+              <li>Rockville, MD</li>
+              <li>Silver Spring, MD</li>
+              <li>Takoma Park, MD</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div className="btn">
+        <Link href="/contact" passHref>
+          <Button>Contact us today!</Button>
+        </Link>
+      </div>
+      <section>
         <FAQPageJsonLd
           mainEntity={[
+            {
+              questionName: 'Can I Do Local SEO Myself?',
+              acceptedAnswerText:
+                'The short answer is yes, you can definitely do local SEO yourself. However, it will take some time and effort on your part. The most important thing is to make sure that you are consistent with your efforts.',
+            },
             {
               questionName: 'How Can SEO Help My Business?',
               acceptedAnswerText:
@@ -673,45 +764,36 @@ const MarylandSEOCompany = () => {
         <div className="container">
           <h2>Frequently Asked Questions</h2>
           <div className="faq-questions">
-            <h3>#1. How Can SEO Help My Business?</h3>
-            <p>SEO can help your business in a number of ways.</p>
+            <h3>#1. Can I Do Local SEO Myself?</h3>
             <p>
-              First, by improving your website's search engine optimization, you
-              can increase your visibility on the web, attract more qualified
-              leads, and boost your sales.
+              The short answer is yes, you can definitely do local SEO yourself.
+              However, it will take some time and effort on your part. The most
+              important thing is to make sure that you are consistent with your
+              efforts.
             </p>
             <p>
-              Additionally, SEO can help to build trust and credibility with
-              potential and current customers.
+              That said, there are some things that you should keep in mind if
+              you decide to tackle local SEO on your own. First and foremost,
+              you need to have a solid understanding of how search engines work.
+              This includes understanding how they index and rank websites. If
+              you don't have this knowledge, then it will be very difficult for
+              you to optimize your site effectively.
             </p>
             <p>
-              By providing relevant and useful content, you can show that you're
-              an authority in your industry, which can encourage people to do
-              business with you.
-            </p>
-            <p>
-              Finally, SEO can also help you to save money on marketing and
-              advertising costs by helping you to reach your target audience
-              more effectively. If you're looking for ways to improve your
-              business's bottom line, then investing in SEO is a smart choice.
-            </p>
-            <p>
-              SEO can be a complex and time-consuming process, but it's worth
-              the effort if you want to improve your business's bottom line. If
-              you're not sure where to start, then consider hiring an SEO expert
-              to help you get the most out of your website. With their help, you
-              can take your business to the next level.
-            </p>
-            <p>
-              If you want to learn more about how SEO can help your business,
-              then contact us today. We'll be happy to answer any questions you
-              have and help you get started on the path to success.
+              Another important factor is making sure that your website is
+              optimized for the right keywords. Keyword research is absolutely
+              essential if you want to succeed with local SEO. You need to find
+              the right keywords that people are actually searching for when
+              they are looking for businesses like yours. Once you have a solid
+              list of keywords, you can then start working on optimizing your
+              site for those keywords.
             </p>
             <div className="btn faq">
               <a href={calendly} target="_blank">
                 <Button>Book a Call Today!</Button>
               </a>
             </div>
+
             <h3>#2. How Much Does Maryland SEO Cost?</h3>
             <p>
               For small businesses in Maryland and the rest of the DMV, local

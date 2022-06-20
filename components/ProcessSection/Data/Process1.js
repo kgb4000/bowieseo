@@ -17,7 +17,7 @@ export const processObj2 = {
   headline: 'Keyword Research',
   description:
     'Keyword research is the foundation of any good SEO campaign. By choosing relevant keywords, you can ensure that your website and content are optimized for search engines and that your target audience will be able to find your business easily. Done correctly, the right targeted keywords can be a powerful tool that will help you attract more visitors to your website.',
-  imgStart: false,
+  imgStart: true,
   img: '../images/keyword-research.svg',
   alt: 'Keyword research.',
 }
@@ -41,7 +41,7 @@ export const processObj4 = {
   headline: 'On-Page SEO',
   description:
     "On-page SEO optimizes your web pages for search engines and your potential customers. By improving your web pages, your pages rank higher than your competitors' pages, and improving your pages increase click-through rates (CTR) and website conversions.",
-  imgStart: false,
+  imgStart: true,
   img: '../images/speed-test.svg',
   alt: 'On-Page SEO.',
 }
@@ -64,8 +64,8 @@ export const processObj6 = {
   lightTextDesc: true,
   headline: 'Monitor',
   description:
-    "On-page SEO optimizes your web pages for search engines and your potential customers. By improving your web pages, your pages rank higher than your competitors' pages, and improving your pages increase click-through rates (CTR) and website conversions.",
-  imgStart: false,
+    'We know if improvements are successful because we track and monitor our changes. Monitoring and track your website traffic, keyword rankings, backlinks, your competitor websites, enables us to keep your website ranking higher in the search.',
+  imgStart: true,
   img: '../images/monitor.svg',
   alt: 'Monitoring SEO.',
 }

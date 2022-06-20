@@ -102,18 +102,19 @@ const MarylandSEOExpert = () => {
             investment.
           </p>
         </div>
+        <div className="btn">
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Book a call today!</Button>
+          </a>
+        </div>
       </section>
-      <div className="btn">
-        <a href={calendly} target="_blank" rel="noreferrer">
-          <Button>Book a call today!</Button>
-        </a>
-      </div>
+
       <Suspense fallback={`loading`}>
         <AuditSection />
       </Suspense>
       <section>
         <div className="container">
-          <h2>7 Reasons Why You Need to Hire an Maryland SEO Expert</h2>
+          <h2>7 Reasons Why You Need to Hire a Maryland SEO Expert in 2022</h2>
           <p className="sub-text">
             Your business needs an SEO specialists to help you rank higher,
             attract more customers, build authority, and save money on
@@ -175,7 +176,8 @@ const MarylandSEOExpert = () => {
               search results.
             </p>
             <h3>
-              #6. We Can Help You Stay Up-to-Date on the Latest Industry Changes
+              #6. We Can Help You Stay Up-to-Date on the Latest Industry and
+              Algorithm Changes
             </h3>
             <p>
               The world of SEO is always changing. Google makes hundreds of
@@ -217,35 +219,29 @@ const MarylandSEOExpert = () => {
         <div className="services-container">
           <h2>Popular SEO Services</h2>
           <p className="sub-text">
-            Our services will help your business get more website traffic and
+            Our services help local business get more website traffic and
             attract potential customers. We not a full service agency, we're an
-            SEO company that specialize in search engine optimization for
-            businesses in DC,{' '}
-            <Link href="/maryland-seo-company" passHref>
-              <a>Maryland</a>
-            </Link>
-            , and Virginia.
+            SEO company that specializing in search engine optimization for
+            businesses in Maryland.
           </p>
           <div className="services">
             <Container>
-              <Link href="/local-seo-maryland" passHref>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/local.svg"
-                      alt="Local SEO."
-                      loading="lazy"
-                    />
-                    <h3>Local SEO</h3>
-                    <p>
-                      Our local customers and clients are searching for your
-                      skills and services. Make sure they can find you and not
-                      your competition.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-              </Link>
+              <Card>
+                <div className="card-info">
+                  <img
+                    src="/images/local.svg"
+                    alt="Local SEO."
+                    loading="lazy"
+                  />
+                  <h3>Local SEO</h3>
+                  <p>
+                    Our local customers and clients are searching for your
+                    skills and services. Make sure they can find you and not
+                    your competition.
+                  </p>
+                </div>
+                <p>Learn more</p>
+              </Card>
               <Card>
                 <div className="card-info">
                   <img
@@ -498,7 +494,7 @@ const MarylandSEOExpert = () => {
               {
                 questionName: 'How Much Does an SEO Expert Charge?',
                 acceptedAnswerText:
-                  'Generally speaking, however, you can expect to pay anywhere from $1800 to $5,000 per month for ongoing SEO services. One-time project fees will vary depending on the scope of work but can range from a few hundred dollars to several thousand.',
+                  'Generally speaking, however, you can expect to pay anywhere from $1000 to $5,000 per month for ongoing SEO services. One-time project fees will vary depending on the scope of work but can range from a few hundred dollars to several thousand.',
               },
               {
                 questionName: 'How Long Does it Take to See SEO Results?',
@@ -563,7 +559,7 @@ const MarylandSEOExpert = () => {
           </p>
           <p>
             Generally speaking, however, you can expect to pay anywhere from{' '}
-            <b>$1800 to $5,000 per month</b> for ongoing SEO services. One-time
+            <b>$1000 to $5,000 per month</b> for ongoing SEO services. One-time
             project fees will vary depending on the scope of work but can range
             from a few hundred dollars to several thousand.
           </p>

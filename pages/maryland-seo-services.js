@@ -283,24 +283,22 @@ const LocalSEO = () => {
             </p>
             <div className="services">
               <Container>
-                <Link href="/local-seo-maryland">
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/local.svg"
-                        alt="Keyword ranking image"
-                        loading="lazy"
-                      />
-                      <h3>Local SEO</h3>
-                      <p>
-                        Our local customers and clients are searching for your
-                        skills and services. Make sure they can find you and not
-                        your competition.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </Link>
+                <Card>
+                  <div className="card-info">
+                    <img
+                      src="/images/local.svg"
+                      alt="Keyword ranking image"
+                      loading="lazy"
+                    />
+                    <h3>Local SEO</h3>
+                    <p>
+                      Our local customers and clients are searching for your
+                      skills and services. Make sure they can find you and not
+                      your competition.
+                    </p>
+                  </div>
+                  <p>Learn more</p>
+                </Card>
                 <Link href="/seo-audit">
                   <Card>
                     <div className="card-info">

@@ -29,7 +29,7 @@ const LocalSEO = () => {
   }
   return (
     <>
-      <NextSeo {...SEO} />
+      <NextSeo noindex={true} />
       <PageHero
         heading="Local SEO [Maryland]"
         subText="We provide Local SEO services to all businesses in Maryland. We help local businesses get more customers and leads, and make more money."
@@ -278,12 +278,7 @@ const LocalSEO = () => {
             </p>
           </div>
         </section>
-        <div className="btn">
-          <a href={calendly} target="_blank" rel="noreferrer">
-            <Button>Book a call today!</Button>
-          </a>
-        </div>
-        <section>
+        {/* <section>
           <div className="services-container">
             <h2>Popular Local SEO Services</h2>
             <p className="sub-text">
@@ -395,13 +390,13 @@ const LocalSEO = () => {
               </Container>
             </div>
           </div>
-        </section>
+        </section> */}
         <div className="btn">
           <Link href="/seo-services" passHref>
             <Button>See more services</Button>
           </Link>
         </div>
-        <section>
+        {/* <section>
           <div className="container">
             <h2>How Does Local SEO Work?</h2>
             <p>Local search engine optimization is a process.</p>
@@ -774,7 +769,7 @@ const LocalSEO = () => {
           <a href={calendly} target="_blank" rel="noreferrer">
             <Button>Book a call today!</Button>
           </a>
-        </div>
+        </div> */}
         <section>
           <div className="container">
             <h2>Why Work With Us Instead of Other Local SEO Agencies</h2>
@@ -829,14 +824,13 @@ const LocalSEO = () => {
             <h3>#5. Our SEO Company is Located in The DMV!</h3>
           </div>
         </section>
-        <div className="btn">
+        {/* <div className="btn">
           <Link href="/contact" passHref target="_blank">
             <Button>Contact us today!</Button>
           </Link>
-        </div>
-        <section>
+        </div> */}
+        {/* <section>
           <div className="container">
-            {' '}
             <h2>Cities We Offer Local SEO Services</h2>
             <div className="cities container">
               <ul>
@@ -868,7 +862,7 @@ const LocalSEO = () => {
               </ul>
             </div>
           </div>
-        </section>
+        </section> */}
         <div className="btn">
           <a href={calendly} target="_blank" rel="noreferrer">
             <Button>Book a Call Today!</Button>
@@ -968,29 +962,39 @@ const LocalSEO = () => {
               </Link>
             </div>
             <section>
-              <h3>#4. Can I Do Local SEO Myself?</h3>
+              <h3>#2. How Can SEO Help My Business?</h3>
+              <p>SEO can help your business in a number of ways.</p>
               <p>
-                The short answer is yes, you can definitely do local SEO
-                yourself. However, it will take some time and effort on your
-                part. The most important thing is to make sure that you are
-                consistent with your efforts.
+                First, by improving your website's search engine optimization,
+                you can increase your visibility on the web, attract more
+                qualified leads, and boost your sales.
               </p>
               <p>
-                That said, there are some things that you should keep in mind if
-                you decide to tackle local SEO on your own. First and foremost,
-                you need to have a solid understanding of how search engines
-                work. This includes understanding how they index and rank
-                websites. If you don't have this knowledge, then it will be very
-                difficult for you to optimize your site effectively.
+                Additionally, SEO can help to build trust and credibility with
+                potential and current customers.
               </p>
               <p>
-                Another important factor is making sure that your website is
-                optimized for the right keywords. Keyword research is absolutely
-                essential if you want to succeed with local SEO. You need to
-                find the right keywords that people are actually searching for
-                when they are looking for businesses like yours. Once you have a
-                solid list of keywords, you can then start working on optimizing
-                your site for those keywords.
+                By providing relevant and useful content, you can show that
+                you're an authority in your industry, which can encourage people
+                to do business with you.
+              </p>
+              <p>
+                Finally, SEO can also help you to save money on marketing and
+                advertising costs by helping you to reach your target audience
+                more effectively. If you're looking for ways to improve your
+                business's bottom line, then investing in SEO is a smart choice.
+              </p>
+              <p>
+                SEO can be a complex and time-consuming process, but it's worth
+                the effort if you want to improve your business's bottom line.
+                If you're not sure where to start, then consider hiring an SEO
+                expert to help you get the most out of your website. With their
+                help, you can take your business to the next level.
+              </p>
+              <p>
+                If you want to learn more about how SEO can help your business,
+                then contact us today. We'll be happy to answer any questions
+                you have and help you get started on the path to success.
               </p>
             </section>
             <div className="btn">
