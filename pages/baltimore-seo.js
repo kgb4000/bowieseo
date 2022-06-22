@@ -3,25 +3,25 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import { Suspense } from 'react'
-import dynamic from 'next/dynamic'
+// import { Suspense } from 'react'
+// import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
-import { Card, Container, Wrapper, Contact } from '../components/CardSection'
-import ProcessSection from '../components/ProcessSection'
-import {
-  processObj1,
-  processObj2,
-  processObj3,
-  processObj4,
-  processObj5,
-  processObj6,
-} from '../components/ProcessSection/Data/Process1'
+import { Card, Container } from '../components/CardSection'
+// import ProcessSection from '../components/ProcessSection'
+// import {
+//   processObj1,
+//   processObj2,
+//   processObj3,
+//   processObj4,
+//   processObj5,
+//   processObj6,
+// } from '../components/ProcessSection/Data/Process1'
 
-const AuditSection = dynamic(() => import('../components/AuditSection'), {
-  suspense: true,
-})
+// const AuditSection = dynamic(() => import('../components/AuditSection'), {
+//   suspense: true,
+// })
 
 import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
@@ -29,15 +29,15 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const MarylandSEOCompany = () => {
   const SEO = {
-    title: 'Maryland SEO Company | We help Increase Leads and Revenue',
+    title: 'Baltimore SEO | Increase Leads and Revenue',
     description:
-      'A Maryland SEO company helping businesses increase web traffic, attract more customers, and increase revenue. Call us for your free consultation!',
+      'We create Baltimore SEO strategies for Baltimore business that want to increase leads, sales and revenue. Call Bowie SEO for your free consultation!',
     type: 'website',
-    canonical: 'https://bowieseo.com/maryland-seo-company',
+    canonical: 'https://bowieseo.com/baltimore-seo',
     openGraph: {
-      title: 'Maryland SEO Company | We help Increase Leads and Revenue ',
+      title: 'Baltimore SEO | Increase Leads and Revenue',
       description:
-        'A Maryland SEO company helping businesses increase web traffic, attract more customers, and increase revenue. Call us for your free consultation!',
+        'We create Baltimore SEO strategies for Baltimore business that want to increase leads, sales and revenue. Call Bowie SEO for your free consultation!',
       type: 'website',
       image: [{}],
     },
@@ -46,8 +46,8 @@ const MarylandSEOCompany = () => {
     <>
       <NextSeo {...SEO} />
       <PageHero
-        heading="A Maryland SEO Company [That Gets Results]"
-        subText="We're a Maryland SEO Company can get more website traffic, leads, and sales for your business."
+        heading="Baltimore SEO [Increase Leads and Revenue]"
+        subText="We help businesses in Baltimore increase leads and revenue with Baltimore SEO."
         heroBtnLink={calendly}
         buttonText="Book a call"
         heroBtnLink1="/free-mini-seo-audit"
@@ -56,82 +56,68 @@ const MarylandSEOCompany = () => {
       <section>
         <div className="container">
           <h2>
-            Digital Marketing is Tough, but Our Maryland SEO Company Can Help
-            You Get Results
+            Improve Your Rankings and Get Your Business in Front of the Right
+            Customers
           </h2>
           <p>
-            Bowie SEO provides Maryland SEO services to businesses in Maryland,
-            DC and Virginia.
-          </p>
-          <p>
-            We believe that search engine optimization (SEO) is one of the best
-            digital marketing channels that can help you find your ideal
-            customers and also help customers find your business online.
+            If you're searching for Baltimore SEO or Baltimore SEO company, you
+            already know how effective search engine optimization is at making
+            your website better to reach and attract leads and potential
+            customers online.
           </p>
           <img
-            src="images/maryland-seo-company.webp"
-            alt="A Maryland SEO Company - Bowie SEO"
+            src="images/baltimore-seo.webp"
+            alt="We provide Baltimore SEO services - Bowie SEO"
             width="1000"
             height="450"
           />
           <p>
-            As{' '}
-            <Link href="/maryland-seo-expert" passHref>
-              <a>Maryland SEO experts</a>
-            </Link>
-            , we are proud to offer SEO services to all businesses in Maryland
-            and the rest of the DMV.
+            With different digital marketing solutions available to small
+            businesses in Maryland, it's hard to decide which is the best
+            service for your business.
           </p>
           <p>
-            When done right, search engine optimization can increase your web
-            traffic, search engine rankings, online presence, and also help
-            attract customers looking for services you offer.
+            But if you want a solution that attract people actively searching
+            for your services, increase your website traffic, Baltimore SEO is
+            the best digital marketing solution for your business.
           </p>
           <p>
-            Maryland business owners can reach their target market, get more
-            traffic, and reach to the top of the search results with Maryland
-            search engine optimization from Bowie SEO.
+            Our Baltimore SEO firm can help you start an SEO strategy, that will
+            have you business website ranking higher in Google, attracting your
+            target audience, and increase your sales and business online.
           </p>
-        </div>
-        <div className="btn">
-          <a href={calendly} target="_blank" rel="noreferrer">
-            <Button>Book a call today!</Button>
-          </a>
         </div>
       </section>
-      <Suspense fallback={`loading`}>
+      <div className="btn">
+        <a href={calendly} target="_blank" rel="noreferrer">
+          <Button>Book a call today!</Button>
+        </a>
+      </div>
+      {/* <Suspense fallback={`loading`}>
         <AuditSection />
-      </Suspense>
+      </Suspense> */}
       <section>
         <div className="container">
-          <h2>What is (Maryland) SEO?</h2>
+          <h2>What is Baltimore SEO?</h2>
+          <p>Baltimore SEO is SEO for Baltimore businesses.</p>
           <p>
-            Maryland SEO is the process of improving your website for search
-            engines and for users, while increasing web traffic and improving
-            your website visibility.
+            Search engine optimization is the process of making your website
+            rank higher in the search engines to drive organic traffic to your
+            website.
           </p>
           <p>
-            The process takes your website and makes changes so that when people
-            search for your products or services, they would find your website.
+            When you rank higher in search engines, you increase your online
+            visibility, attract new customers, and build trust with potential
+            customers.
           </p>
           <p>
-            <b>Think about this.</b>
+            You can have the best looking website in the world, but if your
+            website is not optimized for search engines like Google, it will not
+            show up in the search results.
           </p>
           <p>
-            If you search for the products or services your business offers,
-            does your website show up in the search results?
-          </p>
-          <p>
-            <b>Does your website show up in the Google Map Pack?</b>
-          </p>
-          <p>
-            <b>Does it show up in the organic search results?</b>
-          </p>
-          <p>If it does, great job.</p>
-          <p>
-            If it doesn't appear in the map pack or the organic search results,
-            you may need <b>search engine optimization</b> to get it to appear
-            in the search results.
+            When you don't show up in the search results, nobody will see your
+            website.
           </p>
           <p>
             If you don't start doing SEO, your website may never appear in the
@@ -146,58 +132,25 @@ const MarylandSEOCompany = () => {
       </div>
       <section>
         <div className="container">
-          <h2>7 Reasons Businesses Need Maryland SEO Services [2022]</h2>
-          <h3>#1. Search Algorithms are Always Changing</h3>
+          <h2>5 Reasons You Need Baltimore SEO in 2022</h2>
+          <h3>#1. Search Engines are Not Going Away</h3>
           <p>
-            Businesses need search engine optimization because search engines
-            are constantly evolving. According to Moz, Google reported over
-            3,000 improvements to search in 2018. This was more than eight times
-            the amount in 2009{' '}
-            <a
-              href="https://moz.com/blog/how-often-does-google-update-its-algorithm"
-              target="_blank"
-              rel="noreferrer"
-            >
-              (Moz)
-            </a>
-            .
+            Search engines are still the most popular way to find information
+            online, and they are not going away anytime soon.
           </p>
-          <p>Significant Google search algorithm changes include:</p>
-          <ul>
-            <li>Panda</li>
-            <li>Mobile First</li>
-            <li>Rank Brain</li>
-            <li>Vicinity</li>
-          </ul>
-          <h3>#2. More People Use Search Engines to Find Local Information</h3>
+          <p>They are fast and easy to use.</p>
           <p>
-            More and more people are using search engines to find local
-            information.
+            You can quickly enter a few keywords and get a list of relevant
+            results in just a few seconds.
           </p>
           <p>
-            In fact, a recent study showed that{' '}
-            <a
-              href="https://www.hubspot.com/marketing-statistics"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {' '}
-              97% of consumers
-            </a>{' '}
-            use the internet to find local businesses.
+            A good search engine will index billions of web pages, making it
+            very likely that you will find what you are looking for.
           </p>
           <p>
-            This trend is only going to continue as more and more people get
-            online. As a result, it's becoming increasingly important for
-            businesses to invest in SEO so they can appear in the search results
-            when potential customers are looking for what they offer.
-          </p>
-          {/* <h3>#2. SEO Beats Every Other Marketing Channel Hands Down</h3>
-          <p>
-            One of the main reasons to invest in SEO is to rank higher in search
-            engine results pages (SERPs). When your website appears higher up on
-            SERPs, it increases your chances of being seen and clicked by
-            potential customers.
+            Also, the algorithms that search engines use to rank websites are
+            getting more sophisticated all the time, making it easier to find
+            the most relevant results.
           </p>
           <h3>
             #2. Your Website Will Become an Asset, Not Just an Online Flyer
@@ -217,7 +170,7 @@ const MarylandSEOCompany = () => {
             will appear in the search results. Whe you appear in the results,
             searchers are more likely to click through to your site and become
             customers.
-          </p> */}
+          </p>
           <h3>
             #3. More People Will Recognize Your Business By Seeing Your Website
             in Google
@@ -272,40 +225,6 @@ const MarylandSEOCompany = () => {
             online presence, rank higher in the search rankings, get more
             traffic, and do more online business.   
           </p>
-          <h3>
-            #6. Spend Less Money on Facebook Ads, PPC Ads and Social Media
-            Marketing
-          </h3>
-          <p>
-            Search engine optimization can help you save money on online
-            advertising. When you rank higher for your keywords, more people
-            will see your business which will increase your click through rates
-            and your leads. 
-          </p>
-          <p>
-            You won’t need to pay for ads if you’re ranking high in organic
-            search results.
-          </p>
-          <p>Organic SEO is free.</p>
-          <h3>#7. Search Engines are Not Going Away</h3>
-          <p>
-            Search engines are still the most popular way to find information
-            online, and they are not going away anytime soon.
-          </p>
-          <p>They are fast and easy to use.</p>
-          <p>
-            You can quickly enter a few keywords and get a list of relevant
-            results in just a few seconds.
-          </p>
-          <p>
-            A good search engine will index billions of web pages, making it
-            very likely that you will find what you are looking for.
-          </p>
-          <p>
-            Also, the algorithms that search engines use to rank websites are
-            getting more sophisticated all the time, making it easier to find
-            the most relevant results.
-          </p>
         </div>
       </section>
       <div className="btn">
@@ -315,7 +234,7 @@ const MarylandSEOCompany = () => {
       </div>
       <section>
         <div className="container">
-          <h2>How Does Maryland SEO Services Work for You?</h2>
+          <h2>How Does Baltimore SEO Services Work?</h2>
           <p>
             SEO is the practice of improving the ranking of a website on search
             engines. The higher the ranking, the more likely people will find
@@ -370,11 +289,13 @@ const MarylandSEOCompany = () => {
       </div>
       <section>
         <div className="services-container">
-          <h2>Popular Maryland SEO Services</h2>
+          <h2>Baltimore SEO Services</h2>
           <p className="sub-text">
-            Our SEO services will help your business grow. We're a Maryland SEO
-            company that specialize in search engine optimization for small
-            businesses in Maryland, DC, and Virginia.
+            Search engine optimization will help your business grow. We're a{' '}
+            <Link href="/maryland-seo-company" passHref>
+              <a>Maryland SEO company</a>
+            </Link>{' '}
+            that specialize in SEO for small businesses in Baltimore.
           </p>
           <div className="services">
             <Container>
@@ -387,9 +308,9 @@ const MarylandSEOCompany = () => {
                   />
                   <h3>Local SEO</h3>
                   <p>
-                    Our local customers and clients are searching for your
+                    Your local customers in Baltimore are searching for your
                     skills and services. Make sure they can find you and not
-                    your competition.
+                    your competitors.
                   </p>
                 </div>
                 <p>Learn more</p>
@@ -484,95 +405,60 @@ const MarylandSEOCompany = () => {
         </Link>
       </div>
       <section>
-        <div className="services-container">
-          <h2>Our Maryland SEO Process</h2>
-          <p className="sub-text">
-            Our Maryland SEO company can generate more leads and customers for
-            your small business.
+        <div className="container">
+          <h2>Local SEO Near Baltimore</h2>
+          <p>
+            If you have a local business, and you provide services in cities or
+            suburbs surrounding the Baltimore area, we can help you reach more
+            customers in these cities with local SEO services.
           </p>
-        </div>
-        <ProcessSection {...processObj1} />
-        <ProcessSection {...processObj2} />
-        <ProcessSection {...processObj3} />
-        <ProcessSection {...processObj4} />
-        <ProcessSection {...processObj5} />
-        <ProcessSection {...processObj6} />
-        <div className="btn">
-          <Link href="/contact" passHref>
-            <Button>Contact us</Button>
-          </Link>
-        </div>
-      </section>
-      <section className="pain-section">
-        <div className="services-container">
-          <h2>Working With Us is a Breeze</h2>
-          <p className="sub-text">
-            It's easy to work with us. If you need more online visibility, or
-            you need to build your web presence, contact us.
-          </p>
-          <Wrapper>
-            <Contact>
-              <h3>Call us</h3>
-              <img
-                src="/images/phone-call.svg"
-                className="icons"
-                loading="lazy"
-                alt="Call us!"
-              />
-              <p>
-                Book a call and tell us about your business. Tell us what you
-                want to acheive for your business, plus your longterm goals.
-              </p>
-            </Contact>
-            <Contact>
-              <h3>We Plan</h3>
-              <img
-                src="/images/plan.svg"
-                className="icons"
-                loading="lazy"
-                alt="We create a plan first."
-              />
-              <p>
-                After we get all the information, we plan what actions will
-                bring your business the best results.
-              </p>
-            </Contact>
-            <Contact>
-              <h3>Execute</h3>
-              <img
-                src="/images/work-together.svg"
-                className="icons"
-                loading="lazy"
-                alt="We work together to make your SEO campaign successful."
-              />
-              <p>
-                We execute or plan. We track and make changes to improve your
-                website to achieve goals and get results.
-              </p>
-            </Contact>
-          </Wrapper>
-          <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Book a call today!</Button>
-            </a>
+          <div className="cities container">
+            <ul>
+              <li>Hampden, MD</li>
+              <li>Rosedale, MD</li>
+              <li>Essex, MD</li>
+              <li>Woodlawn, MD</li>
+              <li>Pikesville, MD</li>
+              <li>Towson, MD</li>
+            </ul>
+            <ul>
+              <li>Dundalk, MD</li>
+              <li>Catonsville, MD</li>
+              <li>Ellicot City, MD</li>
+              <li>Columbia, MD</li>
+              <li>Arbutus, MD</li>
+              <li>Lochearn, MD</li>
+            </ul>
           </div>
         </div>
       </section>
+      <div className="btn">
+        <Link href="/contact" passHref>
+          <Button>Contact us today!</Button>
+        </Link>
+      </div>
       <section>
         <div className="container">
-          <h2>Why Choose Bowie SEO Instead of Other Maryland SEO Companies?</h2>
+          <h2>
+            Why Choose Our Baltimore SEO Agency Instead of Other Baltimore SEO
+            Agencies?
+          </h2>
           <p className="sub-text">
-            Work with our Maryland SEO company and experience the difference
-            between our company and other SEO companies.
+            Work with our SEO company and experience the difference between our
+            company and other SEO companies.
           </p>
-          <h3>
-            #1. Your Business Will Continue To Grow Without Us Being There.
-          </h3>
+          <h3>#1. We're 100% Transparent</h3>
           <p>
-            If you decide to stop working with us, the system we put in place
-            for you will continue to bring you customers and leads.
+            We're not like other companies that only show up at the end of the
+            month when it's time to get paid.
           </p>
-          <p>Keep in mind that your competitors don't stop doing SEO.</p>
+          <p>We don't hide anything from you.</p>
+          <p>
+            We will keep you informed and in the loop about everything we do.
+          </p>
+          <p>
+            You'll never have to ask what we're doing because we'll show you.
+          </p>
           <h3>#2. We Don't Have Long-term Contracts</h3>
           <p>
             Yes, unlike most SEO companies, we don't have long-term contracts.
@@ -629,14 +515,25 @@ const MarylandSEOCompany = () => {
             working together to get you the best results possible.
           </p>
           <h3>#5. We Only Do Search Engine Optimization</h3>
-          <p>We are a local SEO consultants and local SEO experts.</p>
           <p>
-            We don't do web development, web design, social media marketing,
-            Google ads, or search marketing.{' '}
+            We are SEO specialists and we only specialize in search engine
+            optimization.
+          </p>
+          <p>You've heard the saying, "jack of all trades, master of none".</p>
+          <p>That's not us.</p>
+          <p>We are SEO experts.</p>
+          <p>
+            Unlike other SEO companies in Baltimore, Maryland, we don't try to
+            do everything.
           </p>
           <p>
-            We're a small Maryland SEO company that focuses on bringing you
-            quality traffic, higher search engine rankings
+            We don't do web development, web design, email marketing, content
+            marketing or social media marketing.
+          </p>
+          <p>All we do is SEO.</p>
+          <p>
+            Our SEO company is based in Maryland and we are proud to be part of
+            the Baltimore business community.
           </p>
         </div>
       </section>
@@ -644,91 +541,6 @@ const MarylandSEOCompany = () => {
         <a href={calendly} target="_blank" rel="noreferrer">
           <Button>Book a call today!</Button>
         </a>
-      </div>
-      <section>
-        <div className="container">
-          <h2>Looking for a Maryland SEO Company Near Me?</h2>
-          <p>
-            For small businesses in the DMV that want to take their business to
-            the next level, it's essential to work with a top SEO companies like
-            Bowie SEO.
-          </p>
-          <p>
-            We have a proven track record of helping businesses in Maryland
-            achieve their online marketing goals, and we're ready to put our
-            experience to work for you.
-          </p>
-          <p>
-            When it comes to Maryland search engine optimization, there's no
-            one-size-fits-all solution.
-          </p>
-          <p>
-            That's why we take a customized approach to every project we
-            undertake. We'll work closely with you to understand your unique
-            needs and challenges, and then develop a personalized strategy that
-            is designed to achieve your specific objectives.
-          </p>
-          <p>
-            Whether you're looking to increase traffic to your website, improve
-            your rankings, or simply keep existing customers through your door,
-            we can help.
-          </p>
-          <p>
-            Contact us today to schedule a free consultation. We'll be happy to
-            answer any questions you have, and provide you with a customized
-            proposal.
-          </p>
-          <p>Book a call and let's get started!</p>
-        </div>
-      </section>
-      <div className="btn">
-        <a href={calendly} target="_blank" rel="noreferrer">
-          <Button>Book a call today!</Button>
-        </a>
-      </div>
-      <section>
-        <div className="container">
-          {' '}
-          <h2>Cities We Offer Local SEO Services</h2>
-          <div className="cities container">
-            <ul>
-              <li>Annapolis, MD</li>
-              <li>
-                <Link href="/baltimore-seo" passHref>
-                  <a>Baltimore, MD</a>
-                </Link>
-              </li>
-              <li>Bethesda, MD</li>
-              <li>Bowie, MD</li>
-              <li>Capitol Heights</li>
-              <li>Chevy Chase, MD</li>
-              <li>Fort Washington, MD</li>
-            </ul>
-            <ul>
-              <li>Glen Burnie</li>
-
-              <li>Hyattsville, MD</li>
-              <li>
-                <Link href="/laurel-maryland-local-seo-services" passHref>
-                  <a>Laurel, MD</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/seo-services-ocean-city" passHref>
-                  <a>Ocean City, MD</a>
-                </Link>
-              </li>
-              <li>Rockville, MD</li>
-              <li>Silver Spring, MD</li>
-              <li>Takoma Park, MD</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <div className="btn">
-        <Link href="/contact" passHref>
-          <Button>Contact us today!</Button>
-        </Link>
       </div>
       <section>
         <FAQPageJsonLd

@@ -38,9 +38,12 @@ const About = () => {
           <h2>About Us</h2>
           <p>We are Bowie SEO.</p>
           <p>
-            We help businesses in Maryland, DC, and Virginia like yours improve
-            their organic rankings by making website better for search engines
-            and for users .
+            Bowie SEO is an{' '}
+            <Link href="/maryland-seo-company" passHref>
+              <a>SEO company</a>
+            </Link>{' '}
+            providing search engine optimization services for businesses in the
+            DC, Maryland, and Virginia.
           </p>
           <h2>Our Vision</h2>
           <p>
