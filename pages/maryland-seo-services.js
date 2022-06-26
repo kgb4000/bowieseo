@@ -18,7 +18,7 @@ const LocalSEO = () => {
     description:
       'We provide Maryland SEO Services for Maryland Businesses to get more traffic, leads, and revenue. Contact us today!',
     type: 'website',
-    canonical: 'https://bowieseo.com/maryland-seo-services',
+    canonical: 'https://bowieseo.com/maryland-seo-company',
     openGraph: {
       title: 'Maryland SEO Services For Maryland Businesses',
       description:

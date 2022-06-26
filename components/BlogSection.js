@@ -24,7 +24,7 @@ const Blog = ({ data }) => {
       </div>
       <div className="btn">
         <Link href="/blog" passHref>
-          <Button>Read more!</Button>
+          <Button>Visit our Blog</Button>
         </Link>
       </div>
     </>

@@ -144,7 +144,7 @@ const MarylandSEOCompany = () => {
           <Button>Book a call today!</Button>
         </a>
       </div>
-      <section>
+      <section className="reasons-section">
         <div className="container">
           <h2>7 Reasons Businesses Need Maryland SEO Services [2022]</h2>
           <h3>#1. Search Algorithms are Always Changing</h3>
@@ -180,6 +180,7 @@ const MarylandSEOCompany = () => {
               href="https://www.hubspot.com/marketing-statistics"
               target="_blank"
               rel="noreferrer"
+              className="white"
             >
               {' '}
               97% of consumers
@@ -286,7 +287,7 @@ const MarylandSEOCompany = () => {
             You won’t need to pay for ads if you’re ranking high in organic
             search results.
           </p>
-          <p>Organic SEO is free.</p>
+          <p>Organic traffic is free.</p>
           <h3>#7. Search Engines are Not Going Away</h3>
           <p>
             Search engines are still the most popular way to find information
@@ -307,12 +308,13 @@ const MarylandSEOCompany = () => {
             the most relevant results.
           </p>
         </div>
+        <div className="btn">
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Book a call today!</Button>
+          </a>
+        </div>
       </section>
-      <div className="btn">
-        <a href={calendly} target="_blank" rel="noreferrer">
-          <Button>Book a call today!</Button>
-        </a>
-      </div>
+
       <section>
         <div className="container">
           <h2>How Does Maryland SEO Services Work for You?</h2>
@@ -628,7 +630,7 @@ const MarylandSEOCompany = () => {
             You get a team of people with different skillsets and expertise all
             working together to get you the best results possible.
           </p>
-          <h3>#5. We Only Do Search Engine Optimization</h3>
+          <h3>#5. All We Do is Search Engine Optimization</h3>
           <p>We are a local SEO consultants and local SEO experts.</p>
           <p>
             We don't do web development, web design, social media marketing,

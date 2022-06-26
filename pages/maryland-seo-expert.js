@@ -25,14 +25,14 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const MarylandSEOExpert = () => {
   const SEO = {
-    title: 'Maryland SEO Expert | Increase Web Traffic and Leads',
+    title: 'Maryland SEO Expert | Increase Website Traffic and Leads',
     description:
-      'Our Maryland SEO Expert can help your business increase web traffic, attract more customers and make more money. Contact us today for a free consultation!',
+      'A Maryland SEO Expert that can increase your website traffic, attract more customers and increase your revenue. Call us today for a free consultation!',
     canonical: 'https://bowieseo.com/maryland-seo-expert',
     openGraph: {
-      title: 'Maryland SEO Expert | Increase Web Traffic, Boost Revenue',
+      title: 'Maryland SEO Expert | Increase Website Traffic and Leads',
       description:
-        'Our Maryland SEO Expert can help your business increase web traffic, attract more customers and make more money. Contact us today for a free consultation!',
+        'A Maryland SEO Expert that can increase your website traffic, attract more customers and increase your revenue. Call us today for a free consultation!',
       type: 'website',
     },
   }
@@ -104,7 +104,7 @@ const MarylandSEOExpert = () => {
         </div>
         <div className="btn">
           <a href={calendly} target="_blank" rel="noreferrer">
-            <Button>Book a call today!</Button>
+            <Button>Book a free consultation today!</Button>
           </a>
         </div>
       </section>
@@ -116,9 +116,8 @@ const MarylandSEOExpert = () => {
         <div className="container">
           <h2>7 Reasons Why You Need to Hire a Maryland SEO Expert in 2022</h2>
           <p className="sub-text">
-            Your business needs an SEO specialists to help you rank higher,
-            attract more customers, build authority, and save money on
-            marketing.
+            Your business needs SEO specialists to help you rank higher, attract
+            more customers, build authority, and save money on marketing.
           </p>
           <div>
             <h3>#1. We Can Help You Rank Higher in Search Engines</h3>
@@ -155,7 +154,9 @@ const MarylandSEOExpert = () => {
               take the desired action, whether that’s signing up for your email
               list, making a purchase, or contacting you for more information.
             </p>
-            <h3>#4. An SEO Expert Can Help You Save Money on Advertising</h3>
+            <h3>
+              #4. An SEO Consultant Can Help You Save Money on Advertising
+            </h3>
             <p>
               If you’re like most businesses, you’re always looking for ways to
               save money. And one of the best ways to do that is by reducing
@@ -349,8 +350,7 @@ const MarylandSEOExpert = () => {
       <section>
         <div className="container">
           <h2>
-            Why Work With Bowie SEO Experts Instead of Other Maryland SEO
-            Companies?
+            Why Work With Bowie SEO Consultants Instead of Other SEO Companies?
           </h2>
           <p>
             With Maryland SEO companies offering so many digital marketing
@@ -359,7 +359,7 @@ const MarylandSEOExpert = () => {
           </p>
           <p>So why should you choose Bowie SEO?</p>
           <h3>#1. We Only Specialize in SEO</h3>
-          <p>We only specialize in SEO.</p>
+          <p>We are SEO consultants that only specialize in SEO.</p>
           <p>
             We don't do web development, search marketing, social media
             management, or any other types of digital marketing.

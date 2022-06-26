@@ -13,7 +13,7 @@ export default {
   canonical: 'https://bowieseo.com',
   openGraph: {
     url: 'https://bowieseo.com',
-    title: `SEO Company Helping DMV Businesses Get More Leads and Grow`,
+    title: `Bowie SEO is an SEO company in the DMV helping small businesses GROW by increasing web traffic and targeting the right customers. Get a Free consultation!`,
     type: 'website',
     locale: 'en_US',
     description:

@@ -721,7 +721,7 @@ export default function Home({ data }) {
         </section>
         <section className="pain-section">
           <div className="container">
-            <h2>Tips From Our Blog</h2>
+            <h2>Recent Articles</h2>
           </div>
           <div>
             <Suspense fallback={`loading`}>

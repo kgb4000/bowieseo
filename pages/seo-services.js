@@ -93,7 +93,7 @@ const Services = () => {
             <ServicesCard>
               <div className="services-card-info">
                 <div className="card-info">
-                  <h3>Maryland SEO Services</h3>
+                  <h3>Maryland SEO</h3>
                   <p>
                     Our team of SEO experts will work with you to develop a
                     customized SEO strategy that fits your unique business
@@ -122,7 +122,7 @@ const Services = () => {
                     competition is fierce. You need to make sure that your
                     website is ranking high in the search engines if you want to
                     attract new customers and grow your business. That’s where
-                    our team of SEO experts comes in. We offer comprehensive SEO
+                    our team of SEO experts come in. We offer comprehensive SEO
                     services that are designed to help your website rank higher
                     in the search engines and get more traffic.
                   </p>
@@ -133,14 +133,14 @@ const Services = () => {
                 loading="lazy"
               /> */}
               </div>
-              <Link href="/maryland-seo-company" passHref>
-                <Button>DC Local SEO</Button>
+              <Link href="/dc-seo" passHref>
+                <Button>DC SEO</Button>
               </Link>
             </ServicesCard>
             <ServicesCard>
               <div className="services-card-info">
                 <div>
-                  <h3>Virginia SEO Services</h3>
+                  <h3>Baltimore SEO Services</h3>
                   <p>
                     We understand the importance of remaining visible online,
                     which is why we offer a variety of services that are
@@ -150,18 +150,13 @@ const Services = () => {
                     objectives.
                   </p>
                   <p>
-                    Contact us today to learn more about our Virginia SEO
+                    Contact us today to learn more about our Baltimore SEO
                     services and how we can help your business grow.​
                   </p>
                 </div>
-                {/* <img
-                src="/images/audit.svg"
-                alt="Keyword ranking image"
-                loading="lazy"
-              /> */}
               </div>
-              <Link href="/maryland-seo-company" passHref>
-                <Button>Va SEO</Button>
+              <Link href="/baltimore-seo" passHref>
+                <Button>Baltimore SEO</Button>
               </Link>
             </ServicesCard>
           </div>
@@ -371,15 +366,12 @@ const Services = () => {
               </Container>
             </div>
             <p className="sub-text">
-              We provide these SEO services to businesses in DC,{' '}
-              <Link href="/maryland-seo-company" passHref>
-                <a>Maryland</a>
-              </Link>
-              , and Virginia.
+              We provide these SEO services to businesses in DC, Maryland , and
+              Virginia.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book a call today!</Button>
+                <Button>Schedule a call today!</Button>
               </a>
             </div>
           </div>

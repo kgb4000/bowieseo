@@ -148,16 +148,6 @@ const FooterSection = () => {
               Phone: <a href="tel:12402660588">(240) 266-0588</a>
             </p>
             <p>Bowie, MD</p>
-            <p>
-              <Link href="/terms-of-service">
-                <a>Terms of Service</a>
-              </Link>
-            </p>
-            <p>
-              <Link href="/privacy-policy">
-                <a>Privacy Policy</a>
-              </Link>
-            </p>
           </div>
         </Footer>
         <LowerFooter>Bowie SEO &copy; {new Date().getFullYear()}</LowerFooter>
@@ -216,6 +206,8 @@ const LowerFooter = styled.div`
   padding: 1rem 0;
   background: #fff;
   color: #000;
+  ]
+
 `
 
 export default FooterSection
