@@ -2,6 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
+import OfferForm from '../components/OfferFormSection'
 import {
   NextSeo,
   LocalBusinessJsonLd,
@@ -75,79 +76,49 @@ const FooterSection = () => {
       <NextSeo />
       <footer>
         <Footer>
+          <div className="hours-container">
+            <h3>Bowie SEO</h3>
+            <p>
+              <span className="day">Monday - Saturday: </span>
+              <span className="time">9:00am - 6:00pm ET</span>
+            </p>
+            <p>
+              Phone: <a href="tel:12402660588">(240) 266-0588</a>
+            </p>
+            <p>
+              Email: <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>
+            </p>
+          </div>
           <div className="menu-container">
-            <h3>Menu</h3>
+            <h3>Services</h3>
             <nav>
               <ul>
                 <li>
-                  <Link href="/seo-services">
-                    <a>Services</a>
+                  <Link href="/maryland-seo-company">
+                    <a>Maryland SEO</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog">
-                    <a>Blog</a>
+                  <Link href="/baltimore-seo">
+                    <a>Baltimore SEO</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about">
-                    <a>About</a>
+                  <Link href="/dc-seo">
+                    <a>DC SEO</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact">
-                    <a>Contact</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/free-mini-seo-audit">
-                    <a>Free Mini SEO Audit</a>
+                  <Link href="/dc-seo">
+                    <a>Fairfax SEO</a>
                   </Link>
                 </li>
               </ul>
             </nav>
           </div>
-
-          <div className="hours-container">
-            <h3>Hours</h3>
-            <p>
-              <span className="day">Monday: </span>
-              <span className="time">9:00am - 6:00pm</span>
-            </p>
-            <p>
-              <span className="day">Tuesday: </span>
-              <span className="time">9:00am - 6:00pm</span>
-            </p>
-            <p>
-              <span className="day">Wednesday: </span>
-              <span className="time">9:00am - 6:00pm</span>
-            </p>
-            <p>
-              <span className="day">Thursday: </span>
-              <span className="time">9:00am - 6:00pm</span>
-            </p>
-            <p>
-              <span className="day">Friday: </span>
-              <span className="time">9:00am - 6:00pm</span>
-            </p>
-            <p>
-              <span className="day">Saturday: </span>
-              <span className="time">9:00am - 6:00pm</span>
-            </p>
-            <p>
-              <span className="day">Sunday: </span>
-              <span className="time">Closed</span>
-            </p>
-          </div>
-          <div className="contact-container">
-            <h3>Contact</h3>
-            <p>
-              Email: <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>
-            </p>
-            <p>
-              Phone: <a href="tel:12402660588">(240) 266-0588</a>
-            </p>
-            <p>Bowie, MD</p>
+          <div className="menu-container">
+            <h3>Free Mini SEO Audit</h3>
+            <OfferForm />
           </div>
         </Footer>
         <LowerFooter>Bowie SEO &copy; {new Date().getFullYear()}</LowerFooter>
@@ -159,8 +130,8 @@ const FooterSection = () => {
 const Footer = styled.div`
   padding: 4rem 1.2rem;
   margin: 0 auto;
-  background: #000;
-  color: #fff;
+  background: #ecf0f1;
+  color: #2c3e50;
 
   @media screen and (min-width: 768px) {
     max-width: 95%;
@@ -184,7 +155,7 @@ const Footer = styled.div`
 
   a {
     text-decoration: none;
-    color: #fff;
+    color: #2c3e50;
 
     &:hover {
       color: #ff5200;
@@ -205,9 +176,8 @@ const LowerFooter = styled.div`
   text-align: center;
   padding: 1rem 0;
   background: #fff;
-  color: #000;
+  color: #2c3e50;
   ]
 
 `
-
 export default FooterSection

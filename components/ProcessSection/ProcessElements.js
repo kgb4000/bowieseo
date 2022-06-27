@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const ProcessContainer = styled.div`
-  color: #000;
   background: ${({ lightBg }) => (lightBg ? '#fff' : '#f5f6fa')};
 
   @media screen and (min-width: 768px) {

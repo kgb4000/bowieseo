@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ResultsContainer = styled.div`
-  color: #000;
+  color: #2c3e50;
   background: ${({ lightBg }) => (lightBg ? '#fff' : '#f5f6fa')};
 
   @media screen and (min-width: 768px) {

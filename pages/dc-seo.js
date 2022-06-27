@@ -7,6 +7,7 @@ import Link from 'next/link'
 import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
 import { Card, Container } from '../components/CardSection'
+import OfferForm from '../components/OfferFormSection'
 
 import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
@@ -120,35 +121,35 @@ const DCSEO = () => {
           </a>
         </div>
       </section>
-      {/* <section>
+      <section className="dots-background">
         <div className="container">
-          <h2>
-            Get More Website Traffic, More Leads, and Customers for Your
-            Business
-          </h2>
-          <p>
-            Search engine optimization is one of the most effective digital
-            marketing methods for increasing web traffic, attracting new leads,
-            and increasing your business revenue.
-          </p>
-          <p>
-            We're a professional SEO company and we know what it takes to create
-            winning SEO strategies for local businesses that will improve search
-            engine rankings, increase traffic, and increase online visibility in
-            search engines.
-          </p>
-          <p>
-            But if you want a solution that attract people actively searching
-            for your services, increase your website traffic, Baltimore SEO is
-            the best digital marketing solution for your business.
-          </p>
+          <div className="offer-section">
+            <h2>Are You Ranking in the Google Map Pack?</h2>
+            <p className="big-p">If Not, Get a Free Mini Free SEO Audit!</p>
+            <img
+              src="/images/seo-guys.jpg"
+              alt="Baltimore SEO team - Bowie SEO"
+              width="1000"
+              height="700"
+            />
+            <ul>
+              <li>
+                Discover why you're not appearing in Google Map Pack or the
+                search results.
+              </li>
+              <li>
+                Get a personalized video audit for your company's website,
+                delivered to your email.
+              </li>
+              <li>
+                Get actionable advice and recommendations to improve your SEO
+                rankings and performance.
+              </li>
+            </ul>
+            <OfferForm />
+          </div>
         </div>
-        <div className="btn">
-          <a href={calendly} target="_blank" rel="noreferrer">
-            <Button>Schedule a call today!</Button>
-          </a>
-        </div>
-      </section> */}
+      </section>
       <section className="reasons-section">
         <div className="container">
           <h2>7 Reasons You Must Invest in Washington DC SEO for 2023</h2>
@@ -217,8 +218,7 @@ const DCSEO = () => {
           </a>
         </div>
       </section>
-
-      <section>
+      <section className="blue-background">
         <div className="container">
           <h2>How We Do DC SEO for Your Washington DC Business</h2>
           <p>

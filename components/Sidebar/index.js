@@ -53,7 +53,7 @@ const Sibebar = ({ isOpen, toggle }) => {
           </SidebarMenu>
           <SidebarBtnWrap>
             <SidebarBtnLink href={calendly}>
-              <SidebarBtnLinkA href={calendly}>Book a Call</SidebarBtnLinkA>
+              <SidebarBtnLinkA href={calendly}>Schedule a Call</SidebarBtnLinkA>
             </SidebarBtnLink>
           </SidebarBtnWrap>
         </SidebarWrapper>

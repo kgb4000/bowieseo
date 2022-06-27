@@ -7,7 +7,7 @@ export const Container = styled.div`
   justify-content: center;
 
   a {
-    color: #000;
+    color: #2c3e50;
     text-decoration: none;
 
     &:hover {
@@ -115,7 +115,7 @@ export const Contact = styled.div`
   justify-content: stretch;
   margin-bottom: 2rem;
   padding: 0 2rem;
-  height: 400px;
+  height: auto;
 
   @media screen and (min-width: 768px) {
     height: 500px;

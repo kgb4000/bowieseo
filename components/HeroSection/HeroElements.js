@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import Link from 'next/link'
 
 export const HeroContainer = styled.div`
-  background: #0c0c0c;
+  background: #2c3e50;
   display: flex;
   align-items: center;
   padding: 0 2rem;
@@ -39,25 +39,28 @@ export const HeroContent = styled.div`
 
   h1 {
     color: #fff;
-    font-size: 32px;
+    font-size: 35px;
     margin-bottom: 2rem;
     text-align: left;
 
     @media screen and (min-width: 480px) {
-      font-size: 35px;
+      font-size: 40px;
     }
 
     @media screen and (min-width: 768px) {
-      font-size: 55px;
+      font-size: 65px;
     }
   }
 
   p {
     color: #fff;
-    font-size: 30px;
 
-    @media screen and (max-width: 480px) {
-      font-size: 18px;
+    @media screen and (min-width: 480px) {
+      font-size: 20px;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 25px;
     }
   }
 `

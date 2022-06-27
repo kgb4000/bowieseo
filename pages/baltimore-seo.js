@@ -9,6 +9,7 @@ import Link from 'next/link'
 import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
 import { Card, Container } from '../components/CardSection'
+import OfferForm from '../components/OfferFormSection'
 // import ProcessSection from '../components/ProcessSection'
 // import {
 //   processObj1,
@@ -87,15 +88,41 @@ const MarylandSEOCompany = () => {
             target audience, and increase your sales and business online.
           </p>
         </div>
+        <div className="btn">
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Book a call today!</Button>
+          </a>
+        </div>
       </section>
-      <div className="btn">
-        <a href={calendly} target="_blank" rel="noreferrer">
-          <Button>Book a call today!</Button>
-        </a>
-      </div>
-      {/* <Suspense fallback={`loading`}>
-        <AuditSection />
-      </Suspense> */}
+      <section className="dots-background">
+        <div className="container">
+          <div className="offer-section">
+            <h2>Not Getting and Traffic to Your Site?</h2>
+            <p className="big-p">Get a Free Mini Free SEO Audit!</p>
+            <img
+              src="/images/seo-guys.jpg"
+              alt="Baltimore SEO team - Bowie SEO"
+              width="1000"
+              height="700"
+            />
+            <ul>
+              <li>
+                Discover why you're not appearing in Google Map Pack or the
+                search results.
+              </li>
+              <li>
+                Get a personalized video audit for your company's website,
+                delivered to your email.
+              </li>
+              <li>
+                Get actionable advice and recommendations to improve your SEO
+                rankings and performance.
+              </li>
+            </ul>
+            <OfferForm />
+          </div>
+        </div>
+      </section>
       <section>
         <div className="container">
           <h2>What is Baltimore SEO?</h2>
@@ -186,12 +213,13 @@ const MarylandSEOCompany = () => {
             traffic, and do more online business.   
           </p>
         </div>
+        <div className="btn">
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Book a call today!</Button>
+          </a>
+        </div>
       </section>
-      <div className="btn">
-        <a href={calendly} target="_blank" rel="noreferrer">
-          <Button>Book a call today!</Button>
-        </a>
-      </div>
+
       <section>
         <div className="container">
           <h2>
@@ -257,7 +285,11 @@ const MarylandSEOCompany = () => {
             <Link href="/maryland-seo-company" passHref>
               <a>Maryland SEO company</a>
             </Link>{' '}
-            that specialize in SEO for small businesses in Baltimore.
+            that specialize in SEO for small businesses in Baltimore,{' '}
+            <Link href="/dc-seo" passHref>
+              <a>DC</a>
+            </Link>{' '}
+            , and Virginia.
           </p>
           <div className="services">
             <Container>

@@ -1,14 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState } from 'react'
-import dynamic from 'next/dynamic'
 import styled from 'styled-components'
-import Button from '../Button'
-
-const ModalVideo = dynamic(() => import('react-modal-video'), { ssr: false })
-// import ModalVideo from 'react-modal-video'
+import OfferVid from '../OfferVideo'
+import OfferForm from '../OfferFormSection'
 
 const AuditSection = () => {
-  const [isOpen, setOpen] = useState(false)
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -84,86 +80,37 @@ const AuditSection = () => {
   }
 
   return (
-    <div className="container">
+    <section className="dots-background">
       <AuditElements>
-        <div className="video-section">
-          <>
-            <ModalVideo
-              channel="youtube"
-              isOpen={isOpen}
-              videoId="YQ9VpQQWtEw"
-              onClose={() => setOpen(false)}
-              autoplay
-            />
-          </>
-          <img
-            src="/images/free-mini-seo-audit.jpg"
-            alt="Watch video to get a free mini seo audit"
-            loading="lazy"
-            onClick={() => setOpen(true)}
-            className="video-btn"
-          />
-        </div>
-        <div className="form-section">
-          <h2>Fill out the form and get your Free Mini SEO Audit Today!</h2>
-          <form onSubmit={handleOnSubmit}>
-            <div className="form-input">
-              <label htmlFor="firstName">Name *</label>
-              <input
-                id="firstName"
-                type="text"
-                onChange={handleOnChange}
-                required
-                value={inputs.firstName}
-              />
-            </div>
-            <div className="form-input">
-              <label htmlFor="email">Email *</label>
-              <input
-                id="email"
-                type="email"
-                onChange={handleOnChange}
-                required
-                value={inputs.email}
-              />
-            </div>
-            <div className="form-input">
-              <label htmlFor="website">Website *</label>
-              <input
-                id="website"
-                type="text"
-                onChange={handleOnChange}
-                required
-                value={inputs.website}
-              />
-            </div>
-            {/* <button type="submit">Submit</button> */}
-            <SubmitButton
-              type="submit"
-              disabled={status.submitting || isEnabled}
-            >
-              {!status.submitting
-                ? !status.submitted
-                  ? 'I want my Free Mini SEO Audit!'
-                  : 'Got it!'
-                : 'Submitting...'}
-            </SubmitButton>
-            {status.info.error && (
-              <div className="error">Error: {status.info.msg}</div>
-            )}
-            {!status.info.error && status.info.msg && (
-              <div className="success">We Got Your Info!</div>
-            )}
-          </form>
+        <h2>Is Your Website Ranking High in Google?</h2>
+        <p className="big-p">If Not, Get a Free Mini Free SEO Audit!</p>
+        <div className="offer-section">
+          <OfferVid />
+          <ul>
+            <li>
+              Check your website's SEO and discover why you're not appearing in
+              Google Map Pack or the search results.
+            </li>
+            <li>
+              Get a personalized video audit for your company's website,
+              delivered to your email.
+            </li>
+            <li>
+              Get actionable adviceand recommendations to improve your SEO
+              rankings and performance.
+            </li>
+          </ul>
+          <OfferForm />
         </div>
       </AuditElements>
-    </div>
+    </section>
   )
 }
 
 export default AuditSection
 
 const AuditElements = styled.div`
+  max-width: 700px;
   .form-section {
     form {
       margin-top: 4rem;
@@ -172,20 +119,11 @@ const AuditElements = styled.div`
     input {
       width: 100%;
       padding: 1rem;
-      margin-top: 0.8rem;
-      margin-bottom: 1rem;
+      margin: 0.5rem 0;
     }
 
     label {
       margin-bottom: 1rem;
     }
   }
-`
-
-const SubmitButton = styled(Button)`
-  width: 100%;
-  margin: 1rem 0;
-  color: #fff;
-  background: #ff5200;
-  text-align: center;
 `

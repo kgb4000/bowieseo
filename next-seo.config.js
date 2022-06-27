@@ -4,7 +4,7 @@ export default {
     locales: ['en'],
     defaultLocale: 'en',
   },
-  title: `SEO Company in the DMV Helping Businesses Get More Customers`,
+  title: `Bowie SEO Company Helping Businesses Get More Customers`,
   type: 'website',
   locale: 'en_US',
   url: 'https://bowieseo.com',
@@ -13,7 +13,7 @@ export default {
   canonical: 'https://bowieseo.com',
   openGraph: {
     url: 'https://bowieseo.com',
-    title: `Bowie SEO is an SEO company in the DMV helping small businesses GROW by increasing web traffic and targeting the right customers. Get a Free consultation!`,
+    title: `Bowie SEO Company Helping Businesses Get More Customers`,
     type: 'website',
     locale: 'en_US',
     description:

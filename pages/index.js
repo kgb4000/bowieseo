@@ -143,7 +143,6 @@ export default function Home({ data }) {
         <Suspense fallback={`loading`}>
           <AuditSection />
         </Suspense>
-
         <section className="not-struggling-section">
           <div className="container">
             <h2>You Don't Have to Struggle Anymore... Bowie SEO Can Help</h2>
@@ -389,7 +388,11 @@ export default function Home({ data }) {
               Our services will help your business get more website traffic and
               attract potential customers. We not a full service agency, we're
               an SEO company that specialize in search engine optimization for
-              businesses in DC,{' '}
+              businesses in{' '}
+              <Link href="/dc-seo">
+                <a>DC</a>
+              </Link>
+              ,{' '}
               <Link href="/maryland-seo-company">
                 <a>Maryland</a>
               </Link>
