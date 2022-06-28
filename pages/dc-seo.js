@@ -19,7 +19,7 @@ const DCSEO = () => {
     description:
       "We create Baltimore SEO strategies for B'more business that want to increase leads, sales and revenue. Call Bowie SEO for your free consultation!",
     type: 'website',
-    canonical: 'https://bowieseo.com/baltimore-seo',
+    canonical: 'https://bowieseo.com/dc-seo',
     openGraph: {
       title: 'DC SEO Services | Increase Leads, Customers and Revenue',
       description:

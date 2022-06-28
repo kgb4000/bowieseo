@@ -33,6 +33,7 @@ const BioSection = styled.div`
   border-radius: 5px;
   border: 2px solid #ddd;
   color: #101010;
+  margin-bottom: 4rem;
 
   .solution-container {
     justify-content: center;
