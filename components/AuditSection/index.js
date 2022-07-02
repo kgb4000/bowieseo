@@ -81,28 +81,30 @@ const AuditSection = () => {
 
   return (
     <section className="dots-background">
-      <AuditElements>
-        <h2>Is Your Website Ranking High in Google?</h2>
-        <p className="big-p">If Not, Get a Free Mini Free SEO Audit!</p>
-        <div className="offer-section">
-          <OfferVid />
-          <ul>
-            <li>
-              Check your website's SEO and discover why you're not appearing in
-              Google Map Pack or the search results.
-            </li>
-            <li>
-              Get a personalized video audit for your company's website,
-              delivered to your email.
-            </li>
-            <li>
-              Get actionable adviceand recommendations to improve your SEO
-              rankings and performance.
-            </li>
-          </ul>
-          <OfferForm />
-        </div>
-      </AuditElements>
+      <div className="container">
+        <AuditElements>
+          <h2>Is Your Website Ranking High in Google?</h2>
+          <p className="big-p">If Not, Get a Free Mini Free SEO Audit!</p>
+          <div className="offer-section">
+            <OfferVid />
+            <ul>
+              <li>
+                Check your website's SEO and discover why you're not appearing
+                in Google Map Pack or the search results.
+              </li>
+              <li>
+                Get a personalized video audit for your company's website,
+                delivered to your email.
+              </li>
+              <li>
+                Get actionable adviceand recommendations to improve your SEO
+                rankings and performance.
+              </li>
+            </ul>
+            <OfferForm />
+          </div>
+        </AuditElements>
+      </div>
     </section>
   )
 }

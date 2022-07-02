@@ -69,7 +69,7 @@ const MarylandSEOCompany = () => {
             customers and also help customers find your business online.
           </p>
           <img
-            src="images/maryland-seo-company.webp"
+            src="images/maryland-seo-company.jpg"
             alt="A Maryland SEO Company - Bowie SEO"
             width="1000"
             height="450"
