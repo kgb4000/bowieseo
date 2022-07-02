@@ -98,7 +98,7 @@ const MarylandSEOCompany = () => {
       <section className="dots-background">
         <div className="container">
           <div className="offer-section">
-            <h2>Not Getting and Traffic to Your Site?</h2>
+            <h2>Not Getting Traffic to Your Site?</h2>
             <p className="big-p">Get a Free Mini Free SEO Audit!</p>
             <img
               src="/images/seo-guys.jpg"
@@ -153,12 +153,13 @@ const MarylandSEOCompany = () => {
             search results when people search for services you offer.
           </p>
         </div>
+        <div className="btn">
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Book a Free Consultation</Button>
+          </a>
+        </div>
       </section>
-      <div className="btn">
-        <a href={calendly} target="_blank" rel="noreferrer">
-          <Button>Book a Free Consultation</Button>
-        </a>
-      </div>
+
       <section className="reasons-section">
         <div className="container">
           <h2>5 Reasons You Must Invest in Baltimore SEO in 2022</h2>
