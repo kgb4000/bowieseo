@@ -30,14 +30,15 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const MarylandSEOCompany = () => {
   const SEO = {
-    title: "Baltimore Search Engine Optimization for Small Business in B'more",
+    title:
+      "Baltimore SEO | Search Engine Optimization for Businesses in B'more",
     description:
       "We create Baltimore SEO strategies for B'more business that want to increase leads, sales and revenue. Call Bowie SEO for your free consultation!",
     type: 'website',
     canonical: 'https://bowieseo.com/baltimore-seo',
     openGraph: {
       title:
-        "Baltimore Search Engine Optimization for Small Business in B'more",
+        "Baltimore SEO | Search Engine Optimization for Businesses in B'more",
       description:
         "We create Baltimore SEO strategies for B'more business that want to increase leads, sales and revenue. Call Bowie SEO for your free consultation!",
       type: 'website',
