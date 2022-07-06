@@ -65,7 +65,7 @@ const MarylandSEOExpert = () => {
             building links to the website from other high-quality websites.
           </p>
           <img
-            src="images/maryland-seo-expert.webp"
+            src="images/maryland-seo-expert.jpg"
             alt="Maryland SEO Expert"
             width="1000"
             height="450"
@@ -218,7 +218,7 @@ const MarylandSEOExpert = () => {
       </div>
       <section className="our-services-section">
         <div className="services-container">
-          <h2>Popular SEO Services</h2>
+          <h2>Our Expert SEO Services</h2>
           <p className="sub-text">
             Our services help local business get more website traffic and
             attract potential customers. We not a full service agency, we're an

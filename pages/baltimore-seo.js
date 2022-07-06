@@ -49,7 +49,7 @@ const MarylandSEOCompany = () => {
     <>
       <NextSeo {...SEO} />
       <PageHero
-        heading="Baltimore SEO [Increase Leads and Revenue]"
+        heading="Baltimore SEO | Search Engine Optimization for Businesses in B'more"
         subText="We help businesses in Baltimore increase leads and revenue with Baltimore SEO."
         heroBtnLink={calendly}
         buttonText="Book a call"

@@ -29,15 +29,17 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const MarylandSEOCompany = () => {
   const SEO = {
-    title: 'Maryland SEO Company | We help Increase Leads and Revenue',
+    title:
+      'Maryland SEO Company | The Best in MD Local Search Engine Optimization',
     description:
-      'A Maryland SEO company helping businesses increase web traffic, attract more customers, and increase revenue. Call us for your free consultation!',
+      'Need to find a Maryland SEO company? We can help! Our experts can get your website ranking high on Google, so you can start getting more leads and sales. Call us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/maryland-seo-company',
     openGraph: {
-      title: 'Maryland SEO Company | We help Increase Leads and Revenue ',
+      title:
+        'Maryland SEO Company | The Best in MD Local Search Engine Optimization',
       description:
-        'A Maryland SEO company helping businesses increase web traffic, attract more customers, and increase revenue. Call us for your free consultation!',
+        'Need to find a Maryland SEO company? We can help! Our experts can get your website ranking high on Google, so you can start getting more leads and sales. Call us today!',
       type: 'website',
       image: [{}],
     },
@@ -46,7 +48,7 @@ const MarylandSEOCompany = () => {
     <>
       <NextSeo {...SEO} />
       <PageHero
-        heading="A Maryland SEO Company [That Gets Results]"
+        heading="Maryland SEO Company | The Best in MD Local Search Engine Optimization"
         subText="We're a Maryland SEO Company that can get you more website traffic and leads and increase revenue."
         heroBtnLink={calendly}
         buttonText="Book a call"
