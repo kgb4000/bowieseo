@@ -3,7 +3,7 @@
 
 const sgMail = require('@sendgrid/mail')
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+sgMail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY)
 
 export default async function (req, res) {
   const body = req.body
@@ -15,8 +15,8 @@ export default async function (req, res) {
   `
 
   const data = {
-    to: process.env.TO_EMAIL_ADDRESS,
-    from: process.env.FROM_EMAIL_ADDRESS,
+    to: process.env.NEXT_PUBLIC_TO_EMAIL_ADDRESS,
+    from: process.env.NEXT_PUBLIC_FROM_EMAIL_ADDRESS,
     subject: `New Web Message`,
     text: message,
     html: message.replace(/\r\n/g, '<br>'),
