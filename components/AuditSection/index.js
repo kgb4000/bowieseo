@@ -97,7 +97,7 @@ const AuditSection = () => {
                 delivered to your email.
               </li>
               <li>
-                Get actionable adviceand recommendations to improve your SEO
+                Get actionable advice and recommendations to improve your SEO
                 rankings and performance.
               </li>
             </ul>
