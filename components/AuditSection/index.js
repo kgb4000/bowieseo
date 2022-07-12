@@ -1,84 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import { useState } from 'react'
 import styled from 'styled-components'
 import OfferVid from '../OfferVideo'
 import OfferForm from '../OfferFormSection'
 
 const AuditSection = () => {
-  const [status, setStatus] = useState({
-    submitted: false,
-    submitting: false,
-    info: {
-      error: false,
-      msg: null,
-    },
-  })
-
-  const [inputs, setInputs] = useState({
-    firstName: '',
-    email: '',
-    website: '',
-  })
-
-  const handleOnChange = (e) => {
-    e.persist()
-    setInputs((prev) => ({
-      ...prev,
-      [e.target.id]: e.target.value,
-    }))
-    setStatus({
-      submitted: false,
-      submitting: false,
-      info: { error: false, msg: null },
-    })
-  }
-
-  console.log(inputs)
-
-  const handleOnSubmit = async (e) => {
-    e.preventDefault()
-    setStatus((prevStatus) => ({ ...prevStatus, submitting: true }))
-
-    const body = JSON.stringify({
-      firstName: inputs.firstName,
-      email: inputs.email,
-      website: inputs.website,
-    })
-
-    const res = await fetch('/api/mail', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body,
-    })
-    console.log(body)
-
-    const text = await res.text()
-    handleResponse(res.status, text)
-  }
-
-  const isEnabled = inputs.email.length && inputs.firstName > 0
-
-  const handleResponse = (status, msg) => {
-    if (status === 200) {
-      setStatus({
-        submitted: true,
-        submitting: false,
-        info: { error: false, msg: msg },
-      })
-      setInputs({
-        firstName: '',
-        email: '',
-        website: '',
-      })
-    } else {
-      setStatus({
-        info: { error: true, msg: msg },
-      })
-    }
-  }
-
   return (
     <section className="dots-background">
       <div className="container">

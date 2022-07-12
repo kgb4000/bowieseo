@@ -4,20 +4,20 @@ export default {
     locales: ['en'],
     defaultLocale: 'en',
   },
-  title: `Bowie SEO Company Helping Businesses Get More Customers`,
+  title: `SEO Company in Bowie Helping Businesses Get more Customers | Bowie SEO`,
   type: 'website',
   locale: 'en_US',
   url: 'https://bowieseo.com',
   description:
-    'Bowie SEO is an SEO company in the DMV helping small businesses GROW by increasing web traffic and targeting the right customers. Get a Free consultation!',
+    "Bowie SEO is an SEO company in Bowie helping small businesses GROW using search engine optimization. Let's see how we can grow your business today.",
   canonical: 'https://bowieseo.com',
   openGraph: {
     url: 'https://bowieseo.com',
-    title: `Bowie SEO Company Helping Businesses Get More Customers`,
+    title: `SEO Company in Bowie Helping Businesses Get More Customers | Bowie SEO`,
     type: 'website',
     locale: 'en_US',
     description:
-      'Bowie SEO is an SEO company in the DMV helping small businesses GROW by increasing web traffic and targeting the right customers. Get a Free consultation!',
+      "Bowie SEO is an SEO company in Bowie helping small businesses GROW using search engine optimization. Let's see how we can grow your business today.",
     images: [
       {
         url: 'https://bowieseo.com/public/images/logo.jpg',
