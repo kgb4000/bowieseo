@@ -8,8 +8,14 @@ const AuditSection = () => {
     <section className="dots-background">
       <div className="container">
         <AuditElements>
-          <h2>Is Your Website Ranking High in Google?</h2>
-          <p className="big-p">If Not, Get a Free Mini Free SEO Audit!</p>
+          <h2>
+            Is Your Website Ranking Higher Than Your Competitors Website on
+            Google?
+          </h2>
+          <p className="big-p">
+            If Not, Get a Free Mini Free SEO Audit and See What it Takes to Rank
+            Higher than Your Competiton!
+          </p>
           <div className="offer-section">
             <OfferVid />
             <ul>
