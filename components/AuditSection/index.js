@@ -43,7 +43,7 @@ const AuditSection = () => {
 export default AuditSection
 
 const AuditElements = styled.div`
-  max-width: 700px;
+  max-width: 1200px;
   .form-section {
     form {
       margin-top: 4rem;

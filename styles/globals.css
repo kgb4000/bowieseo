@@ -443,12 +443,12 @@ footer {
 }
 
 .video-section {
-  max-width: 700px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 .offer-section {
-  max-width: 700px;
+  max-width: 1200px;
   padding: 0 1rem;
   margin: 0 auto;
 }
@@ -502,7 +502,7 @@ textarea {
   border-radius: 5px;
   width: 100%;
   padding: 1rem;
-  margin-bottom: 0.2rem;
+  margin: 0.2rem 0;
 }
 
 .modal-video {
@@ -572,4 +572,9 @@ textarea {
   text-align: center;
   font-size: 1.6rem;
   font-weight: 700;
+}
+
+.success {
+  font-size: 1.5rem;
+  margin-top: 2rem;
 }

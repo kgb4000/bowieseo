@@ -351,9 +351,13 @@ export default function LocalSEO() {
           <ul>
             <li>
               We are part of the Laurel community and a member of the{' '}
-              <Link href="/9-reasons-you-should-join-the-bowie-chamber-of-commerce">
-                <a>Bowie Chamber of Commerce</a>
-              </Link>
+              <a
+                href="https://bowiechamber.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Bowie Chamber of Commerce
+              </a>
               .
             </li>
             <li>We can build your website presence.</li>

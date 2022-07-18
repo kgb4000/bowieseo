@@ -116,8 +116,30 @@ const FooterSection = () => {
               </ul>
             </nav>
           </div>
+          <div className="hours-container">
+            <h3>Resources</h3>
+            <ul>
+              <li>
+                <Link href="/seo-for-landscapers">
+                  <a>SEO for Landscapers</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/seo-for-contractors">
+                  <a>SEO for Contractors</a>
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/seo-for-pest-control-companies">
+                  <a>SEO for Pest Control</a>
+                </Link>
+              </li>
+            </ul>
+          </div>
           <div className="menu-container">
             <h3>Free Mini SEO Audit</h3>
+            <p>Rank higher than your competition</p>
             <OfferForm />
           </div>
         </Footer>
@@ -134,15 +156,15 @@ const Footer = styled.div`
   color: #2c3e50;
 
   @media screen and (min-width: 768px) {
-    max-width: 95%;
+    max-width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media screen and (min-width: 1024px) {
-    max-width: 95%;
+  @media screen and (min-width: 1224px) {
+    max-width: 90%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
   }
 
