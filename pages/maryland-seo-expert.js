@@ -14,6 +14,7 @@ import {
   pillarObj3,
   pillarObj4,
 } from '../components/ProcessSection/Data/Process1'
+import OfferForm from '../components/OfferFormSection'
 
 import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
@@ -108,9 +109,38 @@ const MarylandSEOExpert = () => {
           </a>
         </div>
       </section>
-      <Suspense fallback={`loading`}>
-        <AuditSection />
-      </Suspense>
+      <section className="dots-background">
+        <div className="container">
+          <div className="offer-section">
+            <h2>Are Other Companies Ranking Higher Than You in Google?</h2>
+            <p className="big-p">
+              Fix the Issues Stopping You From Beating Your Competition and
+              Start Ranking Higher Today!
+            </p>
+            <img
+              src="/images/seo-guys.jpg"
+              alt="Baltimore SEO experts - Bowie SEO"
+              width="1000"
+              height="700"
+            />
+            <ul>
+              <li>
+                Discover why you're not appearing in Google Map Pack or the
+                organic search results
+              </li>
+              <li>
+                Get a personalized video audit for your company's website
+                delivered to your email
+              </li>
+              <li>
+                Get actionable advice and recommendations to improve your SEO
+                rankings and performance
+              </li>
+            </ul>
+            <OfferForm />
+          </div>
+        </div>
+      </section>
       <section>
         <div className="container">
           <h2>7 Reasons Why You Need to Hire a Maryland SEO Expert in 2022</h2>

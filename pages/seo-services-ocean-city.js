@@ -31,14 +31,13 @@ export const getStaticProps = async () => {
 
 export default function LocalSEO({ data }) {
   const SEO = {
-    title:
-      'SEO Services for Ocean City MD | OC Local Search Engine Optimization',
+    title: 'SEO Services Ocean City | Ocean City MD Search Engine Optimization',
     description:
       'We provide SEO services in Ocean City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
     canonical: 'https://bowieseo.com/seo-services-ocean-city',
     openGraph: {
       title:
-        'SEO Services for Ocean City MD | OC Local Search Engine Optimization',
+        'SEO Services Ocean City | Ocean City MD Search Engine Optimization',
       description:
         'We provide SEO services in Ocean City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
       image: [{}],
