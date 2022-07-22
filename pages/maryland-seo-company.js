@@ -30,16 +30,16 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 const MarylandSEOCompany = () => {
   const SEO = {
     title:
-      'Maryland SEO Company | The Best in MD Local Search Engine Optimization',
+      'Maryland SEO Company Helping Small Businesses Rank Higher on Google',
     description:
-      'Need to find a Maryland SEO company? We can help! Our experts can get your website ranking high on Google, so you can start getting more leads and sales. Call us today!',
+      "We're an SEO company in Mayland dedicated to helping small businesses get more leads and customers on Google with SEO. Call for a free consultation!",
     type: 'website',
     canonical: 'https://bowieseo.com/maryland-seo-company',
     openGraph: {
       title:
-        'Maryland SEO Company | The Best in MD Local Search Engine Optimization',
+        'Maryland SEO Company Helping Small Businesses Rank Higher on Google',
       description:
-        'Need to find a Maryland SEO company? We can help! Our experts can get your website ranking high on Google, so you can start getting more leads and sales. Call us today!',
+        "We're an SEO company in Mayland dedicated to helping small businesses get more leads and customers on Google with SEO. Call for a free consultation!",
       type: 'website',
       image: [{}],
     },
@@ -48,8 +48,8 @@ const MarylandSEOCompany = () => {
     <>
       <NextSeo {...SEO} />
       <PageHero
-        heading="Maryland SEO Company | The Best in MD Local Search Engine Optimization"
-        subText="We're a Maryland SEO Company that can get you more website traffic and leads and increase revenue."
+        heading="We're a Maryland SEO Company [That Gets You Results]"
+        subText="Bowie SEO can get you more website traffic and leads and increase your revenue."
         heroBtnLink={calendly}
         buttonText="Book a call"
         heroBtnLink1="/free-mini-seo-audit"
@@ -58,8 +58,8 @@ const MarylandSEOCompany = () => {
       <section>
         <div className="container">
           <h2>
-            Digital Marketing is Tough, but Our Maryland SEO Company Can Help
-            You Get Results
+            Our Maryland SEO Company Can Help Get More Traffic, Leads, and
+            Customers
           </h2>
           <p>
             Bowie SEO provides Maryland SEO services to businesses in Maryland,
@@ -102,10 +102,10 @@ const MarylandSEOCompany = () => {
       <section>
         <div className="container">
           <h2>What is (Maryland) SEO?</h2>
+          <p>Maryland SEO is a process.</p>
           <p>
-            Maryland Search engine optimization is a process. It's a process
-            that improves your website for search engines and users while
-            increasing web traffic and improving your website visibility.
+            It's a process that increases your web traffic and improves your
+            website visibility.
           </p>
           <p>
             The process takes your website and makes changes so that when people
@@ -495,7 +495,7 @@ const MarylandSEOCompany = () => {
                 src="/images/phone-call.svg"
                 className="icons"
                 loading="lazy"
-                alt="Call us!"
+                alt="Call our Maryland SEO company today!"
               />
               <p>
                 Book a call and tell us about your business. Let us know what
@@ -522,7 +522,7 @@ const MarylandSEOCompany = () => {
                 src="/images/work-together.svg"
                 className="icons"
                 loading="lazy"
-                alt="We work together to make your SEO campaign successful."
+                alt="Work together with our Maryland SEO company to make your SEO campaign successful."
               />
               <p>
                 We execute or plan. We track and make changes to improve your
@@ -882,9 +882,10 @@ const MarylandSEOCompany = () => {
               If you're looking for guaranteed first page rankings on Google,
               you're likely to be disappointed. However, if you're committed to
               improving your website's visibility and organic search results, a
-              reputable SEO company can help you achieve your goals. Contact us
-              today to learn more about our SEO services and how we can help
-              improve your website's ranking in search engine results pages.
+              reputable Maryland SEO company can help you achieve your goals.
+              Contact us today to learn more about our SEO services and how we
+              can help improve your website's ranking in search engine results
+              pages.
             </p>
           </div>
         </div>
