@@ -28,13 +28,13 @@ const About = () => {
   return (
     <>
       <NextSeo {...SEO} />
-      <PageHero
-        heading="About Bowie SEO"
-        subText="We are an SEO company in Maryland that helps businesses in Washington DC, and Virginia get found in the search engines."
-        heroBtnLink="/contact"
-        buttonText="Book a call"
-      />
       <MainLayout>
+        <PageHero
+          heading="About Bowie SEO"
+          subText="We are an SEO company in Maryland that helps businesses in Washington DC, and Virginia get found in the search engines."
+          heroBtnLink="/contact"
+          buttonText="Book a call"
+        />
         <section>
           <div className="container">
             <h2>About Us</h2>

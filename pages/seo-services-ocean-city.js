@@ -61,7 +61,7 @@ export default function LocalSEO({ data }) {
             </p>
             <img
               src="images/ocean-city-seo-company.jpg"
-              alt="Maryland SEO Expert"
+              alt="SEO Services Ocean City, Maryalnd"
               width="1000"
               height="450"
             />

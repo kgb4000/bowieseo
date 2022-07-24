@@ -644,11 +644,10 @@ const MarylandSEOCompany = () => {
                       alt="Man analyzing data"
                       loading="lazy"
                     />
-                    <h3>Competitive Ananlysis</h3>
+                    <h3>Competitive Analysis</h3>
                     <p>
-                      Know what your competitors are doing. See why they are
-                      beating you and fight back using data and information from
-                      their websites.
+                      Discover the keywords and backlinks your comepetitors are
+                      using, and use it to find new opprtunitues.
                     </p>
                   </div>
                   <p>Learn more</p>

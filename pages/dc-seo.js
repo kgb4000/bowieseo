@@ -130,7 +130,7 @@ const DCSEO = () => {
               <p className="big-p">If Not, Get a Free Mini Free SEO Audit!</p>
               <img
                 src="/images/seo-guys.jpg"
-                alt="Baltimore SEO team - Bowie SEO"
+                alt="DC SEO specialits - Bowie SEO"
                 width="1000"
                 height="700"
               />
@@ -391,9 +391,9 @@ const DCSEO = () => {
                     />
                     <h3>Local SEO</h3>
                     <p>
-                      Your local customers in Baltimore are searching for your
-                      skills and services. Make sure they can find you and not
-                      your competitors.
+                      Local customers in Washington, DC are looking for your
+                      skills and services linke yours. Make sure they find your
+                      business.
                     </p>
                   </div>
                   <p>Learn more</p>
@@ -407,8 +407,9 @@ const DCSEO = () => {
                     />
                     <h3>GMB Optimization</h3>
                     <p>
-                      Optimize your Goolge My Business page and let your
-                      customers find you directly in the local search results.
+                      Optimize your Goolge Business Profile page and let
+                      potential customers find your business directly in the
+                      local Map Pack.
                     </p>
                   </div>
                   <p>Learn more</p>
@@ -423,8 +424,8 @@ const DCSEO = () => {
                       />
                       <h3>Free Website Audit</h3>
                       <p>
-                        Find out what's stopping your website from performing
-                        better in the search engines with a free website audit.
+                        See what's holding your website back from performing
+                        better in the search engines with a Free mini SEO audit.
                       </p>
                     </div>
                     <p>Learn more</p>
@@ -470,65 +471,58 @@ const DCSEO = () => {
               don't do web design, email marketing, social media marketing, run
               ppc campaigns or any other kind of digital marketing.
             </p>
-            <h3>#3. We Work With One Business per Industry, in Baltimore</h3>
-            <p>What does that mean?</p>
-            <p>Example.</p>
+            <h3>#3. We Don't Work With Your Competition</h3>
             <p>
-              If we're doing SEO for your local business, lets say your plumbing
-              company in Baltimore, we cannot do SEO for any other plumbing
-              company in Baltimore.
+              We understand that you want to maintain a competitive edge in DC.
+              That's why we don't work with your competition. We want to help
+              you succeed by keeping your secrets close to the vest. You can
+              rest assured that your business is our top priority with us.{' '}
             </p>
             <p>
-              Firstly, well be doing you an injustice by working for the
-              competition.
-            </p>
-            <p>Second, we'll be competing against ourselves.</p>
-            <p>That would be crazy.</p>
-            <p>
-              Some digital marketing companies don't care where you or your
-              competition are located. You could be in the same town.
-            </p>
-            <p>They will have you and your competition as clients.</p>
-            <h3>
-              #4. We Become Your Partners, Not an SEO Company You Just Hired!
-            </h3>
-            <p>
-              When you work with us, we look at your business as if it was our
-              business. We don't just want to get you to rank higher for a few
-              keywords and then disappear. We want to help you grow your
-              business and we become part of your team. We want to see your
-              business succeed!
+              Some digital marketing companies will take on anyone with a pulse
+              and a dollar. They don't care about your business or your goals.
+              All they want is your money. At Bowie SEO, we are different. We
+              only work with businesses we believe in and are passionate about
+              helping them grow.
             </p>
             <p>
-              Plus, you get search engine optimization experts working on your
-              campaign, not interns.
+              When you partner with us, you can be confident that we are 100%
+              invested in your success. We don't just want your business, we
+              want to be your partner for the long haul.
             </p>
             <p>
-              You get a team of people with different skillsets and expertise
-              all working together to get you the best results possible.
+              If you are ready to take your business to the next level,{' '}
+              <Link href="/contact" passHref>
+                <a>contact us today</a>
+              </Link>
+              , and let's get started!
             </p>
-            <h3>#5. We Only Do Search Engine Optimization</h3>
+            <h3>#4. We Become Your SEO Company Inside Your Company!</h3>
             <p>
-              We are digital marketing specialists and we only specialize in
-              search engine optimization.
+              When we work together, we become part of your company. Our focus
+              is to help your company grow and be better than it was when we
+              started working with you.
             </p>
+            <p>We want to see your business succeed!</p>
             <p>
-              You've heard the saying, "jack of all trades, master of none".
+              You get a team of SEO specialists working together to bring
+              results that grow your business.
             </p>
-            <p>That's not us.</p>
-            <p>We are SEO experts.</p>
+            <h3>#5. We Only Specialize in SEO</h3>
             <p>
-              Unlike other digital marketing specialists, we are SEO specialists
-              and we only specialize in search engine optimization.
+              We are digital marketing specialists specializing only in SEO.
             </p>
+            <p>We are DC SEO experts.</p>
+            <p>While other companies offer you everything, ask yourself.</p>
+            <p>Are they really good at everything?</p>
             <p>
               We don't do web development, web design, email marketing, content
               marketing or social media marketing.
             </p>
             <p>All we do is SEO.</p>
             <p>
-              Our SEO company is based in Maryland and we are proud to be part
-              of the Baltimore business community.
+              We focus on the skill that can bring you more leads and customers,
+              an ultimately help your business grow.
             </p>
           </div>
         </section>
@@ -594,11 +588,11 @@ const DCSEO = () => {
               </div>
               <h3>#2. What’s the Difference Between SEO and Local SEO?</h3>
               <p>
-                The main difference between SEO and Local SEO is that local SEO
-                is used to attract customers in your local area, whereas SEO is
-                attracting people nationwide or globally.
+                The main difference is that local SEO is used to attract
+                customers in your local area, whereas SEO is attracting people
+                nationwide or globally.
               </p>
-              <h3>#3. What is the Cost of SEO?</h3>
+              <h3>#3. What Will DC SEO Cost Me?</h3>
               <p>
                 Washington DC SEO services can cost anywhere between $1000 and
                 $5000 per month. The cost depends on a number of factors like
