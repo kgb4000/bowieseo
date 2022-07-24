@@ -3,7 +3,7 @@ import { RichText } from '@graphcms/rich-text-react-renderer'
 import { NextSeo, ArticleJsonLd } from 'next-seo'
 import Bio from '../components/author-bio'
 import { ShareBtn } from '../components/share-btn'
-import PageHero from '../components/PageHeroSection'
+import MainLayout from '../components/MainLayout'
 import styled from 'styled-components'
 
 export const getStaticProps = async ({ params }) => {
@@ -80,17 +80,22 @@ export default function Articles({ post, shareLink }) {
         })}
         authorName={post.author.name}
       /> */}
-      <BlogContent>
-        <div className="container author-info">
-          <h1>{post.postTitle}</h1>
+      <MainLayout>
+        <BlogContent>
+          <div className="container author-info">
+            <h1>{post.postTitle}</h1>
 
-          <img src={[post.coverImage.url]} alt={post.title} loading="lazy" />
-          <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
-          <RichText content={post.content.json} />
-          <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
-          <Bio authorImg={post.author.photo.url} authorBio={post.author.bio} />
-        </div>
-      </BlogContent>
+            <img src={[post.coverImage.url]} alt={post.title} loading="lazy" />
+            <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
+            <RichText content={post.content.json} />
+            <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
+            <Bio
+              authorImg={post.author.photo.url}
+              authorBio={post.author.bio}
+            />
+          </div>
+        </BlogContent>
+      </MainLayout>
     </>
   )
 }

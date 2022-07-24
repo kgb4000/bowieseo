@@ -9,15 +9,15 @@ const AuditSection = () => {
       <div className="container">
         <AuditElements>
           <h2>
-            Is Your Website Ranking Higher Than Your Competitors Website on
+            Stop Losing Money and Customers Because You're Not Showing up In
             Google?
           </h2>
+          <OfferVid />
           <p className="big-p">
-            If Not, Get a Free Mini Free SEO Audit and See What it Takes to Rank
-            Higher than Your Competiton!
+            Find Out Why You're Not Showing Up on Google, and Start Getting More
+            Leads and Customers Without Paying for Ads!
           </p>
           <div className="offer-section">
-            <OfferVid />
             <ul>
               <li>
                 Check your website's SEO and discover why you're not appearing
@@ -43,7 +43,6 @@ const AuditSection = () => {
 export default AuditSection
 
 const AuditElements = styled.div`
-  max-width: 1200px;
   .form-section {
     form {
       margin-top: 4rem;

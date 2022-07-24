@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styled from 'styled-components'
 
-export const Nav = styled.nav`
+export const Nav = styled.header`
   background: #fff;
   height: 80px;
   display: flex;
@@ -15,7 +15,7 @@ export const Nav = styled.nav`
     transition: 0.8s all ease;
   }
 `
-export const NavbarContainer = styled.div`
+export const NavbarContainer = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;

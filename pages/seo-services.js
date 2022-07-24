@@ -3,6 +3,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import Link from 'next/link'
+import MainLayout from '../components/MainLayout'
 import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
 import { Card, Container } from '../components/CardSection'
@@ -30,13 +31,13 @@ const Services = () => {
   return (
     <>
       <NextSeo {...SEO} />
-      <PageHero
-        heading="SEO Services [That Work]"
-        subText="We provide powerful SEO solutions to all our customers and we will provide those same solutions to you to grow your business."
-        heroBtnLink="/contact"
-        buttonText="Book a call"
-      />
-      <main>
+      <MainLayout>
+        <PageHero
+          heading="SEO Services [That Work]"
+          subText="We provide powerful SEO solutions to all our customers and we will provide those same solutions to you to grow your business."
+          heroBtnLink="/contact"
+          buttonText="Book a call"
+        />
         <section>
           <div className="services-container">
             <h2>We Provide SEO Services for Maryland, DC, and Virginia</h2>
@@ -376,7 +377,7 @@ const Services = () => {
             </div>
           </div>
         </section>
-      </main>
+      </MainLayout>
     </>
   )
 }

@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { getPosts } from '../../lib/data'
 import { ArticleJsonLd, NextSeo } from 'next-seo'
 import PageHero from '../../components/PageHeroSection'
-// import Layout from '../../components/layout'
+import MainLayout from '../../components/MainLayout'
 
 export const getStaticProps = async () => {
   const data = await getPosts()
@@ -41,35 +41,37 @@ export default function Blog({ data }) {
         description="This is the SEO Blog for Bowie SEO. Here we give customers free advice on improving their websites with search engine optimization."
       />
       <NextSeo {...SEO} />
-      <PageHero
-        heading="SEO Blog"
-        subText="Tips to help you succeed with SEO and find more opportunities to succeed."
-        buttonText="Contact us"
-        heroBtnLink="/contact"
-      />
-      <BlogMain>
-        <div className="blog-container">
-          {data.posts.map((post) => (
-            <div key={post.slug}>
-              <div className="blog-posts">
-                <Link href={`/${post.slug}`} passHref>
-                  <img src={post.coverImage.url} alt={post.title} />
-                </Link>
-                <div className="blog-info">
+      <MainLayout>
+        <PageHero
+          heading="SEO Blog"
+          subText="Tips to help you succeed with SEO and find more opportunities to succeed."
+          buttonText="Contact us"
+          heroBtnLink="/contact"
+        />
+        <BlogMain>
+          <div className="blog-container">
+            {data.posts.map((post) => (
+              <div key={post.slug}>
+                <div className="blog-posts">
                   <Link href={`/${post.slug}`} passHref>
-                    <a>
-                      <h2>{post.postTitle}</h2>
-                    </a>
+                    <img src={post.coverImage.url} alt={post.title} />
                   </Link>
-                  <Link href={`/${post.slug}`} passHref>
-                    <a>Read more</a>
-                  </Link>
+                  <div className="blog-info">
+                    <Link href={`/${post.slug}`} passHref>
+                      <a>
+                        <h2>{post.postTitle}</h2>
+                      </a>
+                    </Link>
+                    <Link href={`/${post.slug}`} passHref>
+                      <a>Read more</a>
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
-      </BlogMain>
+            ))}
+          </div>
+        </BlogMain>
+      </MainLayout>
     </>
   )
 }

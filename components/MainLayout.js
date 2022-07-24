@@ -12,6 +12,7 @@ function MainLayout({ children }) {
   return (
     <>
       <Navbar toggle={toggle} />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
       <main>{children}</main>
       <Footer />
     </>

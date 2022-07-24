@@ -21,11 +21,12 @@ const HeroSection = ({ heroBtnLink1, heroBtnLink2 }) => {
           <HeroImage></HeroImage>
         </HeroBg>
         <HeroContent>
-          <h1>Make Your Website a Magnet & Get More Traffic and Customers</h1>
+          <h1>
+            Make Your Website a Magnet & Get More Traffic, Leads, and Customers
+          </h1>
           <p>
-            We’re an SEO company responsible for pursuing opportunities for our
-            clients to succeed. We use our expertise in search engine
-            optimization to turn insights into strategies that generate results.
+            Bowie SEO can get you more website traffic and leads and increase
+            your revenue.
           </p>
           <HeroBtnWrapper>
             <HeroBtn1Link href={heroBtnLink1}>

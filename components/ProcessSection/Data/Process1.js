@@ -78,8 +78,8 @@ export const pillarObj1 = {
   description:
     'Keyword research is the process of finding and selecting keywords that are relevant to your business or website. It is an important part of search engine optimization (SEO) because it helps you choose keywords that are most likely to be used by potential customers when they search for your products or services.',
   imgStart: false,
-  img: '../images/link-building.svg',
-  alt: 'Link building.',
+  img: '../images/keyword-research.svg',
+  alt: 'Keyword research expert.',
 }
 
 export const pillarObj2 = {
@@ -89,9 +89,9 @@ export const pillarObj2 = {
   headline: 'Technical SEO',
   description:
     "Technical SEO is the practice of optimizing a website for the purpose of improving its search engine rankings. It involves improving the site's architecture, code, and structure to make it more easily crawled and indexed by search engines.",
-  imgStart: false,
-  img: '../images/link-building.svg',
-  alt: 'Link building.',
+  imgStart: true,
+  img: '../images/technical.svg',
+  alt: 'Technical SEO expert.',
 }
 
 export const pillarObj3 = {
@@ -102,8 +102,8 @@ export const pillarObj3 = {
   description:
     "On-page SEO optimizes your web pages for search engines and your potential customers. By improving your web pages, your pages rank higher than your competitors' pages, and improving your pages increase click-through rates (CTR) and website conversions.",
   imgStart: false,
-  img: '../images/link-building.svg',
-  alt: 'Link building.',
+  img: '../images/speed-test.svg',
+  alt: 'On-page SEO expert.',
 }
 
 export const pillarObj4 = {
@@ -113,7 +113,7 @@ export const pillarObj4 = {
   headline: 'Link Building',
   description:
     "Link building is the process of acquiring links from other websites to your own. This is done in order to improve your website's search engine rankings and visibility.",
-  imgStart: false,
+  imgStart: true,
   img: '../images/link-building.svg',
   alt: 'Link building.',
 }

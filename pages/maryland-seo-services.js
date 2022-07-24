@@ -29,7 +29,7 @@ const LocalSEO = () => {
   }
   return (
     <>
-      <NextSeo noindex={true} />
+      <NextSeo noindex={true} nofollow={true} />
       <PageHero
         heading="Maryland SEO Services"
         subText="Get Maryland SEO services today. Increase your website traffic, get more leads, increase revenue and grow your business."

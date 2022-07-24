@@ -255,7 +255,6 @@ main h1 {
 
 .testimonial {
   font-weight: 400;
-  border: 2px solid #f5f6fa;
   border-radius: 5px;
   padding: 3rem 4rem;
 }
@@ -448,8 +447,7 @@ footer {
 }
 
 .offer-section {
-  max-width: 1200px;
-  padding: 0 1rem;
+  max-width: 700px;
   margin: 0 auto;
 }
 

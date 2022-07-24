@@ -5,6 +5,7 @@
 import { Suspense } from 'react'
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
+import MainLayout from '../components/MainLayout'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { getPosts } from '../lib/data'
@@ -44,11 +45,11 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 export default function Home({ data }) {
   return (
     <>
-      <HeroSection
-        heroBtnLink1={calendly}
-        heroBtnLink2="/free-mini-seo-audit"
-      />
-      <main>
+      <MainLayout>
+        <HeroSection
+          heroBtnLink1={calendly}
+          heroBtnLink2="/free-mini-seo-audit"
+        />
         <section className="pain-section">
           <div className="container">
             <h2>
@@ -385,16 +386,11 @@ export default function Home({ data }) {
           <div className="services-container">
             <h2>Our Most Popular Services</h2>
             <p className="sub-text">
-              Our services will help your business get more website traffic and
-              attract potential customers. We not a full service agency, we're
-              an SEO company that specialize in search engine optimization for
-              businesses in{' '}
-              <Link href="/dc-seo">
+              Our SEO services help small businesses get more traffic, leads,
+              and customers and ultimately increase business revenue. We provide
+              SEO services to businesses in Maryland,{' '}
+              <Link href="/dc-seo" passHref>
                 <a>DC</a>
-              </Link>
-              ,{' '}
-              <Link href="/maryland-seo-company">
-                <a>Maryland</a>
               </Link>
               , and Virginia.
             </p>
@@ -428,9 +424,10 @@ export default function Home({ data }) {
                       />
                       <h3>Local SEO</h3>
                       <p>
-                        Our local customers and clients are searching for your
-                        skills and services. Make sure they can find you and not
-                        your competition.
+                        Your customers in Bowie, Annapolis and Glenn Burnie,
+                        Maryland are looking for your skills and services on
+                        Google. Make sure they find your company and not someone
+                        else.
                       </p>
                     </div>
                     <p>Learn more</p>
@@ -445,10 +442,9 @@ export default function Home({ data }) {
                     />
                     <h3>SEO Audit</h3>
                     <p>
-                      See why your website isn't getting traffic or attracting
-                      customers, and why your competition is{' '}
-                      <span className="highlight ">stealing</span> your
-                      customers.
+                      Do an SEO Audit and see why you're not ranking on the
+                      first page of Google and what you must fix to help you get
+                      on the first page.
                     </p>
                   </div>
                   <p>Learn more</p>
@@ -460,11 +456,11 @@ export default function Home({ data }) {
                       alt="Man analyzing data."
                       loading="lazy"
                     />
-                    <h3>Competitive Ananlysis</h3>
+                    <h3>Competitive Analysis</h3>
                     <p>
-                      Know what your competitors are doing. See why they are
-                      beating you and fight back using data and info form thier
-                      own websites.
+                      See what keywords and backlinks your competitors are
+                      targeting and use this data to beat them in the search
+                      engines.
                     </p>
                   </div>
                   <p>Learn more</p>
@@ -478,8 +474,8 @@ export default function Home({ data }) {
                     />
                     <h3>GMB Optimization</h3>
                     <p>
-                      Optimize your Goolge My Business page and let your
-                      customers find you directly in the Google Map Pack.
+                      Create and optimize your Google My Business page and let
+                      potential customers find you in the Map Pack.
                     </p>
                   </div>
                   <p>Learn more</p>
@@ -494,8 +490,8 @@ export default function Home({ data }) {
                       />
                       <h3>Free Mini SEO Audit</h3>
                       <p>
-                        Find out what's stopping your website from performing
-                        better in the search engines with a free website audit.
+                        Get a Free Website audit, see what stopping your website
+                        from performing in Google, and start fixing it.
                       </p>
                     </div>
                     <p>Learn more</p>
@@ -530,8 +526,8 @@ export default function Home({ data }) {
         <section>
           <div className="container">
             <h2>
-              Why Work With Bowie SEO Instead of Other Digital Marketing
-              Companies?
+              Why Let Bowie SEO Handle Your SEO Instead of Other Digital
+              Marketing Companies?
             </h2>
             <p>
               With other companies offering so many digital marketing solutions,
@@ -633,7 +629,7 @@ export default function Home({ data }) {
         </section>
         <section className="pain-section">
           <div className="services-container">
-            <h2>Work With Us, It's Really Easy</h2>
+            <h2>Working With Us is a Breeze</h2>
             <p className="sub-text">
               It's easy to work with us. If you need more traffic, online
               visibility, or you want to make more money with digital marketing,
@@ -641,7 +637,7 @@ export default function Home({ data }) {
             </p>
             <Wrapper>
               <Contact>
-                <h3>Call us to Start or Ask Any Questions</h3>
+                <h3>Contact us to Discuss a Strategy</h3>
                 <img
                   src="/images/phone-call.svg"
                   alt="Call us."
@@ -675,7 +671,7 @@ export default function Home({ data }) {
                   loading="lazy"
                 />
                 <p>
-                  We build a strategy that will lead to positive results and
+                  We build a SEO strategy that will lead to positive results and
                   bring new opportunities to light.
                 </p>
               </Contact>
@@ -912,7 +908,7 @@ export default function Home({ data }) {
             </Link>
           </div>
         </section>
-      </main>
+      </MainLayout>
     </>
   )
 }

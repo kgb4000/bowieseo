@@ -148,7 +148,7 @@ const FooterSection = () => {
             <OfferForm />
           </div>
         </Footer>
-        <LowerFooter>Bowie SEO &copy; {new Date().getFullYear()}</LowerFooter>
+        <LowerFooter>Bowie SEO &copy;{new Date().getFullYear()}</LowerFooter>
       </footer>
     </>
   )
