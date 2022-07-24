@@ -18,13 +18,13 @@ const DCSEO = () => {
   const SEO = {
     title: 'DC SEO Services | Increase Leads, Customers and Revenue',
     description:
-      "We create Baltimore SEO strategies for B'more business that want to increase leads, sales and revenue. Call Bowie SEO for your free consultation!",
+      'Looking for a local SEO company in Washington, DC area to help you get more leads and customers online? Look no further than Bowie SEO. Call us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/dc-seo',
     openGraph: {
       title: 'DC SEO Services | Increase Leads, Customers and Revenue',
       description:
-        "We create Baltimore SEO strategies for B'more business that want to increase leads, sales and revenue. Call Bowie SEO for your free consultation!",
+        'Looking for a local SEO company in Washington, DC area to help you get more leads and customers online? Look no further than Bowie SEO. Call us today!',
       type: 'website',
       image: [{}],
     },
@@ -35,7 +35,7 @@ const DCSEO = () => {
       <MainLayout>
         <PageHero
           heading="DC SEO [Increase Leads and Revenue]"
-          subText="Our SEO company helps businesses in DC get more customers, more leads, and make more money."
+          subText="We help businesses in DC get more leads and customers, and make more money."
           heroBtnLink={calendly}
           buttonText="Schedule a call"
           heroBtnLink1="/free-mini-seo-audit"
@@ -373,7 +373,7 @@ const DCSEO = () => {
                       alt="Man analyzing data"
                       loading="lazy"
                     />
-                    <h3>Competitive Ananlysis</h3>
+                    <h3>Competitive Analysis</h3>
                     <p>
                       Know what your competitors are doing. See why they are
                       beating you and fight back using data and info form thier

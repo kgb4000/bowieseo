@@ -3,27 +3,12 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-// import { Suspense } from 'react'
-// import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import Button from '../components/Button'
 import PageHero from '../components/PageHeroSection'
 import { Card, Container } from '../components/CardSection'
 import OfferForm from '../components/OfferFormSection'
 import MainLayout from '../components/MainLayout'
-// import ProcessSection from '../components/ProcessSection'
-// import {
-//   processObj1,
-//   processObj2,
-//   processObj3,
-//   processObj4,
-//   processObj5,
-//   processObj6,
-// } from '../components/ProcessSection/Data/Process1'
-
-// const AuditSection = dynamic(() => import('../components/AuditSection'), {
-//   suspense: true,
-// })
 
 import { NextSeo, FAQPageJsonLd } from 'next-seo'
 

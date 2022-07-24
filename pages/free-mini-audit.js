@@ -1,14 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
-import { Suspense } from 'react'
-import Link from 'next/link'
 import styled from 'styled-components'
 import OfferForm from '../components/OfferFormSection'
 import OfferVideo from '../components/OfferVideo'
-import AuditSection from '../components/AuditSection'
-import { NextSeo } from 'next-seo'
 
-const calendly = 'https://calendly.com/bowieseo/30min'
+import { NextSeo } from 'next-seo'
 
 const FreeSEOAUDIT = () => {
   const SEO = {
@@ -25,7 +21,7 @@ const FreeSEOAUDIT = () => {
   }
   return (
     <>
-      <NextSeo noindex={true} nofollow={true} />
+      <NextSeo {...SEO} noindex={true} nofollow={true} />
       <LandingPage>
         <section className="dots-background">
           <div className="container">
@@ -39,13 +35,7 @@ const FreeSEOAUDIT = () => {
                 Find Out Why You're Not Showing Up on Google, and Start Getting
                 More Leads and Customers Without Paying for Ads!
               </p>
-              {/* <img
-                src="/images/seo-guys.jpg"
-                alt="Baltimore SEO experts - Bowie SEO"
-                width="1000"
-                height="700"
-              /> */}
-              <ul>
+              {/* <ul>
                 <li>
                   Get a personalized video audit for your company's website
                   delivered to your email
@@ -59,7 +49,7 @@ const FreeSEOAUDIT = () => {
                   Get actionable advice and recommendations to improve your SEO
                   rankings and performance and start ranking higher in Google.
                 </li>
-              </ul>
+              </ul> */}
               <OfferForm />
             </div>
           </div>

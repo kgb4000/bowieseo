@@ -1,10 +1,8 @@
 /* eslint-disable @next/next/link-passhref */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
-import { Suspense } from 'react'
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
-import styled from 'styled-components'
 import MainLayout from '../components/MainLayout'
 import PageHero from '../components/PageHeroSection'
 import Button from '../components/Button'
@@ -50,9 +48,9 @@ export default function LocalSEO({ data }) {
       <MainLayout>
         <PageHero
           heading="SEO Services Ocean City, Maryland"
-          subText="We provide powerful SEO solutions to all our customers and will provide those same solutions to you to grow your business."
+          subText="We provide SEO solutions to help businesses in Ocean City grow. We use our SEO knowledge to help attract more customers and increase sales for our clients, and we can do the same for you."
           heroBtnLink="/contact"
-          buttonText="Book a call"
+          buttonText="Book a free consultation"
         />
         <section className="article-section">
           <div className="container">
@@ -98,32 +96,26 @@ export default function LocalSEO({ data }) {
           <div className="container">
             <div className="offer-section">
               <h2>
-                Are Other Companies in Ocean City Ranking Higher Than You in
-                Google?
+                Is Your Business Showing up in Google When People Search for
+                Your Services in Ocean City?
               </h2>
               <p className="big-p">
-                Find Out Why and Start Ranking Higher Than Your Competitors
-                Today!
+                If not, you're losing customers to your competition. Find out
+                why and start ranking on the first page today.
               </p>
               <img
                 src="/images/seo-guys.jpg"
-                alt="Baltimore SEO experts - Bowie SEO"
+                alt="Ocean City SEO company - Bowie SEO"
                 width="1000"
                 height="700"
               />
+              <p>
+                Get a personalized video delivered to your email showing you:
+              </p>
               <ul>
-                <li>
-                  Discover why you're not appearing in Google Map Pack or the
-                  organic search results
-                </li>
-                <li>
-                  Get a personalized video audit for your company's website
-                  delivered to your email
-                </li>
-                <li>
-                  Get actionable advice and recommendations to improve your SEO
-                  rankings and performance
-                </li>
+                <li>The reasons why you're not showing up on the first page</li>
+                <li>What you have to do to get on the first page</li>
+                <li>Actionable steps to start ranking higher today</li>
               </ul>
               <OfferForm />
             </div>
@@ -132,7 +124,7 @@ export default function LocalSEO({ data }) {
         <section className="reasons-section">
           <div className="container">
             <h2>
-              7 Reasons Why You Need SEO for Your Business in Ocean City, MD
+              7 Reasons You Must Invest in SEO for Your Ocean City, MD Business
             </h2>
             <p className="sub-text">
               Ocean City businesses need SEO to compete online. Partner with an
@@ -164,16 +156,17 @@ export default function LocalSEO({ data }) {
               business. Also, when more people see your website on the first
               page, you build trust and credibility with potential customers.
             </p>
-            <h3>
-              #4. An SEO Consultant Can Help You Save Money on Advertising
-            </h3>
+            <h3>#4. You can Save Money on Facebook and Google Ads</h3>
             <p>
-              If you’re like most businesses, you’re always looking for ways to
-              save money. And one of the best ways to do that is by reducing
-              your dependence on paid advertising. An experienced SEO expert can
-              help you organically grow your traffic so that you don’t have to
-              rely as much (or at all) on paid ads. This not only saves you
-              money, but it also gives you a more sustainable long-term growth
+              Like most companies, you're always searching for methods to save
+              money. Reducing your reliance on paid advertising (Facebook and
+              Google ads) is one of the finest methods. An experienced{' '}
+              <Link href="/maryland-seo-expert" passHref>
+                <a>SEO specialist</a>
+              </Link>{' '}
+              can assist you in growing your traffic organically and avoiding
+              having to rely as much (or at all) on sponsored material. This
+              saves you money and gives you a more sustainable long-term growth
               strategy.
             </p>
             <h3>#5. SEO Can Help You Build Better Websites</h3>
@@ -251,12 +244,12 @@ export default function LocalSEO({ data }) {
               These results will appear in the local pack and the organic
               listing.
             </p>
-            <img
+            {/* <img
               src="/images/pest-control-services-ocean-city-md-local-pack.jpg"
               alt="Baltimore SEO experts - Bowie SEO"
               width="1000"
               height="700"
-            />
+            /> */}
             <p>
               Several factors go into local SEO, including keywords, backlinks,
               and on-page optimization.
@@ -549,43 +542,3 @@ export default function LocalSEO({ data }) {
     </>
   )
 }
-
-const Stats = styled.ol`
-  list-style-type: none;
-
-  margin: 0 auto;
-  counter-reset: li;
-
-  @media (min-width: 768px) {
-    margin-left: 0.5rem;
-    max-width: 1140px;
-  }
-
-  li {
-    margin: 3rem 0;
-    padding-left: 5rem;
-    position: relative;
-    letter-spacing: 1px;
-    line-height: 1.4;
-
-    ::before {
-      counter-increment: li;
-      content: counter(li) '';
-      color: #fff;
-      font-size: 1rem;
-      font-weight: 400;
-      background: #000;
-      border: 2px solid #000;
-      line-height: 40px;
-      width: 40px;
-      height: 40px;
-      border-radius: 100%;
-      display: inline-block;
-      text-align: center;
-      left: 0px;
-      position: absolute;
-      top: 1px;
-      letter-spacing: 1px;
-    }
-  }
-`
