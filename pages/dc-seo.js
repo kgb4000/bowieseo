@@ -35,9 +35,9 @@ const DCSEO = () => {
       <MainLayout>
         <PageHero
           heading="DC SEO [Increase Leads and Revenue]"
-          subText="We help businesses in DC get more leads and customers, and make more money."
+          subText="Our DC SEO services help our clients attract new customers in Washington DC and help customers find their business. Let's help customers find your business."
           heroBtnLink={calendly}
-          buttonText="Schedule a call"
+          buttonText="Schedule a free call"
           heroBtnLink1="/free-mini-seo-audit"
           buttonText1="Free Mini SEO Audit"
         />
@@ -126,7 +126,10 @@ const DCSEO = () => {
         <section className="dots-background">
           <div className="container">
             <div className="offer-section">
-              <h2>Are You Ranking in the Google Map Pack?</h2>
+              <h2>
+                Are You Ranking in the Map Pack or on Google's First Page for
+                Yor Services?
+              </h2>
               <p className="big-p">If Not, Get a Free Mini Free SEO Audit!</p>
               <img
                 src="/images/seo-guys.jpg"
@@ -134,20 +137,10 @@ const DCSEO = () => {
                 width="1000"
                 height="700"
               />
-              <ul>
-                <li>
-                  Discover why you're not appearing in Google Map Pack or the
-                  search results.
-                </li>
-                <li>
-                  Get a personalized video audit for your company's website,
-                  delivered to your email.
-                </li>
-                <li>
-                  Get actionable advice and recommendations to improve your SEO
-                  rankings and performance.
-                </li>
-              </ul>
+              <h3>
+                Get a personalized video audit delivered to your email showing
+                you why.
+              </h3>
               <OfferForm />
             </div>
           </div>
@@ -160,9 +153,10 @@ const DCSEO = () => {
             </h3>
             <p>
               If you want your business to be found by people in DC, you need to
-              make sure that it is visible in search engines. According to a
-              recent study, 97% of consumers use the internet to find local
-              businesses.
+              make sure that it is visible in search engines. More people use
+              Google than any other search engine, so it's important to ensure
+              your business appears on Google and create a Google Business
+              Profile.
             </p>
             <h3>#2. Search Engines Work 24/7</h3>
             <p>

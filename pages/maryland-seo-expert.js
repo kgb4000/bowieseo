@@ -268,9 +268,9 @@ const MarylandSEOExpert = () => {
                     />
                     <h3>Local SEO</h3>
                     <p>
-                      Our local customers and clients are searching for your
-                      skills and services. Make sure they can find you and not
-                      your competition.
+                      Local customers and clients are searching for your skills
+                      and services. Don't let them find your competitors. Let
+                      them find you.
                     </p>
                   </div>
                   <p>Learn more</p>
@@ -282,11 +282,11 @@ const MarylandSEOExpert = () => {
                       alt="Woman analyzing data."
                       loading="lazy"
                     />
-                    <h3>Competitive Ananlysis</h3>
+                    <h3>Competitive Analysis</h3>
                     <p>
-                      Know what your competitors are doing. See why they are
-                      beating you and fight back using data and info form thier
-                      own websites.
+                      Your business has competitors. We can help you find out
+                      what your competitors are doing and how to beat them at
+                      their own game.
                     </p>
                   </div>
                 </Card>
@@ -318,9 +318,9 @@ const MarylandSEOExpert = () => {
                     />
                     <h3>Technical SEO</h3>
                     <p>
-                      Know what your competitors are doing. See why they are
-                      beating you and fight back using data and info form thier
-                      own websites.
+                      Your website must be crawlable and indexable to appear in
+                      the search engines. By running regular crawls, ensure that
+                      your site is free of errors and technical issues.
                     </p>
                   </div>
                 </Card>
@@ -349,8 +349,8 @@ const MarylandSEOExpert = () => {
                       />
                       <h3>Free Mini SEO Audit</h3>
                       <p>
-                        Find out what's stopping your website from performing
-                        better in the search engines with a free website audit.
+                        Start improving your SEO rankings. Get a Free audit and
+                        start fixing your website issues today.
                       </p>
                     </div>
                     <p>Learn more</p>

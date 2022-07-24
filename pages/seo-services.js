@@ -34,9 +34,9 @@ const Services = () => {
       <MainLayout>
         <PageHero
           heading="SEO Services [That Work]"
-          subText="We provide powerful SEO solutions to all our customers and we will provide those same solutions to you to grow your business."
+          subText="We provide SEO services and solutions that help your business grow. Work with us and see what we can do for you."
           heroBtnLink="/contact"
-          buttonText="Book a call"
+          buttonText="Schedule a free consultation!"
         />
         <section>
           <div className="services-container">
@@ -166,10 +166,10 @@ const Services = () => {
           <div className="services-container">
             <h2>Other SEO Services</h2>
             <p className="sub-text">
-              Our services will help your business get more website traffic and
-              attract potential customers. We not a full service agency, we're
-              an SEO company that specialize in search engine optimization for
-              businesses in the DMV.
+              Our services will help small businesses compete with larger
+              brands. These services help get you more website traffic and
+              target the right customers. They also help customers find your
+              business.
             </p>
             <div className="services">
               <Container>
@@ -217,9 +217,9 @@ const Services = () => {
                     />
                     <h3>Keyword Research</h3>
                     <p>
-                      Get more website traffic and more leads with our powerful
-                      SEO services. Let Bowie SEO put your business on the path
-                      to SEO success.
+                      Target the right keywords and get more traffic to your
+                      website. We can help you choose the right keywords for
+                      your business so you can attract more customers.
                     </p>
                   </div>
                   {/* <p>Learn more</p> */}
@@ -233,9 +233,8 @@ const Services = () => {
                     />
                     <h3>On-Page Optimization</h3>
                     <p>
-                      Get more website traffic and more leads with our powerful
-                      SEO services. Let Bowie SEO put your business on the path
-                      to SEO success.
+                      Make your website more visible. Optimize your website to
+                      rank higher and drive more search traffic.
                     </p>
                   </div>
                   {/* <p>Learn more</p> */}
@@ -247,7 +246,7 @@ const Services = () => {
                       alt="Man analyzing data"
                       loading="lazy"
                     />
-                    <h3>Competitive Ananlysis</h3>
+                    <h3>Competitive Analysis</h3>
                     <p>
                       Know what your competitors are doing. See why they are
                       beating you and fight back using data and info form thier
@@ -295,9 +294,10 @@ const Services = () => {
                     />
                     <h3>Technical SEO</h3>
                     <p>
-                      Know what your competitors are doing. See why they are
-                      beating you and fight back using data and info form thier
-                      own websites.
+                      Make sure your site is indexable, crawlable, fast, and
+                      mobile-friendly. Technical SEO ensures that search engines
+                      can easily access, understand, and index your website so
+                      that your pages can rank for relevant keywords.
                     </p>
                   </div>
                   {/* <p>Learn more</p> */}
@@ -326,8 +326,9 @@ const Services = () => {
                     />
                     <h3>GMB Optimization</h3>
                     <p>
-                      Optimize your Goolge My Business page and let your
-                      customers find you directly in the local search results.
+                      Let customers find you easily on Google My Business.
+                      Optimize your Google Business Profile to stand out and
+                      attract potential customers.
                     </p>
                   </div>
                   {/* <p>Learn more</p> */}
