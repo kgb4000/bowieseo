@@ -86,26 +86,31 @@ const BaltimoreSEOCompany = () => {
         <section className="dots-background">
           <div className="container">
             <div className="offer-section">
-              <h2>Not Getting Traffic to Your Site?</h2>
-              <p className="big-p">Get a Free Mini Free SEO Audit!</p>
+              <h2>
+                Does Your Business Show Up On The First Page of Google When
+                People Search For Your Services in Baltiomre?
+              </h2>
+              <p className="big-p">
+                If it Doesn't, Get a Free Website Audit, and Fix Your Website!
+              </p>
               <img
                 src="/images/seo-guys.jpg"
                 alt="Baltimore SEO experts - Bowie SEO"
                 width="1000"
                 height="700"
               />
+              <p>
+                Get a personalized video audit for your company's website
+                delivered to your email showing you:
+              </p>
               <ul>
                 <li>
-                  Discover why you're not appearing in Google Map Pack or the
-                  search results
+                  What keywords you must rank for to attract the right
+                  customers.
                 </li>
                 <li>
-                  Get a personalized video audit for your company's website
-                  delivered to your email
-                </li>
-                <li>
-                  Get actionable advice and recommendations to improve your SEO
-                  rankings and performance
+                  What keywords your competitors are using and ranking for to
+                  steal your customers away, plus more.
                 </li>
               </ul>
               <OfferForm />

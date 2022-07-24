@@ -662,8 +662,7 @@ const MarylandSEOCompany = () => {
                     <h3>GMB Optimization</h3>
                     <p>
                       Optimize your Google My Business page and let your
-                      customers find you directly in the Google Map Pack and the
-                      organic search engine results (SERPs).
+                      customers find you directly in the Google Map Pack.
                     </p>
                   </div>
                   <p>Learn more</p>

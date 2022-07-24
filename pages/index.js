@@ -26,19 +26,19 @@ const AuditSection = dynamic(() => import('../components/AuditSection'), {
   suspense: true,
 })
 
-const Blog = dynamic(() => import('../components/BlogSection'), {
-  suspense: true,
-})
+// const Blog = dynamic(() => import('../components/BlogSection'), {
+//   suspense: true,
+// })
 
-export const getStaticProps = async () => {
-  const data = await getPosts()
+// export const getStaticProps = async () => {
+//   const data = await getPosts()
 
-  return {
-    props: {
-      data,
-    },
-  }
-}
+//   return {
+//     props: {
+//       data,
+//     },
+//   }
+// }
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
@@ -718,7 +718,7 @@ export default function Home({ data }) {
             </div>
           </div>
         </section>
-        <section className="pain-section">
+        {/* <section className="pain-section">
           <div className="container">
             <h2>Recent Articles</h2>
           </div>
@@ -727,7 +727,7 @@ export default function Home({ data }) {
               <Blog data={data} />
             </Suspense>
           </div>
-        </section>
+        </section> */}
         <section className="faq-section">
           <div className="container">
             <h2>Frequently Asked Questions</h2>

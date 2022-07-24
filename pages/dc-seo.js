@@ -497,16 +497,20 @@ const DCSEO = () => {
               </Link>
               , and let's get started!
             </p>
-            <h3>#4. We Become Your SEO Company Inside Your Company!</h3>
+            <h3>#4. We Become Your Business Partners</h3>
             <p>
-              When we work together, we become part of your company. Our focus
-              is to help your company grow and be better than it was when we
-              started working with you.
+              We want to be your business partner, and we'll work tirelessly to
+              help you grow your business. We have the knowledge and experience
+              to help you succeed, and we'll be there for you every step of the
+              way. We're committed to your success and will do whatever it takes
+              to help you reach your goals. We're your partner, and we'll always
+              have your back.
             </p>
-            <p>We want to see your business succeed!</p>
             <p>
-              You get a team of SEO specialists working together to bring
-              results that grow your business.
+              At Bowie SEO, we want to be your partner for the long haul. We are
+              passionate about helping businesses grow and succeed. When you
+              work with us, you can be confident that we have your best
+              interests at heart.
             </p>
             <h3>#5. We Only Specialize in SEO</h3>
             <p>
