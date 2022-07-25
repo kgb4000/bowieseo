@@ -420,9 +420,9 @@ const BaltimoreSEOCompany = () => {
                     />
                     <h3>Keyword Research</h3>
                     <p>
-                      Get more web traffic and more leads with our effective SEO
-                      services. Let Bowie SEO put your business on the path to
-                      SEO success.
+                      Use keyword research to find the keywords people use to
+                      find your services. Choose the right keywords and show up
+                      in the search results.
                     </p>
                   </div>
                   <p>Learn more</p>
@@ -434,11 +434,11 @@ const BaltimoreSEOCompany = () => {
                       alt="Man analyzing data"
                       loading="lazy"
                     />
-                    <h3>Competitive Ananlysis</h3>
+                    <h3>Competitive Analysis</h3>
                     <p>
-                      Know what your competitors are doing. See why they beat
-                      you and fight back using data and information from their
-                      websites.
+                      See what your competitors are doing to rank higher than
+                      you. Use this information and take advantage to find new
+                      opportunities to compete.
                     </p>
                   </div>
                   <p>Learn more</p>
@@ -452,8 +452,9 @@ const BaltimoreSEOCompany = () => {
                     />
                     <h3>GMB Optimization</h3>
                     <p>
-                      Optimize your Google My Business page and let people find
-                      you directly in the local search results in Baltimore, MD.
+                      Optimize your Google Business Profile for people in
+                      Baltimore searching for your services. Let searchers find
+                      your business, not someone else's.
                     </p>
                   </div>
                   <p>Learn more</p>
@@ -466,10 +467,10 @@ const BaltimoreSEOCompany = () => {
                         alt="Woman thiniking about getting a free mini SEO audit."
                         loading="lazy"
                       />
-                      <h3>Free Website Audit</h3>
+                      <h3>Free Mini SEO Audit</h3>
                       <p>
-                        Find out what's stopping your website from performing
-                        better in the search engines with a free website audit.
+                        See what's holding your website back from ranking higher
+                        and getting you leads and customers.
                       </p>
                     </div>
                     <p>Learn more</p>
@@ -692,7 +693,7 @@ const BaltimoreSEOCompany = () => {
           <FAQPageJsonLd
             mainEntity={[
               {
-                questionName: 'What is the Cost of SEO Services?',
+                questionName: 'What Do Baltimoe SEO Services Cost?',
                 acceptedAnswerText:
                   "The cost of SEO services can vary depending on the size and scope of your project. Prices usually range anywhere from $1000 - $5000 per month. Don't hesitate to contact us to get a quote for your specific project.",
               },
@@ -727,7 +728,7 @@ const BaltimoreSEOCompany = () => {
           <div className="container">
             <h2>Frequently Asked Questions</h2>
             <div className="faq-questions">
-              <h3>#1. What is the Cost of SEO Services?</h3>
+              <h3>#1. What Do Baltimoe SEO Services Cost?</h3>
               <p>
                 The cost of SEO services can vary depending on the size and
                 scope of your project. Prices usually range anywhere from{' '}
