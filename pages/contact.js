@@ -33,7 +33,7 @@ const Contact = () => {
           buttonText="Book a call"
         />
         <section>
-          <div className="container">
+          <div className="small-container">
             <h2>Contact Bowie SEO</h2>
             <p>
               If you would like to get in touch with us and learn how search

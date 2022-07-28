@@ -117,6 +117,10 @@ export const Contact = styled.div`
   padding: 0 2rem;
   height: auto;
 
+  p {
+    text-align: center;
+  }
+
   @media screen and (min-width: 768px) {
     height: 500px;
   }

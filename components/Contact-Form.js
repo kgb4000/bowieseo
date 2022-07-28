@@ -92,7 +92,7 @@ export default function ContactForm({ h2, p }) {
   return (
     <>
       <section>
-        <div className="container">
+        <div className="medium-container">
           <Conversion>
             <div className="ready-text">
               <h2>{h2}</h2>
@@ -173,7 +173,7 @@ const SubmitButton = styled(Button)`
 const Conversion = styled.div`
   form {
     margin-top: 3rem;
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
   }
   input,

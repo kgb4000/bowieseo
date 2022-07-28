@@ -51,7 +51,7 @@ export default function Home({ data }) {
           heroBtnLink2="/free-mini-seo-audit"
         />
         <section className="pain-section">
-          <div className="container">
+          <div className="medium-container">
             <h2>
               We Get it... Digital Marketing is Tough For Small Business Owners!
             </h2>
@@ -145,7 +145,7 @@ export default function Home({ data }) {
           <AuditSection />
         </Suspense>
         <section className="not-struggling-section">
-          <div className="container">
+          <div className="medium-container">
             <h2>You Don't Have to Struggle Anymore... Bowie SEO Can Help</h2>
             <div>
               <ul className="count">
@@ -223,7 +223,6 @@ export default function Home({ data }) {
                 </li>
               </ul>
             </div>
-
             <h2>Let's Talk</h2>
             <p className="sub-text">
               Let's talk about how Bowie SEO can help your business grow.
@@ -248,7 +247,7 @@ export default function Home({ data }) {
           </div>
         </section> */}
         <section className="why-use-seo-section">
-          <div className="container">
+          <div className="medium-container">
             <div>
               <h2>5 Reasons Why You Need Search Engine Optimization in 2022</h2>
               <h3>#1. Google Works 24/7 365</h3>
@@ -507,7 +506,7 @@ export default function Home({ data }) {
           </div>
         </section>
         <section className="results-driven-process-section">
-          <div className="container">
+          <div className="medium-container">
             <h2>Our Results Driven Process</h2>
             <p className="sub-text">
               How do we get you results? We use our six-step process to generate
@@ -524,7 +523,7 @@ export default function Home({ data }) {
           <ResultsSection {...resultsObj5} />
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>
               Why Let Bowie SEO Handle Your SEO Instead of Other Digital
               Marketing Companies?
@@ -729,7 +728,7 @@ export default function Home({ data }) {
           </div>
         </section> */}
         <section className="faq-section">
-          <div className="container">
+          <div className="medium-container">
             <h2>Frequently Asked Questions</h2>
             <div className="faq-questions">
               <section>

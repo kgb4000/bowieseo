@@ -82,7 +82,7 @@ export default function Articles({ post, shareLink }) {
       /> */}
       <MainLayout>
         <BlogContent>
-          <div className="container author-info">
+          <div className="blog-container author-info">
             <h1>{post.postTitle}</h1>
 
             <img src={[post.coverImage.url]} alt={post.title} loading="lazy" />

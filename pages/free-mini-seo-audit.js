@@ -37,7 +37,7 @@ const FreeSEOAUDIT = () => {
           <AuditSection />
         </Suspense>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>
               Do You Ask Yourself These Questions Like Other Small Business
               Owners?
@@ -61,7 +61,7 @@ const FreeSEOAUDIT = () => {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>This Free Mini Website Audit Can Give You Some Answers.</h2>
             <img
               src="/images/audit.svg"
@@ -87,7 +87,7 @@ const FreeSEOAUDIT = () => {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>You Don't Have to Try and Figure it Out Anymore</h2>
 
             <p>
@@ -146,7 +146,7 @@ const FreeSEOAUDIT = () => {
           </a>
         </div>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>What You Get With Our Free Mini Website Audit</h2>
             <img
               src="/images/video.svg"

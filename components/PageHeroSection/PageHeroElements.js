@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 0 2rem;
-  min-height: calc(60vh - 80px);
+  min-height: calc(70vh - 80px);
   position: relative;
   z-index: 1;
   padding-bottom: 2rem;
@@ -41,6 +41,7 @@ export const HeroContent = styled.div`
     font-size: 32px;
     margin-bottom: 2rem;
     text-align: left;
+    line-height: 1.6;
 
     @media screen and (min-width: 480px) {
       font-size: 35px;

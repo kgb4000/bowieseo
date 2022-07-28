@@ -44,7 +44,7 @@ const BaltimoreSEOCompany = () => {
           buttonText1="Free Mini SEO Audit"
         />
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>
               Improve Your Rankings and Get Your Business in Front of the Right
               Customers
@@ -118,7 +118,7 @@ const BaltimoreSEOCompany = () => {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>What is Baltimore SEO?</h2>
             <p>
               Baltimore SEO is search engine optimization for Baltimore
@@ -154,7 +154,7 @@ const BaltimoreSEOCompany = () => {
         </section>
 
         <section className="reasons-section">
-          <div className="container">
+          <div className="medium-container">
             <h2>5 Reasons You Must Invest in Baltimore SEO in 2022</h2>
             <h3>
               #1. Local SEO Can Help You Reach Your Target Market, and They Can
@@ -256,7 +256,7 @@ const BaltimoreSEOCompany = () => {
         </section>
 
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>
               How Do Baltimore SEO Services Work to Help Grow Your Business?
             </h2>
@@ -486,7 +486,7 @@ const BaltimoreSEOCompany = () => {
           </Link>
         </div>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>We Do Local SEO Services Near Baltimore, MD</h2>
             <p>
               If you have a local Baltimore business and provide services to
@@ -519,7 +519,7 @@ const BaltimoreSEOCompany = () => {
           </Link>
         </div>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>
               Why Choose Our Baltimore SEO Agency Instead of Other SEO Agencies?
             </h2>
@@ -624,7 +624,7 @@ const BaltimoreSEOCompany = () => {
           </a>
         </div>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>Baltimore SEO Experts</h2>
             <p>Internet marketing is challenging.</p>
             <p>
@@ -652,8 +652,8 @@ const BaltimoreSEOCompany = () => {
           </a>
         </div>
         <section>
-          <div className="container">
-            <h3 className="center">Work with a Top Baltimore SEO Company</h3>
+          <div className="medium-container">
+            <h2 className="center">Work with a Top Baltimore SEO Company</h2>
             <p>
               We create SEO campaigns that get you high rankings and more leads
               online and bring you more business.
@@ -725,7 +725,7 @@ const BaltimoreSEOCompany = () => {
               },
             ]}
           />
-          <div className="container">
+          <div className="medium-container">
             <h2>Frequently Asked Questions</h2>
             <div className="faq-questions">
               <h3>#1. What Do Baltimoe SEO Services Cost?</h3>

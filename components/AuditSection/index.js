@@ -6,7 +6,7 @@ import OfferForm from '../OfferFormSection'
 const AuditSection = () => {
   return (
     <section className="dots-background">
-      <div className="container">
+      <div className="small-container">
         <AuditElements>
           <h2>
             Stop Losing Money and Customers Because You're Not Showing up In
@@ -17,7 +17,7 @@ const AuditSection = () => {
             Find Out Why You're Not Showing Up on Google, and Start Getting More
             Leads and Customers Without Paying for Ads!
           </p>
-          <div className="offer-section">
+          {/* <div className="offer-section">
             <ul>
               <li>
                 Check your website's SEO and discover why you're not appearing
@@ -33,8 +33,9 @@ const AuditSection = () => {
               </li>
             </ul>
             <OfferForm />
-          </div>
+          </div> */}
         </AuditElements>
+        <OfferForm />
       </div>
     </section>
   )
@@ -43,6 +44,9 @@ const AuditSection = () => {
 export default AuditSection
 
 const AuditElements = styled.div`
+  h2 {
+    max-width: 100%;
+  }
   .form-section {
     form {
       margin-top: 4rem;
