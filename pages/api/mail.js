@@ -7,7 +7,6 @@ sgMail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_API_KEY)
 
 export default async function (req, res) {
   const body = req.body
-  console.log(process.env.NEXT_PUBLIC_SENDGRID_API_KEY)
   const message = `
   Name: ${body.firstName}\r\n
   Email: ${body.email}\r\n
