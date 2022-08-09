@@ -241,22 +241,20 @@ const TechnicalSEOServices = () => {
                     </p>
                   </div>
                 </Card>
-                <Link href="/free-website-audit">
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/thinking.svg"
-                        alt="Woman thiniking about getting a free mini SEO audit."
-                        loading="lazy"
-                      />
-                      <h3>Technical SEO Consulting</h3>
-                      <p>
-                        Get actionable advice and recommendations from technical
-                        SEO consultants with SEO knowledge and experience.
-                      </p>
-                    </div>
-                  </Card>
-                </Link>
+                <Card>
+                  <div className="card-info">
+                    <img
+                      src="/images/thinking.svg"
+                      alt="Woman thiniking about getting a free mini SEO audit."
+                      loading="lazy"
+                    />
+                    <h3>Technical SEO Consulting</h3>
+                    <p>
+                      Get actionable advice and recommendations from technical
+                      SEO consultants with SEO knowledge and experience.
+                    </p>
+                  </div>
+                </Card>
               </Container>
             </div>
           </div>
@@ -395,10 +393,10 @@ const TechnicalSEOServices = () => {
                 </p>
               </div>
             </div>
-            <div className="btn faq">
-              <Link href="/contact" passHref>
-                <Button>Get in touch with us!</Button>
-              </Link>
+            <div className="btn">
+              <a href="tel:+2402660588">
+                <Button>Call (240) 266-0588</Button>
+              </a>
             </div>
             <div className="faq-question-2">
               <div className="question">
@@ -486,9 +484,9 @@ const TechnicalSEOServices = () => {
               </div>
               <div className="large-number">#4.</div>
             </div>
-            <div className="btn faq">
-              <a href={calendly} target="_blank">
-                <Button>Book a Call Today!</Button>
+            <div className="btn">
+              <a href="tel:+2402660588">
+                <Button>Call (240) 266-0588</Button>
               </a>
             </div>
             <div className="faq-question-5">
