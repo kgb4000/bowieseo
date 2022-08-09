@@ -58,7 +58,7 @@ const BaltimoreSEOCompany = () => {
             <img
               src="images/baltimore-seo-company.jpg"
               alt="We provide Baltimore SEO services - Bowie SEO"
-              width="1000"
+              width="1200"
               height="450"
             />
             <p>
@@ -78,8 +78,8 @@ const BaltimoreSEOCompany = () => {
             </p>
           </div>
           <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Book a free consultation</Button>
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588 today!</Button>
             </a>
           </div>
         </section>
@@ -254,7 +254,6 @@ const BaltimoreSEOCompany = () => {
             </a>
           </div>
         </section>
-
         <section>
           <div className="medium-container">
             <h2>
@@ -355,27 +354,16 @@ const BaltimoreSEOCompany = () => {
           </div>
         </section>
         <div className="btn">
-          <a href={calendly} target="_blank" rel="noreferrer">
-            <Button>Book a free consultation</Button>
+          <a href="tel:+2402660588">
+            <Button>Call (240) 266-0588 today!</Button>
           </a>
         </div>
         <section>
           <div className="services-container">
             <h2>Baltimore SEO Services</h2>
             <p className="sub-text">
-              We offer a full range of SEO services to help your business rank
-              higher in the search results and get more traffic.
-            </p>
-            <p className="sub-text">
-              Search engine optimization will help your business grow. We're a{' '}
-              <Link href="/maryland-seo-company" passHref>
-                <a>Maryland SEO company</a>
-              </Link>{' '}
-              that specialize in SEO for small businesses in Baltimore,{' '}
-              <Link href="/dc-seo" passHref>
-                <a>DC</a>
-              </Link>{' '}
-              , and Virginia.
+              We offer a full range of SEO services to help your Baltimore
+              businesses rank higher in the search engines and get more traffic.
             </p>
             <div className="services">
               <Container>
@@ -487,13 +475,15 @@ const BaltimoreSEOCompany = () => {
         </div>
         <section>
           <div className="medium-container">
-            <h2>We Do Local SEO Services Near Baltimore, MD</h2>
+            <h2 className="title">
+              We Do Local SEO Services Near Baltimore, MD
+            </h2>
             <p>
               If you have a local Baltimore business and provide services to
               suburbs surrounding the Baltimore area, we can help you reach more
               clients in these cities with local SEO services.
             </p>
-            <div className="cities container">
+            <div className="cities small-container">
               <ul>
                 <li>Hampden, MD</li>
                 <li>Rosedale, MD</li>
@@ -629,14 +619,14 @@ const BaltimoreSEOCompany = () => {
             <p>Internet marketing is challenging.</p>
             <p>
               You need an{' '}
-              <Link href="/maryland-seo-expert" passHref>
-                <a>SEO expert</a>
+              <Link href="/maryland-seo-company" passHref>
+                <a>SEO company</a>
               </Link>{' '}
-              on your side.
+              on your side to help you navigate.
             </p>
             <p>
               Let's talk if you're trying to expand your company's online
-              presence, raise your search engine position, and increase income
+              presence, raise your search engine position, and increase revenue
               for your Baltimore business.
             </p>
             <p>Let our Baltimore SEO company help you succeed.</p>
@@ -653,7 +643,9 @@ const BaltimoreSEOCompany = () => {
         </div>
         <section>
           <div className="medium-container">
-            <h2 className="center">Work with a Top Baltimore SEO Company</h2>
+            <h2 className="center">
+              Work with a Top Baltimore SEO Company and Get Results
+            </h2>
             <p>
               We create SEO campaigns that get you high rankings and more leads
               online and bring you more business.
@@ -666,7 +658,7 @@ const BaltimoreSEOCompany = () => {
               Let us show you how we can help increase your visibility with our
               SEO services.
             </p>
-            <p>SEO That Converts Into Sales</p>
+            <h3>SEO That Converts Into Sales</h3>
             <p>
               It's not enough to just get your site to rank high in the search
               engines.
@@ -728,36 +720,51 @@ const BaltimoreSEOCompany = () => {
           <div className="medium-container">
             <h2>Frequently Asked Questions</h2>
             <div className="faq-questions">
-              <h3>#1. What Do Baltimoe SEO Services Cost?</h3>
-              <p>
-                The cost of SEO services can vary depending on the size and
-                scope of your project. Prices usually range anywhere from{' '}
-                <b>$1000 - $5000</b> per month.
-              </p>
-              <p>These are just estimates.</p>
-              <p>Contact us to get a quote for your specific project.</p>
-              <h3>#2. How Long Does SEO Take To Work?</h3>
-              <p>
-                It can take anywhere from three to twelve months to see any
-                improvements in your SEO performance.
-              </p>
-              <h3>#3. How Do I Know if My SEO Company is Working?</h3>
-              <p>
-                If you're not seeing any improvements in your website's organic
-                search engine ranking, traffic, or income, your SEO company
-                might not be doing its job.
-              </p>
-              <h3>#4. Is SEO Right For My Business?</h3>
-              <p>
-                If you're trying to expand your company's online presence, raise
-                your search engine position, and increase income for your
-                business, then SEO might be proper for you.
-              </p>
-              <h3>#5. Can You Guarantee Me a Position on the First Page?</h3>
-              <p>
-                No one can guarantee you a position on the first page, but our
-                Baltimore SEO agency will do our best to get you there.
-              </p>
+              <section>
+                <h3>#1. What Do Baltimoe SEO Services Cost?</h3>
+                <p>
+                  The cost of SEO services can vary depending on the size and
+                  scope of your project. Prices usually range anywhere from{' '}
+                  <b>$1000 - $5000</b> per month.
+                </p>
+                <p>These are just estimates.</p>
+                <p>Contact us to get a quote for your specific project.</p>
+              </section>
+              <div className="btn">
+                <Link href="/contact">
+                  <Button>Contact us today!</Button>
+                </Link>
+              </div>
+              <section>
+                <h3>#2. How Long Does SEO Take To Work?</h3>
+                <p>
+                  It can take anywhere from three to twelve months to see any
+                  improvements in your SEO performance.
+                </p>
+              </section>
+              <section>
+                <h3>#3. How Do I Know if My SEO Company is Working?</h3>
+                <p>
+                  If you're not seeing any improvements in your website's
+                  organic search engine ranking, traffic, or income, your SEO
+                  company might not be doing its job.
+                </p>
+              </section>
+              <section>
+                <h3>#4. Is SEO Right For My Business?</h3>
+                <p>
+                  If you're trying to expand your company's online presence,
+                  raise your search engine position, and increase income for
+                  your business, then SEO might be proper for you.
+                </p>
+              </section>
+              <section>
+                <h3>#5. Can You Guarantee Me a Position on the First Page?</h3>
+                <p>
+                  No one can guarantee you a position on the first page, but our
+                  Baltimore SEO agency will do our best to get you there.
+                </p>
+              </section>
             </div>
           </div>
           <div className="btn">

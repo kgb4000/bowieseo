@@ -45,8 +45,10 @@ const MarylandSEOExpert = () => {
           buttonText1="Free Mini SEO Audit!"
         />
         <section>
-          <div className="container">
-            <h2>Get a Maryland SEO Expert to Help You Grow Your Business</h2>
+          <div className="medium-container">
+            <h2 className="title">
+              Get a Maryland SEO Expert to Help You Grow Your Business
+            </h2>
             <p>
               We're a{' '}
               <Link href="/maryland-seo-company">
@@ -65,7 +67,7 @@ const MarylandSEOExpert = () => {
             <img
               src="images/maryland-seo-expert.jpg"
               alt="Maryland SEO Expert"
-              width="1000"
+              width="1100"
               height="450"
             />
             <p>
@@ -108,7 +110,7 @@ const MarylandSEOExpert = () => {
           </div>
         </section>
         <section className="dots-background">
-          <div className="container">
+          <div className="medium-container">
             <div className="offer-section">
               <h2>Are Other Companies Ranking Higher Than You in Google?</h2>
               <p className="big-p">
@@ -140,8 +142,8 @@ const MarylandSEOExpert = () => {
           </div>
         </section>
         <section>
-          <div className="container">
-            <h2>
+          <div className="medium-container">
+            <h2 className="title">
               7 Reasons Why You Need to Hire a Maryland SEO Expert in 2022
             </h2>
             <p className="sub-text">
@@ -250,7 +252,7 @@ const MarylandSEOExpert = () => {
         </div>
         <section className="our-services-section">
           <div className="services-container">
-            <h2>Our Expert SEO Services</h2>
+            <h2 className="title">Our Expert SEO Services</h2>
             <p className="sub-text">
               Our services help local business get more website traffic and
               attract potential customers. We not a full service agency, we're
@@ -380,8 +382,8 @@ const MarylandSEOExpert = () => {
           </a>
         </div>
         <section>
-          <div className="container">
-            <h2>
+          <div className="medium-container">
+            <h2 className="title">
               Why Work With Bowie SEO Experts Instead of Other SEO Companies?
             </h2>
             <p>
@@ -392,7 +394,10 @@ const MarylandSEOExpert = () => {
             <p>So why should you choose Bowie SEO?</p>
             <h3>#1. We Rank #2 for Maryland SEO Expert on Google</h3>
 
-            <img src="/images/maryland-seo-expert-google-page.jpg" />
+            <img
+              src="/images/maryland-seo-expert-google-page.jpg"
+              alt="We rank #1 for Maryland SEO Expert"
+            />
             <p>
               We only specialize in SEO and we know what it takes to get your
               website to rank on the first page in Google.
@@ -512,7 +517,7 @@ const MarylandSEOExpert = () => {
           </div>
         </section> */}
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>Frequently Asked Questions</h2>
             <FAQPageJsonLd
               mainEntity={[
@@ -594,7 +599,7 @@ const MarylandSEOExpert = () => {
           </a>
         </div>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h3>#2. How Much Does an SEO Expert Charge?</h3>
             <p>
               Every SEO professional has their own unique pricing structure, and
@@ -627,7 +632,7 @@ const MarylandSEOExpert = () => {
           </a>
         </div>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h3>#3. How Long Does it Take to See SEO Results?</h3>
             <p>
               If you're wondering how long it will take to see SEO results, the
@@ -669,7 +674,7 @@ const MarylandSEOExpert = () => {
           </a>
         </div>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h3>#4. Can You Guarantee #1 Rankings?</h3>
             <p>
               No SEO expert or consultant can guarantee first-place rankings.
@@ -683,7 +688,7 @@ const MarylandSEOExpert = () => {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h3>
               #5. What SEO Strategy will You Put in Place for My Business?
             </h3>

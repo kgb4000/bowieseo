@@ -32,8 +32,8 @@ const About = () => {
         <PageHero
           heading="About Bowie SEO"
           subText="We are an SEO company in Maryland that helps businesses in Maryland, DC, and Virginia get found in the search engines. We use search engine otipimization to increase you online presence, so more people see your business."
-          heroBtnLink="/contact"
-          buttonText="Let's have a Talk!"
+          heroBtnLink="tel:+2402660588"
+          buttonText="Call us (240) 266-0588"
         />
         <section>
           <div className="medium-container">
@@ -55,13 +55,29 @@ const About = () => {
             <ul>
               <li>Keyword Research</li>
               <li>Link Building</li>
-              <li>SEO audits</li>
+              <li>
+                <Link href="/seo-audit" passHref>
+                  <a>SEO Audits</a>
+                </Link>
+              </li>
               <li>Content audits and optimizations</li>
-              <li>Technical SEO</li>
+              <li>
+                <Link href="/technical-seo" passHref>
+                  <a>Technical SEO</a>
+                </Link>
+              </li>
               <li>On-Page SEO</li>
-              <li>Local SEO</li>
+              <li>
+                <Link href="/local-seo" passHref>
+                  <a>Local SEO</a>
+                </Link>
+              </li>
               <li>Competitive Analysis</li>
-              <li>Free mini SEO audit</li>
+              <li>
+                <Link href="/free-mini-seo-audit" passHref>
+                  <a>Free Mini SEO audit</a>
+                </Link>
+              </li>
             </ul>
             <p>
               In addition to helping you rank higher, we also provide you with
@@ -78,17 +94,14 @@ const About = () => {
               choice.{' '}
             </p>
             <p>
-              <Link href="/contact" passHref>
-                <a>Contact us today</a>
-              </Link>{' '}
-              to learn more about our services and how we can help your
-              business.
+              Contact us today to learn more about our services and how we can
+              help your business.
             </p>
           </div>
         </section>
         <div className="btn">
-          <a href={calendly} target="_blank" rel="noreferrer">
-            <Button>Schedule a Free Consultation!</Button>
+          <a href="tel:+2402660588">
+            <Button>Call (240) 266-0588</Button>
           </a>
         </div>
         <section>
@@ -193,8 +206,8 @@ const About = () => {
               </Contact>
             </Wrapper>
             <div className="btn">
-              <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule a Consultation today!</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 266-0588</Button>
               </a>
             </div>
           </div>

@@ -8,7 +8,6 @@ import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
-import { getPosts } from '../lib/data'
 import InfoSection from '../components/InfoSection'
 import { homeObj } from '../components/InfoSection/Data'
 import {
@@ -25,20 +24,6 @@ import ResultsSection from '../components/ResultsSection'
 const AuditSection = dynamic(() => import('../components/AuditSection'), {
   suspense: true,
 })
-
-// const Blog = dynamic(() => import('../components/BlogSection'), {
-//   suspense: true,
-// })
-
-// export const getStaticProps = async () => {
-//   const data = await getPosts()
-
-//   return {
-//     props: {
-//       data,
-//     },
-//   }
-// }
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
@@ -134,8 +119,8 @@ export default function Home({ data }) {
               </ul>
             </div>
             <div className="btn">
-              <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book a call today!</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 266-0588</Button>
               </a>
             </div>
           </div>
@@ -375,8 +360,8 @@ export default function Home({ data }) {
               SEO into your overall marketing plan.
             </p>
             <div className="btn">
-              <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>let's talk today!</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 266-0588</Button>
               </a>
             </div>
           </div>
@@ -387,7 +372,11 @@ export default function Home({ data }) {
             <p className="sub-text">
               Our SEO services help small businesses get more traffic, leads,
               and customers and ultimately increase business revenue. We provide
-              SEO services to businesses in Maryland,{' '}
+              SEO services to businesses in{' '}
+              <Link href="/maryland-seo-company" passHref>
+                <a>Maryland</a>
+              </Link>
+              ,{' '}
               <Link href="/dc-seo" passHref>
                 <a>DC</a>
               </Link>
@@ -395,25 +384,23 @@ export default function Home({ data }) {
             </p>
             <div className="services">
               <Container>
-                <Link href="/seo-services" passHref>
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/search-engines.svg"
-                        alt="Keyword ranking image"
-                        loading="lazy"
-                      />
-                      <h3>SEO</h3>
-                      <p>
-                        Get more website traffic and more leads with our
-                        powerful search engine optimization services. Let Bowie
-                        SEO put your business on the path to SEO success.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </Link>
-                <Link href="/local-seo-maryland" passHref>
+                <Card>
+                  <div className="card-info">
+                    <img
+                      src="/images/search-engines.svg"
+                      alt="Keyword ranking image"
+                      loading="lazy"
+                    />
+                    <h3>SEO</h3>
+                    <p>
+                      Get more website traffic and more leads with our powerful
+                      search engine optimization services. Let Bowie SEO put
+                      your business on the path to SEO success.
+                    </p>
+                  </div>
+                  <p>Learn more</p>
+                </Card>
+                <Link href="/local-seo">
                   <Card>
                     <div className="card-info">
                       <img
@@ -423,7 +410,7 @@ export default function Home({ data }) {
                       />
                       <h3>Local SEO</h3>
                       <p>
-                        Your customers in Bowie, Annapolis and Glenn Burnie,
+                        Your customers in Bowie, Annapolis and Baltimore,
                         Maryland are looking for your skills and services on
                         Google. Make sure they find your company and not someone
                         else.
@@ -432,22 +419,24 @@ export default function Home({ data }) {
                     <p>Learn more</p>
                   </Card>
                 </Link>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/audit.svg"
-                      alt="SEO audit image."
-                      loading="lazy"
-                    />
-                    <h3>SEO Audit</h3>
-                    <p>
-                      Do an SEO Audit and see why you're not ranking on the
-                      first page of Google and what you must fix to help you get
-                      on the first page.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
+                <Link href="/seo-audit">
+                  <Card>
+                    <div className="card-info">
+                      <img
+                        src="/images/audit.svg"
+                        alt="SEO audit image."
+                        loading="lazy"
+                      />
+                      <h3>SEO Audit</h3>
+                      <p>
+                        Do an SEO Audit and see why you're not ranking on the
+                        first page of Google and what you must fix to help you
+                        get on the first page.
+                      </p>
+                    </div>
+                    <p>Learn more</p>
+                  </Card>
+                </Link>
                 <Card>
                   <div className="card-info">
                     <img
@@ -676,9 +665,9 @@ export default function Home({ data }) {
               </Contact>
             </Wrapper>
             <div className="btn">
-              <Link href={calendly} passHref>
-                <Button>Book a Call Today!</Button>
-              </Link>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 266-0588</Button>
+              </a>
             </div>
           </div>
         </section>
@@ -768,9 +757,9 @@ export default function Home({ data }) {
                 </p>
               </section>
               <div className="btn">
-                <Link href={calendly} passHref>
-                  <Button>Book a call today</Button>
-                </Link>
+                <a href="tel:+2402660588">
+                  <Button>Call (240) 266-0588</Button>
+                </a>
               </div>
               <section>
                 <h3>#2. How Can SEO Help My Business?</h3>
@@ -826,9 +815,9 @@ export default function Home({ data }) {
                 </p>
               </section>
               <div className="btn">
-                <Link href="/contact" passHref>
-                  <Button>Contact us today!</Button>
-                </Link>
+                <a href="tel:+2402660588">
+                  <Button>Call (240) 266-0588</Button>
+                </a>
               </div>
               <section>
                 <h3>#4. How Long Does SEO Take to Work?</h3>
@@ -902,9 +891,9 @@ export default function Home({ data }) {
             </div>
           </div>
           <div className="btn">
-            <Link href={calendly} passHref>
-              <Button>Book a Call Today!</Button>
-            </Link>
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588</Button>
+            </a>
           </div>
         </section>
       </MainLayout>

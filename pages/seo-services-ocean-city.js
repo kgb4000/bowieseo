@@ -28,9 +28,9 @@ export const getStaticProps = async () => {
   }
 }
 
-export default function LocalSEO({ data }) {
+export default function OceanCitySEO() {
   const SEO = {
-    title: 'SEO Services Ocean City | Ocean City MD Search Engine Optimization',
+    title: 'SEO Services Ocean City | Increase Leads, Boost Revenue',
     description:
       'We provide SEO services in Ocean City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
     canonical: 'https://bowieseo.com/seo-services-ocean-city',
@@ -47,22 +47,22 @@ export default function LocalSEO({ data }) {
       <NextSeo {...SEO} />
       <MainLayout>
         <PageHero
-          heading="SEO Services Ocean City, Maryland"
-          subText="We provide SEO solutions to help businesses in Ocean City grow. We use our SEO knowledge to help attract more customers and increase sales for our clients, and we can do the same for you."
+          heading="SEO Services Ocean City, MD [Increase Leads and Boost Revenue]"
+          subText="We provide SEO solutions to help businesses in Ocean City grow. We use our SEO knowledge to help attract more customers and increase sales for your business."
           heroBtnLink="/contact"
           buttonText="Book a free consultation"
         />
         <section className="article-section">
-          <div className="container">
+          <div className="medium-container">
             <h2>SEO Services Ocean City</h2>
-            <p>
+            <p className="center">
               Digital marketing can be challenging for businesses in Ocean City,
               but you don't have to struggle anymore.
             </p>
             <img
               src="images/ocean-city-seo-company.jpg"
               alt="SEO Services Ocean City, Maryalnd"
-              width="1000"
+              width="1200"
               height="450"
             />
             <p>
@@ -86,11 +86,11 @@ export default function LocalSEO({ data }) {
           </div>
         </section>
         <div className="btn">
-          <Link href={calendly}>
-            <a>
-              <Button>Book a Call Today!</Button>
+          <div className="btn">
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588</Button>
             </a>
-          </Link>
+          </div>
         </div>
         <section className="dots-background">
           <div className="container">
@@ -122,11 +122,11 @@ export default function LocalSEO({ data }) {
           </div>
         </section>
         <section className="reasons-section">
-          <div className="container">
+          <div className="medium-container">
             <h2>
               7 Reasons You Must Invest in SEO for Your Ocean City, MD Business
             </h2>
-            <p className="sub-text">
+            <p className="center">
               Ocean City businesses need SEO to compete online. Partner with an
               SEO company that can build your online business presence, bring
               more leads and customers.
@@ -195,13 +195,13 @@ export default function LocalSEO({ data }) {
             </p>
           </div>
           <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Book a call today!</Button>
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588</Button>
             </a>
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>
               What is Search Engine Optimization, and How Can it Help Businesses
               in Ocean City?
@@ -212,7 +212,10 @@ export default function LocalSEO({ data }) {
               visibility in the search engine results pages (SERPs).
             </p>
             <p>
-              Local SEO is search engine optimization businesses in a specific
+              <Link href="/local-seo" passHref>
+                <a>Local SEO</a>
+              </Link>{' '}
+              is search engine optimization for businesses in a specific
               location.
             </p>
             <p>
@@ -392,7 +395,7 @@ export default function LocalSEO({ data }) {
           </Link>
         </div>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2>
               In a Sea of Ocean City SEO Companies, Why Work With Our SEO
               Company?
@@ -429,8 +432,8 @@ export default function LocalSEO({ data }) {
             <h3>#5. All We Do is SEO</h3>
             <p>
               We are{' '}
-              <Link href="/maryland-seo-expert" passHref>
-                <a>SEO experts</a>
+              <Link href="/maryland-seo-company" passHref>
+                <a>Maryland SEO experts</a>
               </Link>
               .
             </p>
@@ -442,8 +445,8 @@ export default function LocalSEO({ data }) {
           </div>
         </section>
         <div className="btn">
-          <a href={calendly} target="_blank" rel="noreferrer">
-            <Button>Book a call today!</Button>
+          <a href="tel:+2402660588">
+            <Button>Call (240) 266-0588</Button>
           </a>
         </div>
         <section>
@@ -482,59 +485,75 @@ export default function LocalSEO({ data }) {
               },
             ]}
           />
-          <div className="container">
+          <div className="medium-container">
             <h2>Frequently Asked Questions</h2>
             <div className="faq-questions">
-              <h3>#1. How Much Does Local SEO Services Cost?</h3>
-              <p>
-                The cost of local SEO services varies depending on the size of
-                your business and its location. SEO services can start as low as
-                $1000 per month for a small business. For a larger company, the
-                cost can be upwards of $5,000 per month. Please get in touch
-                with us to learn more.
-              </p>
-              <h3>#2. Can I do SEO Myself?</h3>
-              <p>
-                Yes, you can do SEO yourself. However, it takes a lot of time
-                and effort to learn all the different SEO aspects and keep up
-                with the ever-changing landscape of search engine algorithms.
-                You should hire an experienced SEO company in Ocean City to
-                handle your SEO needs.
-              </p>
-              <h3>#3. How Long Does it Take for Local SEO to Work?</h3>
-              <p>
-                Local SEO can take a few weeks to a few months to see results.
-                However, it is essential to note that SEO is an ongoing process,
-                and you must continuously work on it to maintain and improve
-                your rankings.
-              </p>
-              <h3>#4. Which is Better for My Business, SEO or PPC?</h3>
-              <p>
-                The answer to this question depends on your business goals and
-                your budget. If you have a limited budget, then SEO is the
-                better option as it is a long-term strategy that will continue
-                to provide results over time. PPC is a good option if you have a
-                larger budget and need immediate results.
-              </p>
-              <p>
-                SEO is a long-term strategy that improves the visibility of your
-                website in search engine results pages (SERPs). PPC is a
-                short-term strategy where you pay for ads that appear in SERPs.
-                PPC can complement SEO well as it can help you achieve your
-                business goals faster. However, it is essential to note that you
-                must continuously pay for the ads to maintain your results.
-              </p>
-              <h3>#5. SEO Services Ocean City - What Next?</h3>
-              <p>
-                Call and talk to an SEO consultant at Bowie SEO to discuss your
-                strategy. Start getting more website traffic and potential
-                customers today.
-              </p>
+              <section>
+                <h3>#1. How Much Does Local SEO Services Cost?</h3>
+                <p>
+                  The cost of local SEO services varies depending on the size of
+                  your business and its location. SEO services can start as low
+                  as $1000 per month for a small business. For a larger company,
+                  the cost can be upwards of $5,000 per month. Please get in
+                  touch with us to learn more.
+                </p>
+              </section>
+              <section>
+                <h3>#2. Can I do SEO Myself?</h3>
+                <p>
+                  Yes, you can do SEO yourself. However, it takes a lot of time
+                  and effort to learn all the different SEO aspects and keep up
+                  with the ever-changing landscape of search engine algorithms.
+                  You should hire an experienced SEO company in Ocean City to
+                  handle your SEO needs.
+                </p>
+              </section>
+              <div className="btn">
+                <a href="tel:+2402660588">
+                  <Button>Call (240) 266-0588</Button>
+                </a>
+              </div>
+              <section>
+                <h3>#3. How Long Does it Take for Local SEO to Work?</h3>
+                <p>
+                  Local SEO can take a few weeks to a few months to see results.
+                  However, it is essential to note that SEO is an ongoing
+                  process, and you must continuously work on it to maintain and
+                  improve your rankings.
+                </p>
+              </section>
+              <section>
+                <h3>#4. Which is Better for My Business, SEO or PPC?</h3>
+                <p>
+                  The answer to this question depends on your business goals and
+                  your budget. If you have a limited budget, then SEO is the
+                  better option as it is a long-term strategy that will continue
+                  to provide results over time. PPC is a good option if you have
+                  a larger budget and need immediate results.
+                </p>
+                <p>
+                  SEO is a long-term strategy that improves the visibility of
+                  your website in search engine results pages (SERPs). PPC is a
+                  short-term strategy where you pay for ads that appear in
+                  SERPs. PPC can complement SEO well as it can help you achieve
+                  your business goals faster. However, it is essential to note
+                  that you must continuously pay for the ads to maintain your
+                  results.
+                </p>
+              </section>
+              <section>
+                <h3>#5. SEO Services Ocean City - What Next?</h3>
+                <p>
+                  Call and talk to an SEO consultant at Bowie SEO to discuss
+                  your strategy. Start getting more website traffic and
+                  potential customers today.
+                </p>
+              </section>
             </div>
           </div>
-          <div className="btn faq">
-            <a href={calendly} target="_blank">
-              <Button>Book a Call Today!</Button>
+          <div className="btn">
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588</Button>
             </a>
           </div>
         </section>

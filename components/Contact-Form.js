@@ -91,73 +91,68 @@ export default function ContactForm({ h2, p }) {
 
   return (
     <>
-      <section>
-        <div className="medium-container">
-          <Conversion>
-            <div className="ready-text">
-              <h2>{h2}</h2>
-              <p className="sub-text">{p}</p>
+      <div>
+        <Conversion>
+          <div className="ready-text"></div>
+          <form onSubmit={handleOnSubmit}>
+            <div className="form-input">
+              <label htmlFor="name">Name *</label>
+              <input
+                id="name"
+                type="text"
+                onChange={handleOnChange}
+                required
+                value={inputs.name}
+              />
             </div>
-            <form onSubmit={handleOnSubmit}>
-              <div className="form-input">
-                <label htmlFor="name">Name *</label>
-                <input
-                  id="name"
-                  type="text"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.name}
-                />
-              </div>
-              <div className="form-input">
-                <label htmlFor="email">Email *</label>
-                <input
-                  id="email"
-                  type="email"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.email}
-                />
-              </div>
-              <div className="form-input">
-                <label htmlFor="phone">Phone (Optional)</label>
-                <input
-                  id="phone"
-                  type="text"
-                  onChange={handleOnChange}
-                  value={inputs.phone}
-                />
-              </div>
-              <div className="form-input">
-                <label htmlFor="message">Website *</label>
-                <textarea
-                  id="message"
-                  onChange={handleOnChange}
-                  required
-                  value={inputs.message}
-                  placeholder="Please enter your website domain name and any other details you want us to know."
-                ></textarea>
-              </div>
-              <SubmitButton
-                type="submit"
-                disabled={status.submitting || isEnabled}
-              >
-                {!status.submitting
-                  ? !status.submitted
-                    ? 'I want more Traffic!'
-                    : 'Got it!'
-                  : 'Submitting...'}
-              </SubmitButton>
-              {status.info.error && (
-                <div className="error">Error: {status.info.msg}</div>
-              )}
-              {!status.info.error && status.info.msg && (
-                <div className="success">We Got Your Message!</div>
-              )}
-            </form>
-          </Conversion>
-        </div>
-      </section>
+            <div className="form-input">
+              <label htmlFor="email">Email *</label>
+              <input
+                id="email"
+                type="email"
+                onChange={handleOnChange}
+                required
+                value={inputs.email}
+              />
+            </div>
+            <div className="form-input">
+              <label htmlFor="phone">Phone (Optional)</label>
+              <input
+                id="phone"
+                type="text"
+                onChange={handleOnChange}
+                value={inputs.phone}
+              />
+            </div>
+            <div className="form-input">
+              <label htmlFor="message">Message *</label>
+              <textarea
+                id="message"
+                onChange={handleOnChange}
+                required
+                value={inputs.message}
+                placeholder="Your message."
+              ></textarea>
+            </div>
+            <SubmitButton
+              type="submit"
+              disabled={status.submitting || isEnabled}
+            >
+              {!status.submitting
+                ? !status.submitted
+                  ? 'Send message!'
+                  : 'Got it!'
+                : 'Submitting...'}
+            </SubmitButton>
+            {status.info.error && (
+              <div className="error">Error: {status.info.msg}</div>
+            )}
+            {!status.info.error && status.info.msg && (
+              <div className="success">We Got Your Message!</div>
+            )}
+          </form>
+        </Conversion>
+      </div>
     </>
   )
 }
@@ -172,9 +167,10 @@ const SubmitButton = styled(Button)`
 
 const Conversion = styled.div`
   form {
-    margin-top: 3rem;
     max-width: 900px;
     margin: 0 auto;
+    margin-bottom: 4rem;
+    padding: 0 2rem;
   }
   input,
   textarea {

@@ -29,22 +29,12 @@ const Contact = () => {
         <PageHero
           heading="Contact"
           subText="Let us help you rank higher in the search engines, get more web traffic, reach more customers, and make more money."
-          heroBtnLink={calendly}
-          buttonText="Book a call"
+          heroBtnLink="tel:+2402660588"
+          buttonText="Call (240) 266-0588"
         />
         <section>
           <div className="small-container">
-            <h2>Contact Bowie SEO</h2>
-            <p>
-              If you would like to get in touch with us and learn how search
-              engine optimization can help your business, please feel free to
-              reach out.
-            </p>
-            <p>
-              We are happy to answer any questions you have about my SEO
-              services and how search engine optimization can help your business
-              grow.
-            </p>
+            <h2>Contact us</h2>
             <p>You can reach us in the following ways: </p>
             <ul>
               <li>
@@ -58,7 +48,7 @@ const Contact = () => {
             </ul>
           </div>
         </section>
-        <ContactForm h2="Fill out the form and we will get back to you ASAP!" />
+        <ContactForm />
       </MainLayout>
     </>
   )

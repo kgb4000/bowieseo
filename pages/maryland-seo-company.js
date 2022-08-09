@@ -31,16 +31,16 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 const MarylandSEOCompany = () => {
   const SEO = {
     title:
-      'Maryland SEO Company Helping Small Businesses Rank Higher on Google',
+      'Maryland SEO Company | We Help Business Increase Traffic and Revenue',
     description:
-      "We're an SEO company in Mayland dedicated to helping small businesses get more leads and customers on Google with SEO. Call for a free consultation!",
+      "We're an SEO company in Mayland dedicated to helping businesses increase web traffic and revenue with search engine optimization. Call for a free consultation!",
     type: 'website',
     canonical: 'https://bowieseo.com/maryland-seo-company',
     openGraph: {
       title:
-        'Maryland SEO Company Helping Small Businesses Rank Higher on Google',
+        'Maryland SEO Company | We Help Increase Business Traffic and Revenue',
       description:
-        "We're an SEO company in Mayland dedicated to helping small businesses get more leads and customers on Google with SEO. Call for a free consultation!",
+        "We're an SEO company in Mayland dedicated to helping businesses increase web traffic and revenue with search engine optimization. Call for a free consultation!",
       type: 'website',
       image: [{}],
     },
@@ -50,10 +50,9 @@ const MarylandSEOCompany = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <PageHero
-          heading="We're a Maryland SEO Company [That Gets You Results]"
+          heading="Maryland SEO Company [We Help Business Increase Traffic and Revenue]"
           subText="We’re an SEO company responsible for pursuing opportunities for our
-            clients to succeed. We use our expertise in search engine
-            optimization to turn insights into strategies that generate results."
+            clients to succeed."
           heroBtnLink={calendly}
           buttonText="Book a call"
           heroBtnLink1="/free-mini-seo-audit"
@@ -61,7 +60,7 @@ const MarylandSEOCompany = () => {
         />
         <section>
           <h2 className="title">
-            Get Maryland SEO and Increase Leads and Sales to Your Business
+            Get Maryland SEO and Increase Leads, Sales, and Revenue
           </h2>
           <div className="container grid">
             <img
@@ -80,28 +79,35 @@ const MarylandSEOCompany = () => {
             />
             <div className="text-info">
               <p>
-                Bowie SEO provides SEO services to businesses in Maryland, DC,
-                and Virginia.
+                Our Maryland SEO company provides SEO services to businesses
+                throughout the great state of Maryland.
               </p>
               <p>
                 We believe that search engine optimization (SEO) is one of the
-                best digital marketing channels. It can help you find your ideal
-                customers and also help customers find your business online.
+                best digital marketing channels and it also has the highest ROI
+                compared to other online marketing methods. Maryland SEO can
+                help your business target customers looking for your services,
+                and also help customers find your business online.
               </p>
               <p>
-                As a Maryland SEO company, we proudly offer SEO services to all
-                businesses in Maryland and the rest of the DMV.
+                As a Maryland SEO company, we use our knowledge and skills to
+                help businesses grow. We use SEO to help businesses reach their
+                goals and we proudly partner with them to reach their goals.
               </p>
               <p>
                 Search engine optimization can increase your web traffic, search
                 engine rankings, and online presence and help attract customers
                 looking for your services.
               </p>
+              <p>
+                Give us a call and let's show you how search engine optimization
+                can help your company.
+              </p>
             </div>
           </div>
           <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Book a call today!</Button>
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588</Button>
             </a>
           </div>
         </section>
@@ -213,16 +219,6 @@ const MarylandSEOCompany = () => {
               your online presence, rank higher in the search rankings, get more
               traffic, and do more online business. 
             </p>
-            <h3>
-              #6. You'll Reach Your Target Market, and Customers Will Find Your
-              Business
-            </h3>
-            <p>
-              When you optimize your website and content for specific keywords,
-              you'll not only improve your chances of ranking well in search
-              engine results pages (SERPs), but you'll also attract people who
-              are interested in your products or services.
-            </p>
             <p>
               In other words, by targeting the right keywords, you can ensure
               that the people who see your website are the people who are most
@@ -259,7 +255,6 @@ const MarylandSEOCompany = () => {
               businesses to invest in SEO so they can appear in the search
               results when potential customers are looking for what they offer.
             </p>
-
             <h3>#5. You'll Outrank Your Competitors in the Search Results</h3>
             <p>
               Maryland search engine optimization makes your website better for
@@ -315,12 +310,12 @@ const MarylandSEOCompany = () => {
             </p>
           </div>
           <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Book a call today!</Button>
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588</Button>
             </a>
           </div>
         </section>
-        <section>
+        {/* <section>
           <div className="medium-container">
             <h2>How Does Maryland SEO Work, What is The Process?</h2>
             <p>
@@ -555,18 +550,18 @@ const MarylandSEOCompany = () => {
               </Link>
             </div>
           </div>
-        </section>
+        </section> */}
         <section>
           <div className="services-container">
-            <h2>Popular Maryland SEO Services</h2>
+            <h2 className="title">Popular Maryland SEO Services</h2>
             <p className="sub-text">
               Our services will help your business grow and boost your SEO
-              rankings. We're a Maryland SEO company specializing in search
-              engine optimization for small businesses in Maryland,{' '}
+              rankings. We're a Maryland SEO experts specializing in search
+              engine optimization for small businesses in Maryland and nearby{' '}
               <Link href="/dc-seo" passHref>
-                <a>DC</a>
+                <a>Washington, DC</a>
               </Link>
-              , and Virginia.
+              .
             </p>
             <div className="services">
               <Container>
@@ -690,9 +685,9 @@ const MarylandSEOCompany = () => {
           <ProcessSection {...processObj5} />
           <ProcessSection {...processObj6} />
           <div className="btn">
-            <Link href="/contact" passHref>
-              <Button>Contact us</Button>
-            </Link>
+            <a href="tel:+6494452687">
+              <Button>Call (240) 266-0588</Button>
+            </a>
           </div>
         </section>
         <section className="pain-section">
@@ -749,27 +744,32 @@ const MarylandSEOCompany = () => {
               </Contact>
             </Wrapper>
             <div className="btn">
-              <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book a call today!</Button>
+              <a href="tel:+2402660588">
+                <Button>Call (240) 266-0588</Button>
               </a>
             </div>
           </div>
         </section>
         <section>
           <div className="medium-container">
-            <h2>Are you looking for a Maryland SEO Company Near me?</h2>
+            <h2>Seeking a Maryland SEO Company Near me?</h2>
             <p>
               If you're looking for a Maryland SEO company to take your business
               to the next level, it's essential you work with top SEO companies
               like Bowie SEO.
             </p>
             <p>
-              We have a proven track record of helping businesses in the DMV
-              area achieve their online marketing goals. We're ready to put our
-              experience to work for you.
+              We have a proven track record of helping businesses in our area
+              achieve their online marketing goals.
             </p>
+            <p>We're ready to put our experience to work for you.</p>
           </div>
         </section>
+        <div className="btn">
+          <a href="tel:+2402660588">
+            <Button>Call (240) 266-0588</Button>
+          </a>
+        </div>
         <section>
           <div className="medium-container">
             <h2>Customized SEO Solutions</h2>
@@ -799,7 +799,7 @@ const MarylandSEOCompany = () => {
           </a>
         </div>
         <section className="why-choose">
-          <div className="container">
+          <div className="medium-container">
             <h2>
               Why Choose Bowie SEO Instead of Other Maryland SEO Companies?
             </h2>
@@ -833,8 +833,8 @@ const MarylandSEOCompany = () => {
                 step, but think about this for a second.
               </p>
               <p>
-                It can take three to six months or even six to tweleve months
-                for you to see results from your SEO campaign.
+                It can take three to six months or even six to twelve months for
+                you to see results from your SEO campaign.
               </p>
               <p>
                 If you decide to start a Maryland SEO campaign to help boost
@@ -855,8 +855,8 @@ const MarylandSEOCompany = () => {
                 contractor company in Annapolis.
               </p>
               <p>
-                Firstly, well be doing our customers an injustice by working for
-                the competition.
+                Firstly, we'll be doing our customers an injustice by working
+                for the competition.
               </p>
               <p>Second, we'll be competing against ourselves.</p>
               <p>That would be crazy.</p>
@@ -879,11 +879,7 @@ const MarylandSEOCompany = () => {
                 be your SEO team.
               </p>
               <p>
-                Plus, you get{' '}
-                <Link href="/maryland-seo-expert" passHref>
-                  <a>Maryland SEO experts</a>
-                </Link>{' '}
-                working on your campaign, not interns.
+                Plus, you get SEO experts working on your campaign, not interns.
               </p>
               <p>
                 You get a team of SEO experts working together to bring you the
@@ -910,61 +906,12 @@ const MarylandSEOCompany = () => {
               </p>
             </div>
           </div>
-        </section>
-        <div className="btn">
-          <a href={calendly} target="_blank" rel="noreferrer">
-            <Button>Book a call today!</Button>
-          </a>
-        </div>
-        <section>
-          <div className="medium-container">
-            {' '}
-            <h2>Cities We Offer Local SEO for Local Businesses</h2>
-            <p className="sub-text">
-              Our Maryland SEO specializes in local SEO. With local SEO,
-              customers will find your business when searching for your
-              services.
-            </p>
-            <div className="cities container">
-              <ul>
-                <li>Annapolis, MD</li>
-                <li>
-                  <Link href="/baltimore-seo" passHref>
-                    <a>Baltimore, MD</a>
-                  </Link>
-                </li>
-                <li>Bethesda, MD</li>
-                <li>Bowie, MD</li>
-                <li>Capitol Heights</li>
-                <li>Chevy Chase, MD</li>
-                <li>Fort Washington, MD</li>
-              </ul>
-              <ul>
-                <li>Glen Burnie</li>
-
-                <li>Hyattsville, MD</li>
-                <li>
-                  <Link href="/laurel-maryland-local-seo-services" passHref>
-                    <a>Laurel, MD</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/seo-services-ocean-city" passHref>
-                    <a>Ocean City, MD</a>
-                  </Link>
-                </li>
-                <li>Rockville, MD</li>
-                <li>Silver Spring, MD</li>
-                <li>Takoma Park, MD</li>
-              </ul>
-            </div>
+          <div className="btn">
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588</Button>
+            </a>
           </div>
         </section>
-        <div className="btn">
-          <Link href="/contact" passHref>
-            <Button>Contact us today!</Button>
-          </Link>
-        </div>
         <section>
           <FAQPageJsonLd
             mainEntity={[
@@ -1032,9 +979,9 @@ const MarylandSEOCompany = () => {
                 </p>
               </div>
             </div>
-            <div className="btn faq">
-              <a href={calendly} target="_blank">
-                <Button>Book a Call Today!</Button>
+            <div className="btn">
+              <a href="tel:+2402660588">
+                <Button>Call (240) 266-0588</Button>
               </a>
             </div>
             <div className="faq-question-2">
@@ -1141,26 +1088,26 @@ const MarylandSEOCompany = () => {
             <div className="faq-question-5">
               <div className="large-number">#5.</div>
               <div className="question">
-                <h3>Can You Garauntee Me #1 Rankings?</h3>
+                <h3>Can You Guarantee Me #1 Rankings?</h3>
                 <p>
-                  No SEO company can guarantee you first page rankings on
+                  No SEO company can guarantee you first-page rankings on
                   Google.
                 </p>
                 <p>
                   However, what a reputable SEO company can do is help improve
                   your website's visibility and organic search results. By
                   optimizing your website for key search terms and phrases, and
-                  by building high quality backlinks, a good SEO company can
+                  by building high-quality backlinks, a good SEO company can
                   help increase your chances of ranking higher in search engine
                   results pages (SERPs).
                 </p>
                 <p>
-                  While there is no guarantee of first page rankings, a
+                  While there is no guarantee of first-page rankings, a
                   commitment to SEO can help improve your website's chances of
                   being found by potential customers.
                 </p>
                 <p>
-                  If you're looking for guaranteed first page rankings on
+                  If you're looking for guaranteed first-page rankings on
                   Google, you're likely to be disappointed. However, if you're
                   committed to improving your website's visibility and organic
                   search results, a reputable Maryland SEO company can help you
@@ -1171,9 +1118,9 @@ const MarylandSEOCompany = () => {
               </div>
             </div>
           </div>
-          <div className="btn faq">
-            <a href={calendly} target="_blank">
-              <Button>Book a Call Today!</Button>
+          <div className="btn">
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588</Button>
             </a>
           </div>
         </section>

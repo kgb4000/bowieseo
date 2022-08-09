@@ -52,8 +52,11 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink>
+            {/* <NavBtnLink>
               <BtnLinksA href={calendly}>Book a Call</BtnLinksA>
+            </NavBtnLink> */}
+            <NavBtnLink>
+              <BtnLinksA href="tel:+2402660588">Call (240) 266-0588</BtnLinksA>
             </NavBtnLink>
           </NavBtn>
         </NavbarContainer>

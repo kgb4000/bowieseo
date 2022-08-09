@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link'
 import styled from 'styled-components'
 import OfferForm from '../components/OfferFormSection'
 import OfferVideo from '../components/OfferVideo'
@@ -22,6 +23,11 @@ const FreeSEOAUDIT = () => {
   return (
     <>
       <NextSeo {...SEO} noindex={true} nofollow={true} />
+      <Header>
+        <Link href="/local-seo">
+          <a>Bowie SEO</a>
+        </Link>
+      </Header>
       <LandingPage>
         <section className="dots-background">
           <div className="container">
@@ -54,17 +60,36 @@ const FreeSEOAUDIT = () => {
             </div>
           </div>
         </section>
-        <footer>Bowie SEO &copy;{new Date().getFullYear()}</footer>
       </LandingPage>
+      <Footer>Bowie SEO &copy;{new Date().getFullYear()}</Footer>
     </>
   )
 }
 
 const LandingPage = styled.div`
-  footer {
-    font-weight: bold;
-    padding: 2rem 0;
-    text-align: center;
+  section {
+    margin-top: 0;
+  }
+`
+
+const Footer = styled.footer`
+  font-weight: bold;
+  padding: 2rem 0;
+  text-align: center;
+`
+
+const Header = styled.header`
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  font-size: 2rem;
+  font-weight: 900;
+  background: #000;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-decoration: none;
   }
 `
 

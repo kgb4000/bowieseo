@@ -3,6 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 import OfferForm from '../components/OfferFormSection'
+import ContactForm from './Contact-Form'
 import {
   NextSeo,
   LocalBusinessJsonLd,
@@ -79,8 +80,8 @@ const FooterSection = () => {
           <div className="hours-container">
             <h3>Bowie SEO</h3>
             <p>
-              <span className="day">Monday - Saturday: </span>
-              <span className="time">9:00am - 6:00pm ET</span>
+              <span className="day">Mon - Sat: </span>
+              <span className="time">9:00am - 6:00pm</span>
             </p>
             <p>
               Phone: <a href="tel:12402660588">(240) 266-0588</a>
@@ -94,25 +95,25 @@ const FooterSection = () => {
             <nav>
               <ul>
                 <li>
-                  <Link href="/maryland-seo-company">
-                    <a>Maryland SEO</a>
+                  <Link href="/local-seo">
+                    <a>Local SEO</a>
                   </Link>
                 </li>
                 <li>
+                  <Link href="/technical-seo">
+                    <a>Technical SEO</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/seo-audit">
+                    <a>SEO Audits</a>
+                  </Link>
+                </li>
+                {/* <li>
                   <Link href="/baltimore-seo">
-                    <a>Baltimore SEO</a>
+                    <a>White Label SEO</a>
                   </Link>
-                </li>
-                <li>
-                  <Link href="/dc-seo">
-                    <a>DC SEO</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/free-mini-seo-audit">
-                    <a>Free Mini SEO Audit</a>
-                  </Link>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>

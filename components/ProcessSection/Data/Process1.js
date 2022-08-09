@@ -62,7 +62,7 @@ export const processObj6 = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  headline: 'Monitor',
+  headline: 'Monitoring and Tracking',
   description:
     'We know if improvements are successful because we track and monitor our changes. Monitoring and tracking your website traffic, keyword rankings, backlinks, and competitor websites enables us to keep your website ranking higher in the search.',
   imgStart: true,
@@ -116,4 +116,90 @@ export const pillarObj4 = {
   imgStart: true,
   img: '../images/link-building.svg',
   alt: 'Link building.',
+}
+
+// Local SEO
+
+export const localSEO1 = {
+  lightBg: true,
+  lightText: true,
+  lightTextDesc: true,
+  headline: 'SEO Audit',
+  description:
+    'See where your website is ranking and discover which elements are holding you back from ranking on the first page. Fix those elements and make your website better than your competitors.',
+  imgStart: false,
+  img: '../images/audit.svg',
+  alt: 'SEO audit.',
+}
+
+export const localSEO2 = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  headline: 'Technical SEO',
+  description:
+    'Make sure search engines can see, crawl, and index your website. Find and fix any technical issues that can kill your rankings and performance.',
+  imgStart: true,
+  img: '../images/technical.svg',
+  alt: 'Technical SEO.',
+}
+
+export const localSEO3 = {
+  lightBg: true,
+  lightText: true,
+  lightTextDesc: true,
+  headline: 'Keyword Research',
+  description:
+    'Choose the right keywords so that you appear in the search results when someone searches for your products or services. Use keywords to bring potential customers to your site. ',
+  imgStart: false,
+  img: '../images/keyword-research.svg',
+  alt: 'Keyword research.',
+}
+
+export const localSEO4 = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  headline: 'Content Creation / Optimization',
+  description:
+    'Create content that your customers are searching for and bring them to your site. Refresh old outdated content and bring it up-to-date.',
+  imgStart: true,
+  img: '../images/speed-test.svg',
+  alt: 'On-Page SEO.',
+}
+
+export const localSEO5 = {
+  lightBg: true,
+  lightText: true,
+  lightTextDesc: true,
+  headline: 'Link Building',
+  description:
+    "Link building is crucial for any SEO strategy. By improving your web pages, your pages rank higher than your competitors' pages and improving your pages increase click-through rates (CTR) and website conversions.",
+  imgStart: false,
+  img: '../images/link-building.svg',
+  alt: 'Link building.',
+}
+
+export const localSEO6 = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  headline: 'GMB Optimization',
+  description:
+    "Link building is crucial for any SEO strategy. By improving your web pages, your pages rank higher than your competitors' pages and improving your pages increase click-through rates (CTR) and website conversions.",
+  imgStart: true,
+  img: '../images/link-building.svg',
+  alt: 'Link building.',
+}
+
+export const localSEO7 = {
+  lightBg: true,
+  lightText: true,
+  lightTextDesc: true,
+  headline: 'Monitoring and Tracking',
+  description:
+    'We monitoring and track your site traffic, keywords, backlinks, and competitors to ensure your website is ranking higher, being seen by more people, and performing better in the search engines.',
+  imgStart: false,
+  img: '../images/monitor.svg',
+  alt: 'Monitoring SEO.',
 }
