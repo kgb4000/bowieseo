@@ -18,7 +18,7 @@ const TechnicalSEOServices = () => {
     description:
       "We're an SEO company in Mayland dedicated to helping small businesses get more leads and customers on Google with SEO. Call for a free consultation!",
     type: 'website',
-    canonical: 'https://bowieseo.com/technical-seo-services',
+    canonical: 'https://bowieseo.com/technical-seo',
     openGraph: {
       title: 'Technical SEO for Increase SEO Performance | Bowie SEO',
       description:

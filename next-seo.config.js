@@ -29,8 +29,19 @@ export default {
   },
   site_name: 'Bowie SEO',
   twitter: {
+    title: 'Bowie SEO',
     handle: '@bowieseo',
     site: '@bowieseo',
     cardType: 'summary_large_image',
+    description:
+      "Bowie SEO is an SEO company in Bowie helping small businesses GROW using search engine optimization. Let's see how we can grow your business today.",
+    images: [
+      {
+        url: 'https://bowieseo.com/public/images/logo.jpg',
+        width: 1280,
+        height: 1024,
+        alt: 'Bowie SEO',
+      },
+    ],
   },
 }
