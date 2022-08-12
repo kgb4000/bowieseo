@@ -40,7 +40,7 @@ export const processObj4 = {
   lightTextDesc: true,
   headline: 'On-Page SEO',
   description:
-    "On-page SEO optimizes your web pages for search engines and customers searching for your services. By improving your web pages, your pages can rank higher than your competitors and improve your pages' increased click-through rates (CTR) and website conversions.",
+    'On-page SEO optimizes your web pages for search engines and customers searching for your services. Improving your web pages and rank higher than your competition and increase your click-through rate and site conversions.',
   imgStart: true,
   img: '../images/speed-test.svg',
   alt: 'On-Page SEO.',
@@ -52,7 +52,7 @@ export const processObj5 = {
   lightTextDesc: true,
   headline: 'Link Building',
   description:
-    "Link building is crucial for any SEO strategy. By improving your web pages, your pages rank higher than your competitors' pages and improving your pages increase click-through rates (CTR) and website conversions.",
+    'Build links and build your website authority in the search engines. Improve your website rankings and increase your online presence and SEO performance with a link-building strategy.',
   imgStart: false,
   img: '../images/link-building.svg',
   alt: 'Link building.',
@@ -64,7 +64,7 @@ export const processObj6 = {
   lightTextDesc: true,
   headline: 'Monitoring and Tracking',
   description:
-    'We know if improvements are successful because we track and monitor our changes. Monitoring and tracking your website traffic, keyword rankings, backlinks, and competitor websites enables us to keep your website ranking higher in the search.',
+    'Know if improvements are successful by tracking and monitoring changes. Track your website traffic, keyword rankings, backlinks, and competitor websites and keep your website two steps ahead.',
   imgStart: true,
   img: '../images/monitor.svg',
   alt: 'Monitoring SEO.',

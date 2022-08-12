@@ -233,118 +233,112 @@ export default function Home({ data }) {
         </section> */}
         <section className="why-use-seo-section">
           <div className="medium-container">
-            <div>
-              <h2>5 Reasons Why You Need Search Engine Optimization in 2022</h2>
-              <h3>#1. Google Works 24/7 365</h3>
-              <p>Google never sleeps.</p>
-              <p>
-                Google never stops working. It is constantly indexing new
-                content, scanning the internet for changes, and updating its
-                algorithms. This means that your website needs to be optimized
-                for search engines in order to rank higher in search results.
-              </p>
-              <p>
-                The algorithm that governs how sites are ranked is always
-                changing. In fact, there have been over 3,200 updates to the
-                Google algorithm since it was first created! This means that SEO
-                is an ongoing process, and you can’t afford to let your site
-                fall behind.
-              </p>
-              <p>
-                SEO is important because it can help your website rank higher in
-                search engine results pages (SERPs). Higher rankings can lead to
-                increased traffic and higher brand awareness.
-              </p>
-            </div>
-            <div>
-              <h3>#2. You Need to be Found</h3>
-              <p>
-                If you want people to find your website, you need to be visible
-                in search engine results pages. SEO can help you achieve this by
-                improving your website’s ranking for relevant keywords.
-              </p>
-              <p>
-                When potential customers search for products or services like
-                yours, they are more likely to find your website if it is ranked
-                highly in search results. This can lead to increased traffic and
-                higher brand awareness.
-              </p>
-              <p>
-                SEO is a long-term strategy that should be incorporated into
-                your overall marketing plan. It is not a quick fix, but it can
-                have a significant impact on your website’s visibility and
-                traffic over time.{' '}
-              </p>
-              <p>
-                Also,{' '}
-                <a
-                  href="https://seoexpertbrad.com/local-seo-stats/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  92% of people
-                </a>{' '}
-                will pick businesses on the first page of local search results.
-              </p>
-            </div>
-            <div>
-              <h3>#3. SEO Can Help You Get More Web Traffic</h3>
-              <p>
-                One of the main benefits of SEO is that it can help you increase
-                traffic to your website. This is because higher rankings in
-                search engine results pages can lead to more clicks and higher
-                web traffic.
-              </p>
-              <p>
-                More web traffic can lead to increased sales or leads, and
-                higher brand awareness. SEO is a long-term strategy that should
-                be incorporated into your overall marketing plan. It is not a
-                quick fix, but it can have a significant impact on your
-                website’s visibility and traffic over time.{' '}
-              </p>
-            </div>
-            <div>
-              <h3>#4. Search Engines Are Not Going Anywhere Anytime Soon</h3>
-              <p>Search engines are not going anywhere.</p>
-              <p>
-                As long as people use the internet, every business will need SEO
-                if they want to reach customers.
-              </p>
-              <p>Why?</p>
-              <p>
-                Because 93% of online experiences begin with search engines, and{' '}
-                <a
-                  href="https://www.seroundtable.com/google-46-of-searches-have-local-intent-26529.html"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  46% of Google searches
-                </a>{' '}
-                are looking for local information.
-              </p>
-              <p>
-                When people search for your services, your business will not
-                appear in the search results without doing search engine
-                optimization.
-              </p>
-            </div>
-            <div>
-              <h3>#5. SEO Can Help You Save Tons of Money</h3>
-              <p>
-                SEO can also help you save money. This is because it is a
-                cost-effective marketing strategy. SEO can help you increase
-                traffic and improve your brand awareness without the need for
-                paid advertising.
-              </p>
-              <p>
-                This means that you can save money on paid advertising
-                campaigns, and instead focus on other marketing strategies. SEO
-                is a long-term strategy that should be incorporated into your
-                overall marketing plan. It is not a quick fix, but it can have a
-                significant impact on your website’s visibility and traffic over
-                time.{' '}
-              </p>
-            </div>
+            <h2 className="title">
+              5 Reasons Why You Need Search Engine Optimization
+            </h2>
+            <h3>#1. Google Works 24/7 365</h3>
+            <p>Google never sleeps.</p>
+            <p>
+              Google never stops working. It is constantly indexing new content,
+              scanning the internet for changes, and updating its algorithms.
+              This means that your website needs to be optimized for search
+              engines in order to rank higher in search results.
+            </p>
+            <p>
+              The algorithm that governs how sites are ranked is always
+              changing. In fact, there have been over 3,200 updates to the
+              Google algorithm since it was first created! This means that SEO
+              is an ongoing process, and you can’t afford to let your site fall
+              behind.
+            </p>
+            <p>
+              SEO is important because it can help your website rank higher in
+              search engine results pages (SERPs). Higher rankings can lead to
+              increased traffic and higher brand awareness.
+            </p>
+            <h3>#2. You Need to be Found</h3>
+            <p>
+              If you want people to find your website, you need to be visible in
+              search engine results pages. SEO can help you achieve this by
+              improving your website’s ranking for relevant keywords.
+            </p>
+            <p>
+              When potential customers search for products or services like
+              yours, they are more likely to find your website if it is ranked
+              highly in search results. This can lead to increased traffic and
+              higher brand awareness.
+            </p>
+            <p>
+              SEO is a long-term strategy that should be incorporated into your
+              overall marketing plan. It is not a quick fix, but it can have a
+              significant impact on your website’s visibility and traffic over
+              time.{' '}
+            </p>
+            <p>
+              Also,{' '}
+              <a
+                href="https://seoexpertbrad.com/local-seo-stats/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                92% of people
+              </a>{' '}
+              will pick businesses on the first page of local search results.
+            </p>
+
+            <h3>#3. SEO Can Help You Get More Web Traffic</h3>
+            <p>
+              One of the main benefits of SEO is that it can help you increase
+              traffic to your website. This is because higher rankings in search
+              engine results pages can lead to more clicks and higher web
+              traffic.
+            </p>
+            <p>
+              More web traffic can lead to increased sales or leads, and higher
+              brand awareness. SEO is a long-term strategy that should be
+              incorporated into your overall marketing plan. It is not a quick
+              fix, but it can have a significant impact on your website’s
+              visibility and traffic over time.{' '}
+            </p>
+            <h3>#4. Search Engines Are Not Going Anywhere Anytime Soon</h3>
+            <p>Search engines are not going anywhere.</p>
+            <p>
+              As long as people use the internet, every business will need SEO
+              if they want to reach customers.
+            </p>
+            <p>Why?</p>
+            <p>
+              Because 93% of online experiences begin with search engines, and{' '}
+              <a
+                href="https://www.seroundtable.com/google-46-of-searches-have-local-intent-26529.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                46% of Google searches
+              </a>{' '}
+              are looking for local information.
+            </p>
+            <p>
+              When people search for your services, your business will not
+              appear in the search results without doing search engine
+              optimization.
+            </p>
+            <h3>#5. SEO Can Help You Save Tons of Money</h3>
+            <p>
+              SEO can also help you save money. This is because it is a
+              cost-effective marketing strategy. SEO can help you increase
+              traffic and improve your brand awareness without the need for paid
+              advertising.
+            </p>
+            <p>
+              This means that you can save money on paid advertising campaigns,
+              and instead focus on other marketing strategies. SEO is a
+              long-term strategy that should be incorporated into your overall
+              marketing plan. It is not a quick fix, but it can have a
+              significant impact on your website’s visibility and traffic over
+              time.{' '}
+            </p>
+
             <hr></hr>
             <p>
               SEO is an important part of any marketing strategy. It can help
@@ -359,11 +353,11 @@ export default function Home({ data }) {
               and improve your brand awareness, you need to start incorporating
               SEO into your overall marketing plan.
             </p>
-            <div className="btn">
-              <a href="tel:+2402660588">
-                <Button>Call (240) 266-0588</Button>
-              </a>
-            </div>
+          </div>
+          <div className="btn">
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588</Button>
+            </a>
           </div>
         </section>
         <section className="our-services-section">
@@ -511,7 +505,7 @@ export default function Home({ data }) {
           <ResultsSection {...resultsObj4} />
           <ResultsSection {...resultsObj5} />
         </section>
-        <section>
+        {/* <section>
           <div className="medium-container">
             <h2>
               Why Let Bowie SEO Handle Your SEO Instead of Other Digital
@@ -614,7 +608,7 @@ export default function Home({ data }) {
               <Button>Book a call today</Button>
             </Link>
           </div>
-        </section>
+        </section> */}
         <section className="pain-section">
           <div className="services-container">
             <h2>Working With Us is a Breeze</h2>

@@ -804,8 +804,8 @@ const MarylandSEOCompany = () => {
               Why Choose Bowie SEO Instead of Other Maryland SEO Companies?
             </h2>
             <p className="sub-text">
-              Work with Bowie SEO and experience the difference between our
-              company and other SEO companies.
+              Work with Bowie SEO and see what search engine optimization can do
+              for your business. Contact us today for a free consultation.
             </p>
             <div className="white">
               <h3>#1. SEO Doesn't Stop Working if You Stop Working With Us.</h3>
@@ -851,8 +851,8 @@ const MarylandSEOCompany = () => {
               <p>Let's give an example.</p>
               <p>
                 Suppose we're doing SEO for your contracting company in
-                Annapolis, Maryland. In that case, we cannot work with any other
-                contractor company in Annapolis.
+                Passadena, Maryland. In that case, we can't with other
+                contractors company in Passadena.
               </p>
               <p>
                 Firstly, we'll be doing our customers an injustice by working
@@ -872,18 +872,17 @@ const MarylandSEOCompany = () => {
                 #4. We Become Your Partners, Not an SEO Company You Just Hired!
               </h3>
               <p>
-                When you work with us, we look at your business as if it was our
-                business. We want to see your business succeed! We don't just
-                want to get you to rank higher for a few keywords and then
-                disappear. We want to help you grow your business, and we will
-                be your SEO team.
+                When you work with us, we become your SEO marketing team inside
+                your business. Our goal is to help your business succeed! We
+                don't just get you to rank higher for a few keywords. We want to
+                help your business grow and make more money.
               </p>
               <p>
-                Plus, you get SEO experts working on your campaign, not interns.
+                With Bowie SEO, you get SEO experts working on your campaign.
               </p>
               <p>
-                You get a team of SEO experts working together to bring you the
-                best results possible.
+                You get a team of SEO consultants working together to bring you
+                the best results possible.
               </p>
             </div>
             <div className="white">

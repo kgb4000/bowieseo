@@ -534,12 +534,12 @@ const LocalSEO = () => {
           <div className="medium-container">
             <h2 className="title">Looking for a Local SEO Services Near Me?</h2>
             <p className="sub-text">
-              Check us out. Our{' '}
+              Check us out. Our company offers Local SEO services for businesses
+              throughout{' '}
               <Link href="/maryland-seo-company" passHref>
-                <a>company</a>
+                <a>Maryland</a>
               </Link>{' '}
-              offers Local SEO services for businesses throughout Maryland and
-              Washington, DC.
+              and Washington, DC.
             </p>
             <div className="cities small-container">
               <ul>
