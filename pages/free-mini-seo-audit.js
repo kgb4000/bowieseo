@@ -9,12 +9,12 @@ import { NextSeo } from 'next-seo'
 
 const FreeSEOAUDIT = () => {
   const SEO = {
-    title: 'Free Mini Website Audit | Bowie SEO',
+    title: 'Free Mini SEO Audit | Bowie SEO',
     description:
       'Find out what is stopping your website from ranking higher in the search engines, and why your competitors are beating you. Contact Bowie SEO today!',
     canonical: 'https://bowieseo.com/free-mini-audit',
     openGraph: {
-      title: 'Free Mini SEO Website Audit | Bowie SEO',
+      title: 'Free Mini SEO Audit | Bowie SEO',
       description:
         'Find out what is stopping your website from ranking higher in the search engines, and why your competitors are beating you. Contact Bowie SEO today!',
       type: 'website',
@@ -22,7 +22,7 @@ const FreeSEOAUDIT = () => {
   }
   return (
     <>
-      <NextSeo {...SEO} noindex={true} nofollow={true} />
+      <NextSeo {...SEO} />
       <Header>
         <Link href="/local-seo">
           <a>Bowie SEO</a>
@@ -32,7 +32,7 @@ const FreeSEOAUDIT = () => {
         <section className="dots-background content">
           <div className="container">
             <div className="offer-section">
-              {/* <h2>Get More Leads and Customers</h2> */}
+              <h1>Get Your Free Mini SEO Audit</h1>
               <OfferVideo />
               <p className="big-p">
                 Find Out Why You're Not Showing Up on Google, and Start Getting

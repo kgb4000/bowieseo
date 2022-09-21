@@ -25,18 +25,18 @@ const HeroSection = ({ heroBtnLink1, heroBtnLink2 }) => {
             Make Your Website a Magnet & Get More Traffic, Leads, and Customers
           </h1>
           <p>
-            Bowie SEO can get you more website traffic and leads and increase
-            your revenue.
+            Our team can take control of your website and bring you more leads
+            and customers, so you can focus on growing your business.
           </p>
           <HeroBtnWrapper>
             <HeroBtn1Link href={heroBtnLink1}>
               <HeroBtn1LinkA>
-                <HeaderBtn>Book a Call</HeaderBtn>
+                <HeaderBtn>Book a Call Today!</HeaderBtn>
               </HeroBtn1LinkA>
             </HeroBtn1Link>
             <HeroBtn2Link href={heroBtnLink2}>
               <HeroBtn2LinkA>
-                <HeaderBtn>Free Website Audit</HeaderBtn>
+                <HeaderBtn>Get a Free Website Audit</HeaderBtn>
               </HeroBtn2LinkA>
             </HeroBtn2Link>
           </HeroBtnWrapper>

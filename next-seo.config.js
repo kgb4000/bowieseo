@@ -4,20 +4,20 @@ export default {
     locales: ['en'],
     defaultLocale: 'en',
   },
-  title: `SEO Company in Bowie Helping Businesses Get more Customers | Bowie SEO`,
+  title: `Search Engine Optimization for Small Businesses`,
   type: 'website',
   locale: 'en_US',
   url: 'https://bowieseo.com',
   description:
-    "Bowie SEO is an SEO company in Bowie helping small businesses GROW using search engine optimization. Let's see how we can grow your business today.",
+    "We help small businesses increase leads, customers, and revenue with local search engine optimization. Let's help you grow your business! Book a call!",
   canonical: 'https://bowieseo.com',
   openGraph: {
     url: 'https://bowieseo.com',
-    title: `SEO Company in Bowie Helping Businesses Get More Customers | Bowie SEO`,
+    title: `Search Engine Optimization for Small Businesses`,
     type: 'website',
     locale: 'en_US',
     description:
-      "Bowie SEO is an SEO company in Bowie helping small businesses GROW using search engine optimization. Let's see how we can grow your business today.",
+      "We help small businesses increase leads, customers, and revenue with local search engine optimization. Let's help you grow your business! Book a call!",
     images: [
       {
         url: 'https://bowieseo.com/public/images/logo.jpg',
@@ -34,7 +34,7 @@ export default {
     site: '@bowieseo',
     cardType: 'summary_large_image',
     description:
-      "Bowie SEO is an SEO company in Bowie helping small businesses GROW using search engine optimization. Let's see how we can grow your business today.",
+      "We help small businesses increase leads, customers, and revenue with local search engine optimization. Let's help you grow your business! Book a call!",
     images: [
       {
         url: 'https://bowieseo.com/public/images/logo.jpg',

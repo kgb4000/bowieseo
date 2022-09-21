@@ -13,7 +13,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   /* color: #43464b; */
   color: #2c3e50;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-rendering: optimizespeed;
 }
 
@@ -26,7 +26,7 @@ a.white {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1440px;
   padding: 0 2rem;
   margin: 0 auto;
 }
@@ -45,9 +45,13 @@ a.white {
 
 .blog-container,
 .small-container {
-  max-width: 900px;
+  max-width: 700px;
   padding: 0 2rem;
   margin: 0 auto;
+
+  @media screen and (min-width: 1024px) {
+    padding: 0;
+  }
 }
 
 .long,
@@ -176,7 +180,7 @@ a.white {
 
 .about-container,
 .services-container {
-  max-width: 1385px;
+  max-width: 1440px;
   padding: 0 1.2rem;
   margin: 0 auto;
 
@@ -250,7 +254,7 @@ ol {
 }
 
 .title {
-  max-width: 1200px;
+  max-width: 1000px;
   margin-bottom: 1rem;
 }
 
@@ -260,6 +264,7 @@ h2 {
   letter-spacing: 1.2px;
   font-family: 'Poppins', sans-serif;
   line-height: 1.2em;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -294,12 +299,6 @@ h2 {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 1440px) {
-  h2 {
-    font-size: 70px;
-  }
-}
-
 .intro {
   text-align: center;
   font-size: 1.4rem;
@@ -330,19 +329,19 @@ p,
 li,
 label {
   font-size: 1.2rem;
-  line-height: 1.6;
-  margin-bottom: 1.4rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
   letter-spacing: 0.2px;
 }
 
-@media screen and (min-width: 768px) {
-  p,
-  li,
-  label {
-    font-size: 1.4rem;
-    line-height: 1.8;
-  }
-}
+// @media screen and (min-width: 768px) {
+//   p,
+//   li,
+//   label {
+//     font-size: 1.4rem;
+//     line-height: 1.8;
+//   }
+// }
 
 section {
   padding: 2rem 0;
@@ -350,7 +349,7 @@ section {
 
 @media screen and (min-width: 768px) {
   section {
-    margin: 4rem 0;
+    margin: 3rem 0;
   }
 }
 
@@ -366,7 +365,7 @@ main h1 {
 }
 
 .services {
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .count {
@@ -415,6 +414,12 @@ main h1 {
 .reasons-section {
   background-color: #2c3e50;
   color: #fff;
+  padding: 6rem 0;
+}
+
+.why-work-with-us-section {
+  background-color: #ecf0f1;
+  color: #2c3e50;
   padding: 6rem 0;
 }
 
@@ -818,4 +823,8 @@ textarea {
       max-width: 35rem;
     }
   }
+}
+
+.grid {
+  grid-template-columns: repeat(2, 1fr);
 }

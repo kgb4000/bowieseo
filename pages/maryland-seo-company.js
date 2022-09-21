@@ -5,6 +5,7 @@
 import React from 'react'
 import { Suspense } from 'react'
 import dynamic from 'next/dynamic'
+import styled from 'styled-components'
 import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import Button from '../components/Button'
@@ -31,16 +32,16 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 const MarylandSEOCompany = () => {
   const SEO = {
     title:
-      'Maryland SEO Company | We Help Business Increase Traffic and Revenue',
+      'Our Maryland SEO Company Can Help Boost Revenue, Traffic, and Growth',
     description:
-      "We're an SEO company in Mayland dedicated to helping businesses increase web traffic and revenue with search engine optimization. Call for a free consultation!",
+      "We're an SEO company in Maryland dedicated to helping businesses increase web traffic and revenue with search engine optimization. Contact us today!",
     type: 'website',
     canonical: 'https://bowieseo.com/maryland-seo-company',
     openGraph: {
       title:
-        'Maryland SEO Company | We Help Increase Business Traffic and Revenue',
+        'Our Maryland SEO Company Can Help Boost Revenue, Traffic, and Growth',
       description:
-        "We're an SEO company in Mayland dedicated to helping businesses increase web traffic and revenue with search engine optimization. Call for a free consultation!",
+        "We're an SEO company in Maryland dedicated to helping businesses increase web traffic and revenue with search engine optimization. Contact us today!",
       type: 'website',
       image: [{}],
     },
@@ -50,9 +51,8 @@ const MarylandSEOCompany = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <PageHero
-          heading="Maryland SEO Company [We Help Business Increase Traffic and Revenue]"
-          subText="We’re an SEO company responsible for pursuing opportunities for our
-            clients to succeed."
+          heading="Our Maryland SEO Company Can Help Boost Revenue, Traffic, and Growth"
+          subText="We’re an SEO company responsible for pursuing opportunities for our clients to grow and succeed online. Let us take care of your SEO while you focus on running your business."
           heroBtnLink={calendly}
           buttonText="Book a call"
           heroBtnLink1="/free-mini-seo-audit"
@@ -211,18 +211,18 @@ const MarylandSEOCompany = () => {
               When your website appears higher up on SERPs, it increases your
               chances of being seen and clicked by potential customers.
             </p>
-            <h3>#3. Outrank Your Competitors</h3>
+            <h3>#3. You Will Outrank Your Competitors</h3>
             <p>
               Maryland search engine optimization makes your website better for
-              search engines and your customers. When you do SEO, and your
-              competitors don't, your SEO efforts will pay off. You'll increase
-              your online presence, rank higher in the search rankings, get more
-              traffic, and do more online business. 
+              search engines and your customers. When you practice SEO, and your
+              competitors don't, your SEO efforts will pay off. You'll see an
+              increase in your rankings, traffic, and you will get more leads
+              and customers. 
             </p>
             <p>
-              In other words, by targeting the right keywords, you can ensure
-              that the people who see your website are the people who are most
-              likely to become your customers.
+              When you practice SEO and target the right keywords, the people
+              who see your website are the people who are most likely to become
+              your customers.
             </p>
             <p>
               Of course, search engine optimization is just one part of a
@@ -310,277 +310,39 @@ const MarylandSEOCompany = () => {
             </p>
           </div>
           <div className="btn">
-            <a href="tel:+2402660588">
-              <Button>Call (240) 266-0588</Button>
-            </a>
+            <Link href="/contact" passHref>
+              <Button>Contact us today!</Button>
+            </Link>
           </div>
         </section>
-        {/* <section>
-          <div className="medium-container">
-            <h2>How Does Maryland SEO Work, What is The Process?</h2>
-            <p>
-              SEO is a process that improves your website so that it appears in
-              the search results when people search for your products and
-              services.
-            </p>
-            <p>This process includes:</p>
-            <ol>
-              <li>An SEO Audit</li>
-              <li>A Technical SEO Analysis</li>
-              <li>A Competitor Analysis</li>
-              <li>Keyword Research</li>
-              <li>Local SEO</li>
-              <li>On-page SEO Checks</li>
-              <li>Off-page SEO Checks</li>
-            </ol>
-            <section>
-              <div className="local-section-work">
-                <div>
-                  <h3>#1. SEO Audit</h3>
-                  <img
-                    src="/images/seo-audit.svg"
-                    alt="Woman doing local SEO audit."
-                    loading="lazy"
-                  />
-                  <p>
-                    If you have a website and start an SEO strategy, you must
-                    perform an SEO audit.
-                  </p>
-                  <p>
-                    An SEO audit will uncover problems in your website that may
-                    be keeping you from ranking higher in the search engines and
-                    killing your online visibility.
-                  </p>
-                  <p>An SEO audit includes:</p>
-                  <ul>
-                    <li>A Technical SEO Analysis</li>
-                    <li>A Competitor Analysis</li>
-                    <li>A Google My Business Profile audit</li>
-                    <li>On-page SEO checks</li>
-                    <li>Off-page SEO checks</li>
-                    <li>A Content Audit</li>
-                    <li>A Citation audit</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="local-section-work">
-                <div>
-                  <h3>#2. Technical SEO Analysis</h3>
-                  <p>
-                    Google, and other search engines, need to crawl and index
-                    your site. They crawl your website using spiders to analyze
-                    each page on your website. After crawling your website, your
-                    web pages get indexed.
-                  </p>
-                  <p>
-                    If Google can't crawl your website, it cannot index your
-                    website. If it can't index your website, you will not rank
-                    in Google.
-                  </p>
-                  <p>
-                    As part of our technical analysis, we make sure that your
-                    website gets indexed on Google. We also make sure that pages
-                    that don't need to be indexed are not indexed.
-                  </p>
-                  <p>
-                    Other factors that are part of our technical analysis
-                    include:
-                  </p>
-                  <ul>
-                    <li>Website design</li>
-                    <li>Site architecture</li>
-                    <li>404 errors and broken links</li>
-                    <li>Site speed</li>
-                    <li>Mobile and responsive website</li>
-                    <li>Sitemaps</li>
-                    <li>SSL and Security</li>
-                    <li>Google tools - Google Analytics and Google Console</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="local-section-work">
-                <div>
-                  <h3>#3. Competitor Analysis</h3>
-                  <p>
-                    If you have a businees in Maryland, chances are someone else
-                    is selling the same products or services as you.
-                  </p>
-                  <p>
-                    So how do you get an advantage over your competition and
-                    rank higher in Google?
-                  </p>
-                  <p>We use a competitive analysis.</p>
-                  <p>
-                    A competitive anaylysis is a strategy that you use to look
-                    at your competitors' websites. You use a competitive
-                    analysis to look at your their website's strengths and
-                    weaknesses and compare them to your website's strengths and
-                    weaknesses.
-                  </p>
-                  <p>In our competitive analysis, we do:</p>
-                  <ul>
-                    <li>Keyword Research</li>
-                    <li>Content Research</li>
-                    <li>Technical SEO Reseach</li>
-                    <li>Link Research</li>
-                    <li>Local SEO</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="local-section-work">
-                <div>
-                  <h3>#4. Local SEO</h3>
-                  <p>
-                    Local SEO is the process of improving your website for
-                    search engines, your location, and your local audience.
-                    Although similar to SEO, local SEO focuses on improving your
-                    website to attract customers in your local area.
-                  </p>
-                  <p>
-                    For example, if you own an asphalt paving company in Bowie,
-                    you will want to target customers in Bowie. You will have to
-                    target local keywords like Bowie, or Maryland, or even
-                    Annapolis so that you come up in the Local Map Pack.
-                  </p>
-                </div>
-              </div>
-              <div className="local-section-work">
-                <div>
-                  <h3>#5. Google Business Profile</h3>
-                  <p>
-                    Your Google Business listing is one of your most powerful
-                    tools in connecting with customers online. Your profile
-                    includes plenty of ways to connect with customers and build
-                    trust. Take advantage of all that a Google Business profile
-                    has to offer to help promote your small business.
-                  </p>
-                  <p>
-                    If you don't have a Google My Business page, you are missing
-                    consumers searching for your products and services.
-                  </p>
-                  <p>
-                    If you don't have a Google Business profile,{' '}
-                    <Link href="/contact">
-                      <a>contact us</a>
-                    </Link>{' '}
-                    and we'll help set one up for your business.
-                  </p>
-                </div>
-              </div>
-              <div className="local-section-work">
-                <div>
-                  <h3>#6. Link Building</h3>
-                  <p>
-                    Local link building is one way to help build your website's
-                    authority. Getting backlinks from sites like the Maryland
-                    Chamber of Commerce and the Better Business Bureau can help
-                    your site rank higher than your competition.
-                  </p>
-                  <p>Other ways to get valuable backlinks in your area are:</p>
-                  <ul>
-                    <li>local newspapers and media outlets</li>
-                    <li>other local businesses</li>
-                    <li>local charities</li>
-                    <li>sponsoring events</li>
-                    <li>volunteering your services to worthy causes</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="local-section-work">
-                <div>
-                  <h3>#7. On-Page SEO</h3>
-                  <p>
-                    On-page SEO is one of the most important aspects of search
-                    engine optimization.
-                  </p>
-                  <p>
-                    It refers to all the factors on your website that can affect
-                    your ranking in the search engine results pages (SERPs).
-                    This includes things like your website's title and meta
-                    tags, as well as its content and structure.
-                  </p>
-                  <p>
-                    There are a number of things you can do to optimize your
-                    website for on-page SEO. Some of these things include:
-                  </p>
-                  <ul>
-                    <li>Improve user Experience</li>
-                    <li>Improve your website's structure</li>
-                    <li>Test and optimize title tags and meta descriptions</li>
-                    <li>Choose the right keywords</li>
-                    <li>Use keywords strategically</li>
-                    <li>Increase dwell time on your webpages</li>
-                    <li>Use relevant and high-quality content</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="local-section-work">
-                <div>
-                  <h3>#8. Off-Page SEO</h3>
-                  <img
-                    src="/images/create-content.svg"
-                    alt="Creating content for search engine optimization."
-                    loading="lazy"
-                  />
-                  <p>Off-page SEO another important part of SEO.</p>
-                  <p>
-                    It is the process of optimizing a website for higher search
-                    engine rankings by building links from other websites. Link
-                    building is a key part of off-page SEO, and involves
-                    creating links from high-quality websites to your own site.
-                    This helps to improve your site's link popularity, and can
-                    ultimately lead to better search engine rankings.
-                  </p>
-                  <p>
-                    Like on-page SEO, there are a number of things you can do to
-                    improve your website's off-page SEO, which include:
-                  </p>
-                  <ul>
-                    <li>Link building</li>
-                    <li>Guest posting or blogging</li>
-                    <li>Directory submission</li>
-                    <li>Social media optimization</li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-            <div className="btn">
-              <Link href="/free-mini-seo-audit">
-                <Button>Get a Free Mini SEO Audit</Button>
-              </Link>
-            </div>
-          </div>
-        </section> */}
         <section>
           <div className="services-container">
-            <h2 className="title">Popular Maryland SEO Services</h2>
+            <h2 className="title">Maryland SEO Services</h2>
             <p className="sub-text">
-              Our services will help your business grow and boost your SEO
-              rankings. We're a Maryland SEO experts specializing in search
-              engine optimization for small businesses in Maryland and nearby{' '}
-              <Link href="/dc-seo" passHref>
-                <a>Washington, DC</a>
-              </Link>
-              .
+              Our services help your business grow and boost your SEO rankings.
+              We are Maryland SEO experts specializing in search engine
+              optimization for small businesses.
             </p>
             <div className="services">
               <Container>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/local.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>Local SEO</h3>
-                    <p>
-                      Your local customers and clients are searching for your
-                      skills and services. Make sure they can find you in the
-                      search results and not your competition.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
+                <Link href="/local-seo" passHref>
+                  <Card>
+                    <div className="card-info">
+                      <img
+                        src="/images/local.svg"
+                        alt="Keyword ranking image"
+                        loading="lazy"
+                      />
+                      <h3>Local SEO</h3>
+                      <p>
+                        Your local customers and clients are searching for your
+                        skills and services. Make sure they can find you in the
+                        search results and not your competition.
+                      </p>
+                    </div>
+                    <p>Learn more</p>
+                  </Card>
+                </Link>
                 <Card>
                   <div className="card-info">
                     <img
@@ -611,7 +373,6 @@ const MarylandSEOCompany = () => {
                       with expert keyword research and analysis.
                     </p>
                   </div>
-                  <p>Learn more</p>
                 </Card>
                 <Card>
                   <div className="card-info">
@@ -626,7 +387,6 @@ const MarylandSEOCompany = () => {
                       using, and use it to find new opprtunitues.
                     </p>
                   </div>
-                  <p>Learn more</p>
                 </Card>
                 <Card>
                   <div className="card-info">
@@ -641,7 +401,6 @@ const MarylandSEOCompany = () => {
                       customers find you directly in the Google Map Pack.
                     </p>
                   </div>
-                  <p>Learn more</p>
                 </Card>
                 <Link href="/free-website-audit">
                   <Card>
@@ -712,8 +471,7 @@ const MarylandSEOCompany = () => {
                 />
                 <p>
                   Book a call and tell us about your business. Let us know what
-                  you want to achieve for your business, plus your long-term
-                  goals.
+                  you want to achieve for your business.
                 </p>
               </Contact>
               <Contact>
@@ -765,11 +523,6 @@ const MarylandSEOCompany = () => {
             <p>We're ready to put our experience to work for you.</p>
           </div>
         </section>
-        <div className="btn">
-          <a href="tel:+2402660588">
-            <Button>Call (240) 266-0588</Button>
-          </a>
-        </div>
         <section>
           <div className="medium-container">
             <h2>Customized SEO Solutions</h2>
@@ -794,8 +547,8 @@ const MarylandSEOCompany = () => {
           </div>
         </section>
         <div className="btn">
-          <a href={calendly} target="_blank" rel="noreferrer">
-            <Button>Book a call today!</Button>
+          <a href="tel:+2402660588">
+            <Button>Call (240) 266-0588</Button>
           </a>
         </div>
         <section className="why-choose">
@@ -803,107 +556,88 @@ const MarylandSEOCompany = () => {
             <h2>
               Why Choose Bowie SEO Instead of Other Maryland SEO Companies?
             </h2>
+
             <p className="sub-text">
               Work with Bowie SEO and see what search engine optimization can do
               for your business. Contact us today for a free consultation.
             </p>
-            <div className="white">
-              <h3>#1. SEO Doesn't Stop Working if You Stop Working With Us.</h3>
-              <p>
-                If you decide to stop working with us (why would you), your SEO
-                strategy will not stop working.
-              </p>
-              <p>
-                Once we get you to rank higher in the search engines, you will
-                stay there as long as you keep up with your strategy.
-              </p>
-              <p>
-                You don't have to keep paying us to maintain your rankings but
-                remember, your competitors are also doing SEO.
-              </p>
-            </div>
-            <div className="white">
-              <h3>#2. We Don't Have Long-term Contracts</h3>
-              <p>
-                Unlike most SEO companies, we don't have long-term contracts.
-              </p>
-              <p>We do monthly retainers.</p>
-              <p>
-                We understand that committing to an SEO strategy can be a big
-                step, but think about this for a second.
-              </p>
-              <p>
-                It can take three to six months or even six to twelve months for
-                you to see results from your SEO campaign.
-              </p>
-              <p>
-                If you decide to start a Maryland SEO campaign to help boost
-                your traffic, visibility, and leads, be prepared and think about
-                what your business will look like in 5 years.
-              </p>
-            </div>
-            <div className="white">
-              <h3>#3. We Work With One Business per Industry, in Your Area</h3>
-              <p>
-                We only work with one business per industry in your location.
-              </p>
-              <p>What does that mean?</p>
-              <p>Let's give an example.</p>
-              <p>
-                Suppose we're doing SEO for your contracting company in
-                Passadena, Maryland. In that case, we can't with other
-                contractors company in Passadena.
-              </p>
-              <p>
-                Firstly, we'll be doing our customers an injustice by working
-                for the competition.
-              </p>
-              <p>Second, we'll be competing against ourselves.</p>
-              <p>That would be crazy.</p>
-              <p>
-                Some digital marketing companies don't care where you or your
-                competition are. They'll have you and your competition as
-                clients.
-              </p>
-              <p>Think about it.</p>
-            </div>
-            <div className="white">
-              <h3>
-                #4. We Become Your Partners, Not an SEO Company You Just Hired!
-              </h3>
-              <p>
-                When you work with us, we become your SEO marketing team inside
-                your business. Our goal is to help your business succeed! We
-                don't just get you to rank higher for a few keywords. We want to
-                help your business grow and make more money.
-              </p>
-              <p>
-                With Bowie SEO, you get SEO experts working on your campaign.
-              </p>
-              <p>
-                You get a team of SEO consultants working together to bring you
-                the best results possible.
-              </p>
-            </div>
-            <div className="white">
-              <h3>#5. All We Do is Search Engine Optimization</h3>
-              <p>We are SEO experts.</p>
-              <p>
-                Unlike other marketing companies, we don't offer a plethora of
-                digital marketing solutions.
-              </p>
-              <p>
-                We don't offer web design, web development, social media
-                management, Google ads, custom software development, or other
-                online advertising services.
-              </p>
-              <p>We only offer SEO services.</p>
-              <p>
-                We're a boutique SEO company that focuses on bringing you
-                quality traffic and higher rankings in all the major search
-                engines.
-              </p>
-            </div>
+          </div>
+          <div className="container">
+            <ReasonSec>
+              <div>
+                <h3>#1. We Don't Have Long-term Contracts</h3>
+                <p>
+                  Unlike most SEO companies, we don't have long-term contracts
+                  and only have monthly retainers.
+                </p>
+                <p>
+                  We understand that committing to do SEO is a big step for some
+                  companies, but think about this for a second.
+                </p>
+                <p>
+                  If you decide to start a Maryland SEO campaign and get a boost
+                  web traffic,leads, and sales, what will your business will
+                  look like in 5 years.
+                </p>
+                <h3>
+                  #2. We Work With One Business per Industry, in Your Area
+                </h3>
+                <p>
+                  We only work with one business per industry in your location.
+                </p>
+                <p>
+                  Suppose we're doing SEO for your contracting company in
+                  Passadena, Maryland. In that case, we can't with other
+                  contractors company in Passadena.
+                </p>
+                <p>
+                  Firstly, we'll be doing our customers an injustice by working
+                  for the competition.
+                </p>
+                <p>And second, we'll be competing against ourselves.</p>
+                <p>
+                  Some digital marketing companies don't care where you or your
+                  competition are. They'll have you and your competition as
+                  clients.
+                </p>
+              </div>
+              <div>
+                <h3>
+                  #3. We Become Your Partners, Not an SEO Company You Hired!
+                </h3>
+                <p>
+                  When you work with us, we become your SEO marketing team
+                  inside your business. Our goal is to help your business
+                  succeed! We don't just get you to rank higher for a few
+                  keywords. We want to help your business grow and make more
+                  money.
+                </p>
+                <p>
+                  With Bowie SEO, you get SEO experts working on your campaign.
+                </p>
+                <p>
+                  You get a team of SEO consultants working to help grow your
+                  business.
+                </p>
+                <h3>#4. All We Do is Search Engine Optimization</h3>
+                <p>We are SEO experts.</p>
+                <p>
+                  Unlike other marketing companies, we don't offer a plethora of
+                  digital marketing solutions.
+                </p>
+                <p>
+                  We don't offer web design, web development, social media
+                  management, Google ads, custom software development, or other
+                  online advertising services.
+                </p>
+                <p>We only offer SEO services.</p>
+                <p>
+                  We're a boutique SEO company that focuses on bringing you
+                  quality traffic and higher rankings in all the major search
+                  engines.
+                </p>
+              </div>
+            </ReasonSec>
           </div>
           <div className="btn">
             <a href="tel:+2402660588">
@@ -949,178 +683,139 @@ const MarylandSEOCompany = () => {
           />
           <div className="medium-container">
             <h2>Frequently Asked Questions</h2>
-            <div className="faq-question-1">
-              <div className="large-number">#1.</div>
-              <div className="question">
-                <h3>Can I Do Local SEO Myself?</h3>
-                <p>
-                  The short answer is yes, you can definitely do local SEO
-                  yourself. However, it will take some time and effort on your
-                  part. The most important thing is to make sure that you are
-                  consistent with your efforts.
-                </p>
-                <p>
-                  That said, there are some things that you should keep in mind
-                  if you decide to tackle local SEO on your own. First and
-                  foremost, you need to have a solid understanding of how search
-                  engines work. This includes understanding how they index and
-                  rank websites. If you don't have this knowledge, then it will
-                  be very difficult for you to optimize your site effectively.
-                </p>
-                <p>
-                  Another important factor is making sure that your website is
-                  optimized for the right keywords. Keyword research is
-                  absolutely essential if you want to succeed with local SEO.
-                  You need to find the right keywords that people are actually
-                  searching for when they are looking for businesses like yours.
-                  Once you have a solid list of keywords, you can then start
-                  working on optimizing your site for those keywords.
-                </p>
-              </div>
+            <div className="question">
+              <h3>#1. Can I Do Local SEO Myself?</h3>
+              <p>
+                The short answer is yes, you can definitely do local SEO
+                yourself. However, it will take some time and effort on your
+                part. The most important thing is to make sure that you are
+                consistent with your efforts.
+              </p>
+              <p>
+                That said, there are some things that you should keep in mind if
+                you decide to tackle local SEO on your own. First and foremost,
+                you need to have a solid understanding of how search engines
+                work. This includes understanding how they index and rank
+                websites. If you don't have this knowledge, then it will be very
+                difficult for you to optimize your site effectively.
+              </p>
+              <p>
+                Another important factor is making sure that your website is
+                optimized for the right keywords. Keyword research is absolutely
+                essential if you want to succeed with local SEO. You need to
+                find the right keywords that people are actually searching for
+                when they are looking for businesses like yours. Once you have a
+                solid list of keywords, you can then start working on optimizing
+                your site for those keywords.
+              </p>
             </div>
-            <div className="btn">
-              <a href="tel:+2402660588">
-                <Button>Call (240) 266-0588</Button>
-              </a>
+            <div className="question">
+              <h3>#2. How Much Does Maryland SEO Cost?</h3>
+              <p>
+                For small businesses in Maryland and the rest of the DMV, local
+                SEO services can cost anywhere from{' '}
+                <b>$1000 to $5,000 per month</b>. For medium-sized businesses,
+                the cost can range from <b>$1,500 to $15,000 per month</b>.
+              </p>
+              <p>Of course, these are just rough estimates.</p>
+              <p>
+                The actual cost of SEO will depend on a number of factors,
+                including the size of your business, your geographical location,
+                the competition in your industry, and your SEO goals.
+              </p>
+              <p>
+                If you're not sure how much you should be paying for local SEO
+                services, it's best to consult with an experienced SEO
+                consultant like Bowie SEO. We'll be able to give you a more
+                accurate estimate based on your specific needs and goals.
+              </p>
             </div>
-            <div className="faq-question-2">
-              <div className="question">
-                <h3>How Much Does Maryland SEO Cost?</h3>
-                <p>
-                  For small businesses in Maryland and the rest of the DMV,
-                  local SEO services can cost anywhere from{' '}
-                  <b>$1000 to $5,000 per month</b>. For medium-sized businesses,
-                  the cost can range from <b>$1,500 to $15,000 per month</b>.
-                </p>
-                <p>Of course, these are just rough estimates.</p>
-                <p>
-                  The actual cost of SEO will depend on a number of factors,
-                  including the size of your business, your geographical
-                  location, the competition in your industry, and your SEO
-                  goals.
-                </p>
-                <p>
-                  If you're not sure how much you should be paying for local SEO
-                  services, it's best to consult with an experienced SEO
-                  consultant like Bowie SEO. We'll be able to give you a more
-                  accurate estimate based on your specific needs and goals.
-                </p>
-              </div>
-              <div className="large-number">#2.</div>
+            <div className="question">
+              <h3>#3. What is the Difference between SEO and Local SEO</h3>
+              <p>
+                In short, SEO (search engine optimization) is the process of
+                improving the visibility and ranking of your website in search
+                engine results pages (SERPs). Local SEO, on the other hand, is
+                focused on optimizing your website for local search results.{' '}
+              </p>
+              <p>
+                While both SEO and local SEO are important for driving traffic
+                to your website, there are some key differences between the two.
+              </p>
+              <p>
+                For starters, local SEO is much more targeted than regular SEO.
+                When someone does a local search (for example, "restaurants in
+                Annapolis"), they are looking for businesses that are located
+                near them. On the other hand, when someone does a general search
+                (for example, "best restaurants"), they are not necessarily
+                looking for businesses near them.{' '}
+              </p>
+              <p>
+                Another key difference between SEO and local SEO is that local
+                SEO is more focused on generating leads and conversions, while
+                regular SEO is more focused on generating traffic. This is
+                because when someone searches for a business locally, they are
+                usually closer to making a purchase than someone who is just
+                searching for information.
+              </p>
             </div>
-            <div className="btn faq">
-              <a href={calendly} target="_blank">
-                <Button>Book a Call Today!</Button>
-              </a>
+            <div className="question">
+              <h3>#4. How Long Does SEO Take Before You See Results?</h3>
+              <p>
+                Just like any other marketing endeavor, the results of your SEO
+                efforts will take some time to show. The amount of time will
+                depend on a number of factors, including the competitiveness of
+                your industry, the size of your market, and how well you have
+                executed your SEO strategy.
+              </p>
+              <p>
+                There are some general benchmarks, but you can expect to see
+                results from your SEO within three to six months or six to
+                twelve months. Again, the time you see results depends on the
+                factors mentioned previously. If you do not see any results
+                after six months, it is likely that your campaign is not being
+                executed effectively and you may need to revisit your strategy.
+              </p>
+              <p>
+                The most important thing to remember is that SEO is a long-term
+                investment. The results may not come overnight, but with
+                consistent effort, you will eventually see a return on your
+                investment. So keep at it and don't get discouraged!
+              </p>
             </div>
-            <div className="faq-question-3">
-              <div className="large-number">#3.</div>
-              <div className="question">
-                <h3>What is the Difference between SEO and Local SEO</h3>
-                <p>
-                  In short, SEO (search engine optimization) is the process of
-                  improving the visibility and ranking of your website in search
-                  engine results pages (SERPs). Local SEO, on the other hand, is
-                  focused on optimizing your website for local search results.{' '}
-                </p>
-                <p>
-                  While both SEO and local SEO are important for driving traffic
-                  to your website, there are some key differences between the
-                  two.
-                </p>
-                <p>
-                  For starters, local SEO is much more targeted than regular
-                  SEO. When someone does a local search (for example,
-                  "restaurants in Annapolis"), they are looking for businesses
-                  that are located near them. On the other hand, when someone
-                  does a general search (for example, "best restaurants"), they
-                  are not necessarily looking for businesses near them.{' '}
-                </p>
-                <p>
-                  Another key difference between SEO and local SEO is that local
-                  SEO is more focused on generating leads and conversions, while
-                  regular SEO is more focused on generating traffic. This is
-                  because when someone searches for a business locally, they are
-                  usually closer to making a purchase than someone who is just
-                  searching for information.
-                </p>
-              </div>
-            </div>
-            <div className="btn faq">
-              <a href={calendly} target="_blank">
-                <Button>Book a Call Today!</Button>
-              </a>
-            </div>
-            <div className="faq-question-4">
-              <div className="question">
-                <h3>How Long Does SEO Take Before You See Results?</h3>
-                <p>
-                  Just like any other marketing endeavor, the results of your
-                  SEO efforts will take some time to show. The amount of time
-                  will depend on a number of factors, including the
-                  competitiveness of your industry, the size of your market, and
-                  how well you have executed your SEO strategy.
-                </p>
-                <p>
-                  There are some general benchmarks, but you can expect to see
-                  results from your SEO within three to six months or six to
-                  twelve months. Again, the time you see results depends on the
-                  factors mentioned previously. If you do not see any results
-                  after six months, it is likely that your campaign is not being
-                  executed effectively and you may need to revisit your
-                  strategy.
-                </p>
-                <p>
-                  The most important thing to remember is that SEO is a
-                  long-term investment. The results may not come overnight, but
-                  with consistent effort, you will eventually see a return on
-                  your investment. So keep at it and don't get discouraged!
-                </p>
-              </div>
-              <div className="large-number">#4.</div>
-            </div>
-            <div className="btn faq">
-              <a href={calendly} target="_blank">
-                <Button>Book a Call Today!</Button>
-              </a>
-            </div>
-            <div className="faq-question-5">
-              <div className="large-number">#5.</div>
-              <div className="question">
-                <h3>Can You Guarantee Me #1 Rankings?</h3>
-                <p>
-                  No SEO company can guarantee you first-page rankings on
-                  Google.
-                </p>
-                <p>
-                  However, what a reputable SEO company can do is help improve
-                  your website's visibility and organic search results. By
-                  optimizing your website for key search terms and phrases, and
-                  by building high-quality backlinks, a good SEO company can
-                  help increase your chances of ranking higher in search engine
-                  results pages (SERPs).
-                </p>
-                <p>
-                  While there is no guarantee of first-page rankings, a
-                  commitment to SEO can help improve your website's chances of
-                  being found by potential customers.
-                </p>
-                <p>
-                  If you're looking for guaranteed first-page rankings on
-                  Google, you're likely to be disappointed. However, if you're
-                  committed to improving your website's visibility and organic
-                  search results, a reputable Maryland SEO company can help you
-                  achieve your goals. Contact us today to learn more about our
-                  SEO services and how we can help improve your website's
-                  ranking in search engine results pages.
-                </p>
-              </div>
+            <div className="question">
+              <h3>#5. Can You Guarantee Me #1 Rankings?</h3>
+              <p>
+                No SEO company can guarantee you first-page rankings on Google.
+              </p>
+              <p>
+                However, what a reputable SEO company can do is help improve
+                your website's visibility and organic search results. By
+                optimizing your website for key search terms and phrases, and by
+                building high-quality backlinks, a good SEO company can help
+                increase your chances of ranking higher in search engine results
+                pages (SERPs).
+              </p>
+              <p>
+                While there is no guarantee of first-page rankings, a commitment
+                to SEO can help improve your website's chances of being found by
+                potential customers.
+              </p>
+              <p>
+                If you're looking for guaranteed first-page rankings on Google,
+                you're likely to be disappointed. However, if you're committed
+                to improving your website's visibility and organic search
+                results, a reputable Maryland SEO company can help you achieve
+                your goals. Contact us today to learn more about our SEO
+                services and how we can help improve your website's ranking in
+                search engine results pages.
+              </p>
             </div>
           </div>
           <div className="btn">
-            <a href="tel:+2402660588">
-              <Button>Call (240) 266-0588</Button>
-            </a>
+            <Link href="/contact" passHref>
+              <Button>Contact us today!</Button>
+            </Link>
           </div>
         </section>
       </MainLayout>
@@ -1129,3 +824,11 @@ const MarylandSEOCompany = () => {
 }
 
 export default MarylandSEOCompany
+
+const ReasonSec = styled.div`
+  @media screen and (min-width: 1440px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+`

@@ -67,7 +67,7 @@ export const Card = styled.a`
 
   @media screen and (min-width: 768px) {
     width: auto;
-    height: 750px;
+    height: 800px;
     padding: 2rem;
 
     .card-info img {
@@ -76,18 +76,16 @@ export const Card = styled.a`
   }
 
   @media screen and (min-width: 1024px) {
-    width: auto;
-    height: 750px;
-    padding: 3.5rem;
+    padding: 3rem;
 
     .card-info img {
-      width: 11rem;
+      width: 9rem;
     }
   }
 `
 
 export const Wrapper = styled.div`
-  max-width: 1385px;
+  max-width: 1440px;
   margin: 3rem auto;
   display: flex;
   flex-direction: column;

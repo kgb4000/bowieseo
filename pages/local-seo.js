@@ -25,15 +25,15 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const LocalSEO = () => {
   const SEO = {
-    title: 'Local SEO for Small Business in Maryland, DC, and Virginia',
+    title: 'Local SEO Services for Small Business in Maryland and DC',
     description:
-      'We provide Local SEO for small businesses in Maryland, DC, and Virginia. Get more customers and web traffic, and increase revenue. Contact us today!',
+      'We provide local SEO services for small businesses in Maryland and DC. Get more customers and web traffic, and increase revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/local-seo',
     openGraph: {
-      title: 'Local SEO for Small Business in Maryland, DC, and Virginia',
+      title: 'Local SEO Services for Small Business in Maryland and DC',
       description:
-        'We provide Local SEO for small businesses in Maryland, DC, and Virginia. Get more customers and web traffic, and increase revenue. Contact us today!',
+        'We provide local SEO services for small businesses in Maryland and DC. Get more customers and web traffic, and increase revenue. Contact us today!',
       type: 'website',
       image: [{}],
     },
@@ -43,18 +43,18 @@ const LocalSEO = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <PageHero
-          heading="Local SEO"
+          heading="Local SEO Services"
           subText="Get Local SEO services and get more customers to call your business instead of calling someone else."
           heroBtnLink="tel:+2402660588"
           buttonText="Call (240) 266-0588"
           heroBtnLink1="/free-mini-seo-audit"
-          buttonText1="Free Mini SEO Audit"
+          buttonText1="Get a Free Mini SEO Audit"
         />
         {/* We use our expertise in search engine optimization to turn insights into
         strategies that generate results */}
         <section>
           <h2 className="title">
-            Get Your Business in Front of More Local Customers
+            Get Your Business in Front of More Local Customers with Local SEO
           </h2>
           <div className="medium-container grid">
             <img
@@ -145,7 +145,7 @@ const LocalSEO = () => {
         <section className="dots-background">
           <div className="medium-container">
             <div className="offer-section">
-              <h2>Other Local Businesses Beating You in the Search Results?</h2>
+              <h2>Other Businesses Beating You in the Search Results?</h2>
               <p className="big-p">
                 Fix the Issues Stopping You From Beating Your Competition and
                 Start Ranking Higher Today!
@@ -171,9 +171,7 @@ const LocalSEO = () => {
         </section>
         <section className="reasons-section">
           <div className="medium-container">
-            <h2 className="title">
-              5 Benefits of Doing Local SEO for Local Businesses
-            </h2>
+            <h2 className="title">5 Benefits of Doing Local SEO</h2>
             <h3>#1. Local SEO Can Help You Rank Higher in Search Engines</h3>
             <p>
               If you want your website to rank higher in search engines like
@@ -573,7 +571,11 @@ const LocalSEO = () => {
                   </Link>
                 </li>
                 <li>Rockville, MD</li>
-                <li>Silver Spring, MD</li>
+                <li>
+                  <Link href="/seo-services-salisbury-md" passHref>
+                    <a>Salisbury, MD</a>
+                  </Link>
+                </li>
                 <li>Takoma Park, MD</li>
                 <li>Waldorf, MD</li>
                 <li>

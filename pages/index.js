@@ -37,9 +37,7 @@ export default function Home({ data }) {
         />
         <section className="pain-section">
           <div className="medium-container">
-            <h2>
-              We Get it... Digital Marketing is Tough For Small Business Owners!
-            </h2>
+            <h2>Digital Marketing is Tough For Small Business Owners!</h2>
             <div className="side-by-side">
               <ul className="count">
                 <li>
@@ -234,7 +232,7 @@ export default function Home({ data }) {
         <section className="why-use-seo-section">
           <div className="medium-container">
             <h2 className="title">
-              5 Reasons Why You Need Search Engine Optimization
+              5 Reasons Small Businesses Need Search Engine Optimization in 2022
             </h2>
             <h3>#1. Google Works 24/7 365</h3>
             <p>Google never sleeps.</p>
@@ -362,39 +360,21 @@ export default function Home({ data }) {
         </section>
         <section className="our-services-section">
           <div className="services-container">
-            <h2>Our Most Popular Services</h2>
+            <h2 className="title">Our SEO Services</h2>
             <p className="sub-text">
-              Our SEO services help small businesses get more traffic, leads,
-              and customers and ultimately increase business revenue. We provide
-              SEO services to businesses in{' '}
+              We provide SEO to businesses in{' '}
               <Link href="/maryland-seo-company" passHref>
                 <a>Maryland</a>
               </Link>
-              ,{' '}
+              , and{' '}
               <Link href="/dc-seo" passHref>
                 <a>DC</a>
-              </Link>
-              , and Virginia.
+              </Link>{' '}
+              .
             </p>
             <div className="services">
               <Container>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/search-engines.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>SEO</h3>
-                    <p>
-                      Get more website traffic and more leads with our powerful
-                      search engine optimization services. Let Bowie SEO put
-                      your business on the path to SEO success.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-                <Link href="/local-seo">
+                <Link href="/local-seo" passHref>
                   <Card>
                     <div className="card-info">
                       <img
@@ -404,16 +384,33 @@ export default function Home({ data }) {
                       />
                       <h3>Local SEO</h3>
                       <p>
-                        Your customers in Bowie, Annapolis and Baltimore,
-                        Maryland are looking for your skills and services on
-                        Google. Make sure they find your company and not someone
-                        else.
+                        Your local customers are looking for your skills and
+                        services on Google. Make sure they find your company and
+                        not someone else.
                       </p>
                     </div>
                     <p>Learn more</p>
                   </Card>
                 </Link>
-                <Link href="/seo-audit">
+                <Link href="/technical-seo" passHref>
+                  <Card>
+                    <div className="card-info">
+                      <img
+                        src="/images/thinking.svg"
+                        alt="Woman thiniking about getting a free mini SEO audit."
+                        loading="lazy"
+                      />
+                      <h3>Technical SEO</h3>
+                      <p>
+                        Fix the technical issues that are stopping your website
+                        from ranking higher and performing in the search
+                        engines.
+                      </p>
+                    </div>
+                    <p>Learn more</p>
+                  </Card>
+                </Link>
+                <Link href="/seo-audit" passHref>
                   <Card>
                     <div className="card-info">
                       <img
@@ -426,54 +423,6 @@ export default function Home({ data }) {
                         Do an SEO Audit and see why you're not ranking on the
                         first page of Google and what you must fix to help you
                         get on the first page.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </Link>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/analysis.svg"
-                      alt="Man analyzing data."
-                      loading="lazy"
-                    />
-                    <h3>Competitive Analysis</h3>
-                    <p>
-                      See what keywords and backlinks your competitors are
-                      targeting and use this data to beat them in the search
-                      engines.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/competitive-analysis.svg"
-                      alt="Man doing competitive analysis."
-                      loading="lazy"
-                    />
-                    <h3>GMB Optimization</h3>
-                    <p>
-                      Create and optimize your Google My Business page and let
-                      potential customers find you in the Map Pack.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-                <Link href="/free-mini-seo-audit" passHref>
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/thinking.svg"
-                        alt="Woman thiniking and in thought about why her website is not ranking."
-                        loading="lazy"
-                      />
-                      <h3>Free Mini SEO Audit</h3>
-                      <p>
-                        Get a Free Website audit, see what stopping your website
-                        from performing in Google, and start fixing it.
                       </p>
                     </div>
                     <p>Learn more</p>
@@ -505,117 +454,13 @@ export default function Home({ data }) {
           <ResultsSection {...resultsObj4} />
           <ResultsSection {...resultsObj5} />
         </section>
-        {/* <section>
-          <div className="medium-container">
-            <h2>
-              Why Let Bowie SEO Handle Your SEO Instead of Other Digital
-              Marketing Companies?
-            </h2>
-            <p>
-              With other companies offering so many digital marketing solutions,
-              it's hard to choose the right company to do your SEO.
-            </p>
-            <h3>#1. We Only Specialize in SEO</h3>
-            <p>
-              We only specialize in SEO services. We don't do web development,
-              search marketing, social media management, or any other types of
-              digital marketing.
-            </p>
-            <p>
-              We don't do web designing, Google ads, or social media marketing.
-            </p>
-            <p>
-              Our focus is to help your business get more traffic leads and make
-              more money with search engine optimization.
-            </p>
-            <p>
-              If we didn't focus on SEO alone, we wouldn't consider ourselves to
-              be experts.
-            </p>
-            <h3>#2. We Become Partners, Not Just a Contractor</h3>
-            <img
-              src="images/partner.svg"
-              className="why-us-img"
-              alt="Grow with SEO"
-              loading="lazy"
-            />
-            <p>When you hire us, we work together.</p>
-            <p>
-              We become part of your company and our focus is to generate
-              growth.
-            </p>
-            <p>
-              We work together to make sure your business attracts more
-              customers, generates more leads, ranks higher in the search
-              engines, and makes more money.
-            </p>
-            <p>When you succeed, we succeed.</p>
-            <h3>#3. Full Transparency</h3>
-            <img
-              src="images/transparency.svg"
-              className="why-us-img"
-              alt="Grow with SEO"
-              loading="lazy"
-            />
-            <p>You don't have to ask us what we're doing.</p>
-            <p>
-              You don't have to ask us what we're doing. We're happy to show you
-              and tell you everything.
-            </p>
-            <p>
-              We'll never keep you in the dark and you'll never have wait a
-              month to wonder what we're doing or what's going on with your
-              campaign.
-            </p>
-            <h3>#4. You Can Grow Without Us</h3>
-            <img
-              src="images/grow.svg"
-              className="why-us-img"
-              alt="Grow with SEO"
-              loading="lazy"
-            />
-            <p>Yes, it is true.</p>
-            <p>You can continue to grow your business without us.</p>
-            <p>
-              Our goal is to build a foundation for your website that will
-              continue to thrive without us.
-            </p>
-            <p>You will still have success if you decide to leave us.</p>
-            <h3>#5 . We Focus on Your Company's Growth, Not Our's</h3>
-            <img
-              src="images/results.svg"
-              className="why-us-img"
-              alt="Grow with SEO"
-              loading="lazy"
-            />
-            <p>Let us be clear.</p>
-            <p>
-              When we work together, our company focus is to get you the best
-              return on your investment.
-            </p>
-            <p>
-              That means that you must experience an increase in leads,
-              customers, and an increase in revenue.
-            </p>
-            <p>
-              Once you experience positive growth in your business, it means we
-              are doing what you hired us to do.
-            </p>
-            <p>And that comes first.</p>
-          </div>
-          <div className="btn">
-            <Link href={calendly} passHref>
-              <Button>Book a call today</Button>
-            </Link>
-          </div>
-        </section> */}
         <section className="pain-section">
           <div className="services-container">
             <h2>Working With Us is a Breeze</h2>
             <p className="sub-text">
-              It's easy to work with us. If you need more traffic, online
-              visibility, or you want to make more money with digital marketing,
-              contact us.
+              It's easy to work with us. If you want to use SEO to increase your
+              website traffic, online visibility, leads and customers, contact
+              us.
             </p>
             <Wrapper>
               <Contact>
@@ -693,201 +538,150 @@ export default function Home({ data }) {
                 </div>
               </div>
             </div>
-            <div className="btn">
-              <Link href="/contact" passHref>
-                <Button>Read more reviews on Google!</Button>
-              </Link>
-            </div>
           </div>
         </section>
-        {/* <section className="pain-section">
-          <div className="container">
-            <h2>Recent Articles</h2>
-          </div>
-          <div>
-            <Suspense fallback={`loading`}>
-              <Blog data={data} />
-            </Suspense>
-          </div>
-        </section> */}
         <section className="faq-section">
           <div className="medium-container">
             <h2>Frequently Asked Questions</h2>
-            <div className="faq-questions">
-              <section>
-                <h3>#1. What is SEO?</h3>
-                <p>
-                  Search Engine Optimization (SEO) is the practice of improving
-                  the ranking of a website on search engines. The higher the
-                  ranking, the more likely people are to find the site.
-                </p>
-                <p>
-                  There are a number of factors that contribute to a website's
-                  ranking, including the quality and quantity of the content,
-                  the structure of the site, and the popularity of the site. SEO
-                  is about making sure that a website is designed in a way that
-                  makes it easy for search engines to find and index the site's
-                  content.
-                </p>
-                <p>
-                  SEO is a complex and ever-changing field, and there are no
-                  easy shortcuts to achieving high rankings. However, there are
-                  a number of things that can be done to improve a website's
-                  SEO, and by extension, its ranking.
-                </p>
-                <p>
-                  One of the most important things that can be done to improve a
-                  website's SEO is to create high-quality, keyword-rich content.
-                  This content should be well-written and informative, and it
-                  should include the keywords that people are likely to use when
-                  searching for information on the topic.
-                </p>
-                <p>
-                  Another important factor in SEO is link popularity. Links from
-                  other websites to a website help to improve its ranking, as
-                  they show that the site is popular and relevant. In order to
-                  get high-quality links, it is important to create quality
-                  content that other people will want to link to.
-                </p>
-              </section>
-              <div className="btn">
-                <a href="tel:+2402660588">
-                  <Button>Call (240) 266-0588</Button>
-                </a>
-              </div>
-              <section>
-                <h3>#2. How Can SEO Help My Business?</h3>
-                <p>
-                  Seo can help your business in a number of ways, including:
-                </p>
-                <ul>
-                  <li>Increasing visibility in search engines</li>
-                  <li>Driving traffic to the website</li>
-                  <li>Generating leads and sales</li>
-                  <li>Improving brand awareness and reputation</li>
-                  <li>Enhancing customer satisfaction</li>
-                </ul>
-                <p>
-                  In short, SEO can be a powerful tool to help businesses grow
-                  and succeed online. If you're not using SEO, you're missing
-                  out on an opportunity to reach more customers and grow your
-                  business.
-                </p>
-              </section>
-              <div className="btn">
-                <Link href="/free-mini-seo-audit" passHref>
-                  <Button>Free Mini SEO Audit!</Button>
-                </Link>
-              </div>
-              <section>
-                <h3>#3. What is The Cost Of SEO?</h3>
-                <p>
-                  There is no one-size-fits-all answer to this question, as the
-                  cost of SEO can vary greatly depending on the size and scope
-                  of your project.
-                </p>
-                <p>
-                  However, as a general guide, you can expect to pay anywhere
-                  from <b>$1000 to $5,000 per month</b> for professional SEO
-                  services. Of course, if you're just starting out, you may be
-                  able to get by with a lower budget.
-                </p>
-                <p>
-                  And if your project is particularly large or complex, you may
-                  need to invest more money to get the results you're looking
-                  for. But in general, this is a good range to expect for most
-                  SEO projects.
-                </p>
-                <p>
-                  The cost of SEO can also vary depending on the keywords you
-                  want to target and the competition for those keywords. The
-                  more competitive the keywords, the more expensive it will be
-                  to rank for them. However, if you choose less competitive
-                  keywords, you may be able to get by with a smaller budget.
-                  Contact us today to learn more about our SEO services and
-                  pricing.
-                </p>
-              </section>
-              <div className="btn">
-                <a href="tel:+2402660588">
-                  <Button>Call (240) 266-0588</Button>
-                </a>
-              </div>
-              <section>
-                <h3>#4. How Long Does SEO Take to Work?</h3>
-                <p>
-                  It's tough to give a definitive answer to this question
-                  because there are so many variables at play, including the
-                  specific industry, the competition level, the age of the
-                  website, and the quality of the content.
-                </p>
-                <p>
-                  Generally speaking, though, it can take anywhere from 3-6
-                  months or 6-12 months for SEO to start having an impact on
-                  search engine rankings.
-                </p>
-                <p>
-                  This timeframe can be even longer for newer websites. However,
-                  with consistent effort and a well-planned strategy, it is
-                  possible to see results much sooner.
-                </p>
-                <p>
-                  There's no guarantee that SEO will work for every website, but
-                  it is still one of the most effective ways to improve your
-                  visibility and attract more traffic. If you're ready to invest
-                  in SEO for your business, contact us to get started.
-                </p>
-              </section>
-              <div className="btn">
-                <Link href={calendly} passHref>
-                  <Button>Book a Call Today!</Button>
-                </Link>
-              </div>
-              <section>
-                <h3>#5. How Do I Calculate My SEO ROI?</h3>
-                <p>
-                  It's important to be able to measure your SEO ROI (return on
-                  investment) in order to determine whether or not your SEO
-                  efforts are paying off. There are a number of different ways
-                  to calculate your SEO ROI, but the most important thing is to
-                  make sure you're tracking the right metrics.
-                </p>
-                <p>Some of the things you'll want to track include:</p>
-                <ul>
-                  <li>The number of organic visitors to your website</li>
-                  <li>The number of leads generated from organic traffic</li>
-                  <li>The number of sales generated from organic traffic</li>
-                  <li>The conversion rate for organic traffic</li>
-                </ul>
-                <p>
-                  To get started, you'll need to set up tracking codes on your
-                  website so that you can accurately measure the traffic and
-                  conversions coming from your SEO campaigns. Once you have that
-                  set up, you can start to calculate your ROI.
-                </p>
-                <p>
-                  One thing to keep in mind is that SEO is a long-term strategy,
-                  so don't expect to see results overnight. It can take months
-                  or even years to see a significant return on your investment.
-                  However, if you stick with it and continue to track your
-                  progress, you should eventually start to see a positive ROI
-                  from your SEO efforts.
-                </p>
-                <p>
-                  SEO can be a great way to generate leads and sales for your
-                  business, but it's important to make sure you're tracking the
-                  right metrics so that you can accurately calculate your ROI.
-                  By doing so, you'll be able to tell whether or not your SEO
-                  efforts are paying off and make necessary changes to ensure a
-                  positive return on your investment.
-                </p>
-              </section>
-            </div>
-          </div>
-          <div className="btn">
-            <a href="tel:+2402660588">
-              <Button>Call (240) 266-0588</Button>
-            </a>
+            <div className="faq-questions"></div>
+            <ul>
+              <h3>#1. What is SEO?</h3>
+              <p>
+                Search Engine Optimization (SEO) is the practice of improving
+                the ranking of a website on search engines. The higher the
+                ranking, the more likely people are to find the site.
+              </p>
+              <p>
+                There are a number of factors that contribute to a website's
+                ranking, including the quality and quantity of the content, the
+                structure of the site, and the popularity of the site. SEO is
+                about making sure that a website is designed in a way that makes
+                it easy for search engines to find and index the site's content.
+              </p>
+              <p>
+                SEO is a complex and ever-changing field, and there are no easy
+                shortcuts to achieving high rankings. However, there are a
+                number of things that can be done to improve a website's SEO,
+                and by extension, its ranking.
+              </p>
+              <p>
+                One of the most important things that can be done to improve a
+                website's SEO is to create high-quality, keyword-rich content.
+                This content should be well-written and informative, and it
+                should include the keywords that people are likely to use when
+                searching for information on the topic.
+              </p>
+              <p>
+                Another important factor in SEO is link popularity. Links from
+                other websites to a website help to improve its ranking, as they
+                show that the site is popular and relevant. In order to get
+                high-quality links, it is important to create quality content
+                that other people will want to link to.
+              </p>
+
+              <h3>#2. How Can SEO Help My Business?</h3>
+              <p>Seo can help your business in a number of ways, including:</p>
+              <ul>
+                <li>Increasing your visibility in search engines</li>
+                <li>Driving traffic to the website</li>
+                <li>Generating free leads and customers</li>
+                <li>Improving your brand awareness and online reputation</li>
+                <li>Enhancing customer satisfaction</li>
+              </ul>
+              <p>
+                In short, SEO can be a powerful tool to help businesses grow and
+                succeed online. If you're not using SEO, you're missing out on
+                an opportunity to reach more customers and grow your business.
+              </p>
+
+              <h3>#3. What is The Cost Of SEO?</h3>
+              <p>
+                There is no one-size-fits-all answer to this question, as the
+                cost of SEO can vary greatly depending on the size and scope of
+                your project.
+              </p>
+              <p>
+                However, as a general guide, you can expect to pay anywhere from{' '}
+                <b>$1000 to $5,000 per month</b> for professional SEO services.
+              </p>
+              <p>
+                And if your project is particularly large or complex, you may
+                need to invest more money to get the results you're looking for.
+                But in general, this is a good range to expect for most SEO
+                projects.
+              </p>
+              <p>
+                The cost of SEO can also vary depending on the keywords you want
+                to target and the competition for those keywords. The more
+                competitive the keywords, the more expensive it will be to rank
+                for them. However, if you choose less competitive keywords, you
+                may be able to get by with a smaller budget. Contact us today to
+                learn more about our SEO services and pricing.
+              </p>
+            </ul>
+            <ul>
+              <h3>#4. How Long Does SEO Take to Work?</h3>
+              <p>
+                It's tough to give a definitive answer to this question because
+                there are so many variables at play, including the specific
+                industry, the competition level, the age of the website, and the
+                quality of the content.
+              </p>
+              <p>
+                Generally speaking, though, it can take anywhere from 3-6 months
+                or 6-12 months for SEO to start having an impact on search
+                engine rankings.
+              </p>
+              <p>
+                This timeframe can be even longer for newer websites. However,
+                with consistent effort and a well-planned strategy, it is
+                possible to see results much sooner.
+              </p>
+              <p>
+                There's no guarantee that SEO will work for every website, but
+                it is still one of the most effective ways to improve your
+                visibility and attract more traffic. If you're ready to invest
+                in SEO for your business, contact us to get started.
+              </p>
+
+              <h3>#5. How Do I Calculate My SEO ROI?</h3>
+              <p>
+                It's important to be able to measure your SEO ROI (return on
+                investment) in order to determine whether or not your SEO
+                efforts are paying off. There are a number of different ways to
+                calculate your SEO ROI, but the most important thing is to make
+                sure you're tracking the right metrics.
+              </p>
+              <p>Some of the things you'll want to track include:</p>
+              <ul>
+                <li>The number of organic visitors to your website</li>
+                <li>The number of leads generated from organic traffic</li>
+                <li>The number of sales generated from organic traffic</li>
+                <li>The conversion rate for organic traffic</li>
+              </ul>
+              <p>
+                To get started, you'll need to set up tracking codes on your
+                website so that you can accurately measure the traffic and
+                conversions coming from your SEO campaigns. Once you have that
+                set up, you can start to calculate your ROI.
+              </p>
+              <p>
+                One thing to keep in mind is that SEO is a long-term strategy,
+                so don't expect to see results overnight. It can take months or
+                even years to see a significant return on your investment.
+                However, if you stick with it and continue to track your
+                progress, you should eventually start to see a positive ROI from
+                your SEO efforts.
+              </p>
+              <p>
+                SEO can be a great way to generate leads and sales for your
+                business, but it's important to make sure you're tracking the
+                right metrics so that you can accurately calculate your ROI. By
+                doing so, you'll be able to tell whether or not your SEO efforts
+                are paying off and make necessary changes to ensure a positive
+                return on your investment.
+              </p>
+            </ul>
           </div>
         </section>
       </MainLayout>

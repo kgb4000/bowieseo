@@ -197,7 +197,7 @@ const Footer = styled.div`
 
 const LowerFooter = styled.div`
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
   background: #fff;
   color: #2c3e50;
   ]

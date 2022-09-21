@@ -48,7 +48,7 @@ const Services = () => {
               If you want more website traffic and more customers seeing your
               business online, search engine optimization is the way to go.
             </p>
-            <h2>Other SEO Services</h2>
+            <h2>SEO Services</h2>
             <div className="services">
               <Container>
                 <Link href="/local-seo" passHref>
