@@ -123,7 +123,7 @@ export default function OceanCitySEO() {
               </p>
               <img
                 src="/images/seo-guys.jpg"
-                alt="Ocean City SEO company - Bowie SEO"
+                alt="Salisbury SEO company - Bowie SEO"
                 width="1000"
                 height="700"
               />
