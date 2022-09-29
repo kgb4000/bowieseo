@@ -430,13 +430,15 @@ const MarylandSEOCompany = () => {
           </Link>
         </div>
         <section>
-          <div className="services-container">
-            <h2>Our Maryland SEO Process</h2>
+          <div className="small-container">
+            <h2>Our Maryland SEO Process: How Does SEO Really Work?</h2>
             <p className="sub-text">
-              Our Maryland SEO company can generate more leads and customers for
-              your small business.
+              Our Maryland SEO company can help generate more leads and
+              customers for your business. Here are the step we use to get you
+              results.
             </p>
           </div>
+          <div className="services-container"></div>
           <ProcessSection {...processObj1} />
           <ProcessSection {...processObj2} />
           <ProcessSection {...processObj3} />
@@ -506,6 +508,70 @@ const MarylandSEOCompany = () => {
                 <Button>Call (240) 266-0588</Button>
               </a>
             </div>
+          </div>
+        </section>
+        <section>
+          <div className="medium-container">
+            <h2 className="title">Looking for a Local SEO Services Near Me?</h2>
+            <p className="sub-text">
+              Check us out. Our company offers Local SEO services for businesses
+              throughout{' '}
+              <Link href="/maryland-seo-company" passHref>
+                <a>Maryland</a>
+              </Link>{' '}
+              and Washington, DC.
+            </p>
+            <div className="cities small-container">
+              <ul>
+                <li>Annapolis, MD</li>
+                <li>
+                  <Link href="/baltimore-seo" passHref>
+                    <a>Baltimore, MD</a>
+                  </Link>
+                </li>
+                <li>Bethesda, MD</li>
+                <li>
+                  <Link href="/" passHref>
+                    <a>Bowie, MD</a>
+                  </Link>
+                </li>
+                <li>Capitol Heights</li>
+                <li>Chevy Chase, MD</li>
+                <li>Fort Washington, MD</li>
+                <li>Glen Burnie</li>
+              </ul>
+              <ul>
+                <li>Hyattsville, MD</li>
+                <li>
+                  <Link href="/laurel-maryland-local-seo-services" passHref>
+                    <a>Laurel, MD</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/seo-services-ocean-city" passHref>
+                    <a>Ocean City, MD</a>
+                  </Link>
+                </li>
+                <li>Rockville, MD</li>
+                <li>
+                  <Link href="/seo-services-salisbury-md" passHref>
+                    <a>Salisbury, MD</a>
+                  </Link>
+                </li>
+                <li>Takoma Park, MD</li>
+                <li>Waldorf, MD</li>
+                <li>
+                  <Link href="/dc-seo" passHref>
+                    <a>Washington, DC</a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="btn">
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588 today!</Button>
+            </a>
           </div>
         </section>
         <section>

@@ -42,12 +42,15 @@ export default function Blog({ data }) {
       />
       <NextSeo {...SEO} />
       <MainLayout>
-        <PageHero
-          heading="SEO Blog"
-          subText="Tips to help you succeed with SEO and find more opportunities to succeed."
-          buttonText="Contact us"
-          heroBtnLink="/contact"
-        />
+        <section>
+          <div className="container">
+            <h1 className="title">SEO Blog</h1>
+            <p className="center">
+              Tips to help you find more opportunities and grow your business
+              with SEO.
+            </p>
+          </div>
+        </section>
         <BlogMain>
           <div className="blog-container">
             {data.posts.map((post) => (

@@ -229,7 +229,7 @@ export default function Home({ data }) {
             </p>
           </div>
         </section> */}
-        <section className="why-use-seo-section">
+        {/* <section className="why-use-seo-section">
           <div className="medium-container">
             <h2 className="title">
               5 Reasons Small Businesses Need Search Engine Optimization in 2022
@@ -357,7 +357,7 @@ export default function Home({ data }) {
               <Button>Call (240) 266-0588</Button>
             </a>
           </div>
-        </section>
+        </section> */}
         <section className="our-services-section">
           <div className="services-container">
             <h2 className="title">Our SEO Services</h2>

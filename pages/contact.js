@@ -26,23 +26,26 @@ const Contact = () => {
     <>
       <NextSeo {...SEO} />
       <MainLayout>
-        <PageHero
+        {/* <PageHero
           heading="Contact"
           subText="Let us help you rank higher in the search engines, get more web traffic, reach more customers, and make more money."
           heroBtnLink="tel:+2402660588"
           buttonText="Call (240) 266-0588"
-        />
+        /> */}
+        <section>
+          <div className="container">
+            <h1 className="title">Contact Us</h1>
+            <p className="center">We want to hear from you</p>
+          </div>
+        </section>
         <section>
           <div className="small-container">
-            <h2>Contact us</h2>
-            <p>You can reach us in the following ways: </p>
             <ul>
               <li>
-                By phone: <a href="tel:1-240-266-0588">(240) 266-0588</a>
+                Phone: <a href="tel:1-240-266-0588">(240) 266-0588</a>
               </li>
               <li>
-                By email:{' '}
-                <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>
+                Email: <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>
               </li>
               <li>Or fill out the form below</li>
             </ul>

@@ -9,6 +9,8 @@ import ContactForm from '../components/Contact-Form'
 
 import { NextSeo } from 'next-seo'
 
+const calendly = 'https://calendly.com/bowieseo/30min'
+
 const Services = () => {
   const SEO = {
     title: "Get an SEO Audit and See Why You're Not On the First Page",
@@ -29,10 +31,10 @@ const Services = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <PageHero
-          heading="SEO Audit"
+          heading="SEO Audit Services"
           subText="Discover what's stopping your website from ranking and getting traffic and conversions with an SEO audit. Fix the issues and improve your SEO performance today."
-          heroBtnLink="tel:+2402660588"
-          buttonText="Call (240) 266-0588"
+          heroBtnLink={calendly}
+          buttonText="Schedule a call today!"
         />
         <section>
           <div className="medium-container">
@@ -146,7 +148,7 @@ const Services = () => {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <h2>Our Complete SEO Audit Process</h2>
             <div className="seo-audit-step">
               <img

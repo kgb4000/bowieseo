@@ -114,8 +114,8 @@ export default function OceanCitySEO() {
           <div className="container">
             <div className="offer-section">
               <h2>
-                Is Your Business Showing up in Google When People Search for
-                Your Services in Salisbury, MD?
+                Are You Showing up in the Salisbury SERPs When People Search for
+                Your Services?
               </h2>
               <p className="big-p">
                 If not, you're losing customers to your competition. Find out
@@ -127,14 +127,14 @@ export default function OceanCitySEO() {
                 width="1000"
                 height="700"
               />
-              <p>
+              {/* <p>
                 Get a personalized video delivered to your email showing you:
               </p>
               <ul>
                 <li>The reasons why you're not showing up on the first page</li>
                 <li>What you have to do to get on the first page</li>
                 <li>Actionable steps to start ranking higher today</li>
-              </ul>
+              </ul> */}
               <OfferForm />
             </div>
           </div>

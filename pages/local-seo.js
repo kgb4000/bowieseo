@@ -528,7 +528,7 @@ const LocalSEO = () => {
             <Button>Contact us today!</Button>
           </Link>
         </div>
-        <section>
+        {/* <section>
           <div className="medium-container">
             <h2 className="title">Looking for a Local SEO Services Near Me?</h2>
             <p className="sub-text">
@@ -591,7 +591,7 @@ const LocalSEO = () => {
               <Button>Call (240) 266-0588 today!</Button>
             </a>
           </div>
-        </section>
+        </section> */}
         <section className="why-choose">
           <div className="medium-container">
             <h2 className="title">
