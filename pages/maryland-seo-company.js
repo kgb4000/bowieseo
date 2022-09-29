@@ -574,7 +574,7 @@ const MarylandSEOCompany = () => {
             </a>
           </div>
         </section>
-        <section>
+        {/* <section>
           <div className="medium-container">
             <h2>Seeking a Maryland SEO Company Near me?</h2>
             <p>
@@ -588,8 +588,8 @@ const MarylandSEOCompany = () => {
             </p>
             <p>We're ready to put our experience to work for you.</p>
           </div>
-        </section>
-        <section>
+        </section> */}
+        {/* <section>
           <div className="medium-container">
             <h2>Customized SEO Solutions</h2>
             <p>
@@ -616,7 +616,7 @@ const MarylandSEOCompany = () => {
           <a href="tel:+2402660588">
             <Button>Call (240) 266-0588</Button>
           </a>
-        </div>
+        </div> */}
         <section className="why-choose">
           <div className="medium-container">
             <h2>
