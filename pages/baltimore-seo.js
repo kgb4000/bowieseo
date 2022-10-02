@@ -483,18 +483,20 @@ const BaltimoreSEOCompany = () => {
               suburbs surrounding the Baltimore area, we can help you reach more
               clients in these cities with local SEO services.
             </p>
-            <div className="cities small-container">
+            <div className="cities">
               <ul>
                 <li>Hampden, MD</li>
                 <li>Rosedale, MD</li>
                 <li>Essex, MD</li>
                 <li>Woodlawn, MD</li>
-                <li>Pikesville, MD</li>
-                <li>Towson, MD</li>
               </ul>
               <ul>
+                <li>Pikesville, MD</li>
+                <li>Towson, MD</li>
                 <li>Dundalk, MD</li>
                 <li>Catonsville, MD</li>
+              </ul>
+              <ul>
                 <li>Ellicott City, MD</li>
                 <li>Columbia, MD</li>
                 <li>Arbutus, MD</li>

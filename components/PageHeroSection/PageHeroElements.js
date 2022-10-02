@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 0 2rem;
-  min-height: calc(70vh - 80px);
+  min-height: calc(80vh - 80px);
   position: relative;
   z-index: 1;
   padding-bottom: 2rem;

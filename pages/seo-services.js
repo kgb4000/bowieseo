@@ -40,13 +40,12 @@ const Services = () => {
         />
         <section>
           <div className="services-container">
-            <h2>
-              We Provide SEO Services for Businesses in Maryland and Washington,
-              DC.
+            <h2 className="title">
+              We Provide SEO Services for Small Businesses.
             </h2>
             <p className="sub-text">
-              If you want more website traffic and more customers seeing your
-              business online, search engine optimization is the way to go.
+              If you want to increase your leads, sales, and revenue, practice
+              SEO.
             </p>
             <h2>SEO Services</h2>
             <div className="services">
@@ -263,8 +262,11 @@ const Services = () => {
               </Container>
             </div>
             <p className="sub-text">
-              We provide these SEO services to businesses in Maryland and
-              Washington, DC.
+              We proudly provide SEO services to businesses in{' '}
+              <Link href="/maryland-seo-company">
+                <a>Maryland</a>
+              </Link>{' '}
+              and Washington, DC.
             </p>
             <div className="btn">
               <a href="tel:+2402660588">
