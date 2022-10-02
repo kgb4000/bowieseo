@@ -24,16 +24,16 @@ export const getStaticProps = async () => {
   }
 }
 
-export default function OceanCitySEO() {
+export default function CroftonMD() {
   const SEO = {
-    title: 'SEO Services Salisbury MD | Increase Leads, Boost Revenue',
+    title: 'SEO Services Crofton MD | Increase Leads, Boost Revenue',
     description:
-      'We provide SEO services in Salisbury, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
-    canonical: 'https://bowieseo.com/seo-services-salisbury-md',
+      'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
+    canonical: 'https://bowieseo.com/seo-services-crofton-md',
     openGraph: {
-      title: 'SEO Services Salisbury MD | Increase Leads, Boost Revenue',
+      title: 'SEO Services Crofton MD | Increase Leads, Boost Revenue',
       description:
-        'We provide SEO services in Salisbury, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
+        'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
       image: [
         {
           url: 'https://bowieseo.com/images/salisbury-seo-company.jpg',
@@ -50,13 +50,16 @@ export default function OceanCitySEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <PageHero
-          heading="SEO Services Salisbury, MD [Get More Leads and Boost Revenue]"
-          subText="We provide SEO solutions to help businesses in Salisbury grow. We use our SEO knowledge to help attract more customers and increase sales for your business."
+          heading="SEO Services for Crofton, MD [Increase Leads, sales and your income]"
+          subText="We use our SEO knowledge to help attract more customers and increase sales for your business."
           heroBtnLink="/contact"
           buttonText="Book a free consultation"
         />
         <section className="article-section">
-          <h2 className="title">SEO Services in Salisbury Maryland</h2>
+          <h2 className="title">
+            Keep losing Money every month or start doing SEO and make money:
+            choose now
+          </h2>
           <div className="container grid">
             <div>
               <p>
@@ -82,7 +85,7 @@ export default function OceanCitySEO() {
                 <Link href="/maryland-seo-company" passHref>
                   <a>Maryland SEO Company</a>
                 </Link>{' '}
-                helping small business owners in Salisbury get more leads and
+                helping small business owners in Crofton get more leads and
                 customers by building a lead generation system specifically for
                 your business.
               </p>
@@ -104,9 +107,9 @@ export default function OceanCitySEO() {
               </div>
             </div>
             <img
-              src="/images/seo-services-salisbury-md.jpg"
-              alt="Business owner thinking about getting SEO Services in Salisbury Maryland"
-              title="Business owner thinking about getting SEO Services in Salisbury Maryland"
+              src="/images/seo-services-crofton-md.jpg"
+              alt="Business owner thinking about getting SEO Services for his business in Crofton, MD"
+              title="Business owner thinking about getting SEO Services in Crofton Maryland"
             />
           </div>
         </section>
@@ -114,7 +117,7 @@ export default function OceanCitySEO() {
           <div className="container">
             <div className="offer-section">
               <h2>
-                Are You Showing up in the Salisbury SERPs When People Search for
+                Are You Showing up in the Crofton SERPs When People Search for
                 Your Services?
               </h2>
               <p className="big-p">
@@ -123,7 +126,7 @@ export default function OceanCitySEO() {
               </p>
               <img
                 src="/images/seo-guys.jpg"
-                alt="Salisbury SEO company - Bowie SEO"
+                alt="Crofton SEO company - Bowie SEO"
                 width="1000"
                 height="700"
               />
@@ -141,10 +144,10 @@ export default function OceanCitySEO() {
         </section>
         <section>
           <div className="services-container">
-            <h2>Our Salisbury MD SEO Services</h2>
+            <h2>Our Crofton MD SEO Services</h2>
             <p className="sub-text">
-              Our Salisbury SEO services help small businesses in Salisbury
-              increase search traffic, online visibility, and SEO performance.
+              Our Crofton SEO services help small businesses in Crofton increase
+              search traffic, online visibility, and SEO performance.
             </p>
             <div className="services">
               <Container>
@@ -158,7 +161,7 @@ export default function OceanCitySEO() {
                       />
                       <h3>Local SEO</h3>
                       <p>
-                        We optimize your website for local searches in Salisbury
+                        We optimize your website for local searches in Crofton
                         so customers can find you.
                       </p>
                     </div>
@@ -217,7 +220,7 @@ export default function OceanCitySEO() {
                     <h3>GMB Optimization</h3>
                     <p>
                       Optimize your Google My Business page to improve your
-                      online visibility so Salisbury customers can find you.
+                      online visibility so Crofton customers can find you.
                     </p>
                   </div>
                 </Card>
@@ -244,9 +247,9 @@ export default function OceanCitySEO() {
         </section>
         <section className="reasons-section">
           <div className="medium-container">
-            <h2>7 Reasons Why Salisbury Business Owners must Invest In SEO</h2>
+            <h2>7 Reasons Why Crofton Business Owners must Invest In SEO</h2>
             <p className="center">
-              Salisbury business owners need SEO to compete online. Partner with
+              Crofton business owners need SEO to compete online. Partner with
               an SEO company that can build your lead-gen system that will boost
               your business presence, and bring more leads and customers.
             </p>
@@ -336,7 +339,7 @@ export default function OceanCitySEO() {
           <div className="medium-container">
             <h2>
               How Does Search Engine Optimization Work, and How Can it Help
-              Salisbury Business Owners?
+              Crofton Business Owners?
             </h2>
           </div>
           <div className="medium-container">
@@ -349,17 +352,13 @@ export default function OceanCitySEO() {
                 <a>Local SEO</a>
               </Link>{' '}
               is search engine optimization for your business in your area,
-              which will be Salisbury.
+              which will be Crofton.
             </p>
             <p>
-              Local SEO makes it so that when someone in Salisbury or in nearby
-              places like{' '}
-              <Link href="/seo-services-ocean-city" passHref>
-                <a>Ocean City</a>
-              </Link>
-              , Berlin, Whitehaven, or Pokomoke, MD search for services like
-              yours, your website will show up and people will see your
-              business.
+              Local SEO makes it so that when someone in Crofton or in nearby
+              places like Annapolis, Pasadena, Columbia, or Bowie, MD search for
+              services like yours, your website will show up and people will see
+              your business.
             </p>
             <p>
               Local SEO is the process of optimizing your website so that
@@ -369,9 +368,9 @@ export default function OceanCitySEO() {
               businesses and services in their area.
             </p>
             <p>
-              For example, if someone living in Salisbury or Pokomoke is
-              searching for an asphalt paving company, Google will return a list
-              of asphalt paving companies that it feels are the best results.
+              For example, if someone living in Crofton or Odenton is searching
+              for an asphalt paving company, Google will return a list of
+              asphalt paving companies that it feels are the best results.
             </p>
             <p>
               These results will appear in the local pack and the organic
@@ -400,7 +399,7 @@ export default function OceanCitySEO() {
         </section>
         <section className="why-work-with-us-section">
           <div className="medium-container">
-            <h2>With Other SEO Companies in Salisbury, Why Work With Us?</h2>
+            <h2>With Other SEO Companies in Crofton, Why Work With Us?</h2>
             <p className="sub-text">
               Work with Bowie SEO and experience the difference between our
               company and other SEO companies.
@@ -424,7 +423,7 @@ export default function OceanCitySEO() {
                 </p>
               </div>
               <div>
-                <h3>#3. We Don't Work With Your Competitors in Salisbury</h3>
+                <h3>#3. We Don't Work With Your Competitors in Crofton</h3>
                 <p>
                   As your SEO company, we won't work with your competitors. Some
                   SEO companies don't care who they work with. They'll work with

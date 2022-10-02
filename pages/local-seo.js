@@ -54,18 +54,18 @@ const LocalSEO = () => {
         strategies that generate results */}
         <section>
           <h2 className="title">
-            Get Your Business in Front of More Local Customers with Local SEO
+            Get in Front of More Customers with Local SEO
           </h2>
           <div className="medium-container grid">
             <img
-              src="images/maryland-seo-company.jpg"
+              src="images/local-seo-services.jpg"
               alt="Local SEO Company - Bowie SEO"
               width="1000"
               height="450"
               className="img-info short"
             />
             <img
-              src="images/maryland-seo-company.jpg"
+              src="images/local-seo-services.jpg"
               alt="Local SEO Company - Bowie SEO"
               width="1000"
               height="450"
