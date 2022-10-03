@@ -57,10 +57,12 @@ const MarylandSEOCompany = () => {
           buttonText1="Free Mini SEO Audit"
         />
         <section>
-          <h2 className="title">
-            Practice SEO or Continue to Lose Thousands of Dollars Every Month to
-            Competitors
-          </h2>
+          <div className="container">
+            <h2 className="title">
+              Practice SEO or Continue to Lose Thousands of Dollars Every Month
+              to Competitors
+            </h2>
+          </div>
           <div className="container grid">
             <img
               src="images/seo-guys.jpg"
@@ -731,6 +733,13 @@ const MarylandSEOCompany = () => {
           <FAQPageJsonLd
             mainEntity={[
               {
+                questionName:
+                  'Why Should My Business Use Search Engine Optimization?',
+                acceptedAnswerText: `If you do a search for your services and your website doesn't appear on the first page, then you should start doing SEO.
+                If you never did any serious keyword research and guessed your keywords, then you should start doing SEO.
+                If you want to generate your own leads instead of relying on referals or lead-gen companies, then you should start doing SEO.`,
+              },
+              {
                 questionName: 'Can I Do Local SEO Myself?',
                 acceptedAnswerText:
                   'The short answer is yes, you can definitely do local SEO yourself. However, it will take some time and effort on your part. The most important thing is to make sure that you are consistent with your efforts.',
@@ -766,7 +775,22 @@ const MarylandSEOCompany = () => {
           <div className="medium-container">
             <h2>Frequently Asked Questions</h2>
             <div className="question">
-              <h3>#1. Can I Do Local SEO Myself?</h3>
+              <h3>
+                #1. Why Should My Business Use Search Engine Optimization?
+              </h3>
+              <p>
+                If you do a search for your services and your website doesn't
+                appear on the first page, then you should start doing SEO.
+              </p>
+              <p>
+                If you never did any serious keyword research and guessed your
+                keywords, then you should start doing SEO.
+              </p>
+              <p>
+                If you want to generate your own leads instead of relying on
+                referals or lead-gen companies, then you should start doing SEO.
+              </p>
+              <h3>#2. Can I Do Local SEO Myself?</h3>
               <p>
                 The short answer is yes, you can definitely do local SEO
                 yourself. However, it will take some time and effort on your
@@ -792,7 +816,7 @@ const MarylandSEOCompany = () => {
               </p>
             </div>
             <div className="question">
-              <h3>#2. How Much Does Maryland SEO Cost?</h3>
+              <h3>#3. How Much Does Maryland SEO Cost?</h3>
               <p>
                 For small businesses in Maryland and the rest of the DMV, local
                 SEO services can cost anywhere from{' '}
@@ -813,7 +837,7 @@ const MarylandSEOCompany = () => {
               </p>
             </div>
             <div className="question">
-              <h3>#3. What is the Difference between SEO and Local SEO</h3>
+              <h3>#4. What is the Difference between SEO and Local SEO</h3>
               <p>
                 In short, SEO (search engine optimization) is the process of
                 improving the visibility and ranking of your website in search
@@ -842,7 +866,7 @@ const MarylandSEOCompany = () => {
               </p>
             </div>
             <div className="question">
-              <h3>#4. How Long Does SEO Take Before You See Results?</h3>
+              <h3>#5. How Long Does SEO Take Before You See Results?</h3>
               <p>
                 Just like any other marketing endeavor, the results of your SEO
                 efforts will take some time to show. The amount of time will
@@ -866,7 +890,7 @@ const MarylandSEOCompany = () => {
               </p>
             </div>
             <div className="question">
-              <h3>#5. Can You Guarantee Me #1 Rankings?</h3>
+              <h3>#6. Can You Guarantee Me #1 Rankings?</h3>
               <p>
                 No SEO company can guarantee you first-page rankings on Google.
               </p>
