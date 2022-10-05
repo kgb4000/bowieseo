@@ -174,7 +174,7 @@ const MarylandSEOCompany = () => {
         <section className="reasons-section">
           <div className="medium-container">
             <h2 className="title">
-              7 Reasons Businesses Need SEO Services in Maryland [2022]
+              7 Reasons Businesses Need Maryland SEO Services [2022]
             </h2>
             <h3>#1. Search Algorithms are Always Changing</h3>
             <p>
@@ -321,7 +321,7 @@ const MarylandSEOCompany = () => {
         <section>
           <div className="services-container">
             <h2 className="title">
-              Increase Leads, Sales and Revenue With These SEO Services
+              Increase Leads, Sales and Revenue With Maryland SEO Services
             </h2>
             <p className="sub-text">
               Our SEO services help your business boost your traffic, increse
@@ -529,6 +529,7 @@ const MarylandSEOCompany = () => {
               more traffic and leads to your website from people searching for
               these terms.
             </p>
+            <p>We provide local SEO in:</p>
             <div className="cities">
               <ul>
                 <li>Annapolis, MD</li>

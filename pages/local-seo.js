@@ -52,7 +52,7 @@ const LocalSEO = () => {
         />
         {/* We use our expertise in search engine optimization to turn insights into
         strategies that generate results */}
-        <section>
+        {/* <section>
           <h2 className="title">
             Get in Front of More Customers with Local SEO
           </h2>
@@ -224,23 +224,6 @@ const LocalSEO = () => {
               appear higher in the search rankings, get more traffic, more
               customers will see you and find your business.   
             </p>
-            {/* <h3>
-              #6. Local SEO Can Help You Reach Your Target Market and They Can
-              Find You
-            </h3>
-            <p>
-              Potential customers find your business because you use search
-              engine optimization and perform keyword research to reach your
-              target audience.  
-            </p>
-            <h3>#7. Search Engines are Not Going Away</h3>
-            <p>
-              Search engine optimization makes your website better for search
-              engines and your customers. When you do SEO and your competitors
-              don't, your SEO efforts will create a more significant online
-              presence, rank higher in the search rankings, get more traffic,
-              and do more online business.   
-            </p> */}
           </div>
           <div className="btn">
             <a href="tel:+2402660588">
@@ -287,13 +270,6 @@ const LocalSEO = () => {
         </section>
         <section>
           <div className="container grid">
-            {/* <img
-              src="images/seo-guys.jpg"
-              alt="Maryland SEO Company - Bowie SEO"
-              width="1000"
-              height="450"
-              className="img-info short"
-            /> */}
             <img
               src="images/maryland-seo-company.jpg"
               alt="Maryland SEO Company - Bowie SEO"
@@ -528,70 +504,6 @@ const LocalSEO = () => {
             <Button>Contact us today!</Button>
           </Link>
         </div>
-        {/* <section>
-          <div className="medium-container">
-            <h2 className="title">Looking for a Local SEO Services Near Me?</h2>
-            <p className="sub-text">
-              Check us out. Our company offers Local SEO services for businesses
-              throughout{' '}
-              <Link href="/maryland-seo-company" passHref>
-                <a>Maryland</a>
-              </Link>{' '}
-              and Washington, DC.
-            </p>
-            <div className="cities small-container">
-              <ul>
-                <li>Annapolis, MD</li>
-                <li>
-                  <Link href="/baltimore-seo" passHref>
-                    <a>Baltimore, MD</a>
-                  </Link>
-                </li>
-                <li>Bethesda, MD</li>
-                <li>
-                  <Link href="/" passHref>
-                    <a>Bowie, MD</a>
-                  </Link>
-                </li>
-                <li>Capitol Heights</li>
-                <li>Chevy Chase, MD</li>
-                <li>Fort Washington, MD</li>
-                <li>Glen Burnie</li>
-              </ul>
-              <ul>
-                <li>Hyattsville, MD</li>
-                <li>
-                  <Link href="/laurel-maryland-local-seo-services" passHref>
-                    <a>Laurel, MD</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/seo-services-ocean-city" passHref>
-                    <a>Ocean City, MD</a>
-                  </Link>
-                </li>
-                <li>Rockville, MD</li>
-                <li>
-                  <Link href="/seo-services-salisbury-md" passHref>
-                    <a>Salisbury, MD</a>
-                  </Link>
-                </li>
-                <li>Takoma Park, MD</li>
-                <li>Waldorf, MD</li>
-                <li>
-                  <Link href="/dc-seo" passHref>
-                    <a>Washington, DC</a>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="btn">
-            <a href="tel:+2402660588">
-              <Button>Call (240) 266-0588 today!</Button>
-            </a>
-          </div>
-        </section> */}
         <section className="why-choose">
           <div className="medium-container">
             <h2 className="title">
@@ -830,7 +742,7 @@ const LocalSEO = () => {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
       </MainLayout>
     </>
   )

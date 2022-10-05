@@ -12,7 +12,7 @@ const FreeSEOAUDIT = () => {
     title: 'Free Mini SEO Audit | Bowie SEO',
     description:
       'Find out what is stopping your website from ranking higher in the search engines, and why your competitors are beating you. Contact Bowie SEO today!',
-    canonical: 'https://bowieseo.com/free-mini-audit',
+    canonical: 'https://bowieseo.com/free-mini-seo-audit',
     openGraph: {
       title: 'Free Mini SEO Audit | Bowie SEO',
       description:
