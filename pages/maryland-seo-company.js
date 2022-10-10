@@ -514,7 +514,7 @@ const MarylandSEOCompany = () => {
             </div>
           </div>
         </section>
-        <section className="reasons-section">
+        {/* <section className="reasons-section">
           <div className="medium-container">
             <h2 className="title">
               Need Local SEO Services in Maryland? We Got You Covered
@@ -594,50 +594,7 @@ const MarylandSEOCompany = () => {
               <Button>Call (240) 266-0588 today!</Button>
             </a>
           </div>
-        </section>
-        {/* <section>
-          <div className="medium-container">
-            <h2>Seeking a Maryland SEO Company Near me?</h2>
-            <p>
-              If you're looking for a Maryland SEO company to take your business
-              to the next level, it's essential you work with top SEO companies
-              like Bowie SEO.
-            </p>
-            <p>
-              We have a proven track record of helping businesses in our area
-              achieve their online marketing goals.
-            </p>
-            <p>We're ready to put our experience to work for you.</p>
-          </div>
         </section> */}
-        {/* <section>
-          <div className="medium-container">
-            <h2>Customized SEO Solutions</h2>
-            <p>
-              When it comes to SEO, there's no one-size-fits-all solution.
-              That's why we take a customized approach to every project we
-              undertake. We'll work closely with you to understand your unique
-              needs and challenges. We'll then develop a personalized strategy
-              designed to achieve your specific objectives.
-            </p>
-            <p>
-              Whether you're looking to increase traffic to your website,
-              improve your rankings, or get more customers through the door, we
-              can help.
-            </p>
-            <p>
-              Contact us today to schedule a free consultation. We'll be happy
-              to answer any questions you have and provide you with a customized
-              proposal.
-            </p>
-            <p>Book a call and let's get started!</p>
-          </div>
-        </section>
-        <div className="btn">
-          <a href="tel:+2402660588">
-            <Button>Call (240) 266-0588</Button>
-          </a>
-        </div> */}
         <section className="why-choose">
           <div className="medium-container">
             <h2>

@@ -349,7 +349,7 @@ section {
 
 @media screen and (min-width: 768px) {
   section {
-    padding: 3rem 0;
+    padding: 5rem 0;
   }
 }
 
@@ -839,5 +839,10 @@ textarea {
 }
 
 .email-message {
-  border: 1px solid #eaecee;
+  border: 10px solid #eaecee;
+  padding: 2rem;
+
+  @media screen and (min-width: 768px) {
+    padding: 3.5rem;
+  }
 }

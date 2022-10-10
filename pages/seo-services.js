@@ -261,18 +261,77 @@ const Services = () => {
                 </Link>
               </Container>
             </div>
-            <p className="sub-text">
-              We proudly provide SEO services to businesses in{' '}
-              <Link href="/maryland-seo-company">
-                <a>Maryland</a>
-              </Link>{' '}
-              and Washington, DC.
-            </p>
-            <div className="btn">
-              <a href="tel:+2402660588">
-                <Button>Call (240) 266-0588</Button>
-              </a>
+          </div>
+        </section>
+        <section className="reasons-section">
+          <div className="medium-container">
+            <h2 className="title">
+              Need Local SEO Services in Maryland? We Got You Covered
+            </h2>
+            <p className="center">We provide local SEO in:</p>
+            <div className="cities">
+              <ul>
+                <li>Annapolis, MD</li>
+                <li>
+                  <Link href="/baltimore-seo" passHref>
+                    <a>Baltimore, MD</a>
+                  </Link>
+                </li>
+                <li>Bethesda, MD</li>
+                <li>
+                  <Link href="/" passHref>
+                    <a>Bowie, MD</a>
+                  </Link>
+                </li>
+                <li>Capitol Heights</li>
+              </ul>
+              <ul>
+                <li>Chevy Chase, MD</li>
+                <li>Columbia, MD</li>
+                <li>
+                  <Link href="/seo-services-crofton-md" passHref>
+                    <a>Crofton, MD</a>
+                  </Link>
+                </li>
+                <li>Fort Washington, MD</li>
+                <li>Glen Burnie</li>
+              </ul>
+              <ul>
+                <li>Hyattsville, MD</li>
+                <li>
+                  <Link href="/laurel-maryland-local-seo-services" passHref>
+                    <a>Laurel, MD</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/seo-services-ocean-city" passHref>
+                    <a>Ocean City, MD</a>
+                  </Link>
+                </li>
+                <li>Odenton, MD</li>
+                <li>Owings Mills, MD</li>
+              </ul>
+              <ul>
+                <li>Rockville, MD</li>
+                <li>
+                  <Link href="/seo-services-salisbury-md" passHref>
+                    <a>Salisbury, MD</a>
+                  </Link>
+                </li>
+                <li>Takoma Park, MD</li>
+                <li>Waldorf, MD</li>
+                <li>
+                  <Link href="/dc-seo" passHref>
+                    <a>Washington, DC</a>
+                  </Link>
+                </li>
+              </ul>
             </div>
+          </div>
+          <div className="btn">
+            <a href="tel:+2402660588">
+              <Button>Call (240) 266-0588 today!</Button>
+            </a>
           </div>
         </section>
       </MainLayout>
