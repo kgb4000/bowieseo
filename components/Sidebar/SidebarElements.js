@@ -83,9 +83,10 @@ export const SidebarBtnWrap = styled.div`
 export const SidebarBtnLink = styled(Link)``
 
 export const SidebarBtnLinkA = styled.a`
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 900;
   border-radius: 5px;
-  background-color: #ff5200;
+  background-color: #cf0a0a;
   white-space: nowrap;
   padding: 1rem 1.8rem;
   color: #fff;

@@ -291,7 +291,7 @@ const SubmitButton = styled(Button)`
   width: 100%;
   margin: 0.5rem 0;
   color: #fff;
-  background: #ff5200;
+  background: #cf0a0a;
   text-align: center;
 `
 

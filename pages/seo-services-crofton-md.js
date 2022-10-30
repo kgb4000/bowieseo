@@ -60,7 +60,7 @@ export default function CroftonMD() {
             Keep losing Money every month or start doing SEO and make money:
             choose now
           </h2>
-          <div className="container grid">
+          <div className="medium-container grid">
             <div>
               <p>
                 You're trying to figure out how to get more leads and customers
@@ -108,15 +108,16 @@ export default function CroftonMD() {
             </div>
             <img
               src="/images/seo-services-crofton-md.jpg"
+              className="page-img-left"
               alt="Business owner thinking about getting SEO Services for his business in Crofton, MD"
               title="Business owner thinking about getting SEO Services in Crofton Maryland"
             />
           </div>
         </section>
         <section className="dots-background">
-          <div className="container">
+          <div className="medium-container">
             <div className="offer-section">
-              <h2>
+              <h2 className="title">
                 Are You Showing up in the Crofton SERPs When People Search for
                 Your Services?
               </h2>
@@ -144,7 +145,7 @@ export default function CroftonMD() {
         </section>
         <section>
           <div className="services-container">
-            <h2>Our Crofton MD SEO Services</h2>
+            <h2 className="title">Our Crofton MD SEO Services</h2>
             <p className="sub-text">
               Our Crofton SEO services help small businesses in Crofton increase
               search traffic, online visibility, and SEO performance.
@@ -247,14 +248,16 @@ export default function CroftonMD() {
         </section>
         <section className="reasons-section">
           <div className="medium-container">
-            <h2>7 Reasons Why Crofton Business Owners must Invest In SEO</h2>
+            <h2 className="title">
+              7 Reasons Why Crofton Business Owners must Invest In SEO
+            </h2>
             <p className="center">
               Crofton business owners need SEO to compete online. Partner with
               an SEO company that can build your lead-gen system that will boost
               your business presence, and bring more leads and customers.
             </p>
           </div>
-          <div className="container">
+          <div className="medium-container">
             <ReasonSec>
               <div>
                 <h3>#1. SEO Can Get Leads and Sales 24 Hours a Day</h3>
@@ -337,7 +340,7 @@ export default function CroftonMD() {
         </section>
         <section>
           <div className="medium-container">
-            <h2>
+            <h2 className="title">
               How Does Search Engine Optimization Work, and How Can it Help
               Crofton Business Owners?
             </h2>
@@ -399,13 +402,15 @@ export default function CroftonMD() {
         </section>
         <section className="why-work-with-us-section">
           <div className="medium-container">
-            <h2>With Other SEO Companies in Crofton, Why Work With Us?</h2>
+            <h2 className="title">
+              With Other SEO Companies in Crofton, Why Work With Us?
+            </h2>
             <p className="sub-text">
               Work with Bowie SEO and experience the difference between our
               company and other SEO companies.
             </p>
           </div>
-          <div className="container">
+          <div className="medium-container">
             <ReasonSec>
               <div>
                 <h3>#1. We Create Customized SEO Solutions</h3>
@@ -479,7 +484,7 @@ export default function CroftonMD() {
             ]}
           />
           <div className="medium-container">
-            <h2>Frequently Asked Questions</h2>
+            <h2 className="title">Frequently Asked Questions</h2>
             <div className="faq-questions">
               <section>
                 <h3>#1. How Much Does Local SEO Services Cost?</h3>

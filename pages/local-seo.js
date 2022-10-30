@@ -43,7 +43,7 @@ const LocalSEO = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <PageHero
-          heading="Local SEO Services"
+          heading="Search Engine Optimization"
           subText="Get Local SEO services and get more customers to call your business instead of calling someone else."
           heroBtnLink="tel:+2402660588"
           buttonText="Call (240) 266-0588"

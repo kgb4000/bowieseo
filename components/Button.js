@@ -1,13 +1,12 @@
 import styled from 'styled-components'
 
 const Button = styled.button`
-  font-size: 0.8rem;
-  padding: 1rem 1.4rem;
-  white-space: nowrap;
+  font-size: 1rem;
+  padding: 1.6rem 2.6rem;
   cursor: pointer;
-  background-color: #ff5200;
+  background-color: #cf0a0a;
   color: #fff;
-  border: 2px solid #ff5200;
+  border: none;
   text-transform: uppercase;
   transition: all 0.2s ease-in-out;
   letter-spacing: 1px;
@@ -19,10 +18,12 @@ const Button = styled.button`
   border-radius: 5px;
   display: inline-block;
   text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  outline: none;
 
   &:hover {
-    border-color: #d55e0f;
-    background-color: #d55e0f;
+    background-color: #cf0a0a;
   }
 
   @media (min-width: 768px) {

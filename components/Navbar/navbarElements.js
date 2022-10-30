@@ -30,22 +30,14 @@ export const NavbarContainer = styled.nav`
     max-width: 100%;
   }
 `
-// export const NavLogo = styled.div`
-//   color: #000;
-//   font-size: 1.5rem;
-//   font-weight: 900;
-//   align-self: center;
-//   font-weight: bold;
-//   text-decoration: none;
-//   cursor: pointer;
-// `
 
 export const NavLogo = styled.div`
   font-size: 1.5rem;
   font-weight: 900;
   align-self: center;
-  font-weight: bold;
+  font-weight: 900;
   cursor: pointer;
+  font-family: Poppins, san-serif;
 
   a {
     color: #000;
@@ -67,7 +59,7 @@ export const MobileIcon = styled.div`
 
 export const NavMenu = styled.ul`
   display: flex;
-  align-items: centere;
+  align-items: center;
   list-style: none;
   text-align: center;
   margin-right: -22px;
@@ -84,7 +76,7 @@ export const NavItem = styled.li`
 
 export const NavLinks = styled(Link)`
   &:active {
-    border-bottom: 3px solid #ff5200;
+    border-bottom: 3px solid #cf0a0a;
   }
 `
 
@@ -98,7 +90,7 @@ export const NavLinksA = styled.a`
   cursor: pointer;
 
   &:hover {
-    border-bottom: 3px solid #ff5200;
+    border-bottom: 3px solid #cf0a0a;
   }
 `
 
@@ -110,20 +102,18 @@ export const NavBtn = styled.div`
 
 export const NavBtnLink = styled.div`
   border-radius: 5px;
-  background: #f16232;
+  background: #cf0a0a;
   white-space: nowrap;
-  font-size: 16px;
   outline: none;
   border: none;
   cursor: pointer;
   text-decoration: none;
-  border: 2px solid #ff5200;
+  border: none;
 
   &:hover {
     background-color: #fff;
     color: #000;
     border: none;
-    border: 2px solid #ff5200;
   }
 `
 
@@ -136,7 +126,7 @@ export const BtnLinksA = styled.a`
   height: 100%;
   cursor: pointer;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
 
   &:hover {

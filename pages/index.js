@@ -2,367 +2,167 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
-import { Suspense } from 'react'
-import dynamic from 'next/dynamic'
+import styled from 'styled-components'
 import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
-import InfoSection from '../components/InfoSection'
-import { homeObj } from '../components/InfoSection/Data'
-import {
-  resultsObj,
-  resultsObj1,
-  resultsObj2,
-  resultsObj3,
-  resultsObj4,
-  resultsObj5,
-} from '../components/ResultsSection/Data/Data'
-import { Card, Container, Wrapper, Contact } from '../components/CardSection'
-import ResultsSection from '../components/ResultsSection'
-
-const AuditSection = dynamic(() => import('../components/AuditSection'), {
-  suspense: true,
-})
 
 const calendly = 'https://calendly.com/bowieseo/30min'
+
+const SEOAgency = 'Bowie SEO'
 
 export default function Home({ data }) {
   return (
     <>
       <MainLayout>
         <HeroSection
-          heroBtnLink1={calendly}
-          heroBtnLink2="/free-mini-seo-audit"
+          heroText="Make Your Website a Lead Generating Magnet And Stop Paying for online ads"
+          subText="Our team can take control of your website and bring you more leads
+            and customers, so you can focus on growing your business."
+          backgroundImage="/images/bowieseo-header-img.webp"
+          backgroundHeight="100vh"
+          buttonText="Schedule a free consultation today!"
+          buttonLink={calendly}
         />
-        <section className="pain-section">
+        <section>
           <div className="medium-container">
-            <h2>Digital Marketing is Tough For Small Business Owners!</h2>
-            <div className="side-by-side">
-              <ul className="count">
-                <li>
-                  <img
-                    src="/images/paying-for-seo.svg"
-                    alt="Customers paying."
-                    className="icons filter-green"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  Paying for digital marketing that doesn't work or get you any
-                  leads or customers.
-                </li>
-                <li>
-                  <img
-                    src="/images/customers.svg"
-                    alt="Local customers."
-                    className="icons"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  Not getting any new leads or customers from your website you
-                  paid for.
-                </li>
-                <li>
-                  <img
-                    src="/images/losing-customers.svg"
-                    alt="Customers leaving."
-                    className="icons"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  Losing potential customers to your competition because they
-                  rank higer than you.
-                </li>
-                <li>
-                  <img
-                    src="/images/search-engines.svg"
-                    alt="Search engines."
-                    className="icons"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  Struggling to get leads because you don't know what you're
-                  doing.
-                </li>
-                <li>
-                  <img
-                    src="/images/search-engines.svg"
-                    alt="Location icon"
-                    className="icons"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  Not appearing in Google's organic search listings or the Map
-                  Pack.
-                </li>
-                <li>
-                  <img
-                    src="/images/seo-experts.svg"
-                    alt="Location icon"
-                    className="icons"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  <p>
-                    Following so called expert advice and not getting any real
-                    results.
-                  </p>
-                </li>
-              </ul>
+            <div className="grid">
+              <div>
+                <h2>Is Your Business Struggling With the Following?</h2>
+                <ul>
+                  <li>
+                    Struggling to get leads and customers from your website?
+                  </li>
+                  <li>
+                    Experiencing stagnant sales and revenue numbers every month
+                  </li>
+                  <li>
+                    Competitors ranking above you in Google, and you don’t know
+                    why?
+                  </li>
+                  <li>
+                    Do you feel like you’re wasting money paying for social
+                    media ads that don't work?
+                  </li>
+                  <li>
+                    Do you struggle trying to get more people to see your
+                    business online?
+                  </li>
+                  <li>
+                    Writing your website copy, service pages, and blog posts?
+                  </li>
+                  <li>
+                    Tracking your website visits, keyword rankings, backlinks,
+                    or even phone calls?
+                  </li>
+                  <li>
+                    Trying different digital marketing methods tactics on your
+                    own but nothing's working?
+                  </li>
+                  <li>
+                    Losing sleep because you’re not bringing in enough money to
+                    stay in business?
+                  </li>
+                  <li>Not knowing who to trust?</li>
+                </ul>
+                <p>We can help.</p>
+                <p>
+                  We're Bowie SEO, a{' '}
+                  <Link href="/maryland-seo-company" passHref>
+                    <a>Maryland SEO Company</a>
+                  </Link>{' '}
+                  in Bowie, MD, and we can show you how to fix your website so
+                  you can attract more leads and customers without paying for
+                  ads.
+                </p>
+              </div>
+              <img
+                src="/images/bowie-seo.webp"
+                className="page-img-left"
+                width="1000px"
+                height="600px"
+                alt="A business owner considering working with our SEO company to get his own leads without paying for online ads."
+                title="A business owner considering working with our SEO company to get his own leads without paying for online ads."
+              />
             </div>
             <div className="btn">
-              <a href="tel:+2402660588">
-                <Button>Call (240) 266-0588</Button>
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule Your Free Consultation Today!</Button>
               </a>
             </div>
           </div>
         </section>
-        <InfoSection {...homeObj} />
-        <Suspense fallback={`loading`}>
-          <AuditSection />
-        </Suspense>
-        <section className="not-struggling-section">
+        <section>
           <div className="medium-container">
-            <h2>You Don't Have to Struggle Anymore... Bowie SEO Can Help</h2>
-            <div>
-              <ul className="count">
-                <li>
-                  <img
-                    src="/images/searching.svg"
-                    alt="Location icon"
-                    className="icons"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  Let customers searching for your skills and services find your
-                  business first when searching.
-                </li>
-                <li>
-                  <img
-                    src="/images/web-presence.svg"
-                    alt="Location icon"
-                    className="icons"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  Build your web presence and take customers back from your
-                  competitors.
-                </li>
-                <li>
-                  <img
-                    src="/images/leads.svg"
-                    alt="Location icon"
-                    className="icons"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  Start getting leads and customers from your website,{' '}
-                  <span className="highlight">[What it was meant to do]</span>.
-                </li>
-                <li>
-                  <img
-                    src="/images/rank-higher.svg"
-                    alt="Rank higher than your competiton."
-                    className="icons"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  Beat your competition and become the go to company in your
-                  local area, city or town.
-                </li>
-                <li>
-                  <img
-                    src="/images/website.svg"
-                    alt="Create websites that attract customers."
-                    className="icons"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  Make your website a magnet and attract your ideal customers
-                  and existing customers.
-                </li>
-                <li>
-                  <img
-                    src="/images/partner.svg"
-                    alt="Partner with local SEO agency."
-                    className="icons filter-green"
-                    loading="lazy"
-                    width="100px"
-                    height="100px"
-                  />
-                  Partner with an SEO agency that can help your business grow,
-                  get customers and more leads.
-                </li>
-              </ul>
+            <div className="grid">
+              <img
+                src="/images/happy-bowie-seo-client.webp"
+                className="page-img"
+                width="1000px"
+                height="600px"
+                alt="A business owner considering working Bowie SEO to get his own leads without paying for online ads."
+                title="A happy business owner working with Bowie SEO to get his own leads without paying for online ads."
+              />
+              <div>
+                <h2>
+                  Build Your Own Lead-Generating Website and Stop Paying For
+                  Expensive Social Media and PPC Ads
+                </h2>
+                <p>
+                  Let's face it, online ads are getting expensive, and prices
+                  keep going up.
+                </p>
+                <p>But you don't have to pay for ads.</p>
+                <p>
+                  You can build your own lead-generating website and use search
+                  engine optimization to do it.
+                </p>
+                <p>
+                  With search engine optimization, you can increase your leads,
+                  sales and revenue for your business without paying for
+                  expensive online ads.
+                </p>
+                <p>With Search engine optimization you will:</p>
+                <ul className="check-mark">
+                  <li>
+                    Get free organic traffic coming to your website without
+                    paying for ads
+                  </li>
+                  <li>Increase you leads, sales and revenue</li>
+                  <li>Get more phone calls</li>
+                  <li>Establish your business as the leader and expert</li>
+                  <li>
+                    Get on the first page of Google and get more local customers
+                    requesting your services
+                  </li>
+                  <li>
+                    Grow your online visibility and let more potential customers
+                    see your business
+                  </li>
+                  <li>
+                    Rank higher than your competition in Google search results
+                    and let customers find your business instead of your
+                    competitors'
+                  </li>
+                </ul>
+              </div>
             </div>
-            <h2>Let's Talk</h2>
-            <p className="sub-text">
-              Let's talk about how Bowie SEO can help your business grow.
-            </p>
-          </div>
-          <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Book a call today!</Button>
-            </a>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule Your Free Consultation Today!</Button>
+              </a>
+            </div>
           </div>
         </section>
-        {/* <section>
+        <section>
           <div className="container">
-            <h2>How We Can Help Your Business Succeed Online</h2>
-            <p>
-              We know how it is to have a website that gets any leads, sales or
-              any traffic. We've helped may businesses increase their traffic
-              and grow their online visibility. Show up in the organice search
-              results and the Google Map Pack, and let your customers find your
-              skills and services.
-            </p>
-          </div>
-        </section> */}
-        {/* <section className="why-use-seo-section">
-          <div className="medium-container">
             <h2 className="title">
-              5 Reasons Small Businesses Need Search Engine Optimization in 2022
+              Our Services Boost Your SEO Rankings and Get You to The First Page
+              of Google
             </h2>
-            <h3>#1. Google Works 24/7 365</h3>
-            <p>Google never sleeps.</p>
-            <p>
-              Google never stops working. It is constantly indexing new content,
-              scanning the internet for changes, and updating its algorithms.
-              This means that your website needs to be optimized for search
-              engines in order to rank higher in search results.
-            </p>
-            <p>
-              The algorithm that governs how sites are ranked is always
-              changing. In fact, there have been over 3,200 updates to the
-              Google algorithm since it was first created! This means that SEO
-              is an ongoing process, and you can’t afford to let your site fall
-              behind.
-            </p>
-            <p>
-              SEO is important because it can help your website rank higher in
-              search engine results pages (SERPs). Higher rankings can lead to
-              increased traffic and higher brand awareness.
-            </p>
-            <h3>#2. You Need to be Found</h3>
-            <p>
-              If you want people to find your website, you need to be visible in
-              search engine results pages. SEO can help you achieve this by
-              improving your website’s ranking for relevant keywords.
-            </p>
-            <p>
-              When potential customers search for products or services like
-              yours, they are more likely to find your website if it is ranked
-              highly in search results. This can lead to increased traffic and
-              higher brand awareness.
-            </p>
-            <p>
-              SEO is a long-term strategy that should be incorporated into your
-              overall marketing plan. It is not a quick fix, but it can have a
-              significant impact on your website’s visibility and traffic over
-              time.{' '}
-            </p>
-            <p>
-              Also,{' '}
-              <a
-                href="https://seoexpertbrad.com/local-seo-stats/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                92% of people
-              </a>{' '}
-              will pick businesses on the first page of local search results.
-            </p>
-
-            <h3>#3. SEO Can Help You Get More Web Traffic</h3>
-            <p>
-              One of the main benefits of SEO is that it can help you increase
-              traffic to your website. This is because higher rankings in search
-              engine results pages can lead to more clicks and higher web
-              traffic.
-            </p>
-            <p>
-              More web traffic can lead to increased sales or leads, and higher
-              brand awareness. SEO is a long-term strategy that should be
-              incorporated into your overall marketing plan. It is not a quick
-              fix, but it can have a significant impact on your website’s
-              visibility and traffic over time.{' '}
-            </p>
-            <h3>#4. Search Engines Are Not Going Anywhere Anytime Soon</h3>
-            <p>Search engines are not going anywhere.</p>
-            <p>
-              As long as people use the internet, every business will need SEO
-              if they want to reach customers.
-            </p>
-            <p>Why?</p>
-            <p>
-              Because 93% of online experiences begin with search engines, and{' '}
-              <a
-                href="https://www.seroundtable.com/google-46-of-searches-have-local-intent-26529.html"
-                target="_blank"
-                rel="noreferrer"
-              >
-                46% of Google searches
-              </a>{' '}
-              are looking for local information.
-            </p>
-            <p>
-              When people search for your services, your business will not
-              appear in the search results without doing search engine
-              optimization.
-            </p>
-            <h3>#5. SEO Can Help You Save Tons of Money</h3>
-            <p>
-              SEO can also help you save money. This is because it is a
-              cost-effective marketing strategy. SEO can help you increase
-              traffic and improve your brand awareness without the need for paid
-              advertising.
-            </p>
-            <p>
-              This means that you can save money on paid advertising campaigns,
-              and instead focus on other marketing strategies. SEO is a
-              long-term strategy that should be incorporated into your overall
-              marketing plan. It is not a quick fix, but it can have a
-              significant impact on your website’s visibility and traffic over
-              time.{' '}
-            </p>
-
-            <hr></hr>
-            <p>
-              SEO is an important part of any marketing strategy. It can help
-              you improve your website’s ranking, increase traffic, and improve
-              your brand awareness. SEO is a long-term strategy that should be
-              incorporated into your overall marketing plan. It is not a quick
-              fix, but it can have a significant impact on your website’s
-              visibility and traffic over time.{' '}
-            </p>
-            <p>
-              If you want to improve your website’s ranking, increase traffic,
-              and improve your brand awareness, you need to start incorporating
-              SEO into your overall marketing plan.
-            </p>
-          </div>
-          <div className="btn">
-            <a href="tel:+2402660588">
-              <Button>Call (240) 266-0588</Button>
-            </a>
-          </div>
-        </section> */}
-        <section className="our-services-section">
-          <div className="services-container">
-            <h2 className="title">Our SEO Services</h2>
-            <p className="sub-text">
-              We provide SEO to businesses in{' '}
+            <p className="subtext">
+              We provide SEO services to home servie businesses in{' '}
               <Link href="/maryland-seo-company" passHref>
                 <a>Maryland</a>
               </Link>
@@ -372,177 +172,431 @@ export default function Home({ data }) {
               </Link>{' '}
               .
             </p>
-            <div className="services">
-              <Container>
-                <Link href="/local-seo" passHref>
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/local.svg"
-                        alt="Keyword ranking image"
-                        loading="lazy"
-                      />
-                      <h3>Local SEO</h3>
-                      <p>
-                        Your local customers are looking for your skills and
-                        services on Google. Make sure they find your company and
-                        not someone else.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </Link>
-                <Link href="/technical-seo" passHref>
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/thinking.svg"
-                        alt="Woman thiniking about getting a free mini SEO audit."
-                        loading="lazy"
-                      />
-                      <h3>Technical SEO</h3>
-                      <p>
-                        Fix the technical issues that are stopping your website
-                        from ranking higher and performing in the search
-                        engines.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </Link>
-                <Link href="/seo-audit" passHref>
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/audit.svg"
-                        alt="SEO audit image."
-                        loading="lazy"
-                      />
-                      <h3>SEO Audit</h3>
-                      <p>
-                        Do an SEO Audit and see why you're not ranking on the
-                        first page of Google and what you must fix to help you
-                        get on the first page.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </Link>
-              </Container>
-            </div>
-            <div className="btn">
-              <Link href="/seo-services" passHref>
-                <Button>More Services</Button>
-              </Link>
-            </div>
+            <Service>
+              <div className="service-card">
+                <img
+                  src="/images/maryland-seo-company.webp"
+                  alt="Search engine optimization"
+                  width="1000px"
+                  height="665px"
+                />
+                <div className="service">
+                  <h3>Search Engine Optimization</h3>
+                  <p>
+                    Use search engine optimization to stand out from your
+                    competition and get found when it counts. Let your customers
+                    find your business, not your competitors.
+                  </p>
+                </div>
+              </div>
+              <div className="service-card">
+                <img
+                  src="/images/google-my-business.webp"
+                  alt="Google My Business Management"
+                  width="1000px"
+                  height="665px"
+                />
+                <div className="service">
+                  <h3>GMB Management</h3>
+                  <p>
+                    An optimized Google My Business page is crucial for you to
+                    rank locally. Let us manage your GMB profile and use our
+                    experience to boost your SEO performance.
+                  </p>
+                </div>
+              </div>
+              <div className="service-card">
+                <img
+                  src="/images/seo-audit.webp"
+                  alt="Free Mini SEO Audit"
+                  width="1000px"
+                  height="665px"
+                />
+                <div className="service">
+                  <h3>Free Mini SEO Audit</h3>
+                  <p>
+                    Get a free mini SEO audit on us and see how you can improve
+                    your SEO rankings and performance to increase your sales and
+                    revenue.
+                  </p>
+                </div>
+              </div>
+            </Service>
           </div>
         </section>
-        <section className="results-driven-process-section">
+        <section>
           <div className="medium-container">
-            <h2>Our Results Driven Process</h2>
-            <p className="sub-text">
-              How do we get you results? We use our six-step process to generate
-              measurable results. Years of helping clients achieve the success
-              they want have helped us hone and refine this process.
-            </p>
-            <hr></hr>
-          </div>
-          <ResultsSection {...resultsObj} />
-          <ResultsSection {...resultsObj1} />
-          <ResultsSection {...resultsObj2} />
-          <ResultsSection {...resultsObj3} />
-          <ResultsSection {...resultsObj4} />
-          <ResultsSection {...resultsObj5} />
-        </section>
-        <section className="pain-section">
-          <div className="services-container">
-            <h2>Working With Us is a Breeze</h2>
-            <p className="sub-text">
-              It's easy to work with us. If you want to use SEO to increase your
-              website traffic, online visibility, leads and customers, contact
-              us.
-            </p>
-            <Wrapper>
-              <Contact>
-                <h3>Contact us to Discuss a Strategy</h3>
-                <img
-                  src="/images/phone-call.svg"
-                  alt="Call us."
-                  className="icons"
-                  loading="lazy"
-                />
+            <div className="grid">
+              <img
+                src="/images/home-service-business.webp"
+                className="page-img"
+                alt="Maryland SEO company"
+                title="Home service businesses we work with."
+              />
+              <div>
+                <h2>Home Service Businesses We Work With</h2>
                 <p>
-                  Book a call with us and tell us about your business and what
-                  you want to acheive.
+                  We work with home service businesses that provide services to
+                  customers homes. Our goal is to help home service businesses
+                  like yours increase your online presence and your
+                  profitability.
                 </p>
-              </Contact>
-              <Contact>
-                <h3>We Analyze and Create a Plan</h3>
-                <img
-                  src="/images/plan.svg"
-                  alt="We create a plan."
-                  className="icons"
-                  loading="lazy"
-                />
+                <Businesses>
+                  <Business>
+                    <img
+                      src="/images/icons/asphalt-paving-contractor.png"
+                      className="business-icon"
+                      alt="Businesses our company works with - Asphalt paving companies."
+                      title="Businesses we work with - Asphalt paving companies."
+                    />
+                    <p>Asphalt Paving Companies</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/plumbing-contractors.png"
+                      className="business-icon"
+                      alt="Businesses our company works with - Plumbing Contractors."
+                      title="Businesses our company works with - Plumbing Contractors."
+                    />
+                    <p>Plumbing Contractors</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/hvac-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - HVAC Contractors."
+                      title="Businesses we work with - HVAC Contractors."
+                    />
+                    <p>HVAC Contractors</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/roofing-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Roofing Contractors."
+                      title="Businesses we work with - Roofing Contractors."
+                    />
+                    <p>Roofing Contractors</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/landscaping-companies.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Landscaping Companies."
+                      title="Businesses we work with - Landscaping Companies."
+                    />
+                    <p>Landscaping Companies</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/pest-control-companies.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Pest Control Companies."
+                      title="Businesses we work with - Pest Control Companies."
+                    />
+                    <p>Pest Control Companies</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/electrical-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Electrical Contractors."
+                      title="Businesses we work with - Electrical Contractors."
+                    />
+                    <p>Electrical Contractors</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/swimming-pool-builders.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Swimming Pool Builders."
+                      title="Businesses we work with - Swimming Pool Builders."
+                    />
+                    <p>Swimming Pool Builders</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/junk-removal-companies.png"
+                      className="business-icon"
+                      alt="Asphalt paving companies - Businesses we work with."
+                      title="Businesses we work with - Asphalt paving companies."
+                    />
+                    <p>Junk Removal Companies</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/general-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - General Contractors."
+                      title="Businesses we work with - General Contractors."
+                    />
+                    <p>General Contractors</p>
+                  </Business>
+                </Businesses>
                 <p>
-                  We analyze and do research on your industry, your business and
-                  your competitors' data.
+                  Call us today and let’s see how we can help find opportunities
+                  to help boost your sales and revenue.
                 </p>
-              </Contact>
-              <Contact>
-                <h3>We Execute and Do the Work</h3>
-                <img
-                  src="/images/work-together.svg"
-                  alt="We execute our plan and do the work."
-                  className="icons"
-                  loading="lazy"
-                />
-                <p>
-                  We build a SEO strategy that will lead to positive results and
-                  bring new opportunities to light.
-                </p>
-              </Contact>
-            </Wrapper>
+              </div>
+            </div>
             <div className="btn">
-              <a href="tel:+2402660588">
-                <Button>Call (240) 266-0588</Button>
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule a Free Consultation Today!</Button>
               </a>
             </div>
           </div>
         </section>
-        <section className="pain-section">
+        <section>
           <div className="container">
-            <h2>What Our Clients Say...</h2>
-            <div className="testimonial">
-              <div className="content">
-                <p>
-                  Before, I had no idea what search engine optimization was, how
-                  it worked, or if it was right for my business. Thanks to Bowie
-                  SEO, I now know what SEO is and how powerful it is. I never
-                  got leads from my website before. Now I get leads almost every
-                  week.
-                </p>
-                <div className="author">
-                  <img
-                    src="
-                    https://res.cloudinary.com/browne-company/image/upload/q_auto/v1631816208/monica_cqphqb.jpg"
-                    alt="Monica Browne"
-                    loading="lazy"
-                    width="50px"
-                    height="50px"
-                  />
-                  <div>
-                    <p className="author-name">Monica Browne</p>
-                    <p>Wedding Planner</p>
-                  </div>
+            <h2 className="title">What You Get When Your Work With Us</h2>
+            <p className="subtext">When you work with Bowie SEO, you get:</p>
+          </div>
+          <div className="medium-container">
+            <Deliverables>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                />
+                <div>
+                  <h3>Individual Support</h3>
+                  <p>
+                    We work with you one-on-one and help you get to the top of
+                    Google.
+                  </p>
                 </div>
-              </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get keyword research."
+                />
+                <div>
+                  <h3>Keyword Research</h3>
+                  <p>
+                    We find the best, most profitable, and most relevant
+                    keywords that will bring you customers and sales. We build a
+                    keyword database that you use to target and build content.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google My Business Management."
+                />
+                <div>
+                  <h3>GMB Management</h3>
+                  <p>
+                    Let’s boost your local SEO game by managing your Google My
+                    Business page. Get a fully optimized GMB page so that you
+                    appear at the top of the map pack and the local search
+                    results.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google Analytics and Google Search Console set up."
+                />
+                <div>
+                  <h3>Google Analytics and Google Console Setup</h3>
+                  <p>
+                    Get free expert advice and support from our team of SEO
+                    experts, available to answer all your questions via email or
+                    on a call. We’re here to help you grow your business, boost
+                    your ranking, and increase your online presence.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get a website audit."
+                />
+                <div>
+                  <h3>Website Audit</h3>
+                  <p>
+                    Discover the elements stopping your website from ranking and
+                    getting you the leads and customers you need. Our SEO audit
+                    will show you the exact issues that must be fixed for your
+                    SEO campaign to succeed.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get local SEO."
+                />
+                <div>
+                  <h3>Local SEO</h3>
+                  <p>
+                    Local SEO gets your website in front of local customers when
+                    it counts. We optimize your website, so local customers find
+                    your business, not your competitors. Get optimized content,
+                    a fast website, a better user experience, and more so you
+                    rank on the first page above your competitors.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get weekly updates."
+                />
+                <div>
+                  <h3>Weekly Updates</h3>
+                  <p>
+                    We update you weekly so you’ll always know what we’re doing.
+                    You’ll always know what we’re doing, or progress, and even
+                    our struggles and issues.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get content / service page creation and optimization."
+                />
+                <div>
+                  <h3>Content / Service Page Creation / Optimization</h3>
+                  <p>
+                    We write content and service pages for your website, so you
+                    don’t have to. We use data from our SEO audit, keyword
+                    research, and competitor analysis to write the best pages
+                    that bring the most sales and revenue.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get to know everything we're doing- 100% transparency."
+                />
+                <div>
+                  <h3>100% Transparency</h3>
+                  <p>
+                    You’ll never have to wonder, ‘What are those SEO guys
+                    doing?’ We’ll keep you informed 100%. We’ll send you weekly
+                    email updates, so you know we’re working and that your SEO
+                    campaign is working.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                />
+                <div>
+                  <h3>Tracking and Monitoring</h3>
+                  <p>
+                    We track and monitor your progress to ensure your campaign
+                    delivers positive results: more traffic to your website,
+                    more customers, more sales, and more revenue. We use tools
+                    like Google Analytics, Google Search Console, Ahrefs, and
+                    SEMRush.
+                  </p>
+                </div>
+              </Deliverable>
+            </Deliverables>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule Your Free Consultation Today!</Button>
+              </a>
             </div>
           </div>
         </section>
-        <section className="faq-section">
+        <div className="container">
+          <img
+            src="/images/bowie-seo-firm.webp"
+            className="page-img"
+            width="1000px"
+            height="600px"
+            alt="Work with our SEO firm to increase your online visibility."
+            title="Work with our SEO firm to increase your online visibility."
+          />
+        </div>
+        <section>
+          <div className="container">
+            <h2 className="title">Why Work With Bowie SEO?</h2>
+            <p className="subtext">
+              Save time and money, and acheive your sales and revenue goals by
+              working with Bowie SEO specialists. We work only for you, not your
+              competition.
+            </p>
+            <Service>
+              <div className="service-card">
+                <img
+                  src="/images/save-time.webp"
+                  alt="Search engine optimization"
+                  width="1000px"
+                  height="665px"
+                />
+                <div className="service">
+                  <h3>Focus On Running Your Business, not on doing SEO</h3>
+                  <p>
+                    Save time and focus on running your business, not on
+                    tracking keyword rankings and search engine algorithm
+                    changes.
+                  </p>
+                </div>
+              </div>
+              <div className="service-card">
+                <img
+                  src="/images/google-my-business.webp"
+                  alt="Google My Business Management"
+                  width="1000px"
+                  height="665px"
+                />
+                <div className="service">
+                  <h3>Save Money With Advanced Digital Marketing</h3>
+                  <p>
+                    Save money with the best digital marketing methods that are
+                    proven to incease your website traffic and leads, and
+                    increase your sales and revenue.
+                  </p>
+                </div>
+              </div>
+              <div className="service-card">
+                <img
+                  src="/images/digital-marketing-team.webp"
+                  alt="Free Mini SEO Audit"
+                  width="1000px"
+                  height="665px"
+                />
+                <div className="service">
+                  <h3>Have Your Own Dedicated SEO Specialists</h3>
+                  <p>
+                    Have your own team of SEO specialist helping grow your
+                    business. Find new opportunities to rank higher in the
+                    search results so customers find your website.
+                  </p>
+                </div>
+              </div>
+            </Service>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule Your Free Consultation Today!</Button>
+              </a>
+            </div>
+          </div>
+        </section>
+        {/* <section>
           <div className="medium-container">
-            <h2>Frequently Asked Questions</h2>
+            <h2 className="title">Frequently Asked Questions</h2>
             <div className="faq-questions"></div>
             <ul>
               <h3>#1. What is SEO?</h3>
@@ -683,8 +737,221 @@ export default function Home({ data }) {
               </p>
             </ul>
           </div>
+        </section> */}
+        <section>
+          <div className="medium-container">
+            <h2 className="title">Frequently Asked Questions</h2>
+            <ReasonSec>
+              <div>
+                <div className="question">
+                  <h3>Why Do I Need SEO?</h3>
+                  <p>
+                    If you want to reach more potential customers and want them
+                    to see your business when they search for your services,
+                    you’ll need an SEO strategy.
+                  </p>
+                  <h3>How Do You Know If You Need Local SEO?</h3>
+                  <p>
+                    You need local SEO if the customers you serve are in the
+                    same location or city as your business. If you want to
+                    target customers in surrounding cities, you’ll still need
+                    local SEO.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>What is the Cost of SEO?</h3>
+                  <p>
+                    SEO services start at $1000 - $5000 for local businesses.
+                    This depends on the type of business, the competition, the
+                    location, and the marketing budget.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>Why Does SEO Cost So Much?</h3>
+                  SEO is so expensive for three reasons:
+                  <ul>
+                    <li>It takes time to show results</li>
+                    <li>
+                      It requires a lot of resources to build and maintain a
+                      campaign
+                    </li>
+                    <li>
+                      It often relies on the expertise of an SEO specialist to
+                      develop and grow your strategy
+                    </li>
+                  </ul>
+                </div>
+                <div className="question">
+                  <h3>What is the Difference between SEO and Local SEO</h3>
+                  <p>
+                    In short, SEO (search engine optimization) is the process of
+                    improving the visibility and ranking of your website in
+                    search engine results pages (SERPs). Local SEO, on the other
+                    hand, is focused on optimizing your website for local search
+                    results.{' '}
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div className="question">
+                  <h3>How Long Does SEO Take Before You See Results?</h3>
+                  <p>
+                    SEO can take three to six months before you see any results
+                    from your campaign. This depends on the location, the
+                    competition, and any website authority your business has
+                    already. Remember that SEO is a long-term strategy and will
+                    pay off long after you’ve started. The main thing is to
+                    start.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>How Long is Your Contract for Doing SEO?</h3>
+                  <p>Our contracts are month-to-month.</p>
+                  <p>
+                    You can cancel your contract 30 day prior to the end of the
+                    month.
+                  </p>
+                  <p>
+                    But why would you cancel if you’re making more money after
+                    you hired us?
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>Can You Guarantee Me #1 Rankings?</h3>
+                  <p>We cannot guarantee first-place rankings.</p>
+                  <p>No one can.</p>
+                  <p>
+                    No one can guarantee rankings because no one knows how the
+                    search algorithm works and because it is always changing.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>Do You Have to Change Anything on My Website?</h3>
+                  <p>Sometimes we do.</p>
+                  <p>
+                    If your website is not user-friendly, or we have to improve
+                    user experience to help improve your SEO, we will advise
+                    that you make changes. Examples of changes would be adding
+                    clickable phone numbers, adding more pages, and improving
+                    the design of the web page.
+                  </p>
+                </div>
+              </div>
+            </ReasonSec>
+          </div>
         </section>
+        <div className="call-to-action-grid">
+          <img
+            src="/images/smiling-businessman-calling-maryland-seo-company.webp"
+            alt="Man calling our Maryland SEO company."
+            width="1000px"
+            height="65px"
+          />
+          <div className="container">
+            <h2>Ready to Boost Your Sales and Revenue?</h2>
+            <p>
+              Contact {SEOAgency} and we'll show you how search engine
+              optimization can help get leads without paying for online ads.
+            </p>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule a Free Consultation!</Button>
+              </a>
+            </div>
+          </div>
+        </div>
       </MainLayout>
     </>
   )
 }
+
+const ReasonSec = styled.div`
+  @media screen and (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+`
+
+const Service = styled.div`
+  .service-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    margin-bottom: 4rem;
+    @media screen and (min-width: 1024px) {
+      box-shadow: 13px 20px 0;
+    }
+
+    img {
+      margin: 0;
+      border-radius: 20px 20px 0 0;
+    }
+
+    .service {
+      padding: 2rem 2rem;
+
+      h3 {
+        margin-top: 0;
+      }
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+`
+
+const Businesses = styled.div`
+  margin: 2rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+`
+
+const Business = styled.div`
+  text-align: center;
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #eee;
+  box-shadow: 10px 10px 0px #000;
+
+  img {
+    width: 4rem;
+    margin: 0 auto;
+  }
+
+  p {
+    margin-top: 1rem;
+    font-weight: 900;
+  }
+`
+
+const Deliverables = styled.div`
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+`
+
+const Deliverable = styled.div`
+  margin: 1rem 0;
+  display: flex;
+
+  img.check {
+    margin: 0;
+    margin-right: 1.5rem;
+    width: 54px;
+    height: 54px;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+  }
+`

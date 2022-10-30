@@ -53,11 +53,11 @@ export default function OceanCitySEO() {
           heading="SEO Services Salisbury, MD [Get More Leads and Boost Revenue]"
           subText="We provide SEO solutions to help businesses in Salisbury grow. We use our SEO knowledge to help attract more customers and increase sales for your business."
           heroBtnLink="/contact"
-          buttonText="Book a free consultation"
+          buttonText="Schedule a free consultation today!"
         />
         <section className="article-section">
-          <h2 className="title">SEO Services in Salisbury Maryland</h2>
-          <div className="container grid">
+          <h2 className="title">SEO Services in Salisbury MD</h2>
+          <div className="medium-container grid">
             <div>
               <p>
                 You're trying to figure out how to get more leads and customers
@@ -105,15 +105,16 @@ export default function OceanCitySEO() {
             </div>
             <img
               src="/images/seo-services-salisbury-md.jpg"
+              className="page-img-left"
               alt="Business owner thinking about getting SEO Services in Salisbury Maryland"
               title="Business owner thinking about getting SEO Services in Salisbury Maryland"
             />
           </div>
         </section>
         <section className="dots-background">
-          <div className="container">
+          <div className="medium-container">
             <div className="offer-section">
-              <h2>
+              <h2 className="title">
                 Are You Showing up in the Salisbury SERPs When People Search for
                 Your Services?
               </h2>
@@ -141,7 +142,7 @@ export default function OceanCitySEO() {
         </section>
         <section>
           <div className="services-container">
-            <h2>Our Salisbury MD SEO Services</h2>
+            <h2 className="title">Our Salisbury MD SEO Services</h2>
             <p className="sub-text">
               Our Salisbury SEO services help small businesses in Salisbury
               increase search traffic, online visibility, and SEO performance.
@@ -244,14 +245,17 @@ export default function OceanCitySEO() {
         </section>
         <section className="reasons-section">
           <div className="medium-container">
-            <h2>7 Reasons Why Salisbury Business Owners must Invest In SEO</h2>
+            <h2 className="title">
+              7 Reasons Why Salisbury Business Owners must Invest In Search
+              Engine Optimization
+            </h2>
             <p className="center">
               Salisbury business owners need SEO to compete online. Partner with
               an SEO company that can build your lead-gen system that will boost
               your business presence, and bring more leads and customers.
             </p>
           </div>
-          <div className="container">
+          <div className="medium-container">
             <ReasonSec>
               <div>
                 <h3>#1. SEO Can Get Leads and Sales 24 Hours a Day</h3>
@@ -334,7 +338,7 @@ export default function OceanCitySEO() {
         </section>
         <section>
           <div className="medium-container">
-            <h2>
+            <h2 className="title">
               How Does Search Engine Optimization Work, and How Can it Help
               Salisbury Business Owners?
             </h2>
@@ -400,7 +404,9 @@ export default function OceanCitySEO() {
         </section>
         <section className="why-work-with-us-section">
           <div className="medium-container">
-            <h2>With Other SEO Companies in Salisbury, Why Work With Us?</h2>
+            <h2 className="title">
+              With Other SEO Companies in Salisbury, Why Work With Us?
+            </h2>
             <p className="sub-text">
               Work with Bowie SEO and experience the difference between our
               company and other SEO companies.
@@ -480,7 +486,7 @@ export default function OceanCitySEO() {
             ]}
           />
           <div className="medium-container">
-            <h2>Frequently Asked Questions</h2>
+            <h2 className="title">Frequently Asked Questions</h2>
             <div className="faq-questions">
               <section>
                 <h3>#1. How Much Does Local SEO Services Cost?</h3>

@@ -96,12 +96,12 @@ const FooterSection = () => {
               <ul>
                 <li>
                   <Link href="/local-seo">
-                    <a>Local SEO</a>
+                    <a>Search Engine Optimization</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/technical-seo">
-                    <a>Technical SEO</a>
+                    <a>GMB Management</a>
                   </Link>
                 </li>
                 <li>
@@ -144,7 +144,20 @@ const FooterSection = () => {
             <OfferForm />
           </div>
         </Footer>
-        <LowerFooter>Bowie SEO &copy;{new Date().getFullYear()}</LowerFooter>
+        <LowerFooter>
+          <div className="lower-container">
+            <p>Bowie SEO &copy;{new Date().getFullYear()}</p>
+            <div>
+              <Link href="/terms-of-service">
+                <a>Terms of Service</a>
+              </Link>{' '}
+              |{' '}
+              <Link href="/privacy-policy">
+                <a>Privacy Policy</a>
+              </Link>
+            </div>
+          </div>
+        </LowerFooter>
       </footer>
     </>
   )
@@ -153,8 +166,8 @@ const FooterSection = () => {
 const Footer = styled.div`
   padding: 4rem 1.2rem;
   margin: 0 auto;
-  background: #ecf0f1;
-  color: #2c3e50;
+  background: #000;
+  color: #fff;
 
   @media screen and (min-width: 768px) {
     max-width: 90%;
@@ -178,10 +191,10 @@ const Footer = styled.div`
 
   a {
     text-decoration: none;
-    color: #2c3e50;
+    color: #fff;
 
     &:hover {
-      color: #ff5200;
+      color: #cf0a0a;
       text-decoration: underline;
     }
   }
@@ -196,11 +209,26 @@ const Footer = styled.div`
 `
 
 const LowerFooter = styled.div`
-  text-align: center;
+  .lower-container {
+    max-width: 84%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+
+    div {
+      font-weight: 400;
+    }
+  }
+
   padding: 2rem 0;
   background: #fff;
   color: #2c3e50;
-  ]
+  font-weight: 900;
 
+  a {
+    color: #000;
+    text-decoration: none;
+  }
 `
 export default FooterSection
