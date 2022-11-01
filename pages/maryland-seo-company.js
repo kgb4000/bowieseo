@@ -1017,7 +1017,7 @@ const MarylandSEOCompany = () => {
           <div className="container">
             <h2>Ready to Boost Your Sales and Revenue?</h2>
             <p>
-              Contact our {SEOAgency} and we'll show you how (Maryland) search
+              Contact {SEOAgency} and we'll show you how (Maryland) search
               engine optimization can help grow your business without paying for
               online ads.
             </p>
