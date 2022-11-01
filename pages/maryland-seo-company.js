@@ -3,9 +3,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
-import dynamic from 'next/dynamic'
 import styled from 'styled-components'
-import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import Button from '../components/Button'
 import HeroSection from '../components/HeroSection'
@@ -241,6 +239,7 @@ const MarylandSEOCompany = () => {
               These searchers are ready to buy because they are actively
               searching for your services. SEO involves different parts.
             </p>
+            <p>SEO involves:</p>
             <HowSEOWorks>
               <SEOElement>
                 <img
@@ -252,11 +251,14 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>SEO Audit</h3>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Itaque aspernatur nemo voluptates quos eveniet placeat,
-                    fugiat, iste doloribus consequuntur et incidunt, corporis
-                    ipsam quisquam. Fugit, suscipit? Incidunt tempore alias
-                    reiciendis!
+                    This process evaluates your site to identify areas that need
+                    improvement and then makes changes to improve the site's
+                    SEO.
+                  </p>
+                  <p>
+                    When conducting an audit, it is important to look at various
+                    factors, including the website's content, backlinks,
+                    keywords, and overall visibility.
                   </p>
                 </div>
               </SEOElement>
@@ -270,10 +272,13 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>Technical SEO</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum, similique. Doloremque unde consequatur quas nostrum,
-                    molestias eius iste ea cumque delectus assumenda, eum
-                    numquam corporis ducimus consequuntur nulla modi maiores?
+                    Technical SEO is optimizing a website by improving the
+                    site's architecture and code.
+                  </p>
+                  <p>
+                    This process focuses on making sure that your website is
+                    easy for search engines to crawl and index, and makes it
+                    mobile-friendly and loading quickly.
                   </p>
                 </div>
               </SEOElement>
@@ -287,10 +292,13 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum, similique. Doloremque unde consequatur quas nostrum,
-                    molestias eius iste ea cumque delectus assumenda, eum
-                    numquam corporis ducimus consequuntur nulla modi maiores?
+                    Keyword research is finding and targeting keywords that
+                    potential customers are searching for.
+                  </p>
+                  <p>
+                    This research helps businesses better understand how people
+                    search for their products or services and allows them to
+                    create content that is more likely to rank in SERPs.
                   </p>
                 </div>
               </SEOElement>
@@ -304,10 +312,13 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>Local SEO</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum, similique. Doloremque unde consequatur quas nostrum,
-                    molestias eius iste ea cumque delectus assumenda, eum
-                    numquam corporis ducimus consequuntur nulla modi maiores?
+                    Local SEO is optimizing your website for Google search in
+                    your specific geographic location.
+                  </p>
+                  <p>
+                    Strategies to improve local SEO include creating content
+                    about local events, building backlinks from local websites,
+                    and claiming your business's listing on Google My Business.
                   </p>
                 </div>
               </SEOElement>
@@ -321,10 +332,15 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>Content Creation and Optimization</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum, similique. Doloremque unde consequatur quas nostrum,
-                    molestias eius iste ea cumque delectus assumenda, eum
-                    numquam corporis ducimus consequuntur nulla modi maiores?
+                    Content SEO is optimizing a website's content search engines
+                    and for people. It includes creating high-quality,
+                    keyword-rich content that will help improve the site's
+                    ranking in SERPs.
+                  </p>
+                  <p>
+                    It is important to note that not all types of content are
+                    created equal. Google favors certain types of content, such
+                    as articles and blog posts, over others.
                   </p>
                 </div>
               </SEOElement>
@@ -332,16 +348,19 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/improve-seo-rankings.png"
                   className="seo-icon"
-                  alt="Local SEO"
-                  title="Local SEO"
+                  alt="Track and monitor SEO performance."
+                  title="Track and monitor SEO performance."
                 />
                 <div>
-                  <h3>Improve SEO Rankings</h3>
+                  <h3>Tracking and Monitoring</h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Rerum, similique. Doloremque unde consequatur quas nostrum,
-                    molestias eius iste ea cumque delectus assumenda, eum
-                    numquam corporis ducimus consequuntur nulla modi maiores?
+                    To know if your SEO is improving, you'll need to track and
+                    monitor your progress over time. Otherwise, it'll be
+                    difficult to tell whether your efforts are paying off.
+                  </p>
+                  <p>
+                    Tools we use include Google Analytics, Googel Search
+                    Console, Ahrefs, and SEMrush.
                   </p>
                 </div>
               </SEOElement>
@@ -357,7 +376,7 @@ const MarylandSEOCompany = () => {
               We study the search engines, and we know Maryland businesses. Our
               company offers (Maryland) SEO services that put your website on
               the first page so you can get more phone calls, leads, and sales
-              than your comppetitors.
+              than your competitors.
             </p>
             <Service>
               <div className="service-card">
@@ -796,7 +815,6 @@ const MarylandSEOCompany = () => {
             </WorkWithUs>
           </div>
         </section>
-
         <section className="bg-color">
           <FAQPageJsonLd
             mainEntity={[
@@ -861,10 +879,25 @@ const MarylandSEOCompany = () => {
                   </p>
                   <h3>How Do You Know If You Need Local SEO?</h3>
                   <p>
-                    You need local SEO if the customers you serve are in the
-                    same location or city as your business. If you want to
-                    target customers in surrounding cities, you’ll still need
-                    local SEO.
+                    If your website does not appear on the first page of Google
+                    for relevant keywords, then you need local SEO. Local SEO is
+                    how businesses can optimize their web presence to be found
+                    by people searching for products and services in their area.
+                  </p>
+                  <p>
+                    A number of factors go into ranking locally, including
+                    having your NAP (name, address, phone number) information
+                    listed correctly on your website and in directories, having
+                    good reviews, and making sure your site is mobile-friendly.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>What is an SEO agency?</h3>
+                  <p>
+                    An SEO agency is a company that specializes in helping
+                    businesses improve their visibility in search engines. They
+                    can help with keyword research, on-page optimization, link
+                    building, and content marketing.
                   </p>
                 </div>
                 <div className="question">
@@ -875,6 +908,15 @@ const MarylandSEOCompany = () => {
                     location, and the marketing budget.
                   </p>
                 </div>
+                <div className="question">
+                  <h3>What is Your Minimum Budget for SEO Services?</h3>
+                  <p>
+                    Our minimum budget for SEO services is $1000 per month. This
+                    allows us to properly allocate the resources needed to
+                    produce results for our clients.
+                  </p>
+                </div>
+
                 <div className="question">
                   <h3>Why Does SEO Cost So Much?</h3>
                   SEO is so expensive for three reasons:
@@ -893,44 +935,42 @@ const MarylandSEOCompany = () => {
                 <div className="question">
                   <h3>What is the Difference between SEO and Local SEO?</h3>
                   <p>
-                    SEO (search engine optimization) is the process of improving
-                    the visibility and ranking of your website in search engine
-                    results pages (SERPs). Local SEO, on the other hand, is
-                    focused on optimizing your website for local search results.
+                    The main difference is that Local SEO focuses on optimizing
+                    for local search results, while traditional SEO is focused
+                    on global or national search results.
                   </p>
                 </div>
               </div>
               <div>
                 <div className="question">
-                  <h3>How Long Does SEO Take Before You See Results?</h3>
+                  <h3>What is an SEO consultant?</h3>
                   <p>
-                    SEO can take three to six months before you see any results
-                    from your campaign. This depends on the location, the
-                    competition, and any website authority your business has
-                    already. Remember that SEO is a long-term strategy and will
-                    pay off long after you’ve started. The main thing is to
-                    start.
+                    An SEO consultant is an individual who specializes in
+                    helping businesses improve their visibility in search
+                    engines. They can help with keyword research, on-page
+                    optimization, link building, and content marketing.
                   </p>
                 </div>
                 <div className="question">
                   <h3>How Long is Your Contract for Doing SEO?</h3>
-                  <p>Our contracts are month-to-month.</p>
                   <p>
-                    You can cancel your contract 30 day prior to the end of the
-                    month.
-                  </p>
-                  <p>
-                    But why would you cancel if you’re making more money after
-                    you hired us?
+                    Our contracts are month-to-month. You can cancel at any time
+                    with 30 days' written notice. We require a 3-month minimum
+                    to start to properly establish your baseline and see
+                    results. After the first 3 months, you are free to cancel at
+                    any time. There are no long-term contracts or commitments.
                   </p>
                 </div>
                 <div className="question">
                   <h3>Can You Guarantee Me #1 Rankings?</h3>
-                  <p>We cannot guarantee first-place rankings.</p>
-                  <p>No one can.</p>
+                  <p>No one can guarantee you first-page rankings on Google.</p>
                   <p>
-                    No one can guarantee rankings because the search algorithms
-                    are always changing.
+                    Not even the best and most experienced SEO professionals can
+                    do that. However, we can promise that we will put in the
+                    hard work to get your website ranking as high as possible in
+                    search engine results pages (SERPs). We’ll use all the
+                    latest and most effective SEO techniques to try and get your
+                    site to the top.
                   </p>
                 </div>
                 <div className="question">
@@ -944,6 +984,24 @@ const MarylandSEOCompany = () => {
                     the design of the web page.
                   </p>
                 </div>
+                <div className="question">
+                  <h3>Do You Offer Any Guarantees? ?</h3>
+                  <p>
+                    No, we do not offer any guarantees. SEO is an ever-changing
+                    and complex field. As such, there are no guarantees in SEO.
+                    However, we can guarantee that we will work diligently and
+                    ethically to improve your rankings and visibility in search
+                    engines.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>Do You Provide Monthly Reporting?</h3>
+                  <p>
+                    Yes, we provide monthly reporting to our clients. This
+                    report includes progress reports, keyword rankings, traffic
+                    reports, backlink wins, and more.
+                  </p>
+                </div>
               </div>
             </ReasonSec>
           </div>
@@ -951,9 +1009,10 @@ const MarylandSEOCompany = () => {
         <div className="call-to-action-grid">
           <img
             src="/images/smiling-businessman-calling-maryland-seo-company.webp"
+            className="call-to-action-grid-img"
             alt="Man calling our Maryland SEO company."
             width="1000px"
-            height="65px"
+            height="667px"
           />
           <div className="container">
             <h2>Ready to Boost Your Sales and Revenue?</h2>

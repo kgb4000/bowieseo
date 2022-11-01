@@ -61,7 +61,6 @@ export const NavMenu = styled.ul`
   display: flex;
   align-items: center;
   list-style: none;
-  text-align: center;
   margin-right: -22px;
 
   @media screen and (max-width: 900px) {
@@ -69,9 +68,47 @@ export const NavMenu = styled.ul`
   }
 `
 export const NavItem = styled.li`
-  height: 86px;
   color: #000;
   margin-bottom: 1rem;
+
+  .dropdown {
+    position: relative;
+  }
+
+  .menu {
+    position: absolute;
+
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+
+    width: 350px;
+  }
+
+  .menu > li {
+    margin: 0;
+    padding-left: 0.5rem;
+
+    background-color: white;
+  }
+
+  .menu > li:hover {
+    background-color: lightgray;
+  }
+
+  .menu > li > button {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 5px;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+  }
 `
 
 export const NavLinks = styled(Link)`

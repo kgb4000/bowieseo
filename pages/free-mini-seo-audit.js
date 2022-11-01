@@ -24,7 +24,7 @@ const FreeSEOAUDIT = () => {
     <>
       <NextSeo {...SEO} />
       <Header>
-        <Link href="/local-seo">
+        <Link href="/">
           <a>Bowie SEO</a>
         </Link>
       </Header>

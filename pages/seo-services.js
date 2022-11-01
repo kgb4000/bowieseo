@@ -50,7 +50,7 @@ const Services = () => {
             <h2>SEO Services</h2>
             <div className="services">
               <Container>
-                <Link href="/local-seo" passHref>
+                <Link href="/search-engine-optimization" passHref>
                   <Card>
                     <div className="card-info">
                       <img

@@ -190,6 +190,16 @@ h2 {
     // place-items: center;
     margin-top: 1rem;
     margin-bottom: 5rem;
+
+    img {
+      margin-top: 0;
+    }
+  }
+
+  .call-to-action-grid-img {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem;
   }
 
   .call-to-action-grid {
@@ -197,12 +207,7 @@ h2 {
       font-weight: 700;
     }
 
-    img {
-      padding: 0;
-      margin: 0;
-    }
-
-    @media screen and (min-width: 728px) {
+    @media screen and (min-width: 1024px) {
       margin: 0;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -345,13 +350,6 @@ h2 {
     margin: 0 auto;
     text-align: center;
   }
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 2rem auto;
 }
 
 .body-img {

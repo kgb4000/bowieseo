@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Link from 'next/link'
 import { FaBars } from 'react-icons/fa'
 import {
@@ -17,6 +18,21 @@ import {
 const calendly = 'https://calendly.com/bowieseo/30min'
 
 const Navbar = ({ toggle }) => {
+  const [open, setOpen] = useState(false)
+
+  const handleOpen = () => {
+    setOpen(!open)
+  }
+
+  const handleMenuOne = () => {
+    // do something
+    setOpen(false)
+  }
+
+  const handleMenuTwo = () => {
+    // do something
+    setOpen(false)
+  }
   return (
     <>
       <Nav>
@@ -31,9 +47,22 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks href="/seo-services" passHref>
-                <NavLinksA>Services</NavLinksA>
-              </NavLinks>
+              <Dropdown
+                open={open}
+                trigger={<div onClick={handleOpen}>Services</div>}
+                menu={[
+                  <div onClick={handleMenuOne}>
+                    <Link href="/search-engine-optimization" passHref>
+                      <a>Search Engine Optimization</a>
+                    </Link>
+                  </div>,
+                  <div onClick={handleMenuTwo}>
+                    <Link href="/search-engine-optimization" passHref>
+                      <a>GMB Management</a>
+                    </Link>
+                  </div>,
+                ]}
+              />
             </NavItem>
             <NavItem>
               <NavLinks href="/about" passHref>
@@ -66,3 +95,20 @@ const Navbar = ({ toggle }) => {
 }
 
 export default Navbar
+
+const Dropdown = ({ open, trigger, menu }) => {
+  return (
+    <div className="dropdown">
+      {trigger}
+      {open ? (
+        <ul className="menu">
+          {menu.map((menuItem, index) => (
+            <li key={index} className="menu-item">
+              {menuItem}
+            </li>
+          ))}
+        </ul>
+      ) : null}
+    </div>
+  )
+}

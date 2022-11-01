@@ -7,6 +7,7 @@ import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
+import { Business, Businesses } from '../components/BusinessesWeWorkWith'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
@@ -162,7 +163,7 @@ export default function Home({ data }) {
               of Google
             </h2>
             <p className="subtext">
-              We provide SEO services to home servie businesses in{' '}
+              We provide SEO services to home service businesses in{' '}
               <Link href="/maryland-seo-company" passHref>
                 <a>Maryland</a>
               </Link>
@@ -744,6 +745,18 @@ export default function Home({ data }) {
             <ReasonSec>
               <div>
                 <div className="question">
+                  <h3>Does SEO still work?</h3>
+                  <p>Yes, SEO still works.</p>
+                  <p>
+                    However, it is important to remember that it takes a lot of
+                    work to maintain high rankings in search engines. In
+                    addition, the algorithms used by search engines are
+                    constantly changing, which means that what worked yesterday
+                    may not work today. As a result, it is important to stay
+                    up-to-date on the latest SEO news and trends.
+                  </p>
+                </div>
+                <div className="question">
                   <h3>Why Do I Need SEO?</h3>
                   <p>
                     If you want to reach more potential customers and want them
@@ -752,10 +765,11 @@ export default function Home({ data }) {
                   </p>
                   <h3>How Do You Know If You Need Local SEO?</h3>
                   <p>
-                    You need local SEO if the customers you serve are in the
-                    same location or city as your business. If you want to
-                    target customers in surrounding cities, you’ll still need
-                    local SEO.
+                    You need local SEO if your website does not rank in search
+                    engines when potential customers search for services like
+                    yours in their local area. If you want your website to rank
+                    higher in search results to attract more local customers,
+                    you need to invest in local SEO.
                   </p>
                 </div>
                 <div className="question">
@@ -794,14 +808,14 @@ export default function Home({ data }) {
               </div>
               <div>
                 <div className="question">
-                  <h3>How Long Does SEO Take Before You See Results?</h3>
+                  <h3>How long does it take to rank a website?</h3>
                   <p>
-                    SEO can take three to six months before you see any results
-                    from your campaign. This depends on the location, the
-                    competition, and any website authority your business has
-                    already. Remember that SEO is a long-term strategy and will
-                    pay off long after you’ve started. The main thing is to
-                    start.
+                    This is a difficult question to answer, as it depends on a
+                    number of factors, including the age and authority of the
+                    website, the competition for the keywords being targeted,
+                    and the quality of the content. Generally speaking. However,
+                    it can take several weeks to several months to see results
+                    from SEO efforts.
                   </p>
                 </div>
                 <div className="question">
@@ -900,33 +914,6 @@ const Service = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-  }
-`
-
-const Businesses = styled.div`
-  margin: 2rem 0;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-`
-
-const Business = styled.div`
-  text-align: center;
-  border-radius: 20px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border: 1px solid #eee;
-  box-shadow: 10px 10px 0px #000;
-
-  img {
-    width: 4rem;
-    margin: 0 auto;
-  }
-
-  p {
-    margin-top: 1rem;
-    font-weight: 900;
   }
 `
 
