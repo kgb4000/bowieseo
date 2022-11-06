@@ -7,6 +7,7 @@ import styled from 'styled-components'
 import MainLayout from '../components/MainLayout'
 import Button from '../components/Button'
 import HeroSection from '../components/HeroSection'
+import { Businesses, Business } from '../components/BusinessesWeWorkWith'
 
 import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
@@ -736,7 +737,7 @@ const MarylandSEOCompany = () => {
             </div>
           </div>
         </section>
-        <div className="container">
+        {/* <div className="container">
           <img
             src="/images/bowie-seo-firm.webp"
             className="page-img-left"
@@ -745,16 +746,77 @@ const MarylandSEOCompany = () => {
             alt="Bowie SEO - A Maryland SEO Company."
             title="Bowie SEO - A Maryland SEO Company."
           />
-        </div>
+        </div> */}
+        {/* <section>
+          <div className="medium-container">
+            <div className="grid">
+              <div>
+                <h2>Why Work With Us?</h2>
+                <div>
+                  <div>
+                    <h3>1. All We Do is SEO</h3>
+                    <p>
+                      All we do is SEO. We live, sleep, and breathe SEO. Whether
+                      developing strategies, executing campaigns, or analyzing
+                      data, our team is 100% focused on getting you results.
+                    </p>
+                  </div>
+                  <div>
+                    <h3>2. We're Partners in This</h3>
+                    <p>
+                      We don't succeed unless you do. We take your success
+                      personally and will work tirelessly to ensure your
+                      campaign is successful. We're not satisfied with "good
+                      enough." We want to deliver results that blow the
+                      competition out of the water and help you dominate your
+                      market.
+                    </p>
+                  </div>
+                  <div>
+                    <h3>3. We’re an All-in-one SEO Solution</h3>
+                    <p>
+                      We offer everything you need to rank your website in
+                      search engines, from keyword research and strategy
+                      development to on-page optimization and link building.
+                      Plus, we have a team of experienced SEO copywriters who
+                      can create quality copy for your website.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="/images/seo-experts.webp"
+                className="page-img-left"
+                width="1000px"
+                height="600px"
+                alt="Search engine optimization experts ready to help grow your business."
+                title="Search engine optimization experts ready to help grow your business."
+              />
+            </div>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule a Free Consultation Today!</Button>
+              </a>
+            </div>
+          </div>
+        </section> */}
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2 className="title">Why Work With Our Maryland SEO Company?</h2>
             <p className="subtext">
               We know that there are many Maryland SEO companies you can work
               with. However, working with our company has advantages.
             </p>
-            <WorkWithUs>
-              <Why>
+            <div className="grid">
+              <img
+                src="/images/maryland-seo-firm.webp"
+                className="page-img"
+                width="1000px"
+                height="600px"
+                alt="Our Maryland SEO firm is ready to help grow your business."
+                title="Our Maryland SEO firm is ready to help grow your business"
+              />
+              <div>
                 <div className="reasons">
                   <h3>We're a Small Agency</h3>
                   <p>
@@ -764,19 +826,6 @@ const MarylandSEOCompany = () => {
                     and money coming in.
                   </p>
                 </div>
-              </Why>
-              <Why>
-                <div className="reasons">
-                  <h3>We Move Quickly</h3>
-                  <p>
-                    We’re small, but we’re fast. We don’t wait to get approvals
-                    from any upper management to work on your campaign. If we
-                    see an opportunity that will help your business, you call
-                    us, get the go-ahead, and just do it.
-                  </p>
-                </div>
-              </Why>
-              <Why>
                 <div className="reasons">
                   <h3>We’re Partners in This</h3>
                   <p>
@@ -786,36 +835,36 @@ const MarylandSEOCompany = () => {
                     can do.
                   </p>
                 </div>
-              </Why>
-              <Why>
                 <div className="reasons">
-                  <h3>We're 100% Transparent</h3>
-                  <p>
-                    We let you know everything we are doing in your campaign. No
-                    secrets. We’ll also keep you updated with weekly updates so
-                    you’re never out of the loop. You’ll also have access to a
-                    dashboard with all your vitals and metrics so you can see
-                    your progress.
-                  </p>
+                  <div>
+                    <h3>We’re an All-in-one SEO Solution</h3>
+                    <p>
+                      We offer everything you need to rank your website in
+                      search engines, from keyword research and strategy
+                      development to on-page optimization and link building.
+                      Plus, we have a team of experienced SEO copywriters who
+                      can create quality copy for your website.
+                    </p>
+                  </div>
                 </div>
-              </Why>
-              <div className="text">
-                <p>
-                  We work with small business owners who want to increase their
-                  organic traffic, web presence, and revenue.
-                </p>
-                <p>
-                  We’re not driven by superficial metrics like the amount of
-                  website traffic you get or the number of keywords you rank
-                  for.
-                </p>
-                <p>
-                  As professional SEO consultants, we’re only driven by how many
-                  phone calls you get, how much money you made, and if it was
-                  more than the last quarter.
-                </p>
               </div>
-            </WorkWithUs>
+            </div>
+            <div className="text">
+              <p className="subtext">
+                We work with small business owners who want to increase their
+                organic traffic, web presence, and revenue. We’re not driven by
+                superficial metrics like the amount of website traffic you get
+                or the number of keywords you rank for. As professional SEO
+                consultants, we’re only driven by how many phone calls you get,
+                how much money you made, and if it was more than the last
+                quarter.
+              </p>
+            </div>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule a Free Consultation Today!</Button>
+              </a>
+            </div>
           </div>
         </section>
         <section className="bg-color">
@@ -1076,77 +1125,50 @@ const Service = styled.div`
   }
 `
 
-const WorkWithUs = styled.div`
-  @media screen and (min-width: 1024px) {
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-bottom: 3rem;
-  }
+// const WorkWithUs = styled.div`
+//   @media screen and (min-width: 1024px) {
+//     max-width: 1000px;
+//     margin: 0 auto;
+//     margin-bottom: 3rem;
+//   }
 
-  .text {
-    margin-top: 2rem;
-    padding: 0 4rem;
-  }
-`
-const Why = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
+//   .text {
+//     margin-top: 2rem;
+//     padding: 0 4rem;
+//   }
+// `
+// const Why = styled.div`
+// display: flex;
+// justify-content: center;
+// align-items: center;
 
-  .reasons {
-    margin: 1rem 0;
-    padding: 2rem;
-    border: 1px solid #eee;
-    border-radius: 40px;
-    box-shadow: 10px 10px 0px #000;
-    background-color: #ecf0f1;
-  }
-  
+//   .reasons {
+//     margin: 1rem 0;
+//     padding: 2rem;
+//     border: 1px solid #eee;
+//     border-radius: 40px;
+//     box-shadow: 10px 10px 0px #000;
+//     background-color: #ecf0f1;
+//   }
 
-  p { 
-    margin-bottom: 0;
-    }
+//   p {
+//     margin-bottom: 0;
+//     }
 
-  img {
-    margin: 0;
-    margin-right: 1.5rem;
-    width: 54px;
-    height: 54px;
-    position: relative;
-    }
+//   img {
+//     margin: 0;
+//     margin-right: 1.5rem;
+//     width: 54px;
+//     height: 54px;
+//     position: relative;
+//     }
 
-    h3 {
-      margin: 0;
-    }
- }
- `
+//     h3 {
+//       margin: 0;
+//     }
+//  }
+//  `
 
-const Businesses = styled.div`
-  margin: 2rem 0;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-`
-
-const Business = styled.div`
-  text-align: center;
-  border-radius: 20px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border: 1px solid #eee;
-  box-shadow: 10px 10px 0px #000;
-
-  img {
-    width: 4rem;
-    margin: 0 auto;
-  }
-
-  p {
-    margin-top: 1rem;
-    font-weight: 900;
-  }
-`
 const Deliverables = styled.div`
   @media (min-width: 768px) {
     display: grid;

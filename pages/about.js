@@ -5,7 +5,7 @@ import React from 'react'
 import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import Button from '../components/Button'
-import PageHero from '../components/PageHeroSection'
+import HeroSection from '../components/HeroSection'
 import { Wrapper, Contact } from '../components/CardSection'
 
 import { NextSeo } from 'next-seo'
@@ -29,11 +29,14 @@ const About = () => {
     <>
       <NextSeo {...SEO} />
       <MainLayout>
-        <PageHero
-          heading="About Bowie SEO"
-          subText="We are an SEO company in Maryland that helps businesses in Maryland, DC, and Virginia get found in the search engines. We use search engine otipimization to increase you online presence, so more people see your business."
-          heroBtnLink="tel:+2402660588"
-          buttonText="Call us (240) 266-0588"
+        <HeroSection
+          heroText="About us"
+          subText="We help our customers create their own lead generating websites by practicing search engine optimization."
+          backgroundImage="/images/about-bowie-seo.webp"
+          backgroundHeight="70vh"
+          backgroundPosition="top center"
+          buttonText="Schedule a free consultation today!"
+          buttonLink={calendly}
         />
         <section>
           <div className="medium-container">
