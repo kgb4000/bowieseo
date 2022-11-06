@@ -227,7 +227,7 @@ export default function Home({ data }) {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <img
                 src="/images/home-service-business.webp"
