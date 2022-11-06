@@ -59,7 +59,7 @@ const Hero = styled('span')`
     p {
       font-size: 1.4rem;
       line-height: 1.6;
-      font-weight: 300;
+      font-weight: 700;
     }
   }
 

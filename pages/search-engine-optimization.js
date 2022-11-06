@@ -821,6 +821,20 @@ const LocalSEO = () => {
                     focused on optimizing your website for local search results.
                   </p>
                 </div>
+                <div className="question">
+                  <h3>What is Technical SEO?</h3>
+                  <p>
+                    Technical SEO includes things like improving site speed,
+                    making sure the website is mobile-friendly, and fixing crawl
+                    errors.
+                  </p>
+                  <p>
+                    Basically, anything that makes it easier for Google to index
+                    and understand your website falls under the umbrella of
+                    technical SEO. And while it might sound complicated, there
+                    are a few simple things you can do to get started.
+                  </p>
+                </div>
               </div>
               <div>
                 <div className="question">
@@ -879,6 +893,18 @@ const LocalSEO = () => {
                     to put into it. There are also a lot of different moving
                     parts to SEO, so it can be helpful to hire an experienced
                     SEO professional to help you with the process.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>What is Website UX?</h3>
+                  <p>
+                    Website UX is all about how a website's users interact with
+                    and experience the site. It encompasses everything from how
+                    easy it is to navigate the site and find what you're looking
+                    for, to the overall look and feel of the site. Creating a
+                    positive UX for your website's visitors can help to ensure
+                    that they have a good experience on your site, and are more
+                    likely to return in the future.
                   </p>
                 </div>
               </div>

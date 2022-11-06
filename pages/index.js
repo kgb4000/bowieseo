@@ -851,6 +851,19 @@ export default function Home({ data }) {
                     the design of the web page.
                   </p>
                 </div>
+                <div className="question">
+                  <h3>Is SEO still relevant in 2022?</h3>
+                  <p>Sometimes we do.</p>
+                  <p>
+                    SEO is still relevant in 2022 because people are still using
+                    search engines to find information on the internet. The
+                    number of people using search engines is not expected to
+                    decrease in the next few years, so SEO will continue to be
+                    relevant. There are some changes that may happen to the way
+                    that SEO is done, but it will still be an important part of
+                    internet marketing.
+                  </p>
+                </div>
               </div>
             </ReasonSec>
           </div>
