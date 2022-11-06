@@ -39,7 +39,8 @@ const LocalSEO = () => {
           heroText="Search Engine Optimization"
           subText="Use this powerful inbound marketing method to get customers to find your business online."
           backgroundImage="/images/search-engine-optimization-header.webp"
-          backgroundHeight="60vh"
+          backgroundHeight="70vh"
+          backgroundPosition="top center"
           buttonText="Schedule a free consultation today!"
           buttonLink={calendly}
         />
@@ -647,7 +648,9 @@ const LocalSEO = () => {
                   alt="SEO Services Waldorf MD"
                   title="SEO Services Waldorf MD"
                 />
-                <p>Waldorf, MD</p>
+                <Link href="/seo-services-waldorf-md" passHref>
+                  <a>Waldorf, MD</a>
+                </Link>
               </City>
             </Cities>
             <div className="btn">

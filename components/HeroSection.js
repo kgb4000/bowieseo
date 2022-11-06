@@ -8,12 +8,14 @@ const HeroSection = ({
   buttonText,
   backgroundHeight,
   buttonLink,
+  backgroundPosition,
 }) => {
   return (
     <>
       <Hero
         backgroundImage={backgroundImage}
         backgroundHeight={backgroundHeight}
+        backgroundPosition={backgroundPosition}
       >
         <div className="content">
           <h1 className="heroText">{heroText}</h1>
@@ -40,7 +42,7 @@ const Hero = styled('span')`
       rgba(0, 0, 0, 0.32)
     ),
     url(${(props) => props.backgroundImage});
-  background-position: center;
+  background-position: ${(props) => props.backgroundPosition};
   min-height: ${(props) => props.backgroundHeight};
   background-size: cover;
   margin: 0 auto;
@@ -73,7 +75,7 @@ const Hero = styled('span')`
   }
 
   .content {
-    max-width: 900px;
+    max-width: 1000px;
     text-align: center;
     font-weight: 700;
     padding: 0 1.2rem;

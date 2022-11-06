@@ -200,7 +200,13 @@ h2 {
   .call-to-action-grid-img {
     padding: 0;
     margin: 0;
+
     margin-bottom: 2rem;
+    img {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
   }
 
   .call-to-action-grid {
@@ -217,6 +223,7 @@ h2 {
       place-items: center;
 
       img {
+        width: 100%;
         padding: 0;
         margin: 0;
       }

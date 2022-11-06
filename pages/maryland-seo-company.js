@@ -38,6 +38,7 @@ const MarylandSEOCompany = () => {
           subText="Let us take care of your website while you focus on what’s important - running your business"
           backgroundImage="/images/maryland-seo-company.webp"
           backgroundHeight="60vh"
+          backgroundPosition="center"
           buttonText="Schedule your free consultaion today!"
           buttonLink={calendly}
         />
@@ -453,9 +454,10 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>One-on-one Expert Support</h3>
                   <p>
-                    Don’t worry, we got you covered. We are available anytime
-                    you have a question about your SEO campaign or your
-                    strategy.
+                    Get free expert advice and support from our team of SEO
+                    experts, available to answer all your questions via email or
+                    on a call. We’re here to help you grow your business, boost
+                    your ranking, and increase your online presence.
                   </p>
                 </div>
               </Deliverable>
@@ -499,10 +501,11 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>Google Analytics and Google Console Setup</h3>
                   <p>
-                    Get free expert advice and support from our team of SEO
-                    experts, available to answer all your questions via email or
-                    on a call. We’re here to help you grow your business, boost
-                    your ranking, and increase your online presence.
+                    Set up Google Analytics and Google Console and improve your
+                    website by letting you track its performance and activity.
+                    These tools give information about how people are using and
+                    accessing your site, so that changes can be made to enhance
+                    the user experience.
                   </p>
                 </div>
               </Deliverable>
@@ -532,7 +535,7 @@ const MarylandSEOCompany = () => {
                   <h3>Local SEO</h3>
                   <p>
                     Local SEO gets your website in front of local customers when
-                    it counts. We optimize your website, so local customers find
+                    it counts. Optimize your website, so local customers find
                     your business, not your competitors. Get optimized content,
                     a fast website, a better user experience, and more so you
                     rank on the first page above your competitors.
@@ -595,11 +598,11 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>Tracking and Monitoring</h3>
                   <p>
-                    We track and monitor your progress to ensure your campaign
+                    Track and monitor your progress and make sure your campaign
                     delivers positive results: more traffic to your website,
                     more customers, more sales, and more revenue. We use tools
-                    like Google Analytics, Google Search Console, Ahrefs, and
-                    SEMRush.
+                    like Google Analytics, Google Search Console, Ahrefs, SEO
+                    Screaming Frog, and SEMRush.
                   </p>
                 </div>
               </Deliverable>

@@ -18,12 +18,11 @@ export default function Home({ data }) {
     <>
       <MainLayout>
         <HeroSection
-          heroText="Make Your Website a Lead Generating Magnet And Stop Paying for online ads"
-          subText="Our team can take control of your website and bring you more leads
-            and customers, so you can focus on growing your business."
-          backgroundImage="/images/bowieseo-header-img.webp"
-          backgroundHeight="100vh"
-          backgroundPosition="center"
+          heroText="Get more website traffic, leads and sales with SEO Services in Waldorf Maryland"
+          subText="We’ll manage your website and bring you more prospects and leads, so that you can concentrate on growing your business."
+          backgroundImage="/images/waldorf-seo-cover-img.webp"
+          backgroundHeight="70vh"
+          backgroundPosition="top"
           buttonText="Schedule a free consultation today!"
           buttonLink={calendly}
         />
@@ -31,61 +30,71 @@ export default function Home({ data }) {
           <div className="medium-container">
             <div className="grid">
               <div>
-                <h2>Is Your Business Struggling With the Following?</h2>
-                <ul>
-                  <li>
-                    Struggling to get leads and customers from your website?
-                  </li>
-                  <li>
-                    Experiencing stagnant sales and revenue numbers every month
-                  </li>
-                  <li>
-                    Competitors ranking above you in Google, and you don’t know
-                    why?
-                  </li>
-                  <li>
-                    Do you feel like you’re wasting money paying for social
-                    media ads that don't work?
-                  </li>
-                  <li>
-                    Do you struggle trying to get more people to see your
-                    business online?
-                  </li>
-                  <li>
-                    Writing your website copy, service pages, and blog posts?
-                  </li>
-                  <li>
-                    Tracking your website visits, keyword rankings, backlinks,
-                    or even phone calls?
-                  </li>
-                  <li>
-                    Trying different digital marketing methods tactics on your
-                    own but nothing's working?
-                  </li>
-                  <li>
-                    Losing sleep because you’re not bringing in enough money to
-                    stay in business?
-                  </li>
-                  <li>Not knowing who to trust?</li>
-                </ul>
-                <p>We can help.</p>
+                <h2>
+                  Having Trouble Getting People to Find Your Business on Google?
+                </h2>
+                <p>Let’s face it, you’re busy.</p>
                 <p>
-                  We're Bowie SEO, a{' '}
+                  You’re too busy running your business to learn how digital
+                  marketing works.
+                </p>
+                <p>But you know you need it to succeed.</p>
+                <p>
+                  You know you need it because without digital marketing, you’ll
+                  get left in the dust.
+                </p>
+                <p>
+                  You already tried Facebook ads, Instagram ads, and even Google
+                  ads, but they didn’t really bring you any business, and
+                  they’re expensive.
+                </p>
+                <p>
+                  You also tried paying for leads on HomeAdvisor, Angie’s List,
+                  and even Thumbtack, but you’re tired of discounting your
+                  prices just to compete.
+                </p>
+                <p>
+                  Other competitors in Waldorf are ranking higher than you in
+                  Google and their businesses are growing.
+                </p>
+                <p>
+                  They’re getting more customers and more business every month.
+                </p>
+                <p>
+                  If you don’t start getting more business soon, you might have
+                  to start laying off some of your employees.
+                </p>
+                <p>You may even have to shut down.</p>
+                <p>Is that what you want?</p>
+                <p>I don’t think so.</p>
+                <p>
+                  If you don’t do something about it now, it will only get
+                  worse.
+                </p>
+                <p>This is where we can help.</p>
+                <p>
+                  We use search engine optimization to get your website to show
+                  up on Google when people search for your services.
+                </p>
+                <p>
+                  We’re an{' '}
                   <Link href="/maryland-seo-company" passHref>
-                    <a>Maryland SEO Company</a>
+                    <a>SEO Company in Maryland</a>
                   </Link>{' '}
-                  in Bowie, MD, and we can show you how to fix your website so
-                  you can attract more leads and customers without paying for
-                  ads.
+                  and we help businesses in Waldorf build their own lead-gen
+                  websites.
+                </p>
+                <p>
+                  How would you like to have your own lead-generating website?
                 </p>
               </div>
               <img
-                src="/images/bowie-seo.webp"
+                src="/images/seo-services-waldorf-md.webp"
                 className="page-img-left"
                 width="1000px"
                 height="600px"
-                alt="A business owner considering working with our SEO company to get his own leads without paying for online ads."
-                title="A business owner considering working with our SEO company to get his own leads without paying for online ads."
+                alt="A business owner considering  getting SEO services in Waldorf."
+                title="A business owner considering getting SEO services in Waldorf."
               />
             </div>
             <div className="btn">
@@ -108,22 +117,28 @@ export default function Home({ data }) {
               />
               <div>
                 <h2>
-                  Build Your Own Lead-Generating Website and Stop Paying For
-                  Expensive Social Media and PPC Ads
+                  Get Your Own Leads and Customers Without paying For Online Ads
                 </h2>
                 <p>
-                  Let's face it, online ads are getting expensive, and prices
-                  keep going up.
+                  Let's be honest, Facebook and Google ads are expensive, and
+                  the costs keep going up.
+                </p>
+                <p>
+                  And if you're not careful, your entire advertising budget can
+                  be gobbled up by paying for clicks.
                 </p>
                 <p>But you don't have to pay for ads.</p>
                 <p>
-                  You can build your own lead-generating website and use search
-                  engine optimization to do it.
+                  What if there was a way to get free leads and customers
+                  without having to pay for ads?
                 </p>
+                <p>There is.</p>
+                <p> It's called search engine optimization.</p>
                 <p>
-                  With search engine optimization, you can increase your leads,
-                  sales and revenue for your business without paying for
-                  expensive online ads.
+                  With search engine optimization, you can optimize your website
+                  for the search engines and help you attract free organic
+                  traffic from people who are already looking for what you have
+                  to offer.
                 </p>
                 <p>With Search engine optimization you will:</p>
                 <ul className="check-mark">
@@ -160,66 +175,62 @@ export default function Home({ data }) {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Services Boost Your SEO Rankings and Get You to The First Page
-              of Google
+              Our Services Help Businesses Like Yours in Waldorf, Get More Leads
+              and Customers
             </h2>
             <p className="subtext">
-              We provide SEO services to home service businesses in{' '}
-              <Link href="/maryland-seo-company" passHref>
-                <a>Maryland</a>
-              </Link>
-              , and{' '}
-              <Link href="/dc-seo" passHref>
-                <a>DC</a>
-              </Link>{' '}
-              .
+              We provide SEO to businesses in Waldorf and the rest of Southern
+              Maryland.
             </p>
             <Service>
               <div className="service-card">
                 <img
-                  src="/images/maryland-seo-company.webp"
-                  alt="Search engine optimization"
+                  src="/images/waldorf-search-engine-optimization.webp"
+                  alt="Waldorf SEO Services"
+                  title="Waldorf SEO Services"
                   width="1000px"
                   height="665px"
                 />
                 <div className="service">
                   <h3>Search Engine Optimization</h3>
                   <p>
-                    Use search engine optimization to stand out from your
-                    competition and get found when it counts. Let your customers
-                    find your business, not your competitors.
+                    Practice search engine optimization and make sure your
+                    customers can find your business on Google instead of your
+                    competition.
                   </p>
                 </div>
               </div>
               <div className="service-card">
                 <img
-                  src="/images/google-my-business.webp"
-                  alt="Google My Business Management"
+                  src="/images/waldorf-gmb-management.webp"
+                  alt="Waldorf Google My Business Management"
+                  title="Waldorf Google My Business Management"
                   width="1000px"
                   height="665px"
                 />
                 <div className="service">
                   <h3>GMB Management</h3>
                   <p>
-                    An optimized Google My Business page is crucial for you to
-                    rank locally. Let us manage your GMB profile and use our
-                    experience to boost your SEO performance.
+                    Optimize you Google My Business profile an rank locally. Let
+                    us help you take your business to the next level by managing
+                    your GMB profile and boosting your local SEO performance.
                   </p>
                 </div>
               </div>
               <div className="service-card">
                 <img
-                  src="/images/seo-audit.webp"
+                  src="/images/seo-audit-waldorf.webp"
                   alt="Free Mini SEO Audit"
+                  title="Free Mini SEO Audit"
                   width="1000px"
                   height="665px"
                 />
                 <div className="service">
                   <h3>Free Mini SEO Audit</h3>
                   <p>
-                    Get a free mini SEO audit on us and see how you can improve
-                    your SEO rankings and performance to increase your sales and
-                    revenue.
+                    See how you can improve your SEO rankings and performance
+                    with a free mini SEO audit from us. Find out what's stopping
+                    you from getting more leads and customers today!
                   </p>
                 </div>
               </div>
@@ -227,21 +238,23 @@ export default function Home({ data }) {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <img
-                src="/images/home-service-business.webp"
+                src="/images/home-service-business-waldorf-md.webp"
                 className="page-img"
-                alt="Maryland SEO company"
-                title="Home service businesses we work with."
+                alt="Home service buisness."
+                title="Home service businesses we work with in Waldorf."
               />
               <div>
-                <h2>Home Service Businesses We Work With</h2>
+                <h2>
+                  Home Service Businesses We Work With in Waldorf and Southern
+                  Maryland
+                </h2>
                 <p>
-                  We work with home service businesses that provide services to
-                  customers homes. Our goal is to help home service businesses
-                  like yours increase your online presence and your
-                  profitability.
+                  We work with home service businesses in Waldorf that provide
+                  services to customers homes. We focus on helping you increase
+                  your online presence, leads, and sales for your business.
                 </p>
                 <Businesses>
                   <Business>
@@ -350,8 +363,10 @@ export default function Home({ data }) {
         </section>
         <section>
           <div className="container">
-            <h2 className="title">What You Get When Your Work With Us</h2>
-            <p className="subtext">When you work with Bowie SEO, you get:</p>
+            <h2 className="title">
+              What You Get From Us When Your Work With Us
+            </h2>
+            <p className="subtext">When you work with us , you get:</p>
           </div>
           <div className="medium-container">
             <Deliverables>
@@ -362,52 +377,7 @@ export default function Home({ data }) {
                   alt="One-on-one expert support."
                 />
                 <div>
-                  <h3>Individual Support</h3>
-                  <p>
-                    We work with you one-on-one and help you get to the top of
-                    Google.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get keyword research."
-                />
-                <div>
-                  <h3>Keyword Research</h3>
-                  <p>
-                    We find the best, most profitable, and most relevant
-                    keywords that will bring you customers and sales. We build a
-                    keyword database that you use to target and build content.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get Google My Business Management."
-                />
-                <div>
-                  <h3>GMB Management</h3>
-                  <p>
-                    Let’s boost your local SEO game by managing your Google My
-                    Business page. Get a fully optimized GMB page so that you
-                    appear at the top of the map pack and the local search
-                    results.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get Google Analytics and Google Search Console set up."
-                />
-                <div>
-                  <h3>Google Analytics and Google Console Setup</h3>
+                  <h3>Expert one-on-one support</h3>
                   <p>
                     Get free expert advice and support from our team of SEO
                     experts, available to answer all your questions via email or
@@ -420,15 +390,62 @@ export default function Home({ data }) {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
+                  alt="You get keyword research."
+                />
+                <div>
+                  <h3>Keyword Research</h3>
+                  <p>
+                    Laser-focused keyword research will uncover the most
+                    profitable and relevant terms to attract customers and
+                    create sales. We'll construct a database of these keywords
+                    for you to create SEO content.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google My Business Management."
+                />
+                <div>
+                  <h3>Google My Business Management</h3>
+                  <p>
+                    Improve your local SEO ranking by managing your Google My
+                    Business page. Get a fully optimized GMB page to appear at
+                    the top of both the map pack and local search results.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google Analytics and Google Search Console set up."
+                />
+                <div>
+                  <h3>Google Analytics and Google Console Setup</h3>
+                  <p>
+                    Set up Google Analytics and Google Console to track your
+                    website's performance and activity. These tools help you
+                    understand how your site is being used and accessed, so you
+                    can make changes to improve your user experience.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
                   alt="You get a website audit."
                 />
                 <div>
-                  <h3>Website Audit</h3>
+                  <h3>SEO Audit</h3>
                   <p>
-                    Discover the elements stopping your website from ranking and
-                    getting you the leads and customers you need. Our SEO audit
-                    will show you the exact issues that must be fixed for your
-                    SEO campaign to succeed.
+                    Find out what's holding your website back from ranking
+                    higher and getting the leads and customers you need. Our SEO
+                    audit will pinpoint the specific issues that must be fixed
+                    for your SEO campaign to achieve success.
                   </p>
                 </div>
               </Deliverable>
@@ -456,11 +473,12 @@ export default function Home({ data }) {
                   alt="You get weekly updates."
                 />
                 <div>
-                  <h3>Weekly Updates</h3>
+                  <h3>We Give You Weekly Updates</h3>
                   <p>
-                    We update you weekly so you’ll always know what we’re doing.
-                    You’ll always know what we’re doing, or progress, and even
-                    our struggles and issues.
+                    We know that you’re busy and you might not have time to
+                    check in with us every day. That’s why we send out a weekly
+                    update email. This way, you can always be in the loop
+                    without having to put in any extra effort.
                   </p>
                 </div>
               </Deliverable>
@@ -487,12 +505,15 @@ export default function Home({ data }) {
                   alt="You get to know everything we're doing- 100% transparency."
                 />
                 <div>
-                  <h3>100% Transparency</h3>
+                  <h3>You'll Know Everything We're Doing</h3>
                   <p>
-                    You’ll never have to wonder, ‘What are those SEO guys
-                    doing?’ We’ll keep you informed 100%. We’ll send you weekly
-                    email updates, so you know we’re working and that your SEO
-                    campaign is working.
+                    We're 100% transparent. You’ll never have to wonder what
+                    we're doing or if we're working on your campaign. Our team
+                    will give you a full rundown of what we're doing and how
+                    it's working every step of the way. We want you to be as
+                    involved as you want to be. Our goal is to make sure that
+                    you're always in the loop, so you can feel confident that
+                    your campaign is in good hands.
                   </p>
                 </div>
               </Deliverable>
@@ -523,72 +544,80 @@ export default function Home({ data }) {
         </section>
         <div className="container">
           <img
-            src="/images/bowie-seo-firm.webp"
+            src="/images/waldorf-seo-company.webp"
             className="page-img-left"
             width="1440px"
-            height="300px"
-            alt="Work with our SEO firm to increase your online visibility."
-            title="Work with our SEO firm to increase your online visibility."
+            height="600px"
+            alt="Waldorf SEO company."
+            title="Work with our Waldorf SEO company to increase your online visibility."
           />
         </div>
         <section>
           <div className="container">
-            <h2 className="title">Why Work With Bowie SEO?</h2>
+            <h2 className="title">
+              Why Work With Us and Use Us for Your Services?
+            </h2>
             <p className="subtext">
               Save time and money, and acheive your sales and revenue goals by
-              working with Bowie SEO specialists. We work only for you, not your
-              competition.
+              working with Waldorf SEO specialists. We work only for you, not
+              your competition.
             </p>
             <Service>
               <div className="service-card">
                 <img
                   src="/images/save-time.webp"
-                  alt="Search engine optimization"
+                  alt="Focus on your business."
                   width="1000px"
                   height="665px"
                 />
                 <div className="service">
-                  <h3>Focus On Running Your Business, not on doing SEO</h3>
+                  <h3>
+                    We let you focus On Your Business, not on digital Marketing
+                  </h3>
                   <p>
-                    Save time and focus on running your business, not on
-                    tracking keyword rankings and search engine algorithm
-                    changes.
+                    Concentrate on running your business and not on doing
+                    keyword research, writing copy, and competitor analysis.
                   </p>
                 </div>
               </div>
               <div className="service-card">
                 <img
                   src="/images/google-my-business.webp"
-                  alt="Google My Business Management"
+                  alt="Save time."
                   width="1000px"
                   height="665px"
                 />
                 <div className="service">
-                  <h3>Save Money With Advanced Digital Marketing</h3>
+                  <h3>
+                    You Save Time and Money With Advanced Digital Marketing
+                  </h3>
                   <p>
-                    Save money with the best digital marketing methods that are
-                    proven to incease your website traffic and leads, and
-                    increase your sales and revenue.
+                    Save money with the best search marketing methods that are
+                    proven to boost your website traffic and generate leads for
+                    your business.
                   </p>
                 </div>
               </div>
               <div className="service-card">
                 <img
                   src="/images/digital-marketing-team.webp"
-                  alt="Free Mini SEO Audit"
+                  alt="Get your own SEO team."
                   width="1000px"
                   height="665px"
                 />
                 <div className="service">
-                  <h3>Have Your Own Dedicated SEO Specialists</h3>
+                  <h3>You Get Your Own SEO Team for Your Business</h3>
                   <p>
-                    Have your own team of SEO specialist helping grow your
-                    business. Find new opportunities to rank higher in the
-                    search results so customers find your website.
+                    Have your own team of SEO specialists helping you grow your
+                    business. Discover new opportunities to expose your company
+                    new customers.
                   </p>
                 </div>
               </div>
             </Service>
+            <p className="subtext">
+              Want to see how we can help you grow your business with SEO?
+            </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
                 <Button>Schedule Your Free Consultation Today!</Button>
@@ -596,206 +625,72 @@ export default function Home({ data }) {
             </div>
           </div>
         </section>
-        {/* <section>
-          <div className="medium-container">
-            <h2 className="title">Frequently Asked Questions</h2>
-            <div className="faq-questions"></div>
-            <ul>
-              <h3>#1. What is SEO?</h3>
-              <p>
-                Search Engine Optimization (SEO) is the practice of improving
-                the ranking of a website on search engines. The higher the
-                ranking, the more likely people are to find the site.
-              </p>
-              <p>
-                There are a number of factors that contribute to a website's
-                ranking, including the quality and quantity of the content, the
-                structure of the site, and the popularity of the site. SEO is
-                about making sure that a website is designed in a way that makes
-                it easy for search engines to find and index the site's content.
-              </p>
-              <p>
-                SEO is a complex and ever-changing field, and there are no easy
-                shortcuts to achieving high rankings. However, there are a
-                number of things that can be done to improve a website's SEO,
-                and by extension, its ranking.
-              </p>
-              <p>
-                One of the most important things that can be done to improve a
-                website's SEO is to create high-quality, keyword-rich content.
-                This content should be well-written and informative, and it
-                should include the keywords that people are likely to use when
-                searching for information on the topic.
-              </p>
-              <p>
-                Another important factor in SEO is link popularity. Links from
-                other websites to a website help to improve its ranking, as they
-                show that the site is popular and relevant. In order to get
-                high-quality links, it is important to create quality content
-                that other people will want to link to.
-              </p>
-
-              <h3>#2. How Can SEO Help My Business?</h3>
-              <p>Seo can help your business in a number of ways, including:</p>
-              <ul>
-                <li>Increasing your visibility in search engines</li>
-                <li>Driving traffic to the website</li>
-                <li>Generating free leads and customers</li>
-                <li>Improving your brand awareness and online reputation</li>
-                <li>Enhancing customer satisfaction</li>
-              </ul>
-              <p>
-                In short, SEO can be a powerful tool to help businesses grow and
-                succeed online. If you're not using SEO, you're missing out on
-                an opportunity to reach more customers and grow your business.
-              </p>
-
-              <h3>#3. What is The Cost Of SEO?</h3>
-              <p>
-                There is no one-size-fits-all answer to this question, as the
-                cost of SEO can vary greatly depending on the size and scope of
-                your project.
-              </p>
-              <p>
-                However, as a general guide, you can expect to pay anywhere from{' '}
-                <b>$1000 to $5,000 per month</b> for professional SEO services.
-              </p>
-              <p>
-                And if your project is particularly large or complex, you may
-                need to invest more money to get the results you're looking for.
-                But in general, this is a good range to expect for most SEO
-                projects.
-              </p>
-              <p>
-                The cost of SEO can also vary depending on the keywords you want
-                to target and the competition for those keywords. The more
-                competitive the keywords, the more expensive it will be to rank
-                for them. However, if you choose less competitive keywords, you
-                may be able to get by with a smaller budget. Contact us today to
-                learn more about our SEO services and pricing.
-              </p>
-            </ul>
-            <ul>
-              <h3>#4. How Long Does SEO Take to Work?</h3>
-              <p>
-                It's tough to give a definitive answer to this question because
-                there are so many variables at play, including the specific
-                industry, the competition level, the age of the website, and the
-                quality of the content.
-              </p>
-              <p>
-                Generally speaking, though, it can take anywhere from 3-6 months
-                or 6-12 months for SEO to start having an impact on search
-                engine rankings.
-              </p>
-              <p>
-                This timeframe can be even longer for newer websites. However,
-                with consistent effort and a well-planned strategy, it is
-                possible to see results much sooner.
-              </p>
-              <p>
-                There's no guarantee that SEO will work for every website, but
-                it is still one of the most effective ways to improve your
-                visibility and attract more traffic. If you're ready to invest
-                in SEO for your business, contact us to get started.
-              </p>
-
-              <h3>#5. How Do I Calculate My SEO ROI?</h3>
-              <p>
-                It's important to be able to measure your SEO ROI (return on
-                investment) in order to determine whether or not your SEO
-                efforts are paying off. There are a number of different ways to
-                calculate your SEO ROI, but the most important thing is to make
-                sure you're tracking the right metrics.
-              </p>
-              <p>Some of the things you'll want to track include:</p>
-              <ul>
-                <li>The number of organic visitors to your website</li>
-                <li>The number of leads generated from organic traffic</li>
-                <li>The number of sales generated from organic traffic</li>
-                <li>The conversion rate for organic traffic</li>
-              </ul>
-              <p>
-                To get started, you'll need to set up tracking codes on your
-                website so that you can accurately measure the traffic and
-                conversions coming from your SEO campaigns. Once you have that
-                set up, you can start to calculate your ROI.
-              </p>
-              <p>
-                One thing to keep in mind is that SEO is a long-term strategy,
-                so don't expect to see results overnight. It can take months or
-                even years to see a significant return on your investment.
-                However, if you stick with it and continue to track your
-                progress, you should eventually start to see a positive ROI from
-                your SEO efforts.
-              </p>
-              <p>
-                SEO can be a great way to generate leads and sales for your
-                business, but it's important to make sure you're tracking the
-                right metrics so that you can accurately calculate your ROI. By
-                doing so, you'll be able to tell whether or not your SEO efforts
-                are paying off and make necessary changes to ensure a positive
-                return on your investment.
-              </p>
-            </ul>
-          </div>
-        </section> */}
         <section>
           <div className="medium-container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>
                 <div className="question">
-                  <h3>Does SEO still work?</h3>
-                  <p>Yes, SEO still works.</p>
+                  <h3>What is SEO and how does it work?</h3>
                   <p>
-                    However, it is important to remember that it takes a lot of
-                    work to maintain high rankings in search engines. In
-                    addition, the algorithms used by search engines are
-                    constantly changing, which means that what worked yesterday
-                    may not work today. As a result, it is important to stay
-                    up-to-date on the latest SEO news and trends.
+                    SEO is short form for “Search engine optimization”. It is a
+                    long-term marketing strategy employed in order to improve a
+                    websites visibility and organic search results in google and
+                    other global search engines.
+                  </p>
+                  <p>
+                    SEO works by optimizing a website for Google’s algorithm.
+                    The goal is to make your site rank higher in the search
+                    engine results pages (SERPs). In order to do this, SEO
+                    attempts to improve a websites relevancy and authority. A
+                    website’s relevancy is determined by how well it covers the
+                    topic that the user is searching for. Authority is
+                    determined by things like inbound links, social signals, and
+                    brand mentions.{' '}
                   </p>
                 </div>
                 <div className="question">
-                  <h3>Why Do I Need SEO?</h3>
+                  <h3>Is SEO worth it for small business?</h3>
                   <p>
-                    If you want to reach more potential customers and want them
-                    to see your business when they search for your services,
-                    you’ll need an SEO strategy.
+                    Yes, SEO is worth it for small business. SEO can be a very
+                    effective way to grow your small business. It’s a long-term
+                    strategy that can help you build your brand and get more
+                    traffic and leads from Google for free.
                   </p>
-                  <h3>How Do You Know If You Need Local SEO?</h3>
+                  <h3>How much is SEO services in Waldorf per month?</h3>
                   <p>
-                    You need local SEO if your website does not rank in search
-                    engines when potential customers search for services like
-                    yours in their local area. If you want your website to rank
-                    higher in search results to attract more local customers,
-                    you need to invest in local SEO.
-                  </p>
-                </div>
-                <div className="question">
-                  <h3>What is the Cost of SEO?</h3>
-                  <p>
-                    SEO services start at $1000 - $5000 for local businesses.
-                    This depends on the type of business, the competition, the
-                    location, and the marketing budget.
+                    The monthly cost for SEO ranges from $1000 to $5,000+. The
+                    cost can vary depending on the competitiveness of your
+                    industry and the keywords you are targeting. Generally, SEO
+                    is more affordable than PPC advertising and other forms of
+                    paid marketing.
                   </p>
                 </div>
                 <div className="question">
-                  <h3>Why Does SEO Cost So Much?</h3>
-                  SEO is so expensive for three reasons:
-                  <ul>
-                    <li>It takes time to show results</li>
-                    <li>
-                      It requires a lot of resources to build and maintain a
-                      campaign
-                    </li>
-                    <li>
-                      It often relies on the expertise of an SEO specialist to
-                      develop and grow your strategy
-                    </li>
-                  </ul>
+                  <h3>How long does it take for SEO to work?</h3>
+                  <p>
+                    The time it takes for SEO to work depends on a number of
+                    factors, including the age of your website, the
+                    competitiveness of your industry, and the quality of your
+                    SEO efforts. In general, it takes 3-6 months for SEO to
+                    start working. However, it is important to note that SEO is
+                    a long-term marketing strategy, and the results you see
+                    after 3-6 months are just the beginning.
+                  </p>
                 </div>
+                <div className="question">
+                  <h3>What is better PPC or SEO?</h3>
+                  <p>
+                    The answer to this question depends on your goals. If you
+                    are looking for immediate results, then Google Ads is the
+                    better option. However, if you are looking for a long-term
+                    marketing strategy that will help you build your brand and
+                    get more traffic and leads from Google over time, then SEO
+                    is the better option.{' '}
+                  </p>
+                </div>
+              </div>
+              <div>
                 <div className="question">
                   <h3>What is the Difference between SEO and Local SEO</h3>
                   <p>
@@ -806,17 +701,15 @@ export default function Home({ data }) {
                     results.{' '}
                   </p>
                 </div>
-              </div>
-              <div>
                 <div className="question">
-                  <h3>How long does it take to rank a website?</h3>
+                  <h3>How long would it take to rank my website??</h3>
                   <p>
-                    This is a difficult question to answer, as it depends on a
-                    number of factors, including the age and authority of the
-                    website, the competition for the keywords being targeted,
-                    and the quality of the content. Generally speaking. However,
-                    it can take several weeks to several months to see results
-                    from SEO efforts.
+                    The time it takes to rank a website depends on many factors,
+                    including the age of the site, the competition for keywords,
+                    and the quality of the site’s content. In general, it takes
+                    longer to rank a new website than an established one. It
+                    also takes more effort to rank for competitive keywords than
+                    for less popular ones.
                   </p>
                 </div>
                 <div className="question">
@@ -827,28 +720,32 @@ export default function Home({ data }) {
                     month.
                   </p>
                   <p>
-                    But why would you cancel if you’re making more money after
-                    you hired us?
+                    But would you cancel if you’re getting leads and making more
+                    money?
                   </p>
                 </div>
                 <div className="question">
-                  <h3>Can You Guarantee Me #1 Rankings?</h3>
-                  <p>We cannot guarantee first-place rankings.</p>
-                  <p>No one can.</p>
+                  <h3>Can You Guarantee Me #1 Rankings on Google?</h3>
+                  <p>No.</p>
                   <p>
-                    No one can guarantee rankings because no one knows how the
-                    search algorithm works and because it is always changing.
+                    SEO is an ever-changing field, and what works today may not
+                    work tomorrow. Because of this, no one can guarantee you
+                    first page rankings. However, an experienced SEO consultant
+                    can help improve your website’s ranking in the search engine
+                    results pages (SERPs).
                   </p>
                 </div>
                 <div className="question">
-                  <h3>Do You Have to Change Anything on My Website?</h3>
-                  <p>Sometimes we do.</p>
+                  <h3>Do You Have to Change My site for SEO to work?</h3>
+                  <p>We might have to.</p>
                   <p>
-                    If your website is not user-friendly, or we have to improve
-                    user experience to help improve your SEO, we will advise
-                    that you make changes. Examples of changes would be adding
-                    clickable phone numbers, adding more pages, and improving
-                    the design of the web page.
+                    We will update your website's title, meta tags, and content
+                    to reflect keywords that we believe will be most valuable to
+                    you. Additionally, we'll create or update your website's
+                    sitemap so that search engines can more easily find and
+                    index your site. Finally, we'll set up Google Analytics so
+                    that you can track your SEO progress over time. And we may
+                    have to alter the design if it is not user friendly.
                   </p>
                 </div>
               </div>
@@ -857,8 +754,9 @@ export default function Home({ data }) {
         </section>
         <div className="call-to-action-grid">
           <img
-            src="/images/smiling-businessman-calling-maryland-seo-company.webp"
-            alt="Man calling our Maryland SEO company."
+            src="/images/seo-services-waldorf-maryland.webp"
+            alt="Man calling to get SEO services in Waldorf."
+            title="Man calling to get SEO services in Waldorf."
             width="1000px"
             height="65px"
           />
@@ -866,7 +764,8 @@ export default function Home({ data }) {
             <h2>Ready to Boost Your Sales and Revenue?</h2>
             <p>
               Contact {SEOAgency} and we'll show you how search engine
-              optimization can help get leads without paying for online ads.
+              optimization can help your business get more leads in Waldorf and
+              Southern Maryland without paying for leads or online ads.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">

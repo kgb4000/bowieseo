@@ -56,12 +56,12 @@ export default function CroftonMD() {
           buttonText="Book a free consultation"
         />
         <section className="article-section">
-          <h2 className="title">
-            Keep losing Money every month or start doing SEO and make money:
-            choose now
-          </h2>
           <div className="medium-container grid">
             <div>
+              <h2>
+                Keep losing Money every month or start doing SEO and make money:
+                choose now
+              </h2>
               <p>
                 You're trying to figure out how to get more leads and customers
                 to your business, but nothing seems to be working.
@@ -111,6 +111,8 @@ export default function CroftonMD() {
               className="page-img-left"
               alt="Business owner thinking about getting SEO Services for his business in Crofton, MD"
               title="Business owner thinking about getting SEO Services in Crofton Maryland"
+              width="600"
+              height="1000"
             />
           </div>
         </section>
