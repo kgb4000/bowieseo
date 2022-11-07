@@ -57,7 +57,12 @@ export default function Blog({ data }) {
               <div key={post.slug}>
                 <div className="blog-posts">
                   <Link href={`/${post.slug}`} passHref>
-                    <img src={post.coverImage.url} alt={post.title} />
+                    <img
+                      src={post.coverImage.url}
+                      alt={post.title}
+                      loading="lazy"
+                      title={post.title}
+                    />
                   </Link>
                   <div className="blog-info">
                     <Link href={`/${post.slug}`} passHref>

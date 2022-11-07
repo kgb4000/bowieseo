@@ -112,6 +112,7 @@ export default function SEOServicesWaldorf() {
                 height="600px"
                 alt="A business owner considering  getting SEO services in Waldorf."
                 title="A business owner considering getting SEO services in Waldorf."
+                loading="lazy"
               />
             </div>
             <div className="btn">
@@ -131,6 +132,7 @@ export default function SEOServicesWaldorf() {
                 height="600px"
                 alt="A business owner considering working Bowie SEO to get his own leads without paying for online ads."
                 title="A happy business owner working with Bowie SEO to get his own leads without paying for online ads."
+                loading="lazy"
               />
               <div>
                 <h2>
@@ -207,6 +209,7 @@ export default function SEOServicesWaldorf() {
                   title="Waldorf SEO Services"
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>Search Engine Optimization</h3>
@@ -224,6 +227,7 @@ export default function SEOServicesWaldorf() {
                   title="Waldorf Google My Business Management"
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>GMB Management</h3>
@@ -241,6 +245,7 @@ export default function SEOServicesWaldorf() {
                   title="Free Mini SEO Audit"
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>Free Mini SEO Audit</h3>
@@ -265,8 +270,7 @@ export default function SEOServicesWaldorf() {
               />
               <div>
                 <h2>
-                  Home Service Businesses We Work With in Waldorf and Southern
-                  Maryland
+                  Home Service Businesses We Work With in Waldorf, Maryland
                 </h2>
                 <p>
                   We work with home service businesses in Waldorf that provide
@@ -280,6 +284,7 @@ export default function SEOServicesWaldorf() {
                       className="business-icon"
                       alt="Businesses our company works with - Asphalt paving companies."
                       title="Businesses we work with - Asphalt paving companies."
+                      loading="lazy"
                     />
                     <p>Asphalt Paving Companies</p>
                   </Business>
@@ -289,6 +294,7 @@ export default function SEOServicesWaldorf() {
                       className="business-icon"
                       alt="Businesses our company works with - Plumbing Contractors."
                       title="Businesses our company works with - Plumbing Contractors."
+                      loading="lazy"
                     />
                     <p>Plumbing Contractors</p>
                   </Business>
@@ -298,6 +304,7 @@ export default function SEOServicesWaldorf() {
                       className="business-icon"
                       alt="Businesses we work with - HVAC Contractors."
                       title="Businesses we work with - HVAC Contractors."
+                      loading="lazy"
                     />
                     <p>HVAC Contractors</p>
                   </Business>
@@ -307,6 +314,7 @@ export default function SEOServicesWaldorf() {
                       className="business-icon"
                       alt="Businesses we work with - Roofing Contractors."
                       title="Businesses we work with - Roofing Contractors."
+                      loading="lazy"
                     />
                     <p>Roofing Contractors</p>
                   </Business>
@@ -316,6 +324,7 @@ export default function SEOServicesWaldorf() {
                       className="business-icon"
                       alt="Businesses we work with - Landscaping Companies."
                       title="Businesses we work with - Landscaping Companies."
+                      loading="lazy"
                     />
                     <p>Landscaping Companies</p>
                   </Business>
@@ -325,6 +334,7 @@ export default function SEOServicesWaldorf() {
                       className="business-icon"
                       alt="Businesses we work with - Pest Control Companies."
                       title="Businesses we work with - Pest Control Companies."
+                      loading="lazy"
                     />
                     <p>Pest Control Companies</p>
                   </Business>
@@ -334,6 +344,7 @@ export default function SEOServicesWaldorf() {
                       className="business-icon"
                       alt="Businesses we work with - Electrical Contractors."
                       title="Businesses we work with - Electrical Contractors."
+                      loading="lazy"
                     />
                     <p>Electrical Contractors</p>
                   </Business>
@@ -343,6 +354,7 @@ export default function SEOServicesWaldorf() {
                       className="business-icon"
                       alt="Businesses we work with - Swimming Pool Builders."
                       title="Businesses we work with - Swimming Pool Builders."
+                      loading="lazy"
                     />
                     <p>Swimming Pool Builders</p>
                   </Business>
@@ -352,6 +364,7 @@ export default function SEOServicesWaldorf() {
                       className="business-icon"
                       alt="Asphalt paving companies - Businesses we work with."
                       title="Businesses we work with - Asphalt paving companies."
+                      loading="lazy"
                     />
                     <p>Junk Removal Companies</p>
                   </Business>
@@ -361,6 +374,7 @@ export default function SEOServicesWaldorf() {
                       className="business-icon"
                       alt="Businesses we work with - General Contractors."
                       title="Businesses we work with - General Contractors."
+                      loading="lazy"
                     />
                     <p>General Contractors</p>
                   </Business>
@@ -383,7 +397,7 @@ export default function SEOServicesWaldorf() {
             <h2 className="title">
               What You Get From Us When Your Work With Us
             </h2>
-            <p className="subtext">When you work with us , you get:</p>
+            <p className="subtext">When you work with us, you get:</p>
           </div>
           <div className="medium-container">
             <Deliverables>
@@ -392,6 +406,7 @@ export default function SEOServicesWaldorf() {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="One-on-one expert support."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Expert one-on-one support</h3>
@@ -408,6 +423,7 @@ export default function SEOServicesWaldorf() {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get keyword research."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Keyword Research</h3>
@@ -424,6 +440,7 @@ export default function SEOServicesWaldorf() {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get Google My Business Management."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Google My Business Management</h3>
@@ -439,6 +456,7 @@ export default function SEOServicesWaldorf() {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get Google Analytics and Google Search Console set up."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Google Analytics and Google Console Setup</h3>
@@ -455,6 +473,7 @@ export default function SEOServicesWaldorf() {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get a website audit."
+                  loading="lazy"
                 />
                 <div>
                   <h3>SEO Audit</h3>
@@ -471,6 +490,7 @@ export default function SEOServicesWaldorf() {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get local SEO."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Local SEO</h3>
@@ -488,6 +508,7 @@ export default function SEOServicesWaldorf() {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get weekly updates."
+                  loading="lazy"
                 />
                 <div>
                   <h3>We Give You Weekly Updates</h3>
@@ -504,6 +525,7 @@ export default function SEOServicesWaldorf() {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get content / service page creation and optimization."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Content / Service Page Creation / Optimization</h3>
@@ -520,6 +542,7 @@ export default function SEOServicesWaldorf() {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get to know everything we're doing- 100% transparency."
+                  loading="lazy"
                 />
                 <div>
                   <h3>You'll Know Everything We're Doing</h3>
@@ -539,6 +562,7 @@ export default function SEOServicesWaldorf() {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="One-on-one expert support."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Tracking and Monitoring</h3>
@@ -586,6 +610,7 @@ export default function SEOServicesWaldorf() {
                   alt="Focus on your business."
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>
@@ -603,6 +628,7 @@ export default function SEOServicesWaldorf() {
                   alt="Save time."
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>
@@ -621,6 +647,7 @@ export default function SEOServicesWaldorf() {
                   alt="Get your own SEO team."
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>You Get Your Own SEO Team for Your Business</h3>
@@ -776,13 +803,14 @@ export default function SEOServicesWaldorf() {
             title="Man calling to get SEO services in Waldorf."
             width="1000px"
             height="65px"
+            loading="lazy"
           />
           <div className="container">
             <h2>Ready to Boost Your Sales and Revenue?</h2>
             <p>
               Contact {SEOAgency} and we'll show you how search engine
-              optimization can help your business get more leads in Waldorf and
-              Southern Maryland without paying for leads or online ads.
+              optimization can help your business get more leads in Waldorf
+              without paying for leads or online ads.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">

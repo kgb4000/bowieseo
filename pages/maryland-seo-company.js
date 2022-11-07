@@ -380,7 +380,7 @@ const MarylandSEOCompany = () => {
         <section className="bg-color">
           <div className="container">
             <h2 className="title">
-              Our (Maryland) SEO Services That get You to the first page
+              Our (Maryland) SEO Services get You to the first page
             </h2>
             <p className="subtext">
               We study the search engines, and we know Maryland businesses. Our
@@ -646,7 +646,7 @@ const MarylandSEOCompany = () => {
                 loading="lazy"
               />
               <div>
-                <h2>Home Service Businesses We Work With in MD</h2>
+                <h2>Home Service Businesses We Work With in Maryland</h2>
                 <p>
                   Our SEO agency works with home service businesses that provide
                   services to customers homes. Our goal is to help home service

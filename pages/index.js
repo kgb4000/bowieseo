@@ -26,6 +26,7 @@ export default function Home({ data }) {
           backgroundPosition="center"
           buttonText="Schedule a free consultation today!"
           buttonLink={calendly}
+          loading="lazy"
         />
         <section>
           <div className="medium-container">

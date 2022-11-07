@@ -77,11 +77,10 @@ export const NavItem = styled.li`
 
   .menu {
     position: absolute;
-
     list-style-type: none;
     margin: 5px 0;
     padding: 0;
-
+    margin-top: 24px;
     width: 350px;
   }
 
