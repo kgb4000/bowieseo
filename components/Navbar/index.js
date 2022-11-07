@@ -33,6 +33,10 @@ const Navbar = ({ toggle }) => {
     // do something
     setOpen(false)
   }
+  const handleMenuThree = () => {
+    // do something
+    setOpen(false)
+  }
   return (
     <>
       <Nav>
@@ -59,6 +63,11 @@ const Navbar = ({ toggle }) => {
                   <div onClick={handleMenuTwo}>
                     <Link href="/search-engine-optimization" passHref>
                       <a>GMB Management</a>
+                    </Link>
+                  </div>,
+                  <div onClick={handleMenuThree}>
+                    <Link href="/free-mini-seo-audit" passHref>
+                      <a>Free Mini SEO Audit</a>
                     </Link>
                   </div>,
                 ]}
