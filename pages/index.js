@@ -86,6 +86,7 @@ export default function Home({ data }) {
                 height="600px"
                 alt="A business owner considering working with our SEO company to get his own leads without paying for online ads."
                 title="A business owner considering working with our SEO company to get his own leads without paying for online ads."
+                loading="lazy"
               />
             </div>
             <div className="btn">
@@ -105,6 +106,7 @@ export default function Home({ data }) {
                 height="600px"
                 alt="A business owner considering working Bowie SEO to get his own leads without paying for online ads."
                 title="A happy business owner working with Bowie SEO to get his own leads without paying for online ads."
+                loading="lazy"
               />
               <div>
                 <h2>
@@ -181,6 +183,7 @@ export default function Home({ data }) {
                   alt="Search engine optimization"
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>Search Engine Optimization</h3>
@@ -197,6 +200,7 @@ export default function Home({ data }) {
                   alt="Google My Business Management"
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>GMB Management</h3>
@@ -213,6 +217,7 @@ export default function Home({ data }) {
                   alt="Free Mini SEO Audit"
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>Free Mini SEO Audit</h3>
@@ -234,6 +239,7 @@ export default function Home({ data }) {
                 className="page-img"
                 alt="Maryland SEO company"
                 title="Home service businesses we work with."
+                loading="lazy"
               />
               <div>
                 <h2>Home Service Businesses We Work With</h2>
@@ -250,6 +256,7 @@ export default function Home({ data }) {
                       className="business-icon"
                       alt="Businesses our company works with - Asphalt paving companies."
                       title="Businesses we work with - Asphalt paving companies."
+                      loading="lazy"
                     />
                     <p>Asphalt Paving Companies</p>
                   </Business>
@@ -259,6 +266,7 @@ export default function Home({ data }) {
                       className="business-icon"
                       alt="Businesses our company works with - Plumbing Contractors."
                       title="Businesses our company works with - Plumbing Contractors."
+                      loading="lazy"
                     />
                     <p>Plumbing Contractors</p>
                   </Business>
@@ -268,6 +276,7 @@ export default function Home({ data }) {
                       className="business-icon"
                       alt="Businesses we work with - HVAC Contractors."
                       title="Businesses we work with - HVAC Contractors."
+                      loading="lazy"
                     />
                     <p>HVAC Contractors</p>
                   </Business>
@@ -277,6 +286,7 @@ export default function Home({ data }) {
                       className="business-icon"
                       alt="Businesses we work with - Roofing Contractors."
                       title="Businesses we work with - Roofing Contractors."
+                      loading="lazy"
                     />
                     <p>Roofing Contractors</p>
                   </Business>
@@ -286,6 +296,7 @@ export default function Home({ data }) {
                       className="business-icon"
                       alt="Businesses we work with - Landscaping Companies."
                       title="Businesses we work with - Landscaping Companies."
+                      loading="lazy"
                     />
                     <p>Landscaping Companies</p>
                   </Business>
@@ -295,6 +306,7 @@ export default function Home({ data }) {
                       className="business-icon"
                       alt="Businesses we work with - Pest Control Companies."
                       title="Businesses we work with - Pest Control Companies."
+                      loading="lazy"
                     />
                     <p>Pest Control Companies</p>
                   </Business>
@@ -304,6 +316,7 @@ export default function Home({ data }) {
                       className="business-icon"
                       alt="Businesses we work with - Electrical Contractors."
                       title="Businesses we work with - Electrical Contractors."
+                      loading="lazy"
                     />
                     <p>Electrical Contractors</p>
                   </Business>
@@ -313,6 +326,7 @@ export default function Home({ data }) {
                       className="business-icon"
                       alt="Businesses we work with - Swimming Pool Builders."
                       title="Businesses we work with - Swimming Pool Builders."
+                      loading="lazy"
                     />
                     <p>Swimming Pool Builders</p>
                   </Business>
@@ -322,6 +336,7 @@ export default function Home({ data }) {
                       className="business-icon"
                       alt="Asphalt paving companies - Businesses we work with."
                       title="Businesses we work with - Asphalt paving companies."
+                      loading="lazy"
                     />
                     <p>Junk Removal Companies</p>
                   </Business>
@@ -331,6 +346,7 @@ export default function Home({ data }) {
                       className="business-icon"
                       alt="Businesses we work with - General Contractors."
                       title="Businesses we work with - General Contractors."
+                      loading="lazy"
                     />
                     <p>General Contractors</p>
                   </Business>
@@ -360,6 +376,7 @@ export default function Home({ data }) {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="One-on-one expert support."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Individual Support</h3>
@@ -374,6 +391,7 @@ export default function Home({ data }) {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get keyword research."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Keyword Research</h3>
@@ -389,6 +407,7 @@ export default function Home({ data }) {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get Google My Business Management."
+                  loading="lazy"
                 />
                 <div>
                   <h3>GMB Management</h3>
@@ -405,6 +424,7 @@ export default function Home({ data }) {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get Google Analytics and Google Search Console set up."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Google Analytics and Google Console Setup</h3>
@@ -421,6 +441,7 @@ export default function Home({ data }) {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get a website audit."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Website Audit</h3>
@@ -437,6 +458,7 @@ export default function Home({ data }) {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get local SEO."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Local SEO</h3>
@@ -454,6 +476,7 @@ export default function Home({ data }) {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get weekly updates."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Weekly Updates</h3>
@@ -469,6 +492,7 @@ export default function Home({ data }) {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get content / service page creation and optimization."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Content / Service Page Creation / Optimization</h3>
@@ -485,6 +509,7 @@ export default function Home({ data }) {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="You get to know everything we're doing- 100% transparency."
+                  loading="lazy"
                 />
                 <div>
                   <h3>100% Transparency</h3>
@@ -501,6 +526,7 @@ export default function Home({ data }) {
                   src="/images/icons/check-mark.png"
                   className="check"
                   alt="One-on-one expert support."
+                  loading="lazy"
                 />
                 <div>
                   <h3>Tracking and Monitoring</h3>
@@ -529,6 +555,7 @@ export default function Home({ data }) {
             height="300px"
             alt="Work with our SEO firm to increase your online visibility."
             title="Work with our SEO firm to increase your online visibility."
+            loading="lazy"
           />
         </div>
         <section>
@@ -546,6 +573,7 @@ export default function Home({ data }) {
                   alt="Search engine optimization"
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>Focus On Running Your Business, not on doing SEO</h3>
@@ -562,6 +590,7 @@ export default function Home({ data }) {
                   alt="Google My Business Management"
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>Save Money With Advanced Digital Marketing</h3>
@@ -578,6 +607,7 @@ export default function Home({ data }) {
                   alt="Free Mini SEO Audit"
                   width="1000px"
                   height="665px"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>Have Your Own Dedicated SEO Specialists</h3>
@@ -873,7 +903,8 @@ export default function Home({ data }) {
             src="/images/smiling-businessman-calling-maryland-seo-company.webp"
             alt="Man calling our Maryland SEO company."
             width="1000px"
-            height="65px"
+            height="665px"
+            loading="lazy"
           />
           <div className="container">
             <h2>Ready to Boost Your Sales and Revenue?</h2>

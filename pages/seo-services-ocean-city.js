@@ -56,7 +56,7 @@ export default function OceanCitySEO() {
         />
         <section className="article-section">
           <div className="medium-container">
-            <h2>SEO Services Ocean City</h2>
+            <h2 className="title">SEO Services Ocean City</h2>
             <p className="center">
               Digital marketing can be challenging for businesses in Ocean City,
               but you don't have to struggle anymore.
@@ -97,7 +97,7 @@ export default function OceanCitySEO() {
         <section className="dots-background">
           <div className="container">
             <div className="offer-section">
-              <h2>
+              <h2 className="title">
                 Is Your Business Showing up in Google When People Search for
                 Your Services in Ocean City?
               </h2>
@@ -125,7 +125,7 @@ export default function OceanCitySEO() {
         </section>
         <section className="reasons-section">
           <div className="medium-container">
-            <h2>
+            <h2 className="title">
               7 Reasons You Must Invest in SEO for Your Ocean City, MD Business
             </h2>
             <p className="center">
@@ -204,7 +204,7 @@ export default function OceanCitySEO() {
         </section>
         <section>
           <div className="medium-container">
-            <h2>
+            <h2 className="title">
               What is Search Engine Optimization, and How Can it Help Businesses
               in Ocean City?
             </h2>
@@ -214,7 +214,7 @@ export default function OceanCitySEO() {
               visibility in the search engine results pages (SERPs).
             </p>
             <p>
-              <Link href="/local-seo" passHref>
+              <Link href="/search-engine-optimization" passHref>
                 <a>Local SEO</a>
               </Link>{' '}
               is search engine optimization for businesses in a specific
@@ -381,7 +381,7 @@ export default function OceanCitySEO() {
         </div>
         <section>
           <div className="medium-container">
-            <h2>
+            <h2 className="title">
               In a Sea of Ocean City SEO Companies, Why Work With Our SEO
               Company?
             </h2>
