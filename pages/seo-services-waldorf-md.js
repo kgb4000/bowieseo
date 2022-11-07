@@ -9,13 +9,30 @@ import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { Business, Businesses } from '../components/BusinessesWeWorkWith'
 
+import { NextSeo } from 'next-seo'
+
 const calendly = 'https://calendly.com/bowieseo/30min'
 
 const SEOAgency = 'Bowie SEO'
 
-export default function Home({ data }) {
+export default function SEOServicesWaldorf() {
+  const SEO = {
+    title:
+      'SEO Services Waldorf MD | Build Your Own Lead-Generation Website Today',
+    description:
+      'Build your own lead-generating website with search engine optimization and stop paying for Facebook and Google ads. Call for your free consultation!',
+    canonical: 'https://bowieseo.com/seo-services-waldorf-md',
+    openGraph: {
+      title:
+        'SEO Services Waldorf MD | Build Your Own Lead-Generation Website Today',
+      description:
+        'Build your own lead-generating website with search engine optimization and stop paying for Facebook and Google ads. Call for your free consultation!',
+      type: 'website',
+    },
+  }
   return (
     <>
+      <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
           heroText="Get more website traffic, leads and sales with SEO Services in Waldorf Maryland"

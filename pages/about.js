@@ -56,25 +56,18 @@ const About = () => {
 
             <p>Our services include:</p>
             <ul>
+              <li>
+                <Link href="/search-engine-optimization" passHref>
+                  <a>Search engine optimization”</a>
+                </Link>
+              </li>
               <li>Keyword Research</li>
               <li>Link Building</li>
-              <li>
-                <Link href="/seo-audit" passHref>
-                  <a>SEO Audits</a>
-                </Link>
-              </li>
               <li>Content audits and optimizations</li>
-              <li>
-                <Link href="/technical-seo" passHref>
-                  <a>Technical SEO</a>
-                </Link>
-              </li>
+              <li>GMB Management</li>
+              <li>Technical SEO</li>
               <li>On-Page SEO</li>
-              <li>
-                <Link href="/local-seo" passHref>
-                  <a>Local SEO</a>
-                </Link>
-              </li>
+              <li>Local SEO</li>
               <li>Competitive Analysis</li>
               <li>
                 <Link href="/free-mini-seo-audit" passHref>

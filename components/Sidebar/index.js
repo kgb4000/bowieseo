@@ -26,8 +26,13 @@ const Sibebar = ({ isOpen, toggle }) => {
         <SidebarWrapper>
           <SidebarMenu>
             <SidebarItem>
-              <SidebarLink href="/seo-services" passHref>
-                <SidebarLinkA>Services</SidebarLinkA>
+              <SidebarLink href="/search-engine-optimization" passHref>
+                <SidebarLinkA>SEO Services</SidebarLinkA>
+              </SidebarLink>
+            </SidebarItem>
+            <SidebarItem>
+              <SidebarLink href="/free-mini-seo-audit" passHref>
+                <SidebarLinkA>Free Mini SEO Audit</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
@@ -37,27 +42,24 @@ const Sibebar = ({ isOpen, toggle }) => {
             </SidebarItem>
             <SidebarItem>
               <SidebarLink href="/about" passHref>
-                <SidebarLinkA>About</SidebarLinkA>
+                <SidebarLinkA>About us</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
               <SidebarLink href="/contact" passHref>
-                <SidebarLinkA>Contact</SidebarLinkA>
+                <SidebarLinkA>Contact us</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
-              <SidebarLink href="/free-mini-seo-audit" passHref>
-                <SidebarLinkA>Free Mini SEO Audit</SidebarLinkA>
-              </SidebarLink>
+              <SidebarBtnWrap>
+                <SidebarBtnLink href="tel:+2402660588">
+                  <SidebarBtnLinkA href="tel:+2402660588">
+                    Call (240) 266-0588
+                  </SidebarBtnLinkA>
+                </SidebarBtnLink>
+              </SidebarBtnWrap>
             </SidebarItem>
           </SidebarMenu>
-          <SidebarBtnWrap>
-            <SidebarBtnLink href="tel:+2402660588">
-              <SidebarBtnLinkA href="tel:+2402660588">
-                Call (240) 266-0588
-              </SidebarBtnLinkA>
-            </SidebarBtnLink>
-          </SidebarBtnWrap>
         </SidebarWrapper>
       </SidebarContainer>
     </>
