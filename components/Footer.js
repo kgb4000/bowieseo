@@ -105,8 +105,8 @@ const FooterSection = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/seo-audit">
-                    <a>SEO Audits</a>
+                  <Link href="/free-mini-seo-audit">
+                    <a>Free Mini SEO Audit</a>
                   </Link>
                 </li>
                 {/* <li>
