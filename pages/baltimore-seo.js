@@ -387,121 +387,76 @@ const BaltimoreSEOCompany = () => {
             <Button>Call (240) 266-0588 today!</Button>
           </a>
         </div>
-        <section>
-          <div className="services-container">
-            <h2>Baltimore SEO Services</h2>
-            <p className="sub-text">
-              We offer a full range of SEO services to help your Baltimore
-              businesses rank higher in the search engines and get more traffic.
+        <section className="bg-color">
+          <div className="container">
+            <h2 className="title">
+              Our Baltimore SEO Services get You in Front of More Customers
+              Searching For Your Services
+            </h2>
+            <p className="subtext">
+              We study the search engines, and we know Baltimore businesses.
+              Baltimore SEO will put your website on the first page so you can
+              get more phone calls, leads, and sales than your competitors.
             </p>
-            <div className="services">
-              <Container>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/local.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>Local SEO</h3>
-                    <p>
-                      Your local customers in Baltimore are searching for your
-                      skills and services. Make sure they can find you and not
-                      your competitors.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/audit.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>SEO Audit</h3>
-                    <p>
-                      See why your website isn't getting traffic or attracting
-                      customers and why your competition is stealing your
-                      clients.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-                <Card>
-                  <div className="card-info one">
-                    <img
-                      src="/images/keyword-research.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>Keyword Research</h3>
-                    <p>
-                      Use keyword research to find the keywords people use to
-                      find your services. Choose the right keywords and show up
-                      in the search results.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/analysis.svg"
-                      alt="Man analyzing data"
-                      loading="lazy"
-                    />
-                    <h3>Competitive Analysis</h3>
-                    <p>
-                      See what your competitors are doing to rank higher than
-                      you. Use this information and take advantage to find new
-                      opportunities to compete.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/competitive-analysis.svg"
-                      alt="Man analyzing data"
-                      loading="lazy"
-                    />
-                    <h3>GMB Optimization</h3>
-                    <p>
-                      Optimize your Google Business Profile for people in
-                      Baltimore searching for your services. Let searchers find
-                      your business, not someone else's.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-                <Link href="/free-website-audit">
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/thinking.svg"
-                        alt="Woman thiniking about getting a free mini SEO audit."
-                        loading="lazy"
-                      />
-                      <h3>Free Mini SEO Audit</h3>
-                      <p>
-                        See what's holding your website back from ranking higher
-                        and getting you leads and customers.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </Link>
-              </Container>
+            <Service>
+              <div className="service-card">
+                <img
+                  src="/images/maryland-seo-company.webp"
+                  alt="Search engine optimization"
+                  width="1000px"
+                  height="665px"
+                />
+                <div className="service">
+                  <h3>Search Engine Optimization</h3>
+                  <p>
+                    Use search engine optimization to stand out from your
+                    competition and get found when it counts. Let your customers
+                    find your business, not your competitors.
+                  </p>
+                </div>
+              </div>
+              <div className="service-card">
+                <img
+                  src="/images/google-my-business.webp"
+                  alt="Google My Business Management"
+                  width="1000px"
+                  height="665px"
+                  loading="lazy"
+                />
+                <div className="service">
+                  <h3>GMB Management</h3>
+                  <p>
+                    An optimized Google My Business page is crucial for you to
+                    rank locally. Let us manage your GMB profile and use our
+                    experience to boost your SEO performance.
+                  </p>
+                </div>
+              </div>
+              <div className="service-card">
+                <img
+                  src="/images/seo-audit.webp"
+                  alt="Free Mini SEO Audit"
+                  width="1000px"
+                  height="665px"
+                  loading="lazy"
+                />
+                <div className="service">
+                  <h3>Free Mini SEO Audit</h3>
+                  <p>
+                    Get a free mini SEO audit on us and see how you can improve
+                    your SEO rankings and performance to increase your sales and
+                    revenue.
+                  </p>
+                </div>
+              </div>
+            </Service>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule Your Free Consultation Today!</Button>
+              </a>
             </div>
           </div>
         </section>
-        <div className="btn">
-          <Link href="/seo-services" passHref>
-            <Button>More SEO Services</Button>
-          </Link>
-        </div>
         <section>
           <div className="medium-container">
             <h2 className="title">
@@ -523,165 +478,62 @@ const BaltimoreSEOCompany = () => {
                   alt="Rosedale, MD"
                   title="Rosedale, MD"
                 />
+                <p>Rosedale, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Essex, MD"
+                  title="Essex, MD"
+                />
                 <p>Essex, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Bowie SEO"
-                  title="Bowie SEO"
+                  alt="Woodlawn, MD"
+                  title="Woodlawn, MD"
                 />
-                <Link href="/" passHref>
-                  <a>Bowie, MD</a>
-                </Link>
+                <p>Woodlawn, MD</p>
+              </City>
+
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Pikesville, MD</p>
               </City>
               <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services Columbia"
-                  title="SEO Services Columbia"
-                />
+                <img src="/images/icons/map-location.png" />
+                <p>Towson, MD</p>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Dundalk, MD</p>
+              </City>
+
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Catonsville, MD</p>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Ellicott City, MD</p>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
                 <p>Columbia, MD</p>
               </City>
               <City>
                 <img src="/images/icons/map-location.png" />
-                <Link href="/seo-services-crofton-md" passHref>
-                  <a>Crofton, MD</a>
-                </Link>
+                <p>Lochearn, MD</p>
               </City>
+
               <City>
                 <img src="/images/icons/map-location.png" />
-                <p>Fort Washington, MD</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Glen Burnie</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Hyattsville, MD</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <Link href="/laurel-maryland-local-seo-services" passHref>
-                  <a>Laurel, MD</a>
-                </Link>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <Link href="/seo-services-ocean-city" passHref>
-                  <a>Ocean City, MD</a>
-                </Link>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Odenton, MD</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Owings Mills, MD</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Rockville, MD</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <Link href="/seo-services-salisbury-md" passHref>
-                  <a>Salisbury, MD</a>
-                </Link>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Gaithersburg, MD</p>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services Hagerstown, MD"
-                  title="SEO Services Hagerstown, MD"
-                />
-                <p>Hagerstown, MD</p>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services Silver Spring, MD"
-                  title="SEO Services Silver Spring, MD"
-                />
-                <p>Silver Spring, MD</p>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services Greenbelt, MD"
-                  title="SEO Services Greenbelt, MD"
-                />
-                <p>Greenbelt, MD</p>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services College Park MD"
-                  title="SEO Services College Park MD"
-                />
-                <p>College Park, MD</p>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services Waldorf MD"
-                  title="SEO Services Waldorf MD"
-                />
-                <Link href="/seo-services-waldorf-md" passHref>
-                  <a>Waldorf, MD</a>
-                </Link>
+                <p>Arbutus, MD</p>
               </City>
             </Cities>
-            <div className="btn">
-              <a href="tel:+2402660588">
-                <Button>Call (240) 266-0588 today!</Button>
-              </a>
-            </div>
           </div>
         </section>
-        <section>
-          <div className="medium-container">
-            <h2 className="title">
-              We Do Local SEO Services Near Baltimore, MD
-            </h2>
-            <p>
-              If you have a local Baltimore business and provide services to
-              suburbs surrounding the Baltimore area, we can help you reach more
-              clients in these cities with local SEO services.
-            </p>
-            <div className="cities">
-              <ul>
-                <li>Hampden, MD</li>
-                <li>Rosedale, MD</li>
-                <li>Essex, MD</li>
-                <li>Woodlawn, MD</li>
-              </ul>
-              <ul>
-                <li>Pikesville, MD</li>
-                <li>Towson, MD</li>
-                <li>Dundalk, MD</li>
-                <li>Catonsville, MD</li>
-              </ul>
-              <ul>
-                <li>Ellicott City, MD</li>
-                <li>Columbia, MD</li>
-                <li>Arbutus, MD</li>
-                <li>Lochearn, MD</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <div className="btn">
-          <Link href="/contact" passHref>
-            <Button>Contact us today!</Button>
-          </Link>
-        </div>
         <section>
           <div className="medium-container">
             <h2 className="title">
@@ -1028,6 +880,36 @@ const ReasonSec = styled.div`
   @media screen and (min-width: 1024px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+`
+
+const Service = styled.div`
+  .service-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    @media screen and (min-width: 1024px) {
+      box-shadow: 13px 20px 0;
+    }
+
+    img {
+      margin: 0;
+      border-radius: 20px 20px 0 0;
+    }
+
+    .service {
+      padding: 2rem 2rem;
+
+      h3 {
+        margin-top: 0;
+      }
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
   }
 `
