@@ -904,13 +904,17 @@ const MarylandSEOCompany = () => {
             mainEntity={[
               {
                 questionName: 'Why Do I Need SEO?',
-                acceptedAnswerText:
-                  'If you want to reach more potential customers and want them to see your business when they search for your services,you’ll need an SEO strategy.',
+                acceptedAnswerText: `If you want to reach more potential customers and want them to see your business when they search for your services, you’ll need an SEO strategy.`,
               },
               {
                 questionName: 'How Do You Know If You Need Local SEO?',
+                acceptedAnswerText: `You need local SEO if the customers you serve are in the same location or city as your business. If you want to target customers in surrounding cities, you’ll still need local SEO.
+                  A number of factors go into ranking locally, including having your NAP (name, address, phone number) information listed correctly on your website and in directories, having good reviews, and making sure your site is mobile-friendly.`,
+              },
+              {
+                questionName: 'What is an SEO agency?',
                 acceptedAnswerText:
-                  'You need local SEO if the customers you serve are in the same location or city as your business. If you want to target customers in surrounding cities, you’ll still need local SEO.',
+                  'An SEO agency is a company that specializes in helping businesses improve their visibility in search engines. They can help with keyword research, on-page optimization, link building, and content marketing.',
               },
               {
                 questionName: 'What is the Cost of SEO?',
@@ -936,17 +940,17 @@ const MarylandSEOCompany = () => {
               {
                 questionName: 'How Long is Your Contract for Doing SEO?',
                 acceptedAnswerText:
-                  'Our contracts are month-to-month. You can cancel your contract 30 day prior to the end of the month. But why would you cancel if you’re making more money after you hired us?',
+                  'Our contracts are month-to-month. You can cancel at any time with 30 days written notice. We require a 3-month minimum to start to properly establish your baseline and see results. After the first 3 months, you are free to cancel at any time. There are no long-term contracts or commitments.',
               },
               {
-                questionName: 'Can You Guarantee Me #1 Rankings?',
+                questionName: 'Do You Offer Any Guarantees?',
                 acceptedAnswerText:
-                  'We cannot guarantee first-place rankings. No one can. No one can guarantee rankings because search algorithms are always changing.',
+                  'No, we do not offer any guarantees. SEO is an ever-changing and complex field. As such, there are no guarantees in SEO. However, we can guarantee that we will work diligently and ethically to improve your rankings and visibility in search engines.',
               },
               {
-                questionName: 'Do You Have to Change Anything on My Website?',
+                questionName: 'Do You Provide Monthly Reporting?',
                 acceptedAnswerText:
-                  'Sometimes we will have to make changes to your website. If your website is not user-friendly, or we have to improve user experience to help improve your SEO, we will advise  that you make changes. Examples of changes would be adding clickable phone numbers, adding more pages, and improving the design of the web page.',
+                  'Yes, we provide monthly reporting to our clients. This report includes progress reports, keyword rankings, traffic reports, backlink wins, and more.',
               },
             ]}
           />
@@ -1039,10 +1043,10 @@ const MarylandSEOCompany = () => {
                   <h3>How Long is Your Contract for Doing SEO?</h3>
                   <p>
                     Our contracts are month-to-month. You can cancel at any time
-                    with 30 days' written notice. We require a 3-month minimum
-                    to start to properly establish your baseline and see
-                    results. After the first 3 months, you are free to cancel at
-                    any time. There are no long-term contracts or commitments.
+                    with 30 days written notice. We require a 3-month minimum to
+                    start to properly establish your baseline and see results.
+                    After the first 3 months, you are free to cancel at any
+                    time. There are no long-term contracts or commitments.
                   </p>
                 </div>
                 <div className="question">
@@ -1069,7 +1073,7 @@ const MarylandSEOCompany = () => {
                   </p>
                 </div>
                 <div className="question">
-                  <h3>Do You Offer Any Guarantees? ?</h3>
+                  <h3>Do You Offer Any Guarantees?</h3>
                   <p>
                     No, we do not offer any guarantees. SEO is an ever-changing
                     and complex field. As such, there are no guarantees in SEO.

@@ -30,8 +30,8 @@ const About = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="About us"
-          subText="We help our customers create their own lead generating websites by practicing search engine optimization."
+          heroText="We Believe Your Website Should Help Your Business Make Money!"
+          subText="We help you create a lead generating website that attracts leads and customers to your business"
           backgroundImage="/images/about-bowie-seo.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"
