@@ -11,6 +11,7 @@ import HeroSection from '../components/HeroSection'
 import { Card, Container } from '../components/CardSection'
 import OfferForm from '../components/OfferFormSection'
 import MainLayout from '../components/MainLayout'
+import { Businesses, Business } from '../components/BusinessesWeWorkWith'
 
 import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
@@ -38,7 +39,7 @@ const BaltimoreSEOCompany = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Baltimore SEO - Grow Your Business With More Leads and Customers"
+          heroText="Baltimore SEO - Grow Your Business With More Leads and More Customers"
           subText="We help businesses in Baltimore get more leads and increase sales and revenue search engine optimization."
           backgroundImage="/images/search-engine-optimization-header.webp"
           backgroundHeight="70vh"
@@ -382,11 +383,6 @@ const BaltimoreSEOCompany = () => {
             </div>
           </div>
         </section>
-        <div className="btn">
-          <a href="tel:+2402660588">
-            <Button>Call (240) 266-0588 today!</Button>
-          </a>
-        </div>
         <section className="bg-color">
           <div className="container">
             <h2 className="title">
@@ -458,10 +454,327 @@ const BaltimoreSEOCompany = () => {
           </div>
         </section>
         <section>
+          <div className="container">
+            <h2 className="title">What You Get With Baltimore SEO</h2>
+            <p className="subtext">Our Baltimore SEO Services include:</p>
+          </div>
           <div className="medium-container">
-            <h2 className="title">
-              Areas We Cover with Our Baltimore SEO Services
-            </h2>
+            <Deliverables>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>One-on-one Expert Support</h3>
+                  <p>
+                    Get free expert advice and support from our team of SEO
+                    experts, available to answer all your questions via email or
+                    on a call. We’re here to help you grow your business, boost
+                    your ranking, and increase your online presence.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get keyword research."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Keyword Research</h3>
+                  <p>
+                    We find the best, most profitable, and most relevant
+                    keywords that will bring you customers and sales. We build a
+                    keyword database that you use to target and build content.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google My Business Management."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>GMB Management</h3>
+                  <p>
+                    Let’s boost your local SEO game by managing your Google My
+                    Business page. Get a fully optimized GMB page so that you
+                    appear at the top of the map pack and the local search
+                    results.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google Analytics and Google Search Console set up."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Google Analytics and Google Console Setup</h3>
+                  <p>
+                    Set up Google Analytics and Google Console and improve your
+                    website by letting you track its performance and activity.
+                    These tools give information about how people are using and
+                    accessing your site, so that changes can be made to enhance
+                    the user experience.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get a website audit."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Website Audit</h3>
+                  <p>
+                    Discover the elements stopping your website from ranking and
+                    getting you the leads and customers you need. Our SEO audit
+                    will show you the exact issues that must be fixed for your
+                    SEO campaign to succeed.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get local SEO."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Local SEO</h3>
+                  <p>
+                    Local SEO gets your website in front of local customers when
+                    it counts. Optimize your website, so local customers find
+                    your business, not your competitors. Get optimized content,
+                    a fast website, a better user experience, and more so you
+                    rank on the first page above your competitors.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get weekly updates."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Weekly Updates</h3>
+                  <p>
+                    We update you weekly so you’ll always know what we’re doing.
+                    You’ll always know what we’re doing, or progress, and even
+                    our struggles and issues.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get content / service page creation and optimization."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Content / Service Page Creation / Optimization</h3>
+                  <p>
+                    We write content and service pages for your website, so you
+                    don’t have to. We use data from our SEO audit, keyword
+                    research, and competitor analysis to write the best pages
+                    that bring the most sales and revenue.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get to know everything we're doing- 100% transparency."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>100% Transparency</h3>
+                  <p>
+                    You’ll never have to wonder, ‘What are those SEO guys
+                    doing?’ We’ll keep you informed 100%. We’ll send you weekly
+                    email updates, so you know we’re working and that your SEO
+                    campaign is working.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Tracking and Monitoring</h3>
+                  <p>
+                    Track and monitor your progress and make sure your campaign
+                    delivers positive results: more traffic to your website,
+                    more customers, more sales, and more revenue. We use tools
+                    like Google Analytics, Google Search Console, Ahrefs, SEO
+                    Screaming Frog, and SEMRush.
+                  </p>
+                </div>
+              </Deliverable>
+            </Deliverables>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule Your Free Consultation Today!</Button>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="container">
+            <div className="grid">
+              <img
+                src="/images/home-service-business.webp"
+                className="page-img"
+                alt="Maryland SEO company"
+                title="Home service businesses we work with."
+                loading="lazy"
+              />
+              <div>
+                <h2>Home Service Businesses We Work With in Baltimore</h2>
+                <p>
+                  Our SEO agency works with home service businesses in Baltimore
+                  that provide services to customers homes. Our goal is to help
+                  home service businesses like yours increase your online
+                  presence and profitability.
+                </p>
+                <Businesses>
+                  <Business>
+                    <img
+                      src="/images/icons/asphalt-paving-contractor.png"
+                      className="business-icon"
+                      alt="Businesses our company works with - Asphalt paving companies."
+                      title="Businesses we work with - Asphalt paving companies."
+                      loading="lazy"
+                    />
+                    <p>Asphalt Paving Companies</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/plumbing-contractors.png"
+                      className="business-icon"
+                      alt="Businesses our company works with - Plumbing Contractors."
+                      title="Businesses our company works with - Plumbing Contractors."
+                      loading="lazy"
+                    />
+                    <p>Plumbing Contractors</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/hvac-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - HVAC Contractors."
+                      title="Businesses we work with - HVAC Contractors."
+                      loading="lazy"
+                    />
+                    <p>HVAC Contractors</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/roofing-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Roofing Contractors."
+                      title="Businesses we work with - Roofing Contractors."
+                      loading="lazy"
+                    />
+                    <p>Roofing Contractors</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/landscaping-companies.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Landscaping Companies."
+                      title="Businesses we work with - Landscaping Companies."
+                      loading="lazy"
+                    />
+                    <p>Landscaping Companies</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/pest-control-companies.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Pest Control Companies."
+                      title="Businesses we work with - Pest Control Companies."
+                      loading="lazy"
+                    />
+                    <p>Pest Control Companies</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/electrical-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Electrical Contractors."
+                      title="Businesses we work with - Electrical Contractors."
+                      loading="lazy"
+                    />
+                    <p>Electrical Contractors</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/swimming-pool-builders.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Swimming Pool Builders."
+                      title="Businesses we work with - Swimming Pool Builders."
+                      loading="lazy"
+                    />
+                    <p>Swimming Pool Builders</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/junk-removal-companies.png"
+                      className="business-icon"
+                      alt="Asphalt paving companies - Businesses we work with."
+                      title="Businesses we work with - Asphalt paving companies."
+                      loading="lazy"
+                    />
+                    <p>Junk Removal Companies</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/general-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - General Contractors."
+                      title="Businesses we work with - General Contractors."
+                      loading="lazy"
+                    />
+                    <p>General Contractors</p>
+                  </Business>
+                </Businesses>
+                <p>
+                  Call us today and let’s see how we can help find opportunities
+                  to help boost your sales and revenue.
+                </p>
+              </div>
+            </div>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule a Free Consultation!</Button>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="medium-container">
+            <h2 className="title">Areas We Serve in Baltimore</h2>
             <p className="center">We provide local SEO for busniess in:</p>
             <Cities>
               <City>
@@ -947,5 +1260,31 @@ const City = styled.div`
   p {
     margin: 0;
     font-weight: 700;
+  }
+`
+
+const Deliverables = styled.div`
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+`
+
+const Deliverable = styled.div`
+  margin: 1rem 0;
+  display: flex;
+
+  img.check {
+    margin: 0;
+    margin-right: 1.5rem;
+    width: 54px;
+    height: 54px;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
   }
 `

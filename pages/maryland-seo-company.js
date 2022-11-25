@@ -44,7 +44,7 @@ const MarylandSEOCompany = () => {
           buttonLink={calendly}
         />
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <img
                 src="/images/maryland-seo-company-client.webp"
@@ -129,7 +129,7 @@ const MarylandSEOCompany = () => {
           </div>
         </section>
         <section className="bg-color">
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <div className="first-section">
                 <h2>
