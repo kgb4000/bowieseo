@@ -71,15 +71,6 @@ export default function Articles({ post, shareLink }) {
       />
 
       <NextSeo {...SEO} />
-      {/* <PageHero
-        heading={post.postTitle}
-        date={new Date(post.date).toLocaleDateString('en-us', {
-          year: 'numeric',
-          month: 'short',
-          day: 'numeric',
-        })}
-        authorName={post.author.name}
-      /> */}
       <MainLayout>
         <BlogContent>
           <div className="blog-container author-info">
