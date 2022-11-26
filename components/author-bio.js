@@ -13,13 +13,16 @@ export const getStaticProps = async ({ params }) => {
   }
 }
 
-export default function Bio({ authorName, authorImg, authorBio, shareLink }) {
+export default function Bio({ authorName, authorImg, authorBio }) {
   return (
     <>
       <BioSection>
         <div className="solution-container">
           <img src={authorImg} alt={authorName} loading="lazy" />
-          <p>{authorBio}</p>
+          <div>
+            <h3>Kester Browne</h3>
+            <p>{authorBio}</p>
+          </div>
         </div>
       </BioSection>
     </>
@@ -46,7 +49,7 @@ const BioSection = styled.div`
 
   img {
     width: 6rem;
-    border: 4px solid #ff5200;
+    border: 4px solid #cf0a0a;
     border-radius: 50%;
     margin-right: 2rem;
   }

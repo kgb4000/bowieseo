@@ -14,6 +14,7 @@ export const getStaticProps = async ({ params }) => {
       post: post.posts[0],
       data,
     },
+    revalidate: 30,
   }
 }
 

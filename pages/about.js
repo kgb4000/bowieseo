@@ -58,12 +58,12 @@ const About = () => {
             <ul>
               <li>
                 <Link href="/search-engine-optimization" passHref>
-                  <a>Search engine optimization”</a>
+                  <a>Search engine optimization</a>
                 </Link>
               </li>
               <li>Keyword Research</li>
               <li>Link Building</li>
-              <li>Content audits and optimizations</li>
+              <li>Content audits and optimization</li>
               <li>GMB Management</li>
               <li>Technical SEO</li>
               <li>On-Page SEO</li>

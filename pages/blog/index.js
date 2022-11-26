@@ -4,7 +4,6 @@ import Link from 'next/link'
 import styled from 'styled-components'
 import { getPosts } from '../../lib/data'
 import { ArticleJsonLd, NextSeo } from 'next-seo'
-import PageHero from '../../components/PageHeroSection'
 import MainLayout from '../../components/MainLayout'
 
 export const getStaticProps = async () => {
@@ -14,6 +13,7 @@ export const getStaticProps = async () => {
     props: {
       data,
     },
+    revalidate: 30,
   }
 }
 
