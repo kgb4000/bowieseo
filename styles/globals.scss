@@ -14,7 +14,7 @@ body {
   text-rendering: optimizespeed;
   line-height: 1.8;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.1rem;
 }
 
@@ -59,9 +59,10 @@ h4,
 h5,
 h6 {
   letter-spacing: 1px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Helvetica !important;
+  text-rendering: optimizespeed;
   line-height: 1.2em;
-  text-transform: uppercase;
+  -moz-osx-font-smoothing: grayscale;
   font-weight: 900;
 }
 
