@@ -20,7 +20,7 @@ export default function Bio({ authorName, authorImg, authorBio }) {
         <div className="solution-container">
           <img src={authorImg} alt={authorName} loading="lazy" />
           <div>
-            <h3>Kester Browne</h3>
+            <h3>About the author</h3>
             <p>{authorBio}</p>
           </div>
         </div>

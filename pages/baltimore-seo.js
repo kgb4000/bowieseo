@@ -53,10 +53,11 @@ const BaltimoreSEOCompany = () => {
               <img
                 src="/images/how-search-engine-optimization-can-help-your-business.webp"
                 className="page-img"
-                width="1000px"
-                height="600px"
-                alt="A business owner considering working with our SEO company to get his own leads without paying for online ads."
-                title="A business owner considering working with our SEO company to get his own leads without paying for online ads."
+                width="1000"
+                height="600"
+                alt="Baltimore SEO."
+                title="Baltimore SEO."
+                loading="lazy"
               />
               <div>
                 <h2>
@@ -138,9 +139,10 @@ const BaltimoreSEOCompany = () => {
             </p>
             <img
               src="images/baltimore-seo-company.jpg"
-              alt="We provide Baltimore SEO services - Bowie SEO"
+              alt="Baltimore SEO services - Bowie SEO"
               width="1200"
               height="450"
+              loading="lazy"
             />
             <p>
               With different digital marketing solutions available to small
@@ -291,98 +293,6 @@ const BaltimoreSEOCompany = () => {
             </a>
           </div>
         </section>
-        <section>
-          <div className="medium-container">
-            <div className="grid">
-              <div>
-                <h2>What Your Get With Our Baltimore SEO Services?</h2>
-
-                <h3>SEO Audit</h3>
-                <p>
-                  First, we do an SEO audit of your current website to check for
-                  optimization and identify any improvements that can be made to
-                  help your business rank higher in the search results.
-                </p>
-                <h3>Keyword Research</h3>
-                <p>
-                  Once we understand your business, we research keywords that
-                  people searching for businesses like yours would use.
-                </p>
-                <p>
-                  We not only want to find the right keywords, but we also want
-                  to ensure there is enough search volume for those keywords and
-                  that you can realistically compete for them.
-                </p>
-                <h3>Technical SEO</h3>
-                <p>
-                  After we have targeted the right keywords, we make sure your
-                  website is technically sound and optimized for those keywords.
-                  This process includes optimizing titles, meta tags, header
-                  tags, images, and other technical aspects of the site.
-                </p>
-                <h3>Content Optimization</h3>
-                <p>
-                  Your website's content must be well-written and relevant to
-                  your business if you want people to stay on your site and
-                  convert into customers.
-                </p>
-                <p>
-                  We optimize your website's content to ensure it is relevant to
-                  the keywords we are targeting and that it is engaging and
-                  informative.
-                </p>
-                <h3>Link Building</h3>
-                <p>
-                  Link building is the process of getting other websites to link
-                  to your website. The more inbound links you have, the higher
-                  your website will rank in the search results.
-                </p>
-                <p>
-                  We build{' '}
-                  <a
-                    href="https://backlinko.com/hub/seo/backlinks"
-                    target="_blank"
-                  >
-                    backlinks
-                  </a>{' '}
-                  to your website from high-quality websites to help improve
-                  your ranking.
-                </p>
-                <h3>Local SEO</h3>
-                <p>
-                  If you have a local business, optimizing for local keywords is
-                  essential. We ensure your site is optimized for local search
-                  so that people in your area can find your business.
-                </p>
-                <h3>Monitoring and Tracking</h3>
-                <p>
-                  After implementing all the SEO strategies, we monitor your
-                  website's progress and track the results. This allows us to
-                  see what is working and make changes as needed.
-                </p>
-                <p>
-                  We then track your website's progress and provide monthly
-                  reports so you can see how well your site is performing.
-                </p>
-                <p>
-                  SEO takes time and effort, but it is essential to any
-                  successful online marketing strategy. If you want people to
-                  find your business online, you need to be visible in the
-                  search results.
-                </p>
-                <p>
-                  The sooner you start, the sooner you'll see results. Contact
-                  us today to get started with SEO for your business.
-                </p>
-                <p>
-                  SEO is vital for any business that wants to succeed online. If
-                  you don't invest in SEO, you're missing out on potential
-                  customers and leaving money on the table.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
         <section className="bg-color">
           <div className="container">
             <h2 className="title">
@@ -398,9 +308,10 @@ const BaltimoreSEOCompany = () => {
               <div className="service-card">
                 <img
                   src="/images/maryland-seo-company.webp"
-                  alt="Search engine optimization"
-                  width="1000px"
-                  height="665px"
+                  alt="Baltimore search engine optimization."
+                  width="1000"
+                  height="665"
+                  loading="lazy"
                 />
                 <div className="service">
                   <h3>Search Engine Optimization</h3>
@@ -415,8 +326,8 @@ const BaltimoreSEOCompany = () => {
                 <img
                   src="/images/google-my-business.webp"
                   alt="Google My Business Management"
-                  width="1000px"
-                  height="665px"
+                  width="1000"
+                  height="665"
                   loading="lazy"
                 />
                 <div className="service">
@@ -432,8 +343,8 @@ const BaltimoreSEOCompany = () => {
                 <img
                   src="/images/seo-audit.webp"
                   alt="Free Mini SEO Audit"
-                  width="1000px"
-                  height="665px"
+                  width="1000"
+                  height="665"
                   loading="lazy"
                 />
                 <div className="service">
@@ -645,7 +556,7 @@ const BaltimoreSEOCompany = () => {
               <img
                 src="/images/home-service-business.webp"
                 className="page-img"
-                alt="Maryland SEO company"
+                alt="Baltimore SEO company"
                 title="Home service businesses we work with."
                 loading="lazy"
               />
@@ -774,7 +685,7 @@ const BaltimoreSEOCompany = () => {
         </section>
         <section>
           <div className="medium-container">
-            <h2 className="title">Areas We Serve in Baltimore</h2>
+            <h2 className="title">Areas We Serve Near and Around Baltimore</h2>
             <p className="center">We provide local SEO for busniess in:</p>
             <Cities>
               <City>
@@ -782,6 +693,7 @@ const BaltimoreSEOCompany = () => {
                   src="/images/icons/map-location.png"
                   alt="Hampden, MD"
                   title="Hampden, MD"
+                  loading="lazy"
                 />
                 <p>Hampden, MD</p>
               </City>
@@ -790,6 +702,7 @@ const BaltimoreSEOCompany = () => {
                   src="/images/icons/map-location.png"
                   alt="Rosedale, MD"
                   title="Rosedale, MD"
+                  loading="lazy"
                 />
                 <p>Rosedale, MD</p>
               </City>
@@ -798,6 +711,7 @@ const BaltimoreSEOCompany = () => {
                   src="/images/icons/map-location.png"
                   alt="Essex, MD"
                   title="Essex, MD"
+                  loading="lazy"
                 />
                 <p>Essex, MD</p>
               </City>
@@ -806,42 +720,62 @@ const BaltimoreSEOCompany = () => {
                   src="/images/icons/map-location.png"
                   alt="Woodlawn, MD"
                   title="Woodlawn, MD"
+                  loading="lazy"
                 />
                 <p>Woodlawn, MD</p>
               </City>
-
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img src="/images/icons/map-location.png" loading="lazy" />
                 <p>Pikesville, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img src="/images/icons/map-location.png" loading="lazy" />
                 <p>Towson, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img src="/images/icons/map-location.png" loading="lazy" />
                 <p>Dundalk, MD</p>
               </City>
 
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Catonsville, MD"
+                  loading="lazy"
+                />
                 <p>Catonsville, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Ellicott City, MD"
+                  loading="lazy"
+                />
                 <p>Ellicott City, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Columbia, MD"
+                  loading="lazy"
+                />
                 <p>Columbia, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Lochearn, MD"
+                  loading="lazy"
+                />
                 <p>Lochearn, MD</p>
               </City>
 
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Arbutus, MD"
+                  loading="lazy"
+                />
                 <p>Arbutus, MD</p>
               </City>
             </Cities>
@@ -890,15 +824,15 @@ const BaltimoreSEOCompany = () => {
               <img
                 src="/images/maryland-seo-firm.webp"
                 className="page-img-left "
-                width="1000px"
-                height="600px"
+                width="1000"
+                height="600"
                 alt="Our Baltimore SEO agency is ready to help grow your business."
                 title="Our Baltimore SEO agency is ready to help grow your business"
                 loading="lazy"
               />
             </div>
             <div className="text">
-              <p className="subtext">
+              <p>
                 We work with small business owners who want to increase their
                 organic traffic, web presence, and revenue. We’re not driven by
                 superficial metrics like the amount of website traffic you get
@@ -951,7 +885,7 @@ const BaltimoreSEOCompany = () => {
           ]}
         />
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>
@@ -1161,16 +1095,13 @@ const BaltimoreSEOCompany = () => {
         <div className="call-to-action-grid">
           <img
             src="/images/man-calling-baltimore-seo-company.webp"
-            alt="A man calling to inquire about Baltimore SEO company to see how it could help his business."
-            title="A man calling to inquire about Baltimore SEO company to see how it could help his business."
+            alt="A man calling to inquire about Baltimore SEO company."
+            title="A man calling to inquire about Baltimore SEO company."
             width="1000px"
             height="667px"
           />
           <div className="container">
-            <h2>
-              Ready to Grow Your Baltimore Business with Search Engine
-              Optimization?
-            </h2>
+            <h2>Ready to Grow Your Business with Baltimore SEO?</h2>
             <p>
               Contact us today and we'll show you how SEO can help get leads
               without paying for online ads.

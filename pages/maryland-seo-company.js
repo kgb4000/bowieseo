@@ -49,8 +49,8 @@ const MarylandSEOCompany = () => {
               <img
                 src="/images/maryland-seo-company-client.webp"
                 className="page-img"
-                width="1000px"
-                height="600px"
+                width="1000"
+                height="600"
                 alt="A business owner considering working with our Maryland SEO company to get his own leads without paying for online ads."
                 title="A business owner considering working with our Maryland SEO company to get his own leads without paying for online ads."
               />
@@ -173,8 +173,8 @@ const MarylandSEOCompany = () => {
               <img
                 src="/images/smiling-businessman.webp"
                 className="page-img-left second-section"
-                width="1000px"
-                height="600px"
+                width="1000"
+                height="600"
                 alt="Businessman happy he started using our Maryland SEO company for his SEO."
                 title="Businessman happy he started using our Maryland SEO company for his SEO."
                 loading="lazy"
@@ -190,8 +190,8 @@ const MarylandSEOCompany = () => {
               className="page-img-left inline"
               alt="Results from one SEO campaign - More website visitors, more searchers seeing your website."
               title="Results from one SEO campaign - More website visitors, more searchers seeing your website."
-              width="583px"
-              height="248px"
+              width="583"
+              height="248"
               loading="lazy"
             />
             <p>
@@ -393,8 +393,8 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/maryland-seo-company.webp"
                   alt="Search engine optimization"
-                  width="1000px"
-                  height="665px"
+                  width="1000"
+                  height="665"
                 />
                 <div className="service">
                   <h3>Search Engine Optimization</h3>
@@ -409,8 +409,8 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/google-my-business.webp"
                   alt="Google My Business Management"
-                  width="1000px"
-                  height="665px"
+                  width="1000"
+                  height="665"
                   loading="lazy"
                 />
                 <div className="service">
@@ -426,8 +426,8 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/seo-audit.webp"
                   alt="Free Mini SEO Audit"
-                  width="1000px"
-                  height="665px"
+                  width="1000"
+                  height="665"
                   loading="lazy"
                 />
                 <div className="service">
@@ -842,8 +842,8 @@ const MarylandSEOCompany = () => {
               <img
                 src="/images/maryland-seo-firm.webp"
                 className="page-img"
-                width="1000px"
-                height="600px"
+                width="1000"
+                height="600"
                 alt="Our Maryland SEO firm is ready to help grow your business."
                 title="Our Maryland SEO firm is ready to help grow your business"
                 loading="lazy"
@@ -1099,8 +1099,8 @@ const MarylandSEOCompany = () => {
             src="/images/smiling-businessman-calling-maryland-seo-company.webp"
             className="call-to-action-grid-img"
             alt="Man calling our Maryland SEO company."
-            width="1000px"
-            height="667px"
+            width="1000"
+            height="667"
             loading="lazy"
           />
           <div className="container">

@@ -100,7 +100,7 @@ const FooterSection = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/technical-seo">
+                  <Link href="/gmb-management-services">
                     <a>GMB Management</a>
                   </Link>
                 </li>
@@ -109,11 +109,6 @@ const FooterSection = () => {
                     <a>Free Mini SEO Audit</a>
                   </Link>
                 </li>
-                {/* <li>
-                  <Link href="/baltimore-seo">
-                    <a>White Label SEO</a>
-                  </Link>
-                </li> */}
               </ul>
             </nav>
           </div>

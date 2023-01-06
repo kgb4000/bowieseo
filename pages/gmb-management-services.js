@@ -18,15 +18,17 @@ const SEOAgency = 'our SEO company'
 
 const LocalSEO = () => {
   const SEO = {
-    title: 'Search Engine Optimization Services for Home Service Businesses',
+    title:
+      'Google My Business Management Services for Small Businesses | Bowie SEO',
     description:
-      'We provide local SEO services for small businesses in Maryland and DC. Get more customers and web traffic, and increase revenue. Contact us today!',
+      'We provide Google My Business Management for small businesses in Maryland and DC. Get more customers and web traffic, and increase revenue. Contact us today!',
     type: 'website',
-    canonical: 'https://bowieseo.com/search-engine-optimization',
+    canonical: 'https://bowieseo.com/gmb-management-services',
     openGraph: {
-      title: 'Local SEO Services for Small Business in Maryland and DC',
+      title:
+        'Google My Business Management Services for Small Businesses | Bowie SEO',
       description:
-        'We provide local SEO services for small businesses in Maryland and DC. Get more customers and web traffic, and increase revenue. Contact us today!',
+        'We provide Google My Business Management for small businesses in Maryland and DC. Get more customers and web traffic, and increase revenue. Contact us today!',
       type: 'website',
       image: [{}],
     },
@@ -36,8 +38,8 @@ const LocalSEO = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Search Engine Optimization"
-          subText="Use this powerful inbound marketing method to get customers to find your business online."
+          heroText="Google My Business Management Services"
+          subText="Let us manage your Google Business Profile and bring you leads and paying customers."
           backgroundImage="/images/search-engine-optimization-header.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"
@@ -49,29 +51,30 @@ const LocalSEO = () => {
             <div className="grid">
               <div>
                 <h2>
-                  Did You Know You’re Losing Money Every Month Because You’re
-                  Not Showing Up in Google?
+                  Is Your Google Business Profile Showing Up in Local Search
+                  Results When People Search For Your Services?
                 </h2>
+                <p>Can anyone find your business or services on Google?</p>
                 <p>
-                  If one of your services costs <b>$1000 to $4,000</b>, what
-                  would three extra monthly jobs do for your business ?
+                  Your website is not showing up in the map pack, or the Google
+                  local listings.
                 </p>
                 <p>
-                  What if one of your services costs <b>$500 to $1,500</b>, what
-                  would six extra jobs a month do for your business?
+                  You tried to optimize your website and your Google My Business
+                  page yourself, but you don’t know what you’re doing.
                 </p>
                 <p>
-                  Every day when someone searches for your services and you
-                  don’t appear in the search results, you’re losing money.
+                  Do you add more images, create more posts, get more reviews or
+                  just give up?
                 </p>
-                <p>How?</p>
                 <p>
-                  Because they're buying from your competitors instead of you.
+                  You add posts every week, post pictures of your work, even
+                  post videos, but it’s not working.
                 </p>
-                <p>Try it yourself.</p>
+                <p>Your website still doesn’t come up.</p>
                 <p>
-                  Search for one of your services and see if your website
-                  appears on the first page.
+                  But when you search for your services, you see your
+                  competitors' websites.
                 </p>
                 <p>If it does, that’s fantastic.</p>
                 <p>If it doesn't, you’re losing money.</p>
@@ -133,67 +136,35 @@ const LocalSEO = () => {
                 title="A business owner considering working with our SEO company to get his own leads without paying for online ads."
               />
               <div>
-                <h2>
-                  How Search Engine Optimization Can Take Your Business to the
-                  Next Level
-                </h2>
-                <p>Think about this</p>
+                <h2>What is GMB Management?</h2>
                 <p>
-                  93% of people use search engines like Google to find local
-                  businesses like yours.
+                  GMB stands for Google My Business. GMB management refers to
+                  managing and maintaining a business's listing on Google My
+                  Business. This includes keeping the business's information
+                  up-to-date and accurate, responding to customer reviews and
+                  messages, and using the platform to connect with customers and
+                  promote the business. GMB management is important because it
+                  can help improve a business's online visibility and
+                  reputation, and make it easier for customers to find and
+                  connect with the business.
                 </p>
                 <p>
-                  That’s a lot of people searching, and that’s why you need SEO.
-                </p>
-                <p>
-                  Imagine coming to work, and your email inbox is full of people
-                  requesting quotes for your services.
-                </p>
-                <p>How did they find you?</p>
-                <p>
-                  Because you show up on the first page when they search for
-                  your services.
-                </p>
-                <p>
-                  Your website is getting 50,000 visitors per month, and you
-                  started doing SEO one year ago.
-                </p>
-                <p>And you stopped paying for ads.</p>
-                <p>
-                  Your customer service department is busy with phone calls
-                  every day, and your technicians have work booked out 6 months
-                  into the year.
-                </p>
-                <p>People see you as the expert in your industry.</p>
-                <p>
-                  Your business is growing, and you need to hire more staff and
-                  technicians and buy more equipment.
-                </p>
-                <p>
-                  While other businesses are struggling to get work for their
-                  employees, your business is thriving.
-                </p>
-                <p>Search engine optimization (SEO) can make this happen.</p>
-                <p>
-                  SEO is a practice that improves your website and increases
-                  your online visibility in search engines.
-                </p>
-                <p>
-                  With more online visibility, you expose your business to more
-                  people searching for your services.
-                </p>
-                <p>
-                  More people seeing your website means more website visits and
-                  the opportunity to convert those leads into paying customers.
-                </p>
-                <p>
-                  When you practice SEO, you get free organic traffic without
-                  paying for any online ads.
+                  A GMB (Google My Business) manager is responsible for managing
+                  and maintaining a business's listing on Google My Business.
+                  This includes ensuring that the business's information is
+                  up-to-date and accurate, responding to customer reviews and
+                  messages, and using the platform to connect with customers and
+                  promote the business. A GMB manager may also use the insights
+                  and analytics provided by Google My Business to track the
+                  performance of the business's listing and make data-driven
+                  decisions about how to improve it. In general, the goal of a
+                  GMB manager is to help a business improve its online
+                  visibility and reputation, and make it easier for customers to
+                  find and connect with the business.
                 </p>
                 <p>Want to learn more?</p>
               </div>
             </div>
-
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
                 <Button>Schedule Your Free Consultation Today!</Button>
@@ -204,17 +175,153 @@ const LocalSEO = () => {
         <section>
           <div className="medium-container">
             <h2 className="title">
-              Our Search Engine Optimization Process, And What You Get
+              What are the benefits of having a Google My Business Page?
+            </h2>
+            <p className="subtext">
+              Having a Google My Business (GMB) profile can provide a number of
+              benefits for a business. Some of these benefits include:
+            </p>
+            <Benefits>
+              <Benefit>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Expert one-on-one support."
+                />
+                <div>
+                  <h3>Improved online visibility</h3>
+                  <p>
+                    A GMB profile can help a business show up in relevant search
+                    results on Google, making it easier for customers to find
+                    the business.
+                  </p>
+                </div>
+              </Benefit>
+              <Benefit>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Expert one-on-one support."
+                />
+                <div>
+                  <h3>Greater control over how the business is presented</h3>
+                  <p>
+                    With a GMB profile, a business can control how it appears on
+                    Google and provide important information, such as the
+                    business's address, phone number, and hours of operation.
+                  </p>
+                </div>
+              </Benefit>
+              <Benefit>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Expert one-on-one support."
+                />
+                <div>
+                  <h3>Increased credibility</h3>
+                  <p>
+                    Having a GMB profile can help a business appear more
+                    credible to potential customers.
+                  </p>
+                </div>
+              </Benefit>
+              <Benefit>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Expert one-on-one support."
+                />
+                <div>
+                  <h3>More customer reviews</h3>
+                  <p>
+                    A GMB profile allows customers to leave reviews, which can
+                    help a business build trust and credibility with potential
+                    customers.
+                  </p>
+                </div>
+              </Benefit>
+              <Benefit>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Expert one-on-one support."
+                />
+                <div>
+                  <h3>Better communication with customers</h3>
+                  <p>
+                    A GMB profile allows a business to respond to customer
+                    reviews and messages, which can help improve customer
+                    satisfaction and build stronger relationships with
+                    customers.
+                  </p>
+                </div>
+              </Benefit>
+              <Benefit>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Expert one-on-one support."
+                />
+                <div>
+                  <h3>Enhanced local SEO</h3>
+                  <p>
+                    GMB profiles are considered an important factor in local
+                    search engine optimization (SEO), which can help a business
+                    rank higher in search results for relevant local searches.
+                  </p>
+                </div>
+              </Benefit>
+              <Benefit>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Expert one-on-one support."
+                />
+                <div>
+                  <h3>Improved customer insights</h3>
+                  <p>
+                    A GMB profile provides access to valuable insights and
+                    analytics about a business's customers, such as how they
+                    found the business and what actions they took on the
+                    business's listing. This can help a business understand its
+                    customers better and make more informed decisions about its
+                    marketing efforts.
+                  </p>
+                </div>
+              </Benefit>
+              <Benefit>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Expert one-on-one support."
+                />
+                <div>
+                  <h3>Free advertising</h3>
+                  <p>
+                    Having a Google My Business profile is a free advertising
+                    opportunity, as it allows you to promote your business to a
+                    large audience at no cost.
+                  </p>
+                </div>
+              </Benefit>
+            </Benefits>
+          </div>
+        </section>
+        <section>
+          <div className="medium-container">
+            <h2 className="title">
+              What You Get With Our GMB Management Services
             </h2>
             <Deliverables>
               <Deliverable>
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="Perform an SEO Audit."
+                  alt="Expert one-on-one support."
                 />
                 <div>
-                  <h3>SEO Audit</h3>
+                  <h3>Expert one-on-one support</h3>
                   <p>
                     An SEO audit finds elements on your website that stop your
                     site from ranking higher in search engines and your website
@@ -232,10 +339,10 @@ const LocalSEO = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="Get an action plan."
+                  alt="SEO audit."
                 />
                 <div>
-                  <h3>Action Plan</h3>
+                  <h3>SEO Audit</h3>
                   <p>After your SEO audit, we develop your action plan.</p>
                   <p>
                     Your action plan will detail the tactics and strategies we
@@ -249,10 +356,10 @@ const LocalSEO = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="Do technical SEO."
+                  alt="Do weekly Google My Business posts."
                 />
                 <div>
-                  <h3>Technical SEO</h3>
+                  <h3>Weekly Google My Business Posts</h3>
                   <p>We perform a Technical SEO audit.</p>
                   <p>
                     We find and fix any technical elements that can affect your
@@ -269,7 +376,7 @@ const LocalSEO = () => {
                   alt="Do keyword research."
                 />
                 <div>
-                  <h3>Keyword Research</h3>
+                  <h3>An Optimized GMB Listing</h3>
                   <p>
                     One of the most important factors that determine if your
                     website appears in the search results or not is choosing the
@@ -290,7 +397,7 @@ const LocalSEO = () => {
                   alt="Create and optimize your existing content."
                 />
                 <div>
-                  <h3>Create and Optimize Existing Content</h3>
+                  <h3>You Own Custom strategy</h3>
                   <p>
                     A crucial part of your SEO strategy is creating and
                     optimizing your content.
@@ -311,7 +418,7 @@ const LocalSEO = () => {
                   alt="Build links to your website."
                 />
                 <div>
-                  <h3>Link Building</h3>
+                  <h3>Photo / Video Uploads</h3>
                   <p>We build links to your website.</p>
                   <p>
                     Backlinks are one of the top-ranking factors. Without them,
@@ -331,7 +438,7 @@ const LocalSEO = () => {
                   alt="Track and monitor your SEO performance."
                 />
                 <div>
-                  <h3>Tracking and Monitoring Your Progress</h3>
+                  <h3>Listing Updates</h3>
                   <p>
                     Not finished yet. We must track and monitor our actions to
                     ensure your campaign’s success.
@@ -350,7 +457,7 @@ const LocalSEO = () => {
                   alt="Repeating the Process."
                 />
                 <div>
-                  <h3>Repeating the Process</h3>
+                  <h3>Review Management</h3>
                   <p>
                     We repeat the entire process every 6 months. We find new
                     keywords, optimize existing pages, build more links, write
@@ -365,7 +472,7 @@ const LocalSEO = () => {
                   alt="Weekly Updates."
                 />
                 <div>
-                  <h3>Weekly Updates</h3>
+                  <h3>Managed Content</h3>
                   <p>
                     We repeat the entire process every 6 months. We find new
                     keywords, optimize existing pages, build more links, write
@@ -380,7 +487,37 @@ const LocalSEO = () => {
                   alt="Monthly one-on-one Talks."
                 />
                 <div>
-                  <h3>Monthly One-on-one Talks</h3>
+                  <h3>Competitor Analysis</h3>
+                  <p>
+                    We meet and talk with you every month to discuss any
+                    opportunities we discover, and to ensire that your SEO
+                    strategy is on track, and that your business is growing.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Monthly one-on-one Talks."
+                />
+                <div>
+                  <h3>Ongoing Optimization</h3>
+                  <p>
+                    We meet and talk with you every month to discuss any
+                    opportunities we discover, and to ensire that your SEO
+                    strategy is on track, and that your business is growing.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Monthly one-on-one Talks."
+                />
+                <div>
+                  <h3>Tracking and Monitoring</h3>
                   <p>
                     We meet and talk with you every month to discuss any
                     opportunities we discover, and to ensire that your SEO
@@ -390,9 +527,8 @@ const LocalSEO = () => {
               </Deliverable>
             </Deliverables>
             <p className="subtext">
-              P.S. We only perform ‘White Hat’ SEO which conforms to the rules
-              and policies of the search engines. With white hat SEO practices,
-              your website will not get penalized or banned.
+              P.S. You can get GMB Management Services as part of our search
+              engine optimization services.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
@@ -411,7 +547,10 @@ const LocalSEO = () => {
                 title="Home service businesses we work with - General Contractors."
               />
               <div>
-                <h2>Small Businesses We Want to Work With</h2>
+                <h2>
+                  We Provide GMB Management Services to These Businesses and
+                  More
+                </h2>
                 <Businesses>
                   <Business>
                     <img
@@ -518,149 +657,6 @@ const LocalSEO = () => {
           </div>
         </section>
         <section>
-          <div className="container">
-            <h2 className="title">Areas We Cover with SEO</h2>
-            <p className="center">We provide local SEO for busniess in:</p>
-            <Cities>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="Annapolis SEO"
-                  title="Annapolis SEO"
-                />
-                <p>Annapolis</p>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="Baltimore SEO"
-                  title="Baltimore SEO"
-                />
-                <Link href="/baltimore-seo" passHref>
-                  <a>Baltimore, MD</a>
-                </Link>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="Bowie SEO"
-                  title="Bowie SEO"
-                />
-                <Link href="/" passHref>
-                  <a>Bowie, MD</a>
-                </Link>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services Columbia"
-                  title="SEO Services Columbia"
-                />
-                <p>Columbia, MD</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <Link href="/seo-services-crofton-md" passHref>
-                  <a>Crofton, MD</a>
-                </Link>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Fort Washington, MD</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Glen Burnie</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Hyattsville, MD</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <Link href="/laurel-maryland-local-seo-services" passHref>
-                  <a>Laurel, MD</a>
-                </Link>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <Link href="/seo-services-ocean-city" passHref>
-                  <a>Ocean City, MD</a>
-                </Link>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Odenton, MD</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Owings Mills, MD</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Rockville, MD</p>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <Link href="/seo-services-salisbury-md" passHref>
-                  <a>Salisbury, MD</a>
-                </Link>
-              </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Gaithersburg, MD</p>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services Hagerstown, MD"
-                  title="SEO Services Hagerstown, MD"
-                />
-                <p>Hagerstown, MD</p>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services Silver Spring, MD"
-                  title="SEO Services Silver Spring, MD"
-                />
-                <p>Silver Spring, MD</p>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services Greenbelt, MD"
-                  title="SEO Services Greenbelt, MD"
-                />
-                <p>Greenbelt, MD</p>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services College Park MD"
-                  title="SEO Services College Park MD"
-                />
-                <p>College Park, MD</p>
-              </City>
-              <City>
-                <img
-                  src="/images/icons/map-location.png"
-                  alt="SEO Services Waldorf MD"
-                  title="SEO Services Waldorf MD"
-                />
-                <Link href="/seo-services-waldorf-md" passHref>
-                  <a>Waldorf, MD</a>
-                </Link>
-              </City>
-            </Cities>
-            <div className="btn">
-              <a href="tel:+2402660588">
-                <Button>Call (240) 266-0588 today!</Button>
-              </a>
-            </div>
-          </div>
-        </section>
-        <section>
           <div className="medium-container">
             <div className="grid">
               <div>
@@ -717,55 +713,67 @@ const LocalSEO = () => {
           <FAQPageJsonLd
             mainEntity={[
               {
-                questionName: 'Why Do I Need SEO?',
+                questionName: 'Is there a fee to set up my GMB Page?',
                 acceptedAnswerText:
-                  'If you want to reach more potential customers and want them to see your business when they search for your services,you’ll need an SEO strategy.',
+                  'No. There is no fee to set it up, just a monthly management fee.',
               },
               {
-                questionName: 'How Do You Know If You Need Local SEO?',
+                questionName: 'Is there a long-term contract?',
                 acceptedAnswerText:
-                  'You need local SEO if the customers you serve are in the same location or city as your business. If you want to target customers in surrounding cities, you’ll still need local SEO.',
+                  'No, all of our GMB management services are 30-day contracts and renew every 30 days until you say when.',
               },
               {
-                questionName: 'What is the Cost of SEO?',
+                questionName: 'Do I Need to have a website for this service?',
                 acceptedAnswerText:
-                  'SEO services start at $1000 - $5000 for local businesses. This depends on the type of business, the competition, the location, and the marketing budget.',
+                  'No, you don’t need a website to use Google My Business. The great thing is that Google My Business is like its own website.',
               },
               {
-                questionName: 'Why Does SEO Cost So Much?',
+                questionName: 'Is Google My Business Worth it?',
                 acceptedAnswerText:
-                  'It takes time to show results, it requires a lot of resources to build and maintain a campaign, and it often relies on the expertise of an SEO specialist to develop and grow your strategy.',
+                  'The simple answer is YES. Google My Business is a huge and ever-growing factor for local search. It is a very important element for any local SEO campaign.',
               },
               {
-                questionName: 'How Long Does SEO Take to See Results?',
+                questionName: 'Does Google My Business Help My SEO Rankings?',
                 acceptedAnswerText:
-                  'SEO can take three to six months before you see any results from your campaign. This depends on the location, the competition, and any website authority your business has already. Remember that SEO is a long-term strategy and will pay off long after you’ve started. The main thing is to start.',
+                  'Yes. Your GMB Page can help with your rankings in the local map pack and the organic search results.',
+              },
+              {
+                questionName: 'Does GMB Help Get Me More Customers?',
+                acceptedAnswerText:
+                  'GMB helps with your local SEO. The higher you rank in the map pack, the more conversions and customer inquiries, and phone calls you should receive.',
+              },
+              {
+                questionName: 'Do you have to pay for a Google listing?',
+                acceptedAnswerText:
+                  'The answer is no. Google does not charge for local business listings. It is free no matter how many businesses you want to list.',
               },
               {
                 questionName:
-                  'What is the Difference between SEO and Local SEO?',
+                  'Why Should You Claim Your Google My Business Page?',
                 acceptedAnswerText:
-                  'SEO (search engine optimization) is the process of improving the visibility and ranking of your website in search engine results pages (SERPs). Local SEO, on the other hand, is focused on optimizing your website for local search results.',
+                  'You should claim your GMB Page because it’s like having an extra website given to you for free by the most used search engine in the world.',
               },
               {
-                questionName: 'How Long is Your Contract for Doing SEO?',
+                questionName: 'Do You Provide Support?',
                 acceptedAnswerText:
-                  'Our contracts are month-to-month. You can cancel your contract 30 day prior to the end of the month. But why would you cancel if you’re making more money after you hired us?',
+                  'Yes. We provide expert GMB support and are ready to answer any questions you have.',
               },
               {
-                questionName: 'Can You Guarantee Me #1 Rankings?',
+                questionName: 'Do You Offer SEO and Local SEO Services?',
                 acceptedAnswerText:
-                  'We cannot guarantee first-place rankings. No one can. No one can guarantee rankings because search algorithms are always changing.',
+                  'Yes, we do. GMB management is part of our SEO service to businesses.',
               },
               {
-                questionName: 'Do You Have to Change Anything on My Website?',
+                questionName: 'What Does GMB Management Cost?',
                 acceptedAnswerText:
-                  'Sometimes we will have to make changes to your website. If your website is not user-friendly, or we have to improve user experience to help improve your SEO, we will advise  that you make changes. Examples of changes would be adding clickable phone numbers, adding more pages, and improving the design of the web page.',
+                  'Our GMB management costs $300.00 per month. This includes setup, maintenance, weekly posts, optimization, and more.',
               },
             ]}
           />
           <div className="medium-container">
-            <h2 className="title">Frequently Asked Questions</h2>
+            <h2 className="title">
+              Frequently Asked Questions about Our GMB Management Services
+            </h2>
             <ReasonSec>
               <div>
                 <div className="question">
@@ -822,89 +830,114 @@ const LocalSEO = () => {
                   </p>
                 </div>
                 <div className="question">
-                  <h3>What is Technical SEO?</h3>
+                  <h3>Do I Need to have a website for this service?</h3>
                   <p>
-                    Technical SEO includes things like improving site speed,
-                    making sure the website is mobile-friendly, and fixing crawl
-                    errors.
+                    No, you do not need to have a website to create a Google My
+                    Business (GMB) listing. However, having a website can be
+                    beneficial for your business because it provides a central
+                    online location where potential customers can learn more
+                    about your products or services, see examples of your work,
+                    and contact you.
                   </p>
                   <p>
-                    Basically, anything that makes it easier for Google to index
-                    and understand your website falls under the umbrella of
-                    technical SEO. And while it might sound complicated, there
-                    are a few simple things you can do to get started.
+                    If you do not have a website, you can still create a GMB
+                    listing and provide information about your business, such as
+                    your address, phone number, and hours of operation.
+                    Customers will be able to find your business in Google
+                    search results and on Google Maps, and can contact you
+                    through the information provided in your GMB listing.
+                  </p>
+                  <p>
+                    That being said, it's generally a good idea for businesses
+                    to have a website, as it can help establish credibility,
+                    provide more information about your products or services,
+                    and give customers a way to learn more and contact you
+                    directly. If you don't have a website, you may want to
+                    consider creating one as it can be an important part of your
+                    overall marketing and customer acquisition strategy.
                   </p>
                 </div>
               </div>
               <div>
                 <div className="question">
-                  <h3>What is an SEO consultant?</h3>
+                  <h3>Is Google My Business Worth it?</h3>
                   <p>
-                    An SEO consultant is an individual who specializes in
-                    helping businesses improve their visibility in search
-                    engines. They can help with keyword research, on-page
-                    optimization, link building, and content marketing.
+                    The simple answer is YES. Google My Business is a huge and
+                    ever-growing factor for local search. It is a very important
+                    element for any local SEO campaign.
                   </p>
                 </div>
                 <div className="question">
-                  <h3>What are Keywords?</h3>
+                  <h3>Does Google My Business Help My SEO Rankings?</h3>
                   <p>
-                    Keywords are the words and phrases that people enter into
-                    search engines when they are looking for information. They
-                    are also the words and phrases that describe the topics of
-                    your web pages. Using the right keywords on your website can
-                    help potential customers find your site more easily.
+                    Yes, having a Google My Business (GMB) listing can help
+                    improve your SEO rankings by providing Google with
+                    information about your business, such as your address, phone
+                    number, and hours of operation, which can help with local
+                    SEO and increase the relevance of your business to specific
+                    keywords. GMB also allows you to interact with customers
+                    through reviews, which can improve the overall user
+                    experience with your business and potentially increase
+                    engagement, which can be a ranking factor in Google's
+                    algorithm. However, it's important to note that GMB is just
+                    one of many factors that can impact your rankings and a
+                    well-rounded SEO strategy that includes a variety of
+                    tactics, such as high-quality content and backlinks, is
+                    necessary to achieve the best results.
                   </p>
                 </div>
                 <div className="question">
-                  <h3>What is a Backlink?</h3>
+                  <h3>Does GMB Help Get Me More Customers?</h3>
                   <p>
-                    A backlink is a link that points from one website to
-                    another. If site A links to site B, then site A is said to
-                    have given site B a "backlink." Backlinks are also sometimes
-                    called "inbound links" or "incoming links."
-                  </p>
-                  <p>
-                    Search engines use backlinks as a way to measure the
-                    popularity and importance of a website. If many websites
-                    link to a particular website, then that website is likely to
-                    be high in quality and relevant to its topic. On the other
-                    hand, if few websites link to a particular website, then
-                    that website is likely to be less important and less
-                    popular.
+                    Google My Business helps with your local SEO. The higher you
+                    rank in the map pack, the more conversions and customer
+                    inquiries, and phone calls you should receive.
                   </p>
                 </div>
                 <div className="question">
-                  <h3>What is link building?</h3>
+                  <h3>Do you have to pay for a Google listing?</h3>
                   <p>
-                    Link building is creating high-quality inbound links to your
-                    website from other websites. This is done by creating
-                    valuable and interesting content and then reaching out to
-                    other website owners and asking them to link to it.
+                    The answer is no. Google does not charge for local business
+                    listings. GMB is a free service provided by Google that
+                    allows businesses to manage their online presence across
+                    Google, including in search results and on Google Maps.
                   </p>
                 </div>
                 <div className="question">
-                  <h3>Can I Do SEO Myself?</h3>
-                  <p>Yes, you can do SEO yourself!</p>
+                  <h3>Why Should You Claim Your Google My Business Page?</h3>
                   <p>
-                    However, it is important to keep in mind that SEO is a
-                    complex and time-consuming process, so it is important to be
-                    realistic about the amount of time and effort you are able
-                    to put into it. There are also a lot of different moving
-                    parts to SEO, so it can be helpful to hire an experienced
-                    SEO professional to help you with the process.
+                    You should claim your GMB Page because it helps improve your
+                    local SEO by providing Google with accurate and up-to-date
+                    information about your business, increases the visibility of
+                    your business in search results by allowing you to add
+                    photos, a description, and categories, allows you to manage
+                    your online reputation by responding to customer reviews,
+                    and provides insights and analytics about how customers are
+                    interacting with your business online. Overall, claiming
+                    your GMB page can help improve the visibility and reputation
+                    of your business online, as well as provide valuable
+                    insights and analytics.
                   </p>
                 </div>
                 <div className="question">
-                  <h3>What is Website UX?</h3>
+                  <h3>Do You Provide Support?</h3>
                   <p>
-                    Website UX is all about how a website's users interact with
-                    and experience the site. It encompasses everything from how
-                    easy it is to navigate the site and find what you're looking
-                    for, to the overall look and feel of the site. Creating a
-                    positive UX for your website's visitors can help to ensure
-                    that they have a good experience on your site, and are more
-                    likely to return in the future.
+                    Yes. We provide expert GMB support and are ready to answer
+                    any questions you have.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>Do You Offer SEO and Local SEO Services?</h3>
+                  <p>
+                    Yes, we do. GMB management is part of our local SEO services
+                    to businesses.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>What Does GMB Management Cost?</h3>
+                  <p>
+                    Our GMB management costs $300.00 per month. This includes
+                    setup, maintenance, weekly posts, optimization, and more.
                   </p>
                 </div>
               </div>
@@ -914,18 +947,16 @@ const LocalSEO = () => {
         <div className="call-to-action-grid">
           <img
             src="/images/business-man-calling-about-seo-services.webp"
-            alt="A man calling to inquire about SEO and how it could help his business."
-            title="A man calling to inquire about SEO and how it could help his business."
+            alt="A man calling to inquire about our GMB Management Services."
+            title="A man calling to inquire about our GMB Management Services."
             width="1000px"
             height="667px"
           />
           <div className="container">
-            <h2>
-              Ready to Grow Your Business with Search Engine Optimization?
-            </h2>
+            <h2>Ready to Grow Your Business with GMB Management Services?</h2>
             <p>
-              Contact us today and we'll show you how SEO can help get leads
-              without paying for online ads.
+              Contact us today and we'll show you how our Google My Business
+              Management can help get more leads and customers calling you.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
@@ -949,48 +980,37 @@ const ReasonSec = styled.div`
   }
 `
 
-const Cities = styled.div`
-  margin: 0 auto;
-  @media screen and (min-width: 508px) {
-    @media (min-width: 768px) {
-      margin: 3rem 0;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px;
-    }
-  }
-
-  @media screen and (min-width: 1024px) {
-    @media (min-width: 768px) {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-`
-
-const City = styled.div`
-  display: flex;
-  align-items: center;
-  margin: 1rem 0;
-  img {
-    width: 40px;
-    height: 40px;
-    margin: 0;
-    margin-right: 0.5rem;
-  }
-
-  a,
-  p {
-    margin: 0;
-    font-weight: 700;
-  }
-`
-
 const Deliverables = styled.div`
   margin: 2rem 0;
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
+  }
+`
+const Benefits = styled.div`
+  margin: 2rem 0;
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+`
+const Benefit = styled.div`
+  margin: 1rem 0;
+  display: flex;
+
+  img.check {
+    margin: 0;
+    margin-right: 1.5rem;
+    width: 54px;
+    height: 54px;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
   }
 `
 

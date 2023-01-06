@@ -22,7 +22,7 @@ export default function Home({ data }) {
           subText="Our team can take control of your website and bring you more leads
             and customers, so you can focus on growing your business."
           backgroundImage="/images/bowieseo-header-img.webp"
-          backgroundHeight="100vh"
+          backgroundHeight="95vh"
           backgroundPosition="center"
           buttonText="Schedule a free consultation today!"
           buttonLink={calendly}
@@ -83,8 +83,8 @@ export default function Home({ data }) {
               <img
                 src="/images/bowie-seo.webp"
                 className="page-img-left"
-                width="1000px"
-                height="600px"
+                width="1000"
+                height="600"
                 alt="A business owner considering working with our SEO company to get his own leads without paying for online ads."
                 title="A business owner considering working with our SEO company to get his own leads without paying for online ads."
                 loading="lazy"
@@ -103,8 +103,8 @@ export default function Home({ data }) {
               <img
                 src="/images/happy-bowie-seo-client.webp"
                 className="page-img"
-                width="1000px"
-                height="600px"
+                width="1000"
+                height="600"
                 alt="A business owner considering working Bowie SEO to get his own leads without paying for online ads."
                 title="A happy business owner working with Bowie SEO to get his own leads without paying for online ads."
                 loading="lazy"
@@ -182,8 +182,8 @@ export default function Home({ data }) {
                 <img
                   src="/images/maryland-seo-company.webp"
                   alt="Search engine optimization"
-                  width="1000px"
-                  height="665px"
+                  width="1000"
+                  height="665"
                   loading="lazy"
                 />
                 <div className="service">
@@ -199,8 +199,8 @@ export default function Home({ data }) {
                 <img
                   src="/images/google-my-business.webp"
                   alt="Google My Business Management"
-                  width="1000px"
-                  height="665px"
+                  width="1000"
+                  height="665"
                   loading="lazy"
                 />
                 <div className="service">
@@ -216,8 +216,8 @@ export default function Home({ data }) {
                 <img
                   src="/images/seo-audit.webp"
                   alt="Free Mini SEO Audit"
-                  width="1000px"
-                  height="665px"
+                  width="1000"
+                  height="665"
                   loading="lazy"
                 />
                 <div className="service">
@@ -552,8 +552,8 @@ export default function Home({ data }) {
           <img
             src="/images/bowie-seo-firm.webp"
             className="page-img-left"
-            width="1440px"
-            height="300px"
+            width="1440"
+            height="300"
             alt="Work with our SEO firm to increase your online visibility."
             title="Work with our SEO firm to increase your online visibility."
             loading="lazy"
@@ -572,8 +572,8 @@ export default function Home({ data }) {
                 <img
                   src="/images/save-time.webp"
                   alt="Search engine optimization"
-                  width="1000px"
-                  height="665px"
+                  width="1000"
+                  height="665"
                   loading="lazy"
                 />
                 <div className="service">
@@ -589,8 +589,8 @@ export default function Home({ data }) {
                 <img
                   src="/images/google-my-business.webp"
                   alt="Google My Business Management"
-                  width="1000px"
-                  height="665px"
+                  width="1000"
+                  height="665"
                   loading="lazy"
                 />
                 <div className="service">
@@ -606,8 +606,8 @@ export default function Home({ data }) {
                 <img
                   src="/images/digital-marketing-team.webp"
                   alt="Free Mini SEO Audit"
-                  width="1000px"
-                  height="665px"
+                  width="1000"
+                  height="665"
                   loading="lazy"
                 />
                 <div className="service">
@@ -903,8 +903,8 @@ export default function Home({ data }) {
           <img
             src="/images/smiling-businessman-calling-maryland-seo-company.webp"
             alt="Man calling our Maryland SEO company."
-            width="1000px"
-            height="665px"
+            width="1000"
+            height="665"
             loading="lazy"
           />
           <div className="container">

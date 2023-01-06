@@ -7,10 +7,7 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link
-            rel="preconnect"
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700&display=swap"
-          />
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" />
           <meta
             name="google-site-verification"
             content="outFGrWvqT_oGbQbVv9XooWxpm8G6nZrI9WwNb56hIw"
