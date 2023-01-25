@@ -133,8 +133,8 @@ const MarylandSEOCompany = () => {
             <div className="grid">
               <div className="first-section">
                 <h2>
-                  Discover How (Maryland) Search Engine Optimization Can Help
-                  Your Business Explode
+                  Discover How Our (Maryland) SEO Company Can Help Your Business
+                  Explode
                 </h2>
                 <p>Imagine coming in to work on Monday.</p>
                 <p>Your phones are ringing off the hook.</p>
@@ -241,9 +241,10 @@ const MarylandSEOCompany = () => {
             </p>
             <p>
               These searchers are ready to buy because they are actively
-              searching for your services. SEO involves different parts.
+              searching for your services.
             </p>
-            <p>SEO involves:</p>
+            <p> (Maryland) SEO involves different parts.</p>
+            <p>It involves:</p>
             <HowSEOWorks>
               <SEOElement>
                 <img
@@ -318,7 +319,7 @@ const MarylandSEOCompany = () => {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Local SEO</h3>
+                  <h3>Local (Maryland) SEO</h3>
                   <p>
                     Local SEO is optimizing your website for Google search in
                     your specific geographic location.
@@ -768,69 +769,6 @@ const MarylandSEOCompany = () => {
             </div>
           </div>
         </section>
-        {/* <div className="container">
-          <img
-            src="/images/bowie-seo-firm.webp"
-            className="page-img-left"
-            width="1000px"
-            height="600px"
-            alt="Bowie SEO - A Maryland SEO Company."
-            title="Bowie SEO - A Maryland SEO Company."
-          />
-        </div> */}
-        {/* <section>
-          <div className="medium-container">
-            <div className="grid">
-              <div>
-                <h2>Why Work With Us?</h2>
-                <div>
-                  <div>
-                    <h3>1. All We Do is SEO</h3>
-                    <p>
-                      All we do is SEO. We live, sleep, and breathe SEO. Whether
-                      developing strategies, executing campaigns, or analyzing
-                      data, our team is 100% focused on getting you results.
-                    </p>
-                  </div>
-                  <div>
-                    <h3>2. We're Partners in This</h3>
-                    <p>
-                      We don't succeed unless you do. We take your success
-                      personally and will work tirelessly to ensure your
-                      campaign is successful. We're not satisfied with "good
-                      enough." We want to deliver results that blow the
-                      competition out of the water and help you dominate your
-                      market.
-                    </p>
-                  </div>
-                  <div>
-                    <h3>3. We’re an All-in-one SEO Solution</h3>
-                    <p>
-                      We offer everything you need to rank your website in
-                      search engines, from keyword research and strategy
-                      development to on-page optimization and link building.
-                      Plus, we have a team of experienced SEO copywriters who
-                      can create quality copy for your website.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <img
-                src="/images/seo-experts.webp"
-                className="page-img-left"
-                width="1000px"
-                height="600px"
-                alt="Search engine optimization experts ready to help grow your business."
-                title="Search engine optimization experts ready to help grow your business."
-              />
-            </div>
-            <div className="btn">
-              <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule a Free Consultation Today!</Button>
-              </a>
-            </div>
-          </div>
-        </section> */}
         <section>
           <div className="medium-container">
             <h2 className="title">Why Work With Our Maryland SEO Company?</h2>
@@ -852,10 +790,10 @@ const MarylandSEOCompany = () => {
                 <div className="reasons">
                   <h3>We're a Small Agency</h3>
                   <p>
-                    We’re not a large SEO company, we’re small. But we’re
-                    Maryland SEO experts that can get you results. We get your
-                    company the results that matter - more phone calls, sales,
-                    and money coming in.
+                    We’re not a large Maryland SEO company, we’re small. But
+                    we’re Maryland SEO experts that can get you results. We get
+                    your company the results that matter - more phone calls,
+                    sales, and money coming in.
                   </p>
                 </div>
                 <div className="reasons">
@@ -886,10 +824,10 @@ const MarylandSEOCompany = () => {
                 We work with small business owners who want to increase their
                 organic traffic, web presence, and revenue. We’re not driven by
                 superficial metrics like the amount of website traffic you get
-                or the number of keywords you rank for. As professional SEO
-                consultants, we’re only driven by how many phone calls you get,
-                how much money you made, and if it was more than the last
-                quarter.
+                or the number of keywords you rank for. As a professional
+                Maryland SEO company, we’re only driven by how many phone calls
+                you get, how much money you made, and if it was more than the
+                last quarter.
               </p>
             </div>
             <div className="btn">
@@ -954,7 +892,7 @@ const MarylandSEOCompany = () => {
               },
             ]}
           />
-          <div className="medium-container">
+          <div className="container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>
@@ -1106,9 +1044,8 @@ const MarylandSEOCompany = () => {
           <div className="container">
             <h2>Ready to Boost Your Sales and Revenue?</h2>
             <p>
-              Contact {SEOAgency} and we'll show you how (Maryland) search
-              engine optimization can help grow your business without paying for
-              online ads.
+              Contact {SEOAgency} and we'll show you how (Maryland) SEO can help
+              grow your business without paying for online ads.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">

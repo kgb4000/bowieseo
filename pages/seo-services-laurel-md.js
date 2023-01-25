@@ -1,39 +1,38 @@
 /* eslint-disable @next/next/link-passhref */
-/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
-import styled from 'styled-components'
 import Link from 'next/link'
-import MainLayout from '../components/MainLayout'
+import dynamic from 'next/dynamic'
+import MainLayout from '../components/Layout'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
+import { Business, Businesses } from '../components/BusinessesWeWorkWith'
 import {
   ReasonSec,
   Deliverable,
   Deliverables,
   Service,
 } from '../components/LocatioPageEssentials'
-import { Business, Businesses } from '../components/BusinessesWeWorkWith'
 
 import { NextSeo } from 'next-seo'
 
+const SEOAgency = 'our SEO company'
+
+const AuditSection = dynamic(() => import('../components/AuditSection'))
+
 const calendly = 'https://calendly.com/bowieseo/30min'
 
-const SEOAgency = 'Bowie SEO'
-
-export default function SEOServicesWaldorf() {
+export default function LocalSEO() {
   const SEO = {
     title:
-      'SEO Services Waldorf MD | Build Your Own Lead-Generation Website Today',
-    description:
-      'Build your own lead-generating website with search engine optimization and stop paying for Facebook and Google ads. Call for your free consultation!',
-    canonical: 'https://bowieseo.com/seo-services-waldorf-md',
+      'SEO Services in Laurel, MD, Helping Businesses Boost Revenue and Growth',
+    description: `We're an SEO services company providing SEO services in Laurel, MD. Our SEO services help get you business more website traffic, leads, and customers.`,
+    canonical: 'https://bowieseo.com/seo-services-laurel-md',
     openGraph: {
       title:
-        'SEO Services Waldorf MD | Build Your Own Lead-Generation Website Today',
-      description:
-        'Build your own lead-generating website with search engine optimization and stop paying for Facebook and Google ads. Call for your free consultation!',
-      type: 'website',
+        'SEO Services in Laurel, MD, Helping Businesses Boost Revenue and Growth',
+      description: `We're an SEO services company providing SEO services in Laurel, MD. Our SEO services help get you business more website traffic, leads, and customers.`,
+      image: [{}],
     },
   }
   return (
@@ -41,20 +40,21 @@ export default function SEOServicesWaldorf() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Get more website traffic, leads and sales with SEO Services in Waldorf Maryland"
-          subText="We’ll manage your website and bring you more prospects and leads, so that you can concentrate on growing your business."
-          backgroundImage="/images/waldorf-seo-cover-img.webp"
+          heroText="Get more Website Trafiic and Leads with SEO Services in Laurel, MD"
+          subText="We provide powerful SEO solutions to all our customers and we will provide those same solutions to grow your business."
+          backgroundImage="/images/search-engine-optimization-header.webp"
           backgroundHeight="70vh"
-          backgroundPosition="top"
+          backgroundPosition="top center"
           buttonText="Schedule a free consultation today!"
           buttonLink={calendly}
         />
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <div>
                 <h2>
-                  Having Trouble Getting People to Find Your Business on Google?
+                  Wondering How Some Businesses get Traffic and Leads on Google
+                  and You're Not?
                 </h2>
                 <p>Let’s face it, you’re busy.</p>
                 <p>
@@ -112,12 +112,12 @@ export default function SEOServicesWaldorf() {
                 </p>
               </div>
               <img
-                src="/images/seo-services-waldorf-md.webp"
+                src="/images/seo-services-laurel-md.webp"
                 className="page-img-left"
                 width="1000px"
                 height="600px"
-                alt="A business owner considering  getting SEO services in Waldorf."
-                title="A business owner considering getting SEO services in Waldorf."
+                alt="A business owner considering  getting SEO services in Laurel."
+                title="A business owner considering getting SEO services in Laurel."
                 loading="lazy"
               />
             </div>
@@ -129,7 +129,7 @@ export default function SEOServicesWaldorf() {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <img
                 src="/images/happy-bowie-seo-client.webp"
@@ -142,7 +142,8 @@ export default function SEOServicesWaldorf() {
               />
               <div>
                 <h2>
-                  Get Your Own Leads and Customers Without paying For Online Ads
+                  Get Leads and Customers and Increase Sales Without Paying For
+                  Facebook and Google Ads
                 </h2>
                 <p>
                   Let's be honest, Facebook and Google ads are expensive, and
@@ -200,12 +201,12 @@ export default function SEOServicesWaldorf() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Services Help Businesses Like Yours in Waldorf, Get More Leads
-              and Customers
+              Our Services Help Businesses Like Yours in Laurel, Get More
+              Website Traffic, Leads and Sales
             </h2>
             <p className="subtext">
-              We provide SEO to businesses in Waldorf and the rest of Southern
-              Maryland.
+              We provide SEO to businesses in Laurel and the rest of Howard
+              County, MD.
             </p>
             <Service>
               <div className="service-card">
@@ -272,14 +273,12 @@ export default function SEOServicesWaldorf() {
                 src="/images/home-service-business-waldorf-md.webp"
                 className="page-img"
                 alt="Home service buisness."
-                title="Home service businesses we work with in Waldorf."
+                title="Home service businesses we work with in Laurel."
               />
               <div>
-                <h2>
-                  Home Service Businesses We Work With in Waldorf, Maryland
-                </h2>
+                <h2>Businesses We Work With in Laurel.</h2>
                 <p>
-                  We work with home service businesses in Waldorf that provide
+                  We work with home service businesses in Laurel that provide
                   services to customers homes. We focus on helping you increase
                   your online presence, leads, and sales for your business.
                 </p>
@@ -596,7 +595,7 @@ export default function SEOServicesWaldorf() {
             width="1440px"
             height="600px"
             alt="Waldorf SEO company."
-            title="Work with our Waldorf SEO company to increase your online visibility."
+            title="Work with our SEO company in Laurel to increase your online visibility."
           />
         </div>
         <section>
@@ -676,7 +675,7 @@ export default function SEOServicesWaldorf() {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>
@@ -707,7 +706,7 @@ export default function SEOServicesWaldorf() {
                     strategy that can help you build your brand and get more
                     traffic and leads from Google for free.
                   </p>
-                  <h3>How much is SEO services in Waldorf per month?</h3>
+                  <h3>How much does SEO cost in Laurel?</h3>
                   <p>
                     The monthly cost for SEO ranges from $1000 to $5,000+. The
                     cost can vary depending on the competitiveness of your
@@ -814,9 +813,9 @@ export default function SEOServicesWaldorf() {
           <div className="container">
             <h2>Ready to Boost Your Sales and Revenue?</h2>
             <p>
-              Contact {SEOAgency} and we'll show you how search engine
-              optimization can help your business get more leads in Waldorf
-              without paying for leads or online ads.
+              Contact {SEOAgency} and we'll show you how search our SEO services
+              in Laurel can help grow your company without paying for leads or
+              online ads.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">

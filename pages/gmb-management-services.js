@@ -47,7 +47,7 @@ const LocalSEO = () => {
           buttonLink={calendly}
         />
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <div>
                 <h2>
@@ -125,7 +125,7 @@ const LocalSEO = () => {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <img
                 src="/images/search-engine-optimization-can-help-your-business.webp"
@@ -137,35 +137,48 @@ const LocalSEO = () => {
               />
               <div>
                 <h2>What is GMB Management?</h2>
+                <p>GMB stands for Google My Business.</p>
                 <p>
-                  GMB stands for Google My Business. GMB management refers to
-                  managing and maintaining a business's listing on Google My
-                  Business. This includes keeping the business's information
-                  up-to-date and accurate, responding to customer reviews and
-                  messages, and using the platform to connect with customers and
-                  promote the business. GMB management is important because it
-                  can help improve a business's online visibility and
-                  reputation, and make it easier for customers to find and
-                  connect with the business.
+                  GMB management refers to managing and maintaining a business's
+                  listing on Google My Business.
+                </p>
+                <p>
+                  This includes keeping the business's information up-to-date
+                  and accurate, responding to customer reviews and messages, and
+                  using the platform to connect with customers and promote the
+                  business.
+                </p>
+                <p>
+                  GMB management is important because it can help improve a
+                  business's online visibility and reputation, and make it
+                  easier for customers to find and connect with the business.
                 </p>
                 <p>
                   A GMB (Google My Business) manager is responsible for managing
                   and maintaining a business's listing on Google My Business.
+                </p>
+                <p>
                   This includes ensuring that the business's information is
                   up-to-date and accurate, responding to customer reviews and
                   messages, and using the platform to connect with customers and
-                  promote the business. A GMB manager may also use the insights
-                  and analytics provided by Google My Business to track the
-                  performance of the business's listing and make data-driven
-                  decisions about how to improve it. In general, the goal of a
-                  GMB manager is to help a business improve its online
-                  visibility and reputation, and make it easier for customers to
-                  find and connect with the business.
+                  promote the business.
                 </p>
-                <p>Want to learn more?</p>
+                <p>
+                  A GMB manager may also use the insights and analytics provided
+                  by Google My Business to track the performance of the
+                  business's listing and make data-driven decisions about how to
+                  improve it.
+                </p>
+                <p>
+                  In general, the goal of a GMB manager is to help a business
+                  improve its online visibility and reputation, and make it
+                  easier for customers to find and connect with the business.
+                </p>
               </div>
             </div>
+
             <div className="btn">
+              <p>Want to learn more?</p>
               <a href={calendly} target="_blank" rel="noreferrer">
                 <Button>Schedule Your Free Consultation Today!</Button>
               </a>
@@ -770,7 +783,7 @@ const LocalSEO = () => {
               },
             ]}
           />
-          <div className="medium-container">
+          <div className="container">
             <h2 className="title">
               Frequently Asked Questions about Our GMB Management Services
             </h2>

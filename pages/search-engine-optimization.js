@@ -6,15 +6,12 @@ import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import Button from '../components/Button'
 import HeroSection from '../components/HeroSection'
-import OfferForm from '../components/OfferFormSection'
 import { Business, Businesses } from '../components/BusinessesWeWorkWith'
 
 import { NextSeo, FAQPageJsonLd } from 'next-seo'
 import styled from 'styled-components'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
-
-const SEOAgency = 'our SEO company'
 
 const LocalSEO = () => {
   const SEO = {
@@ -578,7 +575,7 @@ const LocalSEO = () => {
               </City>
               <City>
                 <img src="/images/icons/map-location.png" />
-                <Link href="/laurel-maryland-local-seo-services" passHref>
+                <Link href="/seo-services-laurel-md" passHref>
                   <a>Laurel, MD</a>
                 </Link>
               </City>
