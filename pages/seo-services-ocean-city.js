@@ -5,8 +5,14 @@ import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import PageHero from '../components/PageHeroSection'
 import Button from '../components/Button'
-import { Card, Container } from '../components/CardSection'
-import OfferForm from '../components/OfferFormSection'
+import HeroSection from '../components/HeroSection'
+import { Business, Businesses } from '../components/BusinessesWeWorkWith'
+import {
+  ReasonSec,
+  Deliverable,
+  Deliverables,
+  Service,
+} from '../components/LocatioPageEssentials'
 import { getPosts } from '../lib/data'
 
 import { NextSeo, FAQPageJsonLd } from 'next-seo'
@@ -22,6 +28,8 @@ export const getStaticProps = async () => {
     },
   }
 }
+
+const SEOAgency = 'SEO services in Ocean City'
 
 export default function OceanCitySEO() {
   const SEO = {
@@ -48,90 +56,93 @@ export default function OceanCitySEO() {
     <>
       <NextSeo {...SEO} />
       <MainLayout>
-        <PageHero
-          heading="SEO Services Ocean City, MD [Increase Leads and Boost Revenue]"
-          subText="We provide SEO solutions to help businesses in Ocean City grow. We use our SEO knowledge to help attract more customers and increase sales for your business."
-          heroBtnLink="/contact"
-          buttonText="Book a free consultation"
+        <HeroSection
+          heroText="SEO Services Ocean City, MD [Increase Leads and Boost Revenue]"
+          subText="We provide SEO solutions to help businesses in Ocean City get more customers and grow."
+          backgroundImage="/images/seo-services-ocean-city-maryland-cover.webp"
+          backgroundHeight="70vh"
+          backgroundPosition="bottom"
+          buttonText="Schedule your free consultaion today!"
+          buttonLink={calendly}
         />
-        <section className="article-section">
-          <div className="medium-container">
-            <h2 className="title">SEO Services Ocean City</h2>
-            <p className="center">
-              Digital marketing can be challenging for businesses in Ocean City,
-              but you don't have to struggle anymore.
-            </p>
-            <img
-              src="images/ocean-city-seo-company.jpg"
-              alt="SEO Services Ocean City, Maryland"
-              width="1200"
-              height="450"
-            />
-            <p>
-              Bowie SEO is an{' '}
-              <Link href="/maryland-seo-company" passHref>
-                <a>SEO company</a>
-              </Link>
-               in Maryland helping small businesses in Ocean City grow by
-              increasing website traffic, attracting more leads and customers,
-              and allowing business owners to make more money.
-            </p>
-            <p>
-              We are Maryland SEO experts who can help your businesses rank
-              higher in the search engines, increase your online visibility, and
-              beat your competition in the search engines.
-            </p>
-            <p>
-              Call us today to start your SEO campaign to rank higher in the
-              local search results.
-            </p>
-          </div>
-        </section>
-        <div className="btn">
-          <div className="btn">
-            <a href="tel:+2402660588">
-              <Button>Call (240) 266-0588</Button>
-            </a>
-          </div>
-        </div>
-        <section className="dots-background">
+        <section>
           <div className="container">
-            <div className="offer-section">
-              <h2 className="title">
-                Is Your Business Showing up in Google When People Search for
-                Your Services in Ocean City?
-              </h2>
-              <p className="big-p">
-                If not, you're losing customers to your competition. Find out
-                why and start ranking on the first page today.
-              </p>
+            <div className="grid">
+              <div>
+                <h2>
+                  You Have 2 Options: Lose Money Every Month or Get SEO Services
+                  in Ocean City and Generate Profits
+                </h2>
+                <p>You have a business in Ocean City.</p>
+                <p>
+                  You're trying to figure out how to get more leads and
+                  customers coming in, but despite your best efforts, you're not
+                  getting the results you're hoping for.
+                </p>
+                <p>
+                  You've tried digital marketing strategies like Facebook and
+                  Instagram ads, Google ads, and even invested in lead
+                  generation services from HomeAdvisor, Thumbtack, and Angie's
+                  List.
+                </p>
+                <p>But you'r e not getting leads.</p>
+                <p>
+                  Despite your efforts, you get poor-quality leads and come to
+                  the realization that you're simply wasting your valuable time
+                  and money.
+                </p>
+                <p>
+                  You need a system to get quality leads and customers into your
+                  business regularly, and you need to own that system.
+                </p>
+                <p>That’s where we come in.</p>
+                <p>
+                  We’re a{' '}
+                  <Link href="/maryland-seo-company" passHref>
+                    <a>Maryland SEO Company</a>
+                  </Link>{' '}
+                  offering SEO services in Ocean City.
+                </p>
+                <p>
+                  Search engine optimization can get you more leads and
+                  customers, and help you building your lead generation system
+                  specifically for your business.
+                </p>
+                <p>
+                  You don't have to worry about digital marketing that doesn’t
+                  work or paying for leads from lead generation companies that
+                  just take your money.
+                </p>
+                <p>
+                  We’ll help you build a system to generate your leads while you
+                  concentrate on running your business with SEO.
+                </p>
+                <p>Call us to get started or to learn more.</p>
+              </div>
               <img
-                src="/images/seo-guys.jpg"
-                alt="Ocean City SEO company - Bowie SEO"
-                width="1000"
-                height="700"
+                src="/images/seo-services-ocean-city-md.webp"
+                className="page-img-left"
+                alt="SEO Services in Ocean City, MD."
+                title="SEO Services in Ocean City, MD."
+                width="600"
+                height="1000"
               />
-              <p>
-                Get a personalized video delivered to your email showing you:
-              </p>
-              <ul>
-                <li>The reasons why you're not showing up on the first page</li>
-                <li>What you have to do to get on the first page</li>
-                <li>Actionable steps to start ranking higher today</li>
-              </ul>
-              <OfferForm />
+            </div>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule Your Free Consultation Today!</Button>
+              </a>
             </div>
           </div>
         </section>
         <section className="reasons-section">
           <div className="medium-container">
             <h2 className="title">
-              7 Reasons You Must Invest in SEO for Your Ocean City, MD Business
+              7 Reasons Ocean City Business Owners Must Invest in SEO
             </h2>
-            <p className="center">
-              Ocean City businesses need SEO to compete online. Partner with an
-              SEO company that can build your online business presence, bring
-              more leads and customers.
+            <p className="sub-text">
+              Partner with an SEO company that can build your online presence,
+              and bring more leads and customers fro your business.
             </p>
             <h3>#1. SEO Can Get Leads and Sales 24 Hours a Day</h3>
             <p>
@@ -196,9 +207,15 @@ export default function OceanCitySEO() {
               potential customers.
             </p>
           </div>
+          <div className="container">
+            <p className="center sub-text">
+              You have nothing to lose. Book a free consultaion and learn how
+              SEO can help grow your business!
+            </p>
+          </div>
           <div className="btn">
-            <a href="tel:+2402660588">
-              <Button>Call (240) 266-0588</Button>
+            <a href={calendly} target="_blank" rel="noreferrer">
+              <Button>Schedule Your Free Consultation!</Button>
             </a>
           </div>
         </section>
@@ -209,24 +226,45 @@ export default function OceanCitySEO() {
               in Ocean City?
             </h2>
             <p>
-              Search engine optimization (SEO) is the process of optimizing a
-              website for search engines. SEO aims to improve your website's
-              visibility in the search engine results pages (SERPs).
-            </p>
-            <p>
+              SEO stands for{' '}
               <Link href="/search-engine-optimization" passHref>
-                <a>Local SEO</a>
-              </Link>{' '}
-              is search engine optimization for businesses in a specific
-              location.
+                Search Engine Optimization
+              </Link>
+              , which is the practice of optimizing a website's content,
+              structure, and other elements to rank higher in search engine
+              results pages (SERPs) for relevant keywords and phrases. In simple
+              terms, SEO helps businesses improve their online visibility,
+              attract more website traffic, and ultimately, generate more leads
+              and sales.
             </p>
             <p>
-              For businesses in Ocean City, local SEO can optimize your website
-              to be found by customers in and around Ocean City, MD.
+              In Ocean City, SEO can be a game-changer for businesses looking to
+              stand out in a highly competitive market.
             </p>
-            <p>These cities include:</p>
+            <p>
+              With the growing importance of online search, having a strong
+              online presence is critical for businesses to succeed. By
+              optimizing your website for search engines, businesses can reach a
+              wider audience, attract more qualified leads, and ultimately
+              increase their revenue.
+            </p>
+            <p>
+              For instance, if you own a plumbing business in Ocean City, SEO
+              can help you appear at the top of search results when potential
+              customers search for "best plumber in Ocean City." By optimizing
+              your website's content, metadata, and local citations, you can
+              increase your chances of showing up in the top search results and
+              attract more customers to call your business.
+            </p>
+            <p>
+              In short, SEO is a powerful tool for businesses in Ocean City,
+              Maryland, to improve their online visibility, attract more website
+              traffic, and ultimately increase their revenue.
+            </p>
+            <h3>We offer SEO and Local SEO in these cities near Ocean City:</h3>
             <ul>
               <li>Ocean Pines, MD</li>
+              <li>Easton, MD</li>
               <li>Berlin, MD</li>
               <li>Snow Hill, MD</li>
               <li>
@@ -236,35 +274,12 @@ export default function OceanCitySEO() {
               </li>
               <li>St. Michaels, MD</li>
             </ul>
-            <p>
-              Local SEO is the process of optimizing your website so that
-              customers looking for your business will be able to find you on
-              Google. The goal is to make the website more visible on search
-              engine results pages (SERPs) when people enter keywords related to
-              businesses and services in their area.
-            </p>
-            <p>
-              For example, if someone living in Ocean City or Ocean Pines is
-              searching for a pest control company, Google will return a list of
-              pest control companies that it feels serves the searcher's intent.
-            </p>
-            <p>
-              These results will appear in the local pack and the organic
-              listing.
-            </p>
-            <p>
-              Several factors go into local SEO, including keywords, backlinks,
-              and on-page optimization.
-            </p>
-            <p>
-              Businesses can also create a Google My Business profile, which can
-              help to improve their website visibility.
-            </p>
-            <p>
-              Local SEO is essential to any business's online marketing
-              strategy, especially for companies that rely on customers in a
-              specific geographic area. Optimizing for local search can help to
-              attract new customers and grow a business.
+          </div>
+          <div className="container">
+            <p className="sub-text">
+              You have nothing to lose. Book a free consultaion and learn how
+              over time, SEO can help increase leads, customers and boost your
+              revenue.
             </p>
           </div>
           <div className="btn">
@@ -274,254 +289,371 @@ export default function OceanCitySEO() {
           </div>
         </section>
         <section>
-          <div className="services-container">
-            <h2>Ocean City SEO Services</h2>
-            <p className="sub-text">
-              Our Ocean City SEO services help small businesses in Ocean City
-              increase search traffic, online visibility, and SEO performance.
-            </p>
-            <div className="services">
-              <Container>
-                <Card>
-                  <div className="card-info">
+          <div className="container">
+            <div className="grid">
+              <img
+                src="/images/seo-services-ocean-city-md-businesses.webp"
+                className="page-img"
+                alt="Home service buisnesses we work with in Ocean City."
+                title="Home service businesses we work with in Ocean City."
+              />
+              <div>
+                <h2>Businesses We Work With in Ocean City, Maryland.</h2>
+                <p>
+                  We work with businesses in Ocean City that provide services to
+                  homeowners and businesses. We focus on helping you increase
+                  your online presence, leads, and sales.
+                </p>
+                <Businesses>
+                  <Business>
                     <img
-                      src="/images/audit.svg"
-                      alt="Keyword ranking image"
+                      src="/images/icons/asphalt-paving-contractor.png"
+                      className="business-icon"
+                      alt="Businesses our company works with - Asphalt paving companies."
+                      title="Businesses we work with - Asphalt paving companies."
                       loading="lazy"
                     />
-                    <h3>Local SEO</h3>
-                    <p>
-                      We can help you optimize your website for local search in
-                      Ocean City customers to find you.
-                    </p>
-                  </div>
-                  <p>Learn more</p>
-                </Card>
-                <Card>
-                  <div className="card-info one">
+                    <p>Asphalt Paving Companies</p>
+                  </Business>
+                  <Business>
                     <img
-                      src="/images/keyword-research.svg"
-                      alt="Keyword ranking image"
+                      src="/images/icons/plumbing-contractors.png"
+                      className="business-icon"
+                      alt="Businesses our company works with - Plumbing Contractors."
+                      title="Businesses our company works with - Plumbing Contractors."
                       loading="lazy"
                     />
-                    <h3>Keyword Research</h3>
-                    <p>
-                      Research and choose the right keywords to target in your
-                      website and marketing materials.
-                    </p>
-                  </div>
-                </Card>
-                <Card>
-                  <div className="card-info">
+                    <p>Plumbing Contractors</p>
+                  </Business>
+                  <Business>
                     <img
-                      src="/images/speed-test.svg"
-                      alt="Keyword ranking image"
+                      src="/images/icons/hvac-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - HVAC Contractors."
+                      title="Businesses we work with - HVAC Contractors."
                       loading="lazy"
                     />
-                    <h3>Link Building</h3>
-                    <p>
-                      Build high-quality backlinks to your website to improve
-                      your visibility in search results.
-                    </p>
-                  </div>
-                </Card>
-                <Card>
-                  <div className="card-info">
+                    <p>HVAC Contractors</p>
+                  </Business>
+                  <Business>
                     <img
-                      src="/images/competitive-analysis.svg"
-                      alt="Man analyzing data"
+                      src="/images/icons/roofing-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Roofing Contractors."
+                      title="Businesses we work with - Roofing Contractors."
                       loading="lazy"
                     />
-                    <h3>Competitive Analysis</h3>
-                    <p>
-                      Understand what other Ocean City businesses are doing and
-                      find ways to beat them in local search.
-                    </p>
-                  </div>
-                </Card>
-                <Card>
-                  <div className="card-info">
+                    <p>Roofing Contractors</p>
+                  </Business>
+                  <Business>
                     <img
-                      src="/images/competitive-analysis.svg"
-                      alt="Man analyzing data"
+                      src="/images/icons/landscaping-companies.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Landscaping Companies."
+                      title="Businesses we work with - Landscaping Companies."
                       loading="lazy"
                     />
-                    <h3>GMB Optimization</h3>
-                    <p>
-                      Optimize your Google My Business page to improve your
-                      online visibility so Ocean City customers can find you.
-                    </p>
-                  </div>
-                </Card>
-                <Link href="/free-mini-seo-audit">
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/thinking.svg"
-                        alt="Woman thinking about getting a free mini SEO audit."
-                        loading="lazy"
-                      />
-                      <h3>Free Website Audit</h3>
-                      <p>
-                        Get a free mini SEO audit to improve your website's SEO
-                        performance.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </Link>
-              </Container>
+                    <p>Landscaping Companies</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/pest-control-companies.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Pest Control Companies."
+                      title="Businesses we work with - Pest Control Companies."
+                      loading="lazy"
+                    />
+                    <p>Pest Control Companies</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/electrical-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Electrical Contractors."
+                      title="Businesses we work with - Electrical Contractors."
+                      loading="lazy"
+                    />
+                    <p>Electrical Contractors</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/swimming-pool-builders.png"
+                      className="business-icon"
+                      alt="Businesses we work with - Swimming Pool Builders."
+                      title="Businesses we work with - Swimming Pool Builders."
+                      loading="lazy"
+                    />
+                    <p>Swimming Pool Builders</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/junk-removal-companies.png"
+                      className="business-icon"
+                      alt="Asphalt paving companies - Businesses we work with."
+                      title="Businesses we work with - Asphalt paving companies."
+                      loading="lazy"
+                    />
+                    <p>Junk Removal Companies</p>
+                  </Business>
+                  <Business>
+                    <img
+                      src="/images/icons/general-contractors.png"
+                      className="business-icon"
+                      alt="Businesses we work with - General Contractors."
+                      title="Businesses we work with - General Contractors."
+                      loading="lazy"
+                    />
+                    <p>General Contractors</p>
+                  </Business>
+                </Businesses>
+                <p>
+                  Call us today and let’s see how we can help find opportunities
+                  to help boost your sales and revenue.
+                </p>
+              </div>
+            </div>
+            <div className="container">
+              <p className="center sub-text">
+                You have nothing to lose. Book a free consultaion today!
+              </p>
+            </div>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a Free Consultation Today!</Button>
+              </a>
             </div>
           </div>
         </section>
-        <div className="btn">
-          <Link href="/seo-services" passHref>
-            <Button>See more services</Button>
-          </Link>
-        </div>
         <section>
           <div className="medium-container">
             <h2 className="title">
-              In a Sea of Ocean City SEO Companies, Why Work With Our SEO
-              Company?
+              In a Sea of Ocean City SEO Companies, Why Work With Us?
             </h2>
             <p className="sub-text">
               Work with Bowie SEO and experience the difference between our
               company and other SEO companies.
             </p>
-            <h3>#1. We Create Customized SEO Solutions</h3>
-            <p>
-              As SEO consultants, we know every business and website will need
-              different services. That's why we offer custom SEO services to
-              help your business succeed. We create a custom SEO strategy for
-              each company we work with.
-            </p>
-            <h3>#2. No Long-Term Contracts</h3>
-            <p>We don't have any long-term contracts for our SEO services.</p>
-            <p>Just pay monthly.</p>
-            <h3>#3. We Don't Work With Your Competitors in Ocean City</h3>
-            <p>
-              As your SEO company, we won't work with your competitors. Some SEO
-              companies don't care who they work with. They'll work with you and
-              your competition in the same city. That's crazy.
-            </p>
-            <h3>
-              #4. We Become Your Partners, Not an SEO Company You Just Hired!
-            </h3>
-            <p>
-              When you work with us, we look at your business as if it was our
-              business. We want to see your business succeed! We don't just want
-              to get you to rank higher for a few keywords and then disappear.
-              We want to help you grow your business, for years to come.
-            </p>
-            <h3>#5. All We Do is SEO</h3>
-            <p>
-              We are{' '}
-              <Link href="/maryland-seo-company" passHref>
-                <a>Maryland SEO experts</a>
-              </Link>
-              .
-            </p>
-            <p>
-              We are a professional SEO agency; all we do is search engine
-              optimization. We don't do web design, website development, web
-              hosting, or social media marketing.
-            </p>
-          </div>
-        </section>
-        <div className="btn">
-          <a href="tel:+2402660588">
-            <Button>Call (240) 266-0588</Button>
-          </a>
-        </div>
-        <section>
-          <FAQPageJsonLd
-            mainEntity={[
-              {
-                questionName: 'How Much Does Local SEO Services Cost?',
-                acceptedAnswerText:
-                  'The cost of local SEO services varies depending on the size of your business and its location. SEO services can start as low as $1000 per month for a small business. For a larger company, the cost can be upwards of $5,000 per month. Please get in touch with us to learn more.',
-              },
-              {
-                questionName: 'Can I do SEO Myself?',
-                acceptedAnswerText:
-                  'Yes, you can do SEO yourself. However, it takes a lot of time and effort to learn all the different SEO aspects and keep up with the ever-changing landscape of search engine algorithms. You should hire an experienced SEO company in Ocean City to handle your SEO needs.',
-              },
-              {
-                questionName: 'How Long Does it Take for Local SEO to Work?',
-                acceptedAnswerText:
-                  'Local SEO can take a few weeks to a few months to see results. However, it is essential to note that SEO is an ongoing process, and you must continuously work on it to maintain and improve your rankings.',
-              },
-              {
-                questionName: 'Which is Better for My Business, SEO or PPC?',
-                acceptedAnswerText: `The answer to this question depends on your business goals and your budget. If you have a limited budget, then SEO is the better option as it is a long-term strategy that will continue to provide results over time. PPC is a good option if you have a larger budget and need immediate results.`,
-              },
-              {
-                questionName: 'SEO Services Ocean City - What Next?',
-                acceptedAnswerText:
-                  'Call and talk to an SEO consultant at Bowie SEO to discuss your strategy. Start getting more website traffic and potential customers today.',
-              },
-            ]}
-          />
-          <div className="medium-container">
-            <h2>Frequently Asked Questions</h2>
-            <div className="faq-questions">
-              <section>
-                <h3>#1. How Much Does Local SEO Services Cost?</h3>
-                <p>
-                  The cost of local SEO services varies depending on the size of
-                  your business and its location. SEO services can start as low
-                  as $1000 per month for a small business. For a larger company,
-                  the cost can be upwards of $5,000 per month. Please get in
-                  touch with us to learn more.
-                </p>
-                <h3>#2. Can I do SEO Myself?</h3>
-                <p>
-                  Yes, you can do SEO yourself. However, it takes a lot of time
-                  and effort to learn all the different SEO aspects and keep up
-                  with the ever-changing landscape of search engine algorithms.
-                  You should hire an experienced SEO company in Ocean City to
-                  handle your SEO needs.
-                </p>
-                <h3>#3. How Long Does it Take for Local SEO to Work?</h3>
-                <p>
-                  Local SEO can take a few weeks to a few months to see results.
-                  However, it is essential to note that SEO is an ongoing
-                  process, and you must continuously work on it to maintain and
-                  improve your rankings.
-                </p>
-                <h3>#4. Which is Better for My Business, SEO or PPC?</h3>
-                <p>
-                  The answer to this question depends on your business goals and
-                  your budget. If you have a limited budget, then SEO is the
-                  better option as it is a long-term strategy that will continue
-                  to provide results over time. PPC is a good option if you have
-                  a larger budget and need immediate results.
-                </p>
-                <p>
-                  SEO is a long-term strategy that improves the visibility of
-                  your website in search engine results pages (SERPs). PPC is a
-                  short-term strategy where you pay for ads that appear in
-                  SERPs. PPC can complement SEO well as it can help you achieve
-                  your business goals faster. However, it is essential to note
-                  that you must continuously pay for the ads to maintain your
-                  results.
-                </p>
-                <h3>#5. SEO Services Ocean City - What Next?</h3>
-                <p>
-                  Call and talk to an SEO consultant at Bowie SEO to discuss
-                  your strategy. Start getting more website traffic and
-                  potential customers today.
-                </p>
-              </section>
+            <div className="grid">
+              <img
+                src="/images/seo-company-in-ocean-city-md.webp"
+                className="page-img"
+                width="1000"
+                height="600"
+                alt="SEO services company in Ocean City."
+                title="SEO services company in Ocean City."
+                loading="lazy"
+              />
+              <div>
+                <div className="reasons">
+                  <h3>#1. We Create Customized SEO Solutions</h3>
+                  <p>
+                    As SEO consultants, we know every business and website will
+                    need different services. That's why we offer custom SEO
+                    services to help your business succeed. We create a custom
+                    SEO strategy for each company we work with.
+                  </p>
+                </div>
+                <div className="reasons">
+                  <h3>#2. No Long-Term Contracts</h3>
+                  <p>
+                    We don't have any long-term contracts for our SEO services.
+                  </p>
+                  <p>Just pay monthly.</p>
+                </div>
+                <div className="reasons">
+                  <div>
+                    <h3>
+                      #3. We Don't Work With Your Competitors in Ocean City
+                    </h3>
+                    <p>
+                      As your SEO company, we won't work with your competitors.
+                      Some SEO companies don't care who they work with. They'll
+                      work with you and your competition in the same city.
+                      That's crazy.
+                    </p>
+                  </div>
+                </div>
+                <div className="reasons">
+                  <div>
+                    <h3>
+                      #4. We Become Your Partners, Not an SEO Company You Just
+                      Hired!
+                    </h3>
+                    <p>
+                      When you work with us, we look at your business as if it
+                      was our business. We want to see your business succeed! We
+                      don't just want to get you to rank higher for a few
+                      keywords and then disappear. We want to help you grow your
+                      business, for years to come.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule a Free Consultation Today!</Button>
+              </a>
             </div>
           </div>
-          <div className="btn">
-            <a href="tel:+2402660588">
-              <Button>Call (240) 266-0588</Button>
-            </a>
+        </section>
+        <section>
+          <div className="medium-container">
+            <h2 className="title">Frequently Asked Questions</h2>
+            <ReasonSec>
+              <div>
+                <div className="question">
+                  <h3>What is SEO and how does it work?</h3>
+                  <p>
+                    SEO is short form for “Search engine optimization”. It is a
+                    way to make a website show up higher on a search engine,
+                    like Google, so more people can find it. It involves using
+                    special techniques to make the website easier for the search
+                    engine to understand and show it to people who are looking
+                    for information on a certain topic. This can help more
+                    people visit the website and learn about what it offers.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>Is SEO worth it for small business?</h3>
+                  <p>Yes, SEO can be very worth it for small businesses.</p>
+                  <p>
+                    For small businesses, SEO can be an extremely effective
+                    marketing strategy that can significantly enhance their
+                    visibility and attract new customers. By optimizing their
+                    website and online presence for search engines, small
+                    businesses can improve their rankings in search results, and
+                    ultimately generate more organic traffic. The result is
+                    often increased brand awareness, more website traffic, and
+                    potential leads or sales. Even though SEO may require
+                    substantial time and effort to achieve results, the
+                    long-term benefits can be substantial. It is also an
+                    economical approach for small businesses to compete with
+                    larger companies in their industry.
+                  </p>
+                  <h3>How much does SEO cost in Ocean City?</h3>
+                  <p>
+                    The cost for SEO ranges from $1000 to $5,000. The cost will
+                    vary depending on the competitiveness of your industry and
+                    the keywords you are targeting.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>How long does it take for SEO to work?</h3>
+                  <p>
+                    It usually takes about three to six months before you see
+                    results, but it's important to keep working hard at it to
+                    make sure it stays good. If you use SEO best practices, make
+                    really good content, and get good backlinks, your website
+                    can slowly get better and better in search results. This
+                    will attract more people to your website and maybe even help
+                    you sell more services!
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>What is better PPC or SEO?</h3>
+                  <p>
+                    The answer to this question depends on your goals. If you
+                    require quick outcomes, Google Ads is the better
+                    alternative. Nonetheless, if you seek a long-term marketing
+                    tactic to expand your brand, and gradually generate more
+                    traffic and leads from Google, then SEO would be the
+                    preferred choice.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div className="question">
+                  <h3>What is the Difference between SEO and Local SEO?</h3>
+                  <p>
+                    SEO can be thought of as participating in a worldwide race,
+                    trying to be the best among countless other competitors.
+                    However, for businesses that operate only in one area, Local
+                    SEO is like participating in a race that is limited to your
+                    town. This is especially important for local stores,
+                    restaurants, and services that want to be easily discovered
+                    by people in their community who are searching for services
+                    or products in their area, such as "pizza places near me" or
+                    "hair salons in my area." Through Local SEO, these
+                    businesses can increase their visibility and make sure they
+                    don't get lost in the highly competitive global market, as
+                    they stand a better chance of being discovered by customers
+                    who are looking for services nearby.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>How long would it take to rank my website?</h3>
+                  <p>
+                    Ranking a website in search engines like Google is like
+                    playing a game. It takes time and practice to get better and
+                    win. Just like in a game, you have to work hard to make your
+                    website better and easier to find by people who are looking
+                    for it. This can take a few months or longer depending on
+                    how well you play the game and how many other players are
+                    trying to win too. The most important thing is to keep
+                    trying and making your website the best it can be, so that
+                    more people can find it and use it.
+                  </p>
+                </div>
+
+                <div className="question">
+                  <h3>Can You Guarantee Me #1 Rankings on Google?</h3>
+                  <p>
+                    Achieving a top spot in Google's search rankings is similar
+                    to competing in a race. You need to have remarkable skills
+                    and speed to outdo all the other competitors. Just as it is
+                    uncertain who will win a race, it is also difficult to know
+                    who will be ranked first in Google. However, you can improve
+                    your chances of success by refining your skills, and
+                    implementing strategies to improve your website. SEO experts
+                    help to enhance your website's SEO performance so that it
+                    can be one of the best contenders in the race. Although
+                    success is not guaranteed, continuous practice and
+                    improvement will increase the likelihood of achieving better
+                    results in the race.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>Do You Have to Change My site for SEO to work?</h3>
+                  <p>We might have to.</p>
+                  <p>
+                    If your website is not user-friendly, we may need to modify
+                    the design to make it better. We will also develop or update
+                    your website's sitemap to assist search engines in easily
+                    finding and indexing your site. Moreover, we will set up
+                    Google Analytics for you to track your SEO progress over
+                    time. We will also making changes to your website's title,
+                    meta tags, and content to ensure they include the most
+                    beneficial keywords for your business.
+                  </p>
+                </div>
+              </div>
+            </ReasonSec>
           </div>
         </section>
+        <div className="call-to-action-grid">
+          <img
+            src="/images/seo-services-ocean-city-maryland.webp"
+            alt="Man calling to get SEO services in Ocean City."
+            title="Man calling to get SEO services in Ocean City."
+            width="1000px"
+            height="65px"
+            loading="lazy"
+          />
+          <div className="container">
+            <h2>Ready to Get More Leads and Boost Your Sales and Revenue?</h2>
+            <p>
+              Get our {SEOAgency} and we'll show you how SEO can help you get
+              more Ocean City customers.
+            </p>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule a Free Consultation!</Button>
+              </a>
+            </div>
+          </div>
+        </div>
       </MainLayout>
     </>
   )

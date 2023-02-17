@@ -64,7 +64,11 @@ const About = () => {
               <li>Keyword Research</li>
               <li>Link Building</li>
               <li>Content audits and optimization</li>
-              <li>GMB Management</li>
+              <li>
+                <Link href="/gmb-management-services" passHref>
+                  <a>Google My Business Management</a>
+                </Link>
+              </li>
               <li>Technical SEO</li>
               <li>On-Page SEO</li>
               <li>Local SEO</li>
@@ -96,8 +100,8 @@ const About = () => {
           </div>
         </section>
         <div className="btn">
-          <a href="tel:+2402660588">
-            <Button>Call (240) 266-0588</Button>
+          <a href={calendly} target="_blank" rel="noreferrer">
+            <Button>Schedule a Consultation Today!</Button>
           </a>
         </div>
         <section>
@@ -122,7 +126,7 @@ const About = () => {
           </div>
           <div className="btn">
             <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Let's Book a Call Today!</Button>
+              <Button>Schedule a Consultation Today!</Button>
             </a>
           </div>
         </section>
@@ -140,10 +144,10 @@ const About = () => {
             </p>
             <p>
               <b>Excellence</b> - We strive for excellence in everything we do.
-            </p>{' '}
+            </p>
             <p>
               <b>Teamwork</b> - We work together as a team to achieve our goals.
-            </p>{' '}
+            </p>
             <p>
               <b>Respect</b> - We respect our clients, employees, and partners.
             </p>
@@ -154,58 +158,8 @@ const About = () => {
           </div>
           <div className="btn">
             <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Let's Book a Call Today!</Button>
+              <Button>Schedule a Consultation Today!</Button>
             </a>
-          </div>
-        </section>
-        {/* <InfoList {...missionObj} /> */}
-        <section className="pain-section">
-          <div className="services-container">
-            <h2>We're Easy to Work With</h2>
-            <p className="sub-text">
-              It's easy to work with us. If you need more online visibility, or
-              you need to build your web presence, contact us.
-            </p>
-            <Wrapper>
-              <Contact>
-                <h3>1. Call us</h3>
-                <img
-                  src="/images/phone-call.svg"
-                  className="icons"
-                  loading="lazy"
-                  alt="Call Bowie SEO for a free consultation."
-                />
-                <p>Set up a discovery call and see hwo we can help you.</p>
-              </Contact>
-              <Contact>
-                <h3>2. We Analyze</h3>
-                <img
-                  src="/images/plan.svg"
-                  className="icons"
-                  loading="lazy"
-                  alt="We analyse your business and come up with a strategy for success."
-                />
-                <p>We check out your business and industry.</p>
-              </Contact>
-              <Contact>
-                <h3>3. We Get to Work</h3>
-                <img
-                  src="/images/work-together.svg"
-                  className="icons"
-                  loading="lazy"
-                  alt="Work with Bowie SEO to help grow your business."
-                />
-                <p>
-                  We build a strategy to get results and bring new
-                  opportunities.
-                </p>
-              </Contact>
-            </Wrapper>
-            <div className="btn">
-              <a href="tel:+2402660588">
-                <Button>Call (240) 266-0588</Button>
-              </a>
-            </div>
           </div>
         </section>
       </MainLayout>

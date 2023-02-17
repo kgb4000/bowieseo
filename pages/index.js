@@ -18,7 +18,7 @@ export default function Home({ data }) {
     <>
       <MainLayout>
         <HeroSection
-          heroText="Make Your Website a Lead Generating Magnet And Stop Paying for online ads"
+          heroText="Make Your Website a Lead Generating Magnet And Stop Paying for Online ads"
           subText="Our team can take control of your website and bring you more leads
             and customers, so you can focus on growing your business."
           backgroundImage="/images/bowieseo-header-img.webp"
@@ -231,6 +231,11 @@ export default function Home({ data }) {
               </div>
             </Service>
           </div>
+          <div className="btn">
+            <a href={calendly} target="_blank" rel="noreferrer">
+              <Button>Schedule Your Free Consultation Today!</Button>
+            </a>
+          </div>
         </section>
         <section>
           <div className="container">
@@ -367,7 +372,7 @@ export default function Home({ data }) {
         </section>
         <section>
           <div className="container">
-            <h2 className="title">What You Get When Your Work With Us</h2>
+            <h2 className="title">What You Get When You Work With Bowie SEO</h2>
             <p className="subtext">When you work with Bowie SEO, you get:</p>
           </div>
           <div className="medium-container">

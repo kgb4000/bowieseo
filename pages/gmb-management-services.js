@@ -125,7 +125,7 @@ const LocalSEO = () => {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <img
                 src="/images/search-engine-optimization-can-help-your-business.webp"
@@ -178,7 +178,6 @@ const LocalSEO = () => {
             </div>
 
             <div className="btn">
-              <p>Want to learn more?</p>
               <a href={calendly} target="_blank" rel="noreferrer">
                 <Button>Schedule Your Free Consultation Today!</Button>
               </a>
@@ -783,7 +782,7 @@ const LocalSEO = () => {
               },
             ]}
           />
-          <div className="container">
+          <div className="medium-container">
             <h2 className="title">
               Frequently Asked Questions about Our GMB Management Services
             </h2>

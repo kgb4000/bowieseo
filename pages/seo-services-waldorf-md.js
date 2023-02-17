@@ -50,7 +50,7 @@ export default function SEOServicesWaldorf() {
           buttonLink={calendly}
         />
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <div>
                 <h2>
@@ -129,7 +129,7 @@ export default function SEOServicesWaldorf() {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <img
                 src="/images/happy-bowie-seo-client.webp"
@@ -676,7 +676,7 @@ export default function SEOServicesWaldorf() {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>

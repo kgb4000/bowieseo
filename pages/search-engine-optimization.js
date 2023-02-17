@@ -42,7 +42,7 @@ const LocalSEO = () => {
           buttonLink={calendly}
         />
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <div>
                 <h2>
@@ -119,7 +119,7 @@ const LocalSEO = () => {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <img
                 src="/images/search-engine-optimization-can-help-your-business.webp"
@@ -761,7 +761,7 @@ const LocalSEO = () => {
               },
             ]}
           />
-          <div className="medium-container">
+          <div className="container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>

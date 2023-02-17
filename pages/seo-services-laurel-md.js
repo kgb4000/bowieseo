@@ -2,7 +2,6 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
-import dynamic from 'next/dynamic'
 import MainLayout from '../components/Layout'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
@@ -17,8 +16,6 @@ import {
 import { NextSeo } from 'next-seo'
 
 const SEOAgency = 'our SEO company'
-
-const AuditSection = dynamic(() => import('../components/AuditSection'))
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
@@ -77,7 +74,7 @@ export default function LocalSEO() {
                   prices just to compete.
                 </p>
                 <p>
-                  Other competitors in Waldorf are ranking higher than you in
+                  Other competitors in Laurel are ranking higher than you in
                   Google and their businesses are growing.
                 </p>
                 <p>
@@ -104,7 +101,7 @@ export default function LocalSEO() {
                   <Link href="/maryland-seo-company" passHref>
                     <a>SEO Company in Maryland</a>
                   </Link>{' '}
-                  and we help businesses in Waldorf build their own lead-gen
+                  and we help businesses in Laurel build their own lead-gen
                   websites.
                 </p>
                 <p>
@@ -276,7 +273,7 @@ export default function LocalSEO() {
                 title="Home service businesses we work with in Laurel."
               />
               <div>
-                <h2>Businesses We Work With in Laurel.</h2>
+                <h2>Businesses We Work With in Laurel, Maryland.</h2>
                 <p>
                   We work with home service businesses in Laurel that provide
                   services to customers homes. We focus on helping you increase
@@ -605,7 +602,7 @@ export default function LocalSEO() {
             </h2>
             <p className="subtext">
               Save time and money, and acheive your sales and revenue goals by
-              working with Waldorf SEO specialists. We work only for you, not
+              working with Laurel SEO specialists. We work only for you, not
               your competition.
             </p>
             <Service>
@@ -804,8 +801,8 @@ export default function LocalSEO() {
         <div className="call-to-action-grid">
           <img
             src="/images/seo-services-waldorf-maryland.webp"
-            alt="Man calling to get SEO services in Waldorf."
-            title="Man calling to get SEO services in Waldorf."
+            alt="Man calling to get SEO services in Laurel."
+            title="Man calling to get SEO services in Laurel."
             width="1000px"
             height="65px"
             loading="lazy"
@@ -813,8 +810,8 @@ export default function LocalSEO() {
           <div className="container">
             <h2>Ready to Boost Your Sales and Revenue?</h2>
             <p>
-              Contact {SEOAgency} and we'll show you how search our SEO services
-              in Laurel can help grow your company without paying for leads or
+              Contact {SEOAgency} and we'll show you how our SEO services in
+              Laurel can help your company grow without paying for leads or
               online ads.
             </p>
             <div className="btn">
