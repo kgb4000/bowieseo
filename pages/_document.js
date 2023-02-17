@@ -11,7 +11,10 @@ export default class MyDocument extends Document {
             href="https://fonts.gstatic.com"
             crossOrigin="true"
           ></link>
-          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"></link>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+            rel="stylesheet"
+          ></link>
           <meta
             name="google-site-verification"
             content="outFGrWvqT_oGbQbVv9XooWxpm8G6nZrI9WwNb56hIw"
