@@ -891,7 +891,7 @@ export default function Home({ data }) {
                   <h3>Is SEO still relevant in 2023?</h3>
                   <p>Sometimes we do.</p>
                   <p>
-                    SEO is still relevant in 2022 because people are still using
+                    SEO is still relevant in 2023 because people are still using
                     search engines to find information on the internet. The
                     number of people using search engines is not expected to
                     decrease in the next few years, so SEO will continue to be
