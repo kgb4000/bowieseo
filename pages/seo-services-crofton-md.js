@@ -537,13 +537,61 @@ export default function CroftonMD() {
               </div>
             </ReasonSec>
             <div className="btn">
-              <a href="tel:+2402660588">
-                <Button>Call (240) 266-0588</Button>
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a Free Consultation!</Button>
               </a>
             </div>
           </div>
         </section>
         <section>
+          <FAQPageJsonLd
+            mainEntity={[
+              {
+                questionName: 'What is SEO and how does it work?',
+                acceptedAnswerText: `SEO is short form for “Search engine optimization”. It is a way to make a website show up higher on a search engine, like Google, so more people can find it. It involves using special techniques to make the website easier for the search engine to understand and show it to people who are looking for information on a certain topic. This can help more people visit the website and learn about what it offers.`,
+              },
+              {
+                questionName: 'Is SEO worth it for small business?',
+                acceptedAnswerText: `Yes, SEO can be very worth it for small businesses. In fact, it can be one of the most effective marketing strategies for small businesses to increase their visibility  and attract new customers. By optimizing their website and  online presence for search engines, small businesses can improve their rankings in search results and attract more organic traffic. This can result in increased brand  awareness, website traffic, and potential sales or leads. While SEO can take time and effort to see results, it can provide long-term benefits and can be a cost-effective way for small businesses to compete with larger companies in their industry.`,
+              },
+              {
+                questionName: 'How much does SEO cost in Crofton?',
+                acceptedAnswerText: `The cost for SEO ranges from $1000 to $5,000. The cost will  vary depending on the competitiveness of your industry and the keywords you are targeting.`,
+              },
+              {
+                questionName: 'How Long Does SEO Take to See Results?',
+                acceptedAnswerText: `The time it takes to see results depend onseveral factors, such as the competitiveness of the keywordstargeted, the current state of the website, the quality of the content, and the amount of resources devoted to SEO. 
+                Typically, it can take three to six months to start seeing measurable results from SEO efforts, but it's important to remember that SEO is a long-term strategy that requires ongoing efforts to maintain and improve rankings. By consistently implementing SEO best practices, creating high-quality content, and building quality links, a website  engines over time, resulting in increased traffic and potential conversions.`,
+              },
+              {
+                questionName: 'What is better PPC or SEO?',
+                acceptedAnswerText: `The answer to this question depends on your goals. If you are looking for immediate results, then Google Ads is the better option. However, if you are looking for a long-term marketing strategy that will help you build your brand and is the better option.`,
+              },
+              {
+                questionName:
+                  'What is the Difference between SEO and Local SEO?',
+                acceptedAnswerText: `SEO is like trying to be the best in a race, but the race is all over the world. Local SEO is like trying to be the best in a race, but the race is only in your town. Local SEO helps people in your town find your website when they're looking for things like "pizza places near me" or "hair  salons in my area." This is important for businesses like stores, restaurants, and services that only operate in one area. Local SEO helps them be more visible to people who are looking for things near them, and it's a way to make sure they don't get lost in the big world race.`,
+              },
+              {
+                questionName: 'How long would it take to rank my website?',
+                acceptedAnswerText: `Ranking a website in search engines is like playing a game. It takes time and practice to get better and win. Just like in a game, you have to work hard to make your website better and easier to find by people who are looking for it. This can take a few months or longer depending on how well you play the game and how many other players are trying to win too. The most important thing is to keep trying and making your website the best it can be, so that more people can find it and use it.`,
+              },
+              {
+                questionName: 'How Long is Your Contract for Doing SEO?',
+                acceptedAnswerText:
+                  'Our contracts are month-to-month. You can cancel at any time with 30 days written notice. We require a 3-month minimum to start to properly establish your baseline and see results. After the first 3 months, you are free to cancel at any time. There are no long-term contracts or commitments.',
+              },
+              {
+                questionName: 'Can You Guarantee Me #1 Rankings on Google?',
+                acceptedAnswerText: `Getting to the top of Google's search rankings is like trying to win a race. You have to be really good and fast to beat all the other people in the race. Just like in a race, there is no way to know for sure who will win, but you can practice and do things that will make you faster and better. That's what people who work on SEO do. They try to make your  website better and faster so it can be one of the best in the race. But just like in a race, there is no guarantee that your website will win, but if you keep practicing and making it better, you will have a better chance of doing well.`,
+              },
+              {
+                questionName: 'Do You Have to Change My site for SEO to work?',
+                acceptedAnswerText: `We might have to.
+                We will update your website's title, meta tags, and content to reflect keywords that we believe will be most valuable to you. Additionally, we'll create or update your website's sitemap so that search engines can more easily find and index your site. Finally, we'll set up Google Analytics so that you can track your SEO progress over time. And we may have to alter the design if it is not user friendly.`,
+              },
+            ]}
+          />
           <div className="container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
@@ -584,12 +632,12 @@ export default function CroftonMD() {
                   </p>
                 </div>
                 <div className="question">
-                  <h3>How long does it take for SEO to work?</h3>
+                  <h3>How Long Does SEO Take to See Results?</h3>
                   <p>
-                    The time it takes for SEO to work can vary depending on
-                    several factors, such as the competitiveness of the keywords
-                    targeted, the current state of the website, the quality of
-                    the content, and the amount of resources devoted to SEO.
+                    The time it takes to see results depend on several factors,
+                    such as the competitiveness of the keywords targeted, the
+                    current state of the website, the quality of the content,
+                    and the amount of resources devoted to SEO.
                   </p>
                   <p>
                     Typically, it can take three to six months to start seeing
@@ -611,7 +659,7 @@ export default function CroftonMD() {
                     better option. However, if you are looking for a long-term
                     marketing strategy that will help you build your brand and
                     get more traffic and leads from Google over time, then SEO
-                    is the better option.{' '}
+                    is the better option.
                   </p>
                 </div>
               </div>
@@ -634,15 +682,15 @@ export default function CroftonMD() {
                 <div className="question">
                   <h3>How long would it take to rank my website?</h3>
                   <p>
-                    Ranking a website in search engines like Google is like
-                    playing a game. It takes time and practice to get better and
-                    win. Just like in a game, you have to work hard to make your
-                    website better and easier to find by people who are looking
-                    for it. This can take a few months or longer depending on
-                    how well you play the game and how many other players are
-                    trying to win too. The most important thing is to keep
-                    trying and making your website the best it can be, so that
-                    more people can find it and use it.
+                    Ranking a website in search engines is like playing a game.
+                    It takes time and practice to get better and win. Just like
+                    in a game, you have to work hard to make your website better
+                    and easier to find by people who are looking for it. This
+                    can take a few months or longer depending on how well you
+                    play the game and how many other players are trying to win
+                    too. The most important thing is to keep trying and making
+                    your website the best it can be, so that more people can
+                    find it and use it.
                   </p>
                 </div>
                 <div className="question">

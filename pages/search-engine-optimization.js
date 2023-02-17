@@ -13,7 +13,7 @@ import styled from 'styled-components'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
-const LocalSEO = () => {
+const Rockville = () => {
   const SEO = {
     title: 'Search Engine Optimization Services for Home Service Businesses',
     description:
@@ -134,7 +134,7 @@ const LocalSEO = () => {
                   How Search Engine Optimization Can Take Your Business to the
                   Next Level
                 </h2>
-                <p>Think about this</p>
+                <p>Think about this.</p>
                 <p>
                   93% of people use search engines like Google to find local
                   businesses like yours.
@@ -595,7 +595,9 @@ const LocalSEO = () => {
               </City>
               <City>
                 <img src="/images/icons/map-location.png" />
-                <p>Rockville, MD</p>
+                <Link href="/rockville-seo-company" passHref>
+                  <a>Rockville, MD</a>
+                </Link>
               </City>
               <City>
                 <img src="/images/icons/map-location.png" />
@@ -936,7 +938,7 @@ const LocalSEO = () => {
   )
 }
 
-export default LocalSEO
+export default Rockville
 
 const ReasonSec = styled.div`
   @media screen and (min-width: 1024px) {
