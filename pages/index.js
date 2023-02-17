@@ -888,7 +888,7 @@ export default function Home({ data }) {
                   </p>
                 </div>
                 <div className="question">
-                  <h3>Is SEO still relevant in 2022?</h3>
+                  <h3>Is SEO still relevant in 2023?</h3>
                   <p>Sometimes we do.</p>
                   <p>
                     SEO is still relevant in 2022 because people are still using
