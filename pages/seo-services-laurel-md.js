@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
-import MainLayout from '../components/Layout'
+import MainLayout from '../components/MainLayout'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { Business, Businesses } from '../components/BusinessesWeWorkWith'
@@ -37,21 +37,21 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Get more Website Trafiic and Leads with SEO Services in Laurel, MD"
-          subText="We provide powerful SEO solutions to all our customers and we will provide those same solutions to grow your business."
-          backgroundImage="/images/search-engine-optimization-header.webp"
+          heroText="Get more Website Trafiic and Leads with Our SEO Services in Laurel, MD"
+          subText="We provide SEO solutions to small business owners and we'll provide those same solutions to help grow your business."
+          backgroundImage="/images/seo-services-laurel-md-cover.webp"
           backgroundHeight="70vh"
-          backgroundPosition="top center"
+          backgroundPosition="center"
           buttonText="Schedule a free consultation today!"
           buttonLink={calendly}
         />
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <div>
                 <h2>
                   Wondering How Some Businesses get Traffic and Leads on Google
-                  and You're Not?
+                  and You Don't?
                 </h2>
                 <p>Let’s face it, you’re busy.</p>
                 <p>
@@ -126,7 +126,7 @@ export default function LocalSEO() {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <img
                 src="/images/happy-bowie-seo-client.webp"
@@ -208,9 +208,9 @@ export default function LocalSEO() {
             <Service>
               <div className="service-card">
                 <img
-                  src="/images/waldorf-search-engine-optimization.webp"
-                  alt="Waldorf SEO Services"
-                  title="Waldorf SEO Services"
+                  src="/images/laurel-search-engine-optimization.webp"
+                  alt="Laurel SEO Services"
+                  title="Laurel SEO Services"
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -226,9 +226,9 @@ export default function LocalSEO() {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/waldorf-gmb-management.webp"
-                  alt="Waldorf Google My Business Management"
-                  title="Waldorf Google My Business Management"
+                  src="/images/laurel-gmb-management.webp"
+                  alt="Laurel Google My Business Management"
+                  title="Laurel Google My Business Management"
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -244,7 +244,7 @@ export default function LocalSEO() {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/seo-audit-waldorf.webp"
+                  src="/images/seo-audit-laurel.webp"
                   alt="Free Mini SEO Audit"
                   title="Free Mini SEO Audit"
                   width="1000px"
@@ -267,7 +267,7 @@ export default function LocalSEO() {
           <div className="container">
             <div className="grid">
               <img
-                src="/images/home-service-business-waldorf-md.webp"
+                src="/images/home-service-business-laurel-md.webp"
                 className="page-img"
                 alt="Home service buisness."
                 title="Home service businesses we work with in Laurel."
@@ -397,7 +397,7 @@ export default function LocalSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get From Us When Your Work With Us
+              What You Get When Your Work With Laurel SEO Specialists
             </h2>
             <p className="subtext">When you work with us, you get:</p>
           </div>
@@ -587,19 +587,17 @@ export default function LocalSEO() {
         </section>
         <div className="container">
           <img
-            src="/images/waldorf-seo-company.webp"
+            src="/images/laurel-seo-company.webp"
             className="page-img-left"
             width="1440px"
             height="600px"
-            alt="Waldorf SEO company."
+            alt="Laurel SEO company."
             title="Work with our SEO company in Laurel to increase your online visibility."
           />
         </div>
         <section>
           <div className="container">
-            <h2 className="title">
-              Why Work With Us and Use Us for Your Services?
-            </h2>
+            <h2 className="title">Why Work With Us</h2>
             <p className="subtext">
               Save time and money, and acheive your sales and revenue goals by
               working with Laurel SEO specialists. We work only for you, not
@@ -662,7 +660,7 @@ export default function LocalSEO() {
               </div>
             </Service>
             <p className="subtext">
-              Want to see how we can help you grow your business with SEO?
+              Want to see how we can help you grow your business using SEO?
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
@@ -672,7 +670,7 @@ export default function LocalSEO() {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>
@@ -800,7 +798,7 @@ export default function LocalSEO() {
         </section>
         <div className="call-to-action-grid">
           <img
-            src="/images/seo-services-waldorf-maryland.webp"
+            src="/images/seo-services-laurel-maryland.webp"
             alt="Man calling to get SEO services in Laurel."
             title="Man calling to get SEO services in Laurel."
             width="1000px"

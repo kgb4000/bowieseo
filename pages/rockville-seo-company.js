@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
-import MainLayout from '../components/Layout'
+import MainLayout from '../components/MainLayout'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { Business, Businesses } from '../components/BusinessesWeWorkWith'
@@ -19,7 +19,7 @@ const SEOAgency = 'Rockville SEO company'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
-export default function LocalSEO() {
+export default function RockvilleSEO() {
   const SEO = {
     title: 'Rockville SEO Company Helping Businesses Boost Revenue and Growth',
     description: `We're an SEO services company providing SEO services in Rockville, MD. Our SEO services help get you business more website traffic, leads, and customers.`,

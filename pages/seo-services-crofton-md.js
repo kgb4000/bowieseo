@@ -5,7 +5,6 @@ import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
-import { getPosts } from '../lib/data'
 import { Business, Businesses } from '../components/BusinessesWeWorkWith'
 import {
   ReasonSec,
@@ -18,37 +17,19 @@ import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
-export const getStaticProps = async () => {
-  const data = await getPosts()
-
-  return {
-    props: {
-      data,
-    },
-  }
-}
-
 const SEOAgency = 'SEO company'
 
 export default function CroftonMD() {
   const SEO = {
-    title: 'SEO Services Crofton MD | Increase Leads, Boost Revenue',
+    title: 'SEO Services in Crofton Helping Increase Leads and Revenue',
     description:
       'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
     canonical: 'https://bowieseo.com/seo-services-crofton-md',
     openGraph: {
-      title: 'SEO Services Crofton MD | Increase Leads, Boost Revenue',
+      title: 'SEO Services in Crofton Helping Increase Leads and Revenue',
       description:
         'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
-      image: [
-        {
-          url: 'https://bowieseo.com/images/salisbury-seo-company.jpg',
-          width: 1200,
-          height: 450,
-          alt: 'Salsbury SEO Company',
-          type: 'image/jpg',
-        },
-      ],
+      image: [{}],
     },
   }
   return (
@@ -56,16 +37,16 @@ export default function CroftonMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="We provide SEO Services for Crofton, MD Businesses"
+          heroText="Increase Leads, Sales, and Revenue with SEO Services in Crofton"
           subText="We use our SEO knowledge to help attract more customers and increase sales for your business."
-          backgroundImage="/images/maryland-seo-company.webp"
-          backgroundHeight="60vh"
+          backgroundImage="/images/seo-services-crofton-md-cover.webp"
+          backgroundHeight="70vh"
           backgroundPosition="center"
           buttonText="Schedule your free consultaion today!"
           buttonLink={calendly}
         />
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <div>
                 <h2>
@@ -131,75 +112,187 @@ export default function CroftonMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              Why Work With Us and for Crofton SEO Services
+              What You Get When Your Work With Crofton SEO Specialists
             </h2>
-            <p className="subtext">
-              Boost your sales, reduce costs and reach new heights in revenue
-              with the help of our expert Crofton SEO specialists. We guarantee
-              to work solely for you - never against you or any contenders!
-            </p>
-            <Service>
-              <div className="service-card">
+            <p className="subtext">When you work with us, you get:</p>
+          </div>
+          <div className="medium-container">
+            <Deliverables>
+              <Deliverable>
                 <img
-                  src="/images/save-time.webp"
-                  alt="Focus on your business."
-                  width="1000px"
-                  height="665px"
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
                   loading="lazy"
                 />
-                <div className="service">
-                  <h3>
-                    We let you focus On Your Business, not on digital Marketing
-                  </h3>
+                <div>
+                  <h3>Expert one-on-one support</h3>
                   <p>
-                    Put your attention on what matters most - running your
-                    business, not wasting time and energy researching keywords,
-                    creating copy or analyzing competitors. Leave that to us.
+                    Get free expert advice and support from our team of SEO
+                    experts, available to answer all your questions via email or
+                    on a call. We’re here to help you grow your business, boost
+                    your ranking, and increase your online presence.
                   </p>
                 </div>
-              </div>
-              <div className="service-card">
+              </Deliverable>
+              <Deliverable>
                 <img
-                  src="/images/google-my-business.webp"
-                  alt="Save time."
-                  width="1000px"
-                  height="665px"
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get keyword research."
                   loading="lazy"
                 />
-                <div className="service">
-                  <h3>
-                    You Save Time and Money With Advanced Digital Marketing
-                  </h3>
+                <div>
+                  <h3>Keyword Research</h3>
                   <p>
-                    Maximize your budget and drive tremendous amounts of traffic
-                    to your website with the most reliable search marketing
-                    techniques that are proven to generate leads for your
-                    company.
+                    Laser-focused keyword research will uncover the most
+                    profitable and relevant terms to attract customers and
+                    create sales. We'll construct a database of these keywords
+                    for you to create SEO content.
                   </p>
                 </div>
-              </div>
-              <div className="service-card">
+              </Deliverable>
+              <Deliverable>
                 <img
-                  src="/images/digital-marketing-team.webp"
-                  alt="Get your own SEO team."
-                  width="1000px"
-                  height="665px"
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google My Business Management."
                   loading="lazy"
                 />
-                <div className="service">
-                  <h3>You Get Your Own SEO Team for Your Business</h3>
+                <div>
+                  <h3>Google My Business Management</h3>
                   <p>
-                    Transform your business with a specialized SEO team that can
-                    bring new opportunities to increase exposure and attract
-                    potential customers. Unleash your company's full potential
-                    today!
+                    Improve your local SEO ranking by managing your Google My
+                    Business page. Get a fully optimized GMB page to appear at
+                    the top of both the map pack and local search results.
                   </p>
                 </div>
-              </div>
-            </Service>
-            <p className="subtext">
-              Want to see how we can help you grow your business with SEO?
-            </p>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google Analytics and Google Search Console set up."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Google Analytics and Google Console Setup</h3>
+                  <p>
+                    Set up Google Analytics and Google Console to track your
+                    website's performance and activity. These tools help you
+                    understand how your site is being used and accessed, so you
+                    can make changes to improve your user experience.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get a website audit."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>SEO Audit</h3>
+                  <p>
+                    Find out what's holding your website back from ranking
+                    higher and getting the leads and customers you need. Our SEO
+                    audit will pinpoint the specific issues that must be fixed
+                    for your SEO campaign to achieve success.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get local SEO."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Local SEO</h3>
+                  <p>
+                    Local SEO gets your website in front of local customers when
+                    it counts. We optimize your website, so local customers find
+                    your business, not your competitors. Get optimized content,
+                    a fast website, a better user experience, and more so you
+                    rank on the first page above your competitors.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get weekly updates."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>We Give You Weekly Updates</h3>
+                  <p>
+                    We know that you’re busy and you might not have time to
+                    check in with us every day. That’s why we send out a weekly
+                    update email. This way, you can always be in the loop
+                    without having to put in any extra effort.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get content / service page creation and optimization."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Content / Service Page Creation / Optimization</h3>
+                  <p>
+                    We write content and service pages for your website, so you
+                    don’t have to. We use data from our SEO audit, keyword
+                    research, and competitor analysis to write the best pages
+                    that bring the most sales and revenue.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get to know everything we're doing- 100% transparency."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>You'll Know Everything We're Doing</h3>
+                  <p>
+                    We're 100% transparent. You’ll never have to wonder what
+                    we're doing or if we're working on your campaign. Our team
+                    will give you a full rundown of what we're doing and how
+                    it's working every step of the way. We want you to be as
+                    involved as you want to be. Our goal is to make sure that
+                    you're always in the loop, so you can feel confident that
+                    your campaign is in good hands.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Tracking and Monitoring</h3>
+                  <p>
+                    We track and monitor your progress to ensure your campaign
+                    delivers positive results: more traffic to your website,
+                    more customers, more sales, and more revenue. We use tools
+                    like Google Analytics, Google Search Console, Ahrefs, and
+                    SEMRush.
+                  </p>
+                </div>
+              </Deliverable>
+            </Deliverables>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
                 <Button>Schedule Your Free Consultation Today!</Button>
@@ -207,96 +300,72 @@ export default function CroftonMD() {
             </div>
           </div>
         </section>
-        <section className="reasons-section">
-          <div className="medium-container">
+        <section>
+          <div className="container">
             <h2 className="title">
-              7 Reasons Why Crofton Business Owners must Invest In SEO
+              Our Services Help Businesses Like Yours in Crofton, Get More Leads
+              and Customers
             </h2>
-            <p className="center">
-              Crofton business owners need SEO to compete online. Partner with
-              an SEO company that can build your lead-gen system that will boost
-              your business presence, and bring more leads and customers.
+            <p className="subtext">
+              We provide search engine optimization to businesses in Crofton and
+              in the rest of Anne Arundel County, Maryland.
             </p>
-          </div>
-          <div className="medium-container">
-            <ReasonSec>
-              <div>
-                <h3>#1. SEO Can Get Leads and Sales 24 Hours a Day</h3>
-                <p>
-                  Search engine optimization sends you qualified traffic and
-                  leads interested in your services and more likely to buy
-                  something from you than people who happen to stumble across
-                  your site.
-                </p>
-                <h3>#2. SEO Can Help You Save Money on Online Advertising</h3>
-                <p>
-                  Another great thing about SEO is that it can help you save
-                  money on online advertising. If you're spending money on
-                  Google AdWords or other forms of online advertising, you can
-                  use SEO to improve your website so that you get more traffic
-                  from organic search results. This can help you save money on
-                  your advertising budget and get more leads and sales from your
-                  website.
-                </p>
-                <h3>
-                  #3. SEO Can Help You Get More Leads and Sales from Your
-                  Website
-                </h3>
-                <p>
-                  SEO can help you get more leads and sales from your website.
-                  By appearing on the first page of search results, you can get
-                  more traffic to your website and generate more leads and sales
-                  for your business. Also, when more people see your website on
-                  the first page, you build trust and credibility with potential
-                  customers.
-                </p>
-                <h3>#4. You can Save Money on Facebook and Google Ads</h3>
-                <p>
-                  Like most companies, you're always searching for methods to
-                  save money. Reducing your reliance on paid advertising
-                  (Facebook and Google ads) is one of the finest methods. An
-                  experienced{' '}
-                  <Link href="/maryland-seo-company" passHref>
-                    <a>SEO company</a>
-                  </Link>{' '}
-                  can assist you in growing your traffic organically and
-                  avoiding having to rely as much (or at all) on sponsored
-                  material. This saves you money and gives you a more
-                  sustainable long-term growth strategy.
-                </p>
+            <Service>
+              <div className="service-card">
+                <img
+                  src="/images/crofton-search-engine-optimization.webp"
+                  alt="Crofton SEO Services"
+                  title="Crofton SEO Services"
+                  width="1000px"
+                  height="665px"
+                  loading="lazy"
+                />
+                <div className="service">
+                  <h3>Crofton Search Engine Optimization</h3>
+                  <p>
+                    Practice search engine optimization and make sure your
+                    customers can find your business on Google instead of your
+                    competition.
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3>#5. SEO Can Help You Build Better Websites</h3>
-                <p>
-                  SEO can also help you build better websites. Using the correct
-                  keyword phrases and ensuring your website is well-optimized,
-                  you can make your website more user-friendly and easier to
-                  navigate. This can help improve your website's conversion rate
-                  and increase your leads and sales.
-                </p>
-                <h3>#6. SEO Can Help You Stay Ahead of Your Competition</h3>
-                <p>
-                  You'll always be behind your competition if you're not using
-                  search engine optimization. By ranking higher in search, you
-                  can get more traffic to your website and attract leads. Also,
-                  by using SEO, you can stay ahead of your competition by
-                  appearing in the search results before they do.
-                </p>
-                <h3>#7. Search Engines are Not Going Away</h3>
-                <p>
-                  Search engines are not going away. They are becoming more
-                  critical as more people use them to find information online.
-                  SEO will be necessary for businesses as long as people use
-                  search engines. If you're not using SEO, you're missing out on
-                  a lot of traffic and potential customers.
-                </p>
+              <div className="service-card">
+                <img
+                  src="/images/crofton-gmb-management.webp"
+                  alt="Crofton Google My Business Management"
+                  title="Crofton Google My Business Management"
+                  width="1000px"
+                  height="665px"
+                  loading="lazy"
+                />
+                <div className="service">
+                  <h3>GMB Management</h3>
+                  <p>
+                    Optimize you Google My Business profile an rank locally. Let
+                    us help you take your business to the next level by managing
+                    your GMB profile and boosting your local SEO performance.
+                  </p>
+                </div>
               </div>
-            </ReasonSec>
-          </div>
-          <div className="btn">
-            <a href={calendly}>
-              <Button>Schedule a call today!</Button>
-            </a>
+              <div className="service-card">
+                <img
+                  src="/images/seo-audit-crofton.webp"
+                  alt="Free Mini SEO Audit"
+                  title="Free Mini SEO Audit"
+                  width="1000px"
+                  height="665px"
+                  loading="lazy"
+                />
+                <div className="service">
+                  <h3>Free Mini SEO Audit</h3>
+                  <p>
+                    See how you can improve your SEO rankings and performance
+                    with a free mini SEO audit from us. Find out what's stopping
+                    you from getting more leads and customers today!
+                  </p>
+                </div>
+              </div>
+            </Service>
           </div>
         </section>
         <section>
@@ -309,7 +378,7 @@ export default function CroftonMD() {
                 title="Home service businesses we work with in Crofton."
               />
               <div>
-                <h2>Home Service Businesses We Work With in Crofton, MD.</h2>
+                <h2>Businesses We Work With in Crofton.</h2>
                 <p>
                   We work with home service businesses in Crofton that provide
                   services to homeowners and businesses. We focus on helping you
@@ -430,65 +499,7 @@ export default function CroftonMD() {
             </div>
           </div>
         </section>
-        <section>
-          <div className="medium-container">
-            <h2 className="title">
-              How Does Search Engine Optimization Work, and How Can it Help
-              Crofton Business Owners?
-            </h2>
-          </div>
-          <div className="medium-container">
-            <p>
-              Search engine optimization (SEO) is the process of increaseing
-              your website visibility when people search for your services.
-            </p>
-            <p>
-              Local SEO is search engine optimization for your business in your
-              area, which will be Crofton.
-            </p>
-            <p>
-              Local SEO makes it so that when someone in Crofton or in nearby
-              places like Annapolis, Pasadena, Columbia, or Bowie, MD search for
-              services like yours, your website will show up and people will see
-              your business.
-            </p>
-            <p>
-              Local SEO is the process of optimizing your website so that
-              customers looking for your business will be able to find you on
-              Google. The goal is to make the website more visible on search
-              engine results pages (SERPs) when people enter keywords related to
-              businesses and services in their area.
-            </p>
-            <p>
-              For example, if someone living in Crofton or Odenton is searching
-              for an asphalt paving company, Google will return a list of
-              asphalt paving companies that it feels are the best results.
-            </p>
-            <p>
-              These results will appear in the local pack and the organic
-              listing.
-            </p>
-            <p>
-              Several factors go into local SEO, including keywords, backlinks,
-              and on-page optimization.
-            </p>
-            <p>
-              Businesses can also create a Google My Business profile, which can
-              help to improve their website visibility.
-            </p>
-            <p>
-              Local SEO is essential to any business's online marketing
-              strategy, especially for companies that rely on customers in a
-              specific geographic area. Optimizing for local search can help to
-              attract new customers and grow a business.
-            </p>
-          </div>
-          <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Book a Free Consultation!</Button>
-            </a>
-          </div>
-        </section>
+
         <section className="why-work-with-us-section">
           <div className="medium-container">
             <h2 className="title">
@@ -592,7 +603,7 @@ export default function CroftonMD() {
               },
             ]}
           />
-          <div className="container">
+          <div className="medium-container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>
