@@ -150,7 +150,11 @@ export default function LocalSEO() {
                   And if you're not careful, your entire advertising budget can
                   be gobbled up by paying for clicks.
                 </p>
-                <p>But you don't have to pay for ads.</p>
+                <p>
+                  But there is a way to get traffic to your website without
+                  paying for ads, and paying lead-gen compnaies like Angie's
+                  List, and HomeAdvisor.
+                </p>
                 <p>
                   What if there was a way to get free leads and customers
                   without having to pay for ads?
@@ -167,23 +171,23 @@ export default function LocalSEO() {
                 <ul className="check-mark">
                   <li>
                     Get free organic traffic coming to your website without
-                    paying for ads
+                    paying for ads.
                   </li>
-                  <li>Increase you leads, sales and revenue</li>
-                  <li>Get more phone calls</li>
-                  <li>Establish your business as the leader and expert</li>
+                  <li>Increase you leads, sales and revenue.</li>
+                  <li>Get more phone calls.</li>
+                  <li>Establish your business as the leader and expert.</li>
                   <li>
-                    Get on the first page of Google and get more local customers
-                    requesting your services
-                  </li>
-                  <li>
-                    Grow your online visibility and let more potential customers
-                    see your business
+                    Get on the first page of Google and more local customers
+                    will contact you.
                   </li>
                   <li>
-                    Rank higher than your competition in Google search results
-                    and let customers find your business instead of your
-                    competitors'
+                    Increase your website's visibility and get more potential
+                    customers to find your business.
+                  </li>
+                  <li>
+                    Rank higher than your competitors in Google search results,
+                    and customers will find your business rather than your
+                    competitors'.
                   </li>
                 </ul>
               </div>
@@ -198,8 +202,8 @@ export default function LocalSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Services Help Businesses Like Yours in Laurel, Get More
-              Website Traffic, Leads and Sales
+              Our SEO Services Help Businesses in Laurel Get More Website
+              Traffic, Leads and Sales
             </h2>
             <p className="subtext">
               We provide SEO to businesses in Laurel and the rest of Howard
@@ -218,9 +222,9 @@ export default function LocalSEO() {
                 <div className="service">
                   <h3>Search Engine Optimization</h3>
                   <p>
-                    Practice search engine optimization and make sure your
-                    customers can find your business on Google instead of your
-                    competition.
+                    Make sure your customers can find your business on Google
+                    instead of your competition's by using search engine
+                    optimization.
                   </p>
                 </div>
               </div>
@@ -236,9 +240,9 @@ export default function LocalSEO() {
                 <div className="service">
                   <h3>GMB Management</h3>
                   <p>
-                    Optimize you Google My Business profile an rank locally. Let
-                    us help you take your business to the next level by managing
-                    your GMB profile and boosting your local SEO performance.
+                    Optimize your Google My Business profile to gain local
+                    rankings. Let us manage your GMB account and boost your
+                    local SEO performance so you can expand your business.
                   </p>
                 </div>
               </div>
@@ -254,9 +258,10 @@ export default function LocalSEO() {
                 <div className="service">
                   <h3>Free Mini SEO Audit</h3>
                   <p>
-                    See how you can improve your SEO rankings and performance
-                    with a free mini SEO audit from us. Find out what's stopping
-                    you from getting more leads and customers today!
+                    Get a free mini SEO audit from us and learn how you can
+                    boost your SEO performance and rankings. Find out
+                    immediately what is stopping you from getting more leads and
+                    customers.
                   </p>
                 </div>
               </div>
@@ -413,10 +418,11 @@ export default function LocalSEO() {
                 <div>
                   <h3>Expert one-on-one support</h3>
                   <p>
-                    Get free expert advice and support from our team of SEO
-                    experts, available to answer all your questions via email or
-                    on a call. We’re here to help you grow your business, boost
-                    your ranking, and increase your online presence.
+                    Our team of SEO experts is here to provide you with free
+                    expert advice and support, available to you via email or
+                    call. We are dedicated to helping you grow your business by
+                    boosting your search engine ranking and improving your
+                    online presence.
                   </p>
                 </div>
               </Deliverable>
@@ -430,10 +436,12 @@ export default function LocalSEO() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Laser-focused keyword research will uncover the most
-                    profitable and relevant terms to attract customers and
-                    create sales. We'll construct a database of these keywords
-                    for you to create SEO content.
+                    We understand the importance of laser-focused research to
+                    uncover the most profitable and relevant keywords that will
+                    attract potential customers and drive sales. With our
+                    thorough approach to keyword research, we create a database
+                    of highly effective search terms that we use to create
+                    optimized SEO content for your website.
                   </p>
                 </div>
               </Deliverable>
@@ -447,9 +455,11 @@ export default function LocalSEO() {
                 <div>
                   <h3>Google My Business Management</h3>
                   <p>
-                    Improve your local SEO ranking by managing your Google My
-                    Business page. Get a fully optimized GMB page to appear at
-                    the top of both the map pack and local search results.
+                    With a well-managed GMB page, you can establish your brand's
+                    authority, build trust with your audience, and gain a
+                    competitive edge in your local market. We fully optimize
+                    your GMB page so that you appear at the top of both the map
+                    pack and local search results.
                   </p>
                 </div>
               </Deliverable>
@@ -480,10 +490,14 @@ export default function LocalSEO() {
                 <div>
                   <h3>SEO Audit</h3>
                   <p>
-                    Find out what's holding your website back from ranking
-                    higher and getting the leads and customers you need. Our SEO
-                    audit will pinpoint the specific issues that must be fixed
-                    for your SEO campaign to achieve success.
+                    Our SEO audit is designed to identify the specific issues
+                    that are holding your website back and preventing it from
+                    achieving success. By conducting a thorough analysis of your
+                    website, we can pinpoint the specific areas that require
+                    improvement, such as on-page optimization, link building,
+                    and keyword research. We then provide you with a detailed
+                    report of the audit and give recommendations for optimizing
+                    your SEO strategy to achieve success.
                   </p>
                 </div>
               </Deliverable>
@@ -497,11 +511,15 @@ export default function LocalSEO() {
                 <div>
                   <h3>Local SEO</h3>
                   <p>
-                    Local SEO gets your website in front of local customers when
-                    it counts. We optimize your website, so local customers find
-                    your business, not your competitors. Get optimized content,
-                    a fast website, a better user experience, and more so you
-                    rank on the first page above your competitors.
+                    If you're looking to reach local customers and gain a
+                    competitive edge in your market, then local SEO is
+                    essential. We specialize in optimizing your website to
+                    ensure that it appears at the top of search engine results
+                    pages (SERPs) when local customers search for your products
+                    or services. We'll perform a range of optimization
+                    techniques, including optimizing content, increasing website
+                    loading speeds, and improving user experience, all of which
+                    help your website rank higher than your competitors.
                   </p>
                 </div>
               </Deliverable>
@@ -532,10 +550,13 @@ export default function LocalSEO() {
                 <div>
                   <h3>Content / Service Page Creation / Optimization</h3>
                   <p>
-                    We write content and service pages for your website, so you
-                    don’t have to. We use data from our SEO audit, keyword
-                    research, and competitor analysis to write the best pages
-                    that bring the most sales and revenue.
+                    Creating optimized content for your website can be
+                    time-consuming and challenging. We know the importance of
+                    high-quality content and its impact on your website's SEO
+                    rankings and online visibility. By using data from our SEO
+                    audit, keyword research, and competitor analysis, we can
+                    craft content that is not only high-quality but also
+                    optimized to drive sales and revenue.
                   </p>
                 </div>
               </Deliverable>
@@ -730,7 +751,7 @@ export default function LocalSEO() {
                     better option. However, if you are looking for a long-term
                     marketing strategy that will help you build your brand and
                     get more traffic and leads from Google over time, then SEO
-                    is the better option.{' '}
+                    is the better option.
                   </p>
                 </div>
               </div>
@@ -742,7 +763,7 @@ export default function LocalSEO() {
                     improving the visibility and ranking of your website in
                     search engine results pages (SERPs). Local SEO, on the other
                     hand, is focused on optimizing your website for local search
-                    results.{' '}
+                    results.
                   </p>
                 </div>
                 <div className="question">
