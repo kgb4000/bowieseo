@@ -61,5 +61,9 @@ export const Deliverable = styled.div`
       margin: 0;
     }
 
+    p {
+      margin-top: 1rem;
+    }
+
   }
 `

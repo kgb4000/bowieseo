@@ -17,16 +17,18 @@ import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
-const SEOAgency = 'SEO company'
+const SEOAgency = 'SEO professionals'
 
 export default function CroftonMD() {
   const SEO = {
-    title: 'SEO Services in Crofton Helping Increase Leads and Revenue',
+    title:
+      'SEO Services in Crofton Helping Increase Customers, Leads and Revenue',
     description:
       'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
     canonical: 'https://bowieseo.com/seo-services-crofton-md',
     openGraph: {
-      title: 'SEO Services in Crofton Helping Increase Leads and Revenue',
+      title:
+        'SEO Services in Crofton Helping Increase Customers, Leads and Revenue',
       description:
         'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
       image: [{}],
@@ -37,12 +39,12 @@ export default function CroftonMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Increase Leads, Sales, and Revenue with SEO Services in Crofton"
+          heroText="Increase Traffic, Leads, and Conversions with SEO Services in Crofton"
           subText="We use our SEO knowledge to help attract more customers and increase sales for your business."
           backgroundImage="/images/seo-services-crofton-md-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center"
-          buttonText="Schedule your free consultaion today!"
+          buttonText="Book Your Free Call Today!"
           buttonLink={calendly}
         />
         <section>
@@ -53,33 +55,34 @@ export default function CroftonMD() {
                   Keep Losing Money Every Month or Start Using SEO Services in
                   Crofton and Make Money: You Choose
                 </h2>
-                <p>You have a business in Crofton.</p>
+                <p>You run a company in Crofton.</p>
                 <p>
                   You're trying to figure out how to get more leads and
                   customers to your business, but nothing seems to be working.
                 </p>
                 <p>
-                  You've tried digital marketing tactics like Facebook and
-                  Instagram ads, Google ads, and even paid to get leads from
-                  HomeAdvisor, Thumbtack, and Angie's List.
+                  You've tried advertising on Facebook, Instagram, and Google,
+                  and you're also paying for leads from HomeAdvisor, Thumbtack,
+                  and Angie's List.
                 </p>
+                <p>Problem is, you're not getting your money's worth.</p>
                 <p>
-                  But you keep getting bad leads and realize you're wasting your
-                  time and money.
+                  You keep getting bad leads and tire kickers, and realize
+                  you're wasting your money on ads and lead-gen website.
                 </p>
                 <p>
                   You need a system to get leads and customers into your
                   business regularly, and you need to own that system.
                 </p>
-                <p>That’s where we come in.</p>
+                <p>We can help with that.</p>
                 <p>
                   We’re a{' '}
                   <Link href="/maryland-seo-company" passHref>
-                    <a>Maryland SEO Company</a>
+                    <a>Maryland SEO company</a>
                   </Link>{' '}
-                  helping small business owners in Crofton get more leads and
-                  customers by building a lead generation system specifically
-                  for your business.
+                  that assists Crofton small business owners in generating more
+                  customers and leads by creating a lead generation system
+                  customized to their business.
                 </p>
                 <p>We have you covered.</p>
                 <p>
@@ -88,10 +91,10 @@ export default function CroftonMD() {
                   just take your money.
                 </p>
                 <p>
-                  We’ll help you build a system to generate your leads while you
-                  concentrate on running your business.
+                  We'll work with you to create a system that will produce leads
+                  while you focus on operating your business.
                 </p>
-                <p>Call us to get started or to learn more.</p>
+                <p>To get started or learn more, give us a call.</p>
               </div>
               <img
                 src="/images/seo-services-crofton-md.jpg"
@@ -104,7 +107,7 @@ export default function CroftonMD() {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Book Your Free Call Today!</Button>
               </a>
             </div>
           </div>
@@ -112,7 +115,7 @@ export default function CroftonMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get When Your Work With Crofton SEO Specialists
+              What You Get With Our Crofton SEO Services
             </h2>
             <p className="subtext">When you work with us, you get:</p>
           </div>
@@ -128,10 +131,11 @@ export default function CroftonMD() {
                 <div>
                   <h3>Expert one-on-one support</h3>
                   <p>
-                    Get free expert advice and support from our team of SEO
-                    experts, available to answer all your questions via email or
-                    on a call. We’re here to help you grow your business, boost
-                    your ranking, and increase your online presence.
+                    Our team of SEO professionals is here to help you with free
+                    expert guidance and support. Reach us by phone or email to
+                    address any of your questions. We're here to support your
+                    growing company, in any way we can using digital marketing
+                    and SEO.
                   </p>
                 </div>
               </Deliverable>
@@ -145,10 +149,10 @@ export default function CroftonMD() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Laser-focused keyword research will uncover the most
-                    profitable and relevant terms to attract customers and
-                    create sales. We'll construct a database of these keywords
-                    for you to create SEO content.
+                    We perform in-depth keyword analysis. This process gives us
+                    the most lucrative and relevant terms to attract clients. We
+                    also build a keyword database so you can continue developing
+                    SEO content.
                   </p>
                 </div>
               </Deliverable>
@@ -162,9 +166,9 @@ export default function CroftonMD() {
                 <div>
                   <h3>Google My Business Management</h3>
                   <p>
-                    Improve your local SEO ranking by managing your Google My
-                    Business page. Get a fully optimized GMB page to appear at
-                    the top of both the map pack and local search results.
+                    We offer Google My Business management to help improve your
+                    local SEO rankings. Get a GMB page that is completely
+                    optimized and rank in the map pack and local search results.
                   </p>
                 </div>
               </Deliverable>
@@ -176,12 +180,13 @@ export default function CroftonMD() {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Google Analytics and Google Console Setup</h3>
+                  <h3>Google Analytics and Google Console Configuration</h3>
                   <p>
-                    Set up Google Analytics and Google Console to track your
-                    website's performance and activity. These tools help you
-                    understand how your site is being used and accessed, so you
-                    can make changes to improve your user experience.
+                    We set up Google Analytics and Search Console accounts.
+                    These tools allow us to track your website performance. They
+                    also allow us to determine how your site is performing on
+                    Google. They also help us decide which changes we can make
+                    to improve rankings and user experience.
                   </p>
                 </div>
               </Deliverable>
@@ -195,10 +200,10 @@ export default function CroftonMD() {
                 <div>
                   <h3>SEO Audit</h3>
                   <p>
-                    Find out what's holding your website back from ranking
-                    higher and getting the leads and customers you need. Our SEO
-                    audit will pinpoint the specific issues that must be fixed
-                    for your SEO campaign to achieve success.
+                    Find out what is keeping your website from ranking higher on
+                    Google. With an SEO audit, we find out exactly what we need
+                    to fix for your SEO campaign to get off the ground and be
+                    successful.
                   </p>
                 </div>
               </Deliverable>
@@ -212,11 +217,11 @@ export default function CroftonMD() {
                 <div>
                   <h3>Local SEO</h3>
                   <p>
-                    Local SEO gets your website in front of local customers when
-                    it counts. We optimize your website, so local customers find
-                    your business, not your competitors. Get optimized content,
-                    a fast website, a better user experience, and more so you
-                    rank on the first page above your competitors.
+                    Show up when it counts. Local SEO puts your website in front
+                    local customers looking for your services. With local SEO,
+                    local customers will be able find your company instead of
+                    one of your competitors. Get optimized content, a faster
+                    website, and give your customers a better user experience.
                   </p>
                 </div>
               </Deliverable>
@@ -230,10 +235,10 @@ export default function CroftonMD() {
                 <div>
                   <h3>We Give You Weekly Updates</h3>
                   <p>
-                    We know that you’re busy and you might not have time to
-                    check in with us every day. That’s why we send out a weekly
-                    update email. This way, you can always be in the loop
-                    without having to put in any extra effort.
+                    Given your hectic schedule, we understand that you might not
+                    have time to check in with us every day. To keep you
+                    informed, we send out a weekly email update or call you to
+                    let you know what's going on.
                   </p>
                 </div>
               </Deliverable>
@@ -247,10 +252,11 @@ export default function CroftonMD() {
                 <div>
                   <h3>Content / Service Page Creation / Optimization</h3>
                   <p>
-                    We write content and service pages for your website, so you
-                    don’t have to. We use data from our SEO audit, keyword
-                    research, and competitor analysis to write the best pages
-                    that bring the most sales and revenue.
+                    We'll take care of writing your content and service pages
+                    for your website so that you won't have to. We write content
+                    that bring in the most sales and money. We use the data
+                    gathered from our SEO audit, keyword research, and
+                    competitor analysis.
                   </p>
                 </div>
               </Deliverable>
@@ -264,13 +270,13 @@ export default function CroftonMD() {
                 <div>
                   <h3>You'll Know Everything We're Doing</h3>
                   <p>
-                    We're 100% transparent. You’ll never have to wonder what
-                    we're doing or if we're working on your campaign. Our team
-                    will give you a full rundown of what we're doing and how
-                    it's working every step of the way. We want you to be as
-                    involved as you want to be. Our goal is to make sure that
-                    you're always in the loop, so you can feel confident that
-                    your campaign is in good hands.
+                    We're 100% transparent. Never worry about trying to figure
+                    out what we're up to or if we're still working on your
+                    campaign. Our staff will walk you through every stage of
+                    what we're doing and how it's working in detail. We want you
+                    to join in whatever capacity you wish. To give you peace of
+                    mind that your campaign is in capable hands, we aim to keep
+                    you up-to-date at all times.
                   </p>
                 </div>
               </Deliverable>
@@ -284,18 +290,17 @@ export default function CroftonMD() {
                 <div>
                   <h3>Tracking and Monitoring</h3>
                   <p>
-                    We track and monitor your progress to ensure your campaign
-                    delivers positive results: more traffic to your website,
-                    more customers, more sales, and more revenue. We use tools
-                    like Google Analytics, Google Search Console, Ahrefs, and
-                    SEMRush.
+                    We track and check your SEO campaign to make sure we're on
+                    the right track to get you the results you want. We use
+                    tools like Google Analytics, Google's Search Console,
+                    Ahrefs, and SEMRush.
                   </p>
                 </div>
               </Deliverable>
             </Deliverables>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Book Your Free Call Today!</Button>
               </a>
             </div>
           </div>
@@ -487,14 +492,14 @@ export default function CroftonMD() {
                   </Business>
                 </Businesses>
                 <p>
-                  Call us today and let’s see how we can help find opportunities
-                  to help boost your sales and revenue.
+                  Give us a call today to discuss how we can help you increase
+                  your sales and revenue with search engine optimization.
                 </p>
               </div>
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule a Free Consultation Today!</Button>
+                <Button>Book Your Free Call Today!</Button>
               </a>
             </div>
           </div>
@@ -502,12 +507,11 @@ export default function CroftonMD() {
 
         <section className="why-work-with-us-section">
           <div className="medium-container">
-            <h2 className="title">
-              With Other SEO Companies in Crofton, Why Work With Us?
-            </h2>
+            <h2 className="title">Why Work With Us?</h2>
             <p className="sub-text">
-              Work with Bowie SEO and experience the difference between our
-              company and other SEO companies.
+              We get the results you need to make your business succeed. From
+              increasing traffic, to finding the right leads and convertiong
+              them into customers.
             </p>
           </div>
           <div className="medium-container">
@@ -515,35 +519,36 @@ export default function CroftonMD() {
               <div>
                 <h3>#1. We Create Customized SEO Solutions</h3>
                 <p>
-                  As SEO consultants, we know every business and website will
-                  need different services. That's why we offer custom SEO
-                  services to help your business succeed. We create a custom SEO
-                  strategy for each company we work with.
+                  As SEO experts, we are cognizant that each company and website
+                  will require unique services. We therefore provide SEO
+                  services that are appropriate for your company. For each
+                  organization we work with, we develop a customized strategic
+                  plan to build your traffic and online presence.
                 </p>
                 <h3>#2. No Long-Term Contracts</h3>
                 <p>We don't have any long-term contracts.</p>
                 <p>
                   Just pay monthly for our SEO services and you are free to
-                  cancel anytime.
+                  cancel anytime with a 30-day notice.
                 </p>
               </div>
               <div>
-                <h3>#3. We Don't Work With Your Competitors in Crofton</h3>
+                <h3>#3. We Never Ever Work With Your Competitors</h3>
                 <p>
-                  As your SEO company, we won't work with your competitors. Some
-                  SEO companies don't care who they work with. They'll work with
-                  you and your competition in the same city. That's crazy.
+                  As your SEO company, we don't work with your competitors. Some
+                  SEO firms don't care who they work with. They'll work in the
+                  same city as you and your competitors. That's just not right.
                 </p>
                 <h3>
-                  #4. We Become Your Partners, Not an SEO Company You Just
-                  Hired!
+                  #4. We'e not Some Company You Just Hired to Do Your SEO, We're
+                  YOUR SEO Team!
                 </h3>
                 <p>
-                  When you work with us, we look at your business as if it was
-                  our business. We want to see your business succeed! We don't
-                  just want to get you to rank higher for a few keywords and
-                  then disappear. We want to help you grow your business, for
-                  years to come.
+                  When you work with us, we look at your business as if it were
+                  our own. We want your business to grow and prosper. We don't
+                  just want you to rank higher for a few keywords and then
+                  disappear. We want to help your business grow, now and in the
+                  future.
                 </p>
               </div>
             </ReasonSec>
@@ -559,20 +564,19 @@ export default function CroftonMD() {
             mainEntity={[
               {
                 questionName: 'What is SEO and how does it work?',
-                acceptedAnswerText: `SEO is short form for “Search engine optimization”. It is a way to make a website show up higher on a search engine, like Google, so more people can find it. It involves using special techniques to make the website easier for the search engine to understand and show it to people who are looking for information on a certain topic. This can help more people visit the website and learn about what it offers.`,
+                acceptedAnswerText: `SEO is a short form for "search engine optimization." It's a way to make a website show up higher on a search engines like Google so that more people can find it. SEO uses special techniques to make your website easier for the search engine to understand and show to individuals searching for information on a certain topic. This could encourage more individuals to check out the website and become familiar with the services it provides. `,
               },
               {
                 questionName: 'Is SEO worth it for small business?',
-                acceptedAnswerText: `Yes, SEO can be very worth it for small businesses. In fact, it can be one of the most effective marketing strategies for small businesses to increase their visibility  and attract new customers. By optimizing their website and  online presence for search engines, small businesses can improve their rankings in search results and attract more organic traffic. This can result in increased brand  awareness, website traffic, and potential sales or leads. While SEO can take time and effort to see results, it can provide long-term benefits and can be a cost-effective way for small businesses to compete with larger companies in their industry.`,
+                acceptedAnswerText: `The short answer is yes. Small businesses can benefit greatly from SEO. In fact, SEO may be one of the best marketing techniques for small businesses to boost their exposure and draw in new clients. Small businesses can raise their SEO rankings and increase organic traffic by optimizing their websites. This can result in increased brand recognition, website traffic, and potential leads or sales. Even though SEO can take time and effort to produce results, it offers long-term advantages and can be a reasonably priced way for small businesses to compete with established ones in their industry.`,
               },
               {
                 questionName: 'How much does SEO cost in Crofton?',
-                acceptedAnswerText: `The cost for SEO ranges from $1000 to $5,000. The cost will  vary depending on the competitiveness of your industry and the keywords you are targeting.`,
+                acceptedAnswerText: `SEO can cost anywhere between $1000 and $5,000. The price will change based on the level of industry, competition and the target keywords.`,
               },
               {
                 questionName: 'How Long Does SEO Take to See Results?',
-                acceptedAnswerText: `The time it takes to see results depend onseveral factors, such as the competitiveness of the keywordstargeted, the current state of the website, the quality of the content, and the amount of resources devoted to SEO. 
-                Typically, it can take three to six months to start seeing measurable results from SEO efforts, but it's important to remember that SEO is a long-term strategy that requires ongoing efforts to maintain and improve rankings. By consistently implementing SEO best practices, creating high-quality content, and building quality links, a website  engines over time, resulting in increased traffic and potential conversions.`,
+                acceptedAnswerText: `The amount of time it takes to see results depends on a number of variables, including the difficulty of the targeted keywords, the website's current state, the caliber of the content, and the resources allocated to SEO. However, it's crucial to keep in mind that SEO is a long-term strategy that calls for ongoing efforts to maintain and improve rankings. Typically, it can take three to six months to start seeing measurable results from SEO efforts. By consistently using SEO best practices, making high-quality content, and setting up quality links, a website can slowly increase its traffic and potential conversions.`,
               },
               {
                 questionName: 'What is better PPC or SEO?',
@@ -585,7 +589,7 @@ export default function CroftonMD() {
               },
               {
                 questionName: 'How long would it take to rank my website?',
-                acceptedAnswerText: `Ranking a website in search engines is like playing a game. It takes time and practice to get better and win. Just like in a game, you have to work hard to make your website better and easier to find by people who are looking for it. This can take a few months or longer depending on how well you play the game and how many other players are trying to win too. The most important thing is to keep trying and making your website the best it can be, so that more people can find it and use it.`,
+                acceptedAnswerText: `Search engine optimization is similar to playing a game. It takes time and practice to get better and win. You must work hard, just like in a game, to improve your website and make it easier to find by those who are looking for it. This can take a few months or longer, depending on how well you play the game and how many other players are trying to win too. The most important thing is to keep trying and making your website the best it can be so that more people can find it and use it. A website's search engine ranking resembles a game. To improve your website, it takes time and practice. You must put in a lot of effort to improve your website and make it easier for users to find, just like in a game. Depending on how well you play the game and how many other players are competing for the same prize, this could take a few months or longer. The most crucial thing is to continue working on improving your website so that it gets better.`,
               },
               {
                 questionName: 'How Long is Your Contract for Doing SEO?',
@@ -604,62 +608,70 @@ export default function CroftonMD() {
             ]}
           />
           <div className="medium-container">
-            <h2 className="title">Frequently Asked Questions</h2>
+            <h2 className="title">FAQs About Our SEO Services in Crofton</h2>
             <ReasonSec>
               <div>
                 <div className="question">
                   <h3>What is SEO and how does it work?</h3>
                   <p>
-                    SEO is short form for “Search engine optimization”. It is a
-                    way to make a website show up higher on a search engine,
-                    like Google, so more people can find it. It involves using
-                    special techniques to make the website easier for the search
-                    engine to understand and show it to people who are looking
-                    for information on a certain topic. This can help more
-                    people visit the website and learn about what it offers.
+                    SEO is a short form for "search engine optimization." It's a
+                    way to make a website show up higher on a search engines
+                    like Google so that more people can find it. SEO uses
+                    special techniques to make your website easier for the
+                    search engine to understand and show to individuals
+                    searching for information on a certain topic. This could
+                    encourage more individuals to check out the website and
+                    become familiar with the services it provides.
                   </p>
                 </div>
                 <div className="question">
                   <h3>Is SEO worth it for small business?</h3>
-                  <p>Yes, SEO can be very worth it for small businesses.</p>
                   <p>
-                    In fact, it can be one of the most effective marketing
-                    strategies for small businesses to increase their visibility
-                    and attract new customers. By optimizing their website and
-                    online presence for search engines, small businesses can
-                    improve their rankings in search results and attract more
-                    organic traffic. This can result in increased brand
-                    awareness, website traffic, and potential sales or leads.
-                    While SEO can take time and effort to see results, it can
-                    provide long-term benefits and can be a cost-effective way
-                    for small businesses to compete with larger companies in
-                    their industry.
+                    The short answer is yes. Small businesses can benefit
+                    greatly from SEO. In fact, SEO may be one of the best
+                    marketing techniques for small businesses to boost their
+                    exposure and draw in new clients. Small businesses can raise
+                    their SEO rankings and increase organic traffic by
+                    optimizing their websites. This can result in increased
+                    brand recognition, website traffic, and potential leads or
+                    sales. Even though SEO can take time and effort to produce
+                    results, it offers long-term advantages and can be a
+                    reasonably priced way for small businesses to compete with
+                    established ones in their industry.
                   </p>
                   <h3>How much does SEO cost in Crofton?</h3>
                   <p>
-                    The cost for SEO ranges from $1000 to $5,000. The cost will
-                    vary depending on the competitiveness of your industry and
-                    the keywords you are targeting.
+                    SEO can cost anywhere between $1000 and $5,000. The price
+                    will change based on the level of industry, competition and
+                    the target keywords.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>How Long is Your Contract for Doing SEO?</h3>
+                  <p>Our contracts are month-to-month.</p>
+                  <p>
+                    You can cancel your contract 30 day prior to the end of the
+                    month.
+                  </p>
+                  <p>
+                    But would you cancel if you’re getting leads and making more
+                    money?
                   </p>
                 </div>
                 <div className="question">
                   <h3>How Long Does SEO Take to See Results?</h3>
                   <p>
-                    The time it takes to see results depend on several factors,
-                    such as the competitiveness of the keywords targeted, the
-                    current state of the website, the quality of the content,
-                    and the amount of resources devoted to SEO.
-                  </p>
-                  <p>
-                    Typically, it can take three to six months to start seeing
-                    measurable results from SEO efforts, but it's important to
-                    remember that SEO is a long-term strategy that requires
-                    ongoing efforts to maintain and improve rankings. By
-                    consistently implementing SEO best practices, creating
-                    high-quality content, and building quality links, a website
-                    can gradually improve its rankings and visibility in search
-                    engines over time, resulting in increased traffic and
-                    potential conversions.
+                    The amount of time it takes to see results depends on a
+                    number of variables, including the difficulty of the
+                    targeted keywords, the website's current state, the caliber
+                    of the content, and the resources allocated to SEO. However,
+                    it's crucial to keep in mind that SEO is a long-term
+                    strategy that calls for ongoing efforts to maintain and
+                    improve rankings. Typically, it can take three to six months
+                    to start seeing measurable results from SEO efforts. By
+                    consistently using SEO best practices, making high-quality
+                    content, and setting up quality links, a website can slowly
+                    increase its traffic and potential conversions.
                   </p>
                 </div>
                 <div className="question">
@@ -693,29 +705,25 @@ export default function CroftonMD() {
                 <div className="question">
                   <h3>How long would it take to rank my website?</h3>
                   <p>
-                    Ranking a website in search engines is like playing a game.
-                    It takes time and practice to get better and win. Just like
-                    in a game, you have to work hard to make your website better
-                    and easier to find by people who are looking for it. This
-                    can take a few months or longer depending on how well you
-                    play the game and how many other players are trying to win
-                    too. The most important thing is to keep trying and making
-                    your website the best it can be, so that more people can
-                    find it and use it.
+                    Search engine optimization is similar to playing a game. It
+                    takes time and practice to get better and win. You must work
+                    hard, just like in a game, to improve your website and make
+                    it easier to find by those who are looking for it. This can
+                    take a few months or longer, depending on how well you play
+                    the game and how many other players are trying to win too.
+                    The most important thing is to keep trying and making your
+                    website the best it can be so that more people can find it
+                    and use it. A website's search engine ranking resembles a
+                    game. To improve your website, it takes time and practice.
+                    You must put in a lot of effort to improve your website and
+                    make it easier for users to find, just like in a game.
+                    Depending on how well you play the game and how many other
+                    players are competing for the same prize, this could take a
+                    few months or longer. The most crucial thing is to continue
+                    working on improving your website so that it gets better.
                   </p>
                 </div>
-                <div className="question">
-                  <h3>How Long is Your Contract for Doing SEO?</h3>
-                  <p>Our contracts are month-to-month.</p>
-                  <p>
-                    You can cancel your contract 30 day prior to the end of the
-                    month.
-                  </p>
-                  <p>
-                    But would you cancel if you’re getting leads and making more
-                    money?
-                  </p>
-                </div>
+
                 <div className="question">
                   <h3>Can You Guarantee Me #1 Rankings on Google?</h3>
                   <p>
@@ -736,13 +744,14 @@ export default function CroftonMD() {
                   <h3>Do You Have to Change My site for SEO to work?</h3>
                   <p>We might have to.</p>
                   <p>
-                    We will update your website's title, meta tags, and content
-                    to reflect keywords that we believe will be most valuable to
-                    you. Additionally, we'll create or update your website's
-                    sitemap so that search engines can more easily find and
-                    index your site. Finally, we'll set up Google Analytics so
-                    that you can track your SEO progress over time. And we may
-                    have to alter the design if it is not user friendly.
+                    The keywords we think will be most useful to you will be
+                    reflected in the title, meta tags, and content of your
+                    website. In order to make it easier for search engines to
+                    find and index your website, we'll also create or update
+                    your sitemap. Last but not least, we'll configure Google
+                    Analytics and Google Search Console so you can monitor your
+                    SEO growth over time. And if it is not a user-friendly site,
+                    we may want to change the design.
                   </p>
                 </div>
               </div>
@@ -759,11 +768,11 @@ export default function CroftonMD() {
             loading="lazy"
           />
           <div className="container">
-            <h2>Ready to Boost Your Sales and Revenue?</h2>
+            <h2>Ready to Boost Your Leads, Sales and Income?</h2>
             <p>
-              Contact {SEOAgency} and we'll show you how our SEO services in
-              Crofton can help your company grow without paying for leads or
-              online ads.
+              Contact our {SEOAgency} and we'll show you how our SEO services in
+              Crofton can help your company grow with search engine
+              optimization.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
