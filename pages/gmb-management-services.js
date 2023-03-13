@@ -18,15 +18,14 @@ const SEOAgency = 'our SEO company'
 
 const LocalSEO = () => {
   const SEO = {
-    title:
-      'Google My Business Management Services for Small Businesses | Bowie SEO',
+    title: 'Google My Business Management Services for Businesses in Maryland',
     description:
       'We provide Google My Business Management for small businesses in Maryland and DC. Get more customers and web traffic, and increase revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/gmb-management-services',
     openGraph: {
       title:
-        'Google My Business Management Services for Small Businesses | Bowie SEO',
+        'Google My Business Management Services for Businesses in Maryland',
       description:
         'We provide Google My Business Management for small businesses in Maryland and DC. Get more customers and web traffic, and increase revenue. Contact us today!',
       type: 'website',
@@ -38,8 +37,8 @@ const LocalSEO = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Google My Business Management Services"
-          subText="Let us manage your Google Business Profile and bring you leads and paying customers."
+          heroText="Google My Business Management Services for Businesses in Maryland"
+          subText="Let us manage your Google Business Profile so you can get leads without paying online advertizing."
           backgroundImage="/images/search-engine-optimization-header.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"

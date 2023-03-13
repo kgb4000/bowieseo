@@ -31,7 +31,7 @@ const HeroSection = ({
   )
 }
 
-const Hero = styled('span')`
+const Hero = styled('div')`
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -48,6 +48,8 @@ const Hero = styled('span')`
   margin: 0 auto;
   max-width: 100vw;
   margin-bottom: 2rem;
+  text-shadow: 2px 1px 1px #000;
+  font-weight: 900;
 
   @media only screen and (min-device-width: 360px) {
     h1 {

@@ -3,14 +3,17 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
-import PageHero from '../components/PageHeroSection'
+import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
-import { Card, Container } from '../components/CardSection'
-import OfferForm from '../components/OfferFormSection'
+import {
+  ReasonSec,
+  Deliverable,
+  Deliverables,
+  Service,
+} from '../components/LocatioPageEssentials'
 import { getPosts } from '../lib/data'
 
 import { NextSeo, FAQPageJsonLd } from 'next-seo'
-import styled from 'styled-components'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
@@ -24,9 +27,11 @@ export const getStaticProps = async () => {
   }
 }
 
+const SEOAgency = 'our SEO company'
+
 export default function OceanCitySEO() {
   const SEO = {
-    title: 'SEO Services Salisbury MD | Increase Leads, Boost Revenue',
+    title: 'SEO Services Salisbury MD | Increase Traffic and Leads',
     description:
       'We provide SEO services in Salisbury, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
     canonical: 'https://bowieseo.com/seo-services-salisbury-md',
@@ -49,16 +54,22 @@ export default function OceanCitySEO() {
     <>
       <NextSeo {...SEO} />
       <MainLayout>
-        <PageHero
-          heading="SEO Services Salisbury, MD [Get More Leads and Boost Revenue]"
-          subText="We provide SEO solutions to help businesses in Salisbury grow. We use our SEO knowledge to help attract more customers and increase sales for your business."
-          heroBtnLink="/contact"
+        <HeroSection
+          heroText="With Our SEO Services in Salisbury, You Can Increase Traffic and Leads"
+          subText="Let us take care of optimizing your website so that you can get more leads and customers."
+          backgroundImage="/images/seo-services-laurel-md-cover.webp"
+          backgroundHeight="70vh"
+          backgroundPosition="center"
           buttonText="Schedule a free consultation today!"
+          buttonLink={calendly}
         />
         <section className="article-section">
-          <h2 className="title">SEO Services in Salisbury MD</h2>
           <div className="medium-container grid">
             <div>
+              <h2>
+                Atttract More Leads Using SEO in Salisbury, or Lose Leads to
+                Your Competition: It's Your Decision
+              </h2>
               <p>
                 You're trying to figure out how to get more leads and customers
                 to your business, but nothing seems to be working.
@@ -97,11 +108,6 @@ export default function OceanCitySEO() {
                 concentrate on running your business.
               </p>
               <p>Call us to get started or to learn more.</p>
-              <div>
-                <a href="tel:+2402660588">
-                  <Button>Call (240) 266-0588</Button>
-                </a>
-              </div>
             </div>
             <img
               src="/images/seo-services-salisbury-md.jpg"
@@ -110,140 +116,208 @@ export default function OceanCitySEO() {
               title="Business owner thinking about getting SEO Services in Salisbury Maryland"
             />
           </div>
-        </section>
-        <section className="dots-background">
-          <div className="medium-container">
-            <div className="offer-section">
-              <h2 className="title">
-                Are You Showing up in the Salisbury SERPs When People Search for
-                Your Services?
-              </h2>
-              <p className="big-p">
-                If not, you're losing customers to your competition. Find out
-                why and start ranking on the first page today.
-              </p>
-              <img
-                src="/images/seo-guys.jpg"
-                alt="Salisbury SEO company - Bowie SEO"
-                width="1000"
-                height="700"
-              />
-              {/* <p>
-                Get a personalized video delivered to your email showing you:
-              </p>
-              <ul>
-                <li>The reasons why you're not showing up on the first page</li>
-                <li>What you have to do to get on the first page</li>
-                <li>Actionable steps to start ranking higher today</li>
-              </ul> */}
-              <OfferForm />
-            </div>
+          <div className="btn">
+            <a href={calendly} target="_blank" rel="noreferrer">
+              <Button>Book Your Free Call Today!</Button>
+            </a>
           </div>
         </section>
         <section>
-          <div className="services-container">
-            <h2 className="title">Our Salisbury MD SEO Services</h2>
-            <p className="sub-text">
-              Our Salisbury SEO services help small businesses in Salisbury
-              increase search traffic, online visibility, and SEO performance.
+          <div className="container">
+            <h2 className="title">
+              What You Can Expect With Our SEO Services for Salisbury Businesses
+            </h2>
+            <p className="subtext">
+              When you work with us, you get the following:
             </p>
-            <div className="services">
-              <Container>
-                <Link href="/local-seo" passHref>
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/audit.svg"
-                        alt="Keyword ranking image"
-                        loading="lazy"
-                      />
-                      <h3>Local SEO</h3>
-                      <p>
-                        We optimize your website for local searches in Salisbury
-                        so customers can find you.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </Link>
-                <Card>
-                  <div className="card-info one">
-                    <img
-                      src="/images/keyword-research.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>Keyword Research</h3>
-                    <p>
-                      We choose the right keywords to use on your website so
-                      that you appear in the SERPs when people search.
-                    </p>
-                  </div>
-                </Card>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/speed-test.svg"
-                      alt="Keyword ranking image"
-                      loading="lazy"
-                    />
-                    <h3>Link Building</h3>
-                    <p>
-                      We build backlinks to improve your website visibility and
-                      your authority in the search engines.
-                    </p>
-                  </div>
-                </Card>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/competitive-analysis.svg"
-                      alt="Man analyzing data"
-                      loading="lazy"
-                    />
-                    <h3>Competitive Analysis</h3>
-                    <p>
-                      See what other businesses like yours are doing and find
-                      ways to beat them in local search.
-                    </p>
-                  </div>
-                </Card>
-                <Card>
-                  <div className="card-info">
-                    <img
-                      src="/images/competitive-analysis.svg"
-                      alt="Man analyzing data"
-                      loading="lazy"
-                    />
-                    <h3>GMB Optimization</h3>
-                    <p>
-                      Optimize your Google My Business page to improve your
-                      online visibility so Salisbury customers can find you.
-                    </p>
-                  </div>
-                </Card>
-                <Link href="/free-mini-seo-audit">
-                  <Card>
-                    <div className="card-info">
-                      <img
-                        src="/images/thinking.svg"
-                        alt="Woman thinking about getting a free mini SEO audit."
-                        loading="lazy"
-                      />
-                      <h3>Free Website Audit</h3>
-                      <p>
-                        Get a free mini SEO audit and see how to improve your
-                        website's SEO.
-                      </p>
-                    </div>
-                    <p>Learn more</p>
-                  </Card>
-                </Link>
-              </Container>
+          </div>
+          <div className="medium-container">
+            <Deliverables>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Expert one-on-one support</h3>
+                  <p>
+                    We giv e you free, knowledgeable advice and support from our
+                    SEO specialists. Contact us by phone or email if you have
+                    any questions. We're here to support your expanding business
+                    in any way we can.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get keyword research."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Keyword Research</h3>
+                  <p>
+                    Extensive keyword analysis. We find the most advantageous
+                    and pertinent terms that customers use to find your
+                    business. We provide a keyword database as well so you can
+                    keep creating SEO content.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google My Business Management."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Google My Business Management</h3>
+                  <p>
+                    We offer Google My Business management to help improve your
+                    local SEO rankings. Get a GMB page that is completely
+                    optimized and rank in the map pack and local search results.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google Analytics and Google Search Console set up."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Google Analytics and Google Console Configuration</h3>
+                  <p>
+                    We set up your Google Analytics and Search Console. We
+                    monitor the effectiveness of your website using these
+                    technologies. They also enable us to monitor how well your
+                    website is doing on Google. They also assist us in
+                    determining the improvements that can be made to enhance
+                    user experience and rankings.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get a website audit."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>SEO Audit</h3>
+                  <p>
+                    Find out what is keeping your website from ranking higher on
+                    Google. With an SEO audit, we find out exactly what we need
+                    to fix for your SEO campaign to get off the ground and be
+                    successful.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get local SEO."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Local SEO</h3>
+                  <p>
+                    Show up when it counts. Local SEO puts your website in front
+                    local customers looking for your services. With local SEO,
+                    local customers will be able find your company instead of
+                    one of your competitors. Get optimized content, a faster
+                    website, and give your customers a better user experience.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get weekly updates."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>We Give You Weekly Updates</h3>
+                  <p>
+                    Given your hectic schedule, we understand that you might not
+                    have time to check in with us every day. To keep you
+                    informed, we send out a weekly email update or call you to
+                    let you know what's going on.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get content / service page creation and optimization."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Content / Service Page Creation / Optimization</h3>
+                  <p>
+                    We'll take care of writing your content and service pages
+                    for your website so that you won't have to. We write content
+                    that bring in the most sales and money. We use the data
+                    gathered from our SEO audit, keyword research, and
+                    competitor analysis.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get to know everything we're doing- 100% transparency."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>You'll Know Everything We're Doing</h3>
+                  <p>
+                    We're 100% transparent. Never worry about trying to figure
+                    out what we're up to or if we're still working on your
+                    campaign. Our staff will walk you through every stage of
+                    what we're doing and how it's working in detail. We want you
+                    to join in whatever capacity you wish. To give you peace of
+                    mind that your campaign is in capable hands, we aim to keep
+                    you up-to-date at all times.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Tracking and Monitoring</h3>
+                  <p>
+                    We track and check your SEO campaign to make sure we're on
+                    the right track to get you the results you want. We use
+                    tools like Google Analytics, Google's Search Console,
+                    Ahrefs, and SEMRush.
+                  </p>
+                </div>
+              </Deliverable>
+            </Deliverables>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book Your Free Call Today!</Button>
+              </a>
             </div>
           </div>
         </section>
-        <section className="reasons-section">
+        {/* <section className="reasons-section">
           <div className="medium-container">
             <h2 className="title">
               7 Reasons Why Salisbury Business Owners must Invest In Search
@@ -335,7 +409,7 @@ export default function OceanCitySEO() {
               <Button>Schedule a call today!</Button>
             </a>
           </div>
-        </section>
+        </section> */}
         <section>
           <div className="medium-container">
             <h2 className="title">
@@ -457,108 +531,156 @@ export default function OceanCitySEO() {
           </div>
         </section>
         <section>
-          <FAQPageJsonLd
-            mainEntity={[
-              {
-                questionName: 'How Much Does Local SEO Services Cost?',
-                acceptedAnswerText:
-                  'The cost of local SEO services varies depending on the size of your business and its location. SEO services can start as low as $1000 per month for a small business. For a larger company, the cost can be upwards of $5,000 per month. Please get in touch with us to learn more.',
-              },
-              {
-                questionName: 'Can I do SEO Myself?',
-                acceptedAnswerText:
-                  'Yes, you can do SEO yourself. However, it takes a lot of time and effort to learn all the different SEO aspects and keep up with the ever-changing landscape of search engine algorithms. You should hire an experienced SEO company in Ocean City to handle your SEO needs.',
-              },
-              {
-                questionName: 'How Long Does Local SEO Take to See Returns?',
-                acceptedAnswerText:
-                  'Usually, it can take three to six months to see results from local SEO, but it depends on your market, the keyword difficulty, and the competition in your area.',
-              },
-              {
-                questionName: 'Which is Better for My Business, SEO or PPC?',
-                acceptedAnswerText: `The answer to this question depends on your business goals and your budget. If you have a limited budget, then SEO is the better option as it is a long-term strategy that will continue to provide results over time. PPC is a good option if you have a larger budget and need immediate results.`,
-              },
-              {
-                questionName: 'How Long Should I Do Local SEO for My Business?',
-                acceptedAnswerText: `You should do local SEO as long as you want to stay competitive online.
-                Remember search engines are always changing and that your competitors are always trying to gain a competitive edge. If you stop doing SEO and they don’t, they may start ranking higher than you and steal your leads.`,
-              },
-            ]}
-          />
           <div className="medium-container">
             <h2 className="title">Frequently Asked Questions</h2>
-            <div className="faq-questions">
-              <section>
-                <h3>#1. How Much Does Local SEO Services Cost?</h3>
-                <p>
-                  The cost of local SEO services varies depending on the size of
-                  your business and its location. SEO services can start as low
-                  as $1000 per month for a small business. For a larger company,
-                  the cost can be upwards of $5,000 per month. Please get in
-                  touch with us to learn more.
-                </p>
-
-                <h3>#2. Can I do SEO Myself?</h3>
-                <p>
-                  Yes, you can do SEO yourself. However, it takes a lot of time
-                  and effort to learn all the different SEO aspects and keep up
-                  with the ever-changing landscape of search engine algorithms.
-                  You should hire an experienced SEO company in Ocean City to
-                  handle your SEO needs.
-                </p>
-
-                <h3>#3. How Long Does Local SEO Take to See Returns?</h3>
-                <p>
-                  Usually, it can take three to six months to see results from
-                  local SEO, but it depends on your market, the keyword
-                  difficulty, and the competition in your area.
-                </p>
-                <h3>#4. Which is Better for My Business, SEO or PPC?</h3>
-                <p>
-                  The answer to this question depends on your business goals and
-                  your budget. If you have a limited budget, then SEO is the
-                  better option as it is a long-term strategy that will continue
-                  to provide results over time. PPC is a good option if you have
-                  a larger budget and need immediate results.
-                </p>
-                <p>
-                  SEO is a long-term strategy that improves the visibility of
-                  your website in search engine results pages (SERPs). PPC is a
-                  short-term strategy where you pay for ads that appear in
-                  SERPs. PPC can complement SEO well as it can help you achieve
-                  your business goals faster. However, it is essential to note
-                  that you must continuously pay for the ads to maintain your
-                  results.
-                </p>
-                <h3>#5. How Long Should I Do Local SEO for My Business?</h3>
-                <p>
-                  You should do local SEO as long as you want to stay
-                  competitive online.
-                </p>
-                <p>
-                  Remember search engines are always changing and that your
-                  competitors are always trying to gain a competitive edge. If
-                  you stop doing SEO and they don’t, they may start ranking
-                  higher than you and steal your leads.
-                </p>
-              </section>
-            </div>
-          </div>
-          <div className="btn">
-            <a href="tel:+2402660588">
-              <Button>Call (240) 266-0588</Button>
-            </a>
+            <ReasonSec>
+              <div>
+                <div className="question">
+                  <h3>What is SEO and how does it work?</h3>
+                  <p>
+                    SEO is short form for “Search engine optimization”. It is a
+                    long-term marketing strategy employed in order to improve a
+                    websites visibility and organic search results in google and
+                    other global search engines.
+                  </p>
+                  <p>
+                    SEO works by optimizing a website for Google’s algorithm.
+                    The goal is to make your site rank higher in the search
+                    engine results pages (SERPs). In order to do this, SEO
+                    attempts to improve a websites relevancy and authority. A
+                    website’s relevancy is determined by how well it covers the
+                    topic that the user is searching for. Authority is
+                    determined by things like inbound links, social signals, and
+                    brand mentions.{' '}
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>Is SEO worth it for small business?</h3>
+                  <p>
+                    Yes, SEO is worth it for small business. SEO can be a very
+                    effective way to grow your small business. It’s a long-term
+                    strategy that can help you build your brand and get more
+                    traffic and leads from Google for free.
+                  </p>
+                  <h3>How much does SEO cost in Salisbury?</h3>
+                  <p>
+                    The monthly cost for SEO ranges from $1000 to $5,000+. The
+                    cost can vary depending on the competitiveness of your
+                    industry and the keywords you are targeting. Generally, SEO
+                    is more affordable than PPC advertising and other forms of
+                    paid marketing.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>How long does it take for SEO to work?</h3>
+                  <p>
+                    The time it takes for SEO to work depends on a number of
+                    factors, including the age of your website, the
+                    competitiveness of your industry, and the quality of your
+                    SEO efforts. In general, it takes 3-6 months for SEO to
+                    start working. However, it is important to note that SEO is
+                    a long-term marketing strategy, and the results you see
+                    after 3-6 months are just the beginning.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>What is better PPC or SEO?</h3>
+                  <p>
+                    The answer to this question depends on your goals. If you
+                    are looking for immediate results, then Google Ads is the
+                    better option. However, if you are looking for a long-term
+                    marketing strategy that will help you build your brand and
+                    get more traffic and leads from Google over time, then SEO
+                    is the better option.
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div className="question">
+                  <h3>What is the Difference between SEO and Local SEO</h3>
+                  <p>
+                    In short, SEO (search engine optimization) is the process of
+                    improving the visibility and ranking of your website in
+                    search engine results pages (SERPs). Local SEO, on the other
+                    hand, is focused on optimizing your website for local search
+                    results.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>How long would it take to rank my website??</h3>
+                  <p>
+                    The time it takes to rank a website depends on many factors,
+                    including the age of the site, the competition for keywords,
+                    and the quality of the site’s content. In general, it takes
+                    longer to rank a new website than an established one. It
+                    also takes more effort to rank for competitive keywords than
+                    for less popular ones.
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>How Long is Your Contract for Doing SEO?</h3>
+                  <p>Our contracts are month-to-month.</p>
+                  <p>
+                    You can cancel your contract 30 day prior to the end of the
+                    month.
+                  </p>
+                  <p>
+                    But would you cancel if you’re getting leads and making more
+                    money?
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>Can You Guarantee Me #1 Rankings on Google?</h3>
+                  <p>No.</p>
+                  <p>
+                    SEO is an ever-changing field, and what works today may not
+                    work tomorrow. Because of this, no one can guarantee you
+                    first page rankings. However, an experienced SEO consultant
+                    can help improve your website’s ranking in the search engine
+                    results pages (SERPs).
+                  </p>
+                </div>
+                <div className="question">
+                  <h3>Do You Have to Change My site for SEO to work?</h3>
+                  <p>We might have to.</p>
+                  <p>
+                    We will update your website's title, meta tags, and content
+                    to reflect keywords that we believe will be most valuable to
+                    you. Additionally, we'll create or update your website's
+                    sitemap so that search engines can more easily find and
+                    index your site. Finally, we'll set up Google Analytics so
+                    that you can track your SEO progress over time. And we may
+                    have to alter the design if it is not user friendly.
+                  </p>
+                </div>
+              </div>
+            </ReasonSec>
           </div>
         </section>
+        <div className="call-to-action-grid">
+          <img
+            src="/images/seo-services-laurel-maryland.webp"
+            alt="Man calling to get SEO services in Laurel."
+            title="Man calling to get SEO services in Laurel."
+            width="1000px"
+            height="65px"
+            loading="lazy"
+          />
+          <div className="container">
+            <h2>Ready to Boost Your Sales and Revenue?</h2>
+            <p>
+              Contact {SEOAgency} and we'll show you how using SEO services in
+              Salisbury can help your company grow.
+            </p>
+            <p>You have nothing to lose.</p>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule a Free Consultation!</Button>
+              </a>
+            </div>
+          </div>
+        </div>
       </MainLayout>
     </>
   )
 }
-
-const ReasonSec = styled.div`
-  @media screen and (min-width: 1440px) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
-  }
-`

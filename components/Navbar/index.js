@@ -37,6 +37,11 @@ const Navbar = ({ toggle }) => {
     // do something
     setOpen(false)
   }
+
+  const handleMenuFour = () => {
+    // do something
+    setOpen(false)
+  }
   return (
     <>
       <Nav>
@@ -56,16 +61,21 @@ const Navbar = ({ toggle }) => {
                 trigger={<div onClick={handleOpen}>Services</div>}
                 menu={[
                   <div onClick={handleMenuOne}>
+                    <Link href="/local-seo-services-maryland" passHref>
+                      <a>Local SEO</a>
+                    </Link>
+                  </div>,
+                  <div onClick={handleMenuTwo}>
                     <Link href="/search-engine-optimization" passHref>
                       <a>Search Engine Optimization</a>
                     </Link>
                   </div>,
-                  <div onClick={handleMenuTwo}>
+                  <div onClick={handleMenuThree}>
                     <Link href="/gmb-management-services" passHref>
                       <a>GMB Management</a>
                     </Link>
                   </div>,
-                  <div onClick={handleMenuThree}>
+                  <div onClick={handleMenuFour}>
                     <Link href="/free-mini-seo-audit" passHref>
                       <a>Free Mini SEO Audit</a>
                     </Link>
