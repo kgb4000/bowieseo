@@ -913,7 +913,7 @@ const MarylandSEOCompany = () => {
             </div>
           </div>
         </section>
-        <section className="bg-color">
+        <section>
           <FAQPageJsonLd
             mainEntity={[
               {

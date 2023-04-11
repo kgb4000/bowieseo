@@ -136,6 +136,11 @@ const FooterSection = () => {
                   <a>SEO for Pest Control</a>
                 </Link>
               </li>
+              <li>
+                <Link href="/case-studies">
+                  <a>Case Studies</a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="menu-container">

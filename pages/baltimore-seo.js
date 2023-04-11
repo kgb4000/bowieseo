@@ -6,10 +6,13 @@ import React from 'react'
 import styled from 'styled-components'
 import Link from 'next/link'
 import Button from '../components/Button'
-import PageHero from '../components/PageHeroSection'
 import HeroSection from '../components/HeroSection'
-import { Card, Container } from '../components/CardSection'
-import OfferForm from '../components/OfferFormSection'
+import {
+  ReasonSec,
+  Deliverable,
+  Deliverables,
+  Service,
+} from '../components/LocatioPageEssentials'
 import MainLayout from '../components/MainLayout'
 import { Businesses, Business } from '../components/BusinessesWeWorkWith'
 
@@ -20,14 +23,14 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 const BaltimoreSEOCompany = () => {
   const SEO = {
     title:
-      "Baltimore SEO | Search Engine Optimization for Businesses in B'more",
+      "Baltimore SEO Company | Search Engine Optimization for B'more Businesses",
     description:
       'Boost online visibility and attract more customers with our Baltimore SEO services. Maximize your SEO rankings and outrank your competitors today!',
     type: 'website',
     canonical: 'https://bowieseo.com/baltimore-seo',
     openGraph: {
       title:
-        "Baltimore SEO | Search Engine Optimization for Businesses in B'more",
+        "Baltimore SEO Company | Search Engine Optimization for B'more Businesses",
       description:
         'Boost online visibility and attract more customers with our Baltimore SEO services. Maximize your SEO rankings and outrank your competitors today!',
       type: 'website',
@@ -39,8 +42,8 @@ const BaltimoreSEOCompany = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Baltimore SEO - Grow Your Business With More Leads and More Customers"
-          subText="We help boost your online visibility and attract more customers with our Baltimore SEO services."
+          heroText="Grow Your Business With More Leads and Customers with Baltimore SEO"
+          subText="Start using Baltimore search engine optimization and reach more customers looking for your services without paying for ads!"
           backgroundImage="/images/search-engine-optimization-header.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"
@@ -50,6 +53,67 @@ const BaltimoreSEOCompany = () => {
         <section>
           <div className="medium-container">
             <div className="grid">
+              <div>
+                <h2>
+                  You Can Struggle to Get Leads, or Use Baltimore SEO to Improve
+                  Your Google Rankings and Bring Leads to Your Business... Your
+                  Choice
+                </h2>
+                <p>Digital marketing is tough.</p>
+                <p>
+                  It’s tough for people in digital marketing, so I can imagine
+                  how tough it is for someone like you who doesn’t even do it.
+                </p>
+                <p>You try to do it yourself, but nothing is working.</p>
+                <p>
+                  You search for your services on Google, and your business
+                  doesn’t even appear on the fifth page.
+                </p>
+                <p>
+                  You listen to the gurus who tell you to do the next big thing,
+                  but it doesn’t work.
+                </p>
+                <p>
+                  You tried Facebook, Instagram ads, Google ads, and even Tic
+                  Tok.
+                </p>
+                <p>
+                  You even pay HomeAdvisor, Angie’s List, and Thumbtack for
+                  leads, but you don’t want to discount your services anymore
+                  just to compete on price.
+                </p>
+                <p>Nothing is working.</p>
+                <p>
+                  You’re losing money every month and you're not getting
+                  consistent leads.
+                </p>
+                <p>
+                  If this continues, you may have to lay people off or close
+                  your doors.
+                </p>
+                <p>
+                  To add insult to injury, you see your competitors on the first
+                  page when you search for your services.
+                </p>
+                <p>
+                  Their business is booming and they're stealing your customers.
+                </p>
+                <p>What the hell is happening?</p>
+                <p>
+                  One thing is that you're not doing <b>Baltimore SEO</b> and
+                  you're not using a{' '}
+                  <Link href="/maryland-seo-company" passHref>
+                    Maryland SEO company
+                  </Link>
+                  !
+                </p>
+                <p>I can show you.</p>
+                <p>
+                  If you want to know how you can get customers online and
+                  appear in the search engines when people search for your
+                  business, book a call and let’s talk.
+                </p>
+              </div>
               <img
                 src="/images/how-search-engine-optimization-can-help-your-business.webp"
                 className="page-img"
@@ -59,64 +123,6 @@ const BaltimoreSEOCompany = () => {
                 title="Baltimore SEO."
                 loading="lazy"
               />
-              <div>
-                <h2>
-                  Improve Your Rankings and Get Your Business in Front of the
-                  Right Customers, or Else ...
-                </h2>
-                <p>
-                  If one of your services costs <b>$1000 to $4,000</b>, what
-                  would three extra monthly jobs do for your business ?
-                </p>
-                <p>
-                  What if one of your services costs <b>$500 to $1,500</b>, what
-                  would six extra jobs a month do for your business?
-                </p>
-                <p>
-                  Every day when someone searches for your services and you
-                  don’t appear in the search results, you’re losing money.
-                </p>
-                <p>How?</p>
-                <p>
-                  Because they're buying from your competitors instead of you.
-                </p>
-                <p>Try it yourself.</p>
-                <p>
-                  Search for one of your services and see if your website
-                  appears on the first page.
-                </p>
-                <p>If it does, that’s fantastic.</p>
-                <p>If it doesn't, you’re losing money.</p>
-                <p>
-                  You’re losing money that’s going to your competitors, who are
-                  showing up in the search results when people search for your
-                  services.
-                </p>
-                <p>Is this ok with you?</p>
-                <p>I think not.</p>
-                <p>
-                  And it will only get worse if you don’t do something about it.
-                </p>
-                <p>
-                  You’ll have to keep spending money on Facebook and Google ads
-                  to get people to come to your website.
-                </p>
-                <p>And ad costs keep getting more and more expensive.</p>
-                <p>But there is a better way.</p>
-                <p>
-                  A way to get customers to find your business online when
-                  they’re ready to spend.
-                </p>
-                <p>
-                  It’s called search engine optimization, and it can bring more
-                  leads and customers to your business, without paying for any
-                  ads.
-                </p>
-                <p>
-                  Want to see how search engine optimization could help your
-                  business?
-                </p>
-              </div>
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
@@ -161,149 +167,194 @@ const BaltimoreSEOCompany = () => {
             </p>
           </div>
         </section>
-
-        <section>
-          <div className="medium-container">
-            <h2>What is Baltimore SEO?</h2>
-            <p>
-              Baltimore SEO is search engine optimization for Baltimore
-              businesses.
-            </p>
-            <p>
-              SEO is a process that helps you achieve higher rankings in the
-              search engines that drive organic traffic to your site.
-            </p>
-            <p>
-              When you rank higher in search engines, you increase your online
-              visibility, attract new clients, and build trust with potential
-              clients.
-            </p>
-            <p>
-              You can have the best-looking website in the world, but if you
-              don't optimize your site for search engines like Google, it will
-              not appear on the search engine results pages (SERPs).
-            </p>
-            <p>
-              Nobody will see your website when you don't appear on the SERPs.
-            </p>
-            <p>
-              If you don't start doing SEO, your website may never appear in the
-              search results when people search for services you offer.
-            </p>
-          </div>
-        </section>
         <section className="reasons-section">
-          <div className="medium-container">
-            <h2>5 Reasons You Must Invest in Baltimore SEO in 2022</h2>
-            <h3>
-              #1. Local SEO Can Help You Reach Your Target Market, and They Can
-              Find You
-            </h3>
-            <p>
-              Local SEO can help improve your website's visibility in search
-              engine results pages (SERPs), making it easier for potential
-              customers to find you online. 
-            </p>
-            <p>
-              It will help build trust and credibility with potential and
-              existing clients and improve your reputation online.
-            </p>
-            <p>
-              Local SEO can also help you rank for more keywords, resulting in
-              more organic traffic and leads for your business.
-            </p>
-            <h3>
-              #2. Your Website Will Become an Asset, Not Just an Online Flyer
-            </h3>
-            <p>Your website is one of your most essential marketing tools.</p>
-            <p>
-              It's a 24/7 salesperson working to promote your business and
-              attract new customers.
-            </p>
-            <p>
-              SEO helps you improve your site by making it an asset that
-              generates leads and attracts potential clients.
-            </p>
-            <p>
-              When people search for keywords related to your business, your
-              site will appear in the search results. When you appear in the
-              results, searchers are likelier to click through to your site and
-              become customers.
-            </p>
-            <h3>
-              #3. Your Competitors are using Search Engine Optimization [And
-              Beating You]
-            </h3>
-            <p>
-              If your competitors are using SEO and you're not, they will beat
-              you in the search engine results pages.
-            </p>
-            <p>They'll get more web traffic, more leads, and more clients.</p>
-            <p>
-              You can't afford to lose any ground to your competition. SEO will
-              level the playing field and help you compete with them for
-              keywords.
-            </p>
-            <h3>#4. Search Engine Optimization is an Investment, Not a Cost</h3>
-            <p>
-              SEO is an investment in your business's future. It's a long-term
-              strategy that will continue to bring more traffic and leads to
-              your site for years to come.
-            </p>
-            <p>
-              It's an essential part of your digital marketing strategy and
-              should be included in your marketing budget.
-            </p>
-            <p>The sooner you start, the sooner you'll see results.</p>
-            <h3>
-              #5. You Need Search Engine Optimization to Survive in the Modern
-              World
-            </h3>
-            <p>
-              You need search engine optimization if you want your business to
-              survive and thrive in the modern world. It's not an option; it's a
-              necessity.
-            </p>
-            <p>
-              Search engine optimization is essential for any business that
-              wants to be visible online.
-            </p>
-            <p>
-              If you don't appear in the search results, potential customers
-              will never find you, and you'll miss out on valuable leads and
-              sales.
-            </p>
-            <p>
-              Don't let your competition beat you to the top of the search
-              engines. Invest in Baltimore SEO today.
-            </p>
-            <p>Ready to take your business to the next level with SEO?</p>
-            <p>
-              <Link href="/contact" passHref>
-                <a>Contact us</a>
-              </Link>{' '}
-              today and schedule a free consultation to learn how we can help
-              you improve your website's visibility, attract new clients, and
-              grow your business.
-            </p>
+          <div className="container">
+            <h2 className="title">Why Invest in Baltimore SEO in 2023?</h2>
           </div>
-          <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Book a free consultation</Button>
-            </a>
+          <div className="medium-container">
+            <Deliverables>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Increased online visibility</h3>
+                  <p>
+                    By optimizing your website for search engines, you can
+                    increase your visibility in search results, making it easier
+                    for potential customers in Baltimore to find your business.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get keyword research."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Targeted traffic</h3>
+                  <p>
+                    Baltimore SEO allows you to target specific keywords and
+                    phrases that your potential customers are searching for,
+                    resulting in more qualified traffic to your website.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google My Business Management."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Cost-effective marketing</h3>
+                  <p>
+                    SEO is a cost-effective way to attract new customers to your
+                    business, as it is a long-term investment that can result in
+                    sustained traffic and revenue growth.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google Analytics and Google Search Console set up."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Competitive advantage</h3>
+                  <p>
+                    By optimizing your website for search engines, you can gain
+                    a competitive advantage over other businesses in Baltimore
+                    that are not utilizing SEO.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get a website audit."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Brand awareness</h3>
+                  <p>
+                    Increase brand awareness. Higher search engine rankings can
+                    lead to more exposure and credibility for your business.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get local SEO."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Local search</h3>
+                  <p>
+                    SEO can help your business rank well in local search
+                    results, making it easier for potential customers in
+                    Baltimore to find your business when they search for
+                    keywords related to your industry.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get weekly updates."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>User experience</h3>
+                  <p>
+                    SEO involves optimizing your website's user experience,
+                    which can result in increased engagement, lower bounce
+                    rates, and higher conversions.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get content / service page creation and optimization."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Long-term benefits</h3>
+                  <p>
+                    SEO is a long-term strategy that can deliver sustained
+                    benefits over time, including increased traffic, revenue,
+                    and brand visibility.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get to know everything we're doing- 100% transparency."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Reputation management</h3>
+                  <p>
+                    By optimizing your website and creating high-quality
+                    content, you can improve your online reputation and
+                    demonstrate your expertise in your industry.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Measurable results</h3>
+                  <p>
+                    B'more SEO allows you to track and measure your results,
+                    providing insights into how your website is performing and
+                    allowing you to make data-driven decisions to improve your
+                    search engine rankings and drive more traffic to your
+                    website.
+                  </p>
+                </div>
+              </Deliverable>
+            </Deliverables>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule Your Free Consultation Today!</Button>
+              </a>
+            </div>
           </div>
         </section>
         <section className="bg-color">
           <div className="container">
             <h2 className="title">
-              Our Baltimore SEO Services get You in Front of More Customers
-              Searching For Your Services
+              Our Baltimore SEO Services Can Get You in Front of More Customers
+              Searching For Services You Offer
             </h2>
             <p className="subtext">
               We study the search engines, and we know Baltimore businesses.
-              Baltimore SEO will put your website on the first page so you can
-              get more phone calls, leads, and sales than your competitors.
+              Local SEO in Baltimore can get your website on the first page so
+              you can get more phone calls, leads, and sales.
             </p>
+            <p className="subtext">Call for a free consultation</p>
             <Service>
               <div className="service-card">
                 <img
@@ -314,11 +365,11 @@ const BaltimoreSEOCompany = () => {
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Search Engine Optimization</h3>
+                  <h3>Local SEO</h3>
                   <p>
-                    Use search engine optimization to stand out from your
-                    competition and get found when it counts. Let your customers
-                    find your business, not your competitors.
+                    Use Baltimore search engine optimization to appear ahead of
+                    your competitors in the local search results. Let your
+                    customers find your business, not your competitors.
                   </p>
                 </div>
               </div>
@@ -333,9 +384,9 @@ const BaltimoreSEOCompany = () => {
                 <div className="service">
                   <h3>GMB Management</h3>
                   <p>
-                    An optimized Google My Business page is crucial for you to
-                    rank locally. Let us manage your GMB profile and use our
-                    experience to boost your SEO performance.
+                    Optimize your Google My Business page and rank in the Map
+                    pack. Use our experience to boost your SEO performance and
+                    your website presence.
                   </p>
                 </div>
               </div>
@@ -366,8 +417,13 @@ const BaltimoreSEOCompany = () => {
         </section>
         <section>
           <div className="container">
-            <h2 className="title">What You Get With Baltimore SEO</h2>
-            <p className="subtext">Our Baltimore SEO Services include:</p>
+            <h2 className="title">
+              What You Get With Our Baltimore SEO Services
+            </h2>
+            <p className="subtext">
+              Increase revenue, build your brand and become the leader in your
+              industry in Baltiomre.
+            </p>
           </div>
           <div className="medium-container">
             <Deliverables>
@@ -379,13 +435,13 @@ const BaltimoreSEOCompany = () => {
                   loading="lazy"
                 />
                 <div>
-                  <h3>One-on-one Expert Support</h3>
+                  <h3>Custom Expert Support</h3>
                   <p>
-                    Our team of SEO specialists are ready to assist you with
-                    free expert advice and support via email or phone call.
-                    We're dedicated to helping you grow your business, improve
-                    your website ranking, and enhance your online presence. Feel
-                    free to ask us any questions you have - we're here to help!
+                    Our SEO experts are ready to assist you with free expert
+                    advice and support by email or phone call. We're dedicated
+                    to helping you grow your business, improve your website
+                    ranking, and enhance your online presence. Feel free to ask
+                    us any questions you have - we're here to help!
                   </p>
                 </div>
               </Deliverable>
@@ -540,7 +596,7 @@ const BaltimoreSEOCompany = () => {
                   loading="lazy"
                 />
                 <div>
-                  <h3>100% Transparency</h3>
+                  <h3>1000% Transparency</h3>
                   <p>
                     You'll never be left in the dark about the work we're doing
                     on your SEO. We're committed to keeping you informed every
@@ -585,37 +641,36 @@ const BaltimoreSEOCompany = () => {
           <div className="container">
             <div className="grid">
               <img
-                src="/images/home-service-business.webp"
+                src="/images/baltimore-search-engine-optimization.webp"
                 className="page-img"
-                alt="Baltimore SEO company"
-                title="Home service businesses we work with."
+                alt="Baltimore search engine optimization helps business succeed."
+                title="Baltimore search engine optimization helps business succeed."
                 loading="lazy"
               />
               <div>
-                <h2>Home Service Businesses We Work With in Baltimore</h2>
+                <h2>Some of the Businesses We Work With in Baltimore</h2>
                 <p>
-                  Our SEO agency works with home service businesses in Baltimore
-                  that provide services to customers homes. Our goal is to help
-                  home service businesses like yours increase your online
-                  presence and profitability.
+                  Our Baltimore SEO agency works with many businesses. Our goal
+                  is to help businesses like yours increase your online
+                  presence, traffic, and profitability.
                 </p>
                 <Businesses>
                   <Business>
                     <img
-                      src="/images/icons/asphalt-paving-contractor.png"
+                      src="/images/icons/interior-designer.png"
                       className="business-icon"
-                      alt="Businesses our company works with - Asphalt paving companies."
-                      title="Businesses we work with - Asphalt paving companies."
+                      alt="SEO for Interior Designers in Baltimore."
+                      title="SEO for Interior Designers in Baltimore."
                       loading="lazy"
                     />
-                    <p>Asphalt Paving Companies</p>
+                    <p>Interior Designers</p>
                   </Business>
                   <Business>
                     <img
                       src="/images/icons/plumbing-contractors.png"
                       className="business-icon"
-                      alt="Businesses our company works with - Plumbing Contractors."
-                      title="Businesses our company works with - Plumbing Contractors."
+                      alt="SEO for Plumbing Contractors in Baltimore."
+                      title="SEO for Plumbing Contractors in Baltimore."
                       loading="lazy"
                     />
                     <p>Plumbing Contractors</p>
@@ -624,8 +679,8 @@ const BaltimoreSEOCompany = () => {
                     <img
                       src="/images/icons/hvac-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - HVAC Contractors."
-                      title="Businesses we work with - HVAC Contractors."
+                      alt="SEO for HVAC Contractors in Baltimore."
+                      title="SEO for HVAC Contractors in Baltimore."
                       loading="lazy"
                     />
                     <p>HVAC Contractors</p>
@@ -634,68 +689,68 @@ const BaltimoreSEOCompany = () => {
                     <img
                       src="/images/icons/roofing-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - Roofing Contractors."
-                      title="Businesses we work with - Roofing Contractors."
+                      alt="SEO for Roofing Contractors in Baltimore."
+                      title="SEO for Roofing Contractors in Baltimore."
                       loading="lazy"
                     />
                     <p>Roofing Contractors</p>
                   </Business>
                   <Business>
                     <img
-                      src="/images/icons/landscaping-companies.png"
+                      src="/images/icons/cleaning-companies.png"
                       className="business-icon"
-                      alt="Businesses we work with - Landscaping Companies."
-                      title="Businesses we work with - Landscaping Companies."
+                      alt="SEO for Cleaning Companies in Baltimore."
+                      title="SEO for Cleaning Companies in Baltimore."
                       loading="lazy"
                     />
-                    <p>Landscaping Companies</p>
+                    <p>Cleaning Companies</p>
                   </Business>
                   <Business>
                     <img
                       src="/images/icons/pest-control-companies.png"
                       className="business-icon"
-                      alt="Businesses we work with - Pest Control Companies."
-                      title="Businesses we work with - Pest Control Companies."
+                      alt="SEO for Pest Control Companies in Baltimore."
+                      title="SEO for Pest Control Companies in Baltimore.."
                       loading="lazy"
                     />
                     <p>Pest Control Companies</p>
                   </Business>
                   <Business>
                     <img
-                      src="/images/icons/electrical-contractors.png"
+                      src="/images/icons/yacht-charter.png"
                       className="business-icon"
-                      alt="Businesses we work with - Electrical Contractors."
-                      title="Businesses we work with - Electrical Contractors."
+                      alt="SEO for General Contractors in Baltimore."
+                      title="SEO for General Contractors in Baltimore."
                       loading="lazy"
                     />
-                    <p>Electrical Contractors</p>
+                    <p>Yacht Charter Services</p>
                   </Business>
                   <Business>
                     <img
                       src="/images/icons/swimming-pool-builders.png"
                       className="business-icon"
-                      alt="Businesses we work with - Swimming Pool Builders."
-                      title="Businesses we work with - Swimming Pool Builders."
+                      alt="SEO for Swimming Pool Builders in Baltimore."
+                      title="SEO for Swimming Pool Builders in Baltimore."
                       loading="lazy"
                     />
                     <p>Swimming Pool Builders</p>
                   </Business>
                   <Business>
                     <img
-                      src="/images/icons/junk-removal-companies.png"
+                      src="/images/icons/catering-companies.png"
                       className="business-icon"
-                      alt="Asphalt paving companies - Businesses we work with."
-                      title="Businesses we work with - Asphalt paving companies."
+                      alt="SEO for Catering Companies in Baltimore."
+                      title="SEO for Catering Companies in Baltimore."
                       loading="lazy"
                     />
-                    <p>Junk Removal Companies</p>
+                    <p>Catering Companies</p>
                   </Business>
                   <Business>
                     <img
                       src="/images/icons/general-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - General Contractors."
-                      title="Businesses we work with - General Contractors."
+                      alt="SEO for General Contractors in Baltimore."
+                      title="SEO for General Contractors in Baltimore."
                       loading="lazy"
                     />
                     <p>General Contractors</p>
@@ -815,16 +870,16 @@ const BaltimoreSEOCompany = () => {
         <section>
           <div className="medium-container">
             <h2 className="title">
-              Why Choose Us Instead of Other Baltimore SEO Agencies?
+              Why Choose Our Baltimore SEO Agency for Your Local SEO Services?
             </h2>
             <p className="subtext">
-              We know that there are many Baltimore SEO companies you can work
-              with. However, working with our agency has advantages.
+              There are many SEO companies in B'more, but working with our
+              Baltimore SEO agency has advantages.
             </p>
             <div className="grid">
               <div>
                 <div className="reasons">
-                  <h3>We're 100% Transparent</h3>
+                  <h3>We are 1000% Transparent</h3>
                   <p>
                     We're not like other SEO companies in B'more that only show
                     up at the end of the month when it's time to get paid. We
@@ -843,12 +898,15 @@ const BaltimoreSEOCompany = () => {
                   </p>
                 </div>
                 <div className="reasons">
-                  <h3>We’re Partners in This</h3>
+                  <h3>We are Vested in Your Success</h3>
                   <p>
-                    We want the same things you want. For you to make more
-                    money, grow your business, and have a happy life. If we can
-                    help you in any other way, just ask, and we’ll see what we
-                    can do.
+                    We want you to make more money, grow your business. The
+                    great thing is that when you grow, we grow with you. We
+                    don't base our decisions on flimsy indicators like the
+                    number of visitors to your website or the number of keywords
+                    you rank for. We are only motivated by how many phone calls
+                    you receive, how much money you make, and whether it was
+                    better than the previous quarter.
                   </p>
                 </div>
               </div>
@@ -862,20 +920,9 @@ const BaltimoreSEOCompany = () => {
                 loading="lazy"
               />
             </div>
-            <div className="text">
-              <p>
-                We work with small business owners who want to increase their
-                organic traffic, web presence, and revenue. We’re not driven by
-                superficial metrics like the amount of website traffic you get
-                or the number of keywords you rank for. As professional SEO
-                consultants, we’re only driven by how many phone calls you get,
-                how much money you made, and if it was more than the last
-                quarter.
-              </p>
-            </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule a Free Consultation Today!</Button>
+                <Button>Book a Free Consultation Today!</Button>
               </a>
             </div>
           </div>
@@ -910,8 +957,21 @@ const BaltimoreSEOCompany = () => {
             {
               questionName:
                 'Can You Guarantee Me a Position on the First Page?',
+              acceptedAnswerText: `No one can guarantee that your website will be on the first page because there is so much competition and search engines are constantly changing their algorithms.
+              However, we do guarantee that we will do our best to get your website on the first page for local searches in Baltimore. We have a team of experienced SEO specialists who have extensive knowledge of how local SEO works and how to optimize websites for the best results.
+                `,
+            },
+            {
+              questionName: 'Can I Do SEO Myself?',
+              acceptedAnswerText: `Yes, you can do SEO yourself!
+              However, it is important to keep in mind that SEO is a complex and time-consuming process, so it is important to be realistic about the amount of time and effort you are able to put into it. There are also a lot of different moving parts to SEO, so it can be helpful to hire an experienced SEO professional to help you with the process.
+              `,
+            },
+            {
+              questionName:
+                'How much time will it take for my website to rank in Baltimore?',
               acceptedAnswerText:
-                'No one can guarantee you a position on the first page, but our Baltimore SEO agency will do our best to get you there.',
+                'This is a difficult problem to answer because the answer is dependent on a variety of variables, like the age of your website, the level of industry competition, the caliber of your content, and the strength of your backlink profile. But if you make the required efforts to prepare your website for search engines, you can start to notice results within a few months.',
             },
           ]}
         />
@@ -939,15 +999,23 @@ const BaltimoreSEOCompany = () => {
                   <h3>Why is SEO important for businesses in Baltimore? </h3>
                   <p>
                     There are a few key reasons why SEO is important for
-                    businesses in Baltimore. First, local SEO can help you rank
-                    higher in search engine results for searches related to your
-                    business or industry in your local area. This can help you
-                    get more website visitors and potential customers, which can
-                    lead to more sales and revenue for your business. Second,
-                    SEO can help you build trust and credibility with potential
-                    customers. If they see that your website is ranking high for
-                    relevant searches, they’ll be more likely to trust your
-                    business and consider using your products or services.
+                    businesses in Baltimore.
+                  </p>
+                  <p>
+                    First, local SEO can help you rank higher in search engine
+                    results for searches related to your business or industry in
+                    your local area. This can help you get more website visitors
+                    and potential customers, which can lead to more sales and
+                    revenue for your business.
+                  </p>
+                  <p>
+                    Second, SEO can help you build trust and credibility with
+                    potential customers. If they see that your website is
+                    ranking high for relevant searches, they’ll be more likely
+                    to trust your business and consider using your products or
+                    services.
+                  </p>
+                  <p>
                     Finally, SEO can help you stay ahead of the competition. If
                     your competitors are not doing SEO, you can get a leg up on
                     them by investing in SEO and getting your website to rank
@@ -961,13 +1029,15 @@ const BaltimoreSEOCompany = () => {
                 <div className="question">
                   <h3>What is the cost of Baltimore SEO?</h3>
                   <p>
-                    Baltimore SEO will cost between $1000 and $5000. The cost
-                    depends on the size of your business and website, the
-                    competitiveness of your industry, and the number of keywords
-                    you want to target. Generally, the more keywords you want to
-                    target, the higher the cost will be. Baltimore SEO is an
-                    investment that can pay off handsomely, though, so it's
-                    important to consider the ROI before making a decision.
+                    Baltimore SEO will cost between <b>$1000 and $5000</b>.
+                  </p>
+                  <p>
+                    The cost depends on the size of your business and website,
+                    the competitiveness of your industry, and the number of
+                    keywords you want to target. Generally, the more keywords
+                    you want to target, the higher the cost will be. Baltimore
+                    SEO is an investment that can pay off handsomely, though, so
+                    it's important to consider the ROI before making a decision.
                   </p>
                 </div>
                 <div className="question">
@@ -995,37 +1065,20 @@ const BaltimoreSEOCompany = () => {
                   </p>
                 </div>
                 <div className="question">
-                  <h3>What is the Difference between SEO and Local SEO?</h3>
+                  <h3>What differentiates SEO from local SEO?</h3>
                   <p>
-                    Local SEO is focused on optimizing a website for local
-                    search results, whereas SEO is focused on optimizing a
-                    website for organic (non-local) search results.
+                    While SEO aims to increase website visibility and traffic on
+                    a global scale, local SEO focuses on optimizing a website
+                    for a specific geographical location, such as a city or
+                    region. Local SEO strategies aim to improve search engine
+                    rankings for local search queries and Google Maps results by
+                    optimizing for location-specific keywords, creating local
+                    business listings, and building local citations. By
+                    targeting a specific geographical location, businesses can
+                    attract more qualified traffic, increase visibility in local
+                    search results, and improve their chances of appearing in
+                    Google's Local 3-Pack.
                   </p>
-                  <p>
-                    There are a few key differences between local SEO and SEO:
-                  </p>
-                  <ul>
-                    <li>
-                      Keywords: Local SEO keywords are typically more specific
-                      than general SEO keywords (e.g., "plumber in baltimore"
-                      vs. "plumber").
-                    </li>
-                    <li>
-                      Search intent: Local SEO is focused on searchers who are
-                      looking for local businesses, while SEO is focused on
-                      searchers who may be looking for anything from local
-                      businesses to general information.
-                    </li>
-                    <li>
-                      Location: Local SEO takes into account the searcher's
-                      location, while SEO does not.
-                    </li>
-                    <li>
-                      Citation building: Building local citations (i.e.,
-                      mentions of your business on other websites) is a key part
-                      of local SEO, while it is not as important for SEO.
-                    </li>
-                  </ul>
                 </div>
               </div>
               <div>
@@ -1044,15 +1097,6 @@ const BaltimoreSEOCompany = () => {
                     a realistic plan for improving your local SEO. With the
                     right partner, you can see a significant improvement in your
                     local SEO rankings.
-                  </p>
-                </div>
-                <div className="question">
-                  <h3>Can I Do Baltimore SEO Myself?</h3>
-                  <p>
-                    If you're willing to put in the work, you can definitely do
-                    SEO yourself. However, if you want to see results more
-                    quickly, it might be worth hiring a Baltimore SEO company or
-                    consultant to help you out.
                   </p>
                 </div>
                 <div className="question">
@@ -1081,11 +1125,11 @@ const BaltimoreSEOCompany = () => {
                     your website on the first page for local searches in
                     Baltimore. We have a team of experienced SEO specialists who
                     have extensive knowledge of how local SEO works and how to
-                    optimize websites for the best results.{' '}
+                    optimize websites for the best results.
                   </p>
                 </div>
                 <div className="question">
-                  <h3>Can I Do SEO Myself?</h3>
+                  <h3>Can I Do Baltimore SEO Myself?</h3>
                   <p>Yes, you can do SEO yourself!</p>
                   <p>
                     However, it is important to keep in mind that SEO is a
@@ -1109,14 +1153,18 @@ const BaltimoreSEOCompany = () => {
                   </p>
                 </div>
                 <div className="question">
-                  <h3>How long would it take to rank my website?</h3>
+                  <h3>
+                    How much time will it take for my website to rank in
+                    Baltimore?
+                  </h3>
                   <p>
-                    This is a difficult question to answer, as it depends on a
-                    number of factors, including the age of your website, the
-                    competitiveness of your industry, the quality of your
-                    content, and the strength of your backlink profile. However,
-                    if you take the necessary steps to optimize your website for
-                    search engines, you could see results within a few months.
+                    This is a difficult problem to answer because the answer is
+                    dependent on a variety of variables, like the age of your
+                    website, the level of industry competition, the caliber of
+                    your content, and the strength of your backlink profile. But
+                    if you make the required efforts to prepare your website for
+                    search engines, you can start to notice results within a few
+                    months.
                   </p>
                 </div>
               </div>
@@ -1132,10 +1180,10 @@ const BaltimoreSEOCompany = () => {
             height="667px"
           />
           <div className="container">
-            <h2>Ready to Grow Your Business with Baltimore SEO?</h2>
+            <h2>Are You ready to Grow Your Business With Baltimore SEO?</h2>
             <p>
-              Contact us today and we'll show you how SEO can help get leads
-              without paying for online ads.
+              To learn how SEO can help you generate leads without spending
+              money on advertising, get in touch with us today!
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
@@ -1150,44 +1198,6 @@ const BaltimoreSEOCompany = () => {
 }
 
 export default BaltimoreSEOCompany
-
-const ReasonSec = styled.div`
-  @media screen and (min-width: 1024px) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
-  }
-`
-
-const Service = styled.div`
-  .service-card {
-    background-color: #fff;
-    border: 1px solid #eee;
-    border-radius: 20px;
-    margin-bottom: 2rem;
-    @media screen and (min-width: 1024px) {
-      box-shadow: 13px 20px 0;
-    }
-
-    img {
-      margin: 0;
-      border-radius: 20px 20px 0 0;
-    }
-
-    .service {
-      padding: 2rem 2rem;
-
-      h3 {
-        margin-top: 0;
-      }
-    }
-  }
-  @media screen and (min-width: 1024px) {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-  }
-`
 
 const Cities = styled.div`
   margin: 0 auto;
@@ -1222,31 +1232,5 @@ const City = styled.div`
   p {
     margin: 0;
     font-weight: 700;
-  }
-`
-
-const Deliverables = styled.div`
-  @media (min-width: 768px) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
-  }
-`
-
-const Deliverable = styled.div`
-  margin: 1rem 0;
-  display: flex;
-
-  img.check {
-    margin: 0;
-    margin-right: 1.5rem;
-    width: 54px;
-    height: 54px;
-    }
-
-    h3 {
-      margin: 0;
-    }
-
   }
 `

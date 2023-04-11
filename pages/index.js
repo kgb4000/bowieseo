@@ -171,11 +171,15 @@ export default function Home({ data }) {
               <Link href="/maryland-seo-company" passHref>
                 <a>Maryland</a>
               </Link>
-              , and{' '}
-              <Link href="/dc-seo" passHref>
-                <a>DC</a>
+              , including Annapolis,{' '}
+              <Link href="/baltimore-seo" passHref>
+                <a>Baltimore</a>
+              </Link>
+              , Gaithersburg,{' '}
+              <Link href="/rockville-seo-company" passHref>
+                <a>Rockville</a>
               </Link>{' '}
-              .
+              and other cities and towns in Maryland.
             </p>
             <Service>
               <div className="service-card">
@@ -230,11 +234,11 @@ export default function Home({ data }) {
                 </div>
               </div>
             </Service>
-          </div>
-          <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Schedule Your Free Consultation Today!</Button>
-            </a>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule Your Free Consultation Today!</Button>
+              </a>
+            </div>
           </div>
         </section>
         <section>

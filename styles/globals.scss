@@ -15,11 +15,12 @@ body {
   line-height: 1.8;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 a {
   color: #cf0a0a;
+  font-weight: 700;
 }
 
 a.white {
@@ -74,27 +75,26 @@ h1 {
 
 @media screen and (min-width: 768px) {
   h1 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
   }
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
 }
 
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 2rem;
-    margin-bottom: 2rem;
   }
 }
 
 .title {
-  max-width: 700px;
+  max-width: 900px;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 1rem;
@@ -126,7 +126,7 @@ h2 {
 }
 
 .small-container {
-  max-width: 900px;
+  max-width: 700px;
   padding: 0 1.2rem;
   margin: 0 auto;
 }

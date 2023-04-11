@@ -46,6 +46,11 @@ const Sibebar = ({ isOpen, toggle }) => {
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
+              <SidebarLink href="/case-studies" passHref>
+                <SidebarLinkA>Case Studies</SidebarLinkA>
+              </SidebarLink>
+            </SidebarItem>
+            <SidebarItem>
               <SidebarLink href="/blog" passHref>
                 <SidebarLinkA>Blog</SidebarLinkA>
               </SidebarLink>

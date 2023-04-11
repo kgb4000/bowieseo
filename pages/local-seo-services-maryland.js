@@ -58,7 +58,8 @@ export default function LocalSEO() {
               <div>
                 <h2>
                   You Have a Choice: Struggle to Get Customers and Leads Every
-                  Month, or Start Doing Local SEO and Make Money
+                  Month, or Start Doing Local SEO and Increase Your Sales and
+                  Revenue
                 </h2>
                 <p>It's not your fault.</p>
                 <p>
@@ -381,7 +382,7 @@ export default function LocalSEO() {
                   </Business>
                   <Business>
                     <img
-                      src="/images/icons/general-contractors.png"
+                      src="/images/icons/yacht-charter.png"
                       className="business-icon"
                       alt="Businesses we work with - General Contractors."
                       title="Businesses we work with - General Contractors."
