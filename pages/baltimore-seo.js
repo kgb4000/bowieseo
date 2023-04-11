@@ -43,7 +43,7 @@ const BaltimoreSEOCompany = () => {
       <MainLayout>
         <HeroSection
           heroText="Grow Your Business With More Leads and Customers with Baltimore SEO"
-          subText="Start using Baltimore search engine optimization and reach more customers looking for your services without paying for ads!"
+          subText="Start using Baltimore search engine optimization and reach more customers looking for your services!"
           backgroundImage="/images/search-engine-optimization-header.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"

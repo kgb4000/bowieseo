@@ -39,7 +39,7 @@ const About = () => {
           buttonLink={calendly}
         />
         <section>
-          <div className="medium-container">
+          <div className="small-container">
             <h2>About Bowie SEO</h2>
             <p>
               Bowie SEO is a search engine optimization company in Bowie,
@@ -97,15 +97,15 @@ const About = () => {
               Contact us today to learn more about our services and how we can
               help your business.
             </p>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule a Consultation Today!</Button>
+              </a>
+            </div>
           </div>
         </section>
-        <div className="btn">
-          <a href={calendly} target="_blank" rel="noreferrer">
-            <Button>Schedule a Consultation Today!</Button>
-          </a>
-        </div>
         <section>
-          <div className="medium-container">
+          <div className="small-container">
             <h2>Our Mission</h2>
             <p>
               At Bowie SEO, our mission is to help businesses in Maryland, DC,
@@ -123,15 +123,15 @@ const About = () => {
               help your business. We would be happy to answer any questions you
               have and provide you with a free consultation.
             </p>
-          </div>
-          <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Schedule a Consultation Today!</Button>
-            </a>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule a Consultation Today!</Button>
+              </a>
+            </div>
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="small-container">
             <h2>Our Vision</h2>
             <p>
               To be the premier search engine optimization company in Maryland
@@ -155,11 +155,11 @@ const About = () => {
               <b>Dedication</b> - We are dedicated to our clients and their
               success.
             </p>
-          </div>
-          <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Schedule a Consultation Today!</Button>
-            </a>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule a Consultation Today!</Button>
+              </a>
+            </div>
           </div>
         </section>
       </MainLayout>

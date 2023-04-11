@@ -161,13 +161,13 @@ const SubmitButton = styled(Button)`
   width: 100%;
   margin: 1rem 0;
   color: #fff;
-  background: #ff5200;
+  background-color: #cf0a0a;
   text-align: center;
 `
 
 const Conversion = styled.div`
   form {
-    max-width: 900px;
+    max-width: 760px;
     margin: 0 auto;
     margin-bottom: 4rem;
     padding: 0 2rem;

@@ -40,15 +40,13 @@ const Contact = () => {
         </section>
         <section>
           <div className="small-container">
-            <ul>
-              <li>
-                Phone: <a href="tel:1-240-266-0588">(240) 266-0588</a>
-              </li>
-              <li>
-                Email: <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>
-              </li>
-              <li>Or fill out the form below</li>
-            </ul>
+            <p>
+              Phone: <a href="tel:1-240-266-0588">(240) 266-0588</a>
+            </p>
+            <p>
+              Email: <a href="mailto:info@bowieseo.com">info@bowieseo.com</a>
+            </p>
+            <p>Or fill out the form below</p>
           </div>
         </section>
         <ContactForm />

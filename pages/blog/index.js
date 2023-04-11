@@ -41,15 +41,13 @@ export default function Blog({ data }) {
       />
       <NextSeo {...SEO} />
       <MainLayout>
-        <section>
-          <div className="container">
-            <h1 className="title">SEO Blog</h1>
-            <p className="center">
-              Tips to help you find more opportunities and grow your business
-              with SEO.
-            </p>
-          </div>
-        </section>
+        <div className="container">
+          <h1 className="title">SEO Blog</h1>
+          <p className="center">
+            Tips to help you find more opportunities and grow your business with
+            SEO.
+          </p>
+        </div>
         <BlogMain>
           <div className="blog-container">
             {data.posts.map((post) => (
