@@ -80,7 +80,7 @@ const Hero = styled('div')`
     text-align: center;
     font-weight: 700;
     padding: 0 1.2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 `
 

@@ -692,7 +692,7 @@ export default function LocalSEO() {
         </section>
         <section>
           <div className="medium-container">
-            <h2 className="title">Frequently Asked Questions</h2>
+            <h2 className="title">FAQs about Our Laurel SEO Services</h2>
             <ReasonSec>
               <div>
                 <div className="question">
@@ -829,9 +829,8 @@ export default function LocalSEO() {
           <div className="container">
             <h2>Ready to Boost Your Sales and Revenue?</h2>
             <p>
-              Contact {SEOAgency} and we'll show you how our SEO services in
-              Laurel can help your company grow without paying for leads or
-              online ads.
+              Contact {SEOAgency} and we'll show you how our Laurel SEO services
+              can help your company grow without paying for leads or online ads.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">

@@ -90,9 +90,9 @@ export default function LocalSEO() {
                 <p>
                   You heard about{' '}
                   <Link href="search-engine-optimization" passHref>
-                    SEO
+                    search engine optimization
                   </Link>{' '}
-                  and tried it, but it didn't work.
+                  (SEO) and tried it, but it didn't work.
                 </p>
                 <p>
                   You tried boosting your Facebook and Instagram posts to get
@@ -674,12 +674,11 @@ export default function LocalSEO() {
                 <div className="question">
                   <h3>How much does local SEO cost in Maryland?</h3>
                   <p>
-                    The cost of local SEO can vary depending on a variety of
-                    factors, including the size of your business, the level of
-                    competition in your local area, and the extent of the
-                    optimization work required. Generally, local SEO can cost
-                    anywhere from a few hundred dollars to several thousand
-                    dollars per month.
+                    Generally, local SEO can cost anywhere from{' '}
+                    <b>$1000 to $5000</b> per month. The cost of local SEO will
+                    vary depending on a variety of factors, including the size
+                    of your business, the level of competition in your local
+                    area, and the extent of the optimization work required.
                   </p>
                 </div>
                 <div className="question">

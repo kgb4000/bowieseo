@@ -350,9 +350,10 @@ const BaltimoreSEOCompany = () => {
               Searching For Services You Offer
             </h2>
             <p className="subtext">
-              We study the search engines, and we know Baltimore businesses.
-              Local SEO in Baltimore can get your website on the first page so
-              you can get more phone calls, leads, and sales.
+              Baltimore SEO can get your website on the first page of the search
+              engines so you can get more calls, leads, sales, and revenue. We
+              keep up-to-date with all the Google algorithm changes to keep you
+              ahead of the game.
             </p>
             <p className="subtext">Call for a free consultation</p>
             <Service>
@@ -365,11 +366,11 @@ const BaltimoreSEOCompany = () => {
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Local SEO</h3>
+                  <h3>Baltimore SEO</h3>
                   <p>
-                    Use Baltimore search engine optimization to appear ahead of
-                    your competitors in the local search results. Let your
-                    customers find your business, not your competitors.
+                    Use Baltimore search engine optimization (local SEO) and get
+                    in front of your competition in local searches. Let your
+                    customers find your business when it counts the most.
                   </p>
                 </div>
               </div>
@@ -384,9 +385,9 @@ const BaltimoreSEOCompany = () => {
                 <div className="service">
                   <h3>GMB Management</h3>
                   <p>
-                    Optimize your Google My Business page and rank in the Map
-                    pack. Use our experience to boost your SEO performance and
-                    your website presence.
+                    Optimize your Google Business Profile and rank locally in
+                    the Map Pack. Let's manage your Google Business Profile and
+                    increase your local SEO rankings.
                   </p>
                 </div>
               </div>
@@ -977,7 +978,7 @@ const BaltimoreSEOCompany = () => {
         />
         <section>
           <div className="medium-container">
-            <h2 className="title">Frequently Asked Questions</h2>
+            <h2 className="title">FAQs about Baltimore SEO</h2>
             <ReasonSec>
               <div>
                 <div className="question">

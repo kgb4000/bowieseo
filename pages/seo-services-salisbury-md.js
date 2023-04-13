@@ -123,9 +123,9 @@ export default function OceanCitySEO() {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2 className="title">
-              What You Can Expect With Our SEO Services for Salisbury Businesses
+              What You Can Expect With Our Salisbury SEO Services
             </h2>
             <p className="subtext">
               When you work with us, you get the following:
@@ -411,23 +411,18 @@ export default function OceanCitySEO() {
           </div>
         </section> */}
         <section>
-          <div className="medium-container">
-            <h2 className="title">
-              How Does Search Engine Optimization Work, and How Can it Help
-              Salisbury Business Owners?
-            </h2>
-          </div>
-          <div className="medium-container">
+          <div className="small-container">
             <p>
+              <h2 className="title">
+                How Does Search Engine Optimization Work, and How Can it Help
+                Salisbury Business Owners?
+              </h2>
               Search engine optimization (SEO) is the process of increaseing
               your website visibility when people search for your services.
             </p>
             <p>
-              <Link href="/local-seo" passHref>
-                <a>Local SEO</a>
-              </Link>{' '}
-              is search engine optimization for your business in your area,
-              which will be Salisbury.
+              Local SEO is search engine optimization for your business in your
+              area, which will be Salisbury.
             </p>
             <p>
               Local SEO makes it so that when someone in Salisbury or in nearby
@@ -486,7 +481,7 @@ export default function OceanCitySEO() {
               company and other SEO companies.
             </p>
           </div>
-          <div className="container">
+          <div className="medium-container">
             <ReasonSec>
               <div>
                 <h3>#1. We Create Customized SEO Solutions</h3>
@@ -669,8 +664,8 @@ export default function OceanCitySEO() {
           <div className="container">
             <h2>Ready to Boost Your Sales and Revenue?</h2>
             <p>
-              Contact {SEOAgency} and we'll show you how using SEO services in
-              Salisbury can help your company grow.
+              Contact {SEOAgency} and we'll show you how our Salisbury SEO
+              services can help your company grow.
             </p>
             <p>You have nothing to lose.</p>
             <div className="btn">

@@ -175,7 +175,7 @@ const CaseStudy = () => {
             </p>
           </div>
         </section>
-        <div className="medium-container">
+        <div className="container">
           <div className="call-to-action-grid">
             <img
               src="/images/man-calling-baltimore-seo-company.webp"

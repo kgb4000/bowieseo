@@ -22,7 +22,7 @@ export default function Home({ data }) {
           subText="Our team can take control of your website and bring you more leads
             and customers, so you can focus on growing your business."
           backgroundImage="/images/bowieseo-header-img.webp"
-          backgroundHeight="95vh"
+          backgroundHeight="80vh"
           backgroundPosition="center"
           buttonText="Schedule a free consultation today!"
           buttonLink={calendly}
@@ -79,6 +79,7 @@ export default function Home({ data }) {
                   you can attract more leads and customers without paying for
                   ads.
                 </p>
+                <p>What to see how?</p>
               </div>
               <img
                 src="/images/bowie-seo.webp"
@@ -120,8 +121,11 @@ export default function Home({ data }) {
                 </p>
                 <p>But you don't have to pay for ads.</p>
                 <p>
-                  You can build your own lead-generating website and use search
-                  engine optimization to do it.
+                  You can build your own lead-generating website and use{' '}
+                  <Link href="/search-engine-optimization" passHref>
+                    search engine optimization
+                  </Link>{' '}
+                  to do it.
                 </p>
                 <p>
                   With search engine optimization, you can increase your leads,
@@ -522,7 +526,7 @@ export default function Home({ data }) {
                   loading="lazy"
                 />
                 <div>
-                  <h3>100% Transparency</h3>
+                  <h3>1000% Transparency</h3>
                   <p>
                     You’ll never have to wonder, ‘What are those SEO guys
                     doing?’ We’ll keep you informed 100%. We’ll send you weekly

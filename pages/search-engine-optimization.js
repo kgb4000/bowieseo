@@ -34,7 +34,7 @@ const Rockville = () => {
       <MainLayout>
         <HeroSection
           heroText="Search Engine Optimization"
-          subText="Use this powerful inbound marketing method to get customers to find your business online."
+          subText="Use this powerful inbound marketing method to get customers to find your business online and stop paying for ads!"
           backgroundImage="/images/search-engine-optimization-header.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"
@@ -42,12 +42,12 @@ const Rockville = () => {
           buttonLink={calendly}
         />
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <div>
                 <h2>
                   Did You Know You’re Losing Money Every Month Because You’re
-                  Not Showing Up in Google?
+                  Not Showing Up On the First Page of Google?
                 </h2>
                 <p>
                   If one of your services costs <b>$1000 to $4,000</b>, what
@@ -119,7 +119,7 @@ const Rockville = () => {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <img
                 src="/images/search-engine-optimization-can-help-your-business.webp"
@@ -201,7 +201,8 @@ const Rockville = () => {
         <section>
           <div className="medium-container">
             <h2 className="title">
-              Our Search Engine Optimization Process, And What You Get
+              Our SEO Process that Makes You Stand Out from Your Competition on
+              Google
             </h2>
             <Deliverables>
               <Deliverable>
@@ -763,7 +764,7 @@ const Rockville = () => {
               },
             ]}
           />
-          <div className="container">
+          <div className="medium-container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>

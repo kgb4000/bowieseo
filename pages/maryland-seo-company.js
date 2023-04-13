@@ -109,17 +109,18 @@ const MarylandSEOCompany = () => {
                 </p>
                 <p>That's where we come in and we can help.</p>
                 <p>
-                  We're a Maryland SEO company, that can help get you more leads
-                  and customers with search engine optimization (SEO).
+                  We're a <b>Maryland SEO company</b> that can help get you more
+                  leads and customers with Maryland search engine optimization
+                  (SEO).
                 </p>
                 <p>
-                  We can help you increase your leads, your website traffic,
-                  your online presence, your sales, and your revenue.
+                  Maryland SEO can help you increase your leads, website
+                  traffic, online presence, sales, and your revenue.
                 </p>
                 <p>How does that sound?</p>
                 <p>
-                  If this sounds interesting, book a free call with our SEO
-                  experts and see how we can help your company succeed with SEO.
+                  If this sounds interesting, book a free call with us and see
+                  how we can help your company grow with SEO.
                 </p>
               </div>
             </div>
@@ -131,12 +132,11 @@ const MarylandSEOCompany = () => {
           </div>
         </section>
         <section className="bg-color">
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <div className="first-section">
                 <h2>
-                  Discover How Our (Maryland) SEO Company Can Help Your Business
-                  Explode
+                  Discover How (Maryland) SEO Can Help Your Business Explode
                 </h2>
                 <p>Imagine coming in to work on Monday.</p>
                 <p>Your phones are ringing off the hook.</p>
@@ -168,9 +168,8 @@ const MarylandSEOCompany = () => {
                   You’re happy, your family is happy, your employees are happy.
                 </p>
                 <p>
-                  The right{' '}
-                  <b>(Maryland) search engine optimization strategy</b> from the
-                  right SEO company can make this possible.
+                  The right <b>(Maryland) search engine optimization</b>{' '}
+                  strategy from the right SEO company can make this possible.
                 </p>
               </div>
               <img
@@ -203,9 +202,9 @@ const MarylandSEOCompany = () => {
               loading="lazy"
             />
             <p>
-              Search engine optimization (SEO) is a digital marketing strategy
-              that helps your website rank higher in Google and other major
-              search engines and bring more traffic to your website.
+              (Maryland) search engine optimization is a digital marketing
+              strategy that helps your website rank higher in Google and other
+              major search engines and bring more traffic to your website.
             </p>
             <p>
               It's a type of inbound marketing where you create valuable content
@@ -237,15 +236,18 @@ const MarylandSEOCompany = () => {
               Grow?
             </h2>
             <p>
-              SEO works by increasing your online visibility in search engines.
+              Maryland SEO works by increasing your online visibility in search
+              engines so that you show up on the first page when people are
+              searchiing for your services.
             </p>
             <p>
               Different processes help ensure that your website shows up in the
               organic search results (when people search for your services).
             </p>
             <p>
-              When people searching for your services see your website in the
-              search results, you get more clicks, visitors, and traffic.
+              When people searching for your services see your website on the
+              first page of the search results, you get more clicks, visitors,
+              and traffic.
             </p>
             <p>
               These searchers are ready to buy because they are actively
@@ -458,9 +460,7 @@ const MarylandSEOCompany = () => {
         </section>
         <section>
           <div className="container">
-            <h2 className="title">
-              What You Get Working With Our Maryland SEO Company
-            </h2>
+            <h2 className="title">Work With Our Maryland SEO Company</h2>
             <p className="subtext">Our (Maryland) SEO Services include:</p>
           </div>
           <div className="medium-container">
@@ -969,7 +969,7 @@ const MarylandSEOCompany = () => {
             ]}
           />
           <div className="container">
-            <h2 className="title">Frequently Asked Questions</h2>
+            <h2 className="title">FAQs about Maryland SEO</h2>
             <ReasonSec>
               <div>
                 <div className="question">
@@ -1239,7 +1239,7 @@ const Deliverable = styled.div`
     }
 
     h3 {
-      margin: 0;
+      margin: 0 0 1rem 0;
     }
 
   }
