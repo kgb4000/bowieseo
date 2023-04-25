@@ -21,14 +21,12 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function LocalSEO() {
   const SEO = {
-    title:
-      'SEO Services in Laurel, MD, Helping Businesses Boost Revenue and Growth',
-    description: `We're an SEO services company providing SEO services in Laurel, MD. Our SEO services help get you business more website traffic, leads, and customers.`,
+    title: 'SEO Company in Laurel, MD | Helping Businesses Boost Revenue',
+    description: `We're an SEO company in Laurel, MD, providing SEO services. Our SEO services help get you business more website traffic, leads, and customers.`,
     canonical: 'https://bowieseo.com/seo-services-laurel-md',
     openGraph: {
-      title:
-        'SEO Services in Laurel, MD, Helping Businesses Boost Revenue and Growth',
-      description: `We're an SEO services company providing SEO services in Laurel, MD. Our SEO services help get you business more website traffic, leads, and customers.`,
+      title: 'SEO Company in Laurel, MD | Helping Businesses Boost Revenue',
+      description: `We're an SEO company in Laurel, MD, providing SEO services. Our SEO services help get you business more website traffic, leads, and customers.`,
       image: [{}],
     },
   }
@@ -37,8 +35,8 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Get more Website Trafiic and Leads with Our SEO Services in Laurel, MD"
-          subText="We provide SEO solutions to small business owners and we'll provide those same solutions to help grow your business."
+          heroText="Get more Website Trafiic and Leads with the Right SEO Company in Laurel, MD"
+          subText="We provide SEO services to businesses in laurel that help increase leads, sales and revenue."
           backgroundImage="/images/seo-services-laurel-md-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center"
@@ -140,10 +138,10 @@ export default function LocalSEO() {
               <div>
                 <h2>
                   Get Leads and Customers and Increase Sales Without Paying For
-                  Facebook and Google Ads
+                  Facebook and Instagram Ads
                 </h2>
                 <p>
-                  Let's be honest, Facebook and Google ads are expensive, and
+                  Let's be honest, Facebook and Instagram ads are expensive, and
                   the costs keep going up.
                 </p>
                 <p>
@@ -194,7 +192,7 @@ export default function LocalSEO() {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Schedule Your Free Call Today!</Button>
               </a>
             </div>
           </div>
@@ -202,8 +200,8 @@ export default function LocalSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our SEO Services Help Businesses in Laurel Get More Website
-              Traffic, Leads and Sales
+              Our Laurel SEO Services Help Businesses Get More Website Traffic,
+              Leads and Sales
             </h2>
             <p className="subtext">
               We provide SEO to businesses in Laurel and the rest of Howard
@@ -367,10 +365,10 @@ export default function LocalSEO() {
                   </Business>
                   <Business>
                     <img
-                      src="/images/icons/junk-removal-companies.png"
+                      src="/images/icons/catering-companies.png"
                       className="business-icon"
-                      alt="Asphalt paving companies - Businesses we work with."
-                      title="Businesses we work with - Asphalt paving companies."
+                      alt="Catering companies - Businesses we work with."
+                      title="Businesses we work with - Catering companies."
                       loading="lazy"
                     />
                     <p>Junk Removal Companies</p>
@@ -401,10 +399,10 @@ export default function LocalSEO() {
         </section>
         <section>
           <div className="container">
-            <h2 className="title">
-              What You Get When Your Work With Laurel SEO Specialists
-            </h2>
-            <p className="subtext">When you work with us, you get:</p>
+            <h2 className="title">What You Can Expect From US</h2>
+            <p className="subtext">
+              When you get Laurel SEO services from us, you get:
+            </p>
           </div>
           <div className="medium-container">
             <Deliverables>
@@ -618,7 +616,7 @@ export default function LocalSEO() {
         </div>
         <section>
           <div className="container">
-            <h2 className="title">Why Work With Us</h2>
+            <h2 className="title">Why Work With Our Laurel SEO Company</h2>
             <p className="subtext">
               Save time and money, and acheive your sales and revenue goals by
               working with Laurel SEO specialists. We work only for you, not

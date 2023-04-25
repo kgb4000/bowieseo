@@ -400,7 +400,7 @@ export default function RockvilleSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get From Us When Your Work With Us
+              What You Get With Our Rockville SEO Services
             </h2>
             <p className="subtext">When you work with us, you get:</p>
           </div>
@@ -600,9 +600,7 @@ export default function RockvilleSEO() {
         </div>
         <section>
           <div className="container">
-            <h2 className="title">
-              Why Work With Us and Use Us for Your Services?
-            </h2>
+            <h2 className="title">Why Work With Our Rockville SEO COmpany</h2>
             <p className="subtext">
               Save time and money, and acheive your sales and revenue goals by
               working with Rockville SEO specialists. We work only for you, not

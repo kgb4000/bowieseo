@@ -15,17 +15,15 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const CaseStudy = () => {
   const SEO = {
-    title:
-      "Baltimore SEO | Search Engine Optimization for Businesses in B'more",
+    title: 'Case Studies of Companies We Wokred With | Bowie SEO',
     description:
-      'Boost online visibility and attract more customers with our Baltimore SEO services. Maximize your SEO rankings and outrank your competitors today!',
+      'Here a some companies that implemented SEO. Maximize your SEO rankings and outrank your competitors today!',
     type: 'website',
-    canonical: 'https://bowieseo.com/baltimore-seo',
+    canonical: 'https://bowieseo.com/case-studies',
     openGraph: {
-      title:
-        "Baltimore SEO | Search Engine Optimization for Businesses in B'more",
+      title: 'Case Studies of Companies We Wokred With | Bowie SEO',
       description:
-        'Boost online visibility and attract more customers with our Baltimore SEO services. Maximize your SEO rankings and outrank your competitors today!',
+        'Here a some companies that implemented SEO. Maximize your SEO rankings and outrank your competitors today!',
       type: 'website',
       image: [{}],
     },
