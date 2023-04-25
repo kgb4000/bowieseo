@@ -977,7 +977,7 @@ const BaltimoreSEOCompany = () => {
           ]}
         />
         <section>
-          <div className="medium-container">
+          <div className="container">
             <h2 className="title">FAQs about Baltimore SEO</h2>
             <ReasonSec>
               <div>
