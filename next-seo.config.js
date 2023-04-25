@@ -4,7 +4,7 @@ export default {
     locales: ['en'],
     defaultLocale: 'en',
   },
-  title: `SEO Company in Bowie, MD Helping Small Businesses Grow with Google`,
+  title: `We're an SEO Company Helping Small Businesses Increase Website Traffic`,
   type: 'website',
   locale: 'en_US',
   url: 'https://bowieseo.com',
@@ -13,7 +13,7 @@ export default {
   canonical: 'https://bowieseo.com',
   openGraph: {
     url: 'https://bowieseo.com',
-    title: `SEO Company in Bowie, MD Helping Small Businesses Grow with Google`,
+    title: `We're an SEO Company Helping Small Businesses Increase Website Traffic`,
     type: 'website',
     locale: 'en_US',
     description:
