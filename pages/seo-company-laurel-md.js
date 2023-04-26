@@ -23,7 +23,7 @@ export default function LocalSEO() {
   const SEO = {
     title: 'SEO Company in Laurel, MD | Helping Businesses Boost Revenue',
     description: `We're an SEO company in Laurel, MD, providing SEO services. Our SEO services help get you business more website traffic, leads, and customers.`,
-    canonical: 'https://bowieseo.com/seo-services-laurel-md',
+    canonical: 'https://bowieseo.com/seo-company-laurel-md',
     openGraph: {
       title: 'SEO Company in Laurel, MD | Helping Businesses Boost Revenue',
       description: `We're an SEO company in Laurel, MD, providing SEO services. Our SEO services help get you business more website traffic, leads, and customers.`,
@@ -35,8 +35,8 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Get more Website Trafiic and Leads with the Right SEO Company in Laurel, MD"
-          subText="We provide SEO services to businesses in laurel that help increase leads, sales and revenue."
+          heroText="Get more Website Traffic, Leads, and Sales with the Right SEO Company in Laurel, MD"
+          subText="We provide SEO services to businesses in Laurel that help increase leads, sales and revenue."
           backgroundImage="/images/seo-services-laurel-md-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center"
@@ -107,12 +107,12 @@ export default function LocalSEO() {
                 </p>
               </div>
               <img
-                src="/images/seo-services-laurel-md.webp"
+                src="/images/seo-company-laurel-md.webp"
                 className="page-img-left"
                 width="1000px"
                 height="600px"
-                alt="A business owner considering  getting SEO services in Laurel."
-                title="A business owner considering getting SEO services in Laurel."
+                alt="A business owner considering using an SEO company in Laurel."
+                title="A business owner considering using an SEO company in Laurel."
                 loading="lazy"
               />
             </div>
@@ -158,7 +158,13 @@ export default function LocalSEO() {
                   without having to pay for ads?
                 </p>
                 <p>There is.</p>
-                <p>There is a solution: search engine optimization.</p>
+                <p>
+                  There is a solution:{' '}
+                  <Link href="/search-engine-optimization" passHref>
+                    search engine optimization
+                  </Link>
+                  .
+                </p>
                 <p>
                   Search engine optimization allows you to optimize your website
                   for search engines, attracting free organic traffic from those
@@ -380,8 +386,9 @@ export default function LocalSEO() {
                   </Business>
                 </Businesses>
                 <p>
-                  Call us today and let’s see how we can help find opportunities
-                  to help boost your sales and revenue.
+                  Call <b>Laurel SEO company</b> today and let’s see how we can
+                  help find opportunities on your website to help boost your
+                  sales and revenue.
                 </p>
               </div>
             </div>
@@ -678,7 +685,7 @@ export default function LocalSEO() {
                   </p>
                 </div>
                 <div className="question">
-                  <h3>Is SEO worth it for small business?</h3>
+                  <h3>Is SEO worth it for small businesses?</h3>
                   <p>
                     Yes, SEO is valuable for small businesses. It's an effective
                     way to grow your business by building your brand and
@@ -775,7 +782,7 @@ export default function LocalSEO() {
           <div className="container">
             <h2>Ready to Boost Your Sales and Revenue?</h2>
             <p>
-              Contact {SEOAgency} and we'll show you how our Laurel SEO services
+              Contact {SEOAgency} and we'll show you how our Laurel SEO Company
               can help your company grow without paying for leads or online ads.
             </p>
             <div className="btn">

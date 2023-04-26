@@ -576,7 +576,7 @@ const Rockville = () => {
               </City>
               <City>
                 <img src="/images/icons/map-location.png" />
-                <Link href="/seo-services-laurel-md" passHref>
+                <Link href="/seo-company-laurel-md" passHref>
                   <a>Laurel, MD</a>
                 </Link>
               </City>
