@@ -120,7 +120,7 @@ const FooterSection = () => {
           <div className="hours-container">
             <h3>Resources</h3>
             <ul>
-              <li>
+              {/* <li>
                 <Link href="/seo-for-landscapers">
                   <a>SEO for Landscapers</a>
                 </Link>
@@ -134,6 +134,16 @@ const FooterSection = () => {
               <li>
                 <Link href="/seo-for-pest-control-companies">
                   <a>SEO for Pest Control</a>
+                </Link>
+              </li> */}
+              <li>
+                <Link href="/small-business-resources">
+                  <a>Samll Business Resources</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog">
+                  <a>Blog</a>
                 </Link>
               </li>
               <li>
