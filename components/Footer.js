@@ -138,7 +138,7 @@ const FooterSection = () => {
               </li> */}
               <li>
                 <Link href="/small-business-resources">
-                  <a>Samll Business Resources</a>
+                  <a>Small Business Resources</a>
                 </Link>
               </li>
               <li>

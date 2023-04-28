@@ -85,10 +85,6 @@ const About = () => {
               monitor your success.
             </p>
             <p>
-              We are always willing to work with their clients and ensure that
-              they are satisfied with their results.{' '}
-            </p>
-            <p>
               If you are looking for an SEO company near you, that can help you
               achieve your online marketing goals, then Bowie SEO is a great
               choice.{' '}
