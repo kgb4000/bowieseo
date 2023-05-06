@@ -61,7 +61,7 @@ const Navbar = ({ toggle }) => {
                 trigger={<div onClick={handleOpen}>Services</div>}
                 menu={[
                   <div onClick={handleMenuOne}>
-                    <Link href="/local-seo-services-maryland" passHref>
+                    <Link href="/maryland-local-seo" passHref>
                       <a>Local SEO</a>
                     </Link>
                   </div>,

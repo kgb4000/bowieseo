@@ -20,13 +20,13 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 export default function LocalSEO() {
   const SEO = {
     title:
-      'Local SEO Services in Maryland Helping Boost Sales, Revenue and Growth',
-    description: `Looking for a boost in local search results? Our local SEO services in Maryland can help increase your web visibility so more customers can find you.`,
+      'Maryland Local SEO Services Helping Boost Traffic, Leads, and Sales',
+    description: `Looking for a boost in local search results? Our local SEO services in Maryland can help increase your web traffic so more customers can find you.`,
     canonical: 'https://bowieseo.com/local-seo-services-maryland',
     openGraph: {
       title:
-        'Local SEO Services in Maryland Helping Boost Sales, Revenue and Growth',
-      description: `Looking for a boost in local search results? Our local SEO services in Maryland can help increase your web visibility so more customers can find you.`,
+        'Maryland Local SEO Services Helping Boost Traffic, Leads, and Sales',
+      description: `Looking for a boost in local search results? Our local SEO services in Maryland can help increase your web traffic so more customers can find you.`,
       image: [{}],
     },
   }
@@ -35,7 +35,7 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Boost Traffic, Leads, and Sales With Our Local SEO Services"
+          heroText="Boost Traffic, Leads, and Sales With Our Maryland Local SEO Services"
           subText="We provide Local SEO services to small businesses in Maryland to help increase leads, sales, and growth."
           backgroundImage="/images/local-seo-services-maryland-cover.jpg"
           backgroundHeight="70vh"
@@ -162,12 +162,15 @@ export default function LocalSEO() {
                   without having to pay for ads?
                 </p>
                 <p>There is.</p>
-                <p> It's called search engine optimization.</p>
                 <p>
-                  With search engine optimization, you can optimize your website
-                  for the search engines and help you attract free organic
-                  traffic from people who are already looking for what you have
-                  to offer.
+                  It's called local <strong>search engine optimization</strong>,
+                  of <strong>local SEO</strong>.
+                </p>
+                <p>
+                  With local SEO, you can optimize your website for the search
+                  engines and help you attract{' '}
+                  <strong>free organic traffic</strong> from people who are
+                  already looking for what you have to offer.
                 </p>
                 <p>With Search engine optimization you will:</p>
                 <ul className="check-mark">
@@ -204,10 +207,10 @@ export default function LocalSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Local SEO Services Can Help Your Businesses Grow
+              Our Maryland Local SEO Services Can Help Your Businesses Grow
             </h2>
             <p className="title subtext">
-              We provide local SEO to Maryland businesses.
+              We provide local SEO to all Maryland businesses.
             </p>
             <Service>
               <div className="service-card">
@@ -257,7 +260,7 @@ export default function LocalSEO() {
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Loal SEO Audit</h3>
+                  <h3>Local SEO Audit</h3>
                   <p>
                     See how you can improve your SEO rankings and performance
                     with a free mini SEO audit from us. Find out what's stopping
@@ -407,9 +410,11 @@ export default function LocalSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              Benefits of Using Local Search Engine Optimization
+              Benefits of Using Maryland Local Search Engine Optimization
             </h2>
-            <p className="subtext">When start using local SEO, you get:</p>
+            <p className="subtext">
+              When start using local SEO for your MD business, you get:
+            </p>
           </div>
           <div className="medium-container">
             <Deliverables>
@@ -667,7 +672,7 @@ export default function LocalSEO() {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>

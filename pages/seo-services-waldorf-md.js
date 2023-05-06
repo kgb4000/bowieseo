@@ -683,10 +683,13 @@ export default function SEOServicesWaldorf() {
                 <div className="question">
                   <h3>What is SEO and how does it work?</h3>
                   <p>
-                    SEO is short form for “Search engine optimization”. It is a
-                    long-term marketing strategy employed in order to improve a
-                    websites visibility and organic search results in google and
-                    other global search engines.
+                    SEO is short form for “
+                    <Link href="/search-engine-optimization" passHref>
+                      Search engine optimization
+                    </Link>
+                    ”. It is a long-term marketing strategy employed in order to
+                    improve a websites visibility and organic search results in
+                    Google and other global search engines.
                   </p>
                   <p>
                     SEO works by optimizing a website for Google’s algorithm.
@@ -746,9 +749,12 @@ export default function SEOServicesWaldorf() {
                   <p>
                     In short, SEO (search engine optimization) is the process of
                     improving the visibility and ranking of your website in
-                    search engine results pages (SERPs). Local SEO, on the other
-                    hand, is focused on optimizing your website for local search
-                    results.{' '}
+                    search engine results pages (SERPs).{' '}
+                    <Link href="/maryland-local-seo" passHref>
+                      Local SEO
+                    </Link>
+                    , on the other hand, is focused on optimizing your website
+                    for local search results.{' '}
                   </p>
                 </div>
                 <div className="question">

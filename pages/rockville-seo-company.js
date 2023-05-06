@@ -49,8 +49,8 @@ export default function RockvilleSEO() {
             <div className="grid">
               <div>
                 <h2>
-                  Wondering How Some Businesses get Traffic and Leads on Google
-                  and You're Not?
+                  Wondering How Some Businesses Get Traffic and Leads From
+                  Google and You're Not Getting Jack?
                 </h2>
                 <p>You have a business in Rockville and let’s face it.</p>
                 <p>You're busy.</p>
@@ -90,13 +90,17 @@ export default function RockvilleSEO() {
                 </p>
                 <p>This is where we can help.</p>
                 <p>
-                  We use search engine optimization to get your website to show
-                  up on Google when people search for your services.
+                  We get you set up with{' '}
+                  <Link href="/maryland-local-seo" passHref>
+                    local search engine optimization
+                  </Link>{' '}
+                  (local SEO) to get your website to show up on Google when
+                  people search for your services.
                 </p>
                 <p>
                   We’re a{' '}
                   <Link href="/maryland-seo-company" passHref>
-                    <a>Maryland SEO company</a>
+                    <a>SEO company</a>
                   </Link>{' '}
                   and we help businesses in Rockville build their own lead-gen
                   websites with SEO.
@@ -212,10 +216,10 @@ export default function RockvilleSEO() {
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Search Engine Optimization</h3>
+                  <h3>Local SEO for Rockville</h3>
                   <p>
-                    Practice search engine optimization and make sure your
-                    customers in Rockville can find your business on Google
+                    Start doing local SEO and make sure your customers in
+                    Rockville can find your business on Google when they search,
                     instead of your competition.
                   </p>
                 </div>
@@ -278,9 +282,10 @@ export default function RockvilleSEO() {
                   Some of the Businesses We Work With in Rockville, Maryland.
                 </h2>
                 <p>
-                  We work with home service businesses in Rockville that provide
-                  services to customers homes. We focus on helping you increase
-                  your online presence, leads, and sales for your business.
+                  We work with local businesses in Rockville that provide
+                  products and services to their customers. We focus on helping
+                  you increase your online presence, leads, and sales for your
+                  business.
                 </p>
                 <Businesses>
                   <Business>
@@ -673,7 +678,7 @@ export default function RockvilleSEO() {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>

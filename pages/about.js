@@ -70,7 +70,11 @@ const About = () => {
                 </Link>
               </li>
               <li>Technical SEO</li>
-              <li>On-Page SEO</li>
+              <li>
+                <Link href="maryland-local-seo" passHref>
+                  Local SEO
+                </Link>
+              </li>
               <li>Local SEO</li>
               <li>Competitive Analysis</li>
               <li>

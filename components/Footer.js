@@ -95,7 +95,7 @@ const FooterSection = () => {
             <nav>
               <ul>
                 <li>
-                  <Link href="/local-seo-services-maryland">
+                  <Link href="/maryland-local-seo">
                     <a>Local SEO</a>
                   </Link>
                 </li>
