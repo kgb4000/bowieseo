@@ -74,21 +74,21 @@ const CaseStudy = () => {
             <p>
               This case study will show the techniques used to get these
               results, including:{' '}
-              <ul>
-                <li>
-                  An{' '}
-                  <Link href="/free-mini-seo-audit" passHref>
-                    SEO audit
-                  </Link>
-                </li>
-                <li>Keyword research</li>
-                <li>Competitive analysis</li>
-                <li>On-page-SEO</li>
-                <li>Local SEO</li>
-                <li>Google My Business Management</li>
-                <li>Tracking and monitoring</li>
-              </ul>
             </p>
+            <ul>
+              <li>
+                An{' '}
+                <Link href="/free-mini-seo-audit" passHref>
+                  SEO audit
+                </Link>
+              </li>
+              <li>Keyword research</li>
+              <li>Competitive analysis</li>
+              <li>On-page-SEO</li>
+              <li>Local SEO</li>
+              <li>Google My Business Management</li>
+              <li>Tracking and monitoring</li>
+            </ul>
             <h3>Background</h3>
             <p>
               Our client, Monica, approached us to help improve her online
@@ -141,7 +141,7 @@ const CaseStudy = () => {
             <h3>#4. Local SEO</h3>
             <p>
               Since Monica Browne Weddings is a local business, we focused on{' '}
-              <Link href="/local-seo-services-maryland" passHref>
+              <Link href="/maryland-local-seo" passHref>
                 local SEO
               </Link>{' '}
               strategies to help her rank higher in local search results.

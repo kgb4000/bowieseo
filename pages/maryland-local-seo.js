@@ -22,7 +22,7 @@ export default function LocalSEO() {
     title:
       'Maryland Local SEO Services Helping Boost Traffic, Leads, and Sales',
     description: `Looking for a boost in local search results? Our local SEO services in Maryland can help increase your web traffic so more customers can find you.`,
-    canonical: 'https://bowieseo.com/local-seo-services-maryland',
+    canonical: 'https://bowieseo.com/maryland-local-seo',
     openGraph: {
       title:
         'Maryland Local SEO Services Helping Boost Traffic, Leads, and Sales',

@@ -75,7 +75,6 @@ export default function Articles({ post, shareLink }) {
         <BlogContent>
           <div className="blog-container author-info">
             <h1>{post.postTitle}</h1>
-
             <img
               src={[post.coverImage.url]}
               alt={post.title}
