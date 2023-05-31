@@ -19,13 +19,11 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function LocalSEO() {
   const SEO = {
-    title:
-      'Maryland Local SEO Services Helping Boost Traffic, Leads, and Sales',
+    title: 'Local SEO Services Helping Boost Traffic, Leads, and Sales',
     description: `Looking for a boost in local search results? Our local SEO services in Maryland can help increase your web traffic so more customers can find you.`,
-    canonical: 'https://bowieseo.com/maryland-local-seo',
+    canonical: 'https://bowieseo.com/local-seo-services',
     openGraph: {
-      title:
-        'Maryland Local SEO Services Helping Boost Traffic, Leads, and Sales',
+      title: 'Local SEO Services Helping Boost Traffic, Leads, and Sales',
       description: `Looking for a boost in local search results? Our local SEO services in Maryland can help increase your web traffic so more customers can find you.`,
       image: [{}],
     },
@@ -35,7 +33,7 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Boost Traffic, Leads, and Sales With Our Maryland Local SEO Services"
+          heroText="Boost Traffic, Leads, and Revenue With Our Local SEO Services from Bowie SEO"
           subText="We provide Local SEO services to small businesses in Maryland to help increase leads, sales, and growth."
           backgroundImage="/images/local-seo-services-maryland-cover.jpg"
           backgroundHeight="70vh"
@@ -207,7 +205,7 @@ export default function LocalSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Maryland Local SEO Services Can Help Your Businesses Grow
+              Our Local SEO Services Can Help Your Businesses Grow
             </h2>
             <p className="title subtext">
               We provide local SEO to all Maryland businesses.

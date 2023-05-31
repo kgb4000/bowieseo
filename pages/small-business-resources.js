@@ -161,8 +161,7 @@ export default function Resources() {
               </p>
             </Section>
           </div>
-        </section>
-        <section>
+
           <div className="small-container ">
             <img
               src="/images/business-man-calling-about-seo-services.webp"
