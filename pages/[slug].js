@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { getPost, getPosts, getPostsSlugs, getRecentPosts } from '/lib/data'
 import { RichText } from '@graphcms/rich-text-react-renderer'
 import { NextSeo, ArticleJsonLd } from 'next-seo'
@@ -27,7 +28,7 @@ export const getStaticPaths = async () => {
   }
 }
 
-export default function Articles({ post, shareLink }) {
+export default function Articles({ post }) {
   const SEO = {
     title: post.title,
     description: post.excerpt,
@@ -82,12 +83,20 @@ export default function Articles({ post, shareLink }) {
               loading="lazy"
             />
             <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
+
             <RichText content={post.content.json} />
             <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
             <Bio
               authorImg={post.author.photo.url}
               authorBio={post.author.bio}
             />
+            <h2>Other Interesting Posts</h2>
+            <div className="related-posts">
+              <RichText content={post.relatedPosts.raw} />
+            </div>
+            <p>
+              <Link href="/blog">Back to blog &rarr;</Link>
+            </p>
           </div>
         </BlogContent>
       </MainLayout>
@@ -111,6 +120,13 @@ const BlogContent = styled.main`
     }
     img {
       text-align: center;
+    }
+  }
+
+  .related-posts {
+    margin: 2rem 0;
+    a {
+      font-weight: 400;
     }
   }
 `
