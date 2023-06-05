@@ -3,6 +3,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
+import Link from 'next/link'
 import styled from 'styled-components'
 import MainLayout from '../components/MainLayout'
 import Button from '../components/Button'
@@ -386,6 +387,11 @@ const MarylandSEOCompany = () => {
                 </div>
               </SEOElement>
             </HowSEOWorks>
+            <div className="btn">
+              <Link href="/case-studies">
+                <Button>Read Our Case Studies!</Button>
+              </Link>
+            </div>
           </div>
         </section>
         <section className="bg-color">

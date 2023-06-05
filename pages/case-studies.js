@@ -45,6 +45,7 @@ const CaseStudy = () => {
           <div className="small-container">
             <h2>SEO Case Study #1:</h2>
             <h2> Monica Browne Weddings</h2>
+            <img src="/images/case-study-1.png" />
             <p>
               We're a{' '}
               <Link href="/maryland-seo-company" passHref>

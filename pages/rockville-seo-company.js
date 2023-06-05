@@ -91,7 +91,7 @@ export default function RockvilleSEO() {
                 <p>This is where we can help.</p>
                 <p>
                   We get you set up with{' '}
-                  <Link href="/maryland-local-seo" passHref>
+                  <Link href="/local-seo-services" passHref>
                     local search engine optimization
                   </Link>{' '}
                   (local SEO) to get your website to show up on Google when
