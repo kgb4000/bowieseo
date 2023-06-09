@@ -45,12 +45,12 @@ export default function RockvilleSEO() {
           buttonLink={calendly}
         />
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <div>
                 <h2>
                   Wondering How Some Businesses Get Traffic and Leads From
-                  Google and You're Not Getting Jack?
+                  Google and You're Not Getting Jack Shit?
                 </h2>
                 <p>You have a business in Rockville and let’s face it.</p>
                 <p>You're busy.</p>
@@ -127,7 +127,7 @@ export default function RockvilleSEO() {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <img
                 src="/images/happy-bowie-seo-client.webp"
@@ -140,51 +140,58 @@ export default function RockvilleSEO() {
               />
               <div>
                 <h2>
-                  Get Leads and Customers and Increase Sales Without Paying For
-                  Facebook and Google Ads
+                  Get a flood of leads, skyrocket your sales, and build
+                  relationships with customers—all without spending a dime on
+                  Facebook and Google ads!
                 </h2>
                 <p>
-                  Let's be honest, Facebook and Google ads are expensive, and
-                  the costs keep going up.
+                  Time to face the music - Facebook and Google ads might burn a
+                  hole in your pocket as their prices continue to rise in an
+                  unrelenting ascent.
                 </p>
                 <p>
-                  And if you're not careful, your entire advertising budget can
-                  be gobbled up by paying for clicks.
+                  And if you're not careful, they could swallow your entire
+                  advertising expenditure in the blink of an eye, just in
+                  exchange for clicks.
                 </p>
-                <p>But you don't have to pay for ads.</p>
+                <p>But who said you need to pay a king's ransom for ads?</p>
                 <p>
-                  What if there was a way to get free leads and customers
-                  without having to pay for ads?
+                  Imagine a scenario where you could pull in free leads and
+                  clientele without having to fork out for advertisements?
                 </p>
-                <p>There is.</p>
-                <p> It's called search engine optimization.</p>
                 <p>
-                  With search engine optimization, you can optimize your website
-                  for the search engines and help you attract free organic
-                  traffic from people who are already looking for what you have
-                  to offer.
+                  The answer isn't hidden in plain sight; it's called Search
+                  Engine Optimization.
                 </p>
-                <p>With Search engine optimization you will:</p>
+                <p>
+                  SEO helps you customize your website to make it more search
+                  engine-friendly, beckoning organic traffic - individuals who
+                  are already hunting for what you offer, all without spending a
+                  dime.
+                </p>
+                <p>With Search Engine Optimization, you are set to:</p>
                 <ul className="check-mark">
                   <li>
                     Get free organic traffic coming to your website without
                     paying for ads
                   </li>
-                  <li>Increase you leads, sales and revenue</li>
-                  <li>Get more phone calls</li>
-                  <li>Establish your business as the leader and expert</li>
+                  <li>Boost your leads, sales, and revenue significantly</li>
+                  <li>Experience an upsurge in phone inquiries</li>
                   <li>
-                    Get on the first page of Google and get more local customers
-                    requesting your services
+                    Cement your business's reputation as the authority and
+                    specialist in your field
                   </li>
                   <li>
-                    Grow your online visibility and let more potential customers
-                    see your business
+                    Gain prime positioning on Google's first page, attracting
+                    more local customers desiring your services
                   </li>
                   <li>
-                    Rank higher than your competition in Google search results
-                    and let customers find your business instead of your
-                    competitors'
+                    Amplify your digital presence and visibility, allowing more
+                    prospective customers to discover your business
+                  </li>
+                  <li>
+                    Outrank your competition in Google search results,
+                    redirecting customers to your business over your rivals'
                   </li>
                 </ul>
               </div>

@@ -852,6 +852,163 @@ const MarylandSEOCompany = () => {
           </div>
         </section>
         <section>
+          <div className="container">
+            <h2 className="title">Areas We Cover with SEO</h2>
+            <p className="center">We provide local SEO for busniess in:</p>
+            <Cities>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Annapolis SEO"
+                  title="Annapolis SEO"
+                />
+                <p>Annapolis</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Baltimore SEO"
+                  title="Baltimore SEO"
+                />
+                <Link href="/baltimore-seo" passHref>
+                  <a>Baltimore, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Bowie SEO"
+                  title="Bowie SEO"
+                />
+                <Link href="/" passHref>
+                  <a>Bowie, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Bethesda, MD"
+                  title="SEO Company Bethesda, MD"
+                />
+                <p>Bethesda, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Crofton, MD"
+                  title="SEO Company Crofton, MD"
+                />
+                <Link href="/seo-services-crofton-md" passHref>
+                  <a>Crofton, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Chesapeake Beach, MD"
+                  title="SEO Company Chesapeake Beach, MD"
+                />
+                <Link href="/seo-company-chesapeake-beach-md">
+                  <a>Chesapeake Beach, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Glen Burnie</p>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Hyattsville, MD</p>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <Link href="/seo-company-laurel-md" passHref>
+                  <a>Laurel, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <Link href="/seo-services-ocean-city" passHref>
+                  <a>Ocean City, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Odenton, MD</p>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Potomac, MD</p>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <Link href="/rockville-seo-company" passHref>
+                  <a>Rockville, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <Link href="/seo-services-salisbury-md" passHref>
+                  <a>Salisbury, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Gaithersburg, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company South Kensington, MD"
+                  title="SEO Company South Kensington, MD"
+                />
+                <Link href="/seo-company-south-kensington-md" passHref>
+                  <a>South Kensington, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Silver Spring, MD"
+                  title="SEO Company Silver Spring, MD"
+                />
+                <p>Silver Spring, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Greenbelt, MD"
+                  title="SEO Company Greenbelt, MD"
+                />
+                <p>Greenbelt, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Walkersville, MD"
+                  title="SEO Company Walkersville, MD"
+                />
+                <p>Walkersville, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Waldorf MD"
+                  title="SEO Company Waldorf MD"
+                />
+                <Link href="/seo-services-waldorf-md" passHref>
+                  <a>Waldorf, MD</a>
+                </Link>
+              </City>
+            </Cities>
+            <div className="btn">
+              <a href="tel:+2402660588">
+                <Button>Call (240) 266-0588 today!</Button>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section>
           <div className="medium-container">
             <h2 className="title">Why Work With Our Maryland SEO Company?</h2>
             <p className="subtext">
@@ -1178,6 +1335,41 @@ const Service = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
+  }
+`
+const Cities = styled.div`
+  margin: 0 auto;
+  @media screen and (min-width: 508px) {
+    @media (min-width: 768px) {
+      margin: 3rem 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+`
+
+const City = styled.div`
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  img {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-right: 0.5rem;
+  }
+
+  a,
+  p {
+    margin: 0;
+    font-weight: 700;
   }
 `
 
