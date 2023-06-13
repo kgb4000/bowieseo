@@ -428,10 +428,10 @@ export default function RockvilleSEO() {
                 <div>
                   <h3>Expert one-on-one support</h3>
                   <p>
-                    Get free expert advice and support from our team of SEO
-                    experts, available to answer all your questions via email or
-                    on a call. We’re here to help you grow your business, boost
-                    your ranking, and increase your online presence.
+                    Get free help and advice from our team of SEO experts. They
+                    are available by phone or email to answer all of your
+                    questions. We're here to help you grow your business, boost
+                    your online presence, and increase search engine rankings.
                   </p>
                 </div>
               </Deliverable>
@@ -445,10 +445,10 @@ export default function RockvilleSEO() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Laser-focused keyword research will uncover the most
-                    profitable and relevant terms to attract customers and
-                    create sales. We'll construct a database of these keywords
-                    for you to create SEO content.
+                    Through laser-focused keyword research, you can find the
+                    most profitable and relevant terms to attract customers and
+                    make sales. We'll make a database of these keywords so that
+                    you can use them to make SEO content.
                   </p>
                 </div>
               </Deliverable>
@@ -462,9 +462,10 @@ export default function RockvilleSEO() {
                 <div>
                   <h3>Google My Business Management</h3>
                   <p>
-                    Improve your local SEO ranking by managing your Google My
-                    Business page. Get a fully optimized GMB page to appear at
-                    the top of both the map pack and local search results.
+                    You will boost your local SEO ranking by taking care of your
+                    Google My Business page. Get your GMB page fully optimized
+                    so it shows up at the top of the map pack and the local
+                    search results.
                   </p>
                 </div>
               </Deliverable>
@@ -512,11 +513,12 @@ export default function RockvilleSEO() {
                 <div>
                   <h3>Local SEO</h3>
                   <p>
-                    Local SEO gets your website in front of local customers when
-                    it counts. We optimize your website, so local customers find
-                    your business, not your competitors. Get optimized content,
-                    a fast website, a better user experience, and more so you
-                    rank on the first page above your competitors.
+                    Local SEO brings your website to the attention of local
+                    customers when it matters. We change how your website works
+                    so that local customers find your business and not your
+                    competitors. Get optimized content, a fast website, a better
+                    user experience, and more so that you rank higher than
+                    competitors on the first page.
                   </p>
                 </div>
               </Deliverable>

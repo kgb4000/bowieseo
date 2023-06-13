@@ -18,9 +18,9 @@ export default function Home({ data }) {
     <>
       <MainLayout>
         <HeroSection
-          heroText="Make Your Website a Lead Generating Magnet And Stop Paying for Online ads"
-          subText="Our team can take control of your website and bring you more leads
-            and customers, so you can focus on growing your business."
+          heroText="We Help You Generate Leads For Your Business Without Online Ads"
+          subText="We use your website to attract and bring more leads
+            and customers, while you focus on growing your business."
           backgroundImage="/images/bowieseo-header-img.webp"
           backgroundHeight="80vh"
           backgroundPosition="center"
@@ -640,150 +640,6 @@ export default function Home({ data }) {
             </div>
           </div>
         </section>
-        {/* <section>
-          <div className="medium-container">
-            <h2 className="title">Frequently Asked Questions</h2>
-            <div className="faq-questions"></div>
-            <ul>
-              <h3>#1. What is SEO?</h3>
-              <p>
-                Search Engine Optimization (SEO) is the practice of improving
-                the ranking of a website on search engines. The higher the
-                ranking, the more likely people are to find the site.
-              </p>
-              <p>
-                There are a number of factors that contribute to a website's
-                ranking, including the quality and quantity of the content, the
-                structure of the site, and the popularity of the site. SEO is
-                about making sure that a website is designed in a way that makes
-                it easy for search engines to find and index the site's content.
-              </p>
-              <p>
-                SEO is a complex and ever-changing field, and there are no easy
-                shortcuts to achieving high rankings. However, there are a
-                number of things that can be done to improve a website's SEO,
-                and by extension, its ranking.
-              </p>
-              <p>
-                One of the most important things that can be done to improve a
-                website's SEO is to create high-quality, keyword-rich content.
-                This content should be well-written and informative, and it
-                should include the keywords that people are likely to use when
-                searching for information on the topic.
-              </p>
-              <p>
-                Another important factor in SEO is link popularity. Links from
-                other websites to a website help to improve its ranking, as they
-                show that the site is popular and relevant. In order to get
-                high-quality links, it is important to create quality content
-                that other people will want to link to.
-              </p>
-
-              <h3>#2. How Can SEO Help My Business?</h3>
-              <p>Seo can help your business in a number of ways, including:</p>
-              <ul>
-                <li>Increasing your visibility in search engines</li>
-                <li>Driving traffic to the website</li>
-                <li>Generating free leads and customers</li>
-                <li>Improving your brand awareness and online reputation</li>
-                <li>Enhancing customer satisfaction</li>
-              </ul>
-              <p>
-                In short, SEO can be a powerful tool to help businesses grow and
-                succeed online. If you're not using SEO, you're missing out on
-                an opportunity to reach more customers and grow your business.
-              </p>
-
-              <h3>#3. What is The Cost Of SEO?</h3>
-              <p>
-                There is no one-size-fits-all answer to this question, as the
-                cost of SEO can vary greatly depending on the size and scope of
-                your project.
-              </p>
-              <p>
-                However, as a general guide, you can expect to pay anywhere from{' '}
-                <b>$1000 to $5,000 per month</b> for professional SEO services.
-              </p>
-              <p>
-                And if your project is particularly large or complex, you may
-                need to invest more money to get the results you're looking for.
-                But in general, this is a good range to expect for most SEO
-                projects.
-              </p>
-              <p>
-                The cost of SEO can also vary depending on the keywords you want
-                to target and the competition for those keywords. The more
-                competitive the keywords, the more expensive it will be to rank
-                for them. However, if you choose less competitive keywords, you
-                may be able to get by with a smaller budget. Contact us today to
-                learn more about our SEO services and pricing.
-              </p>
-            </ul>
-            <ul>
-              <h3>#4. How Long Does SEO Take to Work?</h3>
-              <p>
-                It's tough to give a definitive answer to this question because
-                there are so many variables at play, including the specific
-                industry, the competition level, the age of the website, and the
-                quality of the content.
-              </p>
-              <p>
-                Generally speaking, though, it can take anywhere from 3-6 months
-                or 6-12 months for SEO to start having an impact on search
-                engine rankings.
-              </p>
-              <p>
-                This timeframe can be even longer for newer websites. However,
-                with consistent effort and a well-planned strategy, it is
-                possible to see results much sooner.
-              </p>
-              <p>
-                There's no guarantee that SEO will work for every website, but
-                it is still one of the most effective ways to improve your
-                visibility and attract more traffic. If you're ready to invest
-                in SEO for your business, contact us to get started.
-              </p>
-
-              <h3>#5. How Do I Calculate My SEO ROI?</h3>
-              <p>
-                It's important to be able to measure your SEO ROI (return on
-                investment) in order to determine whether or not your SEO
-                efforts are paying off. There are a number of different ways to
-                calculate your SEO ROI, but the most important thing is to make
-                sure you're tracking the right metrics.
-              </p>
-              <p>Some of the things you'll want to track include:</p>
-              <ul>
-                <li>The number of organic visitors to your website</li>
-                <li>The number of leads generated from organic traffic</li>
-                <li>The number of sales generated from organic traffic</li>
-                <li>The conversion rate for organic traffic</li>
-              </ul>
-              <p>
-                To get started, you'll need to set up tracking codes on your
-                website so that you can accurately measure the traffic and
-                conversions coming from your SEO campaigns. Once you have that
-                set up, you can start to calculate your ROI.
-              </p>
-              <p>
-                One thing to keep in mind is that SEO is a long-term strategy,
-                so don't expect to see results overnight. It can take months or
-                even years to see a significant return on your investment.
-                However, if you stick with it and continue to track your
-                progress, you should eventually start to see a positive ROI from
-                your SEO efforts.
-              </p>
-              <p>
-                SEO can be a great way to generate leads and sales for your
-                business, but it's important to make sure you're tracking the
-                right metrics so that you can accurately calculate your ROI. By
-                doing so, you'll be able to tell whether or not your SEO efforts
-                are paying off and make necessary changes to ensure a positive
-                return on your investment.
-              </p>
-            </ul>
-          </div>
-        </section> */}
         <section>
           <div className="medium-container">
             <h2 className="title">Frequently Asked Questions</h2>

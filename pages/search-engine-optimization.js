@@ -142,7 +142,7 @@ const Rockville = () => {
                 <p>
                   That’s a lot of people searching, and that’s why you need SEO
                   or{' '}
-                  <Link href="/maryland-local-seo" passHref>
+                  <Link href="/local-seo-services" passHref>
                     local SEO
                   </Link>
                   .
@@ -556,20 +556,30 @@ const Rockville = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Services Columbia"
-                  title="SEO Services Columbia"
+                  alt="SEO Company Bethesda, MD"
+                  title="SEO Company Bethesda, MD"
                 />
-                <p>Columbia, MD</p>
+                <p>Bethesda, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Crofton, MD"
+                  title="SEO Company Crofton, MD"
+                />
                 <Link href="/seo-services-crofton-md" passHref>
                   <a>Crofton, MD</a>
                 </Link>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Fort Washington, MD</p>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Chesapeake Beach, MD"
+                  title="SEO Company Chesapeake Beach, MD"
+                />
+                <Link href="/seo-company-chesapeake-beach-md">
+                  <a>Chesapeake Beach, MD</a>
+                </Link>
               </City>
               <City>
                 <img src="/images/icons/map-location.png" />
@@ -597,7 +607,7 @@ const Rockville = () => {
               </City>
               <City>
                 <img src="/images/icons/map-location.png" />
-                <p>Owings Mills, MD</p>
+                <p>Potomac, MD</p>
               </City>
               <City>
                 <img src="/images/icons/map-location.png" />
@@ -618,40 +628,42 @@ const Rockville = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Services Hagerstown, MD"
-                  title="SEO Services Hagerstown, MD"
+                  alt="SEO Company South Kensington, MD"
+                  title="SEO Company South Kensington, MD"
                 />
-                <p>Hagerstown, MD</p>
+                <Link href="/seo-company-south-kensington-md" passHref>
+                  <a>South Kensington, MD</a>
+                </Link>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Services Silver Spring, MD"
-                  title="SEO Services Silver Spring, MD"
+                  alt="SEO Company Silver Spring, MD"
+                  title="SEO Company Silver Spring, MD"
                 />
                 <p>Silver Spring, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Services Greenbelt, MD"
-                  title="SEO Services Greenbelt, MD"
+                  alt="SEO Company Greenbelt, MD"
+                  title="SEO Company Greenbelt, MD"
                 />
                 <p>Greenbelt, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Services College Park MD"
-                  title="SEO Services College Park MD"
+                  alt="SEO Company Walkersville, MD"
+                  title="SEO Company Walkersville, MD"
                 />
-                <p>College Park, MD</p>
+                <p>Walkersville, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Services Waldorf MD"
-                  title="SEO Services Waldorf MD"
+                  alt="SEO Company Waldorf MD"
+                  title="SEO Company Waldorf MD"
                 />
                 <Link href="/seo-services-waldorf-md" passHref>
                   <a>Waldorf, MD</a>

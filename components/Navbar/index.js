@@ -101,9 +101,7 @@ const Navbar = ({ toggle }) => {
           </NavMenu>
           <NavBtn>
             <NavBtnLink>
-              <BtnLinksA href={calendly}>
-                Book a Free audit call today!
-              </BtnLinksA>
+              <BtnLinksA href={calendly}>Lets Talk today!</BtnLinksA>
             </NavBtnLink>
             {/* <NavBtnLink>
               <BtnLinksA href="tel:+2402660588">Call (240) 266-0588</BtnLinksA>
