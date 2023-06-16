@@ -55,6 +55,7 @@ const Hero = styled('div')`
     h1 {
       font-size: 2.2rem;
       font-weight: 900;
+      margin-bottom: 2rem;
     }
 
     p {
@@ -67,6 +68,7 @@ const Hero = styled('div')`
   @media (min-width: 768px) {
     h1 {
       font-size: 2.8rem;
+      margin-bottom: 2rem;
     }
 
     p {
