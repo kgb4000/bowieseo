@@ -26,7 +26,7 @@ const Sibebar = ({ isOpen, toggle }) => {
         <SidebarWrapper>
           <SidebarMenu>
             <SidebarItem>
-              <SidebarLink href="/maryland-local-seo" passHref>
+              <SidebarLink href="/local-seo-services" passHref>
                 <SidebarLinkA>Local SEO</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
