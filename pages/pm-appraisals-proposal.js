@@ -23,7 +23,7 @@ export default function PmAppraisals() {
     <>
       <NextSeo {...SEO} />
       <ProposalLayout>
-        <HeroSection
+        {/* <HeroSection
           heroText="Website Design, Development, and SEO Proposal for PM Appraisals"
           subText="Let's create a website that will attract consistent leads, phone calls, sales, and renvenue for your business."
           backgroundImage="/images/seo-services-laurel-md-cover.webp"
@@ -288,7 +288,7 @@ export default function PmAppraisals() {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
       </ProposalLayout>
     </>
   )

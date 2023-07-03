@@ -19,17 +19,16 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const SEOAgency = 'SEO professionals'
 
-export default function ChesapeakeBeachMD() {
+export default function BethesdaMD() {
   const SEO = {
-    title: 'Need an SEO Company in Chesapeake Beach, MD?  Check Us Out First.',
+    title: 'SEO Company in Bethesda, MD?  Check Us Out First.',
     description:
-      'We provide SEO services in Chesapeake Beach, MD. Our experts help businesses get found by customers searching for services like yours. Call us today!',
-    canonical: 'https://bowieseo.com/seo-company-chesapeake-beach-md',
+      'We are an SEO company in Bethesda, MD. We help businesses get found by customers searching for services like yours. Call us today!',
+    canonical: 'https://bowieseo.com/seo-company-bethesda-md',
     openGraph: {
-      title:
-        'Need an SEO Company in Chesapeake Beach, MD?  Check Us Out First.',
+      title: 'SEO Company in Bethesda, MD?  Check Us Out First.',
       description:
-        'We provide SEO services in Chesapeake Beach, MD. Our experts help businesses get found by customers searching for services like yours. Call us today!',
+        'We are an SEO company in Bethesda, MD. We help businesses get found by customers searching for services like yours. Call us today!',
       image: [{}],
     },
   }
@@ -38,8 +37,8 @@ export default function ChesapeakeBeachMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Increase Website Traffic and Leads to Your Business with Right SEO Company in Chesapeake Beach"
-          subText="We use sour knowledge of search engine optimization to attract more customers and increase sales for your business."
+          heroText="Work With an SEO Company in Bethesda, Maryland"
+          subText="Increase traffic, leads, and sales to your business with SEO."
           backgroundImage="/images/seo-services-south-kensington-md-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center"
@@ -52,9 +51,9 @@ export default function ChesapeakeBeachMD() {
               <div>
                 <h2>
                   Keep Losing Money Every Month or Start Using SEO Services in
-                  Chesapeake Beach and Make Money: You Choose
+                  and Boost Revenue: You Choose
                 </h2>
-                <p>You run a company in Chesapeake Beach.</p>
+                <p>You run a company in Bethesda.</p>
                 <p>
                   You're trying to figure out how to get more leads and
                   customers to your business, but nothing seems to be working.
@@ -79,9 +78,9 @@ export default function ChesapeakeBeachMD() {
                   <Link href="/maryland-seo-company" passHref>
                     <a>Maryland SEO company</a>
                   </Link>{' '}
-                  that assists Chesapeake Beach small business owners in
-                  generating more customers and leads by creating a lead
-                  generation system customized to their business.
+                  that assists Bethesda small business owners in generating more
+                  customers and leads by creating a lead generation system
+                  customized to their business.
                 </p>
                 <p>We have you covered.</p>
                 <p>
@@ -98,8 +97,8 @@ export default function ChesapeakeBeachMD() {
               <img
                 src="/images/seo-company-south-kensington-md.jpg"
                 className="page-img-left"
-                alt="Business owner thinking about getting SEO Services for his business in Chesapeake Beach, MD"
-                title="Business owner thinking about getting SEO Services in Chesapeake Beach Maryland"
+                alt="Business owner thinking about getting SEO Services for his business in Bethesda"
+                title="Business owner thinking about getting SEO Services in Bethesda"
                 width="600"
                 height="1000"
               />
@@ -114,7 +113,7 @@ export default function ChesapeakeBeachMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get With Our Chesapeake Beach SEO Services
+              What You Get With Our SEO Services in Bethesda
             </h2>
             <p className="subtext">When you work with us, you get:</p>
           </div>
@@ -307,25 +306,25 @@ export default function ChesapeakeBeachMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Services Help Businesses Like Yours in Chesapeake Beach, Get
-              More Leads and Customers
+              Our Services Help Businesses Like Yours in Bethesda, Get More
+              Leads and Customers
             </h2>
             <p className="subtext">
-              We provide search engine optimization to businesses in South
-              Kensington and in the rest of Anne Arundel County, Maryland.
+              We provide search engine optimization to businesses in Bethesda
+              and the rest of Montgomery County.
             </p>
             <Service>
               <div className="service-card">
                 <img
                   src="/images/south-kensington-search-engine-optimization.webp"
-                  alt="Chesapeake Beach SEO Services"
-                  title="Chesapeake Beach SEO Services"
+                  alt="SEO Services in Bethesda."
+                  title="SEO Services in Bethesda."
                   width="1000px"
                   height="665px"
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Chesapeake Beach Search Engine Optimization</h3>
+                  <h3>Bethesda Search Engine Optimization</h3>
                   <p>
                     Practice search engine optimization and make sure your
                     customers can find your business on Google instead of your
@@ -336,8 +335,8 @@ export default function ChesapeakeBeachMD() {
               <div className="service-card">
                 <img
                   src="/images/south-kensington-gmb-management.webp"
-                  alt="Chesapeake Beach Google My Business Management"
-                  title="Chesapeake Beach Google My Business Management"
+                  alt="Google My Business Management."
+                  title="Google My Business Management."
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -379,14 +378,14 @@ export default function ChesapeakeBeachMD() {
                 src="/images/home-service-business-south-kensington-md.webp"
                 className="page-img"
                 alt="Home service buisness."
-                title="Home service businesses we work with in Chesapeake Beach."
+                title="Home service businesses we work with in Bethesda."
               />
               <div>
-                <h2>Businesses We Work With in Chesapeake Beach.</h2>
+                <h2>Businesses We Work With in Bethesda.</h2>
                 <p>
-                  We work with home service businesses in Chesapeake Beach that
-                  provide services to homeowners and businesses. We focus on
-                  helping you increase your online presence, leads, and sales.
+                  We work with home service businesses in Bethesda that provide
+                  services to homeowners and businesses. We focus on helping you
+                  increase your online presence, leads, and sales.
                 </p>
                 <Businesses>
                   <Business>
@@ -570,7 +569,8 @@ export default function ChesapeakeBeachMD() {
                 acceptedAnswerText: `The short answer is yes. Small businesses can benefit greatly from SEO. In fact, SEO may be one of the best marketing techniques for small businesses to boost their exposure and draw in new clients. Small businesses can raise their SEO rankings and increase organic traffic by optimizing their websites. This can result in increased brand recognition, website traffic, and potential leads or sales. Even though SEO can take time and effort to produce results, it offers long-term advantages and can be a reasonably priced way for small businesses to compete with established ones in their industry.`,
               },
               {
-                questionName: 'How much does SEO cost in Chesapeake Beach?',
+                questionName:
+                  'How much does SEO cost for a business in Bethesda?',
                 acceptedAnswerText: `SEO can cost anywhere between $1000 and $5,000. The price will change based on the level of industry, competition and the target keywords.`,
               },
               {
@@ -607,9 +607,7 @@ export default function ChesapeakeBeachMD() {
             ]}
           />
           <div className="medium-container">
-            <h2 className="title">
-              FAQs About Our SEO Services in Chesapeake Beach, Maryland
-            </h2>
+            <h2 className="title">FAQs About Our SEO Services in Bethesda</h2>
             <ReasonSec>
               <div>
                 <div className="question">
@@ -640,7 +638,7 @@ export default function ChesapeakeBeachMD() {
                     reasonably priced way for small businesses to compete with
                     established ones in their industry.
                   </p>
-                  <h3>How much does SEO cost in Chesapeake Beach?</h3>
+                  <h3>How much does SEO cost for a business in Bethesda?</h3>
                   <p>
                     SEO can cost anywhere between $1000 and $5,000. The price
                     will change based on the level of industry, competition and
@@ -762,8 +760,8 @@ export default function ChesapeakeBeachMD() {
         <div className="call-to-action-grid">
           <img
             src="/images/business-man-calling-about-seo-services.webp"
-            alt="Man calling to get SEO services in Chesapeake Beach."
-            title="Man calling to get SEO services in Chesapeake Beach."
+            alt="Man calling to get SEO services in Bethesda."
+            title="Man calling to get SEO services in Bethesda."
             width="1000px"
             height="65px"
             loading="lazy"
@@ -772,7 +770,7 @@ export default function ChesapeakeBeachMD() {
             <h2>Ready to Boost Your Leads, Sales and Income?</h2>
             <p>
               Contact our {SEOAgency} and we'll show you how our SEO services in
-              Chesapeake Beach can help your company grow with search engine
+              Bethesda can help your company grow with search engine
               optimization.
             </p>
             <div className="btn">

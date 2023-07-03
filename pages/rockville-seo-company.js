@@ -22,12 +22,12 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 export default function RockvilleSEO() {
   const SEO = {
     title: 'Rockville SEO Company Helping Businesses Boost Revenue and Growth',
-    description: `We're an SEO services company providing SEO services in Rockville, MD. Our SEO services help get you business more website traffic, leads, and customers.`,
+    description: `We're an SEO company in Rockville, MD. Our SEO services help bring you more website traffic, leads, and customers. Book a call today!`,
     canonical: 'https://bowieseo.com/rockville-seo-company',
     openGraph: {
       title:
         'Rockville SEO Company Helping Businesses Boost Revenue and Growth',
-      description: `We're an SEO services company providing SEO services in Rockville, MD. Our SEO services help get you business more website traffic, leads, and customers.`,
+      description: `We're an SEO company in Rockville, MD. Our SEO services help bring you more website traffic, leads, and customers. Book a call today!`,
       image: [{}],
     },
   }
@@ -36,8 +36,8 @@ export default function RockvilleSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Boost Traffic, Leads, and Sales With the Right Rockville SEO Company "
-          subText="We provide powerful SEO solutions to all our customers and we will provide those same solutions to grow your business."
+          heroText="Work with the Right Rockville SEO Company "
+          subText="Grow your traffic, leads, and sales with powerfull SEO solutions that work"
           backgroundImage="/images/rockville-seo-company-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center left"
@@ -90,21 +90,21 @@ export default function RockvilleSEO() {
                 </p>
                 <p>This is where we can help.</p>
                 <p>
-                  We get you set up with{' '}
-                  <Link href="/local-seo-services" passHref>
-                    local search engine optimization
-                  </Link>{' '}
-                  (local SEO) to get your website to show up on Google when
-                  people search for your services.
-                </p>
-                <p>
                   We’re a{' '}
                   <Link href="/maryland-seo-company" passHref>
                     <a>SEO company</a>
                   </Link>{' '}
-                  and we help businesses in Rockville build their own lead-gen
-                  websites with SEO.
+                  in Maryland and we help businesses in Rockville build their
+                  own lead-gen websites with SEO.
                 </p>
+                <p>
+                  We get you set up with{' '}
+                  <Link href="/search-engine-optimization" passHref>
+                    search engine optimization
+                  </Link>{' '}
+                  (SEO) so you can appear on Google when it counts.
+                </p>
+
                 <p>
                   How would you like to have your own lead-generating website?
                 </p>
@@ -121,7 +121,7 @@ export default function RockvilleSEO() {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Book an SEO Consultation!</Button>
               </a>
             </div>
           </div>
@@ -198,7 +198,7 @@ export default function RockvilleSEO() {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Get a Free SEO Call Today!</Button>
               </a>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function RockvilleSEO() {
           </div>
           <div className="btn">
             <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Schedule Your Free Consultation Today!</Button>
+              <Button>Schedule Your SEO Consultation!</Button>
             </a>
           </div>
         </section>
@@ -404,7 +404,7 @@ export default function RockvilleSEO() {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule a Free Consultation Today!</Button>
+                <Button>Book a Free SEO Call!</Button>
               </a>
             </div>
           </div>
@@ -597,7 +597,7 @@ export default function RockvilleSEO() {
             </Deliverables>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Book a Free SEO Call!</Button>
               </a>
             </div>
           </div>

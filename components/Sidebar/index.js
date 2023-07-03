@@ -26,11 +26,6 @@ const Sibebar = ({ isOpen, toggle }) => {
         <SidebarWrapper>
           <SidebarMenu>
             <SidebarItem>
-              <SidebarLink href="/local-seo-services" passHref>
-                <SidebarLinkA>Local SEO</SidebarLinkA>
-              </SidebarLink>
-            </SidebarItem>
-            <SidebarItem>
               <SidebarLink href="/search-engine-optimization" passHref>
                 <SidebarLinkA>Search Engine Optimization</SidebarLinkA>
               </SidebarLink>

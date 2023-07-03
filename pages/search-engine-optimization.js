@@ -559,13 +559,25 @@ const Rockville = () => {
                   alt="SEO Company Bethesda, MD"
                   title="SEO Company Bethesda, MD"
                 />
-                <p>Bethesda, MD</p>
+                <Link href="/seo-company-bethesda-md" passHref>
+                  <a>Bethesda, MD</a>
+                </Link>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Crofton, MD"
-                  title="SEO Company Crofton, MD"
+                  alt="Columbia, MD"
+                  title="Columbia, MD"
+                />
+                <Link href="/local-seo-columbia-md" passHref>
+                  <a>Columbia, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Crofton, MD"
+                  title="Crofton, MD"
                 />
                 <Link href="/seo-services-crofton-md" passHref>
                   <a>Crofton, MD</a>
@@ -577,9 +589,7 @@ const Rockville = () => {
                   alt="SEO Company Chesapeake Beach, MD"
                   title="SEO Company Chesapeake Beach, MD"
                 />
-                <Link href="/seo-company-chesapeake-beach-md">
-                  <a>Chesapeake Beach, MD</a>
-                </Link>
+                <p>Chesapeake Beach, MD</p>
               </City>
               <City>
                 <img src="/images/icons/map-location.png" />
@@ -628,11 +638,11 @@ const Rockville = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company South Kensington, MD"
-                  title="SEO Company South Kensington, MD"
+                  alt="SEO Company Kensington, MD"
+                  title="SEO Company Kensington, MD"
                 />
-                <Link href="/seo-company-south-kensington-md" passHref>
-                  <a>South Kensington, MD</a>
+                <Link href="/seo-company-kensington-md" passHref>
+                  <a>Kensington, MD</a>
                 </Link>
               </City>
               <City>

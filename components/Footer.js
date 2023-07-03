@@ -95,11 +95,6 @@ const FooterSection = () => {
             <nav>
               <ul>
                 <li>
-                  <Link href="/local-seo-services">
-                    <a>Local SEO</a>
-                  </Link>
-                </li>
-                <li>
                   <Link href="/search-engine-optimization">
                     <a>Search Engine Optimization</a>
                   </Link>

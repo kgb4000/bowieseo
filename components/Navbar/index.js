@@ -60,11 +60,6 @@ const Navbar = ({ toggle }) => {
                 open={open}
                 trigger={<div onClick={handleOpen}>Services</div>}
                 menu={[
-                  <div onClick={handleMenuOne}>
-                    <Link href="/local-seo-services" passHref>
-                      <a>Local SEO</a>
-                    </Link>
-                  </div>,
                   <div onClick={handleMenuTwo}>
                     <Link href="/search-engine-optimization" passHref>
                       <a>Search Engine Optimization</a>
@@ -101,7 +96,7 @@ const Navbar = ({ toggle }) => {
           </NavMenu>
           <NavBtn>
             <NavBtnLink>
-              <BtnLinksA href={calendly}>Lets Talk today!</BtnLinksA>
+              <BtnLinksA href={calendly}>Book Your SEO Call!</BtnLinksA>
             </NavBtnLink>
             {/* <NavBtnLink>
               <BtnLinksA href="tel:+2402660588">Call (240) 266-0588</BtnLinksA>

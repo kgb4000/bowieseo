@@ -19,16 +19,16 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const SEOAgency = 'SEO professionals'
 
-export default function SouthKensingtonMD() {
+export default function KensingtonMD() {
   const SEO = {
     title:
       'SEO Company in South Kensington, MD | Increase Customers, Leads and Revenue',
     description: `We're an SEO company in South Kensington, MD. Our services help customers find your business on Google. Call us today!`,
-    canonical: 'https://bowieseo.com/seo-company-south-kensington-md',
+    canonical: 'https://bowieseo.com/seo-company-kensington-md',
     openGraph: {
       title:
-        'SEO Company in South Kensington, MD | Increase Customers, Leads and Revenue',
-      description: `We're an SEO company in South Kensington, MD. Our services help customers find your business on Google. Call us today!`,
+        'SEO Company in Kensington, MD | Increase Customers, Leads and Revenue',
+      description: `We're an SEO company in Kensington, MD. Our services help customers find your business on Google. Call us today!`,
       image: [{}],
     },
   }
@@ -37,7 +37,7 @@ export default function SouthKensingtonMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Our SEO Company in South Kensington, MD, Can Help Boost Leads, Sales, and Revenue"
+          heroText="Our SEO Company in Kensington, MD, Can Help Boost Leads, Sales, and Revenue"
           subText="We use everything we know about search engine optimization to increase your business's customers and sales."
           backgroundImage="/images/seo-services-south-kensington-md-cover.webp"
           backgroundHeight="70vh"
@@ -50,10 +50,10 @@ export default function SouthKensingtonMD() {
             <div className="grid">
               <div>
                 <h2>
-                  You Can Keep Losing Money Every Month or Use South Kensington
-                  SEO Strategies to Start Making Money.
+                  You Can Keep Losing Money Every Month or Use SEO to
+                  Start Making Money.
                 </h2>
-                <p>You run a company in South Kensington, MD.</p>
+                <p>You run a company in Kensington, MD.</p>
                 <p>
                   You're trying to figure out how to get more leads and
                   customers to your business, but nothing is working.
@@ -78,7 +78,7 @@ export default function SouthKensingtonMD() {
                   <Link href="/maryland-seo-company" passHref>
                     <a>Maryland SEO company</a>
                   </Link>{' '}
-                  assisting South Kensington small business owners. We help
+                  assisting Kensington business owners. We help
                   generate more customers and leads by creating a
                   lead-generation system customized to your business.
                 </p>
@@ -97,8 +97,8 @@ export default function SouthKensingtonMD() {
               <img
                 src="/images/seo-company-south-kensington-md.jpg"
                 className="page-img-left"
-                alt="Business owner thinking about getting SEO Services for his business in South Kensington, MD"
-                title="Business owner thinking about getting SEO Services in South Kensington Maryland"
+                alt="Business owner thinking about getting SEO Services for his business in Kensington, MD"
+                title="Business owner thinking about getting SEO Services in Kensington Maryland"
                 width="600"
                 height="1000"
               />
@@ -113,7 +113,7 @@ export default function SouthKensingtonMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get With Our SEO Solutions in South Kensington, MD
+              What You Get With Our SEO Solutions in Kensington
             </h2>
             <p className="subtext">When you work with us, you get:</p>
           </div>
@@ -132,8 +132,8 @@ export default function SouthKensingtonMD() {
                     Our team of SEO professionals is here to help you with free
                     expert guidance and support. Reach us by phone or email to
                     address any of your questions. We're here to support your
-                    growing company in any way we can use digital marketing
-                    and SEO.
+                    growing company in any way we can use digital marketing and
+                    SEO.
                   </p>
                 </div>
               </Deliverable>
@@ -166,7 +166,8 @@ export default function SouthKensingtonMD() {
                   <p>
                     We offer Google My Business management to help improve your
                     local SEO rankings. Get a GMB page that is completely
-                    optimized and ranks in the map pack and local search results.
+                    optimized and ranks in the map pack and local search
+                    results.
                   </p>
                 </div>
               </Deliverable>
@@ -216,10 +217,11 @@ export default function SouthKensingtonMD() {
                   <h3>Local SEO</h3>
                   <p>
                     Show up when it counts. Local SEO puts your website in front
-                    of local customers looking for your services. With local SEO,
-                    local customers will be able to find your company instead of
-                    one of your competitors. Get optimized content, a faster
-                    website, and give your customers a better user experience.
+                    of local customers looking for your services. With local
+                    SEO, local customers will be able to find your company
+                    instead of one of your competitors. Get optimized content, a
+                    faster website, and give your customers a better user
+                    experience.
                   </p>
                 </div>
               </Deliverable>
@@ -250,11 +252,10 @@ export default function SouthKensingtonMD() {
                 <div>
                   <h3>Content/Service Page Creation/Optimization</h3>
                   <p>
-                    We'll write your content and service pages
-                    for your website so that you won't have to. We write content
-                    that bring in the most sales and money. We use the data
-                    gathered from our SEO audit, keyword research, and
-                    competitor analysis.
+                    We'll write your content and service pages for your website
+                    so that you won't have to. We write content that bring in
+                    the most sales and money. We use the data gathered from our
+                    SEO audit, keyword research, and competitor analysis.
                   </p>
                 </div>
               </Deliverable>
@@ -306,7 +307,7 @@ export default function SouthKensingtonMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Services Help Businesses Like Yours in South Kensington, Get
+              Our Services Help Businesses Like Yours in Kensington, Get
               More Leads and Customers
             </h2>
             <p className="subtext">
@@ -317,14 +318,14 @@ export default function SouthKensingtonMD() {
               <div className="service-card">
                 <img
                   src="/images/south-kensington-search-engine-optimization.webp"
-                  alt="South Kensington SEO Services"
-                  title="South Kensington SEO Services"
+                  alt="Kensington SEO Services"
+                  title="Kensington SEO Services"
                   width="1000px"
                   height="665px"
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>South Kensington Search Engine Optimization</h3>
+                  <h3>Search Engine Optimization in Kensington</h3>
                   <p>
                     Practice search engine optimization and make sure your
                     customers can find your business on Google instead of your
@@ -335,8 +336,8 @@ export default function SouthKensingtonMD() {
               <div className="service-card">
                 <img
                   src="/images/south-kensington-gmb-management.webp"
-                  alt="South Kensington Google My Business Management"
-                  title="South Kensington Google My Business Management"
+                  alt="Google My Business Management"
+                  title="Google My Business Management"
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -378,12 +379,12 @@ export default function SouthKensingtonMD() {
                 src="/images/home-service-business-south-kensington-md.webp"
                 className="page-img"
                 alt="Home service buisness."
-                title="Home service businesses we work with in South Kensington."
+                title="Home service businesses we work with in Kensington."
               />
               <div>
-                <h2>Businesses We Work With in South Kensington.</h2>
+                <h2>Businesses We Work With in Kensington, MD.</h2>
                 <p>
-                  We work with home service businesses in South Kensington that
+                  We work with home service businesses that
                   provide services to homeowners and businesses. We focus on
                   helping you increase your online presence, leads, and sales.
                 </p>
@@ -624,7 +625,7 @@ export default function SouthKensingtonMD() {
                 acceptedAnswerText: `The short answer is yes. Small businesses can benefit greatly from SEO. In fact, SEO may be one of the best marketing techniques for small businesses to boost their exposure and draw in new clients. Small businesses can raise their SEO rankings and increase organic traffic by optimizing their websites. This can result in increased brand recognition, website traffic, and potential leads or sales. Even though SEO can take time and effort to produce results, it offers long-term advantages and can be a reasonably priced way for small businesses to compete with established ones in their industry.`,
               },
               {
-                questionName: 'How much does SEO cost in South Kensington?',
+                questionName: 'How much does SEO cost in Kensington?',
                 acceptedAnswerText: `SEO can cost anywhere between $1000 and $5,000. The price will change based on the level of industry, competition and the target keywords.`,
               },
               {
@@ -662,7 +663,7 @@ export default function SouthKensingtonMD() {
           />
           <div className="medium-container">
             <h2 className="title">
-              FAQs About Our SEO Services in South Kensington, Maryland
+              FAQs About Our SEO Services in Kensington, MD
             </h2>
             <ReasonSec>
               <div>
@@ -705,7 +706,7 @@ export default function SouthKensingtonMD() {
                     actively looking for what you offer, making it a worthwhile
                     investment for businesses of all sizes.
                   </p>
-                  <h3>How much does SEO cost in South Kensington?</h3>
+                  <h3>How much does SEO cost in Kensington?</h3>
                   <p>
                     SEO can cost anywhere between $1000 and $5,000. The price
                     will change based on the level of industry, competition and
@@ -841,8 +842,8 @@ export default function SouthKensingtonMD() {
         <div className="call-to-action-grid">
           <img
             src="/images/business-man-calling-about-seo-services.webp"
-            alt="Man calling to get SEO services in South Kensington."
-            title="Man calling to get SEO services in South Kensington."
+            alt="Man calling to get SEO services."
+            title="Man calling to get SEO services."
             width="1000px"
             height="65px"
             loading="lazy"
@@ -850,8 +851,8 @@ export default function SouthKensingtonMD() {
           <div className="container">
             <h2>Are you ready to get more leads, sales, and money?</h2>
             <p>
-              Contact our SEO experts, and we'll show you how our South
-              Kensington SEO services can help your business grow through search
+              Contact our SEO experts, and we'll show you how our
+              SEO services can help your business grow through search
               engine optimization.
             </p>
             <div className="btn">

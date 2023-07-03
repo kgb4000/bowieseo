@@ -17,11 +17,11 @@ import { NextSeo } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
-export default function LocalSEO() {
+export default function LocalSEOColumbiaMD() {
   const SEO = {
     title: 'Local SEO Services Helping Boost Traffic, Leads, and Sales',
     description: `Looking for a boost in local search results? Our local SEO services in Maryland can help increase your web traffic so more customers can find you.`,
-    canonical: 'https://bowieseo.com/local-seo-services',
+    canonical: 'https://bowieseo.com/local-seo-columbia-md',
     openGraph: {
       title: 'Local SEO Services Helping Boost Traffic, Leads, and Sales',
       description: `Looking for a boost in local search results? Our local SEO services in Maryland can help increase your web traffic so more customers can find you.`,
@@ -33,12 +33,12 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Boost Traffic, Leads, and Revenue With Our Local SEO Services from Bowie SEO"
-          subText="We provide Local SEO services to small businesses in Maryland to help increase leads, sales, and growth."
+          heroText="We Provide Local SEO in Columbia, Maryland"
+          subText="Increase leads, sales, and growth with our local SEO solutions"
           backgroundImage="/images/local-seo-services-maryland-cover.jpg"
           backgroundHeight="70vh"
           backgroundPosition="center left"
-          buttonText="Book a free consultation today!"
+          buttonText="Book an SEO Call today!"
           buttonLink={calendly}
         />
         <section>
@@ -49,15 +49,14 @@ export default function LocalSEO() {
                 className="page-img"
                 width="1000px"
                 height="600px"
-                alt="A business owner considering Local SEO Maryland services."
-                title="A business owner considering Local SEO Maryland services."
+                alt="A business owner considering local SEO services."
+                title="A business owner considering local SEO services."
                 loading="lazy"
               />
               <div>
                 <h2>
-                  You Have a Choice: Struggle to Get Customers and Leads Every
-                  Month, or Start Doing Local SEO and Increase Your Sales and
-                  Revenue
+                  You Have a Choice: Struggle to Get Customers and Leads, or
+                  Start Doing Local SEO and Boost Revenue
                 </h2>
                 <p>It's not your fault.</p>
                 <p>
@@ -197,7 +196,7 @@ export default function LocalSEO() {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Book a Free SEO Call!</Button>
               </a>
             </div>
           </div>
@@ -205,7 +204,8 @@ export default function LocalSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Local SEO Services Can Help Your Businesses Grow
+              Our Local SEO Services in Columbia Businesses Can Help Your
+              Businesses Grow
             </h2>
             <p className="title subtext">
               We provide local SEO to all Maryland businesses.
@@ -280,11 +280,11 @@ export default function LocalSEO() {
               <img
                 src="/images/businesses-we-provide-local-seo-services.jpg"
                 className="page-img"
-                alt="Small local Maryland businesses we work with."
-                title="Small local Maryland businesses we work with."
+                alt="Businesses we work with in Columbia."
+                title="Businesses we work with in Columbia."
               />
               <div>
-                <h2>Some of the Businesses We Work With in Maryland.</h2>
+                <h2>Some of the Businesses We Work With in Columbia, MD.</h2>
                 <p>
                   We work with small businesses like yours and focus on helping
                   you increase your web presence, leads, and sales for your
@@ -407,12 +407,8 @@ export default function LocalSEO() {
         </section>
         <section>
           <div className="container">
-            <h2 className="title">
-              Benefits of Using Maryland Local Search Engine Optimization
-            </h2>
-            <p className="subtext">
-              When start using local SEO for your MD business, you get:
-            </p>
+            <h2 className="title">Benefits of Doing Local SEO</h2>
+            <p className="subtext">When you do local SEO, you get:</p>
           </div>
           <div className="medium-container">
             <Deliverables>
@@ -675,7 +671,9 @@ export default function LocalSEO() {
             <ReasonSec>
               <div>
                 <div className="question">
-                  <h3>How much does local SEO cost in Maryland?</h3>
+                  <h3>
+                    How much does local SEO cost for a business in Columbia?
+                  </h3>
                   <p>
                     Generally, local SEO can cost anywhere from{' '}
                     <b>$1000 to $5000</b> per month. The cost of local SEO will
@@ -813,14 +811,16 @@ export default function LocalSEO() {
             loading="lazy"
           />
           <div className="container">
-            <h2>Ready to Get More Local Customers for Your Business?</h2>
+            <h2>
+              Ready to Get More Local Customers in Columbia and Howard County?
+            </h2>
             <p>
               Call us and we'll show you how you can get more customers and grow
               with local SEO services.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book a Free Consultation!</Button>
+                <Button>Book a Free SEO Call!</Button>
               </a>
             </div>
           </div>
