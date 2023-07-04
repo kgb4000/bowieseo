@@ -38,8 +38,8 @@ const MarylandSEOCompany = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Our Maryland SEO Company Gets You More Leads, Sales and Revenue"
-          subText="Let us take care of your website while you focus on what’s important - running your business"
+          heroText="Work with a Maryland SEO Company that Gets You More Leads and Sales"
+          subText="Add SEO to your digital marketing and grow your company"
           backgroundImage="/images/maryland-seo-company.webp"
           backgroundHeight="60vh"
           backgroundPosition="center"

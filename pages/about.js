@@ -35,7 +35,7 @@ const About = () => {
           backgroundImage="/images/about-bowie-seo.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"
-          buttonText="Schedule a free consultation today!"
+          buttonText="Book a Free SEO Call Now!"
           buttonLink={calendly}
         />
         <section>
@@ -70,11 +70,6 @@ const About = () => {
                 </Link>
               </li>
               <li>Technical SEO</li>
-              <li>
-                <Link href="local-seo-services" passHref>
-                  Local SEO
-                </Link>
-              </li>
               <li>Local SEO</li>
               <li>Competitive Analysis</li>
               <li>

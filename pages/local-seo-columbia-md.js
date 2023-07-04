@@ -33,7 +33,7 @@ export default function LocalSEOColumbiaMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="We Provide Local SEO in Columbia, Maryland"
+          heroText="Grow Your Business with Local SEO in Columbia, Maryland"
           subText="Increase leads, sales, and growth with our local SEO solutions"
           backgroundImage="/images/local-seo-services-maryland-cover.jpg"
           backgroundHeight="70vh"
@@ -42,7 +42,7 @@ export default function LocalSEOColumbiaMD() {
           buttonLink={calendly}
         />
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <img
                 src="/images/local-seo-services-maryland.jpg"
@@ -128,7 +128,7 @@ export default function LocalSEOColumbiaMD() {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <img
                 src="/images/local-seo-maryland-client-smiling.jpg"
@@ -161,7 +161,7 @@ export default function LocalSEOColumbiaMD() {
                 <p>There is.</p>
                 <p>
                   It's called local <strong>search engine optimization</strong>,
-                  of <strong>local SEO</strong>.
+                  or <strong>local SEO</strong>.
                 </p>
                 <p>
                   With local SEO, you can optimize your website for the search
@@ -221,7 +221,7 @@ export default function LocalSEOColumbiaMD() {
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Local SEO</h3>
+                  <h3>Columbia Local SEO</h3>
                   <p>
                     Start practicing local search engine optimization and make
                     sure your local customers can find your business instead of
@@ -406,8 +406,10 @@ export default function LocalSEOColumbiaMD() {
           </div>
         </section>
         <section>
-          <div className="container">
-            <h2 className="title">Benefits of Doing Local SEO</h2>
+          <div className="medium-container">
+            <h2 className="title">
+              Benefits of Doing Local SEO in Columbia, MD
+            </h2>
             <p className="subtext">When you do local SEO, you get:</p>
           </div>
           <div className="medium-container">
@@ -666,7 +668,7 @@ export default function LocalSEOColumbiaMD() {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>

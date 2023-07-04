@@ -38,7 +38,7 @@ const Rockville = () => {
           backgroundImage="/images/search-engine-optimization-header.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"
-          buttonText="Schedule a free consultation today!"
+          buttonText="Book my SEO Call Today!"
           buttonLink={calendly}
         />
         <section>
@@ -113,7 +113,7 @@ const Rockville = () => {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Book my SEO Call Now!</Button>
               </a>
             </div>
           </div>
@@ -197,7 +197,7 @@ const Rockville = () => {
 
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Book my SEO Call Today!</Button>
               </a>
             </div>
           </div>
@@ -398,7 +398,7 @@ const Rockville = () => {
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule a Free Consultation Today!</Button>
+                <Button>Book my SEO Call Now!</Button>
               </a>
             </div>
           </div>
@@ -514,7 +514,7 @@ const Rockville = () => {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule a Free Consultation Today!</Button>
+                <Button>Book my SEO Call Now!</Button>
               </a>
             </div>
           </div>
@@ -594,10 +594,7 @@ const Rockville = () => {
                 <img src="/images/icons/map-location.png" />
                 <p>Glen Burnie</p>
               </City>
-              <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Hyattsville, MD</p>
-              </City>
+
               <City>
                 <img src="/images/icons/map-location.png" />
                 <Link href="/seo-company-laurel-md" passHref>
@@ -681,7 +678,7 @@ const Rockville = () => {
             </Cities>
             <div className="btn">
               <a href="tel:+2402660588">
-                <Button>Call (240) 266-0588 today!</Button>
+                <Button>Book an SEO Call Today!</Button>
               </a>
             </div>
           </div>
@@ -734,7 +731,7 @@ const Rockville = () => {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule a Free Consultation Today!</Button>
+                <Button>Book my SEO Call Now!</Button>
               </a>
             </div>
           </div>
@@ -955,7 +952,7 @@ const Rockville = () => {
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule a Free Consultation!</Button>
+                <Button>Book my SEO Call Now!</Button>
               </a>
             </div>
           </div>

@@ -24,7 +24,7 @@ export default function Home({ data }) {
           backgroundImage="/images/bowieseo-header-img.webp"
           backgroundHeight="80vh"
           backgroundPosition="center"
-          buttonText="Schedule a free consultation today!"
+          buttonText="Book an SEO Call Today!"
           buttonLink={calendly}
           loading="lazy"
         />
@@ -93,7 +93,7 @@ export default function Home({ data }) {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Call to Fix Your SEO!</Button>
               </a>
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function Home({ data }) {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Call to Optimize your Site !</Button>
               </a>
             </div>
           </div>
@@ -240,7 +240,7 @@ export default function Home({ data }) {
             </Service>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Book Your SEO Call Today!</Button>
               </a>
             </div>
           </div>
@@ -784,7 +784,7 @@ export default function Home({ data }) {
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule a Free Consultation!</Button>
+                <Button>Book an SEO Consultation!</Button>
               </a>
             </div>
           </div>
