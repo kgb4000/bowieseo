@@ -140,10 +140,9 @@ const Rockville = () => {
                   businesses like yours.
                 </p>
                 <p>
-                  That’s a lot of people searching, and that’s why you need SEO
-                  or{' '}
-                  <Link href="/local-seo-services" passHref>
-                    local SEO
+                  That’s a lot of people searching, and that’s why you need{' '}
+                  <Link href="/maryland-seo-company" passHref>
+                    Maryland SEO company
                   </Link>
                   .
                 </p>
