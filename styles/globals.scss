@@ -215,12 +215,14 @@ h2 {
   }
 
   .call-to-action-grid {
+    max-width: 1540px;
+    margin: 0 auto;
+
     p {
       font-weight: 700;
     }
 
     @media screen and (min-width: 1024px) {
-      margin: 0;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 40px;
