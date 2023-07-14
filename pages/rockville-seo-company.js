@@ -21,13 +21,12 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function RockvilleSEO() {
   const SEO = {
-    title: 'Rockville SEO Company Helping Businesses Boost Revenue and Growth',
-    description: `We're an SEO company in Rockville, MD. Our SEO services help bring you more website traffic, leads, and customers. Book a call today!`,
+    title: 'Rockville SEO Company | We Help Boost Revenue and Growth',
+    description: `We're an SEO company in Rockville, MD. Our SEO services help bring you more free organic website traffic, leads, and customers. Book a call today!`,
     canonical: 'https://bowieseo.com/rockville-seo-company',
     openGraph: {
-      title:
-        'Rockville SEO Company Helping Businesses Boost Revenue and Growth',
-      description: `We're an SEO company in Rockville, MD. Our SEO services help bring you more website traffic, leads, and customers. Book a call today!`,
+      title: 'Rockville SEO Company | We Help Boost Revenue and Growth',
+      description: `We're an SEO company in Rockville, MD. Our SEO services help bring you more free organic website traffic, leads, and customers. Book a call today!`,
       image: [{}],
     },
   }
@@ -36,12 +35,12 @@ export default function RockvilleSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Work with the Right Rockville SEO Company "
-          subText="Grow your traffic, leads, and sales with powerfull SEO solutions that work"
+          heroText="Work with the Right Rockville SEO Company to Grow Your Business"
+          subText="Grow your traffic, leads, and sales with powerfull custom SEO solutions that get the results you want"
           backgroundImage="/images/rockville-seo-company-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center left"
-          buttonText="Schedule a free consultation today!"
+          buttonText="Book Your free SEO Call today!"
           buttonLink={calendly}
         />
         <section>
@@ -687,7 +686,7 @@ export default function RockvilleSEO() {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2 className="title">Frequently Asked Questions</h2>
             <ReasonSec>
               <div>

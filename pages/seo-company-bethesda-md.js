@@ -21,14 +21,14 @@ const SEOAgency = 'SEO professionals'
 
 export default function BethesdaMD() {
   const SEO = {
-    title: 'SEO Company in Bethesda, MD?  Check Us Out First.',
+    title: 'SEO Company in Bethesda, MD | Check Us Out First.',
     description:
-      'We are an SEO company in Bethesda, MD. We help businesses get found by customers searching for services like yours. Call us today!',
+      'Need and SEO company in Bethesda to get you more leads and customers?. We help businesses like yours get found in Google. Book a free call today!',
     canonical: 'https://bowieseo.com/seo-company-bethesda-md',
     openGraph: {
-      title: 'SEO Company in Bethesda, MD?  Check Us Out First.',
+      title: 'SEO Company in Bethesda, MD | Check Us Out First.',
       description:
-        'We are an SEO company in Bethesda, MD. We help businesses get found by customers searching for services like yours. Call us today!',
+        'Need and SEO company in Bethesda to get you more leads and customers?. We help businesses like yours get found in Google. Book a free call today!',
       image: [{}],
     },
   }
@@ -37,8 +37,8 @@ export default function BethesdaMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Work With an SEO Company in Bethesda, Maryland"
-          subText="Increase traffic, leads, and sales to your business with SEO."
+          heroText="Work With an SEO Company in Bethesda, MD and Grow Your Business"
+          subText="Get free traffic and leads without paying for expensive ads"
           backgroundImage="/images/seo-services-south-kensington-md-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center"
@@ -50,8 +50,7 @@ export default function BethesdaMD() {
             <div className="grid">
               <div>
                 <h2>
-                  Keep Losing Money Every Month or Start Using SEO Services in
-                  and Boost Revenue: You Choose
+                  It's Time to Start Doing SEO and Get More Web Traffic and Leads, Or Else ...
                 </h2>
                 <p>You run a company in Bethesda.</p>
                 <p>
@@ -95,7 +94,7 @@ export default function BethesdaMD() {
                 <p>To get started or learn more, give us a call.</p>
               </div>
               <img
-                src="/images/seo-company-south-kensington-md.jpg"
+                src="/images/seo-company-bethesda-md.jpg"
                 className="page-img-left"
                 alt="Business owner thinking about getting SEO Services for his business in Bethesda"
                 title="Business owner thinking about getting SEO Services in Bethesda"
@@ -316,7 +315,7 @@ export default function BethesdaMD() {
             <Service>
               <div className="service-card">
                 <img
-                  src="/images/south-kensington-search-engine-optimization.webp"
+                  src="/images/bethesda-search-engine-optimization.webp"
                   alt="SEO Services in Bethesda."
                   title="SEO Services in Bethesda."
                   width="1000px"
@@ -334,7 +333,7 @@ export default function BethesdaMD() {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/south-kensington-gmb-management.webp"
+                  src="/images/gmb-management.webp"
                   alt="Google My Business Management."
                   title="Google My Business Management."
                   width="1000px"
@@ -344,7 +343,7 @@ export default function BethesdaMD() {
                 <div className="service">
                   <h3>GMB Management</h3>
                   <p>
-                    Optimize you Google My Business profile an rank locally. Let
+                    Optimize you Google My Business profile and rank in Bethesda. Let
                     us help you take your business to the next level by managing
                     your GMB profile and boosting your local SEO performance.
                   </p>
@@ -352,7 +351,7 @@ export default function BethesdaMD() {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/seo-audit-south-kensington.webp"
+                  src="/images/bethesda-seo-audit.webp"
                   alt="Free Mini SEO Audit"
                   title="Free Mini SEO Audit"
                   width="1000px"
@@ -363,8 +362,8 @@ export default function BethesdaMD() {
                   <h3>Free Mini SEO Audit</h3>
                   <p>
                     See how you can improve your SEO rankings and performance
-                    with a free mini SEO audit from us. Find out what's stopping
-                    you from getting more leads and customers today!
+                    with a free mini SEO audit. Find out what's stopping
+                    customers in Bethesda from finding you!
                   </p>
                 </div>
               </div>
@@ -375,7 +374,7 @@ export default function BethesdaMD() {
           <div className="container">
             <div className="grid">
               <img
-                src="/images/home-service-business-south-kensington-md.webp"
+                src="/images/home-service-business.webp"
                 className="page-img"
                 alt="Home service buisness."
                 title="Home service businesses we work with in Bethesda."
@@ -505,7 +504,7 @@ export default function BethesdaMD() {
 
         <section className="why-work-with-us-section">
           <div className="medium-container">
-            <h2 className="title">Why Work With Us?</h2>
+            <h2 className="title">Why Work With Bethesda SEO Specialists?</h2>
             <p className="sub-text">
               We get the results you need to make your business succeed. From
               increasing traffic, to finding the right leads and convertiong
@@ -767,7 +766,7 @@ export default function BethesdaMD() {
             loading="lazy"
           />
           <div className="container">
-            <h2>Ready to Boost Your Leads, Sales and Income?</h2>
+            <h2>Ready to Get More Customers in Bethesda and Boost Your Leads, Sales and Income?</h2>
             <p>
               Contact our {SEOAgency} and we'll show you how our SEO services in
               Bethesda can help your company grow with search engine

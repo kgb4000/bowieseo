@@ -19,8 +19,7 @@ export default function Home({ data }) {
       <MainLayout>
         <HeroSection
           heroText="We Help You Generate Leads For Your Business Without Online Ads"
-          subText="We use your website to attract and bring more leads
-            and customers, while you focus on growing your business."
+          subText="Use your website to grow your business without paying for ads"
           backgroundImage="/images/bowieseo-header-img.webp"
           backgroundHeight="80vh"
           backgroundPosition="center"
@@ -171,7 +170,11 @@ export default function Home({ data }) {
               of Google
             </h2>
             <p className="subtext">
-              We provide SEO services to home service businesses in{' '}
+              We're a{' '}
+              <Link href="/black-owned-seo-company">
+                black-owned SEO company
+              </Link>{' '}
+              providing SEO services to businesses in{' '}
               <Link href="/maryland-seo-company" passHref>
                 <a>Maryland</a>
               </Link>
@@ -183,7 +186,7 @@ export default function Home({ data }) {
               <Link href="/rockville-seo-company" passHref>
                 <a>Rockville</a>
               </Link>{' '}
-              and other cities and towns in Maryland.
+              and other cities.
             </p>
             <Service>
               <div className="service-card">
@@ -256,12 +259,11 @@ export default function Home({ data }) {
                 loading="lazy"
               />
               <div>
-                <h2>Home Service Businesses We Work With</h2>
+                <h2>Businesses We Work With</h2>
                 <p>
-                  We work with home service businesses that provide services to
-                  customers homes. Our goal is to help home service businesses
-                  like yours increase your online presence and your
-                  profitability.
+                  We work with businesses that provide services to customers
+                  homes. Our goal is to help businesses like yours increase your
+                  online presence and your profitability.
                 </p>
                 <Businesses>
                   <Business>

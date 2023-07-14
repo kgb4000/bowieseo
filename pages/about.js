@@ -42,11 +42,14 @@ const About = () => {
           <div className="small-container">
             <h2>About Bowie SEO</h2>
             <p>
-              Bowie SEO is a search engine optimization company in Bowie,
-              Maryland. We have over 5 years of experience in search engine
-              optimization, and are dedicated to helping you get more website
-              traffic, more leads, and ultimately make more money for your
-              business.{' '}
+              Bowie SEO is a{' '}
+              <Link href="/black-owned-seo-company">
+                black-owned SEO company
+              </Link>{' '}
+              in Bowie, Maryland. We have over 5 years of experience in search
+              engine optimization, and are dedicated to helping you get more
+              website traffic, more leads, and ultimately make more money for
+              your business.{' '}
             </p>
             <p>
               At Bowie SEO, we use our experience and knowledge of search
