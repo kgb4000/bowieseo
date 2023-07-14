@@ -47,7 +47,7 @@ export default function blackOwnedSEOCompany() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="We're a Black Owned SEO Company Helping Buinesses Get Found on Google"
+          heroText="We're a Black Owned SEO Company Helping Businesses Get Found on Google"
           subText="Let us take care of optimizing your website so that you can get more leads and customers."
           backgroundImage="/images/black-owned-seo-agency.webp"
           backgroundHeight="70vh"
@@ -59,8 +59,8 @@ export default function blackOwnedSEOCompany() {
           <div className="medium-container grid">
             <div>
               <h2>
-                Atttract More Leads Using SEO in Salisbury, or Lose Leads to
-                Your Competition: It's Your Decision
+                Attract More Leads Using SEO in Salisbury, or Lose Leads to Your
+                Competition: It's Your Decision
               </h2>
               <p>
                 You're trying to figure out how to get more leads and customers
@@ -128,7 +128,7 @@ export default function blackOwnedSEOCompany() {
                 <div>
                   <h3>Expert one-on-one support</h3>
                   <p>
-                    We giv e you free, knowledgeable advice and support from our
+                    We give you free, knowledgeable advice and support from our
                     SEO specialists. Contact us by phone or email if you have
                     any questions. We're here to support your expanding business
                     in any way we can.
