@@ -19,12 +19,14 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function LocalSEOColumbiaMD() {
   const SEO = {
-    title: 'Local SEO Services Helping Boost Traffic, Leads, and Sales',
-    description: `Looking for a boost in local search results? Our local SEO services in Maryland can help increase your web traffic so more customers can find you.`,
+    title:
+      'Local SEO Columbia MD | Get Free Web Traffic and Grow Your Business',
+    description: `Want more local customers? Our local SEO services in Columbia, MD can help increase your web traffic so more customers can find you. Book a call today.`,
     canonical: 'https://bowieseo.com/local-seo-columbia-md',
     openGraph: {
-      title: 'Local SEO Services Helping Boost Traffic, Leads, and Sales',
-      description: `Looking for a boost in local search results? Our local SEO services in Maryland can help increase your web traffic so more customers can find you.`,
+      title:
+        'Local SEO Columbia MD | Get Free Web Traffic and Grow Your Business',
+      description: `Want more local customers? Our local SEO services in Columbia, MD can help increase your web traffic so more customers can find you. Book a call today.`,
       image: [{}],
     },
   }
@@ -33,19 +35,19 @@ export default function LocalSEOColumbiaMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Grow Your Business with Local SEO in Columbia, Maryland"
+          heroText="Grow Your Business with a Local SEO Company in Columbia, MD"
           subText="Increase leads, sales, and growth with our local SEO solutions"
           backgroundImage="/images/local-seo-services-maryland-cover.jpg"
           backgroundHeight="70vh"
           backgroundPosition="center left"
-          buttonText="Book an SEO Call today!"
+          buttonText="Book Your Free SEO Call!"
           buttonLink={calendly}
         />
         <section>
           <div className="medium-container">
             <div className="grid">
               <img
-                src="/images/local-seo-services-maryland.jpg"
+                src="/images/local-seo-columbia-md.jpg"
                 className="page-img"
                 width="1000px"
                 height="600px"
@@ -55,8 +57,8 @@ export default function LocalSEOColumbiaMD() {
               />
               <div>
                 <h2>
-                  You Have a Choice: Struggle to Get Customers and Leads, or
-                  Start Doing Local SEO and Boost Revenue
+                  You Have a Choice: Do Local SEO to Increase Leads and Revenue
+                  or Do Nothing and Continue Struggling
                 </h2>
                 <p>It's not your fault.</p>
                 <p>
@@ -84,7 +86,7 @@ export default function LocalSEOColumbiaMD() {
                 <p>You see your competitors on the first page.</p>
                 <p>How did they do that?</p>
                 <p>How are they on the first page and you're not?</p>
-                <p>
+                {/* <p>
                   You heard about{' '}
                   <Link href="search-engine-optimization" passHref>
                     search engine optimization
@@ -109,11 +111,15 @@ export default function LocalSEOColumbiaMD() {
                   expanding into new territories.
                 </p>
                 <p>Is that what you want?</p>
-                <p>I don’t think so.</p>
+                <p>I don’t think so.</p> */}
                 <p>This is where we can help.</p>
                 <p>
-                  We use local search engine optimization to get your website to
-                  show up on Google when people search for your services.
+                  We use local{' '}
+                  <Link href="search-engine-optimization" passHref>
+                    search engine optimization
+                  </Link>{' '}
+                  (SEO) to get your website to show up on Google when it matters
+                  the most.
                 </p>
                 <p>
                   How would you like to have your own lead-generating machine?
@@ -122,7 +128,7 @@ export default function LocalSEOColumbiaMD() {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
+                <Button>Get Your Free SEO Consultation!</Button>
               </a>
             </div>
           </div>
@@ -131,7 +137,7 @@ export default function LocalSEOColumbiaMD() {
           <div className="medium-container">
             <div className="grid">
               <img
-                src="/images/local-seo-maryland-client-smiling.jpg"
+                src="/images/client-smiling.jpg"
                 className="page-img"
                 width="1000px"
                 height="600px"
@@ -160,36 +166,26 @@ export default function LocalSEOColumbiaMD() {
                 </p>
                 <p>There is.</p>
                 <p>
-                  It's called local <strong>search engine optimization</strong>,
-                  or <strong>local SEO</strong>.
-                </p>
-                <p>
                   With local SEO, you can optimize your website for the search
                   engines and help you attract{' '}
-                  <strong>free organic traffic</strong> from people who are
-                  already looking for what you have to offer.
+                  <strong>free organic traffic</strong>.
                 </p>
                 <p>With Search engine optimization you will:</p>
                 <ul className="check-mark">
                   <li>
-                    Get free organic traffic coming to your website without
-                    paying for ads
+                    Get free organic traffic without
+                    paying for ads.
                   </li>
-                  <li>Increase you leads, sales and revenue</li>
-                  <li>Get more phone calls</li>
-                  <li>Establish your business as the leader and expert</li>
-                  <li>
-                    Get on the first page of Google and get more local customers
-                    requesting your services
-                  </li>
+                  <li>Increase you leads, sales and revenue.</li>
+                  <li>Get more phone calls.</li>
                   <li>
                     Grow your online visibility and let more potential customers
-                    see your business
+                    see your business.
                   </li>
                   <li>
                     Rank higher than your competition in Google search results
                     and let customers find your business instead of your
-                    competitors'
+                    competitors'.
                   </li>
                 </ul>
               </div>
@@ -204,8 +200,7 @@ export default function LocalSEOColumbiaMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Local SEO Services in Columbia Businesses Can Help Your
-              Businesses Grow
+              Our Local SEO Services in Columbia Can Help Grow Your Business
             </h2>
             <p className="title subtext">
               We provide local SEO to all Maryland businesses.
@@ -213,9 +208,9 @@ export default function LocalSEOColumbiaMD() {
             <Service>
               <div className="service-card">
                 <img
-                  src="/images/rockville-search-engine-optimization.webp"
-                  alt="Local SEO Services"
-                  title="Local SEO Services"
+                  src="/images/seo-columbia-md.webp"
+                  alt="Local SEO Columbia."
+                  title="Local SEO Columbia."
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -231,7 +226,7 @@ export default function LocalSEOColumbiaMD() {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/rockville-gmb-management.webp"
+                  src="/images/gmb-management-columbia.webp"
                   alt="Google My Business Management"
                   title="Google My Business Management"
                   width="1000px"
@@ -250,7 +245,7 @@ export default function LocalSEOColumbiaMD() {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/seo-audit-rockville.webp"
+                  src="/images/seo-audit-columbia.webp"
                   alt="Free Mini SEO Audit"
                   title="Free Mini SEO Audit"
                   width="1000px"
@@ -280,8 +275,8 @@ export default function LocalSEOColumbiaMD() {
               <img
                 src="/images/businesses-we-provide-local-seo-services.jpg"
                 className="page-img"
-                alt="Businesses we work with in Columbia."
-                title="Businesses we work with in Columbia."
+                alt="Businesses we work with in Columbia, MD."
+                title="Businesses we work with in Columbia, MD."
               />
               <div>
                 <h2>Some of the Businesses We Work With in Columbia, MD.</h2>
@@ -295,28 +290,28 @@ export default function LocalSEOColumbiaMD() {
                     <img
                       src="/images/icons/interior-designer.png"
                       className="business-icon"
-                      alt="Businesses our company works with - Interior Designers."
-                      title="Businesses we work with - Interior Designers."
+                      alt="Interior Designers."
+                      title="Interior Designers."
                       loading="lazy"
                     />
                     <p>Interior Designers</p>
                   </Business>
                   <Business>
                     <img
-                      src="/images/icons/web-designer.png"
+                      src="/images/icons/hvac-contractors.png"
                       className="business-icon"
-                      alt="Businesses our company works with - Website Designers."
-                      title="Businesses our company works with - Website Designers."
+                      alt="HVAC contractors."
+                      title="HVAC contractors."
                       loading="lazy"
                     />
-                    <p>Website Designers</p>
+                    <p>HVAC Contractors</p>
                   </Business>
                   <Business>
                     <img
                       src="/images/icons/daycare-center.png"
                       className="business-icon"
-                      alt="Businesses we work with - Daycare Centers."
-                      title="Businesses we work with - Daycare Centers."
+                      alt="Daycare Centers."
+                      title="Daycare Centers."
                       loading="lazy"
                     />
                     <p>Daycare Centers</p>
@@ -325,8 +320,8 @@ export default function LocalSEOColumbiaMD() {
                     <img
                       src="/images/icons/cleaning-companies.png"
                       className="business-icon"
-                      alt="Businesses we work with - Cleaning Companies."
-                      title="Businesses we work with - Cleaning Companies."
+                      alt="Cleaning Companies."
+                      title="Cleaning Companies."
                       loading="lazy"
                     />
                     <p>Cleaning Companies</p>
@@ -335,8 +330,8 @@ export default function LocalSEOColumbiaMD() {
                     <img
                       src="/images/icons/catering-companies.png"
                       className="business-icon"
-                      alt="Businesses we work with - Catering Companies."
-                      title="Businesses we work with - Catering Companies."
+                      alt="Catering Companies."
+                      title="Catering Companies."
                       loading="lazy"
                     />
                     <p>Catering Companies</p>
@@ -345,28 +340,28 @@ export default function LocalSEOColumbiaMD() {
                     <img
                       src="/images/icons/pest-control-companies.png"
                       className="business-icon"
-                      alt="Businesses we work with - Pest Control Companies."
-                      title="Businesses we work with - Pest Control Companies."
+                      alt="Pest Control Companies."
+                      title="Pest Control Companies."
                       loading="lazy"
                     />
                     <p>Pest Control Companies</p>
                   </Business>
                   <Business>
                     <img
-                      src="/images/icons/property-management.png"
+                      src="/images/icons/roofing-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - Property Management Services."
-                      title="Businesses we work with - Property Management services."
+                      alt="Roofing contractors."
+                      title="Roofing contractors."
                       loading="lazy"
                     />
-                    <p>Property Management</p>
+                    <p>Roofing contractors</p>
                   </Business>
                   <Business>
                     <img
                       src="/images/icons/handyman-services.png"
                       className="business-icon"
-                      alt="Asphalt paving companies - Businesses we work with - Handyman Services."
-                      title="Businesses we work with - Handyman Services."
+                      alt="Handyman Services."
+                      title="Handyman Services."
                       loading="lazy"
                     />
                     <p>Handyman Services</p>
@@ -375,21 +370,21 @@ export default function LocalSEOColumbiaMD() {
                     <img
                       src="/images/icons/swimming-pool-builders.png"
                       className="business-icon"
-                      alt="Businesses we work with - Swimming Pool Builders."
-                      title="Businesses we work with - Swimming Pool Builders."
+                      alt="Swimming Pool Builders."
+                      title="Swimming Pool Builders."
                       loading="lazy"
                     />
                     <p>Swimming Pool Builders</p>
                   </Business>
                   <Business>
                     <img
-                      src="/images/icons/yacht-charter.png"
+                      src="/images/icons/general-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - General Contractors."
-                      title="Businesses we work with - General Contractors."
+                      alt="General Contractors."
+                      title="General Contractors."
                       loading="lazy"
                     />
-                    <p>Yacht Charter Services</p>
+                    <p>General Contractors</p>
                   </Business>
                 </Businesses>
                 <p>
@@ -805,20 +800,21 @@ export default function LocalSEOColumbiaMD() {
         </section>
         <div className="call-to-action-grid">
           <img
-            src="/images/seo-services-rockville-maryland.webp"
-            alt="Business man an calling to work with our local SEO company."
-            title="Business man an calling to work with our local SEO company."
+            src="/images/seo-services-columbia-md.webp"
+            alt="Business man an calling our local SEO company."
+            title="Business man an calling our local SEO company."
             width="1000px"
             height="65px"
             loading="lazy"
           />
           <div className="container">
             <h2>
-              Ready to Get More Local Customers in Columbia and Howard County?
+              Ready to Get More Customers in Columbia Booking Services on Your
+              Website?
             </h2>
             <p>
               Call us and we'll show you how you can get more customers and grow
-              with local SEO services.
+              with local SEO solutions.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">

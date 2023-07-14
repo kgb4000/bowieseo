@@ -96,7 +96,7 @@ const Navbar = ({ toggle }) => {
           </NavMenu>
           <NavBtn>
             <NavBtnLink>
-              <BtnLinksA href={calendly}>Book My SEO Call!</BtnLinksA>
+              <BtnLinksA href={calendly}>Book Your Free SEO Call!</BtnLinksA>
             </NavBtnLink>
             {/* <NavBtnLink>
               <BtnLinksA href="tel:+2402660588">Call (240) 266-0588</BtnLinksA>
