@@ -20,18 +20,18 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const SEOAgency = 'SEO professionals'
 
-export default function CroftonMD() {
+export default function ellicotCityMD() {
   const SEO = {
     title:
-      'SEO Services in Crofton Helping Increase Customers, Leads and Revenue',
+      'SEO Company in Ellicott City MD | Helping Increase Customers, Leads and Revenue',
     description:
-      'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
-    canonical: 'https://bowieseo.com/seo-services-crofton-md',
+      'We provide SEO services in Ellicott City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
+    canonical: 'https://bowieseo.com/seo-company-ellicot-city-md',
     openGraph: {
       title:
-        'SEO Services in Crofton Helping Increase Customers, Leads and Revenue',
+        'SEO Company in Ellicott City MD | Helping Increase Customers, Leads and Revenue',
       description:
-        'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
+        'We provide SEO services in Ellicott City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
       image: [{}],
     },
   }
@@ -40,8 +40,8 @@ export default function CroftonMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Increase Traffic, Leads, and Conversions with SEO Services in Crofton"
-          subText="We use our SEO knowledge to help attract more customers and increase sales for your business."
+          heroText="Our SEO Company in Ellicott City Can Get You More Customers With Google"
+          subText="We use our knowledge of search engines to attract more customers and leads to your business"
           backgroundImage="/images/seo-services-crofton-md-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center"
@@ -53,49 +53,50 @@ export default function CroftonMD() {
             <div className="grid">
               <div>
                 <h2>
-                  Keep Losing Money Every Month or Start Using SEO Services in
-                  Crofton and Make Money: You Choose
+                  Transform Your Ellicott City Business: Boost Profits with
+                  Custom SEO Services
                 </h2>
-                <p>You run a company in Crofton.</p>
+                <p>Do you own a business in Ellicott City?</p>
                 <p>
-                  You're trying to figure out how to get more leads and
-                  customers to your business, but nothing seems to be working.
+                  Do you find yourself grappling with the challenge of
+                  attracting more leads and customers?
                 </p>
                 <p>
-                  You've tried advertising on Facebook, Instagram, and Google,
-                  and you're also paying for leads from HomeAdvisor, Thumbtack,
-                  and Angie's List.
+                  Have you invested time, money, and effort into advertising on
+                  Facebook, Instagram, Google, and even used lead-generation
+                  platforms like HomeAdvisor, Thumbtack, and Angie's List, but
+                  the return on investment just hasn't been there?
                 </p>
-                <p>Problem is, you're not getting your money's worth.</p>
+                <p>It's time for a change.</p>
                 <p>
-                  You keep getting bad leads and tire kickers, and realize
-                  you're wasting your money on ads and lead-gen website.
+                  We know how frustrating it can be to receive low-quality leads
+                  and to feel like you're constantly burning money on
+                  ineffective marketing. What you need is a sustainable,
+                  effective, and affordable strategy.
                 </p>
+                <p>That's where we come in.</p>
                 <p>
-                  You need a system to get leads and customers into your
-                  business regularly, and you need to own that system.
-                </p>
-                <p>We can help with that.</p>
-                <p>
-                  We’re a{' '}
-                  <Link href="/maryland-seo-company" passHref>
-                    <a>Maryland SEO company</a>
-                  </Link>{' '}
-                  that assists Crofton small business owners in generating more
-                  customers and leads by creating a lead generation system
-                  customized to their business.
-                </p>
-                <p>We have you covered.</p>
-                <p>
-                  You don't have to worry about digital marketing that doesn’t
-                  work or paying for leads from lead generation companies that
-                  just take your money.
+                  As a leading{' '}
+                  <Link href="/maryland-seo-company">
+                    SEO company in Maryland
+                  </Link>
+                  , we specialize in helping small businesses in Crofton thrive
+                  by creating customized lead-generation systems. Our service
+                  aims to maximize your online visibility and draw in customers
+                  who are already looking for your services.
                 </p>
                 <p>
-                  We'll work with you to create a system that will produce leads
-                  while you focus on operating your business.
+                  No more stressing over marketing campaigns that yield little
+                  to no results, or paying for leads that go nowhere. We're here
+                  to help build a system that will consistently deliver
+                  high-quality leads, allowing you to concentrate on what you do
+                  best: running your business..
                 </p>
-                <p>To get started or learn more, give us a call.</p>
+                <p>Ready to transform your business and boost profits?</p>
+                <p>
+                  Give us a call to discover more about our tailor-made SEO
+                  services for small businesses in Ellicott City.
+                </p>
               </div>
               <img
                 src="/images/seo-services-crofton-md.jpg"
@@ -108,7 +109,7 @@ export default function CroftonMD() {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book Your Free Call Today!</Button>
+                <Button>Book Your Free SEO Call!</Button>
               </a>
             </div>
           </div>
@@ -116,7 +117,8 @@ export default function CroftonMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get With Our Crofton SEO Services
+              Here's What You Get with Our SEO Services in Ellicott City,
+              Maryland
             </h2>
             <p className="subtext">When you work with us, you get:</p>
           </div>
@@ -130,13 +132,27 @@ export default function CroftonMD() {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Expert one-on-one support</h3>
+                  <h3>Expert One-on-One Support</h3>
                   <p>
-                    Our team of SEO professionals is here to help you with free
-                    expert guidance and support. Reach us by phone or email to
-                    address any of your questions. We're here to support your
-                    growing company, in any way we can using digital marketing
-                    and SEO.
+                    With our Expert One-on-One Support, you are never alone in
+                    your journey towards business success.
+                  </p>
+                  <p>
+                    It's like having a personal guide, an experienced ally who's
+                    there to navigate you through every challenge and decision.
+                  </p>
+                  <p>
+                    They'll understand the unique intricacies of your business,
+                    tailoring solutions to your specific needs.
+                  </p>
+                  <p>
+                    No more generic advice; this is hands-on, personalized
+                    assistance designed to accelerate your growth.
+                  </p>
+                  <p>
+                    With our Expert One-on-One Support, you're not just
+                    investing in a service; you're gaining a partner dedicated
+                    to achieving your business dreams.
                   </p>
                 </div>
               </Deliverable>
@@ -150,45 +166,29 @@ export default function CroftonMD() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    We perform in-depth keyword analysis. This process gives us
-                    the most lucrative and relevant terms to attract clients. We
-                    also build a keyword database so you can continue developing
-                    SEO content.
+                    Turn on Your Customer Magnet - Keyword research is not just
+                    about identifying popular words; it's about reaching into
+                    your customers' minds.
                   </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get Google My Business Management."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>Google My Business Management</h3>
                   <p>
-                    We offer Google My Business management to help improve your
-                    local SEO rankings. Get a GMB page that is completely
-                    optimized and rank in the map pack and local search results.
+                    Imagine being able to 'listen in' on their online searches,
+                    to know precisely what phrases they're typing when they're
+                    in need of your services or products.
                   </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get Google Analytics and Google Search Console set up."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>Google Analytics and Google Console Configuration</h3>
                   <p>
-                    We set up Google Analytics and Search Console accounts.
-                    These tools allow us to track your website performance. They
-                    also allow us to determine how your site is performing on
-                    Google. They also help us decide which changes we can make
-                    to improve rankings and user experience.
+                    This power allows you to craft your online content to echo
+                    their thoughts, effectively drawing them towards your
+                    business like a magnet to steel.
                   </p>
+                  <p>The result?</p>
+                  <p>
+                    Not just more website visitors, but the right kind of
+                    visitors - those ready to take action. With keyword
+                    research, you're not shooting in the dark; you're
+                    strategically targeting those who are most likely to become
+                    your loyal customers.
+                  </p>
+                  <p>Now that's smart business growth.</p>
                 </div>
               </Deliverable>
               <Deliverable>
@@ -201,10 +201,27 @@ export default function CroftonMD() {
                 <div>
                   <h3>SEO Audit</h3>
                   <p>
-                    Find out what is keeping your website from ranking higher on
-                    Google. With an SEO audit, we find out exactly what we need
-                    to fix for your SEO campaign to get off the ground and be
-                    successful.
+                    An SEO Audit is akin to turning on a floodlight in a dark
+                    room.
+                  </p>
+                  <p>
+                    It lays bare the current state of your website's SEO,
+                    revealing both strengths to capitalize on and weaknesses to
+                    be rectified.
+                  </p>
+                  <p>
+                    It's a comprehensive health check-up for your site,
+                    highlighting opportunities to improve rankings, increase
+                    visibility, and attract more targeted traffic.
+                  </p>
+                  <p>
+                    With an SEO audit, you're not just discovering problems;
+                    you're handed a strategic blueprint to outshine competition
+                    and captivate your customers in the digital world.
+                  </p>
+                  <p>
+                    Elevate your online presence with an insightful, thorough
+                    SEO audit, and watch your business thrive.
                   </p>
                 </div>
               </Deliverable>
@@ -218,11 +235,28 @@ export default function CroftonMD() {
                 <div>
                   <h3>Local SEO</h3>
                   <p>
-                    Show up when it counts. Local SEO puts your website in front
-                    local customers looking for your services. With local SEO,
-                    local customers will be able find your company instead of
-                    one of your competitors. Get optimized content, a faster
-                    website, and give your customers a better user experience.
+                    Claim Your Territory in the Digital Landscape - Local SEO is
+                    like your online homing beacon, making sure your business
+                    stands out to customers right in your local area.
+                  </p>
+                  <p>
+                    It's about not just being found, but being found by the
+                    right people - those who live, work, or are simply visiting
+                    your locale and are ready to engage with your business.
+                  </p>
+                  <p>
+                    It's about being their first choice, the local authority in
+                    your industry.
+                  </p>
+                  <p>
+                    With Local SEO, you're not just participating in the online
+                    world, you're cementing your place in your community,
+                    enhancing local visibility, and turning your neighbors into
+                    loyal customers.
+                  </p>
+                  <p>
+                    Harness the power of Local SEO and become the go-to choice
+                    in your area.
                   </p>
                 </div>
               </Deliverable>
@@ -234,12 +268,31 @@ export default function CroftonMD() {
                   loading="lazy"
                 />
                 <div>
-                  <h3>We Give You Weekly Updates</h3>
+                  <h3>Link Building</h3>
                   <p>
-                    Given your hectic schedule, we understand that you might not
-                    have time to check in with us every day. To keep you
-                    informed, we send out a weekly email update or call you to
-                    let you know what's going on.
+                    Establish Digital Bridges to Expand Your Reach - Our Link
+                    Building service is your tool for building a vast,
+                    interconnected network in the online world.
+                  </p>
+                  <p>
+                    It's like constructing digital bridges that guide users from
+                    various corners of the internet straight to your website.
+                  </p>
+                  <p>
+                    But these are not just any bridges; they're built with
+                    quality and authority websites, enhancing your reputation
+                    and boosting your site's visibility in search engine
+                    results.
+                  </p>
+                  <p>
+                    With Link Building, you're not just increasing the number of
+                    links to your site; you're creating valuable pathways for
+                    targeted traffic and gaining the nod of approval from search
+                    engines.
+                  </p>
+                  <p>
+                    Amplify your online influence and ascend search rankings
+                    with our strategic Link Building service.
                   </p>
                 </div>
               </Deliverable>
@@ -251,50 +304,26 @@ export default function CroftonMD() {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Content / Service Page Creation / Optimization</h3>
+                  <h3>Nationwide SEO</h3>
                   <p>
-                    We'll take care of writing your content and service pages
-                    for your website so that you won't have to. We write content
-                    that bring in the most sales and money. We use the data
-                    gathered from our SEO audit, keyword research, and
-                    competitor analysis.
+                    Boost Your Brand Across Borders - Our Nationwide SEO service
+                    is your passport to national visibility and recognition.
                   </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get to know everything we're doing- 100% transparency."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>You'll Know Everything We're Doing</h3>
                   <p>
-                    We're 100% transparent. Never worry about trying to figure
-                    out what we're up to or if we're still working on your
-                    campaign. Our staff will walk you through every stage of
-                    what we're doing and how it's working in detail. We want you
-                    to join in whatever capacity you wish. To give you peace of
-                    mind that your campaign is in capable hands, we aim to keep
-                    you up-to-date at all times.
+                    It's like unlocking the chains of locality, enabling your
+                    business to spread its wings across the entire country.
+                    Through strategic keyword optimization, backlink building,
+                    and content creation, we help your brand resonate with
+                    customers from coast to coast.
                   </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="One-on-one expert support."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>Tracking and Monitoring</h3>
                   <p>
-                    We track and check your SEO campaign to make sure we're on
-                    the right track to get you the results you want. We use
-                    tools like Google Analytics, Google's Search Console,
-                    Ahrefs, and SEMRush.
+                    With Nationwide SEO, you're not just another business lost
+                    in the digital crowd; you're a standout, an authority, a
+                    brand recognized and revered nationwide.
+                  </p>
+                  <p>
+                    Extend your business horizons and solidify your national
+                    presence with our expert Nationwide SEO service.
                   </p>
                 </div>
               </Deliverable>
@@ -309,25 +338,25 @@ export default function CroftonMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Services Help Businesses Like Yours in Crofton, Get More Leads
-              and Customers
+              Our Services Help Businesses Like Yours in Ellicott City, Get More
+              Leads and Customers
             </h2>
             <p className="subtext">
-              We provide search engine optimization to businesses in Crofton and
-              in the rest of Anne Arundel County, Maryland.
+              We provide search engine optimization to businesses in Ellicott
+              City and in the rest of Anne Arundel County, Maryland.
             </p>
             <Service>
               <div className="service-card">
                 <img
                   src="/images/crofton-search-engine-optimization.webp"
-                  alt="Crofton SEO Services"
-                  title="Crofton SEO Services"
+                  alt="Ellicott City SEO Services"
+                  title="Ellicott City SEO Services"
                   width="1000px"
                   height="665px"
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Crofton Search Engine Optimization</h3>
+                  <h3>Ellicott City SEO Services</h3>
                   <p>
                     Practice search engine optimization and make sure your
                     customers can find your business on Google instead of your
@@ -338,8 +367,8 @@ export default function CroftonMD() {
               <div className="service-card">
                 <img
                   src="/images/crofton-gmb-management.webp"
-                  alt="Crofton Google My Business Management"
-                  title="Crofton Google My Business Management"
+                  alt="Ellicott City Google My Business Management"
+                  title="Ellicott City Google My Business Management"
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -380,23 +409,23 @@ export default function CroftonMD() {
               <img
                 src="/images/home-service-business-crofton-md.webp"
                 className="page-img"
-                alt="Home service buisness."
-                title="Home service businesses we work with in Crofton."
+                alt="Businesses we work with in Ellicott City."
+                title="Businesses we work with in Ellicott City."
               />
               <div>
-                <h2>Businesses We Work With in Crofton.</h2>
+                <h2>Businesses We Work With in Ellicott City, Maryland</h2>
                 <p>
-                  We work with home service businesses in Crofton that provide
-                  services to homeowners and businesses. We focus on helping you
-                  increase your online presence, leads, and sales.
+                  We work with home service businesses in Ellicott City that
+                  provide services to homeowners and businesses. We focus on
+                  helping you increase your online presence, leads, and sales.
                 </p>
                 <Businesses>
                   <Business>
                     <img
                       src="/images/icons/asphalt-paving-contractor.png"
                       className="business-icon"
-                      alt="Businesses our company works with - Asphalt paving companies."
-                      title="Businesses we work with - Asphalt paving companies."
+                      alt="Asphalt paving companies."
+                      title="Asphalt paving companies."
                       loading="lazy"
                     />
                     <p>Asphalt Paving Companies</p>
@@ -405,8 +434,8 @@ export default function CroftonMD() {
                     <img
                       src="/images/icons/plumbing-contractors.png"
                       className="business-icon"
-                      alt="Businesses our company works with - Plumbing Contractors."
-                      title="Businesses our company works with - Plumbing Contractors."
+                      alt="Plumbing Contractors."
+                      title="Plumbing Contractors."
                       loading="lazy"
                     />
                     <p>Plumbing Contractors</p>
@@ -415,8 +444,8 @@ export default function CroftonMD() {
                     <img
                       src="/images/icons/hvac-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - HVAC Contractors."
-                      title="Businesses we work with - HVAC Contractors."
+                      alt="HVAC Contractors."
+                      title="HVAC Contractors."
                       loading="lazy"
                     />
                     <p>HVAC Contractors</p>
@@ -425,8 +454,8 @@ export default function CroftonMD() {
                     <img
                       src="/images/icons/roofing-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - Roofing Contractors."
-                      title="Businesses we work with - Roofing Contractors."
+                      alt="Roofing Contractors."
+                      title="Roofing Contractors."
                       loading="lazy"
                     />
                     <p>Roofing Contractors</p>
@@ -435,8 +464,8 @@ export default function CroftonMD() {
                     <img
                       src="/images/icons/landscaping-companies.png"
                       className="business-icon"
-                      alt="Businesses we work with - Landscaping Companies."
-                      title="Businesses we work with - Landscaping Companies."
+                      alt="Landscaping Companies."
+                      title="Landscaping Companies."
                       loading="lazy"
                     />
                     <p>Landscaping Companies</p>
@@ -445,8 +474,8 @@ export default function CroftonMD() {
                     <img
                       src="/images/icons/pest-control-companies.png"
                       className="business-icon"
-                      alt="Businesses we work with - Pest Control Companies."
-                      title="Businesses we work with - Pest Control Companies."
+                      alt="Pest Control Companies."
+                      title="Pest Control Companies."
                       loading="lazy"
                     />
                     <p>Pest Control Companies</p>
@@ -455,8 +484,8 @@ export default function CroftonMD() {
                     <img
                       src="/images/icons/electrical-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - Electrical Contractors."
-                      title="Businesses we work with - Electrical Contractors."
+                      alt="Electrical Contractors."
+                      title="Electrical Contractors."
                       loading="lazy"
                     />
                     <p>Electrical Contractors</p>
@@ -465,8 +494,8 @@ export default function CroftonMD() {
                     <img
                       src="/images/icons/swimming-pool-builders.png"
                       className="business-icon"
-                      alt="Businesses we work with - Swimming Pool Builders."
-                      title="Businesses we work with - Swimming Pool Builders."
+                      alt="Swimming Pool Builders."
+                      title="Swimming Pool Builders."
                       loading="lazy"
                     />
                     <p>Swimming Pool Builders</p>
@@ -475,8 +504,8 @@ export default function CroftonMD() {
                     <img
                       src="/images/icons/junk-removal-companies.png"
                       className="business-icon"
-                      alt="Asphalt paving companies - Businesses we work with."
-                      title="Businesses we work with - Asphalt paving companies."
+                      alt="Businesses we work with."
+                      title="Asphalt paving companies."
                       loading="lazy"
                     />
                     <p>Junk Removal Companies</p>
@@ -485,8 +514,8 @@ export default function CroftonMD() {
                     <img
                       src="/images/icons/general-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - General Contractors."
-                      title="Businesses we work with - General Contractors."
+                      alt="General Contractors."
+                      title="General Contractors."
                       loading="lazy"
                     />
                     <p>General Contractors</p>
@@ -505,8 +534,7 @@ export default function CroftonMD() {
             </div>
           </div>
         </section>
-
-        <section className="why-work-with-us-section">
+        <section>
           <div className="medium-container">
             <h2 className="title">Why Work With Us?</h2>
             <p className="sub-text">
@@ -516,50 +544,81 @@ export default function CroftonMD() {
             </p>
           </div>
           <div className="medium-container">
-            <ReasonSec>
+            <div className="grid">
               <div>
-                <h3>#1. We Create Customized SEO Solutions</h3>
-                <p>
-                  As SEO experts, we are cognizant that each company and website
-                  will require unique services. We therefore provide SEO
-                  services that are appropriate for your company. For each
-                  organization we work with, we develop a customized strategic
-                  plan to build your traffic and online presence.
-                </p>
-                <h3>#2. No Long-Term Contracts</h3>
-                <p>We don't have any long-term contracts.</p>
-                <p>
-                  Just pay monthly for our SEO services and you are free to
-                  cancel anytime with a 30-day notice.
-                </p>
+                <div>
+                  <h3>#1. Get Tailored SEO Solutions</h3>
+                  <p>
+                    The one-size-fits-all strategies just doesn't cut it.
+                    Recognizing the unique essence of your business, we go
+                    beyond the generic and dive into the specifics. Our
+                    expertise in SEO allows us to craft a bespoke action plan,
+                    fine-tuned to your business's unique needs and aspirations.
+                    {/* Partner with us, and you'll get more than just SEO services;
+                    you'll receive a custom-built roadmap to elevate your online
+                    presence and skyrocket your website traffic. Your business
+                    is unique; your SEO strategy should be too. */}
+                  </p>
+                  <h3>#2. No Long-Term Contracts</h3>
+                  <p>
+                    We value your trust and freedom above all else. That's why
+                    we shun the constraints of long-term contracts. With us,
+                    you'll enjoy the flexibility to choose our top-notch SEO
+                    services on a monthly basis, tailored to your changing needs
+                    and aspirations. Want to part ways? We respect your decision
+                    and make the process seamless with just a 30-day notice. Our
+                    commitment is not to bind you with contracts, but to
+                    continually earn your business with our exceptional service.
+                  </p>
+                </div>
+                <div>
+                  <h3>#3. We Never Ever Work With Your Competitors</h3>
+                  <p>
+                    We're not just an SEO company; we're your devoted partner.
+                    When you join forces with us, we pledge an unwavering
+                    commitment to your business alone. Unlike other firms that
+                    might juggle allegiances, we assure you of a complete,
+                    undivided focus on your success. We believe that working
+                    with your competitors in the same city creates a conflict of
+                    interest, and that's a line we refuse to cross.
+                    {/* With us,
+                    you'll have a dedicated partner that puts your growth at the
+                    forefront, always. */}
+                  </p>
+                  {/* <h3>
+                    #4. We're More Than an SEO Provider - We're Your Dedicated
+                    SEO Team!
+                  </h3>
+                  <p>
+                    Choosing us is not about hiring an external agency; it's
+                    about extending your own team. We immerse ourselves in your
+                    business, embracing your vision as our own. Our goal isn't
+                    confined to a temporary spike in your rankings; we're
+                    invested in your long-term growth and prosperity. We strive
+                    not only to make your website shine on search engines today
+                    but also to ensure it continues to radiate success in the
+                    future. With us, you gain more than just SEO expertise; you
+                    gain committed partners invested in your enduring growth.
+                  </p> */}
+                </div>
               </div>
-              <div>
-                <h3>#3. We Never Ever Work With Your Competitors</h3>
-                <p>
-                  As your SEO company, we don't work with your competitors. Some
-                  SEO firms don't care who they work with. They'll work in the
-                  same city as you and your competitors. That's just not right.
-                </p>
-                <h3>
-                  #4. We'e not Some Company You Just Hired to Do Your SEO, We're
-                  YOUR SEO Team!
-                </h3>
-                <p>
-                  When you work with us, we look at your business as if it were
-                  our own. We want your business to grow and prosper. We don't
-                  just want you to rank higher for a few keywords and then
-                  disappear. We want to help your business grow, now and in the
-                  future.
-                </p>
-              </div>
-            </ReasonSec>
+              <img
+                src="/images/seo-experts.webp"
+                className="page-img-left"
+                width="1000px"
+                height="600px"
+                alt="Search engine optimization experts ready to help grow your business."
+                title="Search engine optimization experts ready to help grow your business."
+              />
+            </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book a Free Consultation!</Button>
+                <Button>Book my SEO Call Now!</Button>
               </a>
             </div>
           </div>
         </section>
+
         <section>
           <FAQPageJsonLd
             mainEntity={[
@@ -577,7 +636,7 @@ export default function CroftonMD() {
               },
               {
                 questionName: 'How Long Does SEO Take to See Results?',
-                acceptedAnswerText: `The amount of time it takes to see results depends on a number of variables, including the difficulty of the targeted keywords, the website's current state, the caliber of the content, and the resources allocated to SEO. However, it's crucial to keep in mind that SEO is a long-term strategy that calls for ongoing efforts to maintain and improve rankings. Typically, it can take three to six months to start seeing measurable results from SEO efforts. By consistently using SEO best practices, making high-quality content, and setting up quality links, a website can slowly increase its traffic and potential conversions.`,
+                acceptedAnswerText: `While the duration to see SEO results varies, depending on factors like keyword complexity, website condition, content quality, and SEO resources, it's important to understand that SEO is a marathon, not a sprint. It usually takes a steady effort over three to six months to see tangible results. With diligent application of SEO strategies, creation of superior content, and establishment of quality backlinks, your website can gradually boost its traffic and conversion potential.`,
               },
               {
                 questionName: 'What is better PPC or SEO?',
@@ -586,7 +645,7 @@ export default function CroftonMD() {
               {
                 questionName:
                   'What is the Difference between SEO and Local SEO?',
-                acceptedAnswerText: `SEO is like trying to be the best in a race, but the race is all over the world. Local SEO is like trying to be the best in a race, but the race is only in your town. Local SEO helps people in your town find your website when they're looking for things like "pizza places near me" or "hair  salons in my area." This is important for businesses like stores, restaurants, and services that only operate in one area. Local SEO helps them be more visible to people who are looking for things near them, and it's a way to make sure they don't get lost in the big world race.`,
+                acceptedAnswerText: `SEO is like running a global marathon, aiming for worldwide visibility. In contrast, Local SEO is a hometown sprint, optimizing your business for local searches like "pizza places near me." It's ideal for businesses serving a specific area, ensuring they shine locally amidst the global race."`,
               },
               {
                 questionName: 'How long would it take to rank my website?',
@@ -598,18 +657,29 @@ export default function CroftonMD() {
                   'Our contracts are month-to-month. You can cancel at any time with 30 days written notice. We require a 3-month minimum to start to properly establish your baseline and see results. After the first 3 months, you are free to cancel at any time. There are no long-term contracts or commitments.',
               },
               {
-                questionName: 'Can You Guarantee Me #1 Rankings on Google?',
-                acceptedAnswerText: `Getting to the top of Google's search rankings is like trying to win a race. You have to be really good and fast to beat all the other people in the race. Just like in a race, there is no way to know for sure who will win, but you can practice and do things that will make you faster and better. That's what people who work on SEO do. They try to make your  website better and faster so it can be one of the best in the race. But just like in a race, there is no guarantee that your website will win, but if you keep practicing and making it better, you will have a better chance of doing well.`,
+                questionName: 'Can We Promise You the #1 Spot on Google?',
+                acceptedAnswerText: `Picture SEO as a fiercely competitive race. Achieving the
+                    top spot on Google is like striving to outpace all other
+                    runners. Just as in any race, there's no guaranteed victor.
+                    However, you can hone your skills and strategies to enhance
+                    your performance and speed. This is precisely what we do
+                    with SEO - optimize your website to make it stronger and
+                    more competitive in the digital race. While there are no
+                    guarantees in this race, consistent efforts and smart
+                    strategies significantly boost your chances of securing a
+                    leading position.`,
               },
               {
                 questionName: 'Do You Have to Change My site for SEO to work?',
-                acceptedAnswerText: `We might have to.
-                We will update your website's title, meta tags, and content to reflect keywords that we believe will be most valuable to you. Additionally, we'll create or update your website's sitemap so that search engines can more easily find and index your site. Finally, we'll set up Google Analytics so that you can track your SEO progress over time. And we may have to alter the design if it is not user friendly.`,
+                acceptedAnswerText: `Possibly, yes.
+                To optimize your site for search engines, we might need to make some alterations. This includes strategically infusing relevant keywords into your website's title, meta tags, and content. To facilitate search engines in locating and indexing your site, we might need to create or revamp your sitemap. Additionally, we'll set up Google Analytics and Google Search Console, allowing you to track your SEO progress. If your site isn't user-friendly, a design overhaul might also be on the cards. So, while we may need to make changes, it's all aimed at enhancing your website's SEO performance and user experience.`,
               },
             ]}
           />
           <div className="medium-container">
-            <h2 className="title">FAQs About Our SEO Services in Crofton</h2>
+            <h2 className="title">
+              FAQs About Our SEO Services in Ellicott City
+            </h2>
             <ReasonSec>
               <div>
                 <div className="question">
@@ -640,7 +710,7 @@ export default function CroftonMD() {
                     reasonably priced way for small businesses to compete with
                     established ones in their industry.
                   </p>
-                  <h3>How much does SEO cost in Crofton?</h3>
+                  <h3>How much does SEO cost in Ellicott City?</h3>
                   <p>
                     SEO can cost anywhere between $1000 and $5,000. The price
                     will change based on the level of industry, competition and
@@ -662,17 +732,15 @@ export default function CroftonMD() {
                 <div className="question">
                   <h3>How Long Does SEO Take to See Results?</h3>
                   <p>
-                    The amount of time it takes to see results depends on a
-                    number of variables, including the difficulty of the
-                    targeted keywords, the website's current state, the caliber
-                    of the content, and the resources allocated to SEO. However,
-                    it's crucial to keep in mind that SEO is a long-term
-                    strategy that calls for ongoing efforts to maintain and
-                    improve rankings. Typically, it can take three to six months
-                    to start seeing measurable results from SEO efforts. By
-                    consistently using SEO best practices, making high-quality
-                    content, and setting up quality links, a website can slowly
-                    increase its traffic and potential conversions.
+                    While the duration to see SEO results varies, depending on
+                    factors like keyword complexity, website condition, content
+                    quality, and SEO resources, it's important to understand
+                    that SEO is a marathon, not a sprint. It usually takes a
+                    steady effort over three to six months to see tangible
+                    results. With diligent application of SEO strategies,
+                    creation of superior content, and establishment of quality
+                    backlinks, your website can gradually boost its traffic and
+                    conversion potential.
                   </p>
                 </div>
                 <div className="question">
@@ -691,16 +759,12 @@ export default function CroftonMD() {
                 <div className="question">
                   <h3>What is the Difference between SEO and Local SEO?</h3>
                   <p>
-                    SEO is like trying to be the best in a race, but the race is
-                    all over the world. Local SEO is like trying to be the best
-                    in a race, but the race is only in your town. Local SEO
-                    helps people in your town find your website when they're
-                    looking for things like "pizza places near me" or "hair
-                    salons in my area." This is important for businesses like
-                    stores, restaurants, and services that only operate in one
-                    area. Local SEO helps them be more visible to people who are
-                    looking for things near them, and it's a way to make sure
-                    they don't get lost in the big world race.
+                    SEO is like running a global marathon, aiming for worldwide
+                    visibility. In contrast, Local SEO is a hometown sprint,
+                    optimizing your business for local searches like "pizza
+                    places near me." It's ideal for businesses serving a
+                    specific area, ensuring they shine locally amidst the global
+                    race."
                   </p>
                 </div>
                 <div className="question">
@@ -726,33 +790,35 @@ export default function CroftonMD() {
                 </div>
 
                 <div className="question">
-                  <h3>Can You Guarantee Me #1 Rankings on Google?</h3>
+                  <h3>Can We Promise You the #1 Spot on Google?</h3>
                   <p>
-                    Getting to the top of Google's search rankings is like
-                    trying to win a race. You have to be really good and fast to
-                    beat all the other people in the race. Just like in a race,
-                    there is no way to know for sure who will win, but you can
-                    practice and do things that will make you faster and better.
-                    That's what people who work on SEO do. They try to make your
-                    website better and faster so it can be one of the best in
-                    the race. But just like in a race, there is no guarantee
-                    that your website will win, but if you keep practicing and
-                    making it better, you will have a better chance of doing
-                    well.
+                    Picture SEO as a fiercely competitive race. Achieving the
+                    top spot on Google is like striving to outpace all other
+                    runners. Just as in any race, there's no guaranteed victor.
+                    However, you can hone your skills and strategies to enhance
+                    your performance and speed. This is precisely what we do
+                    with SEO - optimize your website to make it stronger and
+                    more competitive in the digital race. While there are no
+                    guarantees in this race, consistent efforts and smart
+                    strategies significantly boost your chances of securing a
+                    leading position.
                   </p>
                 </div>
                 <div className="question">
                   <h3>Do You Have to Change My site for SEO to work?</h3>
-                  <p>We might have to.</p>
+                  <p>Possibly, yes.</p>
                   <p>
-                    The keywords we think will be most useful to you will be
-                    reflected in the title, meta tags, and content of your
-                    website. In order to make it easier for search engines to
-                    find and index your website, we'll also create or update
-                    your sitemap. Last but not least, we'll configure Google
-                    Analytics and Google Search Console so you can monitor your
-                    SEO growth over time. And if it is not a user-friendly site,
-                    we may want to change the design.
+                    To optimize your site for search engines, we might need to
+                    make some alterations. This includes strategically infusing
+                    relevant keywords into your website's title, meta tags, and
+                    content. To facilitate search engines in locating and
+                    indexing your site, we might need to create or revamp your
+                    sitemap. Additionally, we'll set up Google Analytics and
+                    Google Search Console, allowing you to track your SEO
+                    progress. If your site isn't user-friendly, a design
+                    overhaul might also be on the cards. So, while we may need
+                    to make changes, it's all aimed at enhancing your website's
+                    SEO performance and user experience.
                   </p>
                 </div>
               </div>
@@ -863,8 +929,8 @@ export default function CroftonMD() {
               </City>
               <City>
                 <img src="/images/icons/map-location.png" />
-                <Link href="/seo-company-ellicott-city-md" passHref>
-                  <a>Ellicott City, MD</a>
+                <Link href="/seo-services-salisbury-md" passHref>
+                  <a>Salisbury, MD</a>
                 </Link>
               </City>
               <City>
@@ -900,10 +966,10 @@ export default function CroftonMD() {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Odenton, MD"
-                  title="Odenton, MD"
+                  alt="Wheaton, MD"
+                  title="Wheaton, MD"
                 />
-                <p>Odenton, MD</p>
+                <p>Wheaton, MD</p>
               </City>
               <City>
                 <img
@@ -926,22 +992,25 @@ export default function CroftonMD() {
         <div className="call-to-action-grid">
           <img
             src="/images/seo-services-crofton-maryland.webp"
-            alt="Man calling to get SEO services in Crofton."
-            title="Man calling to get SEO services in Crofton."
+            alt="Man calling to get SEO services in Ellicott City."
+            title="Man calling to get SEO services in Ellicott City."
             width="1000px"
             height="65px"
             loading="lazy"
           />
           <div className="container">
-            <h2>Ready to Boost Your Leads, Sales and Income?</h2>
+            <h2>
+              Ready to Get More Customers in Ellicott City and Boost Your Sales
+              and Income?
+            </h2>
             <p>
               Contact our {SEOAgency} and we'll show you how our SEO services in
-              Crofton can help your company grow with search engine
+              Ellicot City can help your company grow with search engine
               optimization.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule a Free Consultation!</Button>
+                <Button>Book a Free Consultation Now!</Button>
               </a>
             </div>
           </div>

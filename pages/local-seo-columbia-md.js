@@ -6,6 +6,7 @@ import MainLayout from '../components/MainLayout'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { Business, Businesses } from '../components/BusinessesWeWorkWith'
+import { City, Cities } from '../components/CitySection'
 import {
   ReasonSec,
   Deliverable,
@@ -57,8 +58,8 @@ export default function LocalSEOColumbiaMD() {
               />
               <div>
                 <h2>
-                  You Have a Choice: Do Local SEO to Increase Leads and Revenue
-                  or Do Nothing and Continue Struggling
+                  Make the Winning Move: Boost Your Leads and Revenue with Local
+                  SEO or Stay Stuck in the Race
                 </h2>
                 <p>It's not your fault.</p>
                 <p>
@@ -172,10 +173,7 @@ export default function LocalSEOColumbiaMD() {
                 </p>
                 <p>With Search engine optimization you will:</p>
                 <ul className="check-mark">
-                  <li>
-                    Get free organic traffic without
-                    paying for ads.
-                  </li>
+                  <li>Get free organic traffic without paying for ads.</li>
                   <li>Increase you leads, sales and revenue.</li>
                   <li>Get more phone calls.</li>
                   <li>
@@ -796,6 +794,170 @@ export default function LocalSEOColumbiaMD() {
                 </div>
               </div>
             </ReasonSec>
+          </div>
+        </section>
+        <section>
+          <div className="container">
+            <h2 className="title">Other Areas We Cover</h2>
+            <p className="center">We provide local SEO for busniess in:</p>
+            <Cities>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Annapolis SEO"
+                  title="Annapolis SEO"
+                />
+                <p>Annapolis</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Baltimore SEO"
+                  title="Baltimore SEO"
+                />
+                <Link href="/baltimore-seo" passHref>
+                  <a>Baltimore, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Bowie SEO"
+                  title="Bowie SEO"
+                />
+                <Link href="/" passHref>
+                  <a>Bowie, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Bethesda, MD"
+                  title="SEO Company Bethesda, MD"
+                />
+                <Link href="/seo-company-bethesda-md" passHref>
+                  <a>Bethesda, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Columbia, MD"
+                  title="Columbia, MD"
+                />
+                <Link href="/local-seo-columbia-md" passHref>
+                  <a>Columbia, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Crofton, MD"
+                  title="Crofton, MD"
+                />
+                <Link href="/seo-services-crofton-md" passHref>
+                  <a>Crofton, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Clinton, MD"
+                  title="Clinton, MD"
+                />
+                <p>Clinton, MD</p>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Glen Burnie</p>
+              </City>
+
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <Link href="/seo-company-laurel-md" passHref>
+                  <a>Laurel, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <Link href="/seo-services-ocean-city" passHref>
+                  <a>Ocean City, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Odenton, MD</p>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Potomac, MD</p>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <Link href="/rockville-seo-company" passHref>
+                  <a>Rockville, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <Link href="/seo-services-salisbury-md" passHref>
+                  <a>Salisbury, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img src="/images/icons/map-location.png" />
+                <p>Gaithersburg, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Kensington, MD"
+                  title="SEO Company Kensington, MD"
+                />
+                <Link href="/seo-company-kensington-md" passHref>
+                  <a>Kensington, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Silver Spring, MD"
+                  title="SEO Company Silver Spring, MD"
+                />
+                <p>Silver Spring, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Greenbelt, MD"
+                  title="SEO Company Greenbelt, MD"
+                />
+                <p>Greenbelt, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Wheaton, MD"
+                  title="Wheaton, MD"
+                />
+                <p>Wheaton, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="SEO Company Waldorf MD"
+                  title="SEO Company Waldorf MD"
+                />
+                <Link href="/seo-services-waldorf-md" passHref>
+                  <a>Waldorf, MD</a>
+                </Link>
+              </City>
+            </Cities>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Get SEO Help Today!</Button>
+              </a>
+            </div>
           </div>
         </section>
         <div className="call-to-action-grid">

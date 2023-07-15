@@ -729,7 +729,7 @@ const MarylandSEOCompany = () => {
                 loading="lazy"
               />
               <div>
-                <h2>Home Service Businesses We Work With in Maryland</h2>
+                <h2>Businesses We Work With in Maryland</h2>
                 <p>
                   Our Maryland SEO company works with home service businesses
                   all over Maryland. Our goal is to help home service businesses

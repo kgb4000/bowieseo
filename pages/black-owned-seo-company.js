@@ -48,7 +48,7 @@ export default function blackOwnedSEOCompany() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="We're a Black Owned SEO Company Helping Businesses Get Found on Google"
+          heroText="We're a Black Owned SEO Company Empowering Businesses to Get Attention on Google"
           subText="Let us optimize your website so that you can get more leads and customers and grow your business"
           backgroundImage="/images/black-owned-seo-agency.webp"
           backgroundHeight="70vh"
@@ -60,8 +60,8 @@ export default function blackOwnedSEOCompany() {
           <div className="medium-container grid">
             <div>
               <h2>
-                Get Free Web Traffic from Google, or Keep Paying for Ads: It's
-                Your Choice
+                Tap into Google's Free Traffic Goldmine or Keep Draining Your
+                Budget on Ads: The Decision is Yours
               </h2>
               <p>
                 If your business is not appearing on the first page of Google's
