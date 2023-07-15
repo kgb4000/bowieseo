@@ -38,7 +38,7 @@ export default function BethesdaMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Work With an SEO Company in Bethesda, MD and Grow Your Business"
+          heroText="Boost Your Business Growth with a Leading SEO Company in Bethesda, MD"
           subText="Get free traffic and leads without paying for expensive ads"
           backgroundImage="/images/seo-services-south-kensington-md-cover.webp"
           backgroundHeight="70vh"
@@ -47,53 +47,69 @@ export default function BethesdaMD() {
           buttonLink={calendly}
         />
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <div>
                 <h2>
-                  It's Time to Start Doing SEO and Get More Web Traffic and
-                  Leads, Or Else ...
+                  Are You Ready to Leave Mediocrity Behind and Elevate Your
+                  Business with SEO in Bethesda?
                 </h2>
-                <p>You run a company in Bethesda.</p>
+                <p>Running a business in Bethesda is no easy task.</p>
+                <p>And generating leads?</p>
+                <p>Even harder.</p>
                 <p>
-                  You're trying to figure out how to get more leads and
-                  customers to your business, but nothing seems to be working.
+                  You've been down all the well-trodden paths—Facebook ads,
+                  Instagram promotions, Google advertising, and even paid leads
+                  from HomeAdvisor, Thumbtack, and Angie's List.
                 </p>
                 <p>
-                  You've tried advertising on Facebook, Instagram, and Google,
-                  and you're also paying for leads from HomeAdvisor, Thumbtack,
-                  and Angie's List.
-                </p>
-                <p>Problem is, you're not getting your money's worth.</p>
-                <p>
-                  You keep getting bad leads and tire kickers, and realize
-                  you're wasting your money on ads and lead-gen website.
+                  Yet, despite all this effort and investment, the returns are
+                  meager.
                 </p>
                 <p>
-                  You need a system to get leads and customers into your
-                  business regularly, and you need to own that system.
+                  You've had enough of mediocre leads and the drain on your
+                  resources.
+                </p>
+                <p>
+                  You're ready to seize control, to own a system that
+                  consistently funnels potential customers right into your
+                  business.
+                </p>
+                <p>
+                  It's time to move from simply surviving to truly thriving.
                 </p>
                 <p>We can help with that.</p>
+                <p>We're here to make that happen.</p>
                 <p>
-                  We’re a{' '}
-                  <Link href="/maryland-seo-company" passHref>
-                    <a>Maryland SEO company</a>
-                  </Link>{' '}
-                  that assists Bethesda small business owners in generating more
-                  customers and leads by creating a lead generation system
-                  customized to their business.
+                  As a seasoned{' '}
+                  <Link href="/maryland-seo-company">Maryland SEO company</Link>
+                  , we excel at empowering small business owners in Bethesda.
                 </p>
-                <p>We have you covered.</p>
+                <p>How? </p>
                 <p>
-                  You don't have to worry about digital marketing that doesn’t
-                  work or paying for leads from lead generation companies that
-                  just take your money.
+                  By sculpting a unique, lead generation ecosystem designed
+                  specifically for your business.
                 </p>
                 <p>
-                  We'll work with you to create a system that will produce leads
-                  while you focus on operating your business.
+                  We generate not just any leads, but high-quality,
+                  ready-to-convert prospects that increase your revenue.
                 </p>
-                <p>To get started or learn more, give us a call.</p>
+                <p>
+                  With us, the days of fretting over ineffective digital
+                  marketing strategies and wasting money on subpar lead-gen
+                  companies are over.
+                </p>
+                <p>
+                  We ensure that every cent you invest brings value, freeing you
+                  to concentrate on what you do best—running your business.
+                </p>
+                <p>
+                  Ready to transition from uncertainty to consistent business
+                  growth?
+                </p>
+                <p>
+                  Reach out to us. Let's begin your journey to success today.
+                </p>
               </div>
               <img
                 src="/images/seo-company-bethesda-md.jpg"
@@ -114,7 +130,7 @@ export default function BethesdaMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get With Our SEO Services in Bethesda
+              What You Get With Our SEO Company in Bethesda, Maryland
             </h2>
             <p className="subtext">When you work with us, you get:</p>
           </div>
@@ -307,12 +323,13 @@ export default function BethesdaMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Services Help Businesses Like Yours in Bethesda, Get More
-              Leads and Customers
+              Unleashing Potential: Our Services Propel Bethesda Businesses to
+              New Heights
             </h2>
             <p className="subtext">
-              We provide search engine optimization to businesses in Bethesda
-              and the rest of Montgomery County.
+              Serving businesses across Bethesda and the entirety of Montgomery
+              County, we specialize in a crucial game-changer: search engine
+              optimization.
             </p>
             <Service>
               <div className="service-card">
@@ -371,6 +388,16 @@ export default function BethesdaMD() {
                 </div>
               </div>
             </Service>
+            <p className="subtext">
+              We help local businesses, just like yours, break through the noise
+              and stand out, capturing the attention of potential leads and
+              converting them into loyal customers.
+            </p>
+          </div>
+          <div className="btn">
+            <a href={calendly} target="_blank" rel="noreferrer">
+              <Button>Book Your Free Call Today!</Button>
+            </a>
           </div>
         </section>
         <section>
