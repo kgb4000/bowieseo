@@ -466,7 +466,7 @@ const MarylandSEOCompany = () => {
         </section>
         <section>
           <div className="container">
-            <h2 className="title">Work With Our Maryland SEO Company</h2>
+            <h2 className="title">Partner With Our Maryland SEO Company</h2>
             <p className="subtext">Our (Maryland) SEO Services include:</p>
           </div>
           <div className="medium-container">
