@@ -47,7 +47,7 @@ export default function BethesdaMD() {
           buttonLink={calendly}
         />
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <div>
                 <h2>

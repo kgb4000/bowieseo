@@ -50,8 +50,13 @@ export const Deliverable = styled.div`
   margin: 1rem 0;
   display: flex;
 
+  ul {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+  }
+
   img.check {
-    margin: 0;
+    margin-top: -0.8rem;
     margin-right: 1.5rem;
     width: 54px;
     height: 54px;
