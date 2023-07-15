@@ -225,17 +225,17 @@ export default function RockvilleSEO() {
                 <div className="service">
                   <h3>Local SEO for Rockville</h3>
                   <p>
-                    Start doing local SEO and make sure your customers in
-                    Rockville can find your business on Google when they search,
-                    instead of your competition.
+                    Start doing local SEO. Ensure customers in Rockville can
+                    find your business on Google when they search, and not your
+                    competitors.
                   </p>
                 </div>
               </div>
               <div className="service-card">
                 <img
                   src="/images/rockville-gmb-management.webp"
-                  alt="Rockville Google My Business Management."
-                  title="Rockville Google My Business Management."
+                  alt="Google My Business Management."
+                  title="Google My Business Management."
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -243,9 +243,9 @@ export default function RockvilleSEO() {
                 <div className="service">
                   <h3>GMB Management</h3>
                   <p>
-                    Optimize you Google My Business profile an rank locally. Let
-                    us help you take your business to the next level by managing
-                    your GMB profile and boosting your local SEO performance.
+                    Optimize your Google My Business profile and rank locally.
+                    Take your business to the next level and boost your local
+                    presence.
                   </p>
                 </div>
               </div>
@@ -262,8 +262,8 @@ export default function RockvilleSEO() {
                   <h3>Free Mini SEO Audit</h3>
                   <p>
                     See how you can improve your SEO rankings and performance
-                    with a free mini SEO audit from us. Find out what's stopping
-                    you from getting more leads and customers today!
+                    with a free mini SEO audit. Find out what's stopping you
+                    from getting web traffic, leads and customers.
                   </p>
                 </div>
               </div>
@@ -899,16 +899,18 @@ export default function RockvilleSEO() {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Annapolis SEO"
-                  title="Annapolis SEO"
+                  alt="Annapolis, MD."
+                  title="Annapolis, MD."
+                  loading="lazy"
                 />
                 <p>Annapolis</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Baltimore SEO"
-                  title="Baltimore SEO"
+                  alt="Baltimore, MD."
+                  title="Baltimore, MD."
+                  loading="lazy"
                 />
                 <Link href="/baltimore-seo" passHref>
                   <a>Baltimore, MD</a>
@@ -917,8 +919,9 @@ export default function RockvilleSEO() {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Bowie SEO"
-                  title="Bowie SEO"
+                  alt="Bowie, MD."
+                  title="Bowie, MD."
+                  loading="lazy"
                 />
                 <Link href="/" passHref>
                   <a>Bowie, MD</a>
@@ -927,8 +930,9 @@ export default function RockvilleSEO() {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Bethesda, MD"
-                  title="SEO Company Bethesda, MD"
+                  alt="Bethesda, MD."
+                  title="Bethesda, MD."
+                  loading="lazy"
                 />
                 <Link href="/seo-company-bethesda-md" passHref>
                   <a>Bethesda, MD</a>
@@ -937,8 +941,9 @@ export default function RockvilleSEO() {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Columbia, MD"
-                  title="Columbia, MD"
+                  alt="Columbia, MD."
+                  title="Columbia, MD."
+                  loading="lazy"
                 />
                 <Link href="/local-seo-columbia-md" passHref>
                   <a>Columbia, MD</a>
@@ -947,8 +952,9 @@ export default function RockvilleSEO() {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Crofton, MD"
-                  title="Crofton, MD"
+                  alt="Crofton, MD."
+                  title="Crofton, MD."
+                  loading="lazy"
                 />
                 <Link href="/seo-services-crofton-md" passHref>
                   <a>Crofton, MD</a>
@@ -957,57 +963,99 @@ export default function RockvilleSEO() {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Clinton, MD"
-                  title="Clinton, MD"
+                  alt="Clinton, MD."
+                  title="Clinton, MD."
+                  loading="lazy"
                 />
                 <p>Clinton, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Glen Burnie, MD."
+                  title="Glen Burnie, MD."
+                  loading="lazy"
+                />
                 <p>Glen Burnie</p>
               </City>
 
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Laurel, MD."
+                  title="Laurel, MD."
+                  loading="lazy"
+                />
                 <Link href="/seo-company-laurel-md" passHref>
                   <a>Laurel, MD</a>
                 </Link>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Ocean City, MD."
+                  title="Ocean City, MD."
+                  loading="lazy"
+                />
                 <Link href="/seo-services-ocean-city" passHref>
                   <a>Ocean City, MD</a>
                 </Link>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Odenton, MD."
+                  title="Odenton, MD."
+                  loading="lazy"
+                />
                 <p>Odenton, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Potomac, MD."
+                  title="Potomac, MD."
+                  loading="lazy"
+                />
                 <p>Potomac, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  title="Rockville, MD."
+                  alt="Rockville, MD."
+                  loading="lazy"
+                />
                 <Link href="/rockville-seo-company" passHref>
                   <a>Rockville, MD</a>
                 </Link>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  title="Ellicott City, MD."
+                  alt="Ellicott City, MD."
+                  loading="lazy"
+                />
                 <Link href="/seo-company-ellicott-city-md" passHref>
                   <a>Ellicott City, MD</a>
                 </Link>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  title="Gaithersburg, MD."
+                  alt="Gaithersburg, MD."
+                  loading="lazy"
+                />
                 <p>Gaithersburg, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Kensington, MD"
-                  title="SEO Company Kensington, MD"
+                  alt="Kensington, MD."
+                  title="Kensington, MD."
+                  loading="lazy"
                 />
                 <Link href="/seo-company-kensington-md" passHref>
                   <a>Kensington, MD</a>
@@ -1016,32 +1064,36 @@ export default function RockvilleSEO() {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Silver Spring, MD"
-                  title="SEO Company Silver Spring, MD"
+                  alt="Silver Spring, MD."
+                  title="Silver Spring, MD."
+                  loading="lazy"
                 />
                 <p>Silver Spring, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Greenbelt, MD"
-                  title="SEO Company Greenbelt, MD"
+                  alt="SGreenbelt, MD."
+                  title="Greenbelt, MD."
+                  loading="lazy"
                 />
                 <p>Greenbelt, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Wheaton, MD"
-                  title="Wheaton, MD"
+                  alt="Wheaton, MD."
+                  title="Wheaton, MD."
+                  loading="lazy"
                 />
                 <p>Wheaton, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Waldorf MD"
-                  title="SEO Company Waldorf MD"
+                  alt="Waldorf MD."
+                  title="Waldorf MD."
+                  loading="lazy"
                 />
                 <Link href="/seo-services-waldorf-md" passHref>
                   <a>Waldorf, MD</a>
