@@ -22,8 +22,8 @@ const SEOAgency = 'SEO professionals'
 export default function KensingtonMD() {
   const SEO = {
     title:
-      'SEO Company in South Kensington, MD | Increase Customers, Leads and Revenue',
-    description: `We're an SEO company in South Kensington, MD. Our services help customers find your business on Google. Call us today!`,
+      'SEO Company in Kensington, MD | Increase Customers, Leads and Revenue',
+    description: `We're an SEO company in Kensington, MD. Our services help customers find your business on Google. Call us today!`,
     canonical: 'https://bowieseo.com/seo-company-kensington-md',
     openGraph: {
       title:
@@ -46,12 +46,12 @@ export default function KensingtonMD() {
           buttonLink={calendly}
         />
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <div>
                 <h2>
-                  You Can Keep Losing Money Every Month or Use SEO to
-                  Start Making Money.
+                  You Can Keep Losing Money Every Month or Use SEO to Start
+                  Making Money.
                 </h2>
                 <p>You run a company in Kensington, MD.</p>
                 <p>
@@ -78,9 +78,9 @@ export default function KensingtonMD() {
                   <Link href="/maryland-seo-company" passHref>
                     <a>Maryland SEO company</a>
                   </Link>{' '}
-                  assisting Kensington business owners. We help
-                  generate more customers and leads by creating a
-                  lead-generation system customized to your business.
+                  assisting Kensington business owners. We help generate more
+                  customers and leads by creating a lead-generation system
+                  customized to your business.
                 </p>
                 <p>We have you covered.</p>
                 <p>
@@ -95,10 +95,10 @@ export default function KensingtonMD() {
                 <p>To get started or learn more, give us a call.</p>
               </div>
               <img
-                src="/images/seo-company-south-kensington-md.jpg"
+                src="/images/seo-company-bethesda-md.jpg"
                 className="page-img-left"
-                alt="Business owner thinking about getting SEO Services for his business in Kensington, MD"
-                title="Business owner thinking about getting SEO Services in Kensington Maryland"
+                alt="Business owner thinking about getting SEO Services."
+                title="Business owner thinking about getting SEO Services."
                 width="600"
                 height="1000"
               />
@@ -307,8 +307,8 @@ export default function KensingtonMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Services Help Businesses Like Yours in Kensington, Get
-              More Leads and Customers
+              Our Services Help Businesses Like Yours in Kensington, Get More
+              Leads and Customers
             </h2>
             <p className="subtext">
               We provide search engine optimization to businesses in South
@@ -317,7 +317,7 @@ export default function KensingtonMD() {
             <Service>
               <div className="service-card">
                 <img
-                  src="/images/south-kensington-search-engine-optimization.webp"
+                  src="/images/gmb-management-kensington-md.webp"
                   alt="Kensington SEO Services"
                   title="Kensington SEO Services"
                   width="1000px"
@@ -335,7 +335,7 @@ export default function KensingtonMD() {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/south-kensington-gmb-management.webp"
+                  src="/images/gmb-management-kensington-md.webp"
                   alt="Google My Business Management"
                   title="Google My Business Management"
                   width="1000px"
@@ -353,7 +353,7 @@ export default function KensingtonMD() {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/seo-audit-south-kensington.webp"
+                  src="/images/seo-audit-kensington-md.webp"
                   alt="Free Mini SEO Audit"
                   title="Free Mini SEO Audit"
                   width="1000px"
@@ -384,9 +384,9 @@ export default function KensingtonMD() {
               <div>
                 <h2>Businesses We Work With in Kensington, MD.</h2>
                 <p>
-                  We work with home service businesses that
-                  provide services to homeowners and businesses. We focus on
-                  helping you increase your online presence, leads, and sales.
+                  We work with home service businesses that provide services to
+                  homeowners and businesses. We focus on helping you increase
+                  your online presence, leads, and sales.
                 </p>
                 <Businesses>
                   <Business>
@@ -851,9 +851,8 @@ export default function KensingtonMD() {
           <div className="container">
             <h2>Are you ready to get more leads, sales, and money?</h2>
             <p>
-              Contact our SEO experts, and we'll show you how our
-              SEO services can help your business grow through search
-              engine optimization.
+              Contact our SEO experts, and we'll show you how our SEO services
+              can help your business grow through search engine optimization.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">

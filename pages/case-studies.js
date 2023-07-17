@@ -141,11 +141,9 @@ const CaseStudy = () => {
             </p>
             <h3>#4. Local SEO</h3>
             <p>
-              Since Monica Browne Weddings is a local business, we focused on{' '}
-              <Link href="/maryland-local-seo" passHref>
-                local SEO
-              </Link>{' '}
-              strategies to help her rank higher in local search results.
+              Since Monica Browne Weddings is a local business, we focused on
+              local SEO strategies to help her rank higher in local search
+              results.
             </p>
             <p>
               We optimized her Google Business Profile by ensuring accurate and

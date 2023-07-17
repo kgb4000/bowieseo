@@ -26,7 +26,7 @@ export default function ellicotCityMD() {
       'SEO Company in Ellicott City MD | Helping Increase Customers, Leads and Revenue',
     description:
       'We provide SEO services in Ellicott City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
-    canonical: 'https://bowieseo.com/seo-company-ellicot-city-md',
+    canonical: 'https://bowieseo.com/seo-company-ellicott-city-md',
     openGraph: {
       title:
         'SEO Company in Ellicott City MD | Helping Increase Customers, Leads and Revenue',
@@ -950,10 +950,12 @@ export default function ellicotCityMD() {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Silver Spring, MD"
-                  title="SEO Company Silver Spring, MD"
+                  alt="SEO Company Silver Spring, MD."
+                  title="SEO Company Silver Spring, MD."
                 />
-                <p>Silver Spring, MD</p>
+                <Link href="/silver-spring-md-seo-company" passHref>
+                  <a>Silver Spring, MD</a>
+                </Link>
               </City>
               <City>
                 <img
@@ -1005,7 +1007,7 @@ export default function ellicotCityMD() {
             </h2>
             <p>
               Contact our {SEOAgency} and we'll show you how our SEO services in
-              Ellicot City can help your company grow with search engine
+              Ellicott City can help your company grow with search engine
               optimization.
             </p>
             <div className="btn">

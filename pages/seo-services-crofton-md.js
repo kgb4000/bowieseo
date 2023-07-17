@@ -884,10 +884,12 @@ export default function CroftonMD() {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Silver Spring, MD"
-                  title="SEO Company Silver Spring, MD"
+                  alt="SEO Company Silver Spring, MD."
+                  title="SEO Company Silver Spring, MD."
                 />
-                <p>Silver Spring, MD</p>
+                <Link href="/silver-spring-md-seo-company" passHref>
+                  <a>Silver Spring, MD</a>
+                </Link>
               </City>
               <City>
                 <img

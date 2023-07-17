@@ -112,7 +112,7 @@ export default function BethesdaMD() {
                 </p>
               </div>
               <img
-                src="/images/seo-company-bethesda-md.jpg"
+                src="/images/seo-company-bethesda-md.webp"
                 className="page-img-left"
                 alt="Business owner thinking about getting SEO Services for his business in Bethesda"
                 title="Business owner thinking about getting SEO Services in Bethesda"

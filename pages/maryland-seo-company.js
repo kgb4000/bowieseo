@@ -38,8 +38,8 @@ const MarylandSEOCompany = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Work with a Maryland SEO Company that Gets You More Leads and Sales"
-          subText="Add SEO to your digital marketing and grow your company"
+          heroText="Outpace the Competition With the Right Maryland SEO Company"
+          subText="Boost your brand's online visibility and increase ROI with top-tier SEO services"
           backgroundImage="/images/maryland-seo-company.webp"
           backgroundHeight="60vh"
           backgroundPosition="center"
@@ -1124,10 +1124,13 @@ const MarylandSEOCompany = () => {
             loading="lazy"
           />
           <div className="container">
-            <h2>Ready to Work With a Top SEO Company in Maryland and Boost Your Sales and Revenue?</h2>
+            <h2>
+              Ready to Work With a Top SEO Company in Maryland and Boost Your
+              Sales and Revenue?
+            </h2>
             <p>
-              Call us today and we'll show you how search engine
-              optimization can help grow your business without paying for ads.
+              Call us today and we'll show you how search engine optimization
+              can help grow your business without paying for ads.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">

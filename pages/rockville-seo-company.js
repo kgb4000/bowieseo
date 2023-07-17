@@ -23,7 +23,7 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 export default function RockvilleSEO() {
   const SEO = {
     title: `Rockville's Leading SEO Company | Rise Above the Competition!`,
-    description: `Leverage the expertise of Rockville's leading SEO company to elevate your digital footprint. Let's take your business to new heights!Book a call today!`,
+    description: `Leverage the expertise of Rockville's leading SEO company to elevate your digital footprint. Let's take your business to new heights! Book a call today!`,
     canonical: 'https://bowieseo.com/rockville-seo-company',
     openGraph: {
       title: `Rockville's Leading SEO Company | Rise Above the Competition!`,
@@ -66,8 +66,7 @@ export default function RockvilleSEO() {
                 </p>
                 <p>
                   Maybe you've even paid for leads, constantly discounting your
-                  prices to compete, but those methods drain your
-                  resources.
+                  prices to compete, but those methods drain your resources.
                 </p>
                 <p>
                   Meanwhile, you've noticed your competitors in Rockville
@@ -190,7 +189,7 @@ export default function RockvilleSEO() {
                 </ul>
               </div>
             </div>
-            <p className='subtext'>
+            <p className="subtext">
               Ready to propel your business to new heights with SEO? Let us show
               you how! Contact us for a FREE SEO consultation tailored to your
               business. Discover how we've helped others just like you turn
@@ -210,7 +209,8 @@ export default function RockvilleSEO() {
               Our Rockville SEO Services Can Help Your Businesses Grow
             </h2>
             <p className="subtext">
-              We provide local search engine optimization to businesses in Rockville
+              We provide local search engine optimization to businesses in
+              Rockville
             </p>
             <Service>
               <div className="service-card">
@@ -643,12 +643,7 @@ export default function RockvilleSEO() {
             <h2 className="title">
               Why You Should Partner With Our Rockville SEO COmpany
             </h2>
-            <p className="subtext">
-              Safeguard your time and resources, while meeting your sales and
-              revenue objectives by partnering with our skilled SEO team in
-              Rockville. We exclusively focus on your success, never serving
-              your competitors.
-            </p>
+            <p className='subtext'>We never work with your competitors</p>
             <Service>
               <div className="service-card">
                 <img
@@ -707,7 +702,9 @@ export default function RockvilleSEO() {
               </div>
             </Service>
             <p className="subtext">
-              Want to see how we can help you grow your business with SEO?
+              Safeguard your time and resources, while meeting your sales and
+              revenue objectives by partnering with our skilled SEO team in
+              Rockville.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
