@@ -1027,7 +1027,7 @@ export default function silverSpringMDSEOCompany() {
           <div className="container">
             <h2>Are you ready to boost leads, sales, and revenue?</h2>
             <p>
-              Contact our Silver Spring SEO experts, and we'll show you how our
+              Contact our Silver Spring SEO company, and we'll show you how our
               SEO can help your business grow without expensive ads.
             </p>
             <div className="btn">
