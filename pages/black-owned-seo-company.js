@@ -30,12 +30,12 @@ const SEOAgency = 'our black-owned SEO company'
 
 export default function blackOwnedSEOCompany() {
   const SEO = {
-    title: 'Black-Owned SEO Company | Check Us Out First',
+    title: 'Black-Owned SEO Company | Check Me Out First',
     description:
       'Trust our Black-owned SEO company to boost your online visibility, attract high-quality traffic, and convert more leads into sales. Book an SEO call!',
     canonical: 'https://bowieseo.com/black-owned-seo-company',
     openGraph: {
-      title: 'Black-Owned SEO Company | Check Us Out First',
+      title: 'Black-Owned SEO Company | Check Me Out First',
       description:
         'Trust our Black-owned SEO company to boost your online visibility, attract high-quality traffic, and convert more leads into sales. Book an SEO call!',
       image: [{}],
