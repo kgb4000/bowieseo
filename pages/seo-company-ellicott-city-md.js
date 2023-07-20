@@ -897,10 +897,14 @@ export default function ellicotCityMD() {
                 <p>Clinton, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Glen Burnie</p>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Glen Burnie, MD."
+                  title="Glen Burnie, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-glen-burnie-md">Glen Burnie, MD</Link>
               </City>
-
               <City>
                 <img src="/images/icons/map-location.png" />
                 <Link href="/seo-company-laurel-md" passHref>

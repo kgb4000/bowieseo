@@ -99,8 +99,8 @@ export default function KensingtonMD() {
                 className="page-img-left"
                 alt="Business owner thinking about getting SEO Services."
                 title="Business owner thinking about getting SEO Services."
-                width="600"
-                height="1000"
+                width="600px"
+                height="1000px"
               />
             </div>
             <div className="btn">
@@ -311,8 +311,8 @@ export default function KensingtonMD() {
               Leads and Customers
             </h2>
             <p className="subtext">
-              We provide search engine optimization to businesses in South
-              Kensington and in the rest of Anne Arundel County, Maryland.
+              We provide search engine optimization to businesses in Kensington
+              and <Link href="rockville-seo-company">Rockville</Link>, Maryland.
             </p>
             <Service>
               <div className="service-card">

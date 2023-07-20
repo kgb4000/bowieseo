@@ -643,7 +643,7 @@ export default function RockvilleSEO() {
             <h2 className="title">
               Why You Should Partner With Our Rockville SEO COmpany
             </h2>
-            <p className='subtext'>We never work with your competitors</p>
+            <p className="subtext">We never work with your competitors</p>
             <Service>
               <div className="service-card">
                 <img
@@ -976,9 +976,8 @@ export default function RockvilleSEO() {
                   title="Glen Burnie, MD."
                   loading="lazy"
                 />
-                <p>Glen Burnie</p>
+                <Link href="/seo-company-glen-burnie-md">Glen Burnie, MD</Link>
               </City>
-
               <City>
                 <img
                   src="/images/icons/map-location.png"

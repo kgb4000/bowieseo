@@ -39,6 +39,7 @@ export const ReasonSec = styled.div`
 `
 
 export const Deliverables = styled.div`
+  margin-top: 4rem;
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

@@ -53,7 +53,7 @@ const Hero = styled('div')`
 
   @media only screen and (min-device-width: 360px) {
     h1 {
-      font-size: 2.2rem;
+      font-size: 2rem;
       font-weight: 900;
       margin-bottom: 2rem;
     }
