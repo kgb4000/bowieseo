@@ -304,8 +304,8 @@ export default function OdentonMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Services Help Businesses Like Yours in Odenton, Get More Leads
-              and Customers
+              Our Odenton SEO Services Help Businesses Like Increase Leads,
+              Customers, and Sales
             </h2>
             <p className="subtext">
               We provide search engine optimization to businesses in Odenton and
