@@ -19,18 +19,18 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const SEOAgency = 'SEO professionals'
 
-export default function CroftonMD() {
+export default function OdentonMD() {
   const SEO = {
     title:
-      'SEO Services in Crofton Helping Increase Customers, Leads and Revenue',
+      'SEO Services in Odenton Helping Increase Customers, Leads and Revenue',
     description:
-      'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
-    canonical: 'https://bowieseo.com/seo-services-crofton-md',
+      'We provide SEO services in Odenton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
+    canonical: 'https://bowieseo.com/seo-services-odenton-md',
     openGraph: {
       title:
-        'SEO Services in Crofton Helping Increase Customers, Leads and Revenue',
+        'SEO Services in Odenton Helping Increase Customers, Leads and Revenue',
       description:
-        'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
+        'We provide SEO services in Odenton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
       image: [{}],
     },
   }
@@ -39,9 +39,9 @@ export default function CroftonMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Increase Traffic, Leads, and Conversions with SEO Services in Crofton"
+          heroText="Increase Traffic, Leads, and Conversions with SEO Services in Odenton, MD"
           subText="We use our SEO knowledge to help attract more customers and increase sales for your business."
-          backgroundImage="/images/seo-services-crofton-md-cover.webp"
+          backgroundImage="/images/seo-services-odenton-md-cover.jpg"
           backgroundHeight="70vh"
           backgroundPosition="center"
           buttonText="Book Your Free Call Today!"
@@ -52,55 +52,65 @@ export default function CroftonMD() {
             <div className="grid">
               <div>
                 <h2>
-                  Keep Losing Money Every Month or Start Using SEO Services in
-                  Crofton and Make Money: You Choose
+                  Stop Bleeding Cash: Transform Your Business with Game-Changing
+                  SEO Services in Odenton Today
                 </h2>
-                <p>You run a company in Crofton.</p>
                 <p>
-                  You're trying to figure out how to get more leads and
-                  customers to your business, but nothing seems to be working.
+                  You're running a successful business in Odenton, but you need
+                  more customers.
                 </p>
                 <p>
-                  You've tried advertising on Facebook, Instagram, and Google,
-                  and you're also paying for leads from HomeAdvisor, Thumbtack,
-                  and Angie's List.
+                  You've tried everything from Facebook, Instagram, and Google
+                  ads to buying leads from HomeAdvisor, Thumbtack, and Angie's
+                  List.
                 </p>
-                <p>Problem is, you're not getting your money's worth.</p>
+                <p>But it's not working.</p>
                 <p>
-                  You keep getting bad leads and tire kickers, and realize
-                  you're wasting your money on ads and lead-gen website.
+                  You're stuck with bad leads and people who are just looking
+                  around.
                 </p>
                 <p>
-                  You need a system to get leads and customers into your
-                  business regularly, and you need to own that system.
+                  Your hard-earned money is being wasted on ads and lead-gen
+                  sites that don't give back.
+                </p>
+                <p>
+                  What you need is a reliable, self-owned system to attract good
+                  leads and turn them into customers consistently.
                 </p>
                 <p>We can help with that.</p>
                 <p>
-                  We’re a{' '}
-                  <Link href="/maryland-seo-company" passHref>
-                    <a>Maryland SEO company</a>
-                  </Link>{' '}
-                  that assists Crofton small business owners in generating more
-                  customers and leads by creating a lead generation system
-                  customized to their business.
-                </p>
-                <p>We have you covered.</p>
-                <p>
-                  You don't have to worry about digital marketing that doesn’t
-                  work or paying for leads from lead generation companies that
-                  just take your money.
+                  We're an experienced{' '}
+                  <Link href="/maryland-seo-company">
+                    Maryland-based SEO company
+                  </Link>
+                  .
                 </p>
                 <p>
-                  We'll work with you to create a system that will produce leads
-                  while you focus on operating your business.
+                  We help small business owners like you by building a lead
+                  generation strategy that fits your business.
                 </p>
-                <p>To get started or learn more, give us a call.</p>
+                <p>
+                  No more wasting money on bad marketing or paying for leads
+                  that don't deliver.
+                </p>
+                <p>
+                  Working with us, we'll create a system that brings in good
+                  leads, leaving you free to run your business.
+                </p>
+                <p>
+                  Ready to stop losing and start winning? Get in touch with us
+                  to learn more or get started.
+                </p>
+                <p>
+                  [Click Here to Schedule Your Free Consultation – Let's Start
+                  Building Your Lead-Generation System Today!]
+                </p>
               </div>
               <img
-                src="/images/seo-services-crofton-md.jpg"
+                src="/images/seo-services-odenton-md.jpg"
                 className="page-img-left"
-                alt="Business owner thinking about getting SEO Services for his business in Crofton, MD"
-                title="Business owner thinking about getting SEO Services in Crofton Maryland"
+                alt="Business owner thinking about getting SEO Services for his business in Odenton, MD"
+                title="Business owner thinking about getting SEO Services in Odenton Maryland"
                 width="600"
                 height="1000"
               />
@@ -115,7 +125,7 @@ export default function CroftonMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get With Our Crofton SEO Services
+              What You Get With Our Odenton SEO Services
             </h2>
             <p className="subtext">When you work with us, you get:</p>
           </div>
@@ -308,25 +318,25 @@ export default function CroftonMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Services Help Businesses Like Yours in Crofton, Get More Leads
+              Our Services Help Businesses Like Yours in Odenton, Get More Leads
               and Customers
             </h2>
             <p className="subtext">
-              We provide search engine optimization to businesses in Crofton and
+              We provide search engine optimization to businesses in Odenton and
               in the rest of Anne Arundel County, Maryland.
             </p>
             <Service>
               <div className="service-card">
                 <img
-                  src="/images/crofton-search-engine-optimization.webp"
-                  alt="Crofton SEO Services"
-                  title="Crofton SEO Services"
+                  src="/images/odenton-seo.jpg"
+                  alt="Odenton SEO Services"
+                  title="Odenton SEO Services"
                   width="1000px"
                   height="665px"
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Crofton Search Engine Optimization</h3>
+                  <h3>Odenton Search Engine Optimization</h3>
                   <p>
                     Practice search engine optimization and make sure your
                     customers can find your business on Google instead of your
@@ -336,9 +346,9 @@ export default function CroftonMD() {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/crofton-gmb-management.webp"
-                  alt="Crofton Google My Business Management"
-                  title="Crofton Google My Business Management"
+                  src="/images/gmb-management-odenton.jpg"
+                  alt="Odenton Google My Business Management"
+                  title="Odenton Google My Business Management"
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -354,7 +364,7 @@ export default function CroftonMD() {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/seo-audit-crofton.webp"
+                  src="/images/odenton-md-seo-audit.jpg"
                   alt="Free Mini SEO Audit"
                   title="Free Mini SEO Audit"
                   width="1000px"
@@ -377,15 +387,15 @@ export default function CroftonMD() {
           <div className="container">
             <div className="grid">
               <img
-                src="/images/home-service-business-crofton-md.webp"
+                src="/images/happy-customer-odenton-md.jpg"
                 className="page-img"
                 alt="Home service buisness."
-                title="Home service businesses we work with in Crofton."
+                title="Home service businesses we work with in Odenton."
               />
               <div>
-                <h2>Businesses We Work With in Crofton.</h2>
+                <h2>Businesses We Work With in Odenton.</h2>
                 <p>
-                  We work with home service businesses in Crofton that provide
+                  We work with home service businesses in Odenton that provide
                   services to homeowners and businesses. We focus on helping you
                   increase your online presence, leads, and sales.
                 </p>
@@ -563,52 +573,52 @@ export default function CroftonMD() {
           <FAQPageJsonLd
             mainEntity={[
               {
-                questionName: 'What is SEO and how does it work?',
-                acceptedAnswerText: `SEO is a short form for "search engine optimization." It's a way to make a website show up higher on a search engines like Google so that more people can find it. SEO uses special techniques to make your website easier for the search engine to understand and show to individuals searching for information on a certain topic. This could encourage more individuals to check out the website and become familiar with the services it provides. `,
-              },
-              {
-                questionName: 'Is SEO worth it for small business?',
-                acceptedAnswerText: `The short answer is yes. Small businesses can benefit greatly from SEO. In fact, SEO may be one of the best marketing techniques for small businesses to boost their exposure and draw in new clients. Small businesses can raise their SEO rankings and increase organic traffic by optimizing their websites. This can result in increased brand recognition, website traffic, and potential leads or sales. Even though SEO can take time and effort to produce results, it offers long-term advantages and can be a reasonably priced way for small businesses to compete with established ones in their industry.`,
-              },
-              {
-                questionName: 'How much does SEO cost in Crofton?',
-                acceptedAnswerText: `SEO can cost anywhere between $1000 and $5,000. The price will change based on the level of industry, competition and the target keywords.`,
-              },
-              {
-                questionName: 'How Long Does SEO Take to See Results?',
-                acceptedAnswerText: `The amount of time it takes to see results depends on a number of variables, including the difficulty of the targeted keywords, the website's current state, the caliber of the content, and the resources allocated to SEO. However, it's crucial to keep in mind that SEO is a long-term strategy that calls for ongoing efforts to maintain and improve rankings. Typically, it can take three to six months to start seeing measurable results from SEO efforts. By consistently using SEO best practices, making high-quality content, and setting up quality links, a website can slowly increase its traffic and potential conversions.`,
-              },
-              {
-                questionName: 'What is better PPC or SEO?',
-                acceptedAnswerText: `The answer to this question depends on your goals. If you are looking for immediate results, then Google Ads is the better option. However, if you are looking for a long-term marketing strategy that will help you build your brand and is the better option.`,
-              },
-              {
-                questionName:
-                  'What is the Difference between SEO and Local SEO?',
-                acceptedAnswerText: `SEO is like trying to be the best in a race, but the race is all over the world. Local SEO is like trying to be the best in a race, but the race is only in your town. Local SEO helps people in your town find your website when they're looking for things like "pizza places near me" or "hair  salons in my area." This is important for businesses like stores, restaurants, and services that only operate in one area. Local SEO helps them be more visible to people who are looking for things near them, and it's a way to make sure they don't get lost in the big world race.`,
-              },
-              {
-                questionName: 'How long would it take to rank my website?',
-                acceptedAnswerText: `Search engine optimization is similar to playing a game. It takes time and practice to get better and win. You must work hard, just like in a game, to improve your website and make it easier to find by those who are looking for it. This can take a few months or longer, depending on how well you play the game and how many other players are trying to win too. The most important thing is to keep trying and making your website the best it can be so that more people can find it and use it. A website's search engine ranking resembles a game. To improve your website, it takes time and practice. You must put in a lot of effort to improve your website and make it easier for users to find, just like in a game. Depending on how well you play the game and how many other players are competing for the same prize, this could take a few months or longer. The most crucial thing is to continue working on improving your website so that it gets better.`,
-              },
-              {
-                questionName: 'How Long is Your Contract for Doing SEO?',
-                acceptedAnswerText:
-                  'Our contracts are month-to-month. You can cancel at any time with 30 days written notice. We require a 3-month minimum to start to properly establish your baseline and see results. After the first 3 months, you are free to cancel at any time. There are no long-term contracts or commitments.',
-              },
-              {
-                questionName: 'Can You Guarantee Me #1 Rankings on Google?',
-                acceptedAnswerText: `Getting to the top of Google's search rankings is like trying to win a race. You have to be really good and fast to beat all the other people in the race. Just like in a race, there is no way to know for sure who will win, but you can practice and do things that will make you faster and better. That's what people who work on SEO do. They try to make your  website better and faster so it can be one of the best in the race. But just like in a race, there is no guarantee that your website will win, but if you keep practicing and making it better, you will have a better chance of doing well.`,
-              },
-              {
-                questionName: 'Do You Have to Change My site for SEO to work?',
-                acceptedAnswerText: `We might have to.
-                We will update your website's title, meta tags, and content to reflect keywords that we believe will be most valuable to you. Additionally, we'll create or update your website's sitemap so that search engines can more easily find and index your site. Finally, we'll set up Google Analytics so that you can track your SEO progress over time. And we may have to alter the design if it is not user friendly.`,
+                //   questionName: 'What is SEO and how does it work?',
+                //   acceptedAnswerText: `SEO is a short form for "search engine optimization." It's a way to make a website show up higher on a search engines like Google so that more people can find it. SEO uses special techniques to make your website easier for the search engine to understand and show to individuals searching for information on a certain topic. This could encourage more individuals to check out the website and become familiar with the services it provides. `,
+                // },
+                // {
+                //   questionName: 'Is SEO worth it for small business?',
+                //   acceptedAnswerText: `The short answer is yes. Small businesses can benefit greatly from SEO. In fact, SEO may be one of the best marketing techniques for small businesses to boost their exposure and draw in new clients. Small businesses can raise their SEO rankings and increase organic traffic by optimizing their websites. This can result in increased brand recognition, website traffic, and potential leads or sales. Even though SEO can take time and effort to produce results, it offers long-term advantages and can be a reasonably priced way for small businesses to compete with established ones in their industry.`,
+                // },
+                // {
+                //   questionName: 'How much does SEO cost in Odenton?',
+                //   acceptedAnswerText: `SEO can cost anywhere between $1000 and $5,000. The price will change based on the level of industry, competition and the target keywords.`,
+                // },
+                // {
+                //   questionName: 'How Long Does SEO Take to See Results?',
+                //   acceptedAnswerText: `The amount of time it takes to see results depends on a number of variables, including the difficulty of the targeted keywords, the website's current state, the caliber of the content, and the resources allocated to SEO. However, it's crucial to keep in mind that SEO is a long-term strategy that calls for ongoing efforts to maintain and improve rankings. Typically, it can take three to six months to start seeing measurable results from SEO efforts. By consistently using SEO best practices, making high-quality content, and setting up quality links, a website can slowly increase its traffic and potential conversions.`,
+                // },
+                // {
+                //   questionName: 'What is better PPC or SEO?',
+                //   acceptedAnswerText: `The answer to this question depends on your goals. If you are looking for immediate results, then Google Ads is the better option. However, if you are looking for a long-term marketing strategy that will help you build your brand and is the better option.`,
+                // },
+                // {
+                //   questionName:
+                //     'What is the Difference between SEO and Local SEO?',
+                //   acceptedAnswerText: `SEO is like trying to be the best in a race, but the race is all over the world. Local SEO is like trying to be the best in a race, but the race is only in your town. Local SEO helps people in your town find your website when they're looking for things like "pizza places near me" or "hair  salons in my area." This is important for businesses like stores, restaurants, and services that only operate in one area. Local SEO helps them be more visible to people who are looking for things near them, and it's a way to make sure they don't get lost in the big world race.`,
+                // },
+                // {
+                //   questionName: 'How long would it take to rank my website?',
+                //   acceptedAnswerText: `Search engine optimization is similar to playing a game. It takes time and practice to get better and win. You must work hard, just like in a game, to improve your website and make it easier to find by those who are looking for it. This can take a few months or longer, depending on how well you play the game and how many other players are trying to win too. The most important thing is to keep trying and making your website the best it can be so that more people can find it and use it. A website's search engine ranking resembles a game. To improve your website, it takes time and practice. You must put in a lot of effort to improve your website and make it easier for users to find, just like in a game. Depending on how well you play the game and how many other players are competing for the same prize, this could take a few months or longer. The most crucial thing is to continue working on improving your website so that it gets better.`,
+                // },
+                // {
+                //   questionName: 'How Long is Your Contract for Doing SEO?',
+                //   acceptedAnswerText:
+                //     'Our contracts are month-to-month. You can cancel at any time with 30 days written notice. We require a 3-month minimum to start to properly establish your baseline and see results. After the first 3 months, you are free to cancel at any time. There are no long-term contracts or commitments.',
+                // },
+                // {
+                //   questionName: 'Can You Guarantee Me #1 Rankings on Google?',
+                //   acceptedAnswerText: `Getting to the top of Google's search rankings is like trying to win a race. You have to be really good and fast to beat all the other people in the race. Just like in a race, there is no way to know for sure who will win, but you can practice and do things that will make you faster and better. That's what people who work on SEO do. They try to make your  website better and faster so it can be one of the best in the race. But just like in a race, there is no guarantee that your website will win, but if you keep practicing and making it better, you will have a better chance of doing well.`,
+                // },
+                // {
+                //   questionName: 'Do You Have to Change My site for SEO to work?',
+                //   acceptedAnswerText: `We might have to.
+                //   We will update your website's title, meta tags, and content to reflect keywords that we believe will be most valuable to you. Additionally, we'll create or update your website's sitemap so that search engines can more easily find and index your site. Finally, we'll set up Google Analytics so that you can track your SEO progress over time. And we may have to alter the design if it is not user friendly.`,
               },
             ]}
           />
           <div className="medium-container">
-            <h2 className="title">FAQs About Our SEO Services in Crofton</h2>
+            <h2 className="title">FAQs About Our SEO Services in Odenton</h2>
             <ReasonSec>
               <div>
                 <div className="question">
@@ -639,7 +649,7 @@ export default function CroftonMD() {
                     reasonably priced way for small businesses to compete with
                     established ones in their industry.
                   </p>
-                  <h3>How much does SEO cost in Crofton?</h3>
+                  <h3>How much does SEO cost in Odenton?</h3>
                   <p>
                     SEO can cost anywhere between $1000 and $5,000. The price
                     will change based on the level of industry, competition and
@@ -760,9 +770,9 @@ export default function CroftonMD() {
         </section>
         <div className="call-to-action-grid">
           <img
-            src="/images/seo-services-crofton-maryland.webp"
-            alt="Man calling to get SEO services in Crofton."
-            title="Man calling to get SEO services in Crofton."
+            src="/images/man-calling-seo-agency.jpg"
+            alt="Man calling to get SEO services in Odenton."
+            title="Man calling to get SEO services in Odenton."
             width="1000px"
             height="65px"
             loading="lazy"
@@ -771,7 +781,7 @@ export default function CroftonMD() {
             <h2>Ready to Boost Your Leads, Sales and Income?</h2>
             <p>
               Contact our {SEOAgency} and we'll show you how our SEO services in
-              Crofton can help your company grow with search engine
+              Odenton can help your company grow with search engine
               optimization.
             </p>
             <div className="btn">

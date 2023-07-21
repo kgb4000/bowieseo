@@ -521,22 +521,26 @@ const Rockville = () => {
         </section>
         <section>
           <div className="container">
-            <h2 className="title">Areas We Cover with SEO</h2>
-            <p className="center">We provide local SEO for busniess in:</p>
+            <h2 className="title">Our Geographic Reach</h2>
+            <p className="center">
+              Our local SEO services extend to businesses in:
+            </p>
             <Cities>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Annapolis SEO"
-                  title="Annapolis SEO"
+                  alt="Annapolis, MD."
+                  title="Annapolis, MD."
+                  loading="lazy"
                 />
                 <p>Annapolis</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Baltimore SEO"
-                  title="Baltimore SEO"
+                  alt="Baltimore, MD."
+                  title="Baltimore, MD."
+                  loading="lazy"
                 />
                 <Link href="/baltimore-seo" passHref>
                   <a>Baltimore, MD</a>
@@ -545,8 +549,9 @@ const Rockville = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Bowie SEO"
-                  title="Bowie SEO"
+                  alt="Bowie, MD."
+                  title="Bowie, MD."
+                  loading="lazy"
                 />
                 <Link href="/" passHref>
                   <a>Bowie, MD</a>
@@ -555,8 +560,9 @@ const Rockville = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Bethesda, MD"
-                  title="SEO Company Bethesda, MD"
+                  alt="Bethesda, MD."
+                  title="Bethesda, MD."
+                  loading="lazy"
                 />
                 <Link href="/seo-company-bethesda-md" passHref>
                   <a>Bethesda, MD</a>
@@ -565,8 +571,9 @@ const Rockville = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Columbia, MD"
-                  title="Columbia, MD"
+                  alt="Columbia, MD."
+                  title="Columbia, MD."
+                  loading="lazy"
                 />
                 <Link href="/local-seo-columbia-md" passHref>
                   <a>Columbia, MD</a>
@@ -575,8 +582,9 @@ const Rockville = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Crofton, MD"
-                  title="Crofton, MD"
+                  alt="Crofton, MD."
+                  title="Crofton, MD."
+                  loading="lazy"
                 />
                 <Link href="/seo-services-crofton-md" passHref>
                   <a>Crofton, MD</a>
@@ -585,57 +593,100 @@ const Rockville = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Chesapeake Beach, MD"
-                  title="SEO Company Chesapeake Beach, MD"
+                  alt="Clinton, MD."
+                  title="Clinton, MD."
+                  loading="lazy"
                 />
-                <p>Chesapeake Beach, MD</p>
+                <p>Clinton, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Glen Burnie</p>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Glen Burnie, MD."
+                  title="Glen Burnie, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-glen-burnie-md">Glen Burnie, MD</Link>
               </City>
-
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Laurel, MD."
+                  title="Laurel, MD."
+                  loading="lazy"
+                />
                 <Link href="/seo-company-laurel-md" passHref>
                   <a>Laurel, MD</a>
                 </Link>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Ocean City, MD."
+                  title="Ocean City, MD."
+                  loading="lazy"
+                />
                 <Link href="/seo-services-ocean-city" passHref>
                   <a>Ocean City, MD</a>
                 </Link>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
-                <p>Odenton, MD</p>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Odenton, MD."
+                  title="Odenton, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-services-odenton-md" passHref>
+                  <a>Odenton, MD</a>
+                </Link>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Potomac, MD."
+                  title="Potomac, MD."
+                  loading="lazy"
+                />
                 <p>Potomac, MD</p>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  title="Rockville, MD."
+                  alt="Rockville, MD."
+                  loading="lazy"
+                />
                 <Link href="/rockville-seo-company" passHref>
                   <a>Rockville, MD</a>
                 </Link>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
-                <Link href="/seo-services-salisbury-md" passHref>
-                  <a>Salisbury, MD</a>
+                <img
+                  src="/images/icons/map-location.png"
+                  title="Ellicott City, MD."
+                  alt="Ellicott City, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-ellicott-city-md" passHref>
+                  <a>Ellicott City, MD</a>
                 </Link>
               </City>
               <City>
-                <img src="/images/icons/map-location.png" />
+                <img
+                  src="/images/icons/map-location.png"
+                  title="Gaithersburg, MD."
+                  alt="Gaithersburg, MD."
+                  loading="lazy"
+                />
                 <p>Gaithersburg, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Kensington, MD"
-                  title="SEO Company Kensington, MD"
+                  alt="Kensington, MD."
+                  title="Kensington, MD."
+                  loading="lazy"
                 />
                 <Link href="/seo-company-kensington-md" passHref>
                   <a>Kensington, MD</a>
@@ -644,32 +695,36 @@ const Rockville = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Silver Spring, MD"
-                  title="SEO Company Silver Spring, MD"
+                  alt="Silver Spring, MD."
+                  title="Silver Spring, MD."
+                  loading="lazy"
                 />
-                <p>Silver Spring, MD</p>
+                <Link href="/silver-spring-seo-company">Silver Spring, MD</Link>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Greenbelt, MD"
-                  title="SEO Company Greenbelt, MD"
+                  alt="SGreenbelt, MD."
+                  title="Greenbelt, MD."
+                  loading="lazy"
                 />
                 <p>Greenbelt, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Walkersville, MD"
-                  title="SEO Company Walkersville, MD"
+                  alt="Wheaton, MD."
+                  title="Wheaton, MD."
+                  loading="lazy"
                 />
-                <p>Walkersville, MD</p>
+                <p>Wheaton, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SEO Company Waldorf MD"
-                  title="SEO Company Waldorf MD"
+                  alt="Waldorf MD."
+                  title="Waldorf MD."
+                  loading="lazy"
                 />
                 <Link href="/seo-services-waldorf-md" passHref>
                   <a>Waldorf, MD</a>
@@ -677,8 +732,8 @@ const Rockville = () => {
               </City>
             </Cities>
             <div className="btn">
-              <a href="tel:+2402660588">
-                <Button>Book an SEO Call Today!</Button>
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Get SEO Help Today!</Button>
               </a>
             </div>
           </div>
