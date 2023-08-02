@@ -22,13 +22,13 @@ const SEOAgency = 'SEO professionals'
 export default function ellicotCityMD() {
   const SEO = {
     title:
-      'SEO Company in Ellicott City MD | Helping Increase Customers, Leads and Revenue',
+      'Ellicott City MD SEO Company | Helping Increase Customers, Leads and Revenue',
     description:
       'We provide SEO services in Ellicott City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
     canonical: 'https://bowieseo.com/seo-company-ellicott-city-md',
     openGraph: {
       title:
-        'SEO Company in Ellicott City MD | Helping Increase Customers, Leads and Revenue',
+        'Ellicott City MD SEO Company | Helping Increase Customers, Leads and Revenue',
       description:
         'We provide SEO services in Ellicott City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
       image: [{}],

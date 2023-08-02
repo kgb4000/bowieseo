@@ -21,14 +21,12 @@ const SEOAgency = 'SEO professionals'
 
 export default function KensingtonMD() {
   const SEO = {
-    title:
-      'SEO Company in Kensington, MD | Increase Customers, Leads and Revenue',
-    description: `We're an SEO company in Kensington, MD. Our services help customers find your business on Google. Call us today!`,
+    title: 'Kensington MD SEO Company | Boost Your Company Leads and Sales',
+    description: `We're an SEO company in Kensington, MD. Our SEO services help customers find your business on Google when it matters. Book a Free SEO call today!`,
     canonical: 'https://bowieseo.com/seo-company-kensington-md',
     openGraph: {
-      title:
-        'SEO Company in Kensington, MD | Increase Customers, Leads and Revenue',
-      description: `We're an SEO company in Kensington, MD. Our services help customers find your business on Google. Call us today!`,
+      title: 'Kensington MD SEO Company | Boost Your Company Leads and Sales',
+      description: `We're an SEO company in Kensington, MD. Our SEO services help customers find your business on Google when it matters. Book a Free SEO call today!`,
       image: [{}],
     },
   }
@@ -37,8 +35,8 @@ export default function KensingtonMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Our SEO Company in Kensington, MD, Can Help Boost Leads, Sales, and Revenue"
-          subText="We use everything we know about search engine optimization to increase your business's customers and sales."
+          heroText="Use The Best SEO Company in Kensington to Get a Boost in Leads, Sales, and Revenue"
+          subText="We systematize the search engine optimization process to increase your business's customers and sales."
           backgroundImage="/images/seo-services-south-kensington-md-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center"
@@ -95,7 +93,7 @@ export default function KensingtonMD() {
                 <p>To get started or learn more, give us a call.</p>
               </div>
               <img
-                src="/images/seo-company-bethesda-md.jpg"
+                src="/images/seo-company-kensington-md.webp"
                 className="page-img-left"
                 alt="Business owner thinking about getting SEO Services."
                 title="Business owner thinking about getting SEO Services."
