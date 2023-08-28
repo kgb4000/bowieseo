@@ -149,9 +149,10 @@ const FooterSection = () => {
             </ul>
           </div>
           <div className="menu-container">
-            <h3>Free Mini SEO Audit</h3>
+            <h3>Free SEO Audit</h3>
             <p>
-              Get your Free mini SEO audit and rank higher than your competitors
+              Get your Free SEO audit to start ranking higher than your
+              competition.
             </p>
             <OfferForm />
           </div>

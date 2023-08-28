@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styled from 'styled-components'
 import Button from '../components/Button'
 
@@ -21,9 +22,11 @@ const HeroSection = ({
           <h1 className="heroText">{heroText}</h1>
           <p>{subText}</p>
           {buttonText && (
-            <a href={buttonLink}>
-              <WhiteButton>{buttonText}</WhiteButton>
-            </a>
+            <Link href={buttonLink}>
+              <a>
+                <WhiteButton>{buttonText}</WhiteButton>
+              </a>
+            </Link>
           )}
         </div>
       </Hero>

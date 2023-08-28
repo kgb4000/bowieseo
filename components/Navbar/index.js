@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Link from 'next/link'
+import Button from '../Button'
 import { FaBars } from 'react-icons/fa'
 import {
   NavbarContainer,
@@ -14,6 +15,7 @@ import {
   NavBtnLink,
   BtnLinksA,
 } from './navbarElements'
+import styled from 'styled-components'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
@@ -71,8 +73,8 @@ const Navbar = ({ toggle }) => {
                     </Link>
                   </div>,
                   <div onClick={handleMenuFour}>
-                    <Link href="/free-mini-seo-audit" passHref>
-                      <a>Free Mini SEO Audit</a>
+                    <Link href="/free-seo-audit" passHref>
+                      <a>Free SEO Audit</a>
                     </Link>
                   </div>,
                 ]}
@@ -96,11 +98,12 @@ const Navbar = ({ toggle }) => {
           </NavMenu>
           <NavBtn>
             <NavBtnLink>
-              <BtnLinksA href={calendly}>Book Your Free SEO Call!</BtnLinksA>
+              <Link href="/free-seo-audit">
+                <a>
+                  <BtnLinksA>Get Your Free SEO Audit &#8594;</BtnLinksA>
+                </a>
+              </Link>
             </NavBtnLink>
-            {/* <NavBtnLink>
-              <BtnLinksA href="tel:+2402660588">Call (240) 266-0588</BtnLinksA>
-            </NavBtnLink> */}
           </NavBtn>
         </NavbarContainer>
       </Nav>
@@ -126,3 +129,8 @@ const Dropdown = ({ open, trigger, menu }) => {
     </div>
   )
 }
+
+const NavButton = styled(Button)`
+  font-size: 1rem;
+  padding: 1rem 2rem;
+`

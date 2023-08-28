@@ -23,8 +23,8 @@ export default function Home({ data }) {
           backgroundImage="/images/bowieseo-header-img.webp"
           backgroundHeight="80vh"
           backgroundPosition="center"
-          buttonText="Book an SEO Call Today!"
-          buttonLink={calendly}
+          buttonText="Get Your Free SEO Audit &#8594;"
+          buttonLink="/free-seo-audit"
           loading="lazy"
         />
         <section>

@@ -270,7 +270,7 @@ export default function ContactForm() {
             >
               {!status.submitting
                 ? !status.submitted
-                  ? 'I want my Free Mini SEO Audit!'
+                  ? 'Take My Business to the Next Level!'
                   : 'Got it!'
                 : 'Submitting...'}
             </SubmitButton>

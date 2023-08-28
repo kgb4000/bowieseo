@@ -130,44 +130,51 @@ export const NavLinksA = styled.a`
   }
 `
 
-export const NavBtn = styled.div`
+export const NavBtn = styled.button`
+  background: none;
+  border: none;
+  color: #fff;
   @media screen and (max-width: 900px) {
     display: none;
   }
 `
 
 export const NavBtnLink = styled.div`
-  border-radius: 5px;
   background: #cf0a0a;
   white-space: nowrap;
+
   outline: none;
   border: none;
   cursor: pointer;
   text-decoration: none;
-  border: none;
+  font-size: 1rem;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 
   &:hover {
     background-color: #fff;
-    color: #000;
-    border: none;
+    border: 1px solid #cf0a0a;
+    text-decoration: none;
+
+    a {
+      color: #cf0a0a;
+      text-decoration: none;
+    }
   }
 `
 
 export const BtnLinksA = styled.a`
-  color: #fff;
-  display: flex;
-  align-items: center;
   text-decoration: none;
-  padding: 0.6rem 1rem;
-  height: 100%;
+  padding: 1rem 2rem;
+  display: flex;
   cursor: pointer;
   text-transform: uppercase;
-  font-size: 1rem;
   font-weight: 700;
 
   &:hover {
-    transition: all 0.3s ease-in-out;
-    background-color: #fff;
-    color: #000;
+    transition: all 0.1s ease-in-out;
   }
 `

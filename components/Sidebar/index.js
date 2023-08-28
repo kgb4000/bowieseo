@@ -62,10 +62,8 @@ const Sibebar = ({ isOpen, toggle }) => {
             </SidebarItem>
             <SidebarItem>
               <SidebarBtnWrap>
-                <SidebarBtnLink href="tel:+2402660588">
-                  <SidebarBtnLinkA href="tel:+2402660588">
-                    Call (240) 266-0588
-                  </SidebarBtnLinkA>
+                <SidebarBtnLink href="/free-seo-audit">
+                  <SidebarBtnLinkA>I Want My Free SEO Audit</SidebarBtnLinkA>
                 </SidebarBtnLink>
               </SidebarBtnWrap>
             </SidebarItem>
