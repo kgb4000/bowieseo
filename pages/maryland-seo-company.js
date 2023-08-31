@@ -39,12 +39,12 @@ const MarylandSEOCompany = () => {
       <MainLayout>
         <HeroSection
           heroText="Outpace the Competition With the Right Maryland SEO Company"
-          subText="Boost your brand's online visibility and increase ROI with top-tier SEO services"
+          subText="Boost online visibility and increase ROI with expert SEO services"
           backgroundImage="/images/maryland-seo-company.webp"
           backgroundHeight="60vh"
           backgroundPosition="center"
-          buttonText="Schedule your free consultaion today!"
-          buttonLink={calendly}
+          buttonText="Get Your Free SEO Audit →"
+          buttonLink="free-seo-audit"
         />
         <section>
           <div className="container">
@@ -110,7 +110,7 @@ const MarylandSEOCompany = () => {
                 </p>
                 <p>That's where we come in and we can help.</p>
                 <p>
-                  We're a <b>Maryland SEO company</b> that can help get you more
+                  We're a <b>Maryland SEO experts</b> that can help get you more
                   leads and customers with Maryland search engine optimization
                   (SEO).
                 </p>

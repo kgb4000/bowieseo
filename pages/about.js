@@ -35,8 +35,8 @@ const About = () => {
           backgroundImage="/images/about-bowie-seo.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"
-          buttonText="Book a Free SEO Call Now!"
-          buttonLink={calendly}
+          buttonText="Get Your Free SEO Audit →"
+          buttonLink="free-seo-audit"
         />
         <section>
           <div className="small-container">

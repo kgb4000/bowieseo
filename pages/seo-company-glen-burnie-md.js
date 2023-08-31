@@ -21,11 +21,11 @@ const SEOAgency = 'SEO professionals'
 
 export default function glenBurnieMD() {
   const SEO = {
-    title: 'SEO Company in Glen Burnie, MD | Boost Leads & Sales',
+    title: 'SEO Services in Glen Burnie, MD | Boost Leads & Sales',
     description: `Want to rank higher in Google? Partner with our SEO company in Glen Burnie, MD, and leave your competition in the dust. Book your Free SEO call today!`,
     canonical: 'https://bowieseo.com/seo-company-glen-burnie-md',
     openGraph: {
-      title: 'SEO Company in Glen Burnie, MD | Boost Leads & Sales',
+      title: 'SEO Services in Glen Burnie, MD | Boost Leads & Sales',
       description: `Want to rank higher in Google? Partner with our SEO company in Glen Burnie, MD, and leave your competition in the dust. Book your Free SEO call today!`,
       image: [{}],
     },
@@ -35,8 +35,8 @@ export default function glenBurnieMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Hire the Best SEO Company in Glen Burnie, MD, & Boost Your Leads, Sales, and Revenue"
-          subText="We use everything we know about search engine optimization to increase your business's customers and sales."
+          heroText="Get the Best SEO Services in Glen Burnie, MD, & Boost Your Leads, Sales, and Revenue"
+          subText="We use everything we know about search engine optimization to increase your business's leads and sales."
           backgroundImage="/images/glen-burnie-seo-company-cover.jpg"
           backgroundHeight="70vh"
           backgroundPosition="center"
@@ -145,7 +145,7 @@ export default function glenBurnieMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              Glen Burnie SEO Solutions to Help Increase Leads and Grow Your
+              Our Glen Burnie SEO Services Help Increase Leads and Grow Your
               Business
             </h2>
             <p className="subtext">When you work with us, you get:</p>

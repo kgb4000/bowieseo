@@ -615,7 +615,7 @@ const Rockville = () => {
                   title="Laurel, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-laurel-md" passHref>
+                <Link href="/seo-services-laurel-md" passHref>
                   <a>Laurel, MD</a>
                 </Link>
               </City>
@@ -626,7 +626,7 @@ const Rockville = () => {
                   title="Ocean City, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-services-ocean-city" passHref>
+                <Link href="/seo-services-ocean-city-md" passHref>
                   <a>Ocean City, MD</a>
                 </Link>
               </City>

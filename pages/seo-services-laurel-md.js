@@ -21,12 +21,14 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function LocalSEO() {
   const SEO = {
-    title: 'SEO Company in Laurel, MD | Helping Businesses Boost Revenue',
-    description: `We're an SEO company in Laurel, MD, providing SEO services. Our SEO services help get you business more website traffic, leads, and customers.`,
-    canonical: 'https://bowieseo.com/seo-company-laurel-md',
+    title:
+      'Expert SEO Services in Laurel, MD | Get Ranked and Boost Company Growth',
+    description: `Discover the leading SEO services in Laurel, MD. Enhance your online visibility and see transformative business results. Book a Free SEO call today!`,
+    canonical: 'https://bowieseo.com/seo-services-laurel-md',
     openGraph: {
-      title: 'SEO Company in Laurel, MD | Helping Businesses Boost Revenue',
-      description: `We're an SEO company in Laurel, MD, providing SEO services. Our SEO services help get you business more website traffic, leads, and customers.`,
+      title:
+        'Expert SEO Services in Laurel, MD | Get Ranked and Boost Company Growth',
+      description: `Discover the leading SEO services in Laurel, MD. Enhance your online visibility and see transformative business results. Book a Free SEO call today!.`,
       image: [{}],
     },
   }
@@ -35,7 +37,7 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Get more Website Traffic, Leads, and Sales with the Right SEO Company in Laurel, MD"
+          heroText="We Give You Expert SEO Services in Laurel, MD to Increase Your Online Visibility and Boost Revenue"
           subText="We provide SEO services to businesses in Laurel that help increase leads, sales and revenue."
           backgroundImage="/images/seo-services-laurel-md-cover.webp"
           backgroundHeight="70vh"
@@ -780,10 +782,11 @@ export default function LocalSEO() {
             loading="lazy"
           />
           <div className="container">
-            <h2>Ready to Boost Your Sales and Revenue?</h2>
+            <h2>Ready to Get More Leads and Boost Sales?</h2>
             <p>
-              Contact {SEOAgency} and we'll show you how our Laurel SEO Company
-              can help your company grow without paying for leads or online ads.
+              Contact {SEOAgency} and we'll show you how our SEO services in
+              Laurel can help your company grow without paying for leads or
+              online ads.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
