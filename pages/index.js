@@ -19,7 +19,7 @@ export default function Home({ data }) {
       <MainLayout>
         <HeroSection
           heroText="Boost Leads and Revenue with Expert SEO Services in Bowie, MD"
-          subText="Use your website to grow your business on Google"
+          subText="Stop relying for ads and use your website to grow your business"
           backgroundImage="/images/bowieseo-header-img.webp"
           backgroundHeight="80vh"
           backgroundPosition="center"
@@ -31,7 +31,7 @@ export default function Home({ data }) {
           <div className="medium-container">
             <div className="grid">
               <div>
-                <h2>Is Your Business Struggling Because You're Not Doing SEO?</h2>
+                <h2>Is Your Business Struggling with the Following?</h2>
                 <ul>
                   <li>
                     Struggling to get leads and customers from your website?
