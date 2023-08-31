@@ -143,16 +143,43 @@ const BaltimoreSEOCompany = () => {
         </section>
         <section>
           <div className="medium-container">
-            <h2>
-              Improve Your Rankings and Get Your Business in Front of the Right
-              Customers
+            <div>
+              <h2>
+                Improve Your Rankings and Get Your Business in Front of the
+                Right Customers With Baltimore Local SEO
+              </h2>
+              <p>
+                If you're searching for Baltimore SEO or Baltimore SEO company,
+                you know what search engine optimization can do for your
+                business. SEO can make your website a magnet to reach and
+                attract new leads and potential customers online.
+              </p>
+
+              <p>
+                With different digital marketing solutions available to small
+                businesses in Maryland, it's hard to decide which is the best
+                service for your business.
+              </p>
+              <p>
+                But if you want a solution that attracts people actively
+                searching for your services and increases your website traffic,
+                Baltimore SEO is your business's best digital marketing
+                solution.
+              </p>
+              <p>
+                Our Baltimore SEO firm can help you start an SEO strategy that
+                will have your business website ranking higher on Google,
+                attract your target audience, and increase your sales and
+                business online.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section className="reasons-section">
+          <div className="container">
+            <h2 className="title">
+              Why Invest in Baltimore Local SEO for 2024?
             </h2>
-            <p>
-              If you're searching for Baltimore SEO or Baltimore SEO company,
-              you know what search engine optimization can do for your business.
-              SEO can make your website a magnet to reach and attract new leads
-              and potential customers online.
-            </p>
             <img
               src="images/baltimore-seo-company.jpg"
               alt="Baltimore SEO services - Bowie SEO"
@@ -160,27 +187,8 @@ const BaltimoreSEOCompany = () => {
               height="450"
               loading="lazy"
             />
-            <p>
-              With different digital marketing solutions available to small
-              businesses in Maryland, it's hard to decide which is the best
-              service for your business.
-            </p>
-            <p>
-              But if you want a solution that attracts people actively searching
-              for your services and increases your website traffic, Baltimore
-              SEO is your business's best digital marketing solution.
-            </p>
-            <p>
-              Our Baltimore SEO firm can help you start an SEO strategy that
-              will have your business website ranking higher on Google, attract
-              your target audience, and increase your sales and business online.
-            </p>
           </div>
-        </section>
-        <section className="reasons-section">
-          <div className="container">
-            <h2 className="title">Why Invest in Baltimore SEO for 2024?</h2>
-          </div>
+
           <div className="medium-container">
             <Deliverables>
               <Deliverable>
@@ -987,8 +995,8 @@ const BaltimoreSEOCompany = () => {
           ]}
         />
         <section>
-          <div className="container">
-            <h2 className="title">FAQs about Baltimore SEO</h2>
+          <div className="medium-container">
+            <h2 className="title">FAQs about Baltimore Local SEO</h2>
             <ReasonSec>
               <div>
                 <div className="question">
