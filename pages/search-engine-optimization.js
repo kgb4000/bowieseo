@@ -699,7 +699,9 @@ const Rockville = () => {
                   title="Silver Spring, MD."
                   loading="lazy"
                 />
-                <Link href="/silver-spring-seo-company">Silver Spring, MD</Link>
+                <Link href="/silver-spring-md-seo-company">
+                  Silver Spring, MD
+                </Link>
               </City>
               <City>
                 <img
