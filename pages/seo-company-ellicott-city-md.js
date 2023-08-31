@@ -22,15 +22,15 @@ const SEOAgency = 'SEO professionals'
 export default function ellicotCityMD() {
   const SEO = {
     title:
-      'Ellicott City MD SEO Company | Helping Increase Customers, Leads and Revenue',
+      'Ellicott City SEO Services | Get Customers to Find You When It Counts',
     description:
-      'We provide SEO services in Ellicott City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
+      'Our local SEO services in Ellicott City will help you get found by more customers in your area. Increase your website traffic and sales. Call us today!',
     canonical: 'https://bowieseo.com/seo-company-ellicott-city-md',
     openGraph: {
       title:
-        'Ellicott City MD SEO Company | Helping Increase Customers, Leads and Revenue',
+        'Ellicott City SEO Services | Get Customers to Find You When It Counts',
       description:
-        'We provide SEO services in Ellicott City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
+        'Our local SEO services in Ellicott City will help you get found by more customers in your area. Increase your website traffic and sales. Call us today!',
       image: [{}],
     },
   }
@@ -39,7 +39,7 @@ export default function ellicotCityMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Our SEO Company in Ellicott City Can Get You More Customers With Google"
+          heroText="Partner with Us for Your SEO Services and Get Found By Your Customers When it Counts the Most"
           subText="We use our knowledge of search engines to attract more customers and leads to your business"
           backgroundImage="/images/seo-services-crofton-md-cover.webp"
           backgroundHeight="70vh"
