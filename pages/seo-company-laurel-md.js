@@ -201,8 +201,8 @@ export default function LocalSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Laurel SEO Services Help Businesses Get More Website Traffic,
-              Leads and Sales
+              Our SEO Services in Laurel Help Businesses Get More Website
+              Traffic, Leads and Sales
             </h2>
             <p className="subtext">
               We provide SEO to businesses in Laurel and the rest of Howard
