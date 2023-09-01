@@ -6,7 +6,6 @@ import MainLayout from '../components/MainLayout'
 import HeroSection from '../components/HeroSection'
 import Button from '../components/Button'
 import { Business, Businesses } from '../components/BusinessesWeWorkWith'
-import { City, Cities } from '../components/CitySection'
 import {
   ReasonSec,
   Deliverable,
@@ -36,7 +35,7 @@ export default function RockvilleSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Skyrocket Your Business Growth with Google and Our Rockville SEO Services"
+          heroText="Skyrocket Your Business Growth with Google and Search Engine Optimization in Rockville, MD"
           subText="Increase web traffic, leads, and sales with powerful SEO solutions"
           backgroundImage="/images/rockville-seo-company-cover.webp"
           backgroundHeight="70vh"
@@ -75,10 +74,7 @@ export default function RockvilleSEO() {
                 <p>This is where we come in.</p>
                 <p>
                   We're a leading{' '}
-                  <Link href="/maryland-seo-company">
-                    SEO company in Maryland
-                  </Link>
-                  .
+                  <strong>SEO company in Rockville, Maryland</strong>.
                 </p>
                 <p>
                   We're here to help Rockville businesses like yours ascend the
@@ -484,7 +480,6 @@ export default function RockvilleSEO() {
                   </ul>
                 </div>
               </Deliverable>
-
               <Deliverable>
                 <img
                   src="/images/icons/check-mark.png"
@@ -527,7 +522,7 @@ export default function RockvilleSEO() {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Rockville Local SEO</h3>
+                  <h3>Local SEO for Rockville Businesses</h3>
                   <ul>
                     <li>
                       Boost your business's visibility to potential customers in
@@ -641,7 +636,7 @@ export default function RockvilleSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              Why You Should Partner With Our Rockville SEO COmpany
+              Why You Should Partner With Our Local SEO Company in Rockville, MD
             </h2>
             <p className="subtext">We never work with your competitors</p>
             <Service>
@@ -900,11 +895,14 @@ export default function RockvilleSEO() {
             loading="lazy"
           />
           <div className="container">
-            <h2>Are You Set to Expand Your Rockville Customer Base?</h2>
+            <h2>
+              Are You Set to Expand Your Business with Search engine Optimiztion
+              in Rockville?
+            </h2>
             <p>
-              Reach out to our Rockville SEO agency and let us reveal the
-              secrets to customer acquisition and growth, without the additional
-              cost of purchasing leads or ads.
+              Reach out to our Rockville SEO company and let us reveal the
+              secrets to customer acquisition and growth with search engine
+              optimization.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">

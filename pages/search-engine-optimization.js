@@ -706,11 +706,13 @@ const Rockville = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="SGreenbelt, MD."
-                  title="Greenbelt, MD."
+                  alt="Elkton, MD."
+                  title="Elkton, MD."
                   loading="lazy"
                 />
-                <p>Greenbelt, MD</p>
+                <Link href="/search-engine-optimization-elkton-md">
+                  Elkton, MD
+                </Link>
               </City>
               <City>
                 <img

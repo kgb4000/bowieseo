@@ -30,14 +30,14 @@ const SEOAgency = 'our black-owned SEO company'
 
 export default function blackOwnedSEOCompany() {
   const SEO = {
-    title: 'Black-Owned SEO Company | Check Me Out First',
+    title: 'Black Owned SEO Company | Check Me Out First',
     description:
-      'Trust our Black-owned SEO company to boost your online visibility, attract high-quality traffic, and convert more leads into sales. Book an SEO call!',
+      'Trust my Black owned SEO company to boost your online visibility, attract high-quality traffic, and convert more leads into sales. Book an SEO call!',
     canonical: 'https://bowieseo.com/black-owned-seo-company',
     openGraph: {
-      title: 'Black-Owned SEO Company | Check Me Out First',
+      title: 'Black Owned SEO Company | Check Me Out First',
       description:
-        'Trust our Black-owned SEO company to boost your online visibility, attract high-quality traffic, and convert more leads into sales. Book an SEO call!',
+        'Trust my Black owned SEO company to boost your online visibility, attract high-quality traffic, and convert more leads into sales. Book an SEO call!',
       image: [{}],
     },
   }
@@ -46,7 +46,7 @@ export default function blackOwnedSEOCompany() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="We're a Black-Owned SEO Company Empowering Businesses to Get Attention on Google"
+          heroText="We're a Black Owned SEO Company Empowering Businesses to Get Attention on Google"
           subText="Let us optimize your website so that you can get more leads and customers and grow your business"
           backgroundImage="/images/black-owned-seo-agency.webp"
           backgroundHeight="70vh"
@@ -85,7 +85,7 @@ export default function blackOwnedSEOCompany() {
               </p>
               <p>This is where our expertise comes into play.</p>
               <p>
-                As a premier black-owned SEO company, we can transform your
+                As a premier black owned SEO company, we can transform your
                 digital presence.
               </p>
               <p>
@@ -128,7 +128,7 @@ export default function blackOwnedSEOCompany() {
         <section>
           <div className="medium-container">
             <h2 className="title">
-              What You Get Working With Our Black-Owned SEO Agency
+              What You Get Working With My Black Owned SEO Agency
             </h2>
             <p className="subtext">
               When you work with us, you get superior customer service, plus the
@@ -376,7 +376,7 @@ export default function blackOwnedSEOCompany() {
         <section>
           <div className="medium-container">
             <h2 className="title">
-              With Other SEO Companies, Why Work With Our Black-Owned SEO
+              With Other SEO Companies, Why Work With My Black Owned SEO
               Company?
             </h2>
             <p className="subtext">
@@ -398,7 +398,7 @@ export default function blackOwnedSEOCompany() {
                   <h3>Personalized Approach</h3>
                   <p>
                     Every business is unique and deserves a customized approach.
-                    As a smaller black-owned SEO agency, we can provide
+                    As a smaller black owned SEO agency, we can provide
                     personalized attention. We craft bespoke SEO strategies
                     tailored to your business's needs and goals. It's not the
                     one-size-fits-all solutions often offered by larger firms.
@@ -407,7 +407,7 @@ export default function blackOwnedSEOCompany() {
                 <div className="reasons">
                   <h3>Cultural Competence</h3>
                   <p>
-                    As a black-owned SEO company and black entrepreneurs, we
+                    As a black owned SEO company and black entrepreneurs, we
                     understand the cultural nuances and unique challenges black
                     business owners and other underrepresented groups face. This
                     cultural competence allows us to create highly effective SEO
@@ -430,7 +430,7 @@ export default function blackOwnedSEOCompany() {
                 <div className="reasons">
                   <div>
                     <h3>
-                      We Become Partners, Not Just a Black-Owned SEO Agency You
+                      We Become Partners, Not Just a Black Owned SEO Agency You
                       Hired
                     </h3>
                     <p>
@@ -463,8 +463,8 @@ export default function blackOwnedSEOCompany() {
                 },
                 {
                   questionName:
-                    'What are some unique SEO challenges faced by Black-owned businesses?',
-                  acceptedAnswerText: `Like other businesses, black-owned businesses face various SEO challenges, such as website optimization, quality link-building, and content creation. However, they might also face unique challenges like underrepresentation or biases in specific industry niches. Understanding these can help in devising effective SEO strategies.`,
+                    'What are some unique SEO challenges faced by Black owned businesses?',
+                  acceptedAnswerText: `Like other businesses, black owned businesses face various SEO challenges, such as website optimization, quality link-building, and content creation. However, they might also face unique challenges like underrepresentation or biases in specific industry niches. Understanding these can help in devising effective SEO strategies.`,
                 },
                 {
                   questionName:
@@ -537,11 +537,11 @@ export default function blackOwnedSEOCompany() {
                 </div>
                 <div className="question">
                   <h3>
-                    What are some unique SEO challenges faced by Black-owned
+                    What are some unique SEO challenges faced by black owned
                     businesses?
                   </h3>
                   <p>
-                    Like other businesses, black-owned businesses face various
+                    Like other businesses, black owned businesses face various
                     SEO challenges, such as website optimization, quality
                     link-building, and content creation. However, they might
                     also face unique challenges like underrepresentation or
