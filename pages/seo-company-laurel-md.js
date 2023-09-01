@@ -21,13 +21,11 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function LocalSEO() {
   const SEO = {
-    title:
-      'Expert SEO Services in Laurel, MD | Get Ranked and Boost Company Growth',
+    title: 'SEO Company in Laurel, MD | Get Ranked and Boost Company Growth',
     description: `Discover the leading SEO services in Laurel, MD. Enhance your online visibility and see transformative business results. Book a Free SEO call today!`,
-    canonical: 'https://bowieseo.com/seo-services-laurel-md',
+    canonical: 'https://bowieseo.com/seo-company-laurel-md',
     openGraph: {
-      title:
-        'Expert SEO Services in Laurel, MD | Get Ranked and Boost Company Growth',
+      title: 'SEO Company in Laurel, MD | Get Ranked and Boost Company Growth',
       description: `Discover the leading SEO services in Laurel, MD. Enhance your online visibility and see transformative business results. Book a Free SEO call today!.`,
       image: [{}],
     },
