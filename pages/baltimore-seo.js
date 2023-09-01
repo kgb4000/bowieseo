@@ -42,12 +42,12 @@ const BaltimoreSEOCompany = () => {
       <MainLayout>
         <HeroSection
           heroText="Boost Your Business with Baltimore SEO Services and Elevate Your Success"
-          subText="Grow your customer base and revenue and make your website a lead-generating powerhouse."
+          subText="Grow your customer base and revenue and make your website a lead-generating powerhouse with Baltimore SEO."
           backgroundImage="/images/search-engine-optimization-header.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"
-          buttonText="Book a free SEO consultation today!"
-          buttonLink={calendly}
+          buttonText="Get Your Free SEO Audit &#8594;"
+          buttonLink="/free-seo-audit"
         />
         <section>
           <div className="medium-container">
@@ -76,7 +76,10 @@ const BaltimoreSEOCompany = () => {
                   This isn't a stroke of luck; it's a meticulously crafted
                   strategy.
                 </p>
-                <p>Your rivals have decoded the magic formula - SEO.</p>
+                <p>
+                  Your rivals have decoded the magic formula in Baltimore -{' '}
+                  <strong>Baltimore SEO</strong>.
+                </p>
                 <p>
                   They're harnessing its power to amplify their visibility,
                   magnetize more customers, and turbocharge their business
@@ -87,8 +90,8 @@ const BaltimoreSEOCompany = () => {
                   same?
                 </p>
                 <p>
-                  Without SEO, your business isn't merely stationary, it's
-                  sliding backward.
+                  Without Baltimore SEO, your business isn't merely stationary,
+                  it's sliding backward.
                 </p>
                 <p>
                   Each passing day, potential customers who should be beating a
@@ -100,7 +103,7 @@ const BaltimoreSEOCompany = () => {
                   presence and fortifying their reputation.
                 </p>
                 <p>
-                  nd remember, the longer you wait, the steeper the climb
+                  And know this, the longer you wait, the steeper the climb
                   becomes. SEO isn't a quick fix but a commitment to a long-term
                   game plan.
                 </p>
@@ -120,8 +123,8 @@ const BaltimoreSEOCompany = () => {
                   Now's the time to reclaim your position in the digital race.
                 </p>
                 <p>
-                  [<Link href="/contact">Click here</Link> to Start Your SEO
-                  Journey Today]
+                  [<Link href="/contact">Click here</Link> to Start Your
+                  Baltimore SEO Journey Today]
                 </p>
               </div>
               <img
@@ -142,15 +145,15 @@ const BaltimoreSEOCompany = () => {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="small-container">
             <div>
               <h2>
                 Improve Your Rankings and Get Your Business in Front of the
-                Right Customers With Baltimore Local SEO
+                Right Customers With Baltimore Search Engine Optimization
               </h2>
               <p>
-                If you're searching for Baltimore SEO or Baltimore SEO company,
-                you know what search engine optimization can do for your
+                If you're searching for Baltimore search engine optimization or
+                Baltimore SEO company, you know what SEO can do for your
                 business. SEO can make your website a magnet to reach and
                 attract new leads and potential customers online.
               </p>
@@ -173,12 +176,17 @@ const BaltimoreSEOCompany = () => {
                 business online.
               </p>
             </div>
+            <div className="btn">
+              <Link href="/free-seo-audit">
+                <Button>Get Your Free SEO Audit &#8594;</Button>
+              </Link>
+            </div>
           </div>
         </section>
         <section className="reasons-section">
           <div className="container">
             <h2 className="title">
-              Why Invest in Baltimore Local SEO for 2024?
+              Why Invest in Baltimore Search Engine Optimization for 2024?
             </h2>
             <img
               src="images/baltimore-seo-company.jpg"
@@ -371,7 +379,7 @@ const BaltimoreSEOCompany = () => {
         <section className="bg-color">
           <div className="container">
             <h2 className="title">
-              Our Baltimore Local SEO Services Can Get You in Front of More
+              Baltimore Search Engine Optimization Can Get You in Front of More
               B'more Customers
             </h2>
             <p className="subtext">
@@ -429,19 +437,19 @@ const BaltimoreSEOCompany = () => {
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Free Mini SEO Audit</h3>
+                  <h3>Free SEO Audit</h3>
                   <p>
-                    Get a free mini SEO audit on us and see how you can improve
-                    your SEO rankings and performance to increase your sales and
+                    Get a free SEO audit on us and see how you can improve your
+                    SEO rankings and performance to increase your sales and
                     revenue.
                   </p>
                 </div>
               </div>
             </Service>
             <div className="btn">
-              <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free Consultation Today!</Button>
-              </a>
+              <Link href="/free-seo-audit">
+                <Button>Get Your Free SEO Audit &#8594;</Button>
+              </Link>
             </div>
           </div>
         </section>
@@ -1213,7 +1221,10 @@ const BaltimoreSEOCompany = () => {
             height="667px"
           />
           <div className="container">
-            <h2>Are You Ready to Boost Your Business With Baltimore SEO?</h2>
+            <h2>
+              Are You Ready to Boost Your Business With Baltimore Search Engine
+              Optimization?
+            </h2>
             <p>
               To learn how SEO can help you generate leads without spending
               money on advertising, get in touch with us today!

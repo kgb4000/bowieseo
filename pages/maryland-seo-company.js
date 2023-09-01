@@ -86,10 +86,7 @@ const MarylandSEOCompany = () => {
                   search for your services.
                 </p>
                 <p>They see your competitors'.</p>
-                <p>
-                  They're giving money to your competitors instead of
-                  you.
-                </p>
+                <p>They're giving money to your competitors instead of you.</p>
                 <p>
                   And if you don't do something about it now, it will only get
                   worse.
@@ -110,13 +107,13 @@ const MarylandSEOCompany = () => {
                 </p>
                 <p>That's where we come in and we can help.</p>
                 <p>
-                  We're a <b>local SEO experts</b> that can help you get more
+                  We're a <b>local SEO company</b> that can help you get more
                   leads and customers with Maryland search engine optimization
                   (SEO).
                 </p>
                 <p>
-                  (Maryland) local SEO can help you increase your leads, website
-                  traffic, online presence, sales, and your revenue.
+                  With (Maryland) local SEO, you can increase your leads,
+                  website traffic, sales and your revenue.
                 </p>
                 <p>How does that sound?</p>
                 <p>
@@ -138,7 +135,7 @@ const MarylandSEOCompany = () => {
             <div className="grid">
               <div className="first-section">
                 <h2>
-                  Discover How (Maryland) Local SEO Can Help Your Business
+                  Discover How (Maryland) SEO Services Can Help Your Business
                   Explode
                 </h2>
                 <p>Imagine coming in to work on Monday.</p>
@@ -205,13 +202,14 @@ const MarylandSEOCompany = () => {
               loading="lazy"
             />
             <p>
-              (Maryland) local search engine optimization is a digital marketing
-              strategy that helps your website rank higher in Google and other
-              major search engines and bring more traffic to your website.
+              <strong>(Maryland) local search engine optimization</strong> is a
+              digital marketing strategy that helps to increase your website
+              visiblity in search engines.
             </p>
             <p>
-              It's a type of inbound marketing where you create valuable content
-              that your target market is searching for.
+              When more people see your website listed in the search results,
+              you increase your chances of getting more website visitors and
+              traffic to your site.
             </p>
             <p>
               The more traffic your website gets, the more chances you getting
@@ -222,13 +220,16 @@ const MarylandSEOCompany = () => {
               can result in exponential growth for your business.
             </p>
             <p>
-              From targeting the right keywords, competitor analysis, on-page
-              SEO, and managing your Google My Business page, search engine
-              optimization can take your business to the next level.
+              From keywords research, competitor analysis, on-page SEO, and
+              off-page SEO, search engine optimization can take your business to
+              the next level.
             </p>
             <p>
-              Schedule a free call with us, tell us about your business, and
-              learn how (Maryland) SEO can help your business take off.
+              <a href={calendly} target="_blank">
+                Schedule a free call with us
+              </a>
+              , tell us about your business, and learn how (Maryland) SEO can
+              help your business take off.
             </p>
           </div>
         </section>
@@ -990,7 +991,7 @@ const MarylandSEOCompany = () => {
               },
             ]}
           />
-          <div className="container">
+          <div className="medium-container">
             <h2 className="title">
               FAQs People Ask About Our Maryland SEO Company and Services
             </h2>
