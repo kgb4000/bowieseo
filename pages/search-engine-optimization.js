@@ -648,7 +648,9 @@ const Rockville = () => {
                   title="Potomac, MD."
                   loading="lazy"
                 />
-                <p>Potomac, MD</p>
+                <Link href="/potomac-md-seo-company" passHref>
+                  <a>Potomac, MD</a>
+                </Link>
               </City>
               <City>
                 <img

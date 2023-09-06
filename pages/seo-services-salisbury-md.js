@@ -427,7 +427,7 @@ export default function OceanCitySEO() {
             <p>
               Local SEO makes it so that when someone in Salisbury or in nearby
               places like{' '}
-              <Link href="/seo-services-ocean-city" passHref>
+              <Link href="/seo-services-ocean-city-md" passHref>
                 <a>Ocean City</a>
               </Link>
               , Berlin, Whitehaven, or Pokomoke, MD search for services like
