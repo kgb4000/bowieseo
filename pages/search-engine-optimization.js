@@ -38,8 +38,8 @@ const Rockville = () => {
           backgroundImage="/images/search-engine-optimization-header.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"
-          buttonText="Book my SEO Call Today!"
-          buttonLink={calendly}
+          buttonText="Get Your Free SEO Audit"
+          buttonLink='/free-seo-audit'
         />
         <section>
           <div className="medium-container">
@@ -533,7 +533,9 @@ const Rockville = () => {
                   title="Annapolis, MD."
                   loading="lazy"
                 />
-                <p>Annapolis</p>
+                <Link href="/search-engine-optimization-annapolis-md">
+                  Annapolis
+                </Link>
               </City>
               <City>
                 <img
@@ -564,7 +566,7 @@ const Rockville = () => {
                   title="Bethesda, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-bethesda-md" passHref>
+                <Link href="/seo-services-company-bethesda-md" passHref>
                   <a>Bethesda, MD</a>
                 </Link>
               </City>

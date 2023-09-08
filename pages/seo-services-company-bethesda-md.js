@@ -21,12 +21,12 @@ const SEOAgency = 'SEO professionals'
 
 export default function BethesdaMD() {
   const SEO = {
-    title: 'SEO Company in Bethesda, MD | Check Us Out First.',
+    title: 'SEO Services Company in Bethesda, MD | Check Us Out First.',
     description:
       'Need and SEO company in Bethesda to get you more leads and customers?. We help businesses like yours get found in Google. Book a free call today!',
-    canonical: 'https://bowieseo.com/seo-company-bethesda-md',
+    canonical: 'https://bowieseo.com/seo-services-company-bethesda-md',
     openGraph: {
-      title: 'SEO Company in Bethesda, MD | Check Us Out First.',
+      title: 'SEO Services Company in Bethesda, MD | Check Us Out First.',
       description:
         'Need and SEO company in Bethesda to get you more leads and customers?. We help businesses like yours get found in Google. Book a free call today!',
       image: [{}],
@@ -37,13 +37,13 @@ export default function BethesdaMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Boost Your Business Growth with the Best SEO Company in Bethesda, MD"
+          heroText="Grow Your Business with the Best SEO Services Company in Bethesda"
           subText="Get free traffic and leads without paying for expensive ads"
           backgroundImage="/images/seo-services-south-kensington-md-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center"
-          buttonText="Book Your Free Call Today!"
-          buttonLink={calendly}
+          buttonText="Get Your Free SEO Audit &#8594;"
+          buttonLink="/free-seo-audit"
         />
         <section>
           <div className="medium-container">
@@ -51,7 +51,7 @@ export default function BethesdaMD() {
               <div>
                 <h2>
                   Are You Ready to Leave Mediocrity Behind and Elevate Your
-                  Business with SEO in Bethesda?
+                  Business with SEO?
                 </h2>
                 <p>Running a business in Bethesda is no easy task.</p>
                 <p>And generating leads?</p>
@@ -84,7 +84,7 @@ export default function BethesdaMD() {
                   <Link href="/maryland-seo-company">Maryland SEO company</Link>
                   , we excel at empowering small business owners in Bethesda.
                 </p>
-                <p>How? </p>
+                <p>How?</p>
                 <p>
                   By sculpting a unique, lead generation ecosystem designed
                   specifically for your business.
@@ -114,7 +114,7 @@ export default function BethesdaMD() {
                 src="/images/seo-company-bethesda-md.webp"
                 className="page-img-left"
                 alt="Business owner thinking about getting SEO Services for his business in Bethesda"
-                title="Business owner thinking about getting SEO Services in Bethesda"
+                title="Business owner thinking about getting SEO Services in Bethesda, MD."
                 width="600px"
                 height="1000px"
               />
@@ -129,7 +129,7 @@ export default function BethesdaMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get With Our SEO Company in Bethesda, Maryland
+              What You Get With Our SEO Services in Bethesda, Maryland
             </h2>
             <p className="subtext">When you work with us, you get:</p>
           </div>
@@ -322,20 +322,21 @@ export default function BethesdaMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              Unleashing Potential: Our Services Propel Bethesda Businesses to
+              Unleashing Potential: SEO Services Propel Bethesda Businesses to
               New Heights
             </h2>
             <p className="subtext">
-              Serving businesses across Bethesda and the entirety of Montgomery
-              County, we specialize in a crucial game-changer: search engine
-              optimization.
+              Serving businesses across Bethesda,{' '}
+              <Link href="/rockville-seo-company">Rockville</Link>, and the
+              entirety of Montgomery County, we specialize in a crucial
+              game-changer: search engine optimization.
             </p>
             <Service>
               <div className="service-card">
                 <img
                   src="/images/bethesda-search-engine-optimization.webp"
-                  alt="SEO Services in Bethesda."
-                  title="SEO Services in Bethesda."
+                  alt="SEO Services in Bethesda, MD."
+                  title="SEO Services in Bethesda, MD."
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -405,8 +406,8 @@ export default function BethesdaMD() {
               <img
                 src="/images/home-service-business.webp"
                 className="page-img"
-                alt="Home service buisness."
-                title="Home service businesses we work with in Bethesda."
+                alt="Home service businesses we work with in Bethesda, MD"
+                title="Home service businesses we work with in Bethesda, MD."
               />
               <div>
                 <h2>Businesses We Work With in Bethesda.</h2>
@@ -533,7 +534,7 @@ export default function BethesdaMD() {
 
         <section className="why-work-with-us-section">
           <div className="medium-container">
-            <h2 className="title">Why Work With Bethesda SEO Specialists?</h2>
+            <h2 className="title">Why Work With a Bethesda SEO Specialists?</h2>
             <p className="sub-text">
               We get the results you need to make your business succeed. From
               increasing traffic, to finding the right leads and convertiong
