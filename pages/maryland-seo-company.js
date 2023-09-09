@@ -107,8 +107,11 @@ const MarylandSEOCompany = () => {
                 </p>
                 <p>That's where we come in and we can help.</p>
                 <p>
-                  We're a <b>local SEO company</b> that can help you get more
-                  leads and customers with Maryland search engine optimization
+                  We're a local SEO company in Maryland that can help you get more
+                  leads and customers with our customized{' '}
+                  <Link href="/search-engine-optimization">
+                    Maryland search engine optimization
+                  </Link>{' '}
                   (SEO).
                 </p>
                 <p>

@@ -74,7 +74,7 @@ export default function Home({ data }) {
                   <Link href="/maryland-seo-company" passHref>
                     <a>Maryland SEO Company</a>
                   </Link>{' '}
-                  in Bowie, MD, and we can show you how to fix your website so
+                  in Bowie, and we can show you how to fix your website so
                   you can attract more leads and customers without paying for
                   ads.
                 </p>
@@ -92,7 +92,7 @@ export default function Home({ data }) {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Call to Fix Your SEO!</Button>
+                <Button>Book Your Free SEO Consultation &#8594;</Button>
               </a>
             </div>
           </div>

@@ -15,15 +15,15 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const Rockville = () => {
   const SEO = {
-    title: 'Search Engine Optimization Services for Home Service Businesses',
+    title: 'Search Engine Optimization | Bowie SEO',
     description:
-      'We provide local SEO services for small businesses in Maryland and DC. Get more customers and web traffic, and increase revenue. Contact us today!',
+      'We provide local SEO services for small businesses. Get more customers and web traffic, and increase revenue. Contact us today!',
     type: 'website',
     canonical: 'https://bowieseo.com/search-engine-optimization',
     openGraph: {
-      title: 'Local SEO Services for Small Business in Maryland and DC',
+      title: 'Search Engine Optimization | Bowie SEO',
       description:
-        'We provide local SEO services for small businesses in Maryland and DC. Get more customers and web traffic, and increase revenue. Contact us today!',
+        'We provide local SEO services for small businesses. Get more customers and web traffic, and increase revenue. Contact us today!',
       type: 'website',
       image: [{}],
     },
@@ -33,73 +33,75 @@ const Rockville = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Search Engine Optimization"
-          subText="Use this powerful inbound marketing method to get customers to find your business online and stop paying for ads!"
+          heroText="Search Engine Optimization for Small Businesses"
+          subText="Use this powerful inbound marketing method to get customers to find your business when it counts."
           backgroundImage="/images/search-engine-optimization-header.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"
-          buttonText="Get Your Free SEO Audit"
-          buttonLink='/free-seo-audit'
+          buttonText="Get Your Free SEO Audit &#8594;"
+          buttonLink="/free-seo-audit"
         />
         <section>
           <div className="medium-container">
             <div className="grid">
               <div>
-                <h2>
-                  Did You Know You’re Losing Money Every Month Because You’re
-                  Not Showing Up On the First Page of Google?
-                </h2>
+                <h2>What is Search Engine Optimization?</h2>
                 <p>
-                  If one of your services costs <b>$1000 to $4,000</b>, what
-                  would three extra monthly jobs do for your business ?
+                  Search engine optimization, or SEO, isn't just a buzzword:
+                  it's a necessity in today's hyperconnected world.
                 </p>
                 <p>
-                  What if one of your services costs <b>$500 to $1,500</b>, what
-                  would six extra jobs a month do for your business?
+                  <strong>Imagine this is you:</strong>
                 </p>
                 <p>
-                  Every day when someone searches for your services and you
-                  don’t appear in the search results, you’re losing money.
-                </p>
-                <p>How?</p>
-                <p>
-                  Because they're buying from your competitors instead of you.
-                </p>
-                <p>Try it yourself.</p>
-                <p>
-                  Search for one of your services and see if your website
-                  appears on the first page.
-                </p>
-                <p>If it does, that’s fantastic.</p>
-                <p>If it doesn't, you’re losing money.</p>
-                <p>
-                  You’re losing money that’s going to your competitors, who are
-                  showing up in the search results when people search for your
-                  services.
-                </p>
-                <p>Is this ok with you?</p>
-                <p>I think not.</p>
-                <p>
-                  And it will only get worse if you don’t do something about it.
+                  You own an electrical company, or pool company, or landscaping
+                  company in Frederick, MD.
                 </p>
                 <p>
-                  You’ll have to keep spending money on Facebook and Google ads
-                  to get people to come to your website.
-                </p>
-                <p>And ad costs keep getting more and more expensive.</p>
-                <p>But there is a better way.</p>
-                <p>
-                  A way to get customers to find your business online when
-                  they’re ready to spend.
+                  Peter, who just bought a house with his family, is looking for
+                  an electrician, a landscaper, and a pool maintenance company
+                  to do some work at his new house.
                 </p>
                 <p>
-                  It’s called search engine optimization, and it can bring more
-                  leads and customers to your business, without paying for any
-                  ads.
+                  Rather than flipping through the Yellow pages or asking a new
+                  neighbor, Peter is likely to take out his smartphone or open
+                  his laptop and type a query into a search engine—something
+                  along the lines of "pool service company near me."
                 </p>
                 <p>
-                  Want to see how search engine optimization could help your
-                  business?
+                  With <strong>local SEO</strong>, your company could be the
+                  first listing Peter sees, enticing him to click on your
+                  listing and call or contact your company.
+                </p>
+                <p>
+                  Optimizing your company's website for local search can
+                  drastically increase the chances of your business appearing as
+                  the top result, or at least on the first page, when Peter
+                  makes his search.
+                </p>
+                <p>
+                  This doesn't just mean you've won the digital lottery; it
+                  translates to real-world gains.{' '}
+                </p>
+                <p>
+                  Studies have shown that the first three organic search results
+                  account for approximately{' '}
+                  <a
+                    href="https://backlinko.com/google-ctr-stats"
+                    target="_blank"
+                  >
+                    54.4% of all clicks
+                  </a>
+                  .
+                </p>
+                <p>
+                  Therefore, the higher your site ranks, the more clicks you'll
+                  get, and those clicks translate into potential leads and
+                  sales.
+                </p>
+                <p>
+                  Want to see how local search engine optimization could help
+                  your business?
                 </p>
               </div>
               <img
@@ -113,9 +115,13 @@ const Rockville = () => {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book my SEO Call Now!</Button>
+                <Button>Book Your Free SEO Call Now!</Button>
               </a>
             </div>
+            <p className="subtext">
+              Or get your{' '}
+              <Link href="/free-seo-audit">Free SEO Audit &#8594;</Link>
+            </p>
           </div>
         </section>
         <section>
@@ -136,97 +142,282 @@ const Rockville = () => {
                 </h2>
                 <p>Think about this.</p>
                 <p>
-                  93% of people use search engines like Google to find local
-                  businesses like yours.
+                  A staggering{' '}
+                  <a
+                    href="https://99firms.com/blog/search-engine-statistics/#gref"
+                    target="_blank"
+                  >
+                    43% of people
+                  </a>{' '}
+                  use search engines like Google to discover local businesses.
+                </p>
+                <p>What does that mean for you?</p>
+                <p>
+                  It means that almost four out of every ten individuals looking
+                  for services like yours aren't just stumbling upon your
+                  business by chance; they're actively searching for it.
                 </p>
                 <p>
-                  That’s a lot of people searching, and that’s why you need{' '}
-                  <Link href="/maryland-seo-company" passHref>
-                    Maryland SEO company
-                  </Link>
-                  .
+                  <strong>
+                    When users like our hypothetical homeowner Peter type
+                    something into Google, they're not merely looking for
+                    information.
+                  </strong>
                 </p>
                 <p>
-                  Imagine coming to work, and your email inbox is full of people
-                  requesting quotes for your services.
-                </p>
-                <p>How did they find you?</p>
-                <p>
-                  Because you show up on the first page when they search for
-                  your services.
+                  <strong>They have an intent behind their search.</strong>
                 </p>
                 <p>
-                  Your website is getting 50,000 visitors per month, and you
-                  started doing SEO one year ago.
-                </p>
-                <p>And you stopped paying for ads.</p>
-                <p>
-                  Your customer service department is busy with phone calls
-                  every day, and your technicians have work booked out 6 months
-                  into the year.
-                </p>
-                <p>People see you as the expert in your industry.</p>
-                <p>
-                  Your business is growing, and you need to hire more staff and
-                  technicians and buy more equipment.
+                  It could be transactional, like finding a local electrician to
+                  fix a malfunctioning switch, or informational, like
+                  understanding how to maintain a swimming pool.
                 </p>
                 <p>
-                  While other businesses are struggling to get work for their
-                  employees, your business is thriving.
-                </p>
-                <p>Search engine optimization (SEO) can make this happen.</p>
-                <p>
-                  SEO is a practice that improves your website and increases
-                  your online visibility in search engines.
-                </p>
-                <p>
-                  With more online visibility, you expose your business to more
-                  people searching for your services.
-                </p>
-                <p>
-                  More people seeing your website means more website visits and
-                  the opportunity to convert those leads into paying customers.
-                </p>
-                <p>
-                  When you practice SEO, you get free organic traffic without
-                  paying for any online ads.
+                  Either way, each search query is an opportunity for your
+                  business to meet that specific need—provided you've optimized
+                  your online presence to do so.
                 </p>
                 <p>Want to learn more?</p>
               </div>
             </div>
-
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book my SEO Call Today!</Button>
+                <Button>Book Your Free SEO Call Now!</Button>
               </a>
             </div>
+            <p className="subtext">
+              Or get your{' '}
+              <Link href="/free-seo-audit">Free SEO Audit &#8594;</Link>
+            </p>
+          </div>
+        </section>
+        <section>
+          <div className="small-container">
+            <div>
+              <h2>Google's Algorithm: Four Key Signals</h2>
+              <p>
+                Understanding{' '}
+                <a
+                  href="https://www.google.com/search/howsearchworks/how-search-works/ranking-results/"
+                  target="_blank"
+                >
+                  how Google's algorithm works
+                </a>{' '}
+                can offer invaluable insights into climbing up those precious
+                search result rankings.
+              </p>
+              <p>
+                Google looks at several different signals to determine which
+                page should be shown first, but for local searches, four primary
+                signals take center stage:
+              </p>
+              <div>
+                <h3>Search Query Keywords:</h3>
+                <p>
+                  When Peter types "pool service company near me," the algorithm
+                  instantly scans for webpages that contain those words. This is
+                  the most basic form of matching, and it’s where keyword
+                  optimization plays a crucial role. By using targeted keywords
+                  in your website content, meta descriptions, and even image alt
+                  texts, you increase the likelihood of your page matching the
+                  user's query.
+                </p>
+              </div>
+              <div>
+                <h3>Page Relevance:</h3>
+                <p>
+                  Google doesn’t just look for keywords; it evaluates how
+                  relevant your entire page is to the search query. The search
+                  engine uses complex algorithms to assess whether the content
+                  on your page actually meets the needs expressed in the search
+                  query. High-quality, relevant content is rewarded with higher
+                  rankings.
+                </p>
+              </div>
+              <div>
+                <h3>Subject Expertise:</h3>
+                <p>
+                  Your website's credibility is another significant factor.
+                  Google evaluates this through the quality and quantity of
+                  backlinks your site has, the depth of content you offer, and
+                  your online reputation. Accurate, well-researched content,
+                  positive customer reviews, and authoritative backlinks can go
+                  a long way in establishing you as an expert in your field.
+                </p>
+              </div>
+              <div>
+                <h3>Location Proximity:</h3>
+                <p>
+                  For local searches, proximity is a massive determining factor.
+                  Google uses geolocation data to provide users with the most
+                  relevant and nearest options. That's why it's crucial to
+                  optimize your Google My Business listing and make sure your
+                  website mentions your location, ideally in key places like the
+                  title tag, meta description, and content body.
+                </p>
+              </div>
+              <p>Want to see how your website stacks up?</p>
+            </div>
+            <div className="btn">
+              <Link href="/free-seo-audit">
+                <Button>Get Your Free SEO Audit &#8594;</Button>
+              </Link>
+            </div>
+            <p className="subtext">
+              Or{' '}
+              <a href={calendly} target="_blank">
+                book a Free SEO call now &#8594;
+              </a>
+            </p>
           </div>
         </section>
         <section>
           <div className="medium-container">
             <h2 className="title">
-              Our SEO Process that Makes You Stand Out from Your Competition on
-              Google
+              What Happens To Your Business When You Don't Invest In or Practice
+              Local SEO?
             </h2>
+            <p className="subtext">
+              Here are the downsides of not investing in local SEO.
+            </p>
+            <Deliverables>
+              <Deliverable>
+                <img
+                  src="/images/icons/x-button.png"
+                  className="check"
+                  alt="X mark."
+                />
+                <div>
+                  <h3>You Become Invisible in Local Searches</h3>
+                  <p>
+                    You know the old saying, "Out of sight, out of mind." Well,
+                    this also holds true in digital marketing.
+                  </p>
+                  <p>
+                    If your business doesn't appear in the local searches, you
+                    become invisible to customers searching for your services.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/x-button.png"
+                  className="check"
+                  alt="X mark."
+                />
+                <div>
+                  <h3>Reduced Foot Traffic</h3>
+                  <p>
+                    If people don't know your store exists, they cannot visit
+                    your store.
+                  </p>
+                  <p>
+                    Even if you're on a busy street, you miss out on all the
+                    customers searching online before they decide where to go.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/x-button.png"
+                  className="check"
+                  alt="X mark."
+                />
+                <div>
+                  <h3>Lost Leads, Sales, and Revenue</h3>
+                  <p>
+                    Less visibility and fewer customers lead to reduced revenue.
+                  </p>
+                  <p>
+                    Meanwhile, competitors who invest in local SEO get more of
+                    the local business.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/x-button.png"
+                  className="check"
+                  alt="X mark."
+                />
+                <div>
+                  <h3>Loss of Trust and Credibility</h3>
+                  <p>
+                    When people search for services and find verified, ranked
+                    websites, they will likely trust those businesses.
+                  </p>
+                  <p>
+                    If you're not one of them, your trust factor takes a hit.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/x-button.png"
+                  className="check"
+                  alt="X mark."
+                />
+                <div>
+                  <h3>Competitive Disadvantage</h3>
+                  <p>
+                    Think about it. If your competitors are ramping up their
+                    local SEO game and you're not, they'll easily outrank you in
+                    the search results.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/x-button.png"
+                  className="check"
+                  alt="X mark."
+                />
+                <div>
+                  <h3>Costly to Catch-up</h3>
+                  <p>
+                    The longer you ignore local SEO, the time consuming and
+                    expensive it will be to establish a strong online presence
+                    later on.
+                  </p>
+                  <p>
+                    You'll be starting from scratch while your competition is
+                    miles ahead.
+                  </p>
+                </div>
+              </Deliverable>
+            </Deliverables>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book Your Free SEO Call Now!</Button>
+              </a>
+            </div>
+            <p className="subtext">
+              Or get your{' '}
+              <Link href="/free-seo-audit">Free SEO Audit &#8594;</Link>
+            </p>
+          </div>
+        </section>
+        <section>
+          <div className="medium-container">
+            <h2 className="title">
+              How Your Business Can Benefit By Investing in Local Search Engine
+              Optimization?
+            </h2>
+            <p className="subtext">
+              Here are the perks you get when you start doing local SEO.
+            </p>
             <Deliverables>
               <Deliverable>
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="Perform an SEO Audit."
+                  alt="Check mark."
                 />
                 <div>
-                  <h3>SEO Audit</h3>
+                  <h3>Boost in Local Visibility</h3>
                   <p>
-                    An SEO audit finds elements on your website that stop your
-                    site from ranking higher in search engines and your website
-                    presence.
-                  </p>
-                  <p>
-                    We find the problems on every page of your website, and we
-                    also determine what improvements can be made to make your
-                    site perform better and rank higher. After your SEO audit,
-                    we have data and information to make better decisions.
+                    With a solid Local SEO strategy, your business can be the
+                    first in the local listings and in the Map Pack.
                   </p>
                 </div>
               </Deliverable>
@@ -234,16 +425,13 @@ const Rockville = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="Get an action plan."
+                  alt="Check mark."
                 />
                 <div>
-                  <h3>Action Plan</h3>
-                  <p>After your SEO audit, we develop your action plan.</p>
+                  <h3>Increased Foot Traffic</h3>
                   <p>
-                    Your action plan will detail the tactics and strategies we
-                    will implement to get your website ranking on the first
-                    page. After overseeing many SEO campaigns, we can tell you
-                    what we need to do to improve your SEO performance.
+                    Ranking higher means more online visibility and more
+                    visibility translates to more foot traffic.
                   </p>
                 </div>
               </Deliverable>
@@ -251,16 +439,18 @@ const Rockville = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="Do technical SEO."
+                  alt="Check mark."
                 />
                 <div>
-                  <h3>Technical SEO</h3>
-                  <p>We perform a Technical SEO audit.</p>
+                  <h3>Higher Conversions</h3>
                   <p>
-                    We find and fix any technical elements that can affect your
-                    website and lower your chances of ranking in search engines.
-                    We find and fix elements such as 404 errors, core web
-                    vitals, crawl depth, broken links, and indexation issues.
+                    Local searches are often more intentional and ready to
+                    convert.
+                  </p>
+                  <p>
+                    A person looking for "pool maintenance," is more likely
+                    looking for a company to perform the service than someone
+                    looking for "how to do pool maintenance,"
                   </p>
                 </div>
               </Deliverable>
@@ -268,20 +458,17 @@ const Rockville = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="Do keyword research."
+                  alt="Check mark."
                 />
                 <div>
-                  <h3>Keyword Research</h3>
+                  <h3>Out Rank Your Local Competitors</h3>
                   <p>
-                    One of the most important factors that determine if your
-                    website appears in the search results or not is choosing the
-                    right keywords.
+                    This is your chance to get ahead of your competitors because
+                    you are doing local SEO, and your competitors aren't.
                   </p>
                   <p>
-                    To find the right keywords, we do extensive keyword
-                    research. We find the best and most profitable keywords with
-                    keyword research tools and through competitor analysis and
-                    expanding on keywords you already rank for.
+                    If they're doing local SEO, then you also need to do it to
+                    remain competitive.
                   </p>
                 </div>
               </Deliverable>
@@ -289,20 +476,14 @@ const Rockville = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="Create and optimize your existing content."
+                  alt="Check mark."
                 />
                 <div>
-                  <h3>Create and Optimize Existing Content</h3>
+                  <h3>Builds Credibility and Trust</h3>
                   <p>
-                    A crucial part of your SEO strategy is creating and
-                    optimizing your content.
-                  </p>
-                  <p>
-                    Your content is the main element in inbound marketing which
-                    will attract customers actively looking for your services.
-                    We use keywords found in the keyword research process to
-                    write content that will boost your rankings and attract
-                    links.
+                    When you always appear in the local searches, and your
+                    Google My Business profile is filled with positive reviews,
+                    you build trust and credibility with your local community.
                   </p>
                 </div>
               </Deliverable>
@@ -310,19 +491,17 @@ const Rockville = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="Build links to your website."
+                  alt="Check mark."
                 />
                 <div>
-                  <h3>Link Building</h3>
-                  <p>We build links to your website.</p>
+                  <h3>Cost Effective Marketing</h3>
                   <p>
-                    Backlinks are one of the top-ranking factors. Without them,
-                    you will not rank on the first page for some of your more
-                    competitive keywords.
+                    Unlike paid ads, organic traffic generated through local SEO
+                    comes at no cost per click.
                   </p>
                   <p>
-                    You need backlinks because they send signals to the search
-                    engines of how popular your website is.
+                    It's an upfront investment but pays off in substantial,
+                    long-term results.
                   </p>
                 </div>
               </Deliverable>
@@ -330,33 +509,21 @@ const Rockville = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="Track and monitor your SEO performance."
+                  alt="Check mark."
                 />
                 <div>
-                  <h3>Tracking and Monitoring Your Progress</h3>
+                  <h3>Enhanced Customer Engagement:</h3>
                   <p>
-                    Not finished yet. We must track and monitor our actions to
-                    ensure your campaign’s success.
+                    With features like{' '}
+                    <a href="https://businessmessages.google/" target="_blank">
+                      Google My Business Messaging
+                    </a>
+                    , customers can interact with you directly from the search
+                    results.
                   </p>
                   <p>
-                    We track and monitor your keyword rankings, your position in
-                    the search results, your competitor’s websites and keywords,
-                    and any algorithm updates.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="Repeating the Process."
-                />
-                <div>
-                  <h3>Repeating the Process</h3>
-                  <p>
-                    We repeat the entire process every 6 months. We find new
-                    keywords, optimize existing pages, build more links, write
-                    more content, and keep an eye on your competitors.
+                    You can answer questions, resolve issues, and build
+                    relationships even before they walk through your door.
                   </p>
                 </div>
               </Deliverable>
@@ -364,166 +531,43 @@ const Rockville = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="Weekly Updates."
+                  alt="Check mark."
                 />
                 <div>
-                  <h3>Weekly Updates</h3>
+                  <h3>Transparent ROI</h3>
                   <p>
-                    We repeat the entire process every 6 months. We find new
-                    keywords, optimize existing pages, build more links, write
-                    more content, and keep an eye on your competitors.
+                    One of the best parts of local SEO is the ability to track
+                    your return on investment through analytics.
                   </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="Monthly one-on-one Talks."
-                />
-                <div>
-                  <h3>Monthly One-on-one Talks</h3>
                   <p>
-                    We meet and talk with you every month to discuss any
-                    opportunities we discover, and to ensire that your SEO
-                    strategy is on track, and that your business is growing.
+                    You can measure key metrics like search rankings, web
+                    traffic, and conversion rates to understand how effective
+                    your local SEO strategies are.
                   </p>
                 </div>
               </Deliverable>
             </Deliverables>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book Your Free SEO Call Now!</Button>
+              </a>
+            </div>
             <p className="subtext">
-              P.S. We only perform ‘White Hat’ SEO which conforms to the rules
-              and policies of the search engines. With white hat SEO practices,
-              your website will not get penalized or banned.
+              Or get your{' '}
+              <Link href="/free-seo-audit">Free SEO Audit &#8594;</Link>
             </p>
-            <div className="btn">
-              <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book my SEO Call Now!</Button>
-              </a>
-            </div>
           </div>
         </section>
         <section>
-          <div className="container">
-            <div className="grid">
-              <img
-                src="/images/home-service-business-general-contractor.webp"
-                className="page-img"
-                alt="Home service businesses we work with - General Contractors."
-                title="Home service businesses we work with - General Contractors."
-              />
-              <div>
-                <h2>Small Businesses We Want to Work With</h2>
-                <Businesses>
-                  <Business>
-                    <img
-                      src="/images/icons/asphalt-paving-contractor.png"
-                      className="business-icon"
-                      alt="Businesses our company works with - Asphalt paving companies."
-                      title="Businesses we work with - Asphalt paving companies."
-                    />
-                    <p>Asphalt Paving Companies</p>
-                  </Business>
-                  <Business>
-                    <img
-                      src="/images/icons/plumbing-contractors.png"
-                      className="business-icon"
-                      alt="Businesses our company works with - Plumbing Contractors."
-                      title="Businesses our company works with - Plumbing Contractors."
-                    />
-                    <p>Plumbing Contractors</p>
-                  </Business>
-                  <Business>
-                    <img
-                      src="/images/icons/hvac-contractors.png"
-                      className="business-icon"
-                      alt="Businesses we work with - HVAC Contractors."
-                      title="Businesses we work with - HVAC Contractors."
-                    />
-                    <p>HVAC Contractors</p>
-                  </Business>
-                  <Business>
-                    <img
-                      src="/images/icons/roofing-contractors.png"
-                      className="business-icon"
-                      alt="Businesses we work with - Roofing Contractors."
-                      title="Businesses we work with - Roofing Contractors."
-                    />
-                    <p>Roofing Contractors</p>
-                  </Business>
-                  <Business>
-                    <img
-                      src="/images/icons/landscaping-companies.png"
-                      className="business-icon"
-                      alt="Businesses we work with - Landscaping Companies."
-                      title="Businesses we work with - Landscaping Companies."
-                    />
-                    <p>Landscaping Companies</p>
-                  </Business>
-                  <Business>
-                    <img
-                      src="/images/icons/pest-control-companies.png"
-                      className="business-icon"
-                      alt="Businesses we work with - Pest Control Companies."
-                      title="Businesses we work with - Pest Control Companies."
-                    />
-                    <p>Pest Control Companies</p>
-                  </Business>
-                  <Business>
-                    <img
-                      src="/images/icons/electrical-contractors.png"
-                      className="business-icon"
-                      alt="Businesses we work with - Electrical Contractors."
-                      title="Businesses we work with - Electrical Contractors."
-                    />
-                    <p>Electrical Contractors</p>
-                  </Business>
-                  <Business>
-                    <img
-                      src="/images/icons/swimming-pool-builders.png"
-                      className="business-icon"
-                      alt="Businesses we work with - Swimming Pool Builders."
-                      title="Businesses we work with - Swimming Pool Builders."
-                    />
-                    <p>Swimming Pool Builders</p>
-                  </Business>
-                  <Business>
-                    <img
-                      src="/images/icons/junk-removal-companies.png"
-                      className="business-icon"
-                      alt="Asphalt paving companies - Businesses we work with."
-                      title="Businesses we work with - Asphalt paving companies."
-                    />
-                    <p>Junk Removal Companies</p>
-                  </Business>
-                  <Business>
-                    <img
-                      src="/images/icons/general-contractors.png"
-                      className="business-icon"
-                      alt="Businesses we work with - General Contractors."
-                      title="Businesses we work with - General Contractors."
-                    />
-                    <p>General Contractors</p>
-                  </Business>
-                </Businesses>
-                <p>
-                  Call us today and let’s see how we can help find opportunities
-                  to help boost your sales and revenue.
-                </p>
-              </div>
-            </div>
-            <div className="btn">
-              <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book my SEO Call Now!</Button>
-              </a>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className="container">
-            <h2 className="title">Our Geographic Reach</h2>
+          <div className="medium-container">
+            <h2 className="title">
+              Our Geographic Reach: Cities We Help Businesses with Search Engine
+              Optimization
+            </h2>
             <p className="center">
-              Our local SEO services extend to businesses in:
+              Our{' '}
+              <Link href="/maryland-seo-company">Maryland SEO services</Link>{' '}
+              extend to businesses in:
             </p>
             <Cities>
               <City>
@@ -710,11 +754,11 @@ const Rockville = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Greenbelt, MD."
-                  title="Greenbelt, MD."
+                  alt="Frederick, MD."
+                  title="Frederick, MD."
                   loading="lazy"
                 />
-                <p>Greenbelt, MD</p>
+                <Link href="/seo-company-frederick-md">Frederick, MD</Link>
               </City>
               <City>
                 <img
@@ -739,9 +783,13 @@ const Rockville = () => {
             </Cities>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Get SEO Help Today!</Button>
+                <Button>Book Your Free SEO Call Now!</Button>
               </a>
             </div>
+            <p className="subtext">
+              Or get your{' '}
+              <Link href="/free-seo-audit">Free SEO Audit &#8594;</Link>
+            </p>
           </div>
         </section>
         <section>
@@ -792,9 +840,13 @@ const Rockville = () => {
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book my SEO Call Now!</Button>
+                <Button>Book Your Free SEO Call Now!</Button>
               </a>
             </div>
+            <p className="subtext">
+              Or get your{' '}
+              <Link href="/free-seo-audit">Free SEO Audit &#8594;</Link>
+            </p>
           </div>
         </section>
         <section>
@@ -1013,7 +1065,7 @@ const Rockville = () => {
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book my SEO Call Now!</Button>
+                <Button>Book Your Free SEO Call Today &#8594;</Button>
               </a>
             </div>
           </div>
@@ -1074,7 +1126,7 @@ const Deliverables = styled.div`
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
+    grid-gap: 20px;
   }
 `
 
@@ -1085,12 +1137,12 @@ const Deliverable = styled.div`
   img.check {
     margin: 0;
     margin-right: 1.5rem;
-    width: 54px;
-    height: 54px;
+    width: 50px;
+    height: 50px;
     }
 
     h3 {
-      margin: 0;
+      margin: 1rem 0;
     }
 
   }

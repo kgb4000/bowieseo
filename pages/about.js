@@ -6,7 +6,6 @@ import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import Button from '../components/Button'
 import HeroSection from '../components/HeroSection'
-import { Wrapper, Contact } from '../components/CardSection'
 
 import { NextSeo } from 'next-seo'
 
@@ -30,8 +29,8 @@ const About = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="We Believe Your Website Should Help Your Business Make Money!"
-          subText="We help you create a lead generating website that attracts leads and customers to your business"
+          heroText="I Believe Your Website Should Help Your Business Make Money!"
+          subText="I help you create a lead generating website that attracts leads and customers to your business"
           backgroundImage="/images/about-bowie-seo.webp"
           backgroundHeight="70vh"
           backgroundPosition="top center"
@@ -76,8 +75,8 @@ const About = () => {
               <li>Local SEO</li>
               <li>Competitive Analysis</li>
               <li>
-                <Link href="/free-mini-seo-audit" passHref>
-                  <a>Free Mini SEO audit</a>
+                <Link href="/free-seo-audit" passHref>
+                  <a>Free SEO audit</a>
                 </Link>
               </li>
             </ul>
@@ -106,8 +105,8 @@ const About = () => {
           <div className="small-container">
             <h2>Our Mission</h2>
             <p>
-              At Bowie SEO, our mission is to help businesses in Maryland, DC,
-              and Northern Virginia, make more money with SEO.
+              At Bowie SEO, our mission is to help businesses in Maryland make
+              more money with SEO.
             </p>
             <p>
               We offer a variety of services that can help businesses improve
@@ -132,27 +131,33 @@ const About = () => {
           <div className="small-container">
             <h2>Our Vision</h2>
             <p>
-              To be the premier search engine optimization company in Maryland
-              and to help our clients achieve the best possible online
-              visibility.
+              To be the premier{' '}
+              <Link href="/maryland-seo-company">SEO company in Maryland</Link>{' '}
+              and to help Maryland business owners increase their online
+              visibility, sales and revenue.
             </p>
             <h3>Our Values</h3>
-            <p>
-              <b>Integrity</b> - We always act with integrity and honesty.
-            </p>
-            <p>
-              <b>Excellence</b> - We strive for excellence in everything we do.
-            </p>
-            <p>
-              <b>Teamwork</b> - We work together as a team to achieve our goals.
-            </p>
-            <p>
-              <b>Respect</b> - We respect our clients, employees, and partners.
-            </p>
-            <p>
-              <b>Dedication</b> - We are dedicated to our clients and their
-              success.
-            </p>
+            <ul>
+              <li>
+                <h3>Integrity</h3> - We always act with integrity and honesty.
+              </li>
+              <li>
+                <h3>Excellence</h3> - We strive for excellence in everything we
+                do.
+              </li>
+              <li>
+                <h3>Teamwork</h3> - We work together as a team to achieve our
+                goals.
+              </li>
+              <li>
+                <h3>Respect</h3> - We respect our clients, employees, and
+                partners.
+              </li>
+              <li>
+                <h3>Dedication</h3> - We are dedicated to our clients and their
+                success.
+              </li>
+            </ul>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
                 <Button>Schedule a Consultation Today!</Button>

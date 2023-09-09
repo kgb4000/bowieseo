@@ -21,18 +21,18 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 const SEOAgency = 'Bowie SEO'
 
-export default function AnnaopisMDSEOCompany() {
+export default function SEOCompanyFrederickMD() {
   const SEO = {
     title:
-      'Search Engine Optimization Annapolis MD | Transform Clicks to Conversions',
+      'SEO Company in Frederick MD | Build Your Own Lead-Generation Website Today',
     description:
-      'Looking to dominate Google rankings? Our Annapolis, MD SEO agency offers personalized strategies to propel your business. Contact us now!"',
-    canonical: 'https://bowieseo.com/search-engine-optimization-annapolis-md',
+      'Build your own lead-generating website with search engine optimization and stop paying for Facebook and Google ads. Call for your free consultation!',
+    canonical: 'https://bowieseo.com/seo-company-frederick-md',
     openGraph: {
       title:
-        'Search Engine Optimization Annapolis MD | Transform Clicks to Conversions',
+        'SEO Company in Frederick MD | Build Your Own Lead-Generation Website Today',
       description:
-        'Looking to dominate Google rankings? Our Annapolis, MD SEO agency offers personalized strategies to propel your business. Contact us now!"',
+        'Build your own lead-generating website with search engine optimization and stop paying for Facebook and Google ads. Call for your free consultation!',
       type: 'website',
     },
   }
@@ -41,9 +41,9 @@ export default function AnnaopisMDSEOCompany() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Boost Traffic and Sales with Search Engine Optimization in Annapolis MD"
-          subText="Experience breakthrough growth in website traffic, leads, and sales with our Annapolis SEO services"
-          backgroundImage="/images/annapolis-md-seo-company-cover.webp"
+          heroText="Dominate Your Market with Frederick SEO Services and Boost Your Website Traffic and Sales"
+          subText="Experience breakthrough growth in website traffic, leads, and sales with our specialized SEO services"
+          backgroundImage="/images/frederick-maryland-seo-company-cover.jpg"
           backgroundHeight="70vh"
           backgroundPosition="top"
           buttonText="Get Your Free SEO Audit &#8594;"
@@ -54,74 +54,82 @@ export default function AnnaopisMDSEOCompany() {
             <div className="grid">
               <div>
                 <h2>
-                  Don't Let Digital Marketing Drown Your Business—Get Results
-                  Today!
+                  Having Trouble Getting People to Find Your Business on Google?
                 </h2>
+                <p>Let’s face it, you’re busy.</p>
                 <p>
-                  Running a profitable business in Annapolis is tough
-                  enough—doing it without serach engine optimization?
+                  You’re too busy running your business to learn how digital
+                  marketing works.
+                </p>
+                <p>But you know you need it to succeed.</p>
+                <p>
+                  You know you need it because without digital marketing, you’ll
+                  get left in the dust.
                 </p>
                 <p>
-                  <strong>Nearly impossible.</strong>
+                  You already tried Facebook ads, Instagram ads, and even Google
+                  ads, but they didn’t really bring you any business, and
+                  they’re expensive.
                 </p>
                 <p>
-                  Let's face it: In today's online-centric world, neglecting
-                  digital marketing is a fast track to irrelevance.
+                  You also tried paying for leads on HomeAdvisor, Angie’s List,
+                  and even Thumbtack, but you’re tired of discounting your
+                  prices just to compete.
                 </p>
                 <p>
-                  You've dabbled in Facebook ads, Instagram campaigns, and
-                  Google AdWords, because you know the brutal truth—without a
-                  digital presence, you're invisible.
+                  Other competitors in Waldorf are ranking higher than you in
+                  Google and their businesses are growing.
                 </p>
                 <p>
-                  You've even taken a swing at HomeAdvisor, Angie’s List, and
-                  Thumbtack.
-                </p>
-                <p>And the result?</p>
-                <p>Astronomical ad expenses and a relentless price war.</p>
-                <p>
-                  While your competitors steadily climb Google's rankings and
-                  flood their businesses with fresh customers, you're left
-                  pondering gut-wrenching choices like downsizing your team
-                  or—even worse—shutting down.
-                </p>
-                <p>Don't Become a Cautionary Tale.</p>
-                <p>
-                  Imagine effortlessly climbing Google’s ranks, magnetically
-                  drawing high-value leads, and scaling your Annapolis-based
-                  business without the night sweats.
-                </p>
-                <p>That's not a pipe dream—that's what we deliver.</p>
-                <p>
-                  We're more than just an{' '}
-                  <Link href="/maryland-seo-company">SEO agency</Link>; we're
-                  your long-term strategic ally for digital domination.
+                  They’re getting more customers and more business every month.
                 </p>
                 <p>
-                  <strong>
-                    Ready to Own Your Space on Google's Coveted First Page?
-                  </strong>
+                  If you don’t start getting more business soon, you might have
+                  to start laying off some of your employees.
+                </p>
+                <p>You may even have to shut down.</p>
+                <p>Is that what you want?</p>
+                <p>I don’t think so.</p>
+                <p>
+                  If you don’t do something about it now, it will only get
+                  worse.
+                </p>
+                <p>This is where we can help.</p>
+                <p>
+                  We use search engine optimization to get your website to show
+                  up on Google when people search for your services.
+                </p>
+                <p>
+                  We’re an{' '}
+                  <Link href="/maryland-seo-company" passHref>
+                    <a>SEO Company in Maryland</a>
+                  </Link>{' '}
+                  and we help businesses in Waldorf build their own lead-gen
+                  websites.
+                </p>
+                <p>
+                  How would you like to have your own lead-generating website?
                 </p>
               </div>
               <img
-                src="/images/search-engine-optimization-annapolis-md.webp"
+                src="/images/seo-company-frederick-md.jpg"
                 className="page-img-left"
                 width="1000px"
                 height="600px"
-                alt="A business owner considering  getting SEO services in Annapolis."
-                title="A business owner considering getting SEO services in Annapolis."
+                alt="A business owner considering working with a frederick SEO ccompany."
+                title="A business owner considering working with a frederick SEO ccompany."
                 loading="lazy"
               />
             </div>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Schedule Your Free SEO Call Today!</Button>
+                <Button>Schedule Your Free Consultation Today!</Button>
               </a>
             </div>
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <img
                 src="/images/happy-bowie-seo-client.webp"
@@ -134,70 +142,50 @@ export default function AnnaopisMDSEOCompany() {
               />
               <div>
                 <h2>
-                  Unlock a Goldmine of Zero-Cost, High-Quality Leads: Bid
-                  Farewell to Budget-Draining Ads
+                  Get Your Own Leads and Customers Without paying For Online Ads
                 </h2>
                 <p>
-                  Let’s face it—relying solely on Facebook and Google ads these
-                  days is like pouring water into a sieve.
+                  Let's be honest, Facebook and Google ads are expensive, and
+                  the costs keep going up.
                 </p>
                 <p>
-                  The cost-per-click is skyrocketing, and before you know it,
-                  your ad budget could evaporate, leaving you with negligible
-                  ROI.
+                  And if you're not careful, your entire advertising budget can
+                  be gobbled up by paying for clicks.
                 </p>
+                <p>But you don't have to pay for ads.</p>
                 <p>
-                  What if you could unlock a reservoir of premium leads without
-                  even cracking open your ad budget?
+                  What if there was a way to get free leads and customers
+                  without having to pay for ads?
                 </p>
+                <p>There is.</p>
+                <p> It's called search engine optimization.</p>
                 <p>
-                  Enter the game-changer:{' '}
-                  <strong>Search Engine Optimization (SEO)</strong>.
+                  With search engine optimization, you can optimize your website
+                  for the search engines and help you attract free organic
+                  traffic from people who are already looking for what you have
+                  to offer.
                 </p>
-                <p>
-                  SEO isn't merely a cost-saving alternative to ads; it's an
-                  ROI-boosting powerhouse.
-                </p>
-                <p>
-                  It fine-tunes your website to magnetically attract organic,
-                  high-intent web traffic—users who are in hot pursuit of the
-                  very services you offer.
-                </p>
-                <p>Experience the SEO Advantage—Here's Your Winning Hand:</p>
+                <p>With Search engine optimization you will:</p>
                 <ul className="check-mark">
                   <li>
-                    🎯<strong>Zero-Budget, Laser-Focused Traffic:</strong> Reap
-                    the rewards of a steady influx of organic visitors—no more
-                    pesky ad invoices!
+                    Get free organic traffic coming to your website without
+                    paying for ads
+                  </li>
+                  <li>Increase you leads, sales and revenue</li>
+                  <li>Get more phone calls</li>
+                  <li>Establish your business as the leader and expert</li>
+                  <li>
+                    Get on the first page of Google and get more local customers
+                    requesting your services
                   </li>
                   <li>
-                    🚀<strong>Skyrocketing Leads, Sales, and Revenue:</strong>
-                    Turn that organic flow into bona fide leads, closing more
-                    deals than ever.
+                    Grow your online visibility and let more potential customers
+                    see your business
                   </li>
                   <li>
-                    ☎️ <strong>Unstoppable Call Volume:</strong> Ascend the
-                    search rankings and prepare for a deluge of inbound calls.
-                  </li>
-                  <li>
-                    🌟 <strong>Become the Market Maven:</strong> Reign supreme
-                    in search results and solidify your spot as the industry
-                    authority.
-                  </li>
-                  <li>
-                    🗺 <strong>Local Supremacy:</strong> Commandeer Google’s
-                    first-page real estate and become the first choice for
-                    Potomac and Maryland locals.
-                  </li>
-                  <li>
-                    🥇 <strong>Outmaneuver the Competition:</strong> Leave
-                    competitors in the rear-view mirror as you ascend the Google
-                    rankings.
-                  </li>
-                  <li>
-                    🔍 <strong>Unmissable Online Presence:</strong> Build a
-                    digital footprint so large, it’s impossible for potential
-                    clients to ignore you.
+                    Rank higher than your competition in Google search results
+                    and let customers find your business instead of your
+                    competitors'
                   </li>
                 </ul>
               </div>
@@ -212,23 +200,19 @@ export default function AnnaopisMDSEOCompany() {
         <section>
           <div className="container">
             <h2 className="title">
-              Unlock More Leads and Customers with Search engine Optimization in
-              Annapolis
+              Our SEO Services Help Businesses Like Yours in Frederick, MD, Get
+              More Leads and Customers
             </h2>
             <p className="subtext">
-              We specialize in Search Engine Optimization (SEO) services to
-              businesses in Annapolis,{' '}
-              <Link href="/baltimore-seo">Baltimore</Link>, and other cities in
-              Anne Arundel County, MD. Our tailored approach ensures you don't
-              just get traffic—you get high-quality leads that convert into
-              loyal customers.
+              We provide SEO to businesses in Waldorf and the rest of Southern
+              Maryland.
             </p>
             <Service>
               <div className="service-card">
                 <img
-                  src="/images/annapolis-md-search-engine-optimization.webp"
-                  alt="Annaoplis SEO Services"
-                  title="Annaoplis SEO Services"
+                  src="/images/waldorf-search-engine-optimization.webp"
+                  alt="Frederick MD Services"
+                  title="Frederick MD SEO Services"
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -236,18 +220,17 @@ export default function AnnaopisMDSEOCompany() {
                 <div className="service">
                   <h3>Search Engine Optimization</h3>
                   <p>
-                    SEO is no longer optional; it's a necessity. With our
-                    specialized SEO services, we ensure your Annapolis-based
-                    business doesn't just appear on Google—it shines brighter
-                    than your competition.
+                    Practice search engine optimization and make sure your
+                    customers can find your business on Google instead of your
+                    competition.
                   </p>
                 </div>
               </div>
               <div className="service-card">
                 <img
-                  src="/images/annapolis-md-gmb-management.webp"
-                  alt="Annaoplis Google My Business Management"
-                  title="Annaoplis Google My Business Management"
+                  src="/images/waldorf-gmb-management.webp"
+                  alt="Waldorf Google My Business Management"
+                  title="Waldorf Google My Business Management"
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -255,17 +238,15 @@ export default function AnnaopisMDSEOCompany() {
                 <div className="service">
                   <h3>GMB Management</h3>
                   <p>
-                    An optimized Google My Business (GMB) profile is your secret
-                    weapon for local SEO dominance. Don't just rank—soar to the
-                    top of local searches in Annapolis and Anne Arundel County.
-                    Allow us to take your business to unprecedented heights by
-                    expertly managing your GMB profile.
+                    Optimize you Google My Business profile an rank locally. Let
+                    us help you take your business to the next level by managing
+                    your GMB profile and boosting your local SEO performance.
                   </p>
                 </div>
               </div>
               <div className="service-card">
                 <img
-                  src="/images/seo-audit-annapolis.webp"
+                  src="/images/seo-audit-waldorf.webp"
                   alt="Free Mini SEO Audit"
                   title="Free Mini SEO Audit"
                   width="1000px"
@@ -273,13 +254,11 @@ export default function AnnaopisMDSEOCompany() {
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Free SEO Audit</h3>
+                  <h3>Free Mini SEO Audit</h3>
                   <p>
-                    Wondering why you're not capturing as many leads or ranking
-                    as high as you'd like on Google? Discover the obstacles
-                    holding you back with our complimentary Mini SEO Audit. Act
-                    now and find out how to supercharge your SEO performance to
-                    get more leads and customers—today!
+                    See how you can improve your SEO rankings and performance
+                    with a free mini SEO audit from us. Find out what's stopping
+                    you from getting more leads and customers today!
                   </p>
                 </div>
               </div>
@@ -293,12 +272,14 @@ export default function AnnaopisMDSEOCompany() {
                 src="/images/home-service-business-waldorf-md.webp"
                 className="page-img"
                 alt="Home service buisness."
-                title="Home service businesses we work with in Potomac."
+                title="Home service businesses we work with in Waldorf."
               />
               <div>
-                <h2>SEO Services in Annapolis, Maryland</h2>
+                <h2>
+                  Home Service Businesses We Work With in Frederick, Maryland
+                </h2>
                 <p>
-                  We work with home service businesses in Annapolis that provide
+                  We work with home service businesses in Frederick that provide
                   services to customers homes. We focus on helping you increase
                   your online presence, leads, and sales for your business.
                 </p>
@@ -610,27 +591,24 @@ export default function AnnaopisMDSEOCompany() {
         </section>
         <div className="container">
           <img
-            src="/images/annapolis-seo-company.webp"
+            src="/images/frederick-md-seo-company.webp"
             className="page-img-left"
             width="1440px"
             height="600px"
-            alt="Work with our Annapolis SEO company to increase your online visibility."
-            title="Work with our Annapolis SEO company to increase your online visibility."
+            alt="Frederick SEO company."
+            title="Work with our Frederick SEO company to increase your online visibility."
           />
         </div>
         <section>
           <div className="container">
             <h2 className="title">
-              Why Choose Us as Your Annapolis SEO Partner? Experience Unmatched
-              Results, Not Empty Promises?
+              Why Work With Us and Use Us for Your Services?
             </h2>
             <p className="subtext">
-              Invest in your business's future by partnering with dedicated SEO
-              specialists exclusively serving Annapolis, MD. With{' '}
-              <Link href="/">Bowie SEO</Link>, you don't just save time and
-              money—you accelerate toward your sales and revenue goals with the
-              assurance that we're committed only to your success, never your
-              competitors'.
+              Save time and money, and acheive your sales and revenue goals by
+              working with{' '}
+              <Link href="/maryland-seo-company">Maryland SEO specialists</Link>
+              . We work only for you, not your competition.
             </p>
             <Service>
               <div className="service-card">
@@ -643,14 +621,11 @@ export default function AnnaopisMDSEOCompany() {
                 />
                 <div className="service">
                   <h3>
-                    Focus on What You Do Best: Running Your Business. We'll
-                    Handle the Digital Marketing.
+                    We let you focus On Your Business, not on digital Marketing
                   </h3>
                   <p>
-                    Leave the keyword research, copywriting, and competitor
-                    analysis to us. With our expert SEO and digital marketing
-                    services, you're free to concentrate solely on scaling your
-                    Annapolis, MD business.
+                    Concentrate on running your business and not on doing
+                    keyword research, writing copy, and competitor analysis.
                   </p>
                 </div>
               </div>
@@ -664,13 +639,12 @@ export default function AnnaopisMDSEOCompany() {
                 />
                 <div className="service">
                   <h3>
-                    Maximize ROI with Advanced Digital Marketing: Save Time,
-                    Save Money, Get Results
+                    You Save Time and Money With Advanced Digital Marketing
                   </h3>
                   <p>
-                    Invest in proven search marketing techniques that not only
-                    skyrocket your website traffic but also turn visitors into
-                    qualified leads for your Annapolis, MD business.
+                    Save money with the best search marketing methods that are
+                    proven to boost your website traffic and generate leads for
+                    your business.
                   </p>
                 </div>
               </div>
@@ -683,15 +657,11 @@ export default function AnnaopisMDSEOCompany() {
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>
-                    Your Own Dedicated SEO Team: Accelerate Business Growth and
-                    Attract New Customers
-                  </h3>
+                  <h3>You Get Your Own SEO Team for Your Business</h3>
                   <p>
-                    Harness the power of having an in-house team of SEO
-                    specialists committed solely to elevating your Annapolis, MD
-                    business. Unlock untapped opportunities and expose your
-                    brand to fresh, high-intent audiences.
+                    Have your own team of SEO specialists helping you grow your
+                    business. Discover new opportunities to expose your company
+                    new customers.
                   </p>
                 </div>
               </div>
@@ -741,7 +711,7 @@ export default function AnnaopisMDSEOCompany() {
                     strategy that can help you build your brand and get more
                     traffic and leads from Google for free.
                   </p>
-                  <h3>How much is SEO services in Annapolis per month?</h3>
+                  <h3>How much is SEO services in Frederick per month?</h3>
                   <p>
                     The monthly cost for SEO ranges from $1000 to $5,000+. The
                     cost can vary depending on the competitiveness of your
@@ -838,21 +808,19 @@ export default function AnnaopisMDSEOCompany() {
         </section>
         <div className="call-to-action-grid">
           <img
-            src="/images/man-calling-annapolis-seo-company.jpg"
-            alt="Man calling to get SEO services in Annapolis."
-            title="Man calling to get SEO services in Annapolis."
+            src="/images/seo-services-frederick-maryland.webp"
+            alt="Man calling to get SEO services in Frederick."
+            title="Man calling to get SEO services in Frederick."
             width="1000px"
             height="65px"
             loading="lazy"
           />
           <div className="container">
-            <h2>
-              Ready to Get More Annapolis Customers Calling Your Business?
-            </h2>
+            <h2>Ready to Boost Your Sales and Revenue?</h2>
             <p>
               Contact {SEOAgency} and we'll show you how search engine
-              optimization can help your business get more leads without paying
-              for leads or online ads.
+              optimization can help your business get more leads in Frederick
+              without paying for leads or online ads.
             </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">

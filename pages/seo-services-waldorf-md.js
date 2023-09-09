@@ -42,7 +42,7 @@ export default function SEOServicesWaldorf() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Dominate Your Market with Waldorf's  SEO Services for Traffic and Sales"
+          heroText="Dominate Your Market with Waldorf's SEO Services for Traffic and Sales"
           subText="Experience breakthrough growth in website traffic, leads, and sales with our specialized SEO services"
           backgroundImage="/images/waldorf-seo-cover-img.webp"
           backgroundHeight="70vh"

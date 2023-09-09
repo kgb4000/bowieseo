@@ -2,15 +2,16 @@ import { NextSeo, FAQPageJsonLd } from 'next-seo'
 import Link from 'next/link'
 import MainLayout from '../components/MainLayout'
 import OfferForm from '../components/OfferFormSection'
+import OfferVideo from '../components/OfferVideo'
 
 const FreeSEOAudit = () => {
   const SEO = {
-    title: 'Free SEO Audit | Bowie SEO',
+    title: 'Get Your Free SEO Audit and Fix Your Website | Bowie SEO',
     description: `A free SEO audit that will allow you to see 1) where you're at, 2 where your competitors are at, and 3) how to dominate the local market. Call us today!`,
     type: 'website',
     canonical: 'https://bowieseo.com/free-seo-audit',
     openGraph: {
-      title: 'Free SEO Audit | Bowie SEO',
+      title: 'Get Your Free SEO Audit and Fix Your Website | Bowie SEO',
       description: `A free SEO audit that will allow you to see 1) where you're at, 2 where your competitors are at, and 3) how to dominate the local market. Call us today!`,
       type: 'website',
       image: [{}],
@@ -23,13 +24,22 @@ const FreeSEOAudit = () => {
         <section>
           <div className="small-container">
             <h1>The Best Free SEO Audit You'll Ever Get in Maryland</h1>
+            <OfferVideo />
+            <p>
+              Get{' '}
+              <Link href="/search-engine-optimization">
+                search engine optimization
+              </Link>{' '}
+              for your website, the right way.
+            </p>
             <p>
               Ditch those confusing, automated SEO analysis tools that drown you
               in indecipherable graphs and stats.
             </p>
+            <p>Instead, welcome a human touch.</p>
             <p>
-              Instead, welcome a human touch. When you connect with Bowie SEO,
-              you're connecting directly with me, Kester Browne.
+              When you connect with <Link href="/">Bowie SEO</Link>, you're
+              connecting directly with the <strong>Director of SEO</strong>.
             </p>
             <p>I don't believe in generic, machine-generated reports.</p>
             <p>

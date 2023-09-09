@@ -58,8 +58,8 @@ export default function OceanCitySEO() {
           backgroundImage="/images/seo-services-ocean-city-maryland-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="bottom"
-          buttonText="Schedule your free consultaion today!"
-          buttonLink={calendly}
+          buttonText="Get Your Free SEO Audit &#8594;"
+          buttonLink="/free-seo-audit"
         />
         <section>
           <div className="container">

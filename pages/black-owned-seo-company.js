@@ -51,8 +51,8 @@ export default function blackOwnedSEOCompany() {
           backgroundImage="/images/black-owned-seo-agency.webp"
           backgroundHeight="70vh"
           backgroundPosition="center"
-          buttonText="Book Your Free SEO Call today!"
-          buttonLink={calendly}
+          buttonText="Get Your Free SEO Audit &#8594;"
+          buttonLink="/free-seo-audit"
         />
         <section className="article-section">
           <div className="medium-container grid">
@@ -85,8 +85,8 @@ export default function blackOwnedSEOCompany() {
               </p>
               <p>This is where our expertise comes into play.</p>
               <p>
-                As a premier black owned SEO company, we can transform your
-                digital presence.
+                As a premier <strong>black owned SEO company</strong>, we can
+                transform your digital presence.
               </p>
               <p>
                 We go beyond simply optimizing your website with keywords; we
@@ -128,7 +128,7 @@ export default function blackOwnedSEOCompany() {
         <section>
           <div className="medium-container">
             <h2 className="title">
-              What You Get Working With My Black Owned SEO Agency
+              What You Get Working With a Professional Black Owned SEO Agency
             </h2>
             <p className="subtext">
               When you work with us, you get superior customer service, plus the
@@ -216,7 +216,8 @@ export default function blackOwnedSEOCompany() {
                 <div>
                   <h3>SEO Audit</h3>
                   <p>
-                    An SEO Audit is like a health check-up for your website.
+                    An <Link href="/free-seo-audit">SEO Audit</Link> is like a
+                    health check-up for your website.
                   </p>
                   <p>
                     Our thorough SEO Audit service dives deep into your site's
@@ -253,8 +254,9 @@ export default function blackOwnedSEOCompany() {
                 <div>
                   <h3>Local SEO</h3>
                   <p>
-                    Our Local SEO service is designed to put your business on
-                    the map literally.
+                    Our <Link href="search-engine-optimization">Local SEO</Link>{' '}
+                    service is designed to put your business on the map
+                    literally.
                   </p>
                   <p>
                     We focus on enhancing your visibility in localized search
@@ -376,8 +378,8 @@ export default function blackOwnedSEOCompany() {
         <section>
           <div className="medium-container">
             <h2 className="title">
-              With Other SEO Companies, Why Work With My Black Owned SEO
-              Company?
+              With So Many SEO Companies, Why Work With My Black Owned SEO
+              Agency?
             </h2>
             <p className="subtext">
               We know that there are many SEO companies you can work with.
