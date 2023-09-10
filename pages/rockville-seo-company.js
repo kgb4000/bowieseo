@@ -218,7 +218,7 @@ export default function RockvilleSEO() {
               Advantages
             </h2>
             <p className="subtext">
-              Want to conquer your local market? Local SEO fro businesses in
+              Want to conquer your local market? Local SEO for businesses in
               Rockville isn't just an option anymore; it's a necessity. Here's
               eight compelling reasons why to invest in Local SEO:
             </p>
