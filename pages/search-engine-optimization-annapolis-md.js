@@ -152,7 +152,10 @@ export default function AnnaopisMDSEOCompany() {
                 </p>
                 <p>
                   Enter the game-changer:{' '}
-                  <strong>Search Engine Optimization (SEO)</strong>.
+                  <Link href="search-engine-optimization">
+                    Search Engine Optimization
+                  </Link>{' '}
+                  (SEO).
                 </p>
                 <p>
                   SEO isn't merely a cost-saving alternative to ads; it's an

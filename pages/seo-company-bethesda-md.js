@@ -21,14 +21,14 @@ const SEOAgency = 'SEO professionals'
 
 export default function BethesdaMD() {
   const SEO = {
-    title: 'SEO Services Company in Bethesda, MD | Check Us Out First.',
+    title: 'SEO Company in Bethesda, MD | Check Us Out First.',
     description:
-      'Need and SEO company in Bethesda to get you more leads and customers?. We help businesses like yours get found in Google. Book a free call today!',
-    canonical: 'https://bowieseo.com/seo-services-company-bethesda-md',
+      'Need an SEO company in Bethesda to get you more leads and customers?. We help businesses like yours get found in Google. Book a free call today!',
+    canonical: 'https://bowieseo.com/seo-company-bethesda-md',
     openGraph: {
-      title: 'SEO Services Company in Bethesda, MD | Check Us Out First.',
+      title: 'SEO Company in Bethesda, MD | Check Us Out First.',
       description:
-        'Need and SEO company in Bethesda to get you more leads and customers?. We help businesses like yours get found in Google. Book a free call today!',
+        'Need an SEO company in Bethesda to get you more leads and customers?. We help businesses like yours get found in Google. Book a free call today!',
       image: [{}],
     },
   }
@@ -51,7 +51,7 @@ export default function BethesdaMD() {
               <div>
                 <h2>
                   Are You Ready to Leave Mediocrity Behind and Elevate Your
-                  Business with SEO?
+                  Business with Real Bethesda SEO Company?
                 </h2>
                 <p>Running a business in Bethesda is no easy task.</p>
                 <p>And generating leads?</p>
@@ -129,9 +129,90 @@ export default function BethesdaMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get With Our SEO Services in Bethesda, Maryland
+              Unleashing Potential: SEO Services Propel Bethesda Businesses to
+              New Heights
             </h2>
-            <p className="subtext">When you work with us, you get:</p>
+            <p className="subtext">
+              Serving businesses across Bethesda,{' '}
+              <Link href="/rockville-seo-company">Rockville</Link>, and the
+              entirety of Montgomery County, we specialize in a crucial
+              game-changer: search engine optimization.
+            </p>
+            <Service>
+              <div className="service-card">
+                <img
+                  src="/images/bethesda-search-engine-optimization.webp"
+                  alt="SEO Services in Bethesda, MD."
+                  title="SEO Services in Bethesda, MD."
+                  width="1000px"
+                  height="665px"
+                  loading="lazy"
+                />
+                <div className="service">
+                  <h3>Bethesda, MD Search Engine Optimization</h3>
+                  <p>
+                    Practice search engine optimization and make sure your
+                    customers can find your business on Google instead of your
+                    competition.
+                  </p>
+                </div>
+              </div>
+              <div className="service-card">
+                <img
+                  src="/images/gmb-management.webp"
+                  alt="Google My Business Management."
+                  title="Google My Business Management."
+                  width="1000px"
+                  height="665px"
+                  loading="lazy"
+                />
+                <div className="service">
+                  <h3>GMB Management</h3>
+                  <p>
+                    Optimize you Google My Business profile and rank in
+                    Bethesda. Let us help you take your business to the next
+                    level by managing your GMB profile and boosting your local
+                    SEO performance.
+                  </p>
+                </div>
+              </div>
+              <div className="service-card">
+                <img
+                  src="/images/bethesda-seo-audit.webp"
+                  alt="Free Mini SEO Audit"
+                  title="Free Mini SEO Audit"
+                  width="1000px"
+                  height="665px"
+                  loading="lazy"
+                />
+                <div className="service">
+                  <h3>Free Mini SEO Audit</h3>
+                  <p>
+                    See how you can improve your SEO rankings and performance
+                    with a free mini SEO audit. Find out what's stopping
+                    customers in Bethesda from finding you!
+                  </p>
+                </div>
+              </div>
+            </Service>
+            <p className="subtext">
+              We help local businesses, just like yours, break through the noise
+              and stand out, capturing the attention of potential leads and
+              converting them into loyal customers.
+            </p>
+          </div>
+          <div className="btn">
+            <a href={calendly} target="_blank" rel="noreferrer">
+              <Button>Book Your Free Call Today!</Button>
+            </a>
+          </div>
+        </section>
+        <section>
+          <div className="container">
+            <h2 className="title">
+              What You Get With Search Engine Optimization Services in Bethesda, Maryland
+            </h2>
+            <p className="subtext">When you work with Bowie SEO, you get:</p>
           </div>
           <div className="medium-container">
             <Deliverables>
@@ -319,87 +400,7 @@ export default function BethesdaMD() {
             </div>
           </div>
         </section>
-        <section>
-          <div className="container">
-            <h2 className="title">
-              Unleashing Potential: SEO Services Propel Bethesda Businesses to
-              New Heights
-            </h2>
-            <p className="subtext">
-              Serving businesses across Bethesda,{' '}
-              <Link href="/rockville-seo-company">Rockville</Link>, and the
-              entirety of Montgomery County, we specialize in a crucial
-              game-changer: search engine optimization.
-            </p>
-            <Service>
-              <div className="service-card">
-                <img
-                  src="/images/bethesda-search-engine-optimization.webp"
-                  alt="SEO Services in Bethesda, MD."
-                  title="SEO Services in Bethesda, MD."
-                  width="1000px"
-                  height="665px"
-                  loading="lazy"
-                />
-                <div className="service">
-                  <h3>Bethesda Search Engine Optimization</h3>
-                  <p>
-                    Practice search engine optimization and make sure your
-                    customers can find your business on Google instead of your
-                    competition.
-                  </p>
-                </div>
-              </div>
-              <div className="service-card">
-                <img
-                  src="/images/gmb-management.webp"
-                  alt="Google My Business Management."
-                  title="Google My Business Management."
-                  width="1000px"
-                  height="665px"
-                  loading="lazy"
-                />
-                <div className="service">
-                  <h3>GMB Management</h3>
-                  <p>
-                    Optimize you Google My Business profile and rank in
-                    Bethesda. Let us help you take your business to the next
-                    level by managing your GMB profile and boosting your local
-                    SEO performance.
-                  </p>
-                </div>
-              </div>
-              <div className="service-card">
-                <img
-                  src="/images/bethesda-seo-audit.webp"
-                  alt="Free Mini SEO Audit"
-                  title="Free Mini SEO Audit"
-                  width="1000px"
-                  height="665px"
-                  loading="lazy"
-                />
-                <div className="service">
-                  <h3>Free Mini SEO Audit</h3>
-                  <p>
-                    See how you can improve your SEO rankings and performance
-                    with a free mini SEO audit. Find out what's stopping
-                    customers in Bethesda from finding you!
-                  </p>
-                </div>
-              </div>
-            </Service>
-            <p className="subtext">
-              We help local businesses, just like yours, break through the noise
-              and stand out, capturing the attention of potential leads and
-              converting them into loyal customers.
-            </p>
-          </div>
-          <div className="btn">
-            <a href={calendly} target="_blank" rel="noreferrer">
-              <Button>Book Your Free Call Today!</Button>
-            </a>
-          </div>
-        </section>
+
         <section>
           <div className="container">
             <div className="grid">
@@ -410,11 +411,11 @@ export default function BethesdaMD() {
                 title="Home service businesses we work with in Bethesda, MD."
               />
               <div>
-                <h2>Businesses We Work With in Bethesda.</h2>
+                <h2>Businesses We Work With in Bethesda, MD.</h2>
                 <p>
-                  We work with home service businesses in Bethesda that provide
-                  services to homeowners and businesses. We focus on helping you
-                  increase your online presence, leads, and sales.
+                  We work with businesses in North, and South Bethesda that
+                  provide services to homeowners and businesses. We focus on
+                  helping you increase your online presence, leads, and sales.
                 </p>
                 <Businesses>
                   <Business>

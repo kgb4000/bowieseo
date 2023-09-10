@@ -35,13 +35,13 @@ export default function RockvilleSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Skyrocket Your Business Growth with Google and Search Engine Optimization in Rockville, MD"
+          heroText="Skyrocket Your Business Growth The Right Rockville SEO Company"
           subText="Increase web traffic, leads, and sales with powerful SEO solutions"
           backgroundImage="/images/rockville-seo-company-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center left"
-          buttonText="Book Your free SEO Call today!"
-          buttonLink={calendly}
+          buttonText="Get Your Free SEO Audit &#8594;"
+          buttonLink="/free-seo-audit"
         />
         <section>
           <div className="medium-container">
@@ -73,8 +73,7 @@ export default function RockvilleSEO() {
                 </p>
                 <p>This is where we come in.</p>
                 <p>
-                  We're a leading{' '}
-                  <strong>SEO company in Rockville, Maryland</strong>.
+                  We're a leading <strong>Rockville SEO company</strong>.
                 </p>
                 <p>
                   We're here to help Rockville businesses like yours ascend the
@@ -132,57 +131,70 @@ export default function RockvilleSEO() {
               />
               <div>
                 <h2>
-                  Unleash the Potential of Free Organic Traffic - Boost Your
-                  Profits Without Draining Your Wallet on Ads!
+                  Unleash the Magic of Free Organic Traffic: Amplify Your
+                  Profits Without a Hit on Your Ad Budget!
                 </h2>
                 <p>As a business owner, you know the power of visibility.</p>
                 <p>
-                  But, the escalating costs of Facebook and Google ads are
-                  eating into your profits, making it harder than ever to get a
-                  return on your investment.
+                  But what if the skyrocketing costs of Facebook and Google ads
+                  are making your ROI vanish faster than a magician's assistant?
                 </p>
-                <p>You're spending heaps, but are the leads worth it?</p>
                 <p>
-                  What if there's a cost-effective way to attract customers
-                  already interested in what you offer?
+                  You're shelling out big bucks, but are those leads truly
+                  converting?
                 </p>
-                <p>Welcome to the world of Search Engine Optimization (SEO).</p>
                 <p>
-                  With SEO, you're not just another ad vying for a click. You're
-                  a solution to what your potential customers are actively
-                  searching for. Here's how SEO transforms your business:
+                  What if there's a strategy that not only cuts costs but
+                  attracts customers who are already sold on what you're
+                  selling?
                 </p>
-                <ul className="check-mark">
-                  <li>
-                    Enjoy a constant stream of organic traffic - interested,
-                    ready-to-buy customers landing on your website, without a
-                    penny spent on ads.
-                  </li>
-                  <li>
-                    See your lead quality and conversions soar as you attract
-                    visitors already looking for your services.
-                  </li>
-                  <li>
-                    Watch as your phone starts ringing with inquiries and
-                    orders.
-                  </li>
-                  <li>
-                    Position your business as the go-to authority in your field,
-                    building trust and reputation.
-                  </li>
-                  <li>
-                    Secure your spot on the first page of Google, where local
-                    customers turn when they need your services.
-                  </li>
-                  <li>
-                    Boost your online visibility, becoming a beacon for
-                    potential customers in a sea of competitors.
-                  </li>
-                  <li>
-                    Outshine your rivals in Google search results, pulling the
-                    customers in your direction.
-                  </li>
-                </ul>
+                <p>
+                  Welcome{' '}
+                  <Link href="/search-engine-optimization">
+                    search engine optimization
+                  </Link>{' '}
+                  (SEO).
+                </p>
+                <p>With SEO, you're not just another face in the ad crowd.</p>
+                <p>
+                  You're the answer to what your audience is already searching
+                  for.
+                </p>
+                <p>
+                  Here's the game-changing impact <strong>SEO</strong> could have
+                  on your business:
+                </p>
+                <p>
+                  <strong>🎯 Free Organic Traffic</strong> -
+                  interested, ready-to-buy customers landing on your website,
+                  without a penny spent on ads.
+                </p>
+                <p>
+                  <strong>🔦 Be the Lighthouse in a Sea of Competitors</strong>{' '}
+                  - Boost your online presence so dramatically that you become a
+                  guiding light for potential customers navigating a world of
+                  options.
+                </p>
+                <p>
+                  <strong>📈 Skyrocket Your Lead Quality & Conversions</strong>{' '}
+                  - Level up your lead game as you attract laser-targeted
+                  visitors who are in the market for exactly what you offer.
+                </p>
+                <p>
+                  <strong>
+                    📞 Get Ready for Your Phone to Buzz with Business
+                  </strong>{' '}
+                  - No more waiting for calls; your phone will start ringing
+                  with queries and orders as if you've got a hotline to success.
+                </p>
+                <p>
+                  <strong>
+                    🥇 Outpace Your Competition in the Google Derby
+                  </strong>{' '}
+                  - It's a race to the top, and with SEO, you're the
+                  thoroughbred that outraces the ponies. Lead the pack, and let
+                  customers flock to you.
+                </p>
               </div>
             </div>
             <p className="subtext">
@@ -195,6 +207,166 @@ export default function RockvilleSEO() {
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
                 <Button>Get a Free SEO Call Today!</Button>
+              </a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div className="container">
+            <h2 className="title">
+              Elevate Your Business with Rockville SEO: Unlocking These 8
+              Advantages
+            </h2>
+            <p className="subtext">
+              Want to conquer your local market? Local SEO fro businesses in
+              Rockville isn't just an option anymore; it's a necessity. Here's
+              eight compelling reasons why to invest in Local SEO:
+            </p>
+          </div>
+          <div className="medium-container">
+            <Deliverables>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Skyrocket Your Local Profile</h3>
+                  <p>
+                    Make your business the local celebrity. A well-executed
+                    Local SEO plan ensures that your business doesn’t just show
+                    up in local search results; it dominates them, taking center
+                    stage in Google's coveted Map Pack.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Turn Clicks into Footsteps</h3>
+                  <p>
+                    Why settle for online visibility when you can translate that
+                    into physical store visits? Boost your search engine
+                    rankings, and prepare for a surge in foot traffic—because
+                    being easily found online means more walk-ins.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Convert Searchers into Buyers</h3>
+                  <p>
+                    Local searches usually scream urgency and intention. A query
+                    like "emergency locksmith near me" is far more likely to
+                    convert into business than a search for "how to pick a
+                    lock." Position your business to answer these high-intent
+                    calls.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Leap Over Your Local Competitors</h3>
+                  <p>
+                    Don't just catch up with the competition—vault over them.
+                    Seize the opportunity to outperform competitors who are
+                    either not utilizing Local SEO or not doing it as
+                    effectively as you will be.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Cement Your Credibility & Trust</h3>
+                  <p>
+                    Constantly popping up in local search results and boasting a
+                    Google My Business profile brimming with glowing reviews
+                    isn't just good business; it's how you become a local icon.
+                    Trust follows visibility.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Efficient, Impactful, Cost-Effective</h3>
+                  <p>
+                    Why pay for every click when you can earn organic traffic?
+                    Unlike paid advertising, which eats into your budget, Local
+                    SEO is an upfront investment with long-lasting returns.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Elevate Customer Interaction</h3>
+                  <p>
+                    Engagement starts long before the first transaction.
+                    Features like Google My Business Messaging let you connect
+                    directly with potential customers right from the search
+                    results—answering questions, solving problems, and creating
+                    a bond.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Clear-as-Day ROI</h3>
+                  <p>
+                    Rockville local SEO doesn’t play hide and seek with your
+                    ROI. Integrated analytics make it easy to track your
+                    investment down to the last cent. Monitor vital metrics like
+                    search rankings, website traffic, and conversion rates to
+                    continually fine-tune your strategy.
+                  </p>
+                </div>
+              </Deliverable>
+            </Deliverables>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book a Free SEO Call!</Button>
               </a>
             </div>
           </div>
@@ -638,7 +810,9 @@ export default function RockvilleSEO() {
             <h2 className="title">
               Why You Should Partner With Our Local SEO Company in Rockville, MD
             </h2>
-            <p className="subtext">We never work with your competitors</p>
+            <p className="subtext">
+              We never work with competitors in your local area.
+            </p>
             <Service>
               <div className="service-card">
                 <img
