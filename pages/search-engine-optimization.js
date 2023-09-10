@@ -727,7 +727,7 @@ const Rockville = () => {
                   alt="Gaithersburg, MD."
                   loading="lazy"
                 />
-                <p>Gaithersburg, MD</p>
+                <Link href="/seo-company-gaithersburg-md">Gaithersburg, MD</Link>
               </City>
               <City>
                 <img

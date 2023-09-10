@@ -73,3 +73,15 @@ export const Deliverable = styled.div`
 
   }
 `
+
+export const Why = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  img.check {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    width: 50px;
+    height: 50px;
+  }
+`
