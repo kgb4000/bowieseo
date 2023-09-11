@@ -21,11 +21,11 @@ const SEOAgency = 'SEO professionals'
 
 export default function glenBurnieMD() {
   const SEO = {
-    title: 'SEO Services in Glen Burnie, MD | Boost Leads & Sales',
+    title: 'SEO Company in Glen Burnie, MD | Click Here First',
     description: `Want to rank higher in Google? Partner with our SEO company in Glen Burnie, MD, and leave your competition in the dust. Book your Free SEO call today!`,
     canonical: 'https://bowieseo.com/seo-company-glen-burnie-md',
     openGraph: {
-      title: 'SEO Services in Glen Burnie, MD | Boost Leads & Sales',
+      title: 'SEO Company in Glen Burnie, MD | Click Here First',
       description: `Want to rank higher in Google? Partner with our SEO company in Glen Burnie, MD, and leave your competition in the dust. Book your Free SEO call today!`,
       image: [{}],
     },
@@ -49,7 +49,7 @@ export default function glenBurnieMD() {
               <div>
                 <h2>
                   Skyrocket Earnings with Search Engine Optimization or Get
-                  Stuck in a Financial Rut: Your Choice
+                  Stuck Losing Money: Your Choice
                 </h2>
                 <p>
                   Does your business in Glen Burnie feel like it's caught in a

@@ -727,7 +727,20 @@ const Rockville = () => {
                   alt="Gaithersburg, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-gaithersburg-md">Gaithersburg, MD</Link>
+                <Link href="/seo-company-gaithersburg-md">
+                  Gaithersburg, MD
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  title="Germantown, MD."
+                  alt="Germantown, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-germantown-md">
+                  Germantown, MD
+                </Link>
               </City>
               <City>
                 <img
