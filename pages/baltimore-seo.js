@@ -211,7 +211,7 @@ const BaltimoreSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="One-on-one expert support."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -238,7 +238,7 @@ const BaltimoreSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get keyword research."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -262,7 +262,7 @@ const BaltimoreSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get Google My Business Management."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -290,7 +290,7 @@ const BaltimoreSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get Google Analytics and Google Search Console set up."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -317,7 +317,7 @@ const BaltimoreSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get local SEO."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -349,7 +349,7 @@ const BaltimoreSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="One-on-one expert support."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -518,9 +518,10 @@ const BaltimoreSEOCompany = () => {
                     and using the language they speak.
                   </p>
                   <p>
-                    Our strategic keyword research uncovers the terms and
-                    phrases your potential customers use when they're looking
-                    for the products or services you offer.
+                    Our strategic{' '}
+                    <Link href="/keyword-research">keyword research</Link>{' '}
+                    uncovers the terms and phrases your potential customers use
+                    when they're looking for the products or services you offer.
                   </p>
                   <p>
                     This insight allows us to tailor your website content and

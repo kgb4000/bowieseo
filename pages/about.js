@@ -63,7 +63,9 @@ const About = () => {
                   <a>Search engine optimization</a>
                 </Link>
               </li>
-              <li>Keyword Research</li>
+              <li>
+                <Link href="/keyword-research">Keyword Research</Link>
+              </li>
               <li>Link Building</li>
               <li>Content audits and optimization</li>
               <li>

@@ -34,7 +34,7 @@ export default function keywordResearch() {
       <MainLayout>
         <HeroSection
           heroText="Let Us Do Your Keyword Research and Show Up When It Counts"
-          subText="Find the Search Terms and Queries Your Potential Customers Use to Find Your Services and Show Up when They Do."
+          subText="Find the Search Terms and Queries Customers Use to Find Your Services and Show Up in the SERPS."
           backgroundImage="/images/keyword-research-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center left"
@@ -97,8 +97,7 @@ export default function keywordResearch() {
         <section>
           <div className="medium-container">
             <h2 className="title">
-              What Happens to your business when you don't do keyword research
-              to use on your website?
+              What Happens to your business when you don't do keyword research on your website?
             </h2>
             <p className="subtext">
               A business not doing keyword research is like a ship sailing

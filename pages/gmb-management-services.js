@@ -394,10 +394,11 @@ const LocalSEO = () => {
                     right keywords.
                   </p>
                   <p>
-                    To find the right keywords, we do extensive keyword
-                    research. We find the best and most profitable keywords with
-                    keyword research tools and through competitor analysis and
-                    expanding on keywords you already rank for.
+                    To find the right keywords, we do extensive{' '}
+                    <Link href="/keyword-research">keyword research</Link>. We find the best and most
+                    profitable keywords with keyword research tools and through
+                    competitor analysis and expanding on keywords you already
+                    rank for.
                   </p>
                 </div>
               </Deliverable>

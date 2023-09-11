@@ -161,13 +161,13 @@ export default function RockvilleSEO() {
                   for.
                 </p>
                 <p>
-                  Here's the game-changing impact <strong>SEO</strong> could have
-                  on your business:
+                  Here's the game-changing impact <strong>SEO</strong> could
+                  have on your business:
                 </p>
                 <p>
-                  <strong>🎯 Free Organic Traffic</strong> -
-                  interested, ready-to-buy customers landing on your website,
-                  without a penny spent on ads.
+                  <strong>🎯 Free Organic Traffic</strong> - interested,
+                  ready-to-buy customers landing on your website, without a
+                  penny spent on ads.
                 </p>
                 <p>
                   <strong>🔦 Be the Lighthouse in a Sea of Competitors</strong>{' '}
@@ -628,9 +628,10 @@ export default function RockvilleSEO() {
                   <h3>Keyword Research</h3>
                   <ul>
                     <li>
-                      Identify the most relevant keywords that your potential
-                      customers are using, directing quality traffic to your
-                      site.
+                      Identify the most relevant{' '}
+                      <Link href="/keyword-research">keywords</Link> that your
+                      potential customers are using, directing quality traffic
+                      to your site.
                     </li>
                     <li>
                       Understand what keywords your competitors are ranking for

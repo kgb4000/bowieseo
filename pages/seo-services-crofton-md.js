@@ -149,10 +149,11 @@ export default function CroftonMD() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    We perform in-depth keyword analysis. This process gives us
-                    the most lucrative and relevant terms to attract clients. We
-                    also build a keyword database so you can continue developing
-                    SEO content.
+                    We perform in-depth{' '}
+                    <Link href="/keyword-research">keyword analysis</Link>. This
+                    process gives us the most lucrative and relevant terms to
+                    attract clients. We also build a keyword database so you can
+                    continue developing SEO content.
                   </p>
                 </div>
               </Deliverable>

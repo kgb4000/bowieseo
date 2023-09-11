@@ -456,10 +456,11 @@ export default function AnnaopisMDSEOCompany() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Laser-focused keyword research will uncover the most
-                    profitable and relevant terms to attract customers and
-                    create sales. We'll construct a database of these keywords
-                    for you to create SEO content.
+                    Laser-focused{' '}
+                    <Link href="/keyword-research">keyword research</Link> will
+                    uncover the most profitable and relevant terms to attract
+                    customers and create sales. We'll construct a database of
+                    these keywords for you to create SEO content.
                   </p>
                 </div>
               </Deliverable>

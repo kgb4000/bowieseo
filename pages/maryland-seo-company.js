@@ -107,8 +107,8 @@ const MarylandSEOCompany = () => {
                 </p>
                 <p>That's where we come in and we can help.</p>
                 <p>
-                  We're a local SEO company in Maryland that can help you get more
-                  leads and customers with our customized{' '}
+                  We're a local SEO company in Maryland that can help you get
+                  more leads and customers with our customized{' '}
                   <Link href="/search-engine-optimization">
                     Maryland search engine optimization
                   </Link>{' '}
@@ -223,9 +223,9 @@ const MarylandSEOCompany = () => {
               can result in exponential growth for your business.
             </p>
             <p>
-              From keywords research, competitor analysis, on-page SEO, and
-              off-page SEO, search engine optimization can take your business to
-              the next level.
+              From <Link href="/keyword-research">keyword research</Link>,
+              competitor analysis, on-page SEO, and off-page SEO, search engine
+              optimization can take your business to the next level.
             </p>
             <p>
               <a href={calendly} target="_blank">
@@ -352,7 +352,7 @@ const MarylandSEOCompany = () => {
                     <Link href="/baltimore-seo">Baltimore</Link>,{' '}
                     <Link href="/rockville-seo-company">Rockville</Link>,
                     Gaithersburg, or{' '}
-                    <Link href="/local-seo-columbia-md">Columbia</Link>, you can
+                    <Link href="/seo-company-frederick-md">Frederick</Link>, you can
                     optimize your website so that people searching for your
                     services in you location, will see your website on the first
                     page.

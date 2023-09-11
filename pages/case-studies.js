@@ -59,7 +59,7 @@ const CaseStudy = () => {
               We also believe that businesses in Maryland should start
               practicing{' '}
               <Link href="/search-engine-optimization" passHref>
-                SEO
+                search engine optimization
               </Link>{' '}
               and use their websites to <strong>make money</strong>.
             </p>
@@ -83,11 +83,20 @@ const CaseStudy = () => {
                   SEO audit
                 </Link>
               </li>
-              <li>Keyword research</li>
+              <li>
+                <Link href="/keyword-research">Keyword Research</Link>
+              </li>
               <li>Competitive analysis</li>
               <li>On-page-SEO</li>
+              <li>
+                Creating <Link href="content-for-seo">SEO content</Link>
+              </li>
               <li>Local SEO</li>
-              <li>Google My Business Management</li>
+              <li>
+                <Link href="/gmb-management-services">
+                  Google My Business Management
+                </Link>
+              </li>
               <li>Tracking and monitoring</li>
             </ul>
             <h3>Background</h3>

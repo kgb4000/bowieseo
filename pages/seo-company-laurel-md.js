@@ -434,10 +434,12 @@ export default function LocalSEO() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    We conduct focused research to find profitable, relevant
-                    keywords that attract potential customers and boost sales.
-                    Our comprehensive approach builds a database of effective
-                    search terms for creating optimized SEO content.
+                    We conduct focused{' '}
+                    <Link href="/keyword-research">keyword research</Link>{' '}to
+                    find profitable, relevant search terms that attract potential
+                    customers and boost sales. Our comprehensive approach builds
+                    a database of effective search terms for creating optimized
+                    SEO content.
                   </p>
                 </div>
               </Deliverable>

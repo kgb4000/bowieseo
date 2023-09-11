@@ -141,7 +141,7 @@ export default function blackOwnedSEOCompany() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="One-on-one expert support."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -175,15 +175,16 @@ export default function blackOwnedSEOCompany() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get keyword research."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Our detailed keyword research service ensures potential
-                    customers find your business when they need your products or
-                    services.
+                    Our detailed{' '}
+                    <Link href="/keyword-research">keyword Research</Link>{' '}
+                    service ensures potential customers find your business when
+                    they need your products or services.
                   </p>
                   <p>
                     We go beyond just finding popular keywords in your industry;
@@ -210,7 +211,7 @@ export default function blackOwnedSEOCompany() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get a website audit."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -248,7 +249,7 @@ export default function blackOwnedSEOCompany() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get local SEO."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -291,7 +292,7 @@ export default function blackOwnedSEOCompany() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get weekly updates."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -332,7 +333,7 @@ export default function blackOwnedSEOCompany() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get content / service page creation and optimization."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>

@@ -621,7 +621,7 @@ export default function OceanCitySEO() {
                     Google Analytics for you to track your SEO progress over
                     time. We will also making changes to your website's title,
                     meta tags, and content to ensure they include the most
-                    beneficial keywords for your business.
+                    profitable keywords for your business.
                   </p>
                 </div>
               </div>

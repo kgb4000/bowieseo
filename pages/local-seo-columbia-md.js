@@ -411,7 +411,7 @@ export default function LocalSEOColumbiaMD() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="One-on-one expert support."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -429,7 +429,7 @@ export default function LocalSEOColumbiaMD() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get keyword research."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -446,7 +446,7 @@ export default function LocalSEOColumbiaMD() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get Google My Business Management."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -462,7 +462,7 @@ export default function LocalSEOColumbiaMD() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get Google Analytics and Google Search Console set up."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -480,7 +480,7 @@ export default function LocalSEOColumbiaMD() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get a website audit."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -497,7 +497,7 @@ export default function LocalSEOColumbiaMD() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get local SEO."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -514,7 +514,7 @@ export default function LocalSEOColumbiaMD() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get weekly updates."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -531,7 +531,7 @@ export default function LocalSEOColumbiaMD() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get content / service page creation and optimization."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -548,7 +548,7 @@ export default function LocalSEOColumbiaMD() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get to know everything we're doing- 100% transparency."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -566,7 +566,7 @@ export default function LocalSEOColumbiaMD() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="One-on-one expert support."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -609,7 +609,8 @@ export default function LocalSEOColumbiaMD() {
                   </h3>
                   <p>
                     Concentrate on running your business and not on doing
-                    keyword research, writing copy, and competitor analysis.
+                    <Link href="/keyword-research">keyword research</Link>,
+                    writing copy, and competitor analysis.
                   </p>
                 </div>
               </div>

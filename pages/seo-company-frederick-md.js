@@ -624,8 +624,9 @@ export default function SEOCompanyFrederickMD() {
                     We let you focus On Your Business, not on digital Marketing
                   </h3>
                   <p>
-                    Concentrate on running your business and not on doing
-                    keyword research, writing copy, and competitor analysis.
+                    Concentrate on running your business and not on doing{' '}
+                    <Link href="/keyword-research">keyword research</Link>,
+                    writing copy, and competitor analysis.
                   </p>
                 </div>
               </div>

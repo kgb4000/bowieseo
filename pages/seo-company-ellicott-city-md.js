@@ -165,9 +165,10 @@ export default function ellicotCityMD() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Turn on Your Customer Magnet - Keyword research is not just
-                    about identifying popular words; it's about reaching into
-                    your customers' minds.
+                    Turn on Your Customer Magnet -{' '}
+                    <Link href="/keyword-research">Keyword research</Link> is
+                    not just about identifying popular words; it's about
+                    reaching into your customers' minds.
                   </p>
                   <p>
                     Imagine being able to 'listen in' on their online searches,
@@ -200,8 +201,8 @@ export default function ellicotCityMD() {
                 <div>
                   <h3>SEO Audit</h3>
                   <p>
-                    An SEO Audit is akin to turning on a floodlight in a dark
-                    room.
+                    An <Link href="/free-seo-audit">SEO Audit</Link> is akin to
+                    turning on a floodlight in a dark room.
                   </p>
                   <p>
                     It lays bare the current state of your website's SEO,

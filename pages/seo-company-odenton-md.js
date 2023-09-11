@@ -168,7 +168,8 @@ export default function OdentonMD() {
                   <h3>Custom Keyword Research</h3>
                   <p>
                     Ever wondered how some businesses seem to effortlessly show
-                    up on Google search results? The secret is in the keywords.
+                    up on Google search results? The secret is in the{' '}
+                    <Link href="/keyword-research">keyword research</Link>.
                   </p>
                   <p>
                     We dig deep into the language your potential customers use

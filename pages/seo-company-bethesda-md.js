@@ -134,8 +134,9 @@ export default function BethesdaMD() {
             </h2>
             <p className="subtext">
               Serving businesses across Bethesda,{' '}
-              <Link href="/rockville-seo-company">Rockville</Link>, Wheaton, <Link href="/seo-company-gaithersburg-md">Gaithersburg</Link> and the
-              entirety of Montgomery County, we specialize in a crucial
+              <Link href="/rockville-seo-company">Rockville</Link>, Wheaton,{' '}
+              <Link href="/seo-company-gaithersburg-md">Gaithersburg</Link> and
+              the entirety of Montgomery County, we specialize in a crucial
               game-changer: search engine optimization.
             </p>
             <Service>
@@ -210,7 +211,8 @@ export default function BethesdaMD() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get With Search Engine Optimization Services in Bethesda, Maryland
+              What You Get With Search Engine Optimization Services in Bethesda,
+              Maryland
             </h2>
             <p className="subtext">When you work with Bowie SEO, you get:</p>
           </div>
@@ -244,10 +246,10 @@ export default function BethesdaMD() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    We perform in-depth keyword analysis. This process gives us
-                    the most lucrative and relevant terms to attract clients. We
-                    also build a keyword database so you can continue developing
-                    SEO content.
+                    We perform in-depth <Link href="/keyword-research">keyword analysis</Link>. This
+                    process gives us the most lucrative and relevant terms to
+                    attract clients. We also build a keyword database so you can
+                    continue developing SEO content.
                   </p>
                 </div>
               </Deliverable>
