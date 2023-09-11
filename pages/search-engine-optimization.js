@@ -683,7 +683,7 @@ const Rockville = () => {
                   title="Odenton, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-services-odenton-md" passHref>
+                <Link href="/seo-company-odenton-md" passHref>
                   <a>Odenton, MD</a>
                 </Link>
               </City>
