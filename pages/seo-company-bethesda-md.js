@@ -134,7 +134,7 @@ export default function BethesdaMD() {
             </h2>
             <p className="subtext">
               Serving businesses across Bethesda,{' '}
-              <Link href="/rockville-seo-company">Rockville</Link>, and the
+              <Link href="/rockville-seo-company">Rockville</Link>, Wheaton, <Link href="/seo-company-gaithersburg-md">Gaithersburg</Link> and the
               entirety of Montgomery County, we specialize in a crucial
               game-changer: search engine optimization.
             </p>

@@ -41,7 +41,7 @@ export default function SEOCompanyFrederickMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Dominate Your Market with the Right Frederick SEO Company and Boost Your Website Traffic and Sales"
+          heroText="Dominate Your Market with the Right SEO Company in Frederick and Boost Your Website Traffic and Sales"
           subText="Experience breakthrough growth in website traffic, leads, and sales with our specialized SEO services"
           backgroundImage="/images/frederick-maryland-seo-company-cover.jpg"
           backgroundHeight="70vh"
@@ -77,7 +77,7 @@ export default function SEOCompanyFrederickMD() {
                   prices just to compete.
                 </p>
                 <p>
-                  Other competitors in Waldorf are ranking higher than you in
+                  Other competitors in Frederick are ranking higher than you in
                   Google and their businesses are growing.
                 </p>
                 <p>
@@ -104,7 +104,7 @@ export default function SEOCompanyFrederickMD() {
                   <Link href="/maryland-seo-company" passHref>
                     <a>SEO Company in Maryland</a>
                   </Link>{' '}
-                  and we help businesses in Waldorf build their own lead-gen
+                  and we help businesses in Frederick build their own lead-gen
                   websites.
                 </p>
                 <p>
@@ -234,7 +234,7 @@ export default function SEOCompanyFrederickMD() {
               More Leads and Customers
             </h2>
             <p className="subtext">
-              We provide SEO to businesses in Waldorf and the rest of Southern
+              We provide SEO to businesses in Frederick and the rest of Southern
               Maryland.
             </p>
             <Service>
@@ -259,8 +259,8 @@ export default function SEOCompanyFrederickMD() {
               <div className="service-card">
                 <img
                   src="/images/waldorf-gmb-management.webp"
-                  alt="Waldorf Google My Business Management"
-                  title="Waldorf Google My Business Management"
+                  alt="Frederick Google My Business Management"
+                  title="Federick Google My Business Management"
                   width="1000px"
                   height="665px"
                   loading="lazy"
@@ -463,7 +463,7 @@ export default function SEOCompanyFrederickMD() {
                 src="/images/home-service-business-waldorf-md.webp"
                 className="page-img"
                 alt="Home service buisness."
-                title="Home service businesses we work with in Waldorf."
+                title="Home service businesses we work with in Frederick."
               />
               <div>
                 <h2>
