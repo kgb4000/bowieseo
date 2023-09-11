@@ -231,8 +231,9 @@ const Rockville = () => {
                   relevant your entire page is to the search query. The search
                   engine uses complex algorithms to assess whether the content
                   on your page actually meets the needs expressed in the search
-                  query. High-quality, relevant content is rewarded with higher
-                  rankings.
+                  query. High-quality, relevant{' '}
+                  <Link href="/content-for-seo">SEO content</Link> is rewarded
+                  with higher rankings.
                 </p>
               </div>
               <div>
@@ -761,6 +762,17 @@ const Rockville = () => {
                 />
                 <Link href="/silver-spring-md-seo-company">
                   Silver Spring, MD
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Silver Spring, MD."
+                  title="Silver Spring, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-services-salisbury-md">
+                  Salisbury, MD
                 </Link>
               </City>
               <City>

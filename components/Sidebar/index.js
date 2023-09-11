@@ -41,6 +41,11 @@ const Sibebar = ({ isOpen, toggle }) => {
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
+              <SidebarLink href="/content-for-seo" passHref>
+                <SidebarLinkA>Content for SEO</SidebarLinkA>
+              </SidebarLink>
+            </SidebarItem>
+            <SidebarItem>
               <SidebarLink href="/free-mini-seo-audit" passHref>
                 <SidebarLinkA>Free Mini SEO Audit</SidebarLinkA>
               </SidebarLink>

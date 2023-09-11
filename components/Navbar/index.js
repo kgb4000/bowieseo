@@ -77,6 +77,11 @@ const Navbar = ({ toggle }) => {
                       <a>Keyword Research</a>
                     </Link>
                   </div>,
+                  <div onClick={handleMenuThree}>
+                    <Link href="/content-for-seo" passHref>
+                      <a>Content for SEO</a>
+                    </Link>
+                  </div>,
                   <div onClick={handleMenuFour}>
                     <Link href="/free-seo-audit" passHref>
                       <a>Free SEO Audit</a>
@@ -104,9 +109,7 @@ const Navbar = ({ toggle }) => {
           <NavBtn>
             <NavBtnLink>
               <Link href="/free-seo-audit">
-                <a>
-                  <BtnLinksA>Get Your Free SEO Audit &#8594;</BtnLinksA>
-                </a>
+                <BtnLinksA>Get Your Free SEO Audit &#8594;</BtnLinksA>
               </Link>
             </NavBtnLink>
           </NavBtn>
@@ -134,8 +137,3 @@ const Dropdown = ({ open, trigger, menu }) => {
     </div>
   )
 }
-
-const NavButton = styled(Button)`
-  font-size: 1rem;
-  padding: 1rem 2rem;
-`

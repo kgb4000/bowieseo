@@ -35,7 +35,7 @@ export default function contentForSEO() {
         <HeroSection
           heroText="Let Us Write Your SEO Content and Show Up When It Counts"
           subText="Find the Search Terms and Queries Customers Use to Find Your Services and Show Up in the SERPS."
-          backgroundImage="/images/keyword-research-cover.webp"
+          backgroundImage="/images/content-for-seo-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center left"
           buttonText="Get Your Free SEO Audit &#8594;"
@@ -726,15 +726,13 @@ export default function contentForSEO() {
           />
           <div className="container">
             <h2>
-              Ready to Get Do Some Keyword Research and Attract More Customers
-              to Your Website?
+              Ready to Write SEO Content For Your Website?
             </h2>
             <p>
-              Call us and we'll find the best and most profitable keywords for
-              your business.
+              Call us and we'll write SEO optimized content that will get your website noticed.
             </p>
             <div className="btn">
-              <a href={calendly} target="_blank" rel="noreferrer">
+              <a href={calendly} target="_blank">
                 <Button>Book Your Free SEO Call!</Button>
               </a>
             </div>

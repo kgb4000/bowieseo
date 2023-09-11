@@ -61,7 +61,13 @@ export default function silverSpringMDSEOCompany() {
                   business into a consistent, profit-making machine.
                 </p>
                 <p>The key?</p>
-                <p>A proven, effective SEO strategy.</p>
+                <p>
+                  A proven, effective{' '}
+                  <Link href="search-engine-optimization">
+                    search engine optimization
+                  </Link>{' '}
+                  strategy.
+                </p>
                 <p>
                   You've tried it all - Facebook, Instagram, Google, even
                   forking out for leads from HomeAdvisor, Thumbtack, Angie's
@@ -166,7 +172,8 @@ export default function silverSpringMDSEOCompany() {
                   <h3>Keyword Research</h3>
                   <p>
                     Uncover the exact terms your potential customers are using
-                    to find businesses like yours. Our thorough keyword research
+                    to find businesses like yours. Our thorough{' '}
+                    <Link href="/keyword-research">keyword research</Link>{' '}
                     process allows us to identify the high-volume and relevant
                     keywords that can drive quality traffic to your site. This
                     is the first step to creating content that resonates with
@@ -208,12 +215,13 @@ export default function silverSpringMDSEOCompany() {
                   <h3>SEO Audit</h3>
                   <p>
                     Gain an in-depth understanding of your website's current SEO
-                    status. Our comprehensive SEO audit uncovers strengths,
-                    weaknesses, and opportunities in your existing SEO strategy.
-                    With this valuable insight, you can make informed decisions
-                    and adjustments to improve your site's search engine
-                    performance, elevate your online visibility, and ultimately,
-                    attract more quality leads and conversions.
+                    status. Our comprehensive{' '}
+                    <Link href="/free-seo-audit">SEO audit</Link> uncovers
+                    strengths, weaknesses, and opportunities in your existing
+                    SEO strategy. With this valuable insight, you can make
+                    informed decisions and adjustments to improve your site's
+                    search engine performance, elevate your online visibility,
+                    and ultimately, attract more quality leads and conversions.
                   </p>
                 </div>
               </Deliverable>
@@ -230,7 +238,8 @@ export default function silverSpringMDSEOCompany() {
                     Show up when it counts. Local SEO puts your website in front
                     of local customers looking for your services. With local
                     SEO, local customers will be able to find your company
-                    instead of one of your competitors. Get optimized content, a
+                    instead of one of your competitors. Get{' '}
+                    <Link href="/content-for-seo">optimized content</Link>, a
                     faster website, and give your customers a better user
                     experience.
                   </p>

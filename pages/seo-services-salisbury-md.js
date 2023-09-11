@@ -122,202 +122,7 @@ export default function OceanCitySEO() {
             </a>
           </div>
         </section>
-        <section>
-          <div className="medium-container">
-            <h2 className="title">
-              What You Can Expect With Our Salisbury SEO Services
-            </h2>
-            <p className="subtext">
-              When you work with us, you get the following:
-            </p>
-          </div>
-          <div className="medium-container">
-            <Deliverables>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="One-on-one expert support."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>Expert one-on-one support</h3>
-                  <p>
-                    We giv e you free, knowledgeable advice and support from our
-                    SEO specialists. Contact us by phone or email if you have
-                    any questions. We're here to support your expanding business
-                    in any way we can.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get keyword research."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>Keyword Research</h3>
-                  <p>
-                    Extensive keyword analysis. We find the most advantageous
-                    and pertinent terms that customers use to find your
-                    business. We provide a keyword database as well so you can
-                    keep creating SEO content.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get Google My Business Management."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>Google My Business Management</h3>
-                  <p>
-                    We offer Google My Business management to help improve your
-                    local SEO rankings. Get a GMB page that is completely
-                    optimized and rank in the map pack and local search results.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get Google Analytics and Google Search Console set up."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>Google Analytics and Google Console Configuration</h3>
-                  <p>
-                    We set up your Google Analytics and Search Console. We
-                    monitor the effectiveness of your website using these
-                    technologies. They also enable us to monitor how well your
-                    website is doing on Google. They also assist us in
-                    determining the improvements that can be made to enhance
-                    user experience and rankings.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get a website audit."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>SEO Audit</h3>
-                  <p>
-                    Find out what is keeping your website from ranking higher on
-                    Google. With an SEO audit, we find out exactly what we need
-                    to fix for your SEO campaign to get off the ground and be
-                    successful.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get local SEO."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>Local SEO</h3>
-                  <p>
-                    Show up when it counts. Local SEO puts your website in front
-                    local customers looking for your services. With local SEO,
-                    local customers will be able find your company instead of
-                    one of your competitors. Get optimized content, a faster
-                    website, and give your customers a better user experience.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get weekly updates."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>We Give You Weekly Updates</h3>
-                  <p>
-                    Given your hectic schedule, we understand that you might not
-                    have time to check in with us every day. To keep you
-                    informed, we send out a weekly email update or call you to
-                    let you know what's going on.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get content / service page creation and optimization."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>Content / Service Page Creation / Optimization</h3>
-                  <p>
-                    We'll take care of writing your content and service pages
-                    for your website so that you won't have to. We write content
-                    that bring in the most sales and money. We use the data
-                    gathered from our SEO audit, keyword research, and
-                    competitor analysis.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="You get to know everything we're doing- 100% transparency."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>You'll Know Everything We're Doing</h3>
-                  <p>
-                    We're 100% transparent. Never worry about trying to figure
-                    out what we're up to or if we're still working on your
-                    campaign. Our staff will walk you through every stage of
-                    what we're doing and how it's working in detail. We want you
-                    to join in whatever capacity you wish. To give you peace of
-                    mind that your campaign is in capable hands, we aim to keep
-                    you up-to-date at all times.
-                  </p>
-                </div>
-              </Deliverable>
-              <Deliverable>
-                <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="One-on-one expert support."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>Tracking and Monitoring</h3>
-                  <p>
-                    We track and check your SEO campaign to make sure we're on
-                    the right track to get you the results you want. We use
-                    tools like Google Analytics, Google's Search Console,
-                    Ahrefs, and SEMRush.
-                  </p>
-                </div>
-              </Deliverable>
-            </Deliverables>
-            <div className="btn">
-              <a href={calendly} target="_blank" rel="noreferrer">
-                <Button>Book Your Free Call Today!</Button>
-              </a>
-            </div>
-          </div>
-        </section>
-        {/* <section className="reasons-section">
+        <section className="reasons-section">
           <div className="medium-container">
             <h2 className="title">
               7 Reasons Why Salisbury Business Owners must Invest In Search
@@ -409,7 +214,213 @@ export default function OceanCitySEO() {
               <Button>Schedule a call today!</Button>
             </a>
           </div>
-        </section> */}
+        </section>
+        <section>
+          <div className="medium-container">
+            <h2 className="title">
+              What You Can Expect With Our Salisbury SEO Services
+            </h2>
+            <p className="subtext">
+              When you work with us, you get the following:
+            </p>
+          </div>
+          <div className="medium-container">
+            <Deliverables>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Expert one-on-one support</h3>
+                  <p>
+                    We giv e you free, knowledgeable advice and support from our
+                    SEO specialists. Contact us by phone or email if you have
+                    any questions. We're here to support your expanding business
+                    in any way we can.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get keyword research."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Keyword Research</h3>
+                  <p>
+                    Extensive{' '}
+                    <Link href="/keyword-research">keyword analysis</Link>. We
+                    find the most advantageous and pertinent terms that
+                    customers use to find your business. We provide a keyword
+                    database as well so you can keep creating SEO content.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google My Business Management."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Google My Business Management</h3>
+                  <p>
+                    We offer{' '}
+                    <Link href="/gmb-management-services">
+                      Google My Business management
+                    </Link>{' '}
+                    to help improve your local SEO rankings. Get a GMB page that
+                    is completely optimized and rank in the map pack and local
+                    search results.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google Analytics and Google Search Console set up."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Google Analytics and Google Console Configuration</h3>
+                  <p>
+                    We set up your Google Analytics and Search Console. We
+                    monitor the effectiveness of your website using these
+                    technologies. They also enable us to monitor how well your
+                    website is doing on Google. They also assist us in
+                    determining the improvements that can be made to enhance
+                    user experience and rankings.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get a website audit."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>SEO Audit</h3>
+                  <p>
+                    Find out what is keeping your website from ranking higher on
+                    Google. With an SEO audit, we find out exactly what we need
+                    to fix for your SEO campaign to get off the ground and be
+                    successful.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get local SEO."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Local SEO</h3>
+                  <p>
+                    Show up when it counts. Local{' '}
+                    <Link href="/search-engine-optimization">
+                      search engine optimization
+                    </Link>{' '}
+                    in Salisbury puts your website in front local customers
+                    looking for your services. With local SEO, local customers
+                    will be able find your company instead of one of your
+                    competitors. Get optimized content, a faster website, and
+                    give your customers a better user experience.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get weekly updates."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>We Give You Weekly Updates</h3>
+                  <p>
+                    Given your hectic schedule, we understand that you might not
+                    have time to check in with us every day. To keep you
+                    informed, we send out a weekly email update or call you to
+                    let you know what's going on.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get content / service page creation and optimization."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Content / Service Page Creation / Optimization</h3>
+                  <p>
+                    We'll take care of writing your{' '}
+                    <Link href="/content-for-seo">SEO content</Link> and service
+                    pages for your website so that you won't have to. We write
+                    content that bring in the most sales and money. We use the
+                    data gathered from our SEO audit, keyword research, and
+                    competitor analysis.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get to know everything we're doing- 100% transparency."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>You'll Know Everything We're Doing</h3>
+                  <p>
+                    We're 100% transparent. Never worry about trying to figure
+                    out what we're up to or if we're still working on your
+                    campaign. Our staff will walk you through every stage of
+                    what we're doing and how it's working in detail. We want you
+                    to join in whatever capacity you wish. To give you peace of
+                    mind that your campaign is in capable hands, we aim to keep
+                    you up-to-date at all times.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Tracking and Monitoring</h3>
+                  <p>
+                    We track and check your SEO campaign to make sure we're on
+                    the right track to get you the results you want. We use
+                    tools like Google Analytics, Google's Search Console,
+                    Ahrefs, and SEMRush.
+                  </p>
+                </div>
+              </Deliverable>
+            </Deliverables>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book Your Free Call Today!</Button>
+              </a>
+            </div>
+          </div>
+        </section>
+
         <section>
           <div className="small-container">
             <p>
@@ -425,14 +436,26 @@ export default function OceanCitySEO() {
               area, which will be Salisbury.
             </p>
             <p>
-              Local SEO makes it so that when someone in Salisbury or in nearby
-              places like{' '}
-              <Link href="/seo-services-ocean-city-md" passHref>
-                <a>Ocean City</a>
-              </Link>
-              , Berlin, Whitehaven, or Pokomoke, MD search for services like
-              yours, your website will show up and people will see your
-              business.
+              Local SEO makes easy for someone in Salisbury or in nearby cities
+              to find your website.
+            </p>
+            <p>This includes places like:</p>
+            <ul>
+              <li>
+                {' '}
+                <Link href="/seo-services-ocean-city-md" passHref>
+                  <a>Ocean City</a>
+                </Link>
+              </li>
+              <li>Berlin, MD</li>
+              <li>Whitehaven, MD</li>
+              <li>Pokomoke, MD</li>
+              <li>Easton, MD</li>
+              <li>Ocean Pines, MD</li>
+            </ul>
+            <p>
+              When they search for services like yours, your website will show
+              up and people will see and click on your business listing.
             </p>
             <p>
               Local SEO is the process of optimizing your website so that

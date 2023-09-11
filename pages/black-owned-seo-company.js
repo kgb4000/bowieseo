@@ -80,25 +80,34 @@ export default function blackOwnedSEOCompany() {
               </p>
               <p>
                 This invisibility can severely impact your business's success,
-                given that 75% of users never scroll past the first page of
-                search results.
+                given that{' '}
+                <a
+                  href="https://neilpatel.com/blog/first-page-google/"
+                  target="_blank"
+                >
+                  75% of users
+                </a>{' '}
+                never scroll past the first page of search results.
               </p>
               <p>This is where our expertise comes into play.</p>
               <p>
                 As a premier <strong>black owned SEO company</strong>, we can
                 transform your digital presence.
               </p>
+              <p>We go beyond simply optimizing your website with keywords. </p>
               <p>
-                We go beyond simply optimizing your website with keywords; we
-                implement comprehensive SEO strategies designed to increase your
-                site's visibility, attract high-quality organic traffic, and
-                drive conversions.
+                We implement comprehensive SEO strategies designed to increase
+                your site's visibility, attract high-quality organic traffic,
+                and drive conversions.
               </p>
               <p>
-                Leveraging our deep understanding of search engine algorithms,
-                user behavior, and your unique business needs, we can help your
-                business climb the search engine rankings and be found by the
-                customers so customers find you when it matters most to you.
+                Leveraging our deep understanding of{' '}
+                <Link href="/search-engine-optimization">
+                  search engine optimization
+                </Link>
+                , user behavior, and your unique business needs, we can help
+                your business climb the search engine rankings and be found by
+                the customers so customers find you when it matters most to you.
               </p>
               <p>
                 We aim to ensure your business isn't just surviving online but
@@ -351,8 +360,9 @@ export default function blackOwnedSEOCompany() {
                   <p>
                     But we don't just chase any links; we pursue ones that make
                     sense, aligning with your industry and audience. We achieve
-                    this through content marketing, guest blogging, and
-                    influencer outreach.
+                    this through{' '}
+                    <Link href="content-for-seo">SEO content creation</Link>,
+                    guest blogging, and influencer outreach.
                   </p>
                   <p>The benefit?</p>
                   <p>

@@ -18,15 +18,13 @@ const SEOAgency = 'our Maryland SEO company'
 
 const MarylandSEOCompany = () => {
   const SEO = {
-    title:
-      'Maryland SEO Company: Boost Online Visibility Traffic, Leads and Sales',
+    title: `Maryland SEO Company | Click Here First to Boost Your Company's Growth`,
     description:
       'Maryland SEO company helping businesses increase leads, sales and revenue without paying for expensive online ads. Contact us for a free consultation.',
     type: 'website',
     canonical: 'https://bowieseo.com/maryland-seo-company',
     openGraph: {
-      title:
-        'Maryland SEO Company: Boost Online Visibility Traffic, Leads and Sales',
+      title: `Maryland SEO Company | Click Here First to Boost Your Company's Growth`,
       description:
         'Maryland SEO company helping businesses increase leads, sales and revenue without paying for expensive online ads. Contact us for a free consultation.',
       type: 'website',
@@ -77,7 +75,7 @@ const MarylandSEOCompany = () => {
                 </p>
                 <p>Plus, those ads are getting expensive.</p>
                 <p>
-                  Customers that should be buying your services are buying
+                  Customers who should be buying your services are buying
                   services from your competitors.
                 </p>
                 <p>Why?</p>
@@ -108,15 +106,15 @@ const MarylandSEOCompany = () => {
                 <p>That's where we come in and we can help.</p>
                 <p>
                   We're a local SEO company in Maryland that can help you get
-                  more leads and customers with our customized{' '}
+                  more leads and customers with our customized Maryland{' '}
                   <Link href="/search-engine-optimization">
-                    Maryland search engine optimization
+                    search engine optimization
                   </Link>{' '}
                   (SEO).
                 </p>
                 <p>
-                  With (Maryland) local SEO, you can increase your leads,
-                  website traffic, sales and your revenue.
+                  With (Maryland) SEO, you can increase your leads, website
+                  traffic, sales and your revenue.
                 </p>
                 <p>How does that sound?</p>
                 <p>
@@ -163,7 +161,7 @@ const MarylandSEOCompany = () => {
                   wife and kids to Disney World in Orlando.
                 </p>
                 <p>
-                  And two weeks after that, a one-week vacation with the wife in
+                  Two weeks after that, a one-week vacation with your wife in
                   Tulum, Mexico.
                 </p>
                 <p>Business is good. </p>
@@ -172,7 +170,8 @@ const MarylandSEOCompany = () => {
                 </p>
                 <p>
                   The right <b>(Maryland) search engine optimization</b>{' '}
-                  strategy from the right SEO company can make this possible.
+                  strategy from the right <Link href="/">SEO company</Link> can
+                  make this possible.
                 </p>
               </div>
               <img
@@ -205,9 +204,9 @@ const MarylandSEOCompany = () => {
               loading="lazy"
             />
             <p>
-              <strong>(Maryland) local search engine optimization</strong> is a
-              digital marketing strategy that helps to increase your website
-              visiblity in search engines.
+              <strong>(Maryland) Local search engine optimization</strong> is a
+              digital marketing strategy that helps to increase your website's
+              visibility in search engines.
             </p>
             <p>
               When more people see your website listed in the search results,
@@ -215,17 +214,17 @@ const MarylandSEOCompany = () => {
               traffic to your site.
             </p>
             <p>
-              The more traffic your website gets, the more chances you getting
-              more leads and sales.
+              The more traffic your website gets, the more chances of you
+              getting more leads and sales.
             </p>
             <p>
               SEO consists of many moving parts, and when done within the rules,
-              can result in exponential growth for your business.
+              it can result in exponential growth for your business.
             </p>
             <p>
-              From <Link href="/keyword-research">keyword research</Link>,
-              competitor analysis, on-page SEO, and off-page SEO, search engine
-              optimization can take your business to the next level.
+              From keyword research, competitor analysis, on-page SEO, and
+              off-page SEO, search engine optimization can take your business to
+              the next level.
             </p>
             <p>
               <a href={calendly} target="_blank">
@@ -246,7 +245,9 @@ const MarylandSEOCompany = () => {
               Ever wondered how some Maryland businesses just pop up on the
               first page of Google when you're searching?
             </p>
-            <p>That's the magic of Maryland SEO in action!</p>
+            <p>
+              That's the magic of <strong>Maryland SEO</strong> in action!
+            </p>
             <p>
               Think of SEO like your digital megaphone. It fine-tunes your
               online voice so folks find you easily when they're looking for
@@ -266,13 +267,15 @@ const MarylandSEOCompany = () => {
               There are a bunch of pieces to the puzzle.
             </p>
             <p> Here's a sneak peek:</p>
+          </div>
+          <div className="medium-container">
             <HowSEOWorks>
               <SEOElement>
                 <img
                   src="/images/icons/local-seo.png"
                   className="seo-icon"
-                  alt="Perform an SEO Audit to find opprtunities to improve your website."
-                  title="Perform an SEO Audit to find opprtunities to improve your website."
+                  alt="SEO Audit."
+                  title="SEO Audit."
                   loading="lazy"
                 />
                 <div>
@@ -295,8 +298,8 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/technical-search-engine-optimization.png"
                   className="seo-icon"
-                  alt="Perform an Technical SEO to make your website perform better in the search engines."
-                  title="Perform an Technical SEO to make your website perform better in the search engines."
+                  alt="Technical SEO."
+                  title="Technical SEO."
                   loading="lazy"
                 />
                 <div>
@@ -316,15 +319,16 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/keyword-research.png"
                   className="seo-icon"
-                  alt="Do keyword research and find the keywords searchers use to find your services."
-                  title="Do keyword research and find the keywords searchers use to find your services."
+                  alt="Do keyword research."
+                  title="Do keyword research."
                   loading="lazy"
                 />
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Keyword research is finding and targeting keywords that
-                    potential customers are searching for.
+                    <Link href="/keyword-research">Keyword research</Link> is
+                    finding and targeting keywords that potential customers are
+                    searching for.
                   </p>
                   <p>
                     This research helps businesses better understand how people
@@ -344,18 +348,18 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>Local SEO</h3>
                   <p>
-                    (Maryland) local SEO is optimizing your website for Google
-                    search in your businesses location.
+                    (Maryland) local SEO is about optimizing your website for
+                    your business location in Google search.
                   </p>
                   <p>
                     Whether your business is located in{' '}
                     <Link href="/baltimore-seo">Baltimore</Link>,{' '}
                     <Link href="/rockville-seo-company">Rockville</Link>,
                     Gaithersburg, or{' '}
-                    <Link href="/seo-company-frederick-md">Frederick</Link>, you can
-                    optimize your website so that people searching for your
-                    services in you location, will see your website on the first
-                    page.
+                    <Link href="/seo-company-frederick-md">Frederick</Link>, you
+                    can optimize your website so that people searching for your
+                    services in your location, will see your website on the
+                    first page.
                   </p>
                 </div>
               </SEOElement>
@@ -363,14 +367,16 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/content-writing.png"
                   className="seo-icon"
-                  alt="Content writing and optimization"
-                  title="Content writing and optimization"
+                  alt="Content writing and optimization."
+                  title="Content writing and optimization."
                   loading="lazy"
                 />
                 <div>
-                  <h3>Content Creation and Optimization</h3>
+                  <h3>SEO Content Creation and Optimization</h3>
                   <p>
-                    Content SEO is optimizing a website's content search engines
+                    Creating{' '}
+                    <Link href="/content-for-seo">content for SEO</Link> is
+                    creating and optimizing existing content for search engines
                     and for people. It includes creating high-quality,
                     keyword-rich content that will help improve the site's
                     ranking in SERPs.
@@ -398,8 +404,8 @@ const MarylandSEOCompany = () => {
                     difficult to tell whether your efforts are paying off.
                   </p>
                   <p>
-                    Tools we use include Google Analytics, Googel Search
-                    Console, Ahrefs, and SEMrush.
+                    We use tools like Google Analytics, Google Search Console,
+                    Ahrefs, and SEMrush.
                   </p>
                 </div>
               </SEOElement>
@@ -481,21 +487,19 @@ const MarylandSEOCompany = () => {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <h2 className="title">
               Partner With Our Maryland SEO Company And Get Results
             </h2>
             <p className="subtext">
-              Our local SEO services for Maryland busineses include:
+              Our local SEO services for Maryland businesses include:
             </p>
-          </div>
-          <div className="medium-container">
             <Deliverables>
               <Deliverable>
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="One-on-one expert support."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -515,13 +519,13 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get keyword research."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Our team of SEO experts specialize in finding the most
+                    Our team of SEO experts specializes in finding the most
                     effective, profitable, and relevant keywords that can help
                     you attract and convert more customers.
                   </p>
@@ -539,7 +543,7 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get Google My Business Management."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -560,7 +564,7 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get Google Analytics and Google Search Console set up."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -586,7 +590,7 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get a website audit."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -611,7 +615,7 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get local SEO."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -637,7 +641,7 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get weekly updates."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -662,11 +666,11 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get content / service page creation and optimization."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
-                  <h3>Content / Service Page Creation / Optimization</h3>
+                  <h3>Content Creation and Optimization</h3>
                   <p>
                     Our team of skilled content writers can craft high-quality
                     service pages and website content tailored to your business
@@ -686,11 +690,11 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get to know everything we're doing- 100% transparency."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
-                  <h3>Full 1000% Transparency</h3>
+                  <h3>Full 100% Transparency</h3>
                   <p>
                     You'll never be left in the dark about our SEO efforts, as
                     we are committed to keeping you informed at all times. We
@@ -709,7 +713,7 @@ const MarylandSEOCompany = () => {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="One-on-one expert support."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
@@ -892,7 +896,7 @@ const MarylandSEOCompany = () => {
                 <div className="reasons">
                   <h3>We're a Small Agency</h3>
                   <p>
-                    We’re not a large Maryland SEO company, we’re small. But
+                    We’re not a large Maryland SEO company. We’re small. But
                     we’re Maryland SEO experts that can get you results. We get
                     your company the results that matter - more phone calls,
                     sales, and money coming in.
@@ -1033,9 +1037,9 @@ const MarylandSEOCompany = () => {
                 <div className="question">
                   <h3>What is the Cost of SEO?</h3>
                   <p>
-                    SEO services start at $1000 - $5000 for local businesses.
-                    This depends on the type of business, the competition, the
-                    location, and the marketing budget.
+                    SEO services start at $1000 - $5000 plus for local
+                    businesses. This depends on the type of business, the
+                    competition, the location, and the marketing budget.
                   </p>
                 </div>
                 <div className="question">
@@ -1205,85 +1209,6 @@ const Service = styled.div`
     grid-gap: 40px;
   }
 `
-const Cities = styled.div`
-  margin: 0 auto;
-  @media screen and (min-width: 508px) {
-    @media (min-width: 768px) {
-      margin: 3rem 0;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px;
-    }
-  }
-
-  @media screen and (min-width: 1024px) {
-    @media (min-width: 768px) {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-`
-
-const City = styled.div`
-  display: flex;
-  align-items: center;
-  margin: 1rem 0;
-  img {
-    width: 40px;
-    height: 40px;
-    margin: 0;
-    margin-right: 0.5rem;
-  }
-
-  a,
-  p {
-    margin: 0;
-    font-weight: 700;
-  }
-`
-
-// const WorkWithUs = styled.div`
-//   @media screen and (min-width: 1024px) {
-//     max-width: 1000px;
-//     margin: 0 auto;
-//     margin-bottom: 3rem;
-//   }
-
-//   .text {
-//     margin-top: 2rem;
-//     padding: 0 4rem;
-//   }
-// `
-// const Why = styled.div`
-// display: flex;
-// justify-content: center;
-// align-items: center;
-
-//   .reasons {
-//     margin: 1rem 0;
-//     padding: 2rem;
-//     border: 1px solid #eee;
-//     border-radius: 40px;
-//     box-shadow: 10px 10px 0px #000;
-//     background-color: #ecf0f1;
-//   }
-
-//   p {
-//     margin-bottom: 0;
-//     }
-
-//   img {
-//     margin: 0;
-//     margin-right: 1.5rem;
-//     width: 54px;
-//     height: 54px;
-//     position: relative;
-//     }
-
-//     h3 {
-//       margin: 0;
-//     }
-//  }
-//  `
 
 const Deliverables = styled.div`
   @media (min-width: 768px) {
@@ -1332,7 +1257,7 @@ const SEOElement = styled.div`
     }
 
     h3 {
-      margin: 0;
+      margin: 1rem 0;
     }
 
   }

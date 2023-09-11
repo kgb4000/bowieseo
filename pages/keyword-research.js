@@ -97,13 +97,14 @@ export default function keywordResearch() {
         <section>
           <div className="medium-container">
             <h2 className="title">
-              What Happens to your business when you don't do keyword research on your website?
+              What Happens to your business when you don't do keyword research
+              on your website?
             </h2>
             <p className="subtext">
               A business not doing keyword research is like a ship sailing
               without a compass—you might move, but you're less likely to get
-              where you want to go. Here are some potential setbacks that
-              could hit your business if your skip this crucial step.
+              where you want to go. Here are some potential setbacks that could
+              hit your business if your skip this crucial step.
             </p>
             <Deliverables>
               <Deliverable>
@@ -342,10 +343,11 @@ export default function keywordResearch() {
                   <p>
                     Ever stared at a blank screen wondering what to blog about?
                     Keyword research to the rescue! When you know what your
-                    audience is searching for, creating content becomes a whole
-                    lot easier—and more effective. You're not just creating
-                    content; you're creating content that people actually want
-                    to read.
+                    audience is searching for, creating{' '}
+                    <Link href="content-for-seo">SEO content</Link> becomes a
+                    whole lot easier—and more effective. You're not just
+                    creating content; you're creating content that people
+                    actually want to read.
                   </p>
                 </div>
               </Deliverable>
@@ -385,7 +387,9 @@ export default function keywordResearch() {
           <div className="container">
             <h2 className="title">Why Work With Us?</h2>
             <p className="subtext">
-              Partner with <Link href="/">Bowie SEO</Link> and save time and money, and acheive your sales and revenue goals.. We work only for you, never your competition in your local area.
+              Partner with <Link href="/">Bowie SEO</Link> and save time and
+              money, and acheive your sales and revenue goals.. We work only for
+              you, never your competition in your local area.
             </p>
             <Service>
               <div className="service-card">
