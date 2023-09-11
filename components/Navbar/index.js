@@ -72,6 +72,11 @@ const Navbar = ({ toggle }) => {
                       <a>GMB Management</a>
                     </Link>
                   </div>,
+                  <div onClick={handleMenuThree}>
+                    <Link href="/keyword-research" passHref>
+                      <a>Keyword Research</a>
+                    </Link>
+                  </div>,
                   <div onClick={handleMenuFour}>
                     <Link href="/free-seo-audit" passHref>
                       <a>Free SEO Audit</a>

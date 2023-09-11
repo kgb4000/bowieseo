@@ -166,7 +166,10 @@ export default function SEOServicesWaldorf() {
                   traffic from people who are already looking for what you have
                   to offer.
                 </p>
-                <p>With Search engine optimization you will:</p>
+                <p>
+                  With <Link href="/search-engine-optimization">search engine optimization</Link>search engine
+                  optimization you will:
+                </p>
                 <ul className="check-mark">
                   <li>
                     Get free organic traffic coming to your website without
@@ -435,10 +438,11 @@ export default function SEOServicesWaldorf() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Laser-focused keyword research will uncover the most
-                    profitable and relevant terms to attract customers and
-                    create sales. We'll construct a database of these keywords
-                    for you to create SEO content.
+                    Laser-focused{' '}
+                    <Link href="/keyword-research">keyword research</Link> will
+                    uncover the most profitable and relevant terms to attract
+                    customers and create sales. We'll construct a database of
+                    these keywords for you to create SEO content.
                   </p>
                 </div>
               </Deliverable>
@@ -486,9 +490,10 @@ export default function SEOServicesWaldorf() {
                   <h3>SEO Audit</h3>
                   <p>
                     Find out what's holding your website back from ranking
-                    higher and getting the leads and customers you need. Our SEO
-                    audit will pinpoint the specific issues that must be fixed
-                    for your SEO campaign to achieve success.
+                    higher and getting the leads and customers you need. Our{' '}
+                    <Link href="/free-seo-audit">SEO Audit</Link> will pinpoint
+                    the specific issues that must be fixed for your SEO campaign
+                    to achieve success.
                   </p>
                 </div>
               </Deliverable>

@@ -109,6 +109,11 @@ const FooterSection = () => {
                     <a>Free SEO Audit</a>
                   </Link>
                 </li>
+                <li>
+                  <Link href="/keyword-research">
+                    <a>Keyword Research</a>
+                  </Link>
+                </li>
               </ul>
             </nav>
           </div>
