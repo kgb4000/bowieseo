@@ -24,12 +24,12 @@ const SEOAgency = 'Bowie SEO'
 
 export default function GaithersburgMDSEOCompany() {
   const SEO = {
-    title: 'SEO Company in Gaithersburg MD | Transform Clicks to Conversions',
+    title: 'SEO Company in Gaithersburg MD | Click Here To Rank Higher',
     description:
       'Looking to dominate Google rankings? Our Gathersburg, MD SEO agency offers personalized strategies to propel your business. Contact us now!"',
     canonical: 'https://bowieseo.com/seo-company-gaithersburg-md',
     openGraph: {
-      title: 'SEO Company in Gaithersburg MD | Transform Clicks to Conversions',
+      title: 'SEO Company in Gaithersburg MD | Click Here To Rank Higher',
       description:
         'Looking to dominate Google rankings? Our Gathersburg, MD SEO agency offers personalized strategies to propel your business. Contact us now!"',
       type: 'website',

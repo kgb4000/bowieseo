@@ -48,8 +48,7 @@ export const SidebarMenu = styled.ul`
   }
 `
 export const SidebarItem = styled.li`
-  height: 80px;
-  line-height: 80px;
+  height: 1.2rem 0px;
   color: #000;
 `
 
@@ -58,7 +57,7 @@ export const SidebarLink = styled(Link)``
 export const SidebarLinkA = styled.a`
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
@@ -83,7 +82,7 @@ export const SidebarBtnWrap = styled.div`
 export const SidebarBtnLink = styled(Link)``
 
 export const SidebarBtnLinkA = styled.a`
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 900;
   border-radius: 5px;
   background-color: #cf0a0a;

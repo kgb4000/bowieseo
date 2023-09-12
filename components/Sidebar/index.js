@@ -70,13 +70,13 @@ const Sibebar = ({ isOpen, toggle }) => {
                 <SidebarLinkA>Contact us</SidebarLinkA>
               </SidebarLink>
             </SidebarItem>
-            <SidebarItem>
+            {/* <SidebarItem>
               <SidebarBtnWrap>
                 <SidebarBtnLink href="/free-seo-audit">
                   <SidebarBtnLinkA>I Want My Free SEO Audit</SidebarBtnLinkA>
                 </SidebarBtnLink>
               </SidebarBtnWrap>
-            </SidebarItem>
+            </SidebarItem> */}
           </SidebarMenu>
         </SidebarWrapper>
       </SidebarContainer>
