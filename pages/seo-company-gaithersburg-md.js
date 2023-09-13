@@ -354,8 +354,10 @@ export default function GaithersburgMDSEOCompany() {
               businesses in Gaithersburg,{' '}
               <Link href="/rockville-seo-company">Rockville</Link>, Germantown,{' '}
               <Link href="/seo-company-bethesda-md">Bethesda</Link> and other
-              cities in Motgomery County, MD. Our goal is to get you get
-              high-quality leads that convert into loyal customers.
+              cities in Motgomery County, MD like{' '}
+              <Link href="/potomac-md-seo-company">Potomac</Link>. Our goal is
+              to get you get high-quality leads that convert into loyal
+              customers.
             </p>
             <Service>
               <div className="service-card">

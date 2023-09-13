@@ -136,8 +136,10 @@ export default function BethesdaMD() {
               Serving businesses across Bethesda,{' '}
               <Link href="/rockville-seo-company">Rockville</Link>, Wheaton,{' '}
               <Link href="/seo-company-gaithersburg-md">Gaithersburg</Link> and
-              the entirety of Montgomery County, we specialize in a crucial
-              game-changer: search engine optimization.
+              the other cities in Montgomery County like{' '}
+              <Link href="/potomac-md-seo-company">Potomac</Link> and{' '}
+              <Link href="/silver-spring-md-seo-company">Silver Spring</Link>. We specialize
+              in a crucial game-changer: search engine optimization.
             </p>
             <Service>
               <div className="service-card">
@@ -246,7 +248,8 @@ export default function BethesdaMD() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    We perform in-depth <Link href="/keyword-research">keyword analysis</Link>. This
+                    We perform in-depth{' '}
+                    <Link href="/keyword-research">keyword analysis</Link>. This
                     process gives us the most lucrative and relevant terms to
                     attract clients. We also build a keyword database so you can
                     continue developing SEO content.
