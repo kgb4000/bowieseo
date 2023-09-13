@@ -17,8 +17,6 @@ import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
 const calendly = 'https://calendly.com/bowieseo/30min'
 
-const SEOAgency = 'SEO professionals'
-
 export default function glenBurnieMD() {
   const SEO = {
     title: 'SEO Company in Glen Burnie, MD | Click Here to Rank Higher',
@@ -40,8 +38,8 @@ export default function glenBurnieMD() {
           backgroundImage="/images/glen-burnie-seo-company-cover.jpg"
           backgroundHeight="70vh"
           backgroundPosition="center"
-          buttonText="Book Your Free SEO Call Today!"
-          buttonLink={calendly}
+          buttonText="Get Your Free SEo Audit &#8594;"
+          buttonLink="/free-seo-audit"
         />
         <section>
           <div className="medium-container">

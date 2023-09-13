@@ -352,8 +352,8 @@ export default function GaithersburgMDSEOCompany() {
             <p className="subtext">
               We specialize in Search Engine Optimization (SEO) services for
               businesses in Gaithersburg,{' '}
-              <Link href="/rockville-seo-comoany">Rockville</Link>, Germantown,{' '}
-              <Link href="/seo-comoany-bethesda-md">Bethesda</Link> and other
+              <Link href="/rockville-seo-company">Rockville</Link>, Germantown,{' '}
+              <Link href="/seo-company-bethesda-md">Bethesda</Link> and other
               cities in Motgomery County, MD. Our goal is to get you get
               high-quality leads that convert into loyal customers.
             </p>
