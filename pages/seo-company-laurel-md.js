@@ -21,12 +21,12 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function LocalSEO() {
   const SEO = {
-    title: 'SEO Company in Laurel, MD | Get Ranked and Boost Company Growth',
-    description: `Discover the leading SEO services in Laurel, MD. Enhance your online visibility and see transformative business results. Book a Free SEO call today!`,
+    title: 'SEO Company in Laurel, MD | Rank Higher and Boost Company Growth',
+    description: `Discover the leading SEO company in Laurel, MD. Enhance your online visibility and see transformative business results. Book a Free SEO call today!`,
     canonical: 'https://bowieseo.com/seo-company-laurel-md',
     openGraph: {
-      title: 'SEO Company in Laurel, MD | Get Ranked and Boost Company Growth',
-      description: `Discover the leading SEO services in Laurel, MD. Enhance your online visibility and see transformative business results. Book a Free SEO call today!.`,
+      title: 'SEO Company in Laurel, MD | Rank Higher and Boost Company Growth',
+      description: `Discover the leading SEO company in Laurel, MD. Enhance your online visibility and see transformative business results. Book a Free SEO call today!.`,
       image: [{}],
     },
   }
@@ -35,8 +35,8 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="We Give You Expert SEO Services in Laurel, MD to Increase Your Online Visibility and Boost Revenue"
-          subText="We provide SEO services to businesses in Laurel that help increase leads, sales and revenue."
+          heroText="Boost Revenue and Increase Your Online Visibility: Working With the Top SEO Company in Laurel, MD"
+          subText="We provide SEO services to businesses in Laurel to help increase leads, sales and revenue."
           backgroundImage="/images/seo-services-laurel-md-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center"
@@ -73,7 +73,8 @@ export default function LocalSEO() {
                 </p>
                 <p>
                   Other competitors in Laurel are ranking higher than you in
-                  Google and their businesses are growing.
+                  Google and their businesses are growing (because they're using
+                  SEO services).
                 </p>
                 <p>
                   They’re getting more customers and more business every month.
@@ -95,12 +96,8 @@ export default function LocalSEO() {
                   up on Google when people search for your services.
                 </p>
                 <p>
-                  We’re an{' '}
-                  <Link href="/maryland-seo-company" passHref>
-                    <a>SEO Company in Maryland</a>
-                  </Link>{' '}
-                  and we help businesses in Laurel build their own lead-gen
-                  websites.
+                  We’re an <strong>SEO Company in Laurel</strong> and we help
+                  businesses in Laurel build their own lead-generating websites.
                 </p>
                 <p>
                   How would you like to have your own lead-generating website?
@@ -435,11 +432,11 @@ export default function LocalSEO() {
                   <h3>Keyword Research</h3>
                   <p>
                     We conduct focused{' '}
-                    <Link href="/keyword-research">keyword research</Link>{' '}to
-                    find profitable, relevant search terms that attract potential
-                    customers and boost sales. Our comprehensive approach builds
-                    a database of effective search terms for creating optimized
-                    SEO content.
+                    <Link href="/keyword-research">keyword research</Link> to
+                    find profitable, relevant search terms that attract
+                    potential customers and boost sales. Our comprehensive
+                    approach builds a database of effective search terms for
+                    creating optimized SEO content.
                   </p>
                 </div>
               </Deliverable>
@@ -453,10 +450,13 @@ export default function LocalSEO() {
                 <div>
                   <h3>Google My Business Management</h3>
                   <p>
-                    A well-managed GMB page establishes your brand's authority,
-                    builds trust, and gives you a competitive advantage. We
-                    optimize your GMB page to appear at the top of map pack and
-                    local search results.
+                    A{' '}
+                    <Link href="/gmb-management-service">
+                      well-managed GMB page
+                    </Link>{' '}
+                    establishes your brand's authority, builds trust, and gives
+                    you a competitive advantage. We optimize your GMB page to
+                    appear at the top of map pack and local search results.
                   </p>
                 </div>
               </Deliverable>
@@ -486,10 +486,10 @@ export default function LocalSEO() {
                 <div>
                   <h3>SEO Audit</h3>
                   <p>
-                    Our audit identifies issues hindering your website's
-                    success. We analyze on-page optimization, link building, and
-                    keyword research, then provide a detailed report with
-                    optimization recommendations.
+                    Our <Link href="/free-seo-audit">SEO audit</Link> identifies
+                    issues stopping your website's success. We analyze on-page
+                    optimization, link building, and keyword research, then
+                    provide a detailed report with optimization recommendations.
                   </p>
                 </div>
               </Deliverable>
@@ -535,8 +535,9 @@ export default function LocalSEO() {
                 <div>
                   <h3>Content / Service Page Creation / Optimization</h3>
                   <p>
-                    We create high-quality, optimized content for your website
-                    using data from our SEO audit, keyword research, and
+                    We create high-quality,{' '}
+                    <Link href="content-for-seo">SEO content</Link> for your
+                    website using data from our SEO audit, keyword research, and
                     competitor analysis, driving sales and revenue.
                   </p>
                 </div>

@@ -83,8 +83,7 @@ export default function Articles({ post }) {
               loading="lazy"
             />
             <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
-
-            <RichText content={post.content.json} />
+            <RichText content={post.content.raw} />
             <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
             <Bio
               authorImg={post.author.photo.url}

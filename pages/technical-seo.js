@@ -33,7 +33,7 @@ export default function keywordResearch() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Let Us Do Your Keyword Research and Show Up When It Counts"
+          heroText="Technical SEO is Crucial for SEO: Skip this Element ans You're Done"
           subText="Find the Search Terms and Queries Customers Use to Find Your Services and Show Up in the SERPS."
           backgroundImage="/images/keyword-research-cover.webp"
           backgroundHeight="70vh"
@@ -54,38 +54,47 @@ export default function keywordResearch() {
                 loading="lazy"
               />
               <div>
-                <h2>What is Keyword Research?</h2>
+                <h2>What is Technical SEO?</h2>
                 <p>
-                  Keyword research is the process of finding and analyzing the
-                  search terms that people use to search for information online.
+                  Technical SEO lays the groundwork to ensure that your website
+                  can be crawled and indexed by search engines without any
+                  hiccups.
                 </p>
                 <p>
-                  It is an essential part of{' '}
-                  <Link href="/search-engine-optimization">
-                    search engine optimization
-                  </Link>{' '}
-                  (SEO).
+                  It's the behind-the-scenes elements that makes sure Google's
+                  bots can access your web pages and website, and understand
+                  what your pages are about.
+                </p>
+                <p>Key Components Include:</p>
+                <p>
+                  <strong>Crawlability:</strong> Search engine must be able to
+                  crawl and index your website. If they can't, you will not
+                  appear in any search results.
                 </p>
                 <p>
-                  It helps you to identify the terms that your target audience
-                  is using to find your services.
+                  <strong>Site Speed:</strong> Slow load times are a conversion
+                  killer. The faster your site, the happier the user—and Google.
                 </p>
                 <p>
-                  Finding and knowing your most valuable keywords also helps you
-                  to create relevant{' '}
-                  <Link href="/content-for-seo">SEO content</Link> for your
-                  potential customers.
+                  <strong>HTTPS:</strong> Secure sites rank better and give your
+                  users peace of mind. That 's' in 'https' matters more than you
+                  think.
                 </p>
                 <p>
-                  Imagine you're a detective, and your job is to figure out
-                  exactly what phrases or words people are typing into Google
-                  when they're looking for whatever it is you're offering.
+                  <strong>Internal Linking:</strong> These are the road signs
+                  that guide Google through your website, affecting how search
+                  engines read, understand, and rank your content.
                 </p>
                 <p>
-                  Once you've got that information, you can start tailoring your
-                  website and content to meet those specific needs.
+                  <strong>404 Errors and Redirects:</strong> Dead-end pages and
+                  poor redirects can hurt your SEO. The goal is to keep the user
+                  journey as smooth as possible.
                 </p>
-                <p>That is what keyword research is.</p>
+                <p>
+                  <strong>Website Structure:</strong> Dead-end pages and poor
+                  redirects can hurt your SEO. The goal is to keep the user
+                  journey as smooth as possible.
+                </p>
               </div>
             </div>
             <div className="btn">
@@ -102,8 +111,7 @@ export default function keywordResearch() {
         <section>
           <div className="medium-container">
             <h2 className="title">
-              What Happens to your business when you don't do keyword research
-              on your website?
+              What Happens to your website you don't perform Technical SEO?
             </h2>
             <p className="subtext">
               A business not doing keyword research is like a ship sailing
@@ -120,15 +128,13 @@ export default function keywordResearch() {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Missing Out on Relevant Traffic</h3>
+                  <h3>Slow Website: The Snail's Pace Nightmare</h3>
                   <p>
-                    Imagine setting up a hotdog stand in the middle of a
-                    vegetarian festival. Bad idea, right? Similarly, if you
-                    haven't done keyword research, you won't know where your
-                    audience is or what they're looking for. You might get
-                    traffic, but it’s likely to be the wrong kind of
-                    traffic—visitors who bounce quicker than a basketball during
-                    the playoffs.
+                    A sluggish website isn't just frustrating for your visitors;
+                    it's a deal-breaker. Every extra second your site takes to
+                    load, you're hemorrhaging conversions and skyrocketing your
+                    bounce rate. Translation? Bye-bye, sales and hello, lost
+                    revenue.
                   </p>
                 </div>
               </Deliverable>
@@ -140,14 +146,12 @@ export default function keywordResearch() {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Wasted Resources</h3>
+                  <h3>"Page Not Found" Fiascos</h3>
                   <p>
-                    You could be pouring time, effort, and money into content
-                    that nobody cares about. It's like cooking a lavish
-                    five-course meal only to realize nobody's coming to dinner.
-                    Without the guiding light of keyword research, you might
-                    focus on topics that are irrelevant or too competitive,
-                    effectively throwing your marketing budget down the drain.
+                    Neglected 404 errors can make your site a virtual labyrinth
+                    with dead-ends, leaving visitors frustrated and search
+                    engines clueless about ranking your pages. Result? Lower
+                    rankings and a lousy user experience.
                   </p>
                 </div>
               </Deliverable>
@@ -159,13 +163,12 @@ export default function keywordResearch() {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Frustrating User Experience</h3>
+                  <h3>Trust Issues</h3>
                   <p>
-                    If you're not aligned with what people are searching for, you
-                    won't be able to provide the answers they need. Visitors
-                    landing on your site will be disappointed, and that’s a
-                    quick way to lose credibility. First impressions matter,
-                    especially online.
+                    If your website isn't secure (no HTTPS), then browsers like
+                    Chrome will flag it as 'Not Secure'. Imagine the red flags
+                    that'll raise in your visitor's mind. Reduced trust means
+                    fewer sales. Period.
                   </p>
                 </div>
               </Deliverable>
@@ -177,13 +180,12 @@ export default function keywordResearch() {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Losing Ground to Competitors</h3>
+                  <h3>Lower Rankings in Google</h3>
                   <p>
-                    While you're sailing aimlessly, your competitors are
-                    capturing your target audience because they’ve done their
-                    homework. They know what keywords to rank for, what
-                    questions to answer, and how to meet user intent. You'll be
-                    playing catch-up while they're crossing the finish line.
+                    Neglecting mobile optimization? Well, Google's not going to
+                    give you the time of day when it comes to ranking you in its
+                    mobile-first index. You'll be voluntarily relinquishing an
+                    enormous chunk of mobile users that could be yours.
                   </p>
                 </div>
               </Deliverable>
@@ -195,13 +197,12 @@ export default function keywordResearch() {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Low Conversions</h3>
+                  <h3>A Tangled Web</h3>
                   <p>
-                    Even if people do find your website, they're less likely to
-                    take the actions you want them to—like making a purchase,
-                    signing up for a newsletter, or whatever your goals are.
-                    Why? Because you haven't tailored your content to meet their
-                    needs or answer their questions.
+                    Poorly managed internal linking and site structure is like
+                    inviting Google's crawlers into a maze without a map. The
+                    harder it is for search engines to crawl your site, the
+                    lower you’ll rank.
                   </p>
                 </div>
               </Deliverable>
@@ -213,12 +214,13 @@ export default function keywordResearch() {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Losing Valuable Insights</h3>
+                  <h3>Mixed Messages</h3>
                   <p>
-                    Keywords offer more than just SEO benefits; they offer
-                    insights into market trends, customer behavior, and emerging
-                    opportunities. Without this information, you're essentially
-                    turning a blind eye to valuable business intelligence.
+                    Without structured data, you're missing out on the chance to
+                    control how your brand appears in search results. The
+                    absence of this critical info will make your listing less
+                    appealing, leading to lower click-through rates and,
+                    subsequently, lower rankings.
                   </p>
                 </div>
               </Deliverable>
@@ -234,7 +236,7 @@ export default function keywordResearch() {
             </p>
           </div>
         </section>
-        <section>
+        {/* <section>
           <div className="small-container">
             <h2 className="title">
               What are the Benefits of Doing Keyword Research for Your Business?
@@ -614,7 +616,7 @@ export default function keywordResearch() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <div className="call-to-action-grid">
           <img
             src="/images/seo-services-columbia-md.webp"
@@ -625,14 +627,8 @@ export default function keywordResearch() {
             loading="lazy"
           />
           <div className="container">
-            <h2>
-              Ready to Get Do Some Keyword Research and Attract More Customers
-              to Your Website?
-            </h2>
-            <p>
-              Call us and we'll find the best and most profitable keywords for
-              your business.
-            </p>
+            <h2>Ready to Get Technical SEO to Your Website?</h2>
+            <p>Call us and we'll your website is optimized for the web.</p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
                 <Button>Book Your Free SEO Call!</Button>

@@ -21,11 +21,11 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function RockvilleSEO() {
   const SEO = {
-    title: `Rockville's Leading SEO Company | Rise Above the Competition!`,
+    title: `Rockville's SEO Company | Rise Above the Competition!`,
     description: `Leverage the expertise of Rockville's leading SEO company to elevate your digital footprint. Let's take your business to new heights! Book a call today!`,
     canonical: 'https://bowieseo.com/rockville-seo-company',
     openGraph: {
-      title: `Rockville's Leading SEO Company | Rise Above the Competition!`,
+      title: `Rockville's SEO Company | Rise Above the Competition!`,
       description: `Leverage the expertise of Rockville's leading SEO company to elevate your digital footprint. Let's take your business to new heights! Book a call today!`,
       image: [{}],
     },
@@ -214,8 +214,8 @@ export default function RockvilleSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              Elevate Your Business with Rockville SEO: Unlocking These 8
-              Advantages
+              Elevate Your Business with the Top SEO Company in Rockville:
+              Unlocking These 8 Advantages
             </h2>
             <p className="subtext">
               Want to conquer your local market? Local SEO for businesses in
@@ -374,11 +374,12 @@ export default function RockvilleSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              Our Rockville SEO Services Can Help Your Businesses Grow
+              Search Engine Optimization in Rockville That Can Help Take Your
+              Businesses to New Heights
             </h2>
             <p className="subtext">
-              We provide local search engine optimization to businesses in
-              Rockville
+              Local SEO in Rockville can be the ultimate game changer for your
+              business.
             </p>
             <Service>
               <div className="service-card">
@@ -391,11 +392,10 @@ export default function RockvilleSEO() {
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Local SEO for Rockville</h3>
+                  <h3>SEO for Rockville Businesses</h3>
                   <p>
-                    Start doing local SEO. Ensure customers in Rockville can
-                    find your business on Google when they search, and not your
-                    competitors.
+                    Ensure customers in Rockville can find your business on
+                    Google when they search, and not your competitors.
                   </p>
                 </div>
               </div>
@@ -427,7 +427,7 @@ export default function RockvilleSEO() {
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Free Mini SEO Audit</h3>
+                  <h3>SEO Audit Services</h3>
                   <p>
                     See how you can improve your SEO rankings and performance
                     with a free mini SEO audit. Find out what's stopping you
@@ -578,9 +578,11 @@ export default function RockvilleSEO() {
         <section>
           <div className="container">
             <h2 className="title">
-              What You Get With Our Rockville SEO Services
+              What You Get When You Partner With Our Rockville SEO Company
             </h2>
-            <p className="subtext">When you work with us, you get:</p>
+            <p className="subtext">
+              When you work with <Link href="/">Bowie SEO</Link>, you get:
+            </p>
           </div>
           <div className="medium-container">
             <Deliverables>
@@ -665,7 +667,8 @@ export default function RockvilleSEO() {
                   <ul>
                     <li>
                       Detect and address areas where your website may be
-                      underperforming in search engine rankings.
+                      underperforming in search engine rankings with an{' '}
+                      <Link href="/free-seo-audit">SEO Audit</Link>.
                     </li>
                     <li>
                       Eliminate elements that may be slowing down your website,
@@ -716,7 +719,9 @@ export default function RockvilleSEO() {
                     </li>
                     <li>
                       Connect and engage with your local audience through
-                      region-specific content and targeted offers.
+                      region-specific{' '}
+                      <Link href="/content-for-seo">SEO content</Link> and
+                      targeted offers.
                     </li>
                   </ul>
                 </div>

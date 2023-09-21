@@ -183,7 +183,7 @@ export default function glenBurnieMD() {
                   <h3>Keyword Research</h3>
                   <p>
                     We perform in-depth{' '}
-                    <Link href="/kewword-research">keyword analysis</Link>. This
+                    <Link href="/keyword-research">keyword analysis</Link>. This
                     process gives us the most lucrative and relevant terms to
                     attract clients. We also build a keyword database so you can
                     continue developing SEO content.
