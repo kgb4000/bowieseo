@@ -73,7 +73,11 @@ const About = () => {
                   <a>Google My Business Management</a>
                 </Link>
               </li>
-              <li>Technical SEO</li>
+              <li>
+                <Link href="/technical-seo">
+                  <a>Technical SEO</a>
+                </Link>
+              </li>
               <li>Local SEO</li>
               <li>Competitive Analysis</li>
               <li>

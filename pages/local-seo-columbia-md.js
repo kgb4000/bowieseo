@@ -20,13 +20,11 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function LocalSEOColumbiaMD() {
   const SEO = {
-    title:
-      'Local SEO in Columbia MD | Get Free Web Traffic and Grow Your Business',
+    title: 'Local SEO in Columbia MD | Rank Higher | Check Us Out First',
     description: `Want more local customers? Our local SEO services in Columbia, MD can help increase your web traffic so more customers can find you. Book a call today.`,
     canonical: 'https://bowieseo.com/local-seo-columbia-md',
     openGraph: {
-      title:
-        'Local SEO in Columbia MD | Get Free Web Traffic and Grow Your Business',
+      title: 'Local SEO in Columbia MD | Rank Higher | Check Us Out First',
       description: `Want more local customers? Our local SEO services in Columbia, MD can help increase your web traffic so more customers can find you. Book a call today.`,
       image: [{}],
     },
@@ -36,7 +34,7 @@ export default function LocalSEOColumbiaMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Grow Your Business with a Local SEO Company in Columbia, MD"
+          heroText="Grow Your Business with a Local SEO Services in Columbia, MD"
           subText="Increase leads, sales, and growth with our local SEO solutions"
           backgroundImage="/images/local-seo-services-maryland-cover.jpg"
           backgroundHeight="70vh"
@@ -608,7 +606,7 @@ export default function LocalSEOColumbiaMD() {
                     We let you focus On Your Business, not on digital Marketing
                   </h3>
                   <p>
-                    Concentrate on running your business and not on doing
+                    Concentrate on running your business and not on doing{' '}
                     <Link href="/keyword-research">keyword research</Link>,
                     writing copy, and competitor analysis.
                   </p>

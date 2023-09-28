@@ -33,8 +33,8 @@ export default function keywordResearch() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Technical SEO is Crucial for SEO: Skip this Element ans You're Done"
-          subText="Find the Search Terms and Queries Customers Use to Find Your Services and Show Up in the SERPS."
+          heroText="Technical SEO is Crucial for SEO: Skip this Element and You're Done"
+          subText="Find and fix technical issues that are stopping you r site from showing up in the SERPS."
           backgroundImage="/images/keyword-research-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="center left"
@@ -49,12 +49,26 @@ export default function keywordResearch() {
                 className="page-img"
                 width="1000px"
                 height="600px"
-                alt="A business owner considering local SEO services."
-                title="A business owner considering local SEO services."
+                alt="A business owner asking what is techincal SEO."
+                title="A business owner asking what is techincal SEO."
                 loading="lazy"
               />
               <div>
                 <h2>What is Technical SEO?</h2>
+                <p>
+                  Technical SEO is the process of improving the technical
+                  aspects of your website to increase rankings and visibility in
+                  search engines.
+                </p>
+                <p>
+                  It is a crucial part of the{' '}
+                  <Link href="/search-engine-optimization">
+                    search engine optimization
+                  </Link>{' '}
+                  process along with
+                  <Link href="/keyword-research">keyword research</Link> and
+                  on-page SEO.
+                </p>
                 <p>
                   Technical SEO lays the groundwork to ensure that your website
                   can be crawled and indexed by search engines without any
@@ -65,7 +79,7 @@ export default function keywordResearch() {
                   bots can access your web pages and website, and understand
                   what your pages are about.
                 </p>
-                <p>Key Components Include:</p>
+                <p>Key elements that in technical SEO include:</p>
                 <p>
                   <strong>Crawlability:</strong> Search engine must be able to
                   crawl and index your website. If they can't, you will not
@@ -95,6 +109,7 @@ export default function keywordResearch() {
                   redirects can hurt your SEO. The goal is to keep the user
                   journey as smooth as possible.
                 </p>
+                <p>Core Web Vitals:</p>
               </div>
             </div>
             <div className="btn">
@@ -236,10 +251,10 @@ export default function keywordResearch() {
             </p>
           </div>
         </section>
-        {/* <section>
+        <section>
           <div className="small-container">
             <h2 className="title">
-              What are the Benefits of Doing Keyword Research for Your Business?
+              What are the benefits of doing technical SEO on your website?
             </h2>
             <p className="subtext">
               Why keyword research is like the Swiss Army knife of digital
@@ -250,17 +265,15 @@ export default function keywordResearch() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="One-on-one expert support."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
-                  <h3>It’s Like Reading Your Customer’s Mind</h3>
+                  <h3>Better Search Engine Rankings:</h3>
                   <p>
-                    When you know the keywords your audience is using, you're
-                    essentially getting a peek into their thoughts. What are
-                    they curious about? What problems are they trying to solve?
-                    This is invaluable stuff, and you can use it to tailor your
-                    content, products, or services to exactly what they need.
+                    Improved website crawlability and indexation can lead to
+                    higher search engine rankings, increasing the site's
+                    visibility and attracting more organic traffic.
                   </p>
                 </div>
               </Deliverable>
@@ -268,18 +281,16 @@ export default function keywordResearch() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get keyword research."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
-                  <h3>Skyrocket Your Traffic</h3>
+                  <h3>Boosted User Experience:</h3>
                   <p>
-                    When you align your website and content with the right
-                    keywords, you're essentially putting yourself in the line of
-                    sight of potential customers. The result? More organic
-                    traffic, which is not just high in quantity but also more
-                    relevant. This isn't just any traffic; this is traffic
-                    that's already interested in what you have to offer.
+                    A technically optimized, well-structured, and
+                    mobile-friendly website offers a seamless and enjoyable user
+                    experience, encouraging users to spend more time on the site
+                    and engage with the content.
                   </p>
                 </div>
               </Deliverable>
@@ -287,18 +298,15 @@ export default function keywordResearch() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get Google My Business Management."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
-                  <h3>Higher Conversion Rates</h3>
+                  <h3>Increased Site Security:</h3>
                   <p>
-                    Keyword research doesn't just help with traffic; it helps
-                    with the right kind of traffic. When you optimize for
-                    specific, targeted keywords, the visitors you attract are
-                    far more likely to convert. That's like having a store in
-                    the mall and knowing that most people walking in are already
-                    interested in buying what you’re selling.
+                    Implementing HTTPS and addressing security issues increase
+                    the safety of user data and build trust with visitors,
+                    impacting user interaction and conversion rates positively.
                   </p>
                 </div>
               </Deliverable>
@@ -306,16 +314,15 @@ export default function keywordResearch() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get Google Analytics and Google Search Console set up."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
-                  <h3>Stay Ahead of the Curve (and Your Competition)</h3>
+                  <h3>Optimized Conversion Rates:</h3>
                   <p>
-                    Keyword research tools often show the competition level for
-                    each keyword. If you find those hidden gems—high-traffic,
-                    low-competition keywords—you're setting yourself up to edge
-                    out competitors.
+                    An enhanced user experience and increased user trust can
+                    lead to higher conversion rates, promoting user actions such
+                    as purchases, sign-ups, and form submissions.
                   </p>
                 </div>
               </Deliverable>
@@ -323,18 +330,15 @@ export default function keywordResearch() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get a website audit."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
-                  <h3>Optimize Your Marketing Budget</h3>
+                  <h3>Elimination of Duplicate Content Issues:</h3>
                   <p>
-                    Who doesn’t love saving money, right? With keyword research,
-                    you can identify which keywords are most likely to give you
-                    the best bang for your buck. This is especially crucial for
-                    paid advertising campaigns like Google Ads. Why waste money
-                    on keywords that won’t convert when you can focus on those
-                    that will?
+                    Resolving duplicate content problems ensures search engines
+                    can identify the authoritative version, concentrating link
+                    equity and value.
                   </p>
                 </div>
               </Deliverable>
@@ -342,19 +346,15 @@ export default function keywordResearch() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get local SEO."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
-                  <h3>Content That Hits the Bullseye</h3>
+                  <h3>Improved Website Performance:</h3>
                   <p>
-                    Ever stared at a blank screen wondering what to blog about?
-                    Keyword research to the rescue! When you know what your
-                    audience is searching for, creating{' '}
-                    <Link href="content-for-seo">SEO content</Link> becomes a
-                    whole lot easier—and more effective. You're not just
-                    creating content; you're creating content that people
-                    actually want to read.
+                    Optimizing page load times and addressing Core Web Vitals
+                    result in a faster and more responsive website, reducing
+                    bounce rates and promoting user engagement.
                   </p>
                 </div>
               </Deliverable>
@@ -362,18 +362,48 @@ export default function keywordResearch() {
                 <img
                   src="/images/icons/check-mark.png"
                   className="check"
-                  alt="You get weekly updates."
+                  alt="Check mark."
                   loading="lazy"
                 />
                 <div>
-                  <h3>Long-Term Success</h3>
+                  <h3>Access to Rich Results and Advanced Features:</h3>
                   <p>
-                    SEO isn't a one-night stand; it’s a long-term relationship.
-                    When you invest in keyword research, you're laying down a
-                    strong foundation for ongoing SEO success. As you continue
-                    to monitor how these keywords perform, you can adapt and
-                    evolve, ensuring that you stay relevant and continue to
-                    drive traffic.
+                    Structured data implementation can yield rich results and
+                    additional SERP features, enhancing click-through rates and
+                    driving additional traffic.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Efficient Resource Utilization:</h3>
+                  <p>
+                    Properly optimized websites allow search engine bots to
+                    crawl and index content more efficiently, ensuring that
+                    important pages are indexed and that the crawl budget is
+                    used effectively.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Gaining a Competitive Advantage:</h3>
+                  <p>
+                    A technically sound website can gain an edge over
+                    competitors, particularly those who have neglected technical
+                    SEO, and secure a larger market share.
                   </p>
                 </div>
               </Deliverable>
@@ -394,9 +424,13 @@ export default function keywordResearch() {
           <div className="container">
             <h2 className="title">Why Work With Us?</h2>
             <p className="subtext">
-              Partner with <Link href="/">Bowie SEO</Link> and save time and
-              money, and acheive your sales and revenue goals.. We work only for
-              you, never your competition in your local area.
+              Partner with our{' '}
+              <Link href="/maryland-seo-company">
+                Maryland Local SEO Company
+              </Link>{' '}
+              and save time and money, and acheive your sales and revenue
+              goals.. We work only for you, never your competition in your local
+              area.
             </p>
             <Service>
               <div className="service-card">
@@ -469,166 +503,110 @@ export default function keywordResearch() {
           </div>
         </section>
         <section>
-          <div className="small-container">
+          <div className="medium-container">
             <h2 className="title">
-              Frequently Asked Questions about Keyword Research
+              Frequently Asked Questions about Technical SEO
             </h2>
-            <div>
+            <ReasonSec>
               <div className="question">
-                <h3>How many keywords should I use for SEO?</h3>
+                <h3>Why is technical SEO important?</h3>
                 <p>
-                  You should focus on{' '}
-                  <strong>one primary keyword for each page</strong>.
-                </p>
-                <p>
-                  The primary keyword is your star player, so it should appear
-                  in your title meta description, H1 tag, and sprinkled
-                  throughout your content.
-                </p>
-                <p>
-                  Use variants of your primary keyword to help provide context.
-                  Use variants naturally in your subheadings and body text.
-                </p>
-                <p>
-                  Remember, it's not about stuffing your content with keywords
-                  but seamlessly integrating them to enhance readability and
-                  relevance.
-                </p>
-                <p>
-                  Focus on quality and relevance over sheer quantity. Ready to
-                  rock those rankings?
+                  Technical SEO is crucial as it helps search engines crawl,
+                  interpret, and index a website effectively, which is
+                  fundamental for achieving higher search rankings, improving
+                  visibility, and attracting organic traffic. It also ensures a
+                  better user experience, fostering user trust and engagement.
                 </p>
               </div>
               <div className="question">
-                <h3>How long does keyword research take?</h3>
+                <h3> How does page speed impact technical SEO?</h3>
                 <p>
-                  The time it takes for keyword research can vary widely based
-                  on your project's scope, the tools you're using, and how deep
-                  you want to dive.
+                  Page speed is a critical factor in technical SEO as it affects
+                  user experience and search engine rankings. Slow-loading pages
+                  can lead to higher bounce rates and lower time spent on the
+                  site, and search engines may penalize slow sites by ranking
+                  them lower.
                 </p>
+              </div>
+              <div className="question">
+                <h3>How does mobile-friendliness affect SEO rankings?</h3>
                 <p>
-                  If you're running a small blog or website and you're just
-                  skimming the surface, you might knock it out in a few hours.
+                  Mobile-friendliness is a ranking factor for search engines. If
+                  a site is not optimized for mobile devices, it may rank lower
+                  in mobile search results, potentially leading to a loss of
+                  mobile traffic.
                 </p>
+              </div>
+              <div className="question">
+                <h3>What is the role of structured data in technical SEO?</h3>
                 <p>
-                  But for a business, it could take several days or even weeks,
-                  especially if you're doing competitor analysis, focusing on
-                  multiple sectors, or diving into consumer behavior and trends.
+                  Structured data helps search engines understand the content on
+                  a page more effectively. It can lead to rich results in search
+                  engine results pages (SERPs), enhancing visibility and
+                  click-through rates.
                 </p>
+              </div>
+              <div className="question">
+                <h3>Is HTTPS necessary for technical SEO?</h3>
                 <p>
-                  <strong>Keyword research isn't a one-and-done deal</strong>.
+                  Yes, HTTPS is essential for technical SEO. It encrypts data
+                  transferred between the user and the site, improving security.
+                  Search engines, like Google, consider HTTPS as a ranking
+                  factor, and browsers may warn users when visiting non-HTTPS
+                  sites.
                 </p>
+              </div>
+              <div className="question">
+                <h3>How does mobile-friendliness affect SEO rankings?</h3>
                 <p>
-                  It's more like a garden; you've got to keep tending it to see
-                  it flourish.
+                  Mobile-friendliness is a ranking factor for search engines. If
+                  a site is not optimized for mobile devices, it may rank lower
+                  in mobile search results, potentially leading to a loss of
+                  mobile traffic.
                 </p>
+              </div>
+              <div className="question">
+                <h3>How do crawl errors affect technical SEO?</h3>
                 <p>
-                  Trends change, consumer behaviors shift, and algorithms
-                  update, so it's good to revisit your keyword strategy every
-                  few months.
+                  Crawl errors can prevent search engines from accessing,
+                  reading, or indexing pages on your site, which can hinder your
+                  site's visibility in search results and negatively impact
+                  organic traffic.
                 </p>
               </div>
               <div className="question">
                 <h3>
-                  What are the three main factors that go into choosing a
-                  keyword?
+                  Can I do technical SEO myself, or should I hire a
+                  professional?
                 </h3>
                 <p>
-                  <h4>#1. Search Volume</h4>
-                </p>
-                <p>
-                  Think of search volume as the audience in a concert hall. The
-                  more people there are, the bigger the applause (or boos, but
-                  let's stay optimistic!). Search volume tells you how many
-                  times a specific keyword is being searched for within a given
-                  time frame, usually per month.
-                </p>
-                <p>
-                  <strong>Why It Matters:</strong>
-                </p>
-                <p>
-                  A keyword with a high search volume is like a crowded concert
-                  hall—it means there's a lot of interest. But beware, a higher
-                  audience often means more competition, so you'll need to weigh
-                  that factor in as well.
-                </p>
-                <p>
-                  <strong>How to Check:</strong>
-                </p>
-                <p>
-                  Tools like Google Keyword Planner, SEMrush, and Ahrefs can
-                  give you a ballpark figure for monthly search volume. These
-                  tools often also show trends, so you can see if a keyword is
-                  gaining or losing popularity over time.
-                </p>
-                <p>
-                  <h4>#2. Keyword Difficulty or Competition</h4>
-                </p>
-                <p>
-                  You have to size up the competition. Keyword difficulty is a
-                  metric that indicates how tough it will be to rank on the
-                  first page of search results for that keyword.
-                </p>
-                <p>
-                  <strong>Why It Matters:</strong>
-                </p>
-                <p>
-                  A keyword with high difficulty is like the VIP section at a
-                  club—tough to get into without some serious clout. However,
-                  low or medium-difficulty keywords can be more accessible and
-                  still offer good traffic potential.
-                </p>
-                <p>
-                  <strong>How to Check:</strong>
-                </p>
-                <p>
-                  SEO tools like Ahrefs and SEMrush usually have a "Keyword
-                  Difficulty" or "Competition" metric. The lower the score, the
-                  easier it should be to rank for, although there are no
-                  guarantees in the SEO world.
-                </p>
-                <p>
-                  <h4>#3. Relevance and Intent</h4>
-                </p>
-                <p>
-                  Is this keyword genuinely applicable to your business, and
-                  does it align with what your target audience is looking for?
-                </p>
-                <p>
-                  <strong>Why It Matters:</strong>
-                </p>
-                <p>
-                  Imagine showing up at a costume party dressed for a business
-                  meeting. Sure, you might grab attention, but not the right
-                  kind. Relevance ensures you're attracting visitors genuinely
-                  interested in what you have to offer.
-                </p>
-                <p>
-                  <strong>How to Check:</strong>
-                </p>
-                <p>
-                  This one's less about tools and more about common sense. Ask
-                  yourself: Does this keyword relate to my products or services?
-                  Does it align with my brand? If the keyword meets the "four
-                  Ws" (who, what, when, where) of your business, then you're
-                  golden.
+                  While some aspects of technical SEO can be managed with online
+                  resources and SEO tools, complex websites or specific
+                  technical issues may require the expertise of an SEO
+                  professional or consultant to optimize effectively.
                 </p>
               </div>
-            </div>
+            </ReasonSec>
           </div>
-        </section> */}
+        </section>
         <div className="call-to-action-grid">
           <img
             src="/images/seo-services-columbia-md.webp"
-            alt="Business man an calling our local SEO company."
-            title="Business man an calling our local SEO company."
+            alt="Business man an calling about getting technical SEO."
+            title="Business man an calling about getting technical SEO."
             width="1000px"
             height="65px"
             loading="lazy"
           />
           <div className="container">
-            <h2>Ready to Get Technical SEO to Your Website?</h2>
-            <p>Call us and we'll your website is optimized for the web.</p>
+            <h2>
+              Ready to Tackle Your Technical SEO and Increase your Search
+              Ranking and Performance?
+            </h2>
+            <p>
+              Call us and let's optimize your website and increase your SEO
+              performance.
+            </p>
             <div className="btn">
               <a href={calendly} target="_blank" rel="noreferrer">
                 <Button>Book Your Free SEO Call!</Button>
