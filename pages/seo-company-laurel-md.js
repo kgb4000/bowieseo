@@ -93,8 +93,8 @@ export default function LocalSEO() {
                 className="page-img-left"
                 width="1000px"
                 height="600px"
-                alt="A business owner considering using an SEO company in Laurel."
-                title="A business owner considering using an SEO company in Laurel."
+                alt="A business owner considering getting SEO services in Laurel."
+                title="A business owner considering getting SEO services in Laurel."
                 loading="lazy"
               />
             </div>
@@ -113,8 +113,8 @@ export default function LocalSEO() {
                 className="page-img"
                 width="1000px"
                 height="600px"
-                alt="A business owner considering working Bowie SEO to get his own leads without paying for online ads."
-                title="A happy business owner working with Bowie SEO to get his own leads without paying for online ads."
+                alt="A business owner considering working Bowie SEO."
+                title="A happy business owner working with Bowie SEO."
                 loading="lazy"
               />
               <div>
