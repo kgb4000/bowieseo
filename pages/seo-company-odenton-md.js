@@ -22,13 +22,13 @@ const SEOAgency = 'SEO professionals'
 export default function OdentonMD() {
   const SEO = {
     title:
-      'Local SEO Company Odenton, MD | Helping Increase Customers, Leads and Revenue',
+      'Local SEO Company in Odenton, MD | Helping Increase Customers, Leads and Revenue',
     description:
       'We provide SEO services in Odenton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
     canonical: 'https://bowieseo.com/seo-services-odenton-md',
     openGraph: {
       title:
-        'Local SEO Company Odenton, MD | Helping Increase Customers, Leads and Revenue',
+        'Local SEO Company in Odenton, MD | Helping Increase Customers, Leads and Revenue',
       description:
         'We provide SEO services in Odenton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
       image: [{}],
@@ -53,7 +53,7 @@ export default function OdentonMD() {
               <div>
                 <h2>
                   Stop Bleeding Cash: Transform Your Business with Game-Changing
-                  SEO Services in Odenton Today
+                  SEO Services in Odenton Today!
                 </h2>
                 <p>
                   You're running a successful business in Odenton, but you need

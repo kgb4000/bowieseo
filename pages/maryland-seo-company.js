@@ -38,7 +38,7 @@ const MarylandSEOCompany = () => {
         <HeroSection
           heroText="Outpace the Competition With the Right Maryland SEO Company"
           subText="Boost online visibility and increase ROI with Maryland local SEO"
-          backgroundImage="/images/maryland-seo-company.webp"
+          backgroundImage="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186700/maryland-seo-company_n3uwni.webp"
           backgroundHeight="60vh"
           backgroundPosition="center"
           buttonText="Get Your Free SEO Audit →"
@@ -48,7 +48,8 @@ const MarylandSEOCompany = () => {
           <div className="container">
             <div className="grid">
               <img
-                src="/images/maryland-seo-company-client.webp"
+                // src="https://res.cloudinary.com/dfx3xhveo/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1696186547/maryland-seo-company-client_s6mfjk.webp"
+                src="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186547/maryland-seo-company-client_s6mfjk.webp"
                 className="page-img"
                 width="1000"
                 height="600"
@@ -57,70 +58,69 @@ const MarylandSEOCompany = () => {
               />
               <div>
                 <h2>
-                  Local SEO in Maryland Can Be Tough, But Try Succeeding Without
-                  it...
+                  Dominate Your Local Market with Expert Maryland SEO Services!
                 </h2>
-                <p>Is your phone ringing off the hook?</p>
                 <p>
-                  Do you have customers requesting quotes for your services?
+                  Is your business being overshadowed by competitors in Google
+                  search results?
                 </p>
                 <p>
-                  If you're not getting phone calls or leads from your website,
-                  you lose thousands of dollars every month.
+                  Are potential customers struggling to find your services
+                  online?
+                </p>
+                <p>Enough is enough!</p>
+                <p>
+                  Reclaim your rightful customers and revenue by enhancing your
+                  online visibility with our expert local SEO strategies!
                 </p>
                 <p>
-                  You've tried other digital marketing methods like Facebook and
-                  Google ads, but they're not giving you consistent leads and
-                  the calls you want.
-                </p>
-                <p>Plus, those ads are getting expensive.</p>
-                <p>
-                  Customers who should be buying your services are buying
-                  services from your competitors.
-                </p>
-                <p>Why?</p>
-                <p>
-                  Because your business does not come up in Google when people
-                  search for your services.
-                </p>
-                <p>They see your competitors'.</p>
-                <p>They're giving money to your competitors instead of you.</p>
-                <p>
-                  And if you don't do something about it now, it will only get
-                  worse.
+                  <strong>🛑 Wasting Money on Ineffective Ads Ends Now!</strong>
                 </p>
                 <p>
-                  You'll continue to lose money every month and keep paying for
-                  those expensive PPC and social media ads that don't work.
+                  Have inconsistent leads from unreliable Facebook and Google
+                  ads created holes in your budget? We offer a more dependable
+                  solution—secure consistent, high-quality leads without the
+                  unpredictable costs with our tailored local SEO!
                 </p>
                 <p>
-                  How do you feel knowing that your customers are going to your
-                  competitors because they can't find your business online?
-                </p>
-                <p>Not too good, I'm sure.</p>
-                <p>But it's not your fault.</p>
-                <p>
-                  Like many other business owners, they just don't know how
-                  digital marketing works.
-                </p>
-                <p>That's where we come in and we can help.</p>
-                <p>
-                  We're a local SEO company in Maryland that can help you get
-                  more leads and customers with our customized Maryland{' '}
-                  <Link href="/search-engine-optimization">
-                    search engine optimization
-                  </Link>{' '}
-                  (SEO).
+                  We’re a leading Maryland SEO company, and we specialize in:
                 </p>
                 <p>
-                  With (Maryland) SEO, you can increase your leads, website
-                  traffic, sales and your revenue.
+                  <strong>🚀 Elevating Your Online Presence</strong>
                 </p>
-                <p>How does that sound?</p>
                 <p>
-                  If this sounds interesting, book a free call with us and see
-                  how we can help your business grow with search engine
-                  optimization.
+                  <strong>📈 Generating More Leads</strong>
+                </p>
+                <p>
+                  <strong>💰 Increasing Your Sales and Revenue</strong>
+                </p>
+                <p>Our approach isn’t generic.</p>
+                <p>
+                  We develop SEO strategies meticulously tailored to increase
+                  your visibility in the major search engines.
+                </p>
+                <p>
+                  <strong>Why Continue to Lose When You Can Dominate?</strong>
+                </p>
+                <p>
+                  Every moment you wait, your competitors are capturing your
+                  potential customers and your revenue.
+                </p>
+                <p>Seize Your FREE Consultation Now!</p>
+                <p>
+                  Schedule your non-obligatory, insightful discussion about how
+                  our proven SEO strategies can catapult your business ahead of
+                  the competition!
+                </p>
+                <p>Don’t Delay—Your Competitors Won’t!</p>
+                <p>
+                  Secure your spot and discover the transformative power of
+                  strategic SEO before your competitors seize the opportunity!
+                </p>
+                <p>
+                  Let’s embark on a journey to optimize your digital presence,
+                  fortify your lead generation, and bolster your revenue with a
+                  Maryland SEO company that delivers.
                 </p>
               </div>
             </div>
@@ -170,12 +170,11 @@ const MarylandSEOCompany = () => {
                 </p>
                 <p>
                   The right <b>(Maryland) search engine optimization</b>{' '}
-                  strategy from the right <Link href="/">SEO company</Link> can
-                  make this possible.
+                  strategy from the right SEO company can make this possible.
                 </p>
               </div>
               <img
-                src="/images/smiling-businessman.webp"
+                src="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186611/smiling-businessman_nman5o.webp"
                 className="page-img-left second-section"
                 width="1000"
                 height="600"
@@ -246,7 +245,8 @@ const MarylandSEOCompany = () => {
               first page of Google when you're searching?
             </p>
             <p>
-              That's the magic of <strong>Maryland SEO</strong> in action!
+              That's the magic of <strong>Maryland SEO services</strong> in
+              action!
             </p>
             <p>
               Think of SEO like your digital megaphone. It fine-tunes your
@@ -431,7 +431,8 @@ const MarylandSEOCompany = () => {
             <Service>
               <div className="service-card">
                 <img
-                  src="/images/maryland-seo-company.webp"
+                  src="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186058/maryland-seo-company_npvqed.webp"
+                  // src="/images/maryland-seo-company.webp"
                   alt="Search engine optimization"
                   width="1000"
                   height="665"
@@ -447,7 +448,7 @@ const MarylandSEOCompany = () => {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/google-my-business.webp"
+                  src="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186393/google-my-business_yjqcpr.webp"
                   alt="Google My Business Management"
                   width="1000"
                   height="665"
@@ -464,7 +465,7 @@ const MarylandSEOCompany = () => {
               </div>
               <div className="service-card">
                 <img
-                  src="/images/seo-audit.webp"
+                  src="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186472/seo-audit_xasmpd.webp"
                   alt="Free Mini SEO Audit"
                   width="1000"
                   height="665"
@@ -493,9 +494,7 @@ const MarylandSEOCompany = () => {
               Partner With Our Maryland SEO Company And Get Results that Boost
               Sales and Revenues
             </h2>
-            <p className="subtext">
-              Our local SEO services for Maryland businesses include:
-            </p>
+            <p className="subtext">Our Maryland SEO services include:</p>
             <Deliverables>
               <Deliverable>
                 <img
@@ -507,13 +506,14 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>One-on-one Expert Support</h3>
                   <p>
-                    Receive valuable guidance and assistance from our team of
-                    SEO specialists, who are always ready to answer your
-                    questions and offer expert advice via email or phone call.
+                    Get valuable guidance and assistance from our team of
+                    Maryland SEO experts, who are always ready to answer your
+                    questions via email or phone call.
+                  </p>
+                  <p>
                     Our goal is to help you expand your business, improve your
-                    website's ranking, and enhance your online visibility with
-                    effective SEO solutions. Let us show you how we can make a
-                    difference for your business today.
+                    website's ranking, and increase your online visibility with
+                    effective SEO solutions.
                   </p>
                 </div>
               </Deliverable>
@@ -527,17 +527,14 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>Local Keyword Research</h3>
                   <p>
-                    Our team of SEO experts specializes in finding the most
-                    effective, profitable, and relevant local keywords that can
-                    help you attract and convert more customers.
+                    Our SEO consultants do extensive keyword research to find
+                    the most effective, profitable, and relevant local keywords.
                   </p>
                   <p>
-                    We create a comprehensive keyword database, which you can
-                    utilize to develop targeted content and reach your ideal
-                    audience. By leveraging our extensive keyword research, your
-                    website can achieve higher visibility and gain a competitive
-                    edge in your industry. Let us help you drive more sales and
-                    revenue through targeted keyword optimization today.
+                    We create a comprehensive keyword database, for you to use
+                    and develop targeted content to reach your ideal audience.
+                    With keyword research, your website can achieve higher
+                    visibility and gain a competitive edge in your industry.
                   </p>
                 </div>
               </Deliverable>
@@ -551,14 +548,16 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>GMB Management</h3>
                   <p>
-                    Our team will optimize your GMB page to help you achieve top
-                    rankings in the map pack and local search results. With a
-                    fully optimized GMB page, your business can gain greater
-                    visibility and attract more local customers. We can help you
-                    stand out from the competition and achieve greater success
-                    in your local market through effective GMB optimization. Let
-                    us show you how our targeted approach to local SEO can take
-                    your business to new heights.
+                    We optimize your GMB page to help you achieve top rankings
+                    in the map pack and local search results.
+                  </p>
+                  <p>
+                    With a fully optimized GMB page, your business can gain
+                    greater visibility and attract more local customers. We can
+                    help you stand out from the competition and achieve greater
+                    success in your local market through effective GMB
+                    optimization. Let us show you how our targeted approach to
+                    local SEO can take your business to new heights.
                   </p>
                 </div>
               </Deliverable>
@@ -572,19 +571,15 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>Google Analytics and Google Console Setup</h3>
                   <p>
-                    Unlock your website's full potential by leveraging the power
-                    of Google Analytics and Google Search Console. Our team can
-                    help you set up these essential tools to monitor your
-                    website's performance and activity, providing invaluable
-                    insights into how users are accessing and using your site.
-                    With this critical data, we can make targeted changes to
-                    improve the user experience and enhance your website's
-                    overall effectiveness. By utilizing the wealth of
-                    information provided by Google Analytics and Search Console,
-                    we can help you identify areas for improvement and take your
-                    website to the next level. Let us help you maximize your
-                    website's impact and achieve better results through expert
-                    data analysis and optimization today.
+                    Unlock your website's full potential with Google Analytics
+                    and Google Search Console.
+                  </p>
+                  <p>
+                    We set up these tools to monitor your website's performance
+                    and activity, providing invaluable insights into how users
+                    are accessing and using your site. With this critical data,
+                    we can make targeted changes to improve the user experience
+                    and enhance your website's overall effectiveness.
                   </p>
                 </div>
               </Deliverable>
@@ -600,16 +595,15 @@ const MarylandSEOCompany = () => {
                   <p>
                     Uncover the critical roadblocks that are hindering your
                     website's ability to rank and attract leads and customers
-                    with our comprehensive SEO audit. Our expert team can
-                    pinpoint the exact issues that need to be resolved for your
-                    SEO campaign to succeed, providing invaluable insights and
-                    solutions to help you achieve your goals. By identifying and
-                    addressing these critical elements, we can help you optimize
+                    with our comprehensive SEO audit.
+                  </p>
+                  <p>
+                    We pinpoint the exact issues that need to be resolved for
+                    your SEO campaign to succeed, providing invaluable insights
+                    and solutions to help you achieve your goals. We optimize
                     your website and achieve higher search engine rankings,
                     generating greater visibility and attracting more leads and
-                    customers to your business. Let us show you how our detailed
-                    SEO audit can help your business unlock its full potential
-                    and achieve long-term success.
+                    customers to your business.
                   </p>
                 </div>
               </Deliverable>
@@ -625,17 +619,14 @@ const MarylandSEOCompany = () => {
                   <p>
                     With targeted local SEO strategies for Mayland businesses,
                     we can help you get in front of local customers precisely
-                    when they need your services the most. Our expert team can
-                    optimize your website to attract local customers, ensuring
-                    that your business stands out from the competition. We can
-                    help you achieve higher search rankings with optimized
+                    when they need your services the most.
+                  </p>
+                  <p>
+                    We optimize your website to attract local customers,
+                    ensuring that your business stands out from the competition.
+                    We help you achieve higher search rankings with optimized
                     content, a fast-loading website, and a better user
-                    experience. By appearing on the first page of search results
-                    above your competitors, you can gain a significant advantage
-                    in the local market and attract more customers to your
-                    business. Let us show you how our comprehensive local SEO
-                    solutions can help your business reach its full potential
-                    and achieve long-term success.
+                    experience.
                   </p>
                 </div>
               </Deliverable>
@@ -649,18 +640,15 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>Weekly Updates</h3>
                   <p>
-                    Our commitment to transparency means that you'll never be
-                    left wondering about the progress of your SEO campaign. We
-                    provide weekly updates to keep you informed about our
-                    efforts, as well as any obstacles we may encounter. With our
-                    regular updates, you'll have a clear understanding of our
-                    strategy and the steps we are taking to help your business
-                    succeed. You can count on us to provide 100% transparency
-                    throughout the SEO process, and we are always available to
-                    answer any questions you may have. Let us show you how our
-                    open communication and collaborative approach can help you
-                    achieve your SEO goals and drive greater success for your
-                    business.
+                    We are committed to transparency. That means that you'll
+                    never be left wondering about the progress of your SEO
+                    campaign.
+                  </p>
+                  <p>
+                    We provide weekly updates to keep you informed about our
+                    efforts, as well as any obstacles we may encounter. You'll
+                    have a clear understanding of our strategy and the steps we
+                    are taking to help your business succeed.
                   </p>
                 </div>
               </Deliverable>
@@ -672,19 +660,19 @@ const MarylandSEOCompany = () => {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Content Creation and Optimization</h3>
+                  <h3>SEO Content Creation/Optimization</h3>
                   <p>
-                    Our team of skilled content writers can craft high-quality
-                    service pages and website content tailored to your business
-                    needs, saving you valuable time and effort. We utilize data
-                    from our comprehensive SEO audit, competitor analysis, and
+                    We craft high-quality service pages and website content
+                    tailored to your business needs, saving you valuable time
+                    and effort.
+                  </p>
+                  <p>
+                    We utilize data from our SEO audit, competitor analysis, and
                     keyword research to create effective content that can
                     generate maximum sales and revenue. By focusing on the most
                     relevant and effective messaging for your target audience,
                     we can help you attract and convert more leads through
-                    compelling, customized content. Let us help you elevate your
-                    website's impact and achieve better results through expert
-                    content creation today.
+                    compelling, customized content.
                   </p>
                 </div>
               </Deliverable>
@@ -698,16 +686,16 @@ const MarylandSEOCompany = () => {
                 <div>
                   <h3>Full 100% Transparency</h3>
                   <p>
-                    You'll never be left in the dark about our SEO efforts, as
-                    we are committed to keeping you informed at all times. We
-                    provide 100% transparency through weekly email updates, so
-                    you can track our progress and ensure that your SEO campaign
-                    is producing results. With our regular updates, you'll have
-                    the peace of mind that your website is receiving the
-                    attention it deserves, and any concerns or questions can be
-                    addressed promptly. Let us show you how we can enhance your
-                    online presence and drive more traffic to your website
-                    through effective SEO solutions.
+                    You'll never be left in the dark about our SEO efforts,
+                    because we are committed to keeping you informed at all
+                    times.
+                  </p>
+                  <p>
+                    We provide 100% transparency through weekly email updates
+                    and calls, so you can track our progress and ensure that
+                    your SEO campaign is producing results. With regular
+                    updates, you'll have the peace of mind that your website is
+                    receiving the attention it deserves.
                   </p>
                 </div>
               </Deliverable>
@@ -720,19 +708,16 @@ const MarylandSEOCompany = () => {
                 />
                 <div>
                   <h3>Tracking and Monitoring</h3>
+                  <p>We track and monitor your SEO progress. </p>
                   <p>
-                    We track and monitor your SEO progress, ensuring that your
-                    campaign is generating positive results, including increased
-                    website traffic, more customers, higher sales, and greater
-                    revenue. Our team utilizes advanced tools like Google
-                    Analytics, Google Search Console, Ahrefs, SEO Screaming
-                    Frog, and SEMRush to gather essential insights and ensure
-                    that your SEO strategy is optimized for success. With our
-                    extensive tracking and monitoring system, you can be
+                    Ensuring that your campaign is generating positive results,
+                    including increased website traffic, more customers, higher
+                    sales, and greater revenue.
+                  </p>
+                  <p>
+                    With our extensive tracking and monitoring, you can be
                     confident that your SEO campaign is on track and achieving
-                    the desired results. Let us help you maximize your online
-                    potential and grow your business through effective SEO
-                    strategies today.
+                    the desired results.
                   </p>
                 </div>
               </Deliverable>
@@ -748,18 +733,18 @@ const MarylandSEOCompany = () => {
           <div className="container">
             <div className="grid">
               <img
-                src="/images/home-service-business.webp"
+                src="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186789/home-service-business_s9j8j6.webp"
                 className="page-img"
                 alt="Maryland SEO company"
                 title="Home service businesses we work with."
                 loading="lazy"
               />
               <div>
-                <h2>Local Businesses We Work With in Maryland</h2>
+                <h2>Maryland SEO Services for Maryland Local Businesses</h2>
                 <p>
-                  Our Maryland SEO company works with home service businesses
-                  all over Maryland. Our goal is to help home service businesses
-                  like yours increase your online presence and profitability.
+                  We work with businesses all over Maryland. Our goal is to help
+                  local businesses like yours increase your online presence and
+                  profitability.
                 </p>
                 <p>We work with:</p>
                 <Businesses>
@@ -882,11 +867,11 @@ const MarylandSEOCompany = () => {
             <h2 className="title">Why Work With Our Maryland SEO Company?</h2>
             <p className="subtext">
               We know that there are many Maryland SEO companies you can work
-              with. However, working with our company has advantages.
+              with. However, working with our SEO company has advantages.
             </p>
             <div className="grid">
               <img
-                src="/images/maryland-seo-firm.webp"
+                src="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186856/maryland-seo-firm_l0pyer.webp"
                 className="page-img"
                 width="1000"
                 height="600"
@@ -1144,7 +1129,7 @@ const MarylandSEOCompany = () => {
         </section>
         <div className="call-to-action-grid">
           <img
-            src="/images/smiling-businessman-calling-maryland-seo-company.webp"
+            src="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186951/smiling-businessman-calling-maryland-seo-company_n76rnz.webp"
             className="call-to-action-grid-img"
             alt="Man calling our Maryland SEO company."
             width="1000"
@@ -1153,8 +1138,8 @@ const MarylandSEOCompany = () => {
           />
           <div className="container">
             <h2>
-              Ready to Work With a Top SEO Maryland SEO Company and Boost Your
-              Sales and Revenue?
+              Ready to Work With a Top Maryland SEO Company and Boost Your Sales
+              and Revenue?
             </h2>
             <p>
               Call us today and we'll show you how local search engine

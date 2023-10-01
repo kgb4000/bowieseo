@@ -463,10 +463,11 @@ export default function PotomacMDSEOCompany() {
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Laser-focused <Link href="/keyword-research">keyword research</Link> will uncover the
-                    most profitable and relevant terms to attract customers and
-                    create sales. We'll construct a database of these keywords
-                    for you to create SEO content.
+                    Laser-focused{' '}
+                    <Link href="/keyword-research">keyword research</Link> will
+                    uncover the most profitable and relevant terms to attract
+                    customers and create sales. We'll construct a database of
+                    these keywords for you to create SEO content.
                   </p>
                 </div>
               </Deliverable>
@@ -480,9 +481,12 @@ export default function PotomacMDSEOCompany() {
                 <div>
                   <h3>Google My Business Management</h3>
                   <p>
-                    Improve your local SEO ranking by managing your Google My
-                    Business page. Get a fully optimized GMB page to appear at
-                    the top of both the map pack and local search results.
+                    Improve your local SEO ranking with our{' '}
+                    <Link href="gmb-management-services">
+                      Google My Business management
+                    </Link>{' '}
+                    services . Get a fully optimized GMB page and appear at the
+                    top of both the map pack and local search results.
                   </p>
                 </div>
               </Deliverable>
@@ -514,9 +518,10 @@ export default function PotomacMDSEOCompany() {
                   <h3>SEO Audit</h3>
                   <p>
                     Find out what's holding your website back from ranking
-                    higher and getting the leads and customers you need. Our SEO
-                    audit will pinpoint the specific issues that must be fixed
-                    for your SEO campaign to achieve success.
+                    higher and getting the leads and customers you need. Our{' '}
+                    <Link href="free-seo-audit">SEO audit</Link> will pinpoint
+                    the specific issues that must be fixed for your SEO campaign
+                    to achieve success.
                   </p>
                 </div>
               </Deliverable>
@@ -565,10 +570,11 @@ export default function PotomacMDSEOCompany() {
                 <div>
                   <h3>Content / Service Page Creation / Optimization</h3>
                   <p>
-                    We write content and service pages for your website, so you
-                    don’t have to. We use data from our SEO audit, keyword
-                    research, and competitor analysis to write the best pages
-                    that bring the most sales and revenue.
+                    We write <Link href="content-for-seo">SEO content</Link> and
+                    service pages for your website, so you don’t have to. We use
+                    data from our SEO audit, keyword research, and competitor
+                    analysis to write the best pages that bring the most sales
+                    and revenue.
                   </p>
                 </div>
               </Deliverable>
