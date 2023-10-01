@@ -51,8 +51,8 @@ const MarylandSEOCompany = () => {
                 // src="https://res.cloudinary.com/dfx3xhveo/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1696186547/maryland-seo-company-client_s6mfjk.webp"
                 src="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186547/maryland-seo-company-client_s6mfjk.webp"
                 className="page-img"
-                width="1000"
-                height="600"
+                width="500"
+                height="300"
                 alt="A business owner considering working with our Maryland SEO company to get his own leads without paying for online ads."
                 title="A business owner considering working with our Maryland SEO company to get his own leads without paying for online ads."
               />
@@ -176,8 +176,8 @@ const MarylandSEOCompany = () => {
               <img
                 src="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186611/smiling-businessman_nman5o.webp"
                 className="page-img-left second-section"
-                width="1000"
-                height="600"
+                width="500"
+                height="300"
                 alt="Businessman happy he started using our Maryland SEO company for his SEO."
                 title="Businessman happy he started using our Maryland SEO company for his SEO."
                 loading="lazy"
@@ -277,6 +277,8 @@ const MarylandSEOCompany = () => {
                   alt="SEO Audit."
                   title="SEO Audit."
                   loading="lazy"
+                  width={54}
+                  height={54}
                 />
                 <div>
                   <h3>SEO Audit</h3>
@@ -301,6 +303,8 @@ const MarylandSEOCompany = () => {
                   alt="Technical SEO."
                   title="Technical SEO."
                   loading="lazy"
+                  width={54}
+                  height={54}
                 />
                 <div>
                   <h3>Technical SEO</h3>
@@ -345,6 +349,8 @@ const MarylandSEOCompany = () => {
                   alt="Local SEO"
                   title="Local SEO"
                   loading="lazy"
+                  width={54}
+                  height={54}
                 />
                 <div>
                   <h3>Local SEO</h3>
@@ -371,6 +377,8 @@ const MarylandSEOCompany = () => {
                   alt="Content writing and optimization."
                   title="Content writing and optimization."
                   loading="lazy"
+                  width={54}
+                  height={54}
                 />
                 <div>
                   <h3>SEO Content Creation and Optimization</h3>
@@ -396,6 +404,8 @@ const MarylandSEOCompany = () => {
                   alt="Track and monitor SEO performance."
                   title="Track and monitor SEO performance."
                   loading="lazy"
+                  width={54}
+                  height={54}
                 />
                 <div>
                   <h3>Tracking and Monitoring</h3>
@@ -738,6 +748,8 @@ const MarylandSEOCompany = () => {
                 alt="Maryland SEO company"
                 title="Home service businesses we work with."
                 loading="lazy"
+                width="500"
+                height="300"
               />
               <div>
                 <h2>Maryland SEO Services for Maryland Local Businesses</h2>
