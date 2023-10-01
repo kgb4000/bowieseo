@@ -885,11 +885,11 @@ const MarylandSEOCompany = () => {
               <img
                 src="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186856/maryland-seo-firm_l0pyer.webp"
                 className="page-img"
-                width="1000"
-                height="600"
                 alt="Our Maryland SEO firm is ready to help grow your business."
                 title="Our Maryland SEO firm is ready to help grow your business"
                 loading="lazy"
+                width="500"
+                height="300"
               />
               <div>
                 <div className="reasons">
