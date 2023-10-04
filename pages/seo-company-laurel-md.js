@@ -442,7 +442,7 @@ export default function LocalSEO() {
                   <h3>Google My Business Management</h3>
                   <p>
                     A{' '}
-                    <Link href="/gmb-management-service">
+                    <Link href="/gmb-management-services">
                       well-managed GMB page
                     </Link>{' '}
                     establishes your brand's authority, builds trust, and gives

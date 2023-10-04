@@ -55,18 +55,19 @@ const BaltimoreSEOCompany = () => {
             <div className="grid">
               <div>
                 <h2>
-                  Boost Your Business with Baltimore SEO Services - Don't Let Your
-                  Competitors Leave You in the Dust
+                  Boost Your Business with Baltimore SEO Services - Don't Let
+                  Your Competitors Leave You in the Dust
                 </h2>
                 <p>
                   Do you ever feel like your competitors are always one stride
                   ahead in the digital race?
                 </p>
                 <p>
-                  It's no magic - it's a powerful process called Baltimore{' '}
-                  <Link href="/search-engine-optimization">
-                    search engine optimization
-                  </Link>
+                  It's no magic - it's a powerful process called{' '}
+                  <strong>
+                    Baltimore Local{' '}
+                    <Link href="/search-engine-optimization">SEO</Link>
+                  </strong>
                   .
                 </p>
                 <p>
@@ -84,8 +85,8 @@ const BaltimoreSEOCompany = () => {
                   strategy.
                 </p>
                 <p>
-                  Your rivals have decoded the magic formula in Baltimore -{' '}
-                  <strong>Local SEO</strong>.
+                  Your rivals have decoded the magic formula and use{' '}
+                  <strong>Baltimore Local SEO</strong>.
                 </p>
                 <p>
                   They're harnessing its power to amplify their visibility,
@@ -914,12 +915,10 @@ const BaltimoreSEOCompany = () => {
         </section> */}
         <section>
           <div className="medium-container">
-            <h2 className="title">
-              Why Choose Us for Baltimore SEO Services?
-            </h2>
+            <h2 className="title">Why Choose Us for Baltimore SEO Services?</h2>
             <p className="subtext">
-              There are many SEO companies in Baltimore, but partnering with us for
-              your SEO services has many advantages that can make a huge
+              There are many SEO companies in Baltimore, but partnering with us
+              for your SEO services has many advantages that can make a huge
               difference.
             </p>
             <div className="grid">

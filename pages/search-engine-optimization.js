@@ -740,7 +740,7 @@ const Rockville = () => {
                   alt="Germantown, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-germantown-md">Germantown, MD</Link>
+                <p>Germantown, MD</p>
               </City>
               <City>
                 <img
@@ -771,9 +771,7 @@ const Rockville = () => {
                   title="Silver Spring, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-services-salisbury-md">
-                  Salisbury, MD
-                </Link>
+                <Link href="/seo-services-salisbury-md">Salisbury, MD</Link>
               </City>
               <City>
                 <img

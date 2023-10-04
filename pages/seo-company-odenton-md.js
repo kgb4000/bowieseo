@@ -25,7 +25,7 @@ export default function OdentonMD() {
       'Local SEO Company in Odenton, MD | Helping Increase Customers, Leads and Revenue',
     description:
       'We provide SEO services in Odenton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
-    canonical: 'https://bowieseo.com/seo-services-odenton-md',
+    canonical: 'https://bowieseo.com/seo-company-odenton-md',
     openGraph: {
       title:
         'Local SEO Company in Odenton, MD | Helping Increase Customers, Leads and Revenue',

@@ -24,15 +24,15 @@ const SEOAgency = 'Bowie SEO'
 export default function AnnaopisMDSEOCompany() {
   const SEO = {
     title:
-      'Search Engine Optimization Annapolis MD | Transform Clicks to Conversions',
+      'Search Engine Optimization Company in Annapolis MD | Transform Clicks to Conversions',
     description:
-      'Looking to dominate Google rankings? Our Annapolis, MD SEO agency offers personalized strategies to propel your business. Contact us now!"',
+      'Looking to dominate Google rankings? Our Annapolis, MD SEO company offers personalized strategies to propel your business. Contact us now!"',
     canonical: 'https://bowieseo.com/search-engine-optimization-annapolis-md',
     openGraph: {
       title:
-        'Search Engine Optimization Annapolis MD | Transform Clicks to Conversions',
+        'Search Engine Optimization Company in Annapolis MD | Transform Clicks to Conversions',
       description:
-        'Looking to dominate Google rankings? Our Annapolis, MD SEO agency offers personalized strategies to propel your business. Contact us now!"',
+        'Looking to dominate Google rankings? Our Annapolis, MD SEO company offers personalized strategies to propel your business. Contact us now!"',
       type: 'website',
     },
   }
@@ -41,7 +41,7 @@ export default function AnnaopisMDSEOCompany() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Boost Traffic and Sales with Search Engine Optimization in Annapolis MD"
+          heroText="Boost Traffic and Revenue with Search Engine Optimization in Annapolis MD"
           subText="Experience breakthrough growth in website traffic, leads, and sales with our Annapolis SEO services"
           backgroundImage="/images/annapolis-md-seo-company-cover.webp"
           backgroundHeight="70vh"
@@ -55,7 +55,7 @@ export default function AnnaopisMDSEOCompany() {
               <div>
                 <h2>
                   Don't Let Digital Marketing Drown Your Business—Get Results
-                  Today!
+                  Today With Annapolis SEO!
                 </h2>
                 <p>
                   Running a profitable business in Annapolis is tough
