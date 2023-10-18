@@ -273,11 +273,11 @@ const Rockville = () => {
             </p>
           </div>
         </section>
-        <section>
+        {/* <section>
           <div className="medium-container">
             <h2 className="title">
-              What Happens To Your Business When You Don't Invest In or Practice
-              Local SEO?
+              What Happens To Your Business When You Don't Invest In Search
+              Engine Optimization?
             </h2>
             <p className="subtext">
               Here are the downsides of not investing in local SEO.
@@ -402,7 +402,7 @@ const Rockville = () => {
         <section>
           <div className="medium-container">
             <h2 className="title">
-              How Your Business Can Benefit By Investing in Local Search Engine
+              How Your Business Can Benefit By Investing in Search Engine
               Optimization?
             </h2>
             <p className="subtext">
@@ -559,17 +559,15 @@ const Rockville = () => {
               <Link href="/free-seo-audit">Free SEO Audit &#8594;</Link>
             </p>
           </div>
-        </section>
+        </section> */}
         <section>
           <div className="medium-container">
             <h2 className="title">
-              Our Geographic Reach: Cities We Help Businesses with Search Engine
-              Optimization
+              Cities We Help Businesses with Search Engine Optimization
             </h2>
             <p className="center">
-              Our{' '}
-              <Link href="/maryland-seo-company">Maryland SEO services</Link>{' '}
-              extend to businesses in:
+              Our <Link href="/maryland-seo-company">Maryland SEO company</Link>{' '}
+              works with businesses in:
             </p>
             <Cities>
               <City>
@@ -871,6 +869,194 @@ const Rockville = () => {
             </p>
           </div>
         </section>
+        {/* <section>
+          <div className="container">
+            <h2 className="title">Why Work With Us</h2>
+            <p className="subtext">When you work with us, you get:</p>
+          </div>
+          <div className="medium-container">
+            <Deliverables>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Expert one-on-one support</h3>
+                  <p>
+                    Get free expert advice and support from Maryland Local SEO
+                    experts, available to answer all your questions via email or
+                    on a call. We’re here to help you grow your business, boost
+                    your ranking, and increase your online presence.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get keyword research."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Keyword Research</h3>
+                  <p>
+                    Laser-focused{' '}
+                    <Link href="/keyword-research">keyword research</Link> will
+                    uncover the most profitable and relevant terms to attract
+                    customers and create sales. We'll construct a database of
+                    these keywords for you to create SEO content.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google My Business Management."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Google My Business Management</h3>
+                  <p>
+                    Improve your local SEO ranking by managing your Google My
+                    Business page. Get a fully optimized GMB page to appear at
+                    the top of both the map pack and local search results.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get Google Analytics and Google Search Console set up."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Google Analytics and Google Console Setup</h3>
+                  <p>
+                    Set up Google Analytics and Google Console to track your
+                    website's performance and activity. These tools help you
+                    understand how your site is being used and accessed, so you
+                    can make changes to improve your user experience.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get a website audit."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>SEO Audit</h3>
+                  <p>
+                    Find out what's holding your website back from ranking
+                    higher and getting the leads and customers you need. Our{' '}
+                    <Link href="/free-seo-audit">SEO Audit</Link> will pinpoint
+                    the specific issues that must be fixed for your SEO campaign
+                    to achieve success.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get local SEO."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Local SEO</h3>
+                  <p>
+                    Local SEO gets your website in front of local customers when
+                    it counts. We optimize your website, so local customers find
+                    your business, not your competitors. Get optimized content,
+                    a fast website, a better user experience, and more so you
+                    rank on the first page above your competitors.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get weekly updates."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>We Give You Weekly Updates</h3>
+                  <p>
+                    We know that you’re busy and you might not have time to
+                    check in with us every day. That’s why we send out a weekly
+                    update email. This way, you can always be in the loop
+                    without having to put in any extra effort.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get content / service page creation and optimization."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Content / Service Page Creation / Optimization</h3>
+                  <p>
+                    We write content and service pages for your website, so you
+                    don’t have to. We use data from our SEO audit, keyword
+                    research, and competitor analysis to write the best pages
+                    that bring the most sales and revenue.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="You get to know everything we're doing- 100% transparency."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>You'll Know Everything We're Doing</h3>
+                  <p>
+                    We're 100% transparent. You’ll never have to wonder what
+                    we're doing or if we're working on your campaign. Our goal
+                    is to make sure that you're always in the loop, so you can
+                    feel confident that your campaign is in good hands.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="One-on-one expert support."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Tracking and Monitoring</h3>
+                  <p>
+                    We track and monitor your progress to ensure your campaign
+                    delivers positive results: more traffic to your website,
+                    more customers, more sales, and more revenue. We use tools
+                    like Google Analytics, Google Search Console, Ahrefs, and
+                    SEMRush.
+                  </p>
+                </div>
+              </Deliverable>
+            </Deliverables>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule Your Free Consultation Today!</Button>
+              </a>
+            </div>
+          </div>
+        </section> */}
         <section>
           <FAQPageJsonLd
             mainEntity={[

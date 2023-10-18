@@ -136,8 +136,7 @@ const MarylandSEOCompany = () => {
             <div className="grid">
               <div className="first-section">
                 <h2>
-                  Discover How (Maryland) SEO Services Can Help Your Business
-                  Explode
+                  Discover How Our SEO Company Can Help Your Business Explode
                 </h2>
                 <p>Imagine coming in to work on Monday.</p>
                 <p>Your phones are ringing off the hook.</p>
@@ -192,7 +191,7 @@ const MarylandSEOCompany = () => {
         </section>
         <section>
           <div className="medium-container">
-            <h2 className="title">What is (Maryland) Local SEO Anyway?</h2>
+            <h2 className="title">What is (Maryland) SEO Anyway?</h2>
             <img
               src="/images/google-search-console-stats.png"
               className="page-img-left inline"
@@ -203,9 +202,9 @@ const MarylandSEOCompany = () => {
               loading="lazy"
             />
             <p>
-              <strong>(Maryland) Local search engine optimization</strong> is a
-              digital marketing strategy that helps to increase your website's
-              visibility in search engines.
+              (Maryland) search engine optimization is a digital marketing
+              strategy that helps to increase your website's visibility in
+              search engines.
             </p>
             <p>
               When more people see your website listed in the search results,
@@ -235,7 +234,7 @@ const MarylandSEOCompany = () => {
           </div>
         </section>
         <section>
-          <div className="medium-container">
+          {/* <div className="medium-container">
             <h2 className="title">
               How Does (Maryland) Search Engine Optimization Work and How Does
               it Help Grow Your Business?
@@ -245,7 +244,8 @@ const MarylandSEOCompany = () => {
               first page of Google when you're searching?
             </p>
             <p>
-              That's the magic of <strong>Maryland SEO services</strong> in
+              That's the magic of{' '}
+              <Link href="/maryland-local-seo">Maryland local SEO</Link> in
               action!
             </p>
             <p>
@@ -267,7 +267,7 @@ const MarylandSEOCompany = () => {
               There are a bunch of pieces to the puzzle.
             </p>
             <p> Here's a sneak peek:</p>
-          </div>
+          </div> */}
           <div className="medium-container">
             <HowSEOWorks>
               <SEOElement>
@@ -431,7 +431,8 @@ const MarylandSEOCompany = () => {
         <section className="bg-color">
           <div className="container">
             <h2 className="title">
-              Our (Maryland) Local SEO Service Gets You to the top 5 in Google
+              Our Maryland SEO Company Gets You Ranked for Your Most Important
+              Keywords
             </h2>
             <p className="subtext">
               We study the search engines, and we know Maryland businesses. Our
@@ -535,10 +536,10 @@ const MarylandSEOCompany = () => {
                   loading="lazy"
                 />
                 <div>
-                  <h3>Local Keyword Research</h3>
+                  <h3>Keyword Research</h3>
                   <p>
                     Our SEO consultants do extensive keyword research to find
-                    the most effective, profitable, and relevant local keywords.
+                    the most effective, profitable, and relevant keywords.
                   </p>
                   <p>
                     We create a comprehensive keyword database, for you to use
@@ -625,11 +626,13 @@ const MarylandSEOCompany = () => {
                   loading="lazy"
                 />
                 <div>
-                  <h3>(Maryland) Local SEO</h3>
+                  <h3>Local SEO</h3>
                   <p>
-                    With targeted local SEO strategies for Mayland businesses,
-                    we can help you get in front of local customers precisely
-                    when they need your services the most.
+                    With targeted{' '}
+                    <Link href="/maryland-local-seo">local SEO strategies</Link>{' '}
+                    for Mayland businesses, we can help you get in front of
+                    local customers precisely when they need your services the
+                    most.
                   </p>
                   <p>
                     We optimize your website to attract local customers,

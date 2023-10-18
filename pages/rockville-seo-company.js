@@ -150,19 +150,18 @@ export default function RockvilleSEO() {
                 </p>
                 <p>
                   Welcome{' '}
-                  <Link href="/search-engine-optimization">
-                    search engine optimization
-                  </Link>{' '}
-                  (SEO).
+                  <Link href="/maryland-local-seo">Maryland Local SEO</Link> .
                 </p>
-                <p>With SEO, you're not just another face in the ad crowd.</p>
+                <p>
+                  With local SEO, you're not just another face in the ad crowd.
+                </p>
                 <p>
                   You're the answer to what your audience is already searching
                   for.
                 </p>
                 <p>
-                  Here's the game-changing impact <strong>SEO</strong> could
-                  have on your business:
+                  Here's the game-changing impact <strong>local SEO</strong>{' '}
+                  could have on your business:
                 </p>
                 <p>
                   <strong>🎯 Free Organic Traffic</strong> - interested,

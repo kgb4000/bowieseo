@@ -31,6 +31,11 @@ const Sibebar = ({ isOpen, toggle }) => {
               </SidebarLink>
             </SidebarItem>
             <SidebarItem>
+              <SidebarLink href="/maryland-local-seo" passHref>
+                <SidebarLinkA>Local SEO</SidebarLinkA>
+              </SidebarLink>
+            </SidebarItem>
+            <SidebarItem>
               <SidebarLink href="/gmb-management-services" passHref>
                 <SidebarLinkA>GMB Management</SidebarLinkA>
               </SidebarLink>

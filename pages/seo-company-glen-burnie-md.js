@@ -42,7 +42,7 @@ export default function glenBurnieMD() {
           buttonLink="/free-seo-audit"
         />
         <section>
-          <div className="medium-container">
+          <div className="container">
             <div className="grid">
               <div>
                 <h2>
@@ -50,8 +50,8 @@ export default function glenBurnieMD() {
                   Stuck Losing Money: Your Choice
                 </h2>
                 <p>
-                  Does your business in Glen Burnie feel like it's caught in a
-                  quicksand of ineffective marketing strategies?
+                  Does your business like it's caught in a quicksand of
+                  ineffective marketing strategies?
                 </p>
                 <p>
                   Is your quest for more customers and leads proving fruitless
@@ -85,8 +85,8 @@ export default function glenBurnieMD() {
                 <p>But there is a solution.</p>
                 <p>
                   A system called{' '}
-                  <Link href="/search-engine-optimization">
-                    search engine optimization
+                  <Link href="/maryland-local-seo">
+                    local search engine optimization
                   </Link>{' '}
                   that can magnetize the leads and customers you've been
                   desperately seeking.
@@ -94,19 +94,10 @@ export default function glenBurnieMD() {
                 <p>A system that you own and control.</p>
                 <p>That's where we come into the picture.</p>
                 <p>
-                  As a dedicated{' '}
-                  <Link href="/maryland-seo-company">
-                    SEO company in Maryland
-                  </Link>
-                  , our mission is to breathe life into businesses in Glen
-                  Burnie, just like yours.
-                </p>
-                <p>
                   We don't just improve your online presence; we build a
                   lead-generating powerhouse tailored to your unique business
                   needs.
                 </p>
-                <p>With us in your corner, you're protected.</p>
                 <p>
                   Say goodbye to squandered dollars on ineffective digital
                   marketing and costly leads that don't convert.
@@ -119,13 +110,6 @@ export default function glenBurnieMD() {
                 <p>
                   Looking to stop the financial hemorrhage and start the revenue
                   flow?
-                </p>
-                <p>
-                  <Link href="/contact">Connect with us</Link>.
-                </p>
-                <p>
-                  Your path to a prosperous business future starts with a simple
-                  call.
                 </p>
               </div>
               <img
