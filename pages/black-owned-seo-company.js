@@ -134,9 +134,181 @@ export default function blackOwnedSEOCompany() {
             </a>
           </div>
         </section>
+        <section className="reasons-section">
+          <div className="container">
+            <h2 className="text-4xl text-center max-w-4xl mx-auto">
+              Why Black Owned Businesses Must Invest in Search Engine
+              Optimization for 2024?
+            </h2>
+            {/* <img
+              src="images/baltimore-seo-company.jpg"
+              alt="Baltimore SEO services - Bowie SEO"
+              width="1200"
+              height="450"
+              loading="lazy"
+            /> */}
+          </div>
+
+          <div className="medium-container">
+            <Deliverables>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Illuminate Your Brand</h3>
+                  <p>
+                    <a
+                      href="https://ahrefs.com/blog/seo-statistics/"
+                      target="_blank"
+                      className="underline"
+                    >
+                      68%
+                    </a>{' '}
+                    of online experiences began with a search engine. SEO
+                    ensures Black-owned businesses remain competitive and
+                    visible in this vast digital landscape.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Stretch Every Dollar</h3>
+                  <p>
+                    Why shout into the void with costly ads? SEO can reduce
+                    customer acquisition costs compared to traditional
+                    advertising, allowing businesses to maximize their budgets.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Local Impact</h3>
+                  <p>
+                    <a
+                      href="https://www.socialmediatoday.com/news/12-local-seo-stats-every-business-owner-and-marketer-should-know-in-2019-i/549079/"
+                      target="_blank"
+                      className="underline"
+                    >
+                      46%
+                    </a>
+                    of all Google searches are seeking local information. Local
+                    SEO can position Black-owned businesses at the forefront in
+                    their communities.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Become the Platinum Standard</h3>
+                  <p>
+                    Rise to the top of search results, and watch as the world
+                    sees you not just as a choice, but the choice.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Break Down Barriers</h3>
+                  <p>
+                    Historically, Black-owned businesses have faced systemic
+                    barriers. SEO levels the digital playing fieled, with{' '}
+                    <a
+                      href="https://www.thinkwithgoogle.com/consumer-insights/consumer-trends/shopping-research-before-purchase-statistics/"
+                      target="_blank"
+                      className="underline"
+                    >
+                      53%
+                    </a>
+                    of users discovering new products or companies through a
+                    search.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Be the Answer</h3>
+                  <p>
+                    In a world buzzing with questions, SEO ensures you're the
+                    solution everyone's searching for.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Plant Seeds for Tomorrow</h3>
+                  <p>
+                    The beauty of SEO? It's the gift that keeps on giving.
+                    Today's efforts bloom into tomorrow's successes.
+                  </p>
+                </div>
+              </Deliverable>
+              <Deliverable>
+                <img
+                  src="/images/icons/check-mark.png"
+                  className="check"
+                  alt="Check mark."
+                  loading="lazy"
+                />
+                <div>
+                  <h3>Enrich the Digital Tapestry</h3>
+                  <p>
+                    Your unique voice, your rich heritage—it all deserves to be
+                    celebrated. SEO ensures your cultural legacy shines brightly
+                    in the vast digital expanse.
+                  </p>
+                </div>
+              </Deliverable>
+            </Deliverables>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Schedule Your Free Consultation Today!</Button>
+              </a>
+            </div>
+          </div>
+        </section>
         <section>
           <div className="medium-container">
-            <h2 className="title">
+            <h2 className="text-4xl text-center max-w-3xl mx-auto">
               What You Get Working With a Professional Black Owned SEO Agency
             </h2>
             <p className="subtext">
@@ -148,233 +320,203 @@ export default function blackOwnedSEOCompany() {
             <Deliverables>
               <Deliverable>
                 <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="Check mark."
+                  src="/images/icons/black-seo-expert.png"
+                  className="seo-icon"
+                  alt="SEO expert."
+                  title="Black SEO expert."
                   loading="lazy"
                 />
                 <div>
                   <h3>Expert one-on-one support</h3>
+                  <p>You're not just another client.</p>
                   <p>
-                    With our expert one-on-one support, you receive personalized
-                    attention rarely found in larger firms.
+                    We give you{' '}
+                    <span className="underline-offset-8">
+                      one-on-one expert support
+                    </span>
+                    .
                   </p>
                   <p>
-                    This service provides direct access to a dedicated SEO
-                    professional who understands your business in-depth.
+                    This means direct access to a seasoned SEO specialist who is
+                    committed to understanding every nuance of your brand, your
+                    goals, and the challenges you face.
                   </p>
                   <p>
-                    Your dedicated expert will know the nuances of your brand,
-                    your specific goals, and the challenges you're facing.
+                    With us, you benefit from swift strategy adjustments,
+                    immediate responses, and a partner who celebrates every
+                    victory with you.
                   </p>
+                  <p>What you get?</p>
                   <p>
-                    This personalized approach means your unique needs won't get
-                    lost in the shuffle and allows us to quickly pivot
-                    strategies if needed, respond promptly to your concerns, and
-                    celebrate your wins alongside you.
-                  </p>
-                  <p>The benefit?</p>
-                  <p>
-                    Your business enjoys a tailored, agile SEO service that is
-                    as invested in your success as you are.
+                    A tailored, agile SEO approach that's as invested in your
+                    success as you are.
                   </p>
                 </div>
               </Deliverable>
               <Deliverable>
                 <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="Check mark."
+                  src="/images/icons/keyword-research-1.png"
+                  className="seo-icon"
+                  alt="Keyword-research."
                   loading="lazy"
                 />
                 <div>
                   <h3>Keyword Research</h3>
                   <p>
-                    Our detailed{' '}
-                    <Link href="/keyword-research">keyword Research</Link>{' '}
-                    service ensures potential customers find your business when
-                    they need your products or services.
+                    Ensuring your business stands out in the digital crowd is
+                    our priority.
                   </p>
                   <p>
-                    We go beyond just finding popular keywords in your industry;
-                    we dive into understanding the specific terms, phrases, and
-                    questions your target audience uses when they turn to search
-                    engines.
+                    Instead of merely pinpointing popular industry{' '}
+                    <Link href="/keyword-research">keywords</Link>, we delve
+                    deep into the language and queries your target audience uses
+                    on search engines.
                   </p>
                   <p>
-                    This involves analyzing your competitors, identifying gaps
-                    in the market, and understanding the search intent behind
-                    each keyword.
+                    By analyzing competitors, spotting market gaps, and
+                    discerning search intent, we optimize your website with
+                    razor-sharp precision.
                   </p>
-                  <p>The result?</p>
+                  <p>The payoff?</p>
                   <p>
-                    Your website is optimized with highly relevant keywords that
-                    increase your visibility on search engines and attract
-                    high-quality traffic - new customers who are more likely to
-                    engage with your content, subscribe to your services, or
-                    purchase.
+                    Enhanced search engine visibility, high-quality traffic, and
+                    engaged visitors ready to connect, subscribe, or buy.
                   </p>
                 </div>
               </Deliverable>
               <Deliverable>
                 <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="Check mark."
+                  src="/images/icons/seo-audit.png"
+                  className="seo-icon"
+                  alt="SEO audit."
                   loading="lazy"
                 />
                 <div>
                   <h3>SEO Audit</h3>
                   <p>
-                    An <Link href="/free-seo-audit">SEO Audit</Link> is like a
-                    health check-up for your website.
+                    Our <Link href="/free-seo-audit">SEO Audit</Link> is your
+                    website's diagnostic.
                   </p>
                   <p>
-                    Our thorough SEO Audit service dives deep into your site's
-                    structure, content, and backlink profile, identifying areas
-                    of strength and uncovering any issues that could harm your
-                    visibility on search engines.
+                    We scrutinize its architecture, content, and backlinks,
+                    highlighting strengths and pitfalls.
                   </p>
                   <p>
-                    We don't just identify these issues - we also provide clear,
-                    actionable solutions to rectify them.
+                    Beyond identifying, we offer actionable fixes, from mending
+                    technical glitches to enhancing content.
                   </p>
+                  <p>The result?</p>
                   <p>
-                    This might involve resolving technical issues like broken
-                    links or slow page speed, addressing content gaps or quality
-                    issues, or improving the site's mobile-friendliness.
-                  </p>
-                  <p>What's the benefit?</p>
-                  <p>
-                    It gives you a clear roadmap to improve your site's SEO
-                    health, helping you build a robust, search-engine-friendly
-                    website that attracts more organic traffic, delivers a
-                    better user experience, and, ultimately, boosts your bottom
-                    line.
+                    A search-optimized site that attracts more visitors and
+                    boosts revenue.
                   </p>
                 </div>
               </Deliverable>
               <Deliverable>
                 <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="Check mark."
+                  src="/images/icons/local-seo.png"
+                  className="seo-icon"
+                  alt="Local SEO."
                   loading="lazy"
                 />
                 <div>
                   <h3>Local SEO</h3>
                   <p>
-                    Our <Link href="search-engine-optimization">Local SEO</Link>{' '}
-                    service is designed to put your business on the map
-                    literally.
+                    Our <Link href="/maryland-local-seo">Local SEO</Link>{' '}
+                    service isn't just about visibility—it's about local
+                    dominance.
                   </p>
                   <p>
-                    We focus on enhancing your visibility in localized search
-                    results, ensuring that your business is at the top of its
-                    list when potential customers in your area are looking for
-                    the products or services you offer.
+                    We elevate your presence in local search results, ensuring
+                    when nearby customers seek your offerings, you're their top
+                    pick.
                   </p>
                   <p>
-                    This involves optimizing your Google My Business profile,
-                    generating local reviews, and optimizing your website for
-                    local keywords.
+                    From refining your Google My Business profile and garnering
+                    local reviews to local keyword optimization, we've got you
+                    covered.
+                  </p>
+                  <p>The payoff?</p>
+                  <p>
+                    Increased local foot traffic, heightened brand awareness,
+                    and a sterling local reputation.
                   </p>
                   <p>
-                    But we don't stop there - we also ensure your business
-                    information is consistent across all online directories,
-                    which search engines view as a signal of credibility.
-                  </p>
-                  <p>The benefit?</p>
-                  <p>
-                    By positioning you front and center in local search results,
-                    we help drive foot traffic from customers in your community,
-                    build local brand recognition, and enhance your reputation
-                    as a local leader in your industry.
-                  </p>
-                  <p>
-                    This results in not just any traffic but the kind that
-                    converts - customers close by and ready to purchase.
+                    With us, you don't just get traffic—you get neighbors ready
+                    to buy.
                   </p>
                 </div>
               </Deliverable>
               <Deliverable>
                 <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="Check mark."
+                  src="/images/icons/usa-map.png"
+                  className="seo-icon"
+                  alt="USA map."
                   loading="lazy"
                 />
                 <div>
                   <h3>National SEO</h3>
                   <p>
-                    With our National SEO service, we extend your reach far
-                    beyond local borders, helping your business make a
-                    significant impact on a larger scale.
+                    Our National SEO service catapults your business beyond
+                    local confines, establishing a commanding presence on a
+                    grand stage.
                   </p>
                   <p>
-                    We use sophisticated strategies to improve your visibility
-                    in national search rankings, enabling your brand to compete
-                    with industry leaders, no matter their size.
+                    We employ advanced tactics to boost your national search
+                    rankings, positioning you shoulder-to-shoulder with industry
+                    giants.
                   </p>
                   <p>
-                    This includes comprehensive keyword research covering a
-                    broader audience, creating high-quality content that
-                    resonates with this audience, and building a solid backlink
-                    profile that shows search engines your site is a trusted
+                    Our approach encompasses expansive keyword research,
+                    compelling content tailored for a wider audience, and a
+                    robust backlink strategy that stamps your site as a credible
                     authority.
                   </p>
-                  <p>The benefit?</p>
+                  <p>The outcome?</p>
                   <p>
-                    Our National SEO service propels your brand into the
-                    national spotlight, dramatically expanding your customer
-                    base and establishing your business as a recognized leader
-                    in your industry across the country. This broad exposure can
-                    significantly increase online traffic, customer conversions,
-                    and revenue.
+                    Your brand shines in the national arena, amplifying your
+                    reach, bolstering conversions, and supercharging your
+                    revenue.
                   </p>
                   <p>
-                    This broad exposure can lead to significant growth in online
-                    traffic, customer conversions, and ultimately, your revenue.
+                    With us, you're not just visible—you're a national
+                    sensation.
                   </p>
                 </div>
               </Deliverable>
               <Deliverable>
                 <img
-                  src="/images/icons/check-mark.png"
-                  className="check"
-                  alt="Check mark."
+                  src="/images/icons/link-building-1.png"
+                  className="seo-icon"
+                  alt="Link building."
                   loading="lazy"
                 />
                 <div>
                   <h3>Link Building</h3>
                   <p>
-                    Our Link Building service is the backbone of your SEO
-                    strategy, lending credibility and authority to your website
-                    in the eyes of search engines.
+                    Link Building increases your website's trustworthiness for
+                    search engines.
                   </p>
                   <p>
-                    We focus on obtaining high-quality backlinks from reputable
-                    and relevant websites, signaling to search engines that your
-                    site is a valuable resource worth ranking higher.
+                    We zero in on securing top-tier backlinks from pertinent,
+                    esteemed sources, underscoring your site's worthiness for
+                    prime rankings.
                   </p>
                   <p>
-                    But we don't just chase any links; we pursue ones that make
-                    sense, aligning with your industry and audience. We achieve
-                    this through{' '}
-                    <Link href="content-for-seo">SEO content creation</Link>,
-                    guest blogging, and influencer outreach.
+                    Our approach is discerning: we target links that resonate
+                    with your niche and audience, leveraging{' '}
+                    <Link href="/content-for-seo">SEO content</Link>, guest
+                    posts, and influencer collaborations.
                   </p>
-                  <p>The benefit?</p>
+                  <p> The reward?</p>
                   <p>
-                    With our strategic link building, your website's authority
-                    and visibility on search engines significantly increase,
-                    leading to higher organic traffic.
+                    A marked surge in your site's search visibility and organic
+                    traffic.
                   </p>
                   <p>
-                    Additionally, these backlinks can bring direct referral
-                    traffic from other relevant websites, introducing your brand
-                    to new audiences and potential customers, thereby expanding
-                    your reach and impact.
+                    Plus, these curated backlinks usher in direct referrals,
+                    broadening your brand's horizon and drawing in fresh, eager
+                    customers.
                   </p>
                 </div>
               </Deliverable>
@@ -388,7 +530,7 @@ export default function blackOwnedSEOCompany() {
         </section>
         <section>
           <div className="medium-container">
-            <h2 className="title">
+            <h2 className="text-4xl text-center max-w-4xl mx-auto">
               With So Many SEO Companies, Why Work With My Black Owned SEO
               Agency?
             </h2>
@@ -467,7 +609,10 @@ export default function blackOwnedSEOCompany() {
         </section>
         <section>
           <div className="medium-container">
-            <h2 className="title">Frequently Asked Questions about SEO</h2>
+            <h2 className="text-4xl text-center max-w-3xl mx-auto">
+              Frequently Asked Questions about SEO and Our Black Owned SEO
+              Agency
+            </h2>
             <FAQPageJsonLd
               mainEntity={[
                 {

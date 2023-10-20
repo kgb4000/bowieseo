@@ -56,7 +56,7 @@ export const Deliverable = styled.div`
     margin-left: 1rem;
   }
 
-  img.check {
+  img.check, img.seo-icon {
     margin-top: -0.8rem;
     margin-right: 1.5rem;
     width: 54px;
