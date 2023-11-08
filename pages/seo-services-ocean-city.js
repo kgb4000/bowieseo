@@ -29,12 +29,12 @@ const SEOAgency = 'SEO services in Ocean City'
 
 export default function OceanCitySEO() {
   const SEO = {
-    title: 'SEO Services Ocean City | Increase Leads, Boost Revenue',
+    title: 'SEO Services Ocean City MD | Increase Leads, Boost Revenue',
     description:
       'We provide SEO services in Ocean City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
-    canonical: 'https://bowieseo.com/seo-services-ocean-city-md',
+    canonical: 'https://bowieseo.com/seo-services-ocean-city',
     openGraph: {
-      title: 'EO Services Ocean City | Increase Leads, Boost Revenue',
+      title: 'SEO Services Ocean City MD | Increase Leads, Boost Revenue',
       description:
         'We provide SEO services in Ocean City, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
       image: [
@@ -53,7 +53,7 @@ export default function OceanCitySEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="SEO Services Ocean City, MD [Increase Leads and Boost Revenue]"
+          heroText="Get SEO Services in Ocean City, MD [Increase Leads and Boost Revenue]"
           subText="We provide SEO solutions to help businesses in Ocean City get more customers and grow."
           backgroundImage="/images/seo-services-ocean-city-maryland-cover.webp"
           backgroundHeight="70vh"
