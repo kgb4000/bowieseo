@@ -24,16 +24,14 @@ const SEOAgency = 'Bowie SEO'
 
 export default function SEOServicesWaldorf() {
   const SEO = {
-    title:
-      'SEO Services Waldorf MD | Build Your Own Lead-Generation Website Today',
+    title: 'SEO Company in Waldorf MD | Click Here to Rank Higher Today!',
     description:
-      'Build your own lead-generating website with search engine optimization and stop paying for Facebook and Google ads. Call for your free consultation!',
+      'Results focused SEO company offering SEO services to businesses in Waldorf, MD, and the rest of Southern Maryland. Call for your free consultation!',
     canonical: 'https://bowieseo.com/seo-services-waldorf-md',
     openGraph: {
-      title:
-        'SEO Services Waldorf MD | Build Your Own Lead-Generation Website Today',
+      title: 'SEO Company in Waldorf MD | Click Here to Rank Higher Today!',
       description:
-        'Build your own lead-generating website with search engine optimization and stop paying for Facebook and Google ads. Call for your free consultation!',
+        'Results focused SEO company offering SEO services to businesses in Waldorf, MD, and the rest of Southern Maryland. Call for your free consultation!',
       type: 'website',
     },
   }
@@ -42,7 +40,7 @@ export default function SEOServicesWaldorf() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Dominate Your Market with Waldorf's SEO Services for Traffic and Sales"
+          heroText="Dominate Your Local Market with Waldorf's SEO Services for Web Traffic, Increased Sales and Revenue"
           subText="Experience breakthrough growth in website traffic, leads, and sales with our specialized SEO services"
           backgroundImage="/images/waldorf-seo-cover-img.webp"
           backgroundHeight="70vh"
@@ -167,8 +165,11 @@ export default function SEOServicesWaldorf() {
                   to offer.
                 </p>
                 <p>
-                  With <Link href="/search-engine-optimization">search engine optimization</Link>search engine
-                  optimization you will:
+                  With{' '}
+                  <Link href="/search-engine-optimization">
+                    search engine optimization
+                  </Link>{' '}
+                  you will:
                 </p>
                 <ul className="check-mark">
                   <li>
@@ -208,8 +209,8 @@ export default function SEOServicesWaldorf() {
               and Customers
             </h2>
             <p className="subtext">
-              We provide SEO to businesses in Waldorf and the rest of Southern
-              Maryland.
+              Serving businesses across Southern Maryland MD in Brandywine, St.
+              Charles, La Plata, Clinton, Accokeek, and White Plains.
             </p>
             <Service>
               <div className="service-card">
@@ -421,10 +422,11 @@ export default function SEOServicesWaldorf() {
                 <div>
                   <h3>Expert one-on-one support</h3>
                   <p>
-                    Get free expert advice and support from our team of SEO
-                    experts, available to answer all your questions via email or
-                    on a call. We’re here to help you grow your business, boost
-                    your ranking, and increase your online presence.
+                    Get free expert advice and support from our{' '}
+                    <Link href="/maryland-seo-company">SEO experts</Link>,
+                    available to answer all your questions via email or on a
+                    call. We’re here to help you grow your business, boost your
+                    ranking, and increase your online presence.
                   </p>
                 </div>
               </Deliverable>
@@ -542,10 +544,10 @@ export default function SEOServicesWaldorf() {
                 <div>
                   <h3>Content / Service Page Creation / Optimization</h3>
                   <p>
-                    We write content and service pages for your website, so you
-                    don’t have to. We use data from our SEO audit, keyword
-                    research, and competitor analysis to write the best pages
-                    that bring the most sales and revenue.
+                    We write <Link href="content-for-seo">SEO content</Link> for
+                    your website, so you don’t have to. We use data from our SEO
+                    audit, keyword research, and competitor analysis to write
+                    the best pages that bring the most sales and revenue.
                   </p>
                 </div>
               </Deliverable>

@@ -85,8 +85,8 @@ export default function glenBurnieMD() {
                 <p>But there is a solution.</p>
                 <p>
                   A system called{' '}
-                  <Link href="/maryland-local-seo">
-                    local search engine optimization
+                  <Link href="/search-engine-optimization">
+                    search engine optimization
                   </Link>{' '}
                   that can magnetize the leads and customers you've been
                   desperately seeking.
@@ -148,11 +148,12 @@ export default function glenBurnieMD() {
                 <div>
                   <h3>Expert one-on-one support</h3>
                   <p>
-                    Our team of SEO professionals is here to help you with free
-                    expert guidance and support. Reach us by phone or email to
-                    address any of your questions. We're here to support your
-                    growing company in any way we can use digital marketing and
-                    SEO.
+                    Our team of{' '}
+                    <Link href="maryland-seo-company">SEO professionals</Link>{' '}
+                    is here to help you with free expert guidance and support.
+                    Reach us by phone or email to address any of your questions.
+                    We're here to support your growing company in any way we can
+                    use digital marketing and SEO.
                   </p>
                 </div>
               </Deliverable>
@@ -184,10 +185,13 @@ export default function glenBurnieMD() {
                 <div>
                   <h3>Google My Business Management</h3>
                   <p>
-                    We offer Google My Business management to help improve your
-                    local SEO rankings. Get a GMB page that is completely
-                    optimized and ranks in the map pack and local search
-                    results.
+                    We offer{' '}
+                    <Link href="gmb-management-services">
+                      Google My Business management
+                    </Link>{' '}
+                    to help improve your local SEO rankings. Get a GMB page that
+                    is completely optimized and ranks in the map pack and local
+                    search results.
                   </p>
                 </div>
               </Deliverable>
@@ -348,7 +352,7 @@ export default function glenBurnieMD() {
                   loading="lazy"
                 />
                 <div className="service">
-                  <h3>Glen Burine SEO</h3>
+                  <h3>Glen Burnie SEO</h3>
                   <p>
                     Practice search engine optimization and make sure your
                     customers can find your business on Google instead of your

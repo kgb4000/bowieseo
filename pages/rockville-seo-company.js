@@ -73,7 +73,8 @@ export default function RockvilleSEO() {
                 </p>
                 <p>This is where we come in.</p>
                 <p>
-                  We're a leading <strong>Rockville SEO company</strong>.
+                  We're a leading{' '}
+                  <Link href="/maryland-seo-company">SEO company</Link>.
                 </p>
                 <p>
                   We're here to help Rockville businesses like yours ascend the
@@ -150,11 +151,12 @@ export default function RockvilleSEO() {
                 </p>
                 <p>
                   Welcome{' '}
-                  <Link href="/maryland-local-seo">Maryland Local SEO</Link> .
+                  <Link href="/search-engine-optimization">
+                    search engine optimization
+                  </Link>{' '}
+                  .
                 </p>
-                <p>
-                  With local SEO, you're not just another face in the ad crowd.
-                </p>
+                <p>With SEO, you're not just another face in the ad crowd.</p>
                 <p>
                   You're the answer to what your audience is already searching
                   for.

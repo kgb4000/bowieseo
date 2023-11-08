@@ -138,13 +138,13 @@ export default function LocalSEO() {
                 </p>
                 <p>
                   Enter, the magic of{' '}
-                  <Link href="/maryland-local-seo" passHref>
-                    local SEO
+                  <Link href="/search-engine-optimization" passHref>
+                    search engine optimization
                   </Link>
                   .
                 </p>
                 <p>
-                  With loacl SEO, you’re not just another face in the crowded ad
+                  With SEO, you’re not just another face in the crowded ad
                   space.
                 </p>
                 <p>It's like a magic trick you didn’t sign up for! 💸</p>
