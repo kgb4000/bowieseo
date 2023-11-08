@@ -134,13 +134,11 @@ export default function blackOwnedSEOCompany() {
             </a>
           </div>
         </section>
-        <section className="reasons-section">
+        {/* <section className="reasons-section">
           <div className="container">
             <h2 className="text-4xl text-center max-w-4xl mx-auto">
               How Our Black-owned SEO Company Can Help Black Business Owners
               Succeed?
-              {/* Why Black-owned Businesses Must Invest in Search Engine
-              Optimization for 2024? */}
             </h2>
           </div>
           <div className="medium-container">
@@ -270,7 +268,7 @@ export default function blackOwnedSEOCompany() {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
         <section>
           <div className="medium-container">
             <h2 className="text-4xl text-center max-w-3xl mx-auto">
