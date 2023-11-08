@@ -71,7 +71,7 @@ const MarylandSEOCompany = () => {
                 </p>
                 <p>Enough is enough!</p>
                 <p>
-                  Partner with our Maryland SEO compnay and take back your
+                  Partner with our Maryland SEO company and take back your
                   rightful customers by boosting your online visibility!
                 </p>
                 <p>
