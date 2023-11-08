@@ -795,7 +795,7 @@ const MarylandSEOCompany = () => {
                 height="300"
               />
               <div>
-                <h2>Some of the local businesses We do SEO for</h2>
+                <h2>Some of the local businesses we work with in Maryland</h2>
                 <p>
                   We work with businesses all over Maryland. Our goal is to help
                   local businesses like yours increase your online presence and
@@ -805,20 +805,20 @@ const MarylandSEOCompany = () => {
                 <Businesses>
                   <Business>
                     <img
-                      src="/images/icons/asphalt-paving-contractor.png"
+                      src="/images/icons/cleaning-companies.png"
                       className="business-icon"
-                      alt="Businesses our company works with - Asphalt paving companies."
-                      title="Businesses we work with - Asphalt paving companies."
+                      alt="Cleaning Companies."
+                      title="Cleaning Companies."
                       loading="lazy"
                     />
-                    <p>Asphalt Paving Companies</p>
+                    <p>Cleaning Companies</p>
                   </Business>
                   <Business>
                     <img
                       src="/images/icons/plumbing-contractors.png"
                       className="business-icon"
-                      alt="Businesses our company works with - Plumbing Contractors."
-                      title="Businesses our company works with - Plumbing Contractors."
+                      alt="Plumbing Contractors."
+                      title="Plumbing Contractors."
                       loading="lazy"
                     />
                     <p>Plumbing Contractors</p>
@@ -827,8 +827,8 @@ const MarylandSEOCompany = () => {
                     <img
                       src="/images/icons/hvac-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - HVAC Contractors."
-                      title="Businesses we work with - HVAC Contractors."
+                      alt="HVAC Contractors."
+                      title="HVAC Contractors."
                       loading="lazy"
                     />
                     <p>HVAC Contractors</p>
@@ -837,8 +837,8 @@ const MarylandSEOCompany = () => {
                     <img
                       src="/images/icons/roofing-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - Roofing Contractors."
-                      title="Businesses we work with - Roofing Contractors."
+                      alt="Roofing Contractors."
+                      title="Roofing Contractors."
                       loading="lazy"
                     />
                     <p>Roofing Contractors</p>
@@ -847,8 +847,8 @@ const MarylandSEOCompany = () => {
                     <img
                       src="/images/icons/landscaping-companies.png"
                       className="business-icon"
-                      alt="Businesses we work with - Landscaping Companies."
-                      title="Businesses we work with - Landscaping Companies."
+                      alt="Landscaping Companies."
+                      title="Landscaping Companies."
                       loading="lazy"
                     />
                     <p>Landscaping Companies</p>
@@ -857,8 +857,8 @@ const MarylandSEOCompany = () => {
                     <img
                       src="/images/icons/pest-control-companies.png"
                       className="business-icon"
-                      alt="Businesses we work with - Pest Control Companies."
-                      title="Businesses we work with - Pest Control Companies."
+                      alt="Pest Control Companies."
+                      title="Pest Control Companies."
                       loading="lazy"
                     />
                     <p>Pest Control Companies</p>
@@ -867,8 +867,8 @@ const MarylandSEOCompany = () => {
                     <img
                       src="/images/icons/electrical-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - Electrical Contractors."
-                      title="Businesses we work with - Electrical Contractors."
+                      alt="Electrical Contractors."
+                      title="Electrical Contractors."
                       loading="lazy"
                     />
                     <p>Electrical Contractors</p>
@@ -877,8 +877,8 @@ const MarylandSEOCompany = () => {
                     <img
                       src="/images/icons/swimming-pool-builders.png"
                       className="business-icon"
-                      alt="Businesses we work with - Swimming Pool Builders."
-                      title="Businesses we work with - Swimming Pool Builders."
+                      alt="Swimming Pool Builders."
+                      title="Swimming Pool Builders."
                       loading="lazy"
                     />
                     <p>Swimming Pool Builders</p>
@@ -887,8 +887,8 @@ const MarylandSEOCompany = () => {
                     <img
                       src="/images/icons/junk-removal-companies.png"
                       className="business-icon"
-                      alt="Asphalt paving companies - Businesses we work with."
-                      title="Businesses we work with - Asphalt paving companies."
+                      alt="Junk Removal Companies."
+                      title="Junk Removal Companies."
                       loading="lazy"
                     />
                     <p>Junk Removal Companies</p>
@@ -897,8 +897,8 @@ const MarylandSEOCompany = () => {
                     <img
                       src="/images/icons/general-contractors.png"
                       className="business-icon"
-                      alt="Businesses we work with - General Contractors."
-                      title="Businesses we work with - General Contractors."
+                      alt="General Contractors."
+                      title="General Contractors."
                       loading="lazy"
                     />
                     <p>General Contractors</p>
@@ -906,7 +906,7 @@ const MarylandSEOCompany = () => {
                 </Businesses>
                 <p>
                   Call us today and let’s see how we can help find opportunities
-                  to help boost your sales and revenue.
+                  to help boost your website traffic, sales and revenue.
                 </p>
               </div>
             </div>
@@ -978,13 +978,11 @@ const MarylandSEOCompany = () => {
             </div>
             <div className="text">
               <p className="subtext">
-                We work with small business owners who want to increase their
-                organic traffic, web presence, and revenue. We’re not driven by
-                superficial metrics like the amount of website traffic you get
-                or the number of keywords you rank for. As a professional
-                Maryland SEO company, we’re only driven by how many phone calls
-                you get, how much money you made, and if it was more than the
-                last quarter.
+                We’re not driven by superficial metrics like the amount of
+                website traffic you get or the number of keywords you rank for.
+                As a professional Maryland SEO company, we’re only driven by how
+                many phone calls you get, how much money you made, and if it was
+                more than the last quarter.
               </p>
             </div>
             <div className="btn">
