@@ -672,7 +672,7 @@ const Rockville = () => {
                   title="Ocean City, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-services-ocean-city-md" passHref>
+                <Link href="/seo-services-ocean-city" passHref>
                   <a>Ocean City, MD</a>
                 </Link>
               </City>
