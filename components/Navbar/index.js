@@ -106,13 +106,11 @@ const Navbar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
           </NavMenu>
-          <NavBtn>
-            <NavBtnLink>
-              <Link href="/free-seo-audit">
-                <BtnLinksA>Get Your Free SEO Audit &#8594;</BtnLinksA>
-              </Link>
-            </NavBtnLink>
-          </NavBtn>
+          <NavBtnLink>
+            <Link href="/free-seo-audit">
+              <BtnLinksA>Get Your Free SEO Audit &#8594;</BtnLinksA>
+            </Link>
+          </NavBtnLink>
         </NavbarContainer>
       </Nav>
     </>
