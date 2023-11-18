@@ -46,8 +46,8 @@ export default function blackOwnedSEOCompany() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="We're a Black-owned SEO Company Empowering Black Businesses to Get Attention on Google"
-          subText="Let us optimize your website so that you can get more leads and customers and grow your business"
+          heroText="We're a Black-Owned SEO Company Empowering Black Businesses to Get Attention on Google"
+          subText="Let's optimize your website so get more leads and customers, increase sales and grow your business"
           backgroundImage="/images/black-owned-seo-agency.webp"
           backgroundHeight="70vh"
           backgroundPosition="center"
@@ -137,7 +137,7 @@ export default function blackOwnedSEOCompany() {
         <section className="reasons-section">
           <div className="container">
             <h2 className="text-4xl text-center max-w-4xl mx-auto">
-              How Our SEO Company Can Help Black Business Owners Succeed?
+              Why Black Businesses Need SEO in 2024
             </h2>
           </div>
           <div className="medium-container">

@@ -24,12 +24,12 @@ const SEOAgency = 'Bowie SEO'
 
 export default function GaithersburgMDSEOCompany() {
   const SEO = {
-    title: 'SEO Company in Gaithersburg MD | Click Here To Rank Higher',
+    title: 'Local SEO Company in Gaithersburg MD | Click Here To Rank Higher',
     description:
       'Looking to dominate Google rankings? Our Gathersburg, MD SEO agency offers personalized strategies to propel your business. Contact us now!"',
     canonical: 'https://bowieseo.com/seo-company-gaithersburg-md',
     openGraph: {
-      title: 'SEO Company in Gaithersburg MD | Click Here To Rank Higher',
+      title: 'Local SEO Company in Gaithersburg MD | Click Here To Rank Higher',
       description:
         'Looking to dominate Google rankings? Our Gathersburg, MD SEO agency offers personalized strategies to propel your business. Contact us now!"',
       type: 'website',
@@ -40,8 +40,8 @@ export default function GaithersburgMDSEOCompany() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Boost Traffic, Leads, and Sales: Partner with the Right SEO Company in Gaithersburg, MD"
-          subText="Experience breakthrough growth in website traffic, leads, and sales with our Gaithersburg SEO services"
+          heroText="Partner with the Right Local SEO Company in Gaithersburg, MD"
+          subText="Experience breakthrough growth in website traffic, leads, and sales"
           backgroundImage="/images/annapolis-md-seo-company-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="top"
@@ -356,10 +356,9 @@ export default function GaithersburgMDSEOCompany() {
               businesses in Gaithersburg,{' '}
               <Link href="/rockville-seo-company">Rockville</Link>, Germantown,{' '}
               <Link href="/seo-company-bethesda-md">Bethesda</Link> and other
-              cities like{' '}
-              <Link href="/potomac-md-seo-company">Potomac</Link>. Our goal is
-              to get you get high-quality leads that convert into loyal
-              customers.
+              cities like <Link href="/potomac-md-seo-company">Potomac</Link>.
+              Our goal is to get you get high-quality leads that convert into
+              loyal customers.
             </p>
             <Service>
               <div className="service-card">

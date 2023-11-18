@@ -18,13 +18,13 @@ const SEOAgency = 'our Maryland SEO company'
 
 const MarylandSEOCompany = () => {
   const SEO = {
-    title: `Maryland SEO Company | Click Here First to Boost Your Company's Growth`,
+    title: `Maryland SEO Company | Boost Company Leads, Sales and Growth`,
     description:
       'Maryland SEO company helping businesses increase leads, sales and revenue without paying for expensive online ads. Contact us for a free consultation.',
     type: 'website',
     canonical: 'https://bowieseo.com/maryland-seo-company',
     openGraph: {
-      title: `Maryland SEO Company | Click Here First to Boost Your Company's Growth`,
+      title: `Maryland SEO Company | Boost Company Leads, Sales and Growth`,
       description:
         'Maryland SEO company helping businesses increase leads, sales and revenue without paying for expensive online ads. Contact us for a free consultation.',
       type: 'website',
