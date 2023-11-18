@@ -46,7 +46,7 @@ export default function blackOwnedSEOCompany() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="We're a Black-owned SEO Company Empowering Black Businesses to Get More Attention on Google"
+          heroText="We're a Black-owned SEO Company Empowering Black Businesses to Get Attention on Google"
           subText="Let us optimize your website so that you can get more leads and customers and grow your business"
           backgroundImage="/images/black-owned-seo-agency.webp"
           backgroundHeight="70vh"
