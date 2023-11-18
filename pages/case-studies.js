@@ -91,9 +91,7 @@ const CaseStudy = () => {
               <li>
                 Creating <Link href="content-for-seo">SEO content</Link>
               </li>
-              <li>
-                <Link href="/maryland-local-seo">Local SEO</Link>
-              </li>
+              <li>Local SEO</li>
               <li>
                 <Link href="/gmb-management-services">
                   Google My Business Management

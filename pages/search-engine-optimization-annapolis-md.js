@@ -23,16 +23,14 @@ const SEOAgency = 'Bowie SEO'
 
 export default function AnnaopisMDSEOCompany() {
   const SEO = {
-    title:
-      'Search Engine Optimization Company in Annapolis MD | Transform Clicks to Conversions',
+    title: 'SEO Company in Annapolis MD | Get More Eyes on Your Business',
     description:
-      'Looking to dominate Google rankings? Our Annapolis, MD SEO company offers personalized strategies to propel your business. Contact us now!"',
+      'Looking to dominate your market? Our SEO services in Annapolis offers customized strategies to propel your business to the next level. Call us today!',
     canonical: 'https://bowieseo.com/search-engine-optimization-annapolis-md',
     openGraph: {
-      title:
-        'Search Engine Optimization Company in Annapolis MD | Transform Clicks to Conversions',
+      title: 'SEO Company in Annapolis MD | Get More Eyes on Your Business',
       description:
-        'Looking to dominate Google rankings? Our Annapolis, MD SEO company offers personalized strategies to propel your business. Contact us now!"',
+        'Looking to dominate your market? Our SEO services in Annapolis offers customized strategies to propel your business to the next level. Call us today!',
       type: 'website',
     },
   }
@@ -41,8 +39,8 @@ export default function AnnaopisMDSEOCompany() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Boost Traffic and Revenue with Search Engine Optimization in Annapolis MD"
-          subText="Experience breakthrough growth in website traffic, leads, and sales with our Annapolis SEO services"
+          heroText="Boost Traffic and Revenue with SEO Services in Annapolis MD"
+          subText="Experience breakthrough growth in website traffic, leads, and sales"
           backgroundImage="/images/annapolis-md-seo-company-cover.webp"
           backgroundHeight="70vh"
           backgroundPosition="top"

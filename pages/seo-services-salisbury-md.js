@@ -443,7 +443,7 @@ export default function OceanCitySEO() {
             <ul>
               <li>
                 {' '}
-                <Link href="/seo-services-ocean-city-md" passHref>
+                <Link href="/seo-services-ocean-city" passHref>
                   <a>Ocean City</a>
                 </Link>
               </li>

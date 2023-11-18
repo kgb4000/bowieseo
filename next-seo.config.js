@@ -4,20 +4,20 @@ export default {
     locales: ['en'],
     defaultLocale: 'en',
   },
-  title: `SEO Services Company in Bowie, MD | Boost Web Traffic, Leads, and Growth`,
+  title: `SEO Company in Bowie, MD | Boost Web Traffic, Leads, and Growth`,
   type: 'website',
   locale: 'en_US',
   url: 'https://bowieseo.com',
   description:
-    'With local search engine optimization, we help businesses increase leads, sales, and revenue. Partner with us to grow your business! Book a call today!',
+    'Partner with our Bowie SEO company and increase your leads, sales and revenue organically with search engine optimization. Book a call today!',
   canonical: 'https://bowieseo.com',
   openGraph: {
     url: 'https://bowieseo.com',
-    title: `SEO Services Company in Bowie, MD | Boost Web Traffic, Leads, and Growth`,
+    title: `SEO Company in Bowie, MD | Boost Web Traffic, Leads, and Growth`,
     type: 'website',
     locale: 'en_US',
     description:
-      'With local search engine optimization, we help businesses increase leads, sales, and revenue. Partner with us to grow your business! Book a call today!',
+      'Partner with our Bowie SEO company and increase your leads, sales and revenue organically with search engine optimization. Book a call today!',
     images: [
       {
         url: 'https://bowieseo.com/public/images/logo.jpg',
@@ -34,7 +34,7 @@ export default {
     site: '@bowieseo',
     cardType: 'summary_large_image',
     description:
-      'With local search engine optimization, we help businesses increase leads, sales, and revenue. Partner with us to grow your business! Book a call today!',
+      'Partner with our Bowie SEO company and increase your leads, sales and revenue organically with search engine optimization. Book a call today!',
     images: [
       {
         url: 'https://bowieseo.com/public/images/logo.jpg',

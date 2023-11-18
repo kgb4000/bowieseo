@@ -320,12 +320,12 @@ export default function BethesdaMD() {
                   <h3>Local SEO</h3>
                   <p>
                     Show up when it counts.{' '}
-                    <Link href="/maryland-local-seo">Local SEO</Link> puts your
-                    website in front local customers looking for your services.
-                    With local SEO, local customers will be able find your
-                    company instead of one of your competitors. Get optimized
-                    content, a faster website, and give your customers a better
-                    user experience.
+                    <Link href="/maryland-seo-company">Local SEO</Link> puts
+                    your website in front local customers looking for your
+                    services. With local SEO, local customers will be able find
+                    your company instead of one of your competitors. Get
+                    optimized content, a faster website, and give your customers
+                    a better user experience.
                   </p>
                 </div>
               </Deliverable>

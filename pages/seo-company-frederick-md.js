@@ -24,13 +24,13 @@ const SEOAgency = 'Bowie SEO'
 export default function SEOCompanyFrederickMD() {
   const SEO = {
     title:
-      'SEO Company in Frederick MD | Build Your Own Lead-Generation Website Today',
+      'SEO Company in Frederick MD | Build Your Own Lead-Gen Website Today',
     description:
       'Build your own lead-generating website with search engine optimization and stop paying for Facebook and Google ads. Call for your free consultation!',
     canonical: 'https://bowieseo.com/seo-company-frederick-md',
     openGraph: {
       title:
-        'SEO Company in Frederick MD | Build Your Own Lead-Generation Website Today',
+        'SEO Company in Frederick MD | Build Your Own Lead-Gen Website Today',
       description:
         'Build your own lead-generating website with search engine optimization and stop paying for Facebook and Google ads. Call for your free consultation!',
       type: 'website',
