@@ -42,10 +42,10 @@ const BaltimoreSEOCompany = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Boost Your Business with Baltimore SEO Services to Rank Higher and Elevate Your Success"
-          subText="Grow your customer base and revenue and make your website a lead-generating powerhouse with Baltimore SEO."
+          heroText="Boost Your Business with Baltimore SEO Services"
+          subText="Grow your customer base  with Baltimore SEO and amplify your lead genreation"
           backgroundImage="/images/search-engine-optimization-header.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="top center"
           buttonText="Get Your Free SEO Audit &#8594;"
           buttonLink="/free-seo-audit"
