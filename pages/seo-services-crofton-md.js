@@ -21,16 +21,14 @@ const SEOAgency = 'SEO professionals'
 
 export default function CroftonMD() {
   const SEO = {
-    title:
-      'SEO Services in Crofton Helping Increase Customers, Leads and Revenue',
+    title: 'Local SEO Services in Crofton, MD: Grow Your Business Online',
     description:
-      'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
+      "Looking for reliable SEO services in Crofton, MD? We provide the best SEO solutions, focusing on enhancing your website's performance and driving leads.",
     canonical: 'https://bowieseo.com/seo-services-crofton-md',
     openGraph: {
-      title:
-        'SEO Services in Crofton Helping Increase Customers, Leads and Revenue',
+      title: 'Local SEO Services in Crofton, MD: Grow Your Business Online',
       description:
-        'We provide SEO services in Crofton, Maryland. Our experts help businesses get found by customers searching for services like yours. Call us today!',
+        "Looking for reliable SEO services in Crofton, MD? We provide the best SEO solutions, focusing on enhancing your website's performance and driving leads.",
       image: [{}],
     },
   }
@@ -39,7 +37,7 @@ export default function CroftonMD() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Increase Traffic, Leads, and Conversions with SEO Services in Crofton"
+          heroText="Get SEO Services in Crofton That Boost Your Traffic, Leads, and Sales"
           subText="We use our SEO knowledge to help attract more customers and increase sales for your business."
           backgroundImage="/images/seo-services-crofton-md-cover.webp"
           backgroundHeight="80vh"

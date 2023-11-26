@@ -30,9 +30,9 @@ const About = () => {
       <MainLayout>
         <HeroSection
           heroText="I Believe Your Website Should Help Your Business Make Money!"
-          subText="I help you create a lead generating website that attracts leads and customers to your business"
+          subText="I help you create a lead generating website that attracts leads and customers"
           backgroundImage="/images/about-bowie-seo.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="top center"
           buttonText="Get Your Free SEO Audit →"
           buttonLink="free-seo-audit"

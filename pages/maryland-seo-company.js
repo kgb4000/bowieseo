@@ -41,8 +41,8 @@ const MarylandSEOCompany = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Outpace Your Competition With the Right Maryland SEO Company"
-          subText="Boost online visibility and increase ROI with Maryland local SEO"
+          heroText="We're The Right Maryland SEO Company To Get More Eyes On Your Business"
+          subText="Boost online visibility and increase ROI with our Maryland local SEO strategies"
           // backgroundImage="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186700/maryland-seo-company_n3uwni.webp"
           backgroundHeight="80vh"
           backgroundPosition="center"
@@ -183,10 +183,10 @@ const MarylandSEOCompany = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className="reasons-section">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl text-center">
-              What is (Maryland) SEO Anyway?
+              What is Search Engine Optimization Anyway?
             </h2>
             <img
               src="/images/google-search-console-stats.png"
@@ -199,12 +199,12 @@ const MarylandSEOCompany = () => {
             />
             <p>
               (Maryland) search engine optimization is a digital marketing
-              strategy that helps to increase your website's visibility in
-              search engines.
+              strategy that helps Maryland businesses increase website's
+              visibility in search engines.
             </p>
             <p>
               When more people see your website listed in the search results,
-              you increase your chances of getting more website visitors and
+              you increase your chances of transforming website visitors and
               traffic to your site.
             </p>
             <p>
@@ -552,7 +552,7 @@ const MarylandSEOCompany = () => {
         </section>
         <section>
           <div className="medium-container">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-7xl mx-auto">
               <h2 className="text-4xl text-center">
                 Our Maryland SEO Services
               </h2>
@@ -1010,232 +1010,220 @@ const MarylandSEOCompany = () => {
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Annapolis, MD."
-                  title="Annapolis, MD."
+                  alt="Chevy Chase, MD."
+                  title="Chevy Chase, MD."
                   loading="lazy"
                 />
-                <Link href="/search-engine-optimization-annapolis-md">
-                  Annapolis
-                </Link>
+                <p>Chevy Chase, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Baltimore, MD."
-                  title="Baltimore, MD."
+                  alt="Travilah, MD."
+                  title="Travilah, MD."
                   loading="lazy"
                 />
-                <Link href="/baltimore-seo" passHref>
-                  <a>Baltimore, MD</a>
-                </Link>
+                <p>Travilah, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Bowie, MD."
-                  title="Bowie, MD."
+                  alt="Clarksville, MD."
+                  title="Clarksville, MD."
                   loading="lazy"
                 />
-                <Link href="/" passHref>
-                  <a>Bowie, MD</a>
-                </Link>
+                <p>Clarksville, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Bethesda, MD."
-                  title="Bethesda, MD."
+                  alt="Danrestown, MD."
+                  title="Danrestown, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-bethesda-md" passHref>
-                  <a>Bethesda, MD</a>
-                </Link>
+                <p>Danrestown, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Columbia, MD."
-                  title="Columbia, MD."
+                  alt="South Kensington, MD."
+                  title="South Kensington, MD."
                   loading="lazy"
                 />
-                <Link href="/local-seo-columbia-md" passHref>
-                  <a>Columbia, MD</a>
-                </Link>
+                <p>South Kensington, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Crofton, MD."
-                  title="Crofton, MD."
+                  alt="Davidsonville."
+                  title="Davidsonville."
                   loading="lazy"
                 />
-                <Link href="/seo-services-crofton-md" passHref>
-                  <a>Crofton, MD</a>
-                </Link>
+                <p>Davidsonville, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Clinton, MD."
-                  title="Clinton, MD."
+                  alt=" Olney, MD."
+                  title=" Olney, MD."
                   loading="lazy"
                 />
-                <p>Clinton, MD</p>
+                <p> Olney, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Glen Burnie, MD."
-                  title="Glen Burnie, MD."
+                  alt="Poolesville, MD."
+                  title="Poolesville, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-glen-burnie-md">Glen Burnie, MD</Link>
+                <p>Poolesville, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Laurel, MD."
-                  title="Laurel, MD."
+                  alt="Severna Park, MD."
+                  title="Severna Park, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-laurel-md" passHref>
-                  <a>Laurel, MD</a>
-                </Link>
+                <p>Severna Park, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Ocean City, MD."
-                  title="Ocean City, MD."
+                  alt="Glen Echo, MD."
+                  title="Glen Echo, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-services-ocean-city" passHref>
-                  <a>Ocean City, MD</a>
-                </Link>
+                <p>Glen Echo, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Odenton, MD."
-                  title="Odenton, MD."
+                  alt="Chesapeake Beach, MD."
+                  title="Chesapeake Beach, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-odenton-md" passHref>
-                  <a>Odenton, MD</a>
-                </Link>
+                <p>Chesapeake Beach, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Potomac, MD."
-                  title="Potomac, MD."
+                  alt="Walkersville, MD."
+                  title="Walkersville, MD."
                   loading="lazy"
                 />
                 <Link href="/potomac-md-seo-company" passHref>
-                  <a>Potomac, MD</a>
+                  <p>Walkersville, MD</p>
                 </Link>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  title="Rockville, MD."
-                  alt="Rockville, MD."
+                  title="Cheverly, MD."
+                  alt="Cheverly, MD."
                   loading="lazy"
                 />
-                <Link href="/rockville-seo-company" passHref>
-                  <a>Rockville, MD</a>
-                </Link>
+                <p>Cheverly, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  title="Ellicott City, MD."
-                  alt="Ellicott City, MD."
+                  title="La Plata, MD."
+                  alt="La Plata, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-ellicott-city-md" passHref>
-                  <a>Ellicott City, MD</a>
-                </Link>
+                <p>La Plata, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  title="Gaithersburg, MD."
-                  alt="Gaithersburg, MD."
+                  title="Glenarden, MD."
+                  alt="Glenarden, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-gaithersburg-md">
-                  Gaithersburg, MD
-                </Link>
+                <p>Glenarden, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  title="Germantown, MD."
-                  alt="Germantown, MD."
+                  title="Lanham, MD."
+                  alt="Lanham, MD."
                   loading="lazy"
                 />
-                <p>Germantown, MD</p>
+                <p>Lanham, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Kensington, MD."
-                  title="Kensington, MD."
+                  alt="Ocean Pines, MD."
+                  title="Ocean Pines, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-kensington-md" passHref>
-                  <a>Kensington, MD</a>
-                </Link>
+                <p>Ocean Pines, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Silver Spring, MD."
-                  title="Silver Spring, MD."
+                  alt="Towson, MD."
+                  title="Towson, MD."
                   loading="lazy"
                 />
-                <Link href="/silver-spring-md-seo-company">
-                  Silver Spring, MD
-                </Link>
+                <p>Towson, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Silver Spring, MD."
-                  title="Silver Spring, MD."
+                  alt="Greenbelt, MD."
+                  title="Greenbelt, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-services-salisbury-md">Salisbury, MD</Link>
+                <p>Greenbelt, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Frederick, MD."
-                  title="Frederick, MD."
+                  alt="Dickerson, MD."
+                  title="Dickerson, MD."
                   loading="lazy"
                 />
-                <Link href="/seo-company-frederick-md">Frederick, MD</Link>
+                <p>Dickerson, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Wheaton, MD."
-                  title="Wheaton, MD."
+                  alt="Clarksville, MD."
+                  title="Clarksville, MD."
                   loading="lazy"
                 />
-                <p>Wheaton, MD</p>
+                <p>Clarksville, MD</p>
               </City>
               <City>
                 <img
                   src="/images/icons/map-location.png"
-                  alt="Waldorf MD."
-                  title="Waldorf MD."
+                  alt="Arnold MD."
+                  title="Arnold MD."
                   loading="lazy"
                 />
-                <Link href="/seo-services-waldorf-md" passHref>
-                  <a>Waldorf, MD</a>
-                </Link>
+                <p>Arnold, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Broomont MD."
+                  title="Broomont MD."
+                  loading="lazy"
+                />
+                <p>Broomont, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Somerset MD."
+                  title="Somerset MD."
+                  loading="lazy"
+                />
+                <p>Somerset, MD</p>
               </City>
             </Cities>
             <div className="btn">
