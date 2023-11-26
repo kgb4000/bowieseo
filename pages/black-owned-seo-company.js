@@ -26,7 +26,7 @@ export const getStaticProps = async () => {
   }
 }
 
-const SEOAgency = 'our black-owned SEO company'
+const SEOAgency = 'our SEO company'
 
 export default function blackOwnedSEOCompany() {
   const SEO = {
@@ -46,10 +46,10 @@ export default function blackOwnedSEOCompany() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="We're a Black-Owned SEO Company Empowering Black Businesses to Get Attention on Google"
+          heroText="We're a Black-Owned SEO Company Helping Black Businesses to Get Attention"
           subText="Let's optimize your website so get more leads and customers, increase sales and grow your business"
           backgroundImage="/images/black-owned-seo-agency.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="center"
           buttonText="Get Your Free SEO Audit &#8594;"
           buttonLink="/free-seo-audit"
@@ -492,9 +492,8 @@ export default function blackOwnedSEOCompany() {
         </section>
         <section>
           <div className="medium-container">
-            <h2 className="text-4xl text-center max-w-4xl mx-auto">
-              With So Many SEO Marketing Agencies, Why Work With Our Black-owned
-              SEO Company?
+            <h2 className="text-4xl text-center max-w-5xl mx-auto">
+              Why Work With Our Black-owned SEO Agency?
             </h2>
             <p className="subtext">
               We know that there are many SEO companies you can work with.
@@ -572,8 +571,7 @@ export default function blackOwnedSEOCompany() {
         <section>
           <div className="medium-container">
             <h2 className="text-4xl text-center max-w-3xl mx-auto">
-              Frequently Asked Questions about SEO and Our Black-owned SEO
-              Agency
+              Frequently About Search Engine Optimization
             </h2>
             <FAQPageJsonLd
               mainEntity={[
@@ -799,7 +797,7 @@ export default function blackOwnedSEOCompany() {
           <div className="container">
             <h2>Ready to Increase Leads and Boost Sales and Revenue?</h2>
             <p>
-              Contact {SEOAgency}, and we'll show you how search engine
+              Contact {SEOAgency} today and we'll show you how search engine
               optimization can help your company grow.
             </p>
             <p>You have nothing to lose.</p>

@@ -18,7 +18,7 @@ export default function Home({ data }) {
     <>
       <MainLayout>
         <HeroSection
-          heroText="Boost Leads and Revenue with Expert SEO Services in Bowie, MD"
+          heroText="Get Expert SEO Services in Bowie, Maryland, That Boost Leads and Revenue"
           subText="Stop relying for ads and use your website to grow your business"
           backgroundImage="/images/bowieseo-header-img.webp"
           backgroundHeight="80vh"
@@ -74,9 +74,8 @@ export default function Home({ data }) {
                   <Link href="/maryland-seo-company" passHref>
                     <a>Maryland SEO Company</a>
                   </Link>{' '}
-                  in Bowie, and we can show you how to fix your website so
-                  you can attract more leads and customers without paying for
-                  ads.
+                  in Bowie, and we can show you how to fix your website so you
+                  can attract more leads and customers without paying for ads.
                 </p>
                 <p>What to see how?</p>
               </div>
