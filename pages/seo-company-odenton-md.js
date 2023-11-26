@@ -42,7 +42,7 @@ export default function OdentonMD() {
           heroText="Increase Traffic, Leads, and Conversions with SEO Services in Odenton, MD"
           subText="We use our SEO knowledge to help attract more customers and increase sales for your business."
           backgroundImage="/images/seo-services-odenton-md-cover.jpg"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="center"
           buttonText="Book Your Free Call Today!"
           buttonLink={calendly}

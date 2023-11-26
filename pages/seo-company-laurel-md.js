@@ -36,10 +36,10 @@ export default function LocalSEO() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Boost Revenue and Increase Your Online Visibility with Professional SEO Services in Laurel, MD"
+          heroText="Amplify Your Revenue and Increase Your Online Visibility with Professional SEO Services in Laurel, MD"
           subText="Elevate your digital game with expert SEO services, designed for ultimate online authority and improved visibility!"
           backgroundImage="/images/seo-services-laurel-md-cover.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="center"
           buttonText="Schedule a free consultation today!"
           buttonLink={calendly}

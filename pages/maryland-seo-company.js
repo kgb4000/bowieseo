@@ -36,10 +36,10 @@ const MarylandSEOCompany = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Outpace the Competition With the Right Maryland SEO Company"
+          heroText="Outpace Your Competition With the Right Maryland SEO Company"
           subText="Boost online visibility and increase ROI with Maryland local SEO"
-          backgroundImage="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186700/maryland-seo-company_n3uwni.webp"
-          backgroundHeight="60vh"
+          // backgroundImage="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186700/maryland-seo-company_n3uwni.webp"
+          backgroundHeight="80vh"
           backgroundPosition="center"
           buttonText="Get Your Free SEO Audit →"
           buttonLink="free-seo-audit"
@@ -224,7 +224,7 @@ const MarylandSEOCompany = () => {
             </p>
           </div>
         </section>
-        <section>
+        {/* <section>
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl text-center">
               What Happens When You Don't Invest in (Maryland) Search Engine
@@ -349,12 +349,11 @@ const MarylandSEOCompany = () => {
               <Link href="/free-seo-audit">Free SEO Audit &#8594;</Link>
             </p>
           </div>
-        </section>
+        </section> */}
         <section>
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl text-center">
-              What Happens When You Invest in (Maryland) Search Engine
-              Optimization?
+              Why (Maryland) SEO Is So Important?
             </h2>
             <p className="subtext">
               Get results that matter for your business:
@@ -548,165 +547,171 @@ const MarylandSEOCompany = () => {
         </section>
         <section>
           <div className="medium-container">
-            <HowSEOWorks>
-              <SEOElement>
-                <img
-                  src="/images/icons/local-seo.png"
-                  className="seo-icon"
-                  alt="SEO Audit."
-                  title="SEO Audit."
-                  loading="lazy"
-                  width={54}
-                  height={54}
-                />
-                <div>
-                  <h3>SEO Audit</h3>
-                  <p>
-                    This process evaluates your site to identify areas that need
-                    improvement and then makes changes to improve the site's
-                    SEO.
-                  </p>
-                  <p>
-                    When conducting an{' '}
-                    <Link href="/free-seo-audit">SEO audit</Link>, it is
-                    important to look at various factors, including the
-                    website's content, backlinks, keywords, and overall
-                    visibility.
-                  </p>
-                </div>
-              </SEOElement>
-              <SEOElement>
-                <img
-                  src="/images/icons/technical-search-engine-optimization.png"
-                  className="seo-icon"
-                  alt="Technical SEO."
-                  title="Technical SEO."
-                  loading="lazy"
-                  width={54}
-                  height={54}
-                />
-                <div>
-                  <h3>Technical SEO</h3>
-                  <p>
-                    <Link href="/technical-seo">Technical SEO</Link> involves
-                    enhancing the technical facets of a website to boost its
-                    visibility and rankings in search engines.
-                  </p>
-                  <p>
-                    This process focuses on making sure that your website is
-                    easy for search engines to crawl and index, and makes it
-                    mobile-friendly and loading quickly.
-                  </p>
-                </div>
-              </SEOElement>
-              <SEOElement>
-                <img
-                  src="/images/icons/keyword-research.png"
-                  className="seo-icon"
-                  alt="Do keyword research."
-                  title="Do keyword research."
-                  loading="lazy"
-                />
-                <div>
-                  <h3>Keyword Research</h3>
-                  <p>
-                    <Link href="/keyword-research">Keyword research</Link> is
-                    finding and targeting keywords that potential customers are
-                    searching for.
-                  </p>
-                  <p>
-                    This research helps businesses better understand how people
-                    search for their products or services and allows them to
-                    create content that is more likely to rank in SERPs.
-                  </p>
-                </div>
-              </SEOElement>
-              <SEOElement>
-                <img
-                  src="/images/icons/local-seo.png"
-                  className="seo-icon"
-                  alt="Local SEO"
-                  title="Local SEO"
-                  loading="lazy"
-                  width={54}
-                  height={54}
-                />
-                <div>
-                  <h3>Local SEO</h3>
-                  <p>
-                    (Maryland) local SEO is about optimizing your website for
-                    your business location in Google search.
-                  </p>
-                  <p>
-                    Whether your business is located in{' '}
-                    <Link href="/baltimore-seo">Baltimore</Link>,{' '}
-                    <Link href="/rockville-seo-company">Rockville</Link>,{' '}
-                    <Link href="/seo-company-bethesda-md">Bethesda</Link>,{' '}
-                    <Link href="/seo-company-gaithersburg-md">
-                      Gaithersburg
-                    </Link>{' '}
-                    or <Link href="/seo-company-frederick-md">Frederick</Link>,
-                    you can optimize your website so that people searching for
-                    your services in your location, will see your website on the
-                    first page.
-                  </p>
-                </div>
-              </SEOElement>
-              <SEOElement>
-                <img
-                  src="/images/icons/content-writing.png"
-                  className="seo-icon"
-                  alt="Content writing and optimization."
-                  title="Content writing and optimization."
-                  loading="lazy"
-                  width={54}
-                  height={54}
-                />
-                <div>
-                  <h3>SEO Content Creation and Optimization</h3>
-                  <p>
-                    Creating{' '}
-                    <Link href="/content-for-seo">content for SEO</Link> is
-                    creating and optimizing existing content for search engines
-                    and for people. It includes creating high-quality,
-                    keyword-rich content that will help improve the site's
-                    ranking in SERPs.
-                  </p>
-                  <p>
-                    It is important to note that not all types of content are
-                    created equal. Google favors certain types of content, such
-                    as articles and blog posts, over others.
-                  </p>
-                </div>
-              </SEOElement>
-              <SEOElement>
-                <img
-                  src="/images/icons/improve-seo-rankings.png"
-                  className="seo-icon"
-                  alt="Track and monitor SEO performance."
-                  title="Track and monitor SEO performance."
-                  loading="lazy"
-                  width={54}
-                  height={54}
-                />
-                <div>
-                  <h3>Local Link Building</h3>
-                  <p>
-                    To know if your SEO is improving, you'll need to track and
-                    monitor your progress over time. Otherwise, it'll be
-                    difficult to tell whether your efforts are paying off.
-                  </p>
-                  <p>
-                    We use tools like Google Analytics, Google Search Console,
-                    Ahrefs, and SEMrush.
-                  </p>
-                </div>
-              </SEOElement>
-            </HowSEOWorks>
-            <div className="btn">
-              <Link href="/case-studies">
-                <Button>Read Our Case Studies!</Button>
-              </Link>
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-4xl text-center">
+                Our Maryland SEO Services
+              </h2>
+              <HowSEOWorks>
+                <SEOElement>
+                  <img
+                    src="/images/icons/local-seo.png"
+                    className="seo-icon"
+                    alt="SEO Audit."
+                    title="SEO Audit."
+                    loading="lazy"
+                    width={54}
+                    height={54}
+                  />
+                  <div>
+                    <h3>SEO Audit</h3>
+                    <p>
+                      This process evaluates your site to identify areas that
+                      need improvement and then makes changes to improve the
+                      site's SEO.
+                    </p>
+                    <p>
+                      When conducting an{' '}
+                      <Link href="/free-seo-audit">SEO audit</Link>, it is
+                      important to look at various factors, including the
+                      website's content, backlinks, keywords, and overall
+                      visibility.
+                    </p>
+                  </div>
+                </SEOElement>
+                <SEOElement>
+                  <img
+                    src="/images/icons/technical-search-engine-optimization.png"
+                    className="seo-icon"
+                    alt="Technical SEO."
+                    title="Technical SEO."
+                    loading="lazy"
+                    width={54}
+                    height={54}
+                  />
+                  <div>
+                    <h3>Technical SEO</h3>
+                    <p>
+                      <Link href="/technical-seo">Technical SEO</Link> involves
+                      enhancing the technical facets of a website to boost its
+                      visibility and rankings in search engines.
+                    </p>
+                    <p>
+                      This process focuses on making sure that your website is
+                      easy for search engines to crawl and index, and makes it
+                      mobile-friendly and loading quickly.
+                    </p>
+                  </div>
+                </SEOElement>
+                <SEOElement>
+                  <img
+                    src="/images/icons/keyword-research.png"
+                    className="seo-icon"
+                    alt="Do keyword research."
+                    title="Do keyword research."
+                    loading="lazy"
+                  />
+                  <div>
+                    <h3>Keyword Research</h3>
+                    <p>
+                      <Link href="/keyword-research">Keyword research</Link> is
+                      finding and targeting keywords that potential customers
+                      are searching for.
+                    </p>
+                    <p>
+                      This research helps businesses better understand how
+                      people search for their products or services and allows
+                      them to create content that is more likely to rank in
+                      SERPs.
+                    </p>
+                  </div>
+                </SEOElement>
+                <SEOElement>
+                  <img
+                    src="/images/icons/local-seo.png"
+                    className="seo-icon"
+                    alt="Local SEO"
+                    title="Local SEO"
+                    loading="lazy"
+                    width={54}
+                    height={54}
+                  />
+                  <div>
+                    <h3>Local SEO</h3>
+                    <p>
+                      Maryland local SEO is about optimizing your website for
+                      your business location in Google search.
+                    </p>
+                    <p>
+                      Whether your business is located in{' '}
+                      <Link href="/baltimore-seo">Baltimore</Link>,{' '}
+                      <Link href="/rockville-seo-company">Rockville</Link>,{' '}
+                      <Link href="/seo-company-bethesda-md">Bethesda</Link>,{' '}
+                      <Link href="/seo-company-gaithersburg-md">
+                        Gaithersburg
+                      </Link>{' '}
+                      or <Link href="/seo-company-frederick-md">Frederick</Link>
+                      , you can optimize your website so that people searching
+                      for your services in your location, will see your website
+                      on the first page.
+                    </p>
+                  </div>
+                </SEOElement>
+                <SEOElement>
+                  <img
+                    src="/images/icons/content-writing.png"
+                    className="seo-icon"
+                    alt="Content writing and optimization."
+                    title="Content writing and optimization."
+                    loading="lazy"
+                    width={54}
+                    height={54}
+                  />
+                  <div>
+                    <h3>SEO Content Creation and Optimization</h3>
+                    <p>
+                      Creating{' '}
+                      <Link href="/content-for-seo">content for SEO</Link> is
+                      creating and optimizing existing content for search
+                      engines and for people. It includes creating high-quality,
+                      keyword-rich content that will help improve the site's
+                      ranking in SERPs.
+                    </p>
+                    <p>
+                      It is important to note that not all types of content are
+                      created equal. Google favors certain types of content,
+                      such as articles and blog posts, over others.
+                    </p>
+                  </div>
+                </SEOElement>
+                <SEOElement>
+                  <img
+                    src="/images/icons/improve-seo-rankings.png"
+                    className="seo-icon"
+                    alt="Track and monitor SEO performance."
+                    title="Track and monitor SEO performance."
+                    loading="lazy"
+                    width={54}
+                    height={54}
+                  />
+                  <div>
+                    <h3>Local Link Building</h3>
+                    <p>
+                      To know if your SEO is improving, you'll need to track and
+                      monitor your progress over time. Otherwise, it'll be
+                      difficult to tell whether your efforts are paying off.
+                    </p>
+                    <p>
+                      We use tools like Google Analytics, Google Search Console,
+                      Ahrefs, and SEMrush.
+                    </p>
+                  </div>
+                </SEOElement>
+              </HowSEOWorks>
+              <div className="btn">
+                <Link href="/case-studies">
+                  <Button>Read Our Case Studies!</Button>
+                </Link>
+              </div>
             </div>
           </div>
         </section>
@@ -1054,12 +1059,11 @@ const MarylandSEOCompany = () => {
             <ReasonSec>
               <div>
                 <div className="question">
-                  <h3>What is Maryland Local SEO?</h3>
+                  <h3>Wy Do I Need Maryland Local SEO?</h3>
                   <p>
-                    Maryland Local SEO is a specialized approach to search
-                    engine optimization that focuses on improving the online
-                    visibility of local businesses specifically within the state
-                    of Maryland, connecting them with nearby customers.
+                    If you want to reach more potential customers and want them
+                    to see your business when they search for your services,
+                    you’ll need a MD Local SEO strategy.
                   </p>
                   <h3>How Do You Know If You Need Local SEO?</h3>
                   <p>
@@ -1097,7 +1101,7 @@ const MarylandSEOCompany = () => {
                     Maryland community.
                   </p>
                 </div>
-                <div className="question">
+                {/* <div className="question">
                   <h3>Why Does SEO Cost So Much?</h3>
                   <p>
                     SEO is so expensive for three reasons: 1. It takes time to
@@ -1105,7 +1109,7 @@ const MarylandSEOCompany = () => {
                     maintain a campaign. 3. It often relies on the expertise of
                     an SEO specialist to develop and grow your strategy.
                   </p>
-                </div>
+                </div> */}
                 <div className="question">
                   <h3>
                     Do I need Maryland-specific content on my website for Local
@@ -1171,14 +1175,14 @@ const MarylandSEOCompany = () => {
                     engines.
                   </p>
                 </div>
-                <div className="question">
+                {/* <div className="question">
                   <h3>Do You Provide Monthly Reporting?</h3>
                   <p>
                     Yes, we provide monthly reporting to our clients. This
                     report includes progress reports, keyword rankings, traffic
                     reports, backlink wins, and more.
                   </p>
-                </div>
+                </div> */}
               </div>
             </ReasonSec>
           </div>

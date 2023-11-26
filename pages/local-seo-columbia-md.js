@@ -37,7 +37,7 @@ export default function LocalSEOColumbiaMD() {
           heroText="Grow Your Business with a Local SEO Services in Columbia, MD"
           subText="Increase leads, sales, and growth with our local SEO solutions"
           backgroundImage="/images/local-seo-services-maryland-cover.jpg"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="center left"
           buttonText="Book Your Free SEO Call!"
           buttonLink={calendly}

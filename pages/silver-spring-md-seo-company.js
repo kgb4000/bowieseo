@@ -39,7 +39,7 @@ export default function silverSpringMDSEOCompany() {
           heroText="Partner With Our SEO Company in Silver Spring, MD, and Boost Leads, Sales, and Revenue"
           subText="Use SEO to dominate the local search results and your competitors"
           backgroundImage="/images/silver-spring-seo-company-cover.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="center"
           buttonText="Book Your Free Call Today!"
           buttonLink={calendly}

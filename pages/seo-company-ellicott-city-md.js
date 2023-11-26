@@ -42,7 +42,7 @@ export default function ellicotCityMD() {
           heroText="Partner with Us for Your SEO Services and Get Found By Your Customers When it Counts the Most"
           subText="We use our knowledge of search engines to attract more customers and leads to your business"
           backgroundImage="/images/seo-services-crofton-md-cover.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="center"
           buttonText="Book Your Free Call Today!"
           buttonLink={calendly}

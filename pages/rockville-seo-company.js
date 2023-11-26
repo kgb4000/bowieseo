@@ -38,7 +38,7 @@ export default function RockvilleSEO() {
           heroText="Skyrocket Your Business Growth The Right Rockville SEO Company"
           subText="Increase web traffic, leads, and sales with powerful SEO solutions"
           backgroundImage="/images/rockville-seo-company-cover.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="center left"
           buttonText="Get Your Free SEO Audit &#8594;"
           buttonLink="/free-seo-audit"

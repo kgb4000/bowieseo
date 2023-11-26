@@ -56,7 +56,7 @@ export default function OceanCitySEO() {
           heroText="Get SEO Services in Ocean City, MD [Increase Leads and Boost Revenue]"
           subText="We provide SEO solutions to help businesses in Ocean City get more customers and grow."
           backgroundImage="/images/seo-services-ocean-city-maryland-cover.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="bottom"
           buttonText="Get Your Free SEO Audit &#8594;"
           buttonLink="/free-seo-audit"

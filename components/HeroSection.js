@@ -35,28 +35,22 @@ const HeroSection = ({
 }
 
 const Hero = styled('div')`
-  color: #ffffff;
+  color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.12),
-      rgba(0, 0, 0, 0.32)
-    ),
-    url(${(props) => props.backgroundImage});
+  background-color: #fff, url(${(props) => props.backgroundImage});
   background-position: ${(props) => props.backgroundPosition};
   min-height: ${(props) => props.backgroundHeight};
   background-size: cover;
   margin: 0 auto;
   max-width: 100vw;
   margin-bottom: 2rem;
-  text-shadow: 2px 1px 1px #000;
   font-weight: 900;
 
   @media only screen and (min-device-width: 360px) {
     h1 {
-      font-size: 2rem;
+      font-size: 2.8rem;
       font-weight: 900;
       margin-bottom: 2rem;
     }
@@ -70,7 +64,7 @@ const Hero = styled('div')`
 
   @media (min-width: 768px) {
     h1 {
-      font-size: 2.8rem;
+      font-size: 4.2rem;
       margin-bottom: 2rem;
     }
 
@@ -81,7 +75,7 @@ const Hero = styled('div')`
   }
 
   .content {
-    max-width: 1000px;
+    max-width: 1140px;
     text-align: center;
     font-weight: 700;
     padding: 0 1.2rem;

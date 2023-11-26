@@ -42,7 +42,7 @@ export default function BethesdaMD() {
           heroText="Looking for the Best Local SEO Company in Bethesda, Maryland?"
           subText="Get local SEO solutions to improve your online visibility, drive organic traffic, increase leads & grow your business"
           backgroundImage="/images/seo-services-south-kensington-md-cover.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="center"
           buttonText="Get Your Free SEO Audit &#8594;"
           buttonLink="/free-seo-audit"

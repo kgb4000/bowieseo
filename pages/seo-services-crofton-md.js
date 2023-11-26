@@ -42,7 +42,7 @@ export default function CroftonMD() {
           heroText="Increase Traffic, Leads, and Conversions with SEO Services in Crofton"
           subText="We use our SEO knowledge to help attract more customers and increase sales for your business."
           backgroundImage="/images/seo-services-crofton-md-cover.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="center"
           buttonText="Book Your Free Call Today!"
           buttonLink={calendly}

@@ -19,12 +19,12 @@ const calendly = 'https://calendly.com/bowieseo/30min'
 
 export default function keywordResearch() {
   const SEO = {
-    title: 'Keyword Research for Small Business | Bowie SEO',
-    description: `The foundation of a successful SEO campaiagn in Maryland is keyword research. Have you done keyword research for your business? Get started today!`,
-    canonical: 'https://bowieseo.com/keyword-research',
+    title: 'Technical SEO for Small Business | Bowie SEO',
+    description: `Technical SEO helps improve site speed, mobile optimization, structured data and to boost rankings. Trust Bowie's SEO experts to maximize visibility.`,
+    canonical: 'https://bowieseo.com/technical-seo',
     openGraph: {
-      title: 'Keyword Research for Small Business | Bowie SEO',
-      description: `The foundation of a successful SEO campaiagn in Maryland is keyword research. Have you done keyword research for your business? Get started today!`,
+      title: 'Technical SEO for Small Business | Bowie SEO',
+      description: `Technical SEO helps improve site speed, mobile optimization, structured data and to boost rankings. Trust Bowie's SEO experts to maximize visibility.`,
       image: [{}],
     },
   }
@@ -36,7 +36,7 @@ export default function keywordResearch() {
           heroText="Technical SEO is Crucial for SEO: Skip this Element and You're Done"
           subText="Find and fix technical issues that are stopping you r site from showing up in the SERPS."
           backgroundImage="/images/keyword-research-cover.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="center left"
           buttonText="Get Your Free SEO Audit &#8594;"
           buttonLink="/free-seo-audit"

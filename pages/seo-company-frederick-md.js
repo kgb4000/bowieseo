@@ -44,7 +44,7 @@ export default function SEOCompanyFrederickMD() {
           heroText="Frederick's Premier SEO Company: Elevating Your Online Presence"
           subText="Drive More Traffic, Generate Leads, and Skyrocket Sales with Our Tailored SEO Strategies"
           backgroundImage="/images/frederick-maryland-seo-company-cover.jpg"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="top"
           buttonText="Get Your Free SEO Audit &#8594;"
           buttonLink="/free-seo-audit"

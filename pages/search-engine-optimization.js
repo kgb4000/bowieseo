@@ -36,7 +36,7 @@ const Rockville = () => {
           heroText="Search Engine Optimization for Small Businesses"
           subText="Use this powerful inbound marketing method to get customers to find your business when it counts."
           backgroundImage="/images/search-engine-optimization-header.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="top center"
           buttonText="Get Your Free SEO Audit &#8594;"
           buttonLink="/free-seo-audit"

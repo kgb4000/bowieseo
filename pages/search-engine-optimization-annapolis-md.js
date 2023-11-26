@@ -39,10 +39,10 @@ export default function AnnaopisMDSEOCompany() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Amplify Your Traffic and Earnings: Get Premium SEO Services in Annapolis, MD"
+          heroText="Search Engine Optimization in Annapolis: Amplify Your Website Traffic"
           subText="Start Unlocking Exceptional Growth in Website Traffic, Leads Generation, Sales and Revenue Today"
           backgroundImage="/images/annapolis-md-seo-company-cover.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="top"
           buttonText="Get Your Free SEO Audit &#8594;"
           buttonLink="/free-seo-audit"

@@ -43,7 +43,7 @@ export default function PotomacMDSEOCompany() {
           heroText="Dominate Your Market with Potomac SEO Services for Traffic and Sales"
           subText="Experience breakthrough growth in website traffic, leads, and sales with our specialized SEO services"
           backgroundImage="/images/waldorf-seo-cover-img.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="top"
           buttonText="Schedule a free consultation today!"
           buttonLink={calendly}

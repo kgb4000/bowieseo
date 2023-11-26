@@ -40,16 +40,16 @@ export default function SEOServicesWaldorf() {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="Dominate Your Local Market with Waldorf's SEO Services for Web Traffic, Increased Sales and Revenue"
+          heroText="Dominate Your Local Market with Waldorf's SEO Services"
           subText="Experience breakthrough growth in website traffic, leads, and sales with our specialized SEO services"
           backgroundImage="/images/waldorf-seo-cover-img.webp"
-          backgroundHeight="70vh"
+          backgroundHeight="80vh"
           backgroundPosition="top"
           buttonText="Schedule a free consultation today!"
           buttonLink={calendly}
         />
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <div>
                 <h2>
@@ -128,7 +128,7 @@ export default function SEOServicesWaldorf() {
           </div>
         </section>
         <section>
-          <div className="container">
+          <div className="medium-container">
             <div className="grid">
               <img
                 src="/images/happy-bowie-seo-client.webp"
