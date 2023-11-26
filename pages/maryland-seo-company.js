@@ -8,7 +8,12 @@ import styled from 'styled-components'
 import MainLayout from '../components/MainLayout'
 import Button from '../components/Button'
 import HeroSection from '../components/HeroSection'
-import { Businesses, Business } from '../components/BusinessesWeWorkWith'
+import {
+  Businesses,
+  Business,
+  City,
+  Cities,
+} from '../components/BusinessesWeWorkWith'
 
 import { NextSeo, FAQPageJsonLd } from 'next-seo'
 
@@ -995,6 +1000,253 @@ const MarylandSEOCompany = () => {
                 <Button>Schedule a Free Consultation Today!</Button>
               </a>
             </div>
+          </div>
+        </section>
+        <section>
+          <div className="medium-container">
+            <h2 className="title">Cities We Do Business In</h2>
+            <p className="center">We work with businesses in:</p>
+            <Cities>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Annapolis, MD."
+                  title="Annapolis, MD."
+                  loading="lazy"
+                />
+                <Link href="/search-engine-optimization-annapolis-md">
+                  Annapolis
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Baltimore, MD."
+                  title="Baltimore, MD."
+                  loading="lazy"
+                />
+                <Link href="/baltimore-seo" passHref>
+                  <a>Baltimore, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Bowie, MD."
+                  title="Bowie, MD."
+                  loading="lazy"
+                />
+                <Link href="/" passHref>
+                  <a>Bowie, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Bethesda, MD."
+                  title="Bethesda, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-bethesda-md" passHref>
+                  <a>Bethesda, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Columbia, MD."
+                  title="Columbia, MD."
+                  loading="lazy"
+                />
+                <Link href="/local-seo-columbia-md" passHref>
+                  <a>Columbia, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Crofton, MD."
+                  title="Crofton, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-services-crofton-md" passHref>
+                  <a>Crofton, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Clinton, MD."
+                  title="Clinton, MD."
+                  loading="lazy"
+                />
+                <p>Clinton, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Glen Burnie, MD."
+                  title="Glen Burnie, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-glen-burnie-md">Glen Burnie, MD</Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Laurel, MD."
+                  title="Laurel, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-laurel-md" passHref>
+                  <a>Laurel, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Ocean City, MD."
+                  title="Ocean City, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-services-ocean-city" passHref>
+                  <a>Ocean City, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Odenton, MD."
+                  title="Odenton, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-odenton-md" passHref>
+                  <a>Odenton, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Potomac, MD."
+                  title="Potomac, MD."
+                  loading="lazy"
+                />
+                <Link href="/potomac-md-seo-company" passHref>
+                  <a>Potomac, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  title="Rockville, MD."
+                  alt="Rockville, MD."
+                  loading="lazy"
+                />
+                <Link href="/rockville-seo-company" passHref>
+                  <a>Rockville, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  title="Ellicott City, MD."
+                  alt="Ellicott City, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-ellicott-city-md" passHref>
+                  <a>Ellicott City, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  title="Gaithersburg, MD."
+                  alt="Gaithersburg, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-gaithersburg-md">
+                  Gaithersburg, MD
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  title="Germantown, MD."
+                  alt="Germantown, MD."
+                  loading="lazy"
+                />
+                <p>Germantown, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Kensington, MD."
+                  title="Kensington, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-kensington-md" passHref>
+                  <a>Kensington, MD</a>
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Silver Spring, MD."
+                  title="Silver Spring, MD."
+                  loading="lazy"
+                />
+                <Link href="/silver-spring-md-seo-company">
+                  Silver Spring, MD
+                </Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Silver Spring, MD."
+                  title="Silver Spring, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-services-salisbury-md">Salisbury, MD</Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Frederick, MD."
+                  title="Frederick, MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-company-frederick-md">Frederick, MD</Link>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Wheaton, MD."
+                  title="Wheaton, MD."
+                  loading="lazy"
+                />
+                <p>Wheaton, MD</p>
+              </City>
+              <City>
+                <img
+                  src="/images/icons/map-location.png"
+                  alt="Waldorf MD."
+                  title="Waldorf MD."
+                  loading="lazy"
+                />
+                <Link href="/seo-services-waldorf-md" passHref>
+                  <a>Waldorf, MD</a>
+                </Link>
+              </City>
+            </Cities>
+            <div className="btn">
+              <a href={calendly} target="_blank" rel="noreferrer">
+                <Button>Book Your Free SEO Call Now!</Button>
+              </a>
+            </div>
+            <p className="subtext">
+              Or get your{' '}
+              <Link href="/free-seo-audit">Free SEO Audit &#8594;</Link>
+            </p>
           </div>
         </section>
         <section>
