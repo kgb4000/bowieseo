@@ -6,6 +6,7 @@ import Bio from '../components/author-bio'
 import { ShareBtn } from '../components/share-btn'
 import MainLayout from '../components/MainLayout'
 import styled from 'styled-components'
+import { BiCalendar, BiStopwatch } from 'react-icons/bi'
 
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug)
@@ -82,6 +83,33 @@ export default function Articles({ post }) {
               title={post.title}
               loading="lazy"
             />
+            <div className="blog-info">
+              <div className="date-time">
+                <div className="date">
+                  <BiCalendar />
+                  <p>
+                    {new Date(post.date).toLocaleDateString('en-us', {
+                      year: 'numeric',
+                      month: 'short',
+                      day: 'numeric',
+                    })}
+                  </p>
+                </div>
+                {/* <div className="date">
+                  <BiStopwatch />
+                  <p>{post.readTime}</p>
+                </div> */}
+              </div>
+              <div className="author-info">
+                <img
+                  className="avatar"
+                  src={post.author.photo.url}
+                  alt={post.author.name}
+                  loading="lazy"
+                />
+                <span>- by {post.author.name}</span>
+              </div>
+            </div>
             <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
             <RichText content={post.content.raw} />
             <ShareBtn shareLink={`https://bowieseo.com/${post.slug}`} />
@@ -130,6 +158,47 @@ const BlogContent = styled.main`
     margin: 2rem 0;
     a {
       font-weight: 400;
+    }
+  }
+  .blog-info {
+    margin-bottom: 1rem;
+    h2 {
+      font-size: 1.75rem;
+    }
+
+    p,
+    span {
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+
+    .date {
+      margin-right: 1.5rem;
+      display: flex;
+      align-items: center;
+
+      p {
+        margin-left: 0.5rem;
+      }
+    }
+
+    .date-time {
+      display: flex;
+    }
+
+    .author-info {
+      display: flex;
+      margin-top: 1rem;
+      align-items: center;
+
+      img {
+        margin: 0 1rem 0 0;
+      }
+    }
+    .avatar {
+      max-width: 2.5rem;
+      border: 2px solid #cf0a0a;
+      border-radius: 100%;
     }
   }
 `
