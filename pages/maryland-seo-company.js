@@ -23,15 +23,15 @@ const SEOAgency = 'our Maryland SEO company'
 
 const MarylandSEOCompany = () => {
   const SEO = {
-    title: `Maryland SEO Company | Boost Company Leads, Sales and Growth`,
+    title: `Maryland SEO Company For the Best MD Local SEO Strategy!`,
     description:
-      'Maryland SEO company helping businesses increase leads, sales and revenue without paying for expensive online ads. Contact us for a free consultation.',
+      'Work with a top Maryland SEO company helping businesses increase leads, sales and revenue with local SEO strategies. Contact us for a free consultation.',
     type: 'website',
     canonical: 'https://bowieseo.com/maryland-seo-company',
     openGraph: {
-      title: `Maryland SEO Company | Boost Company Leads, Sales and Growth`,
+      title: `Maryland SEO Company For the Best MD Local SEO Strategy!`,
       description:
-        'Maryland SEO company helping businesses increase leads, sales and revenue without paying for expensive online ads. Contact us for a free consultation.',
+        'Work with a top Maryland SEO company helping businesses increase leads, sales and revenue with local SEO strategies. Contact us for a free consultation.',
       type: 'website',
       image: [{}],
     },
@@ -41,8 +41,8 @@ const MarylandSEOCompany = () => {
       <NextSeo {...SEO} />
       <MainLayout>
         <HeroSection
-          heroText="We're The Right Maryland SEO Company To Get More Eyes On Your Business"
-          subText="Boost online visibility and increase ROI with our Maryland local SEO strategies"
+          heroText="We're The Right Maryland SEO Company For Your Local SEO Strategy"
+          subText="Boost online visibility, leads, and sales with Maryland local SEO"
           // backgroundImage="https://res.cloudinary.com/dfx3xhveo/image/upload/v1696186700/maryland-seo-company_n3uwni.webp"
           backgroundHeight="80vh"
           backgroundPosition="center"
@@ -58,8 +58,8 @@ const MarylandSEOCompany = () => {
                 className="page-img"
                 width="500"
                 height="300"
-                alt="A business owner considering working with our Maryland SEO company to get his own leads without paying for online ads."
-                title="A business owner considering working with our Maryland SEO company to get his own leads without paying for online ads."
+                alt="A business owner considering working with our Maryland SEO company."
+                title="A business owner considering working with our Maryland SEO company."
               />
               <div>
                 <h2>
@@ -518,7 +518,7 @@ const MarylandSEOCompany = () => {
         <section className="reasons-section">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl text-center">
-              How Does (Maryland) Search Engine Optimization Work?
+              How Does Maryland Local SEO Work?
             </h2>
             <p>
               Ever wondered how some Maryland businesses just pop up on the

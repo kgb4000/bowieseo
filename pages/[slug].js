@@ -120,6 +120,10 @@ const BlogContent = styled.main`
     img {
       text-align: center;
     }
+    ol,
+    li {
+      list-style: disc;
+    }
   }
 
   .related-posts {
